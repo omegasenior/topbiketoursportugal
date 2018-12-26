@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/SEO';
 
-export const BlogPostTemplate = ({
+export const TourPageTemplate = ({
   content,
   contentComponent,
   description,
@@ -48,7 +48,7 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+TourPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -56,18 +56,18 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const TourPage = ({ data }) => {
   const { markdownRemark: post } = data
   const postImage = null;
   return (
     <Layout>
-      <BlogPostTemplate
+      <TourPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
           <Helmet
-            titleTemplate="%s | Blog"
+            titleTemplate="%s | Tour"
           >
             <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.frontmatter.description}`} />
@@ -80,16 +80,16 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+TourPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default TourPage
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query TourPageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

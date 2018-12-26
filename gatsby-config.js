@@ -1,7 +1,66 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'Top Bike Tours Portugal',
+    description: `
+    Top Bike Tours Portugal is a provider of holiday’s packages and routes, which offers an incredible holiday experience, entertainment and leisure activities based on quality and value.
+    `,
+    canonicalUrl: 'https://www.topbiketoursportugal.com',
+    image: 'https://www.topbiketoursportugal.com/images/jason-lengstorf.jpg',
+    author: {
+      name: 'Top Bike Tours Portugal',
+      minibio: `
+      Founded in 2013, Top Bike Tours Portugal formerly Fold n 'Visit is a very young company, with experience in pedestrian and cycling tours in Porto and long distance cycling routes to the north of the Iberian Peninsula. Our activities are coordinated by tourism professionals, with a huge knowledge of heritage and sports.
+      `,
+    },
+    organization: {
+      name: 'Top Bike Tours Portugal',
+      url: 'https://www.topbiketoursportugal.com',
+      logo: 'https://www.topbiketoursportugal.com/android-chrome-512x512.png',
+    },
+    social: {
+      twitter: 'https://twitter.com/FoldnVisit',
+      fbAppID: '',
+      youtube: 'https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A',
+      youtube: 'https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A',
+      facebook: 'https://www.facebook.com/topbiketoursportugal/',
+      instagram: 'https://www.instagram.com/topbiketoursportugal/',
+      googleplus: 'https://plus.google.com/u/0/112634467779546919402',
+
+    },
+    categories: [
+      {
+        slug: 'acting-like-a-grown-up',
+        name: 'Acting Like a Grown-Up',
+      },
+      {
+        slug: 'finding-direction',
+        name: 'Finding Direction',
+      },
+      {
+        slug: 'happiness',
+        name: 'Building Happiness',
+      },
+      {
+        slug: 'motivation',
+        name: 'Staying Motivated',
+      },
+      {
+        slug: 'remote-productivity',
+        name: 'Remote Productivity',
+      },
+      {
+        slug: 'remote-work',
+        name: 'Living & Working Remotely',
+      },
+      {
+        slug: 'storytelling',
+        name: 'Storytelling',
+      },
+      {
+        slug: 'impact',
+        name: 'Creating an Impact',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
