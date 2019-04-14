@@ -54,4 +54,4 @@ TourPagePreview.propTypes = {
   getAsset: PropTypes.func,
 }
 
-export default ProductPagePreview
+export default TourPagePreview

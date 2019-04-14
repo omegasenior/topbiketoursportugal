@@ -1,0 +1,31 @@
+{
+    "tours": [
+        {
+            "Title": "",
+            "Tags": [
+                "dadsa",
+                "123213"
+            ],
+            "GroupSizeMax": "12",
+            "GroupSizeMin": "1",
+            "SkillLevel": 7,
+            "Difficulty": 5,
+            "Physicality": 7,
+            "Distnce": 300,
+            "DistnceUnit": "km",
+            "Description": "dsadas",
+            "Duration": 3,
+            "DurationUnit": "days",
+            "Itinerary": [
+                {
+                    "Title": "Day 1",
+                    "Description": ""
+                },
+                {
+                    "Title": "Day 2",
+                    "Description": ""
+                }
+            ]
+        }
+    ]
+}

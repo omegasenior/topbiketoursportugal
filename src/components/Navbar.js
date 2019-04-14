@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 // import github from '../img/github-icon.svg'
-import logo from '../img/logo.png'
+// import logo from '../img/logo.png'
+import Img from "gatsby-image"
+
 
 const Navbar = class extends React.Component {
-
   componentDidMount() {
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -19,6 +20,7 @@ const Navbar = class extends React.Component {
           const target = el.dataset.target;
           const $target = document.getElementById(target);
 
+          
           // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
           el.classList.toggle('is-active');
           $target.classList.toggle('is-active');
@@ -30,34 +32,50 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Top Bike Tours Portugal" style={{ width: '208px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
-              <span></span>
-              <span></span>
-              <span></span>
+      <StaticQuery
+      query={graphql`
+        query LogoQuery {
+            file(relativePath: { eq: "logo.png" }) {
+              childImageSharp {
+                # Specify the image processing specifications right in the query.
+                # Makes it trivial to update as your page's design changes.
+                fixed(width: 208, height: 143) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
+      `}
+      render={data => (
+        <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+          <div className="container">
+            <div className="navbar-brand">
+              <Link to="/" className="navbar-item" title="Logo">
+                <Img fixed={data.file.childImageSharp.fixed} alt="Top Bike Tours Portugal" />
+              </Link>
+              {/* Hamburger menu */}
+              <div className="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div id="navMenu" className="navbar-menu">
+              <div className="navbar-start has-text-centered">
+                <Link className="navbar-item" to="/bike-hollidays">Bike Holidays</Link>
+                <Link className="navbar-item" to="/tour-calendar">Calendar</Link>
+                <Link className="navbar-item" to="/city-tours">City Tours</Link>
+                <Link className="navbar-item" to="/blog">Blog</Link>
+                <Link className="navbar-item" to="/rental">Rental</Link>
+                <Link className="navbar-item" to="/contact">Contact</Link>
+                <Link className="navbar-item" to="/about">About</Link>
+                {/* <Link className="navbar-item" to="/contact/examples">Form Examples</Link> */}
+              </div>
             </div>
           </div>
-          <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/">Home</Link>
-              <Link className="navbar-item" to="/bike-hollidays">Bike Holidays</Link>
-              <Link className="navbar-item" to="/calendar">Calendar</Link>
-              <Link className="navbar-item" to="/city-tours">City Tours</Link>
-              <Link className="navbar-item" to="/blog">blog</Link>
-              <Link className="navbar-item" to="/rental">Rental</Link>
-              <Link className="navbar-item" to="/contact">Contact</Link>
-              <Link className="navbar-item" to="/about">About</Link>
-              {/* <Link className="navbar-item" to="/contact/examples">Form Examples</Link> */}
-            </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      )}
+    />
     )
   }
 }

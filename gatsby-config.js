@@ -61,6 +61,7 @@ module.exports = {
         name: 'Creating an Impact',
       },
     ],
+    icon: ""
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -87,6 +88,14 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`
+      },
+    },
+    `gatsby-plugin-styled-components`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -124,6 +133,25 @@ module.exports = {
       },
     },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
+    // {
+    //   resolve: 'gatsby-plugin-sw',
+    //   options: {
+    //     swPath: 'src/utils/my-service-worker.js', // Default to 'src/sw.js'
+    //   },
+    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Top Bike Tours Portugal`,
+        short_name: `TopBikeTours`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+
   ],
 }

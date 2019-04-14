@@ -3,7 +3,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
 import Navbar from '../components/Navbar'
-import './all.sass'
+// import './all.scss'
+// import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -23,15 +24,16 @@ const TemplateWrapper = ({ children }) => (
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
-          
-          <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-	        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-	
-	        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" />
-	        <meta name="theme-color" content="#fff" />
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          {/* <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+          <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
 
-	        <meta property="og:type" content="business.business" />
+          <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" /> */}
+          <meta name="theme-color" content="#fff" />
+
+          <meta property="og:type" content="business.business" />
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
