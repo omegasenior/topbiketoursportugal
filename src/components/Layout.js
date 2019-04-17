@@ -1,10 +1,23 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
+import NavbarComponent from '../components/Navbar'
+import { AutoAffix ,Affix} from 'react-overlays'
 
-import Navbar from '../components/Navbar'
+// import AffixWrapper from '../components/AffixWrapper'
+
 // import './all.scss'
 // import './all.sass'
+// import Affix from 'react-affixed';
+
+import { createGlobalStyle } from 'styled-components'
+
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+`
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -20,25 +33,26 @@ const TemplateWrapper = ({ children }) => (
     `}
     render={data => (
       <div>
+        <GlobalStyle />
         <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          {/* <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-          <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-
-          <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400" /> */}
+    
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
           <meta name="theme-color" content="#fff" />
 
           <meta property="og:type" content="business.business" />
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
+          
         </Helmet>
-        <Navbar />
+        <Affix>
+        <NavbarComponent/>
+        </Affix>
         <div>{children}</div>
       </div>
     )}

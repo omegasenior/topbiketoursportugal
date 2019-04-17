@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import SEO from '../components/SEO/SEO';
+// import SEO from '../components/SEO/SEO';
 
 export const BlogPostTemplate = ({
   content,
@@ -58,7 +58,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-  const postImage = null;
+  // const postImage = null;
   return (
     <Layout>
       <BlogPostTemplate

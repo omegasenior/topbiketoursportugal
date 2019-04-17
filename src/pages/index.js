@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import Scroll from '../components/Scroll';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -11,38 +12,22 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <Banner />
-        {/* <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
-                </div>
-              ))}
-          </div>
-        </section> */}
+        <Banner></Banner>
+       <Scroll type="class" element="tourHighlights" offset={-100}>
+          <button>Click me</button>
+       </Scroll>
+       <div className="tourHighlights">Tours destaque<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+       <Scroll type="class" element="home" offset={-100}>
+          <button>Click me</button>
+       </Scroll>
+       <div className="home">Home Body MD<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+       <Scroll type="class" element="comments" offset={-100}>
+          <button>Click me</button>
+       </Scroll>
+       <div className="comments">Widget comments<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+       <Scroll>
+          <button>Click me</button>
+       </Scroll>
       </Layout>
     )
   }
@@ -60,7 +45,7 @@ export const pageQuery = graphql`
   query IndexQuery {
           allMarkdownRemark(
             sort: {order: DESC, fields: [frontmatter___date] },
-      filter: {frontmatter: {templateKey: {eq: "blog-post" } }}
+            filter: {frontmatter: {templateKey: {eq: "blog-post" } }}
     ) {
           edges {
         node {

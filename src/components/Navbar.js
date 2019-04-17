@@ -2,35 +2,117 @@ import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 // import github from '../img/github-icon.svg'
 // import logo from '../img/logo.png'
+
+import {Nav, Navbar} from 'styled-bootstrap-components'
 import Img from "gatsby-image"
+import { Container } from 'styled-container-component';
+import { Button } from 'styled-button-component';
+// import { Navbar, NavbarLink } from 'styled-navbar-component';
+// import { Nav } from 'styled-nav-component';
+// import Waypoint from 'react-waypoint'
+import styled from "styled-components"
+
+const StyledContainer=styled(Container)`
+  z-index:2;
+  background:transparent!important;
+  // position:fixed;
+`
+
+const StyledNavbar=styled(Navbar)`
+  background:transparent!important;
+  // position:fixed;
+  top:0;
+  a{
+    color:#fff;
+    margin-right:10px;
+  }
+  nav.fixed-nav{
+
+    border:1px solid;
+  }
+
+`
 
 
-const Navbar = class extends React.Component {
+let lastScrollY = 0;
+let ticking = false;
+const NavbarComponent = class extends React.Component {
+
+
+
+  constructor(props) {
+    super();
+    this.state = {
+      hidden: true,
+      stickyNav: false,
+    };
+  }
+
+  // <script>
+  //               const nav = document.querySelector("nav");
+  //               const navTop = nav.offsetTop;
+
+  //               function handleScroll() {
+  //                 if (window.scrollY > navTop) {
+  //                   nav.classList.add("fixed-nav");
+  //                   document.body.style.paddingTop = nav.offsetHeight+'px';
+  //                 } else {
+  //                   nav.classList.remove('fixed-nav');
+  //                   document.body.style.paddingTop = 0;
+  //                 }
+  //               }
+
+  //               window.addEventListener('scroll', handleScroll);
+
+  //         </script>
+
   componentDidMount() {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
+    window.addEventListener('scroll', this.handleScroll);
+  }
 
-      // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
-        el.addEventListener('click', () => {
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
 
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
+  handleScroll = () => {
 
-          
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
+    //if (window.scrollY > navTop) {
+      //                   nav.classList.add("fixed-nav");
+      //                   document.body.style.paddingTop = nav.offsetHeight+'px';
+      //                 } else {
+      //                   nav.classList.remove('fixed-nav');
+      //                   document.body.style.paddingTop = 0;
+      //                 }
 
-        });
+    lastScrollY = window.scrollY;
+
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        if(lastScrollY>1)
+        {
+          this.nav.current.classList.add("fixed-nav");
+        }
+        else{
+          this.nav.current.classList.remove("fixed-nav");
+        }
+        this.nav.current.style.top = `${lastScrollY}px`;
+        ticking = false;
       });
+   
+      ticking = true;
     }
+  };
+
+  nav = React.createRef();
+
+  handleOpenCloseNav() {
+    this.setState({
+      hidden: !this.state.hidden,
+    });
   }
 
   render() {
+    var hidden=this.state.hidden;
     return (
       <StaticQuery
       query={graphql`
@@ -47,37 +129,35 @@ const Navbar = class extends React.Component {
           }
       `}
       render={data => (
-        <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
-          <div className="container">
-            <div className="navbar-brand">
-              <Link to="/" className="navbar-item" title="Logo">
-                <Img fixed={data.file.childImageSharp.fixed} alt="Top Bike Tours Portugal" />
-              </Link>
-              {/* Hamburger menu */}
-              <div className="navbar-burger burger" data-target="navMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <div id="navMenu" className="navbar-menu">
-              <div className="navbar-start has-text-centered">
-                <Link className="navbar-item" to="/bike-hollidays">Bike Holidays</Link>
-                <Link className="navbar-item" to="/tour-calendar">Calendar</Link>
-                <Link className="navbar-item" to="/city-tours">City Tours</Link>
-                <Link className="navbar-item" to="/blog">Blog</Link>
-                <Link className="navbar-item" to="/rental">Rental</Link>
-                <Link className="navbar-item" to="/contact">Contact</Link>
-                <Link className="navbar-item" to="/about">About</Link>
-                {/* <Link className="navbar-item" to="/contact/examples">Form Examples</Link> */}
-              </div>
-            </div>
-          </div>
-        </nav>
+        <StyledContainer fluid>
+          <StyledNavbar expandSm>
+            <Nav ref={this.nav}>
+              <Link to="/"><Img fixed={data.file.childImageSharp.fixed} alt="Top Bike Tours Portugal" /></Link>
+              <Button
+                light
+                outline
+                toggleCollapse
+                expandSm
+                onClick={() => this.handleOpenCloseNav()}
+              >
+                <span>&#9776;</span>
+              </Button>
+            </Nav>
+            <Nav collapse expandSm hidden={hidden}>
+              <Link to="/bike-hollidays">Bike Holidays</Link>
+              <Link to="/tour-calendar">Calendar</Link>
+              <Link to="/city-tours">City Tours</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/rental">Rental</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/about">About</Link>
+            </Nav>
+          </StyledNavbar>
+        </StyledContainer>
       )}
     />
     )
   }
 }
 
-export default Navbar
+export default NavbarComponent

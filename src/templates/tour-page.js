@@ -58,7 +58,7 @@ TourPageTemplate.propTypes = {
 
 const TourPage = ({ data }) => {
   const { markdownRemark: post } = data
-  const postImage = null;
+  // const postImage = null;
   return (
     <Layout>
       <TourPageTemplate

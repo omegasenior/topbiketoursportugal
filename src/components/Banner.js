@@ -6,22 +6,24 @@ import styled from "styled-components"
 import BackgroundImage from 'gatsby-background-image'
 
 
-//  const StyledBackgroundImage = styled(BackgroundImage)`
-// 	width: 100%;
-// 	height: 100%;
-// `
+// const StyledBackgroundImage = styled(BackgroundImage)`
+//  	  display: flex;
+// 		align-items: center;
+// 		justify-content: center;
+//  `
 
 const Container = styled.div`
-	display: flex;
-	align-items: center;
+		display: flex;
+		align-items: center;
 	  justify-content: center;
 	  width: 100%;
 	  height: 100%;
 	  position: absolute;
 	  overflow: hidden;
-	  .gatsby-image-wrapper{
-		width: 100%;
-		height: 100%;
+	 
+		.gatsby-image-wrapper{
+			width: 100%;
+			height: 100%;
 	  }
 `
 
@@ -74,8 +76,9 @@ const Action = styled.button`
 const StyledSlider = styled(Slider)`
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 90vh;
 	overflow: hidden;
+	z-index:1;
 	& a {
 		&.previousButton, &.nextButton {
 			font-size: 22px;
@@ -106,12 +109,19 @@ const StyledSlider = styled(Slider)`
 		}
 	}
 
-	.slide {
+	.gatsby-image-wrapper{
 		display: flex;
 		align-items: center;
-		  justify-content: center;
+		justify-content: center;
+
+	}
+
+	.slide {
+		// display: flex;
+		// align-items: center;
+		// justify-content: center;
 		  width: 100%;
-		  height: 400px;
+		  height: 90vh;
 		  position: absolute;
 		  overflow: hidden;	
 		&.hidden {
@@ -249,7 +259,7 @@ const Banner = ({ className }) => (
 						
 							childImageSharp 
 							{
-								fluid(quality: 100, maxWidth: 4160) 
+								fluid(quality: 60, maxWidth: 1920) 
 								{
 									...GatsbyImageSharpFluid
 								}
