@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => (
         }
     `}
     render={data => (
-      <div>
+      <React.Fragment>
         <GlobalStyle />
         <Helmet>
           <html lang="en" />
@@ -45,7 +45,7 @@ const TemplateWrapper = ({ children }) => (
         </Helmet>
         <NavbarComponent/>
         <div>{children}</div>
-      </div>
+        </React.Fragment>
     )}
   />
 )
