@@ -2,11 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 import NavbarComponent from '../components/Navbar'
-// import AffixWrapper from '../components/AffixWrapper'
-
-// import './all.scss'
-// import './all.sass'
-// import Affix from 'react-affixed';
 
 import { createGlobalStyle } from 'styled-components'
 
@@ -48,9 +43,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
           
         </Helmet>
-        <Affix>
         <NavbarComponent/>
-        </Affix>
         <div>{children}</div>
       </div>
     )}
