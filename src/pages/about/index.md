@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About our values
+title: About us
 ---
 Founded in 2013, Top Bike tours Portugal is a very young company with experience in pedestrian and cycling tours in Porto and long distance cycling routes to the north of the Iberian Peninsula. Our activities are coordinated by tourism professionals, with a huge knowledge of heritage and sports.
 
