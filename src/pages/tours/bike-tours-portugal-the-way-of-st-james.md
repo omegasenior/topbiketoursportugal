@@ -2,6 +2,7 @@
 templateKey: tour-page
 path: /bike-tours-portugal-the-way-of-st-james
 title: The way of St. James
+slug: bike-tours-portugal-the-way-of-st-james
 date: 2016-12-17T15:04:10.000Z
 duration: 3 days
 group_size_min: 5

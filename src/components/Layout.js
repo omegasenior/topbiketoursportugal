@@ -49,6 +49,7 @@ const ScrollUpButton = styled.button`
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
+    background: #f9f9f9;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   }
   @-webkit-keyframes bounce {

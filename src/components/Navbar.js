@@ -19,44 +19,74 @@ const StyledBurgerButton = styled(Button)`
 `
 
 const StyledNavbar = styled(Navbar)`
+  
   background-color:transparent!important;
   padding:0;
   position:fixed;
   top:0;
   width:100%;
   z-index:1000;
-  .logo{
-    transition: all 2s;
-    .gatsby-image-wrapper{
-      transition: all 2s;
-    }
+  font-size: 1.5rem;
+  max-height:500px;
+  transition: max-height 250ms ease-in-out, background 0.4s ease-in-out;
+  
+  a.logo:before {
+      display: none;
   }
-  transition: all 1s;
-  a{
+
+  .logo img {
+      max-width: 208px;
+      max-height: 143px;
+      transition: all 2s ease-in-out;
+  }
+
+  a {
     color:#fff;
     margin-right: 10px;
+    position: relative;
+    text-decoration: none;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: -10px;
+      left: 0;
+      background-color: #fff;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+      
+    }
+
+    &:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
   }
+
   nav {
     padding:0 10px;
   }
+
   &.fixed-nav {
     box-shadow: 0 0 12px 0px rgba(0,0,0,.4);
     background-color:#fff!important;
-    height: 70px;
+    max-height: 70px;
     padding: 10px 0;
     a {
       color:#000;
+      &:before {
+        background-color:#000;
+      }
     }
     .logo{
       width: 98px;
       height: 70px;
-      /*picture img{
-        width: 98px;
-        height: 70px;
-
-      }*/
     }
-    .logo .gatsby-image-wrapper{
+    .logo .gatsby-image-wrapper img{
       max-width: 98px!important;
       max-height: 70px!important;
     }
@@ -91,7 +121,7 @@ const NavbarComponent = class extends React.Component {
 
     if (!ticking) {
       window.requestAnimationFrame(() => {
-        if (lastScrollY > 150) {
+        if (lastScrollY > 10) {
           this.navBar.current.classList.add("fixed-nav");
         }
         else {

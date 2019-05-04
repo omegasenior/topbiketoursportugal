@@ -65,6 +65,7 @@ module.exports = {
     icon: ""
   },
   plugins: [
+
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -104,6 +105,7 @@ module.exports = {
         path: `./src/data/`
       },
     },
+    `gatsby-mdx`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -164,4 +166,5 @@ module.exports = {
     'gatsby-plugin-netlify', // make sure to keep it last in the array
 
   ],
+
 }

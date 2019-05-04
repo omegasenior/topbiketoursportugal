@@ -6,58 +6,76 @@ import BackgroundImage from 'gatsby-background-image'
 
 import img1 from './../img/banners/1.jpg'
 import img_tour_2 from './../img/the-way-of-saint-james.jpg'
-import img_tour_3 from './../img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg'
+import img_tour_3 from './../img/banners/caminho-portugues-de (5).jpg'
 
 
 import { Time } from 'styled-icons/boxicons-regular/Time'
 
-const Tours = styled.div`
+const SameHeightColumn = styled(Column)`
+    display: flex;
+`
 
+const Tours = styled.div`
+    padding-top: 20px;
+    padding-bottom: 20px;
 `
 
 const Tour = styled.article`
-    padding:10px;
-    box-shadow: 0 0 15px 3px rgba(212,212,212,.5);
+    flex: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    background-color: #fff;
+    border-radius: 4px;
+    perpective: 1000px;
     margin: 25px 0;
-    transition: all 450ms linear;
     &:hover{
-        box-shadow: box-shadow: 0 0 8px 1px rgba(212,212,212,1);
-        // transform: scale(1.05);
         cursor:pointer;
-        img{
-            transform: scale(1.6);
+        img {
+            transform: scale(1.05);
         }
     }
 `
 
 const TourTitle = styled.h2`
+
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     margin: 5px 0;
+
+    padding:20px;
+
 `
 
 const TourResume = styled.p`
-    font-size: 0.75rem;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif
-`
+    font-size: 1.15rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:20px;
+
+    `
 const TourChart = styled.p`
+    padding:20px;
 
 `
 
 const ToursImageContainer = styled.div`
     overflow:hidden;
+    height: 285px;
 `
 
 const ToursImage = styled.img`
     width:100%;
-    transition: all .2s ease-out;
+    transition: all .4s ease-out;
 `
 
 const Subtitle = styled.p`
     text-align: center;
     position: relative;
     margin-bottom: 30px;
+    padding: 30px;
+    text-align: left;
+    font-size: 1.2rem;
+
+
 `
 
 
@@ -80,37 +98,37 @@ export default class Tourhighlights extends React.Component {
                 <Subtitle>We have a unique way of meeting your adventurous expectations!</Subtitle>
                 <Container>
                     <Row>
-                        <Column xs={1} md={4} my={10}>
+                        <SameHeightColumn xs={1} md={4} my={10}>
                             <Tour>
                                 <ToursImageContainer>
-                                    <ToursImage src={img_tour_3} height={185} />
+                                    <ToursImage src={img_tour_3} height={285} />
                                 </ToursImageContainer>
                                 <TourTitle>The Silver Coast - Route 1</TourTitle>
                                 <TourResume>This cycling tour of the Silver Coast, is an immersive and amazing route that starts in Porto cityand goes along the coast where you‘re going to find some of the most important villages in Portugal. Here you will have a “mix” of beaches and pine forests creating different feelings during the trip. Exploring the trails and its main highlights will give you the sense of fulfillment.</TourResume>
                                 <TourChart><StyledTime /></TourChart>
                             </Tour>
-                        </Column>
-                        <Column xs={1} md={4}>
+                        </SameHeightColumn>
+                        <SameHeightColumn xs={1} md={4}>
                             <Tour>
                                 <ToursImageContainer>
-                                    <ToursImage src={img_tour_2} height={185} />
+                                    <ToursImage src={img_tour_2} height={285} />
                                 </ToursImageContainer>
                                 <TourTitle>The Way of St. James BikeTour</TourTitle>
                                 <TourResume>This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.</TourResume>
                                 <TourChart><StyledTime /></TourChart>
                             </Tour>
-                        </Column>
-                        <Column xs={1} md={4}>
-                            {/* <BackgroundImage fluid={img1} height={185} /> */}
+                        </SameHeightColumn>
+                        <SameHeightColumn xs={1} md={4} >
+                            {/* <BackgroundImage fluid={img1} height={285} /> */}
                             <Tour>
                                 <ToursImageContainer>
-                                    <ToursImage src={img1} height={185} />
+                                    <ToursImage src={img1} height={285} />
                                 </ToursImageContainer>
-                                <TourTitle>The Way of St. James BikeTour</TourTitle>
+                                <TourTitle>The Way of St. James BikeTour 3</TourTitle>
                                 <TourResume>This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.</TourResume>
                                 <TourChart><StyledTime /></TourChart>
                             </Tour>
-                        </Column>
+                        </SameHeightColumn>
                     </Row>
                 </Container>
             </Tours>
