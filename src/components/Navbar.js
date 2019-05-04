@@ -117,7 +117,7 @@ const NavbarComponent = class extends React.Component {
       <StaticQuery
         query={graphql`
         query LogoQuery {
-            file(relativePath: { eq: "logo.png" }) {
+            file(relativePath: { eq: "logo2.png" }) {
               childImageSharp {
                 # Specify the image processing specifications right in the query.
                 # Makes it trivial to update as your page's design changes.

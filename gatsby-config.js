@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Top Bike Tours Portugal',
+    siteUrl: 'https://boring-kepler-5712ff.netlify.com/',
     description: `
     Top Bike Tours Portugal is a provider of holiday’s packages and routes, which offers an incredible holiday experience, entertainment and leisure activities based on quality and value.
     `,
