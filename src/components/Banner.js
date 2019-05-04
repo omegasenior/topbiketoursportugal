@@ -70,14 +70,18 @@ const Action = styled.button`
 	transition: all 0.3s ease;
 	transform: translateY(20px);
 	opacity: 0;
+	&:hover{
+		cursor:pointer;
+	}
 
 `
 
 const StyledSlider = styled(Slider)`
 	position: relative;
 	width: 100%;
-	height: 90vh;
+	height: 100vh;
 	overflow: hidden;
+	// background-size: 150%;
 	z-index:1;
 	& a {
 		&.previousButton, &.nextButton {
@@ -121,7 +125,7 @@ const StyledSlider = styled(Slider)`
 		// align-items: center;
 		// justify-content: center;
 		  width: 100%;
-		  height: 90vh;
+		  height: 100vh;
 		  position: absolute;
 		  overflow: hidden;	
 		&.hidden {
@@ -279,6 +283,7 @@ const Banner = ({ className }) => (
 							title
 							description
 							button
+							image
 						}
 					}
 				}
@@ -296,7 +301,7 @@ const Banner = ({ className }) => (
 							banners.map(
 								(item, index) => (
 									<Container key={index}>
-										<BackgroundImage fluid={images[index].node.childImageSharp.fluid}>
+										<BackgroundImage fluid={getImage(item.image, images)}>
 											<Content>
 												<Title>{item.title}</Title>
 												<Subtitle>{item.description}</Subtitle>
@@ -314,5 +319,14 @@ const Banner = ({ className }) => (
 		}
 	/>
 )
+
+function getImage(imageName, images) {
+	var imageFound = images.find(i => i.node.relativePath === imageName);
+
+	if(imageFound && imageFound.node && imageFound.node.childImageSharp && imageFound.node.childImageSharp.fluid){
+		return imageFound.node.childImageSharp.fluid;
+	}
+	return images[0].node.childImageSharp.fluid;
+}
 
 export default Banner

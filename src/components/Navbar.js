@@ -1,44 +1,73 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-// import github from '../img/github-icon.svg'
-// import logo from '../img/logo.png'
-
-import {Nav, Navbar} from 'styled-bootstrap-components'
+import { Nav, Navbar } from 'styled-bootstrap-components'
 import Img from "gatsby-image"
 import { Container } from 'styled-container-component';
 import { Button } from 'styled-button-component';
-// import { Navbar, NavbarLink } from 'styled-navbar-component';
-// import { Nav } from 'styled-nav-component';
-// import Waypoint from 'react-waypoint'
 import styled from "styled-components"
 
-const StyledContainer=styled(Container)`
+const StyledContainer = styled(Container)`
   z-index:2;
   background:transparent!important;
   // position:fixed;
 `
 
-const StyledNavbar=styled(Navbar)`
-  background:transparent!important;
-  // position:fixed;
-  top:0;
-  a{
-    color:#fff;
-    margin-right:10px;
-  }
-  nav.fixed-nav{
-
-    border:1px solid;
-  }
-
+const StyledBurgerButton = styled(Button)`
+      background: #fff;
+      margin: 10px;
+      height: 40px;
 `
 
+const StyledNavbar = styled(Navbar)`
+  background-color:transparent!important;
+  padding:0;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:1000;
+  .logo{
+    transition: all 2s;
+    .gatsby-image-wrapper{
+      transition: all 2s;
+    }
+  }
+  transition: all 1s;
+  a{
+    color:#fff;
+    margin-right: 10px;
+  }
+  nav {
+    padding:0 10px;
+  }
+  &.fixed-nav {
+    box-shadow: 0 0 12px 0px rgba(0,0,0,.4);
+    background-color:#fff!important;
+    height: 70px;
+    padding: 10px 0;
+    a {
+      color:#000;
+    }
+    .logo{
+      width: 98px;
+      height: 70px;
+      /*picture img{
+        width: 98px;
+        height: 70px;
+
+      }*/
+    }
+    .logo .gatsby-image-wrapper{
+      max-width: 98px!important;
+      max-height: 70px!important;
+    }
+  }
+`
 
 let lastScrollY = 0;
 let ticking = false;
+
 const NavbarComponent = class extends React.Component {
-
-
+  navBar = React.createRef();
 
   constructor(props) {
     super();
@@ -48,26 +77,8 @@ const NavbarComponent = class extends React.Component {
     };
   }
 
-  // <script>
-  //               const nav = document.querySelector("nav");
-  //               const navTop = nav.offsetTop;
-
-  //               function handleScroll() {
-  //                 if (window.scrollY > navTop) {
-  //                   nav.classList.add("fixed-nav");
-  //                   document.body.style.paddingTop = nav.offsetHeight+'px';
-  //                 } else {
-  //                   nav.classList.remove('fixed-nav');
-  //                   document.body.style.paddingTop = 0;
-  //                 }
-  //               }
-
-  //               window.addEventListener('scroll', handleScroll);
-
-  //         </script>
-
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll, {passive: true});
   }
 
   componentWillUnmount() {
@@ -76,34 +87,23 @@ const NavbarComponent = class extends React.Component {
 
   handleScroll = () => {
 
-    //if (window.scrollY > navTop) {
-      //                   nav.classList.add("fixed-nav");
-      //                   document.body.style.paddingTop = nav.offsetHeight+'px';
-      //                 } else {
-      //                   nav.classList.remove('fixed-nav');
-      //                   document.body.style.paddingTop = 0;
-      //                 }
-
     lastScrollY = window.scrollY;
 
     if (!ticking) {
       window.requestAnimationFrame(() => {
-        if(lastScrollY>1)
-        {
-          this.nav.current.classList.add("fixed-nav");
+        if (lastScrollY > 150) {
+          this.navBar.current.classList.add("fixed-nav");
         }
-        else{
-          this.nav.current.classList.remove("fixed-nav");
+        else {
+          this.navBar.current.classList.remove("fixed-nav");
         }
-        this.nav.current.style.top = `${lastScrollY}px`;
+        // this.navBar.current.style.top = `${lastScrollY}px`;
         ticking = false;
       });
-   
+
       ticking = true;
     }
   };
-
-  nav = React.createRef();
 
   handleOpenCloseNav() {
     this.setState({
@@ -112,10 +112,10 @@ const NavbarComponent = class extends React.Component {
   }
 
   render() {
-    var hidden=this.state.hidden;
+    var hidden = this.state.hidden;
     return (
       <StaticQuery
-      query={graphql`
+        query={graphql`
         query LogoQuery {
             file(relativePath: { eq: "logo.png" }) {
               childImageSharp {
@@ -128,34 +128,28 @@ const NavbarComponent = class extends React.Component {
             }
           }
       `}
-      render={data => (
-        <StyledContainer fluid>
-          <StyledNavbar expandSm>
-            <Nav ref={this.nav}>
-              <Link to="/"><Img fixed={data.file.childImageSharp.fixed} alt="Top Bike Tours Portugal" /></Link>
-              <Button
-                light
-                outline
-                toggleCollapse
-                expandSm
-                onClick={() => this.handleOpenCloseNav()}
-              >
-                <span>&#9776;</span>
-              </Button>
-            </Nav>
-            <Nav collapse expandSm hidden={hidden}>
-              <Link to="/bike-hollidays">Bike Holidays</Link>
-              <Link to="/tour-calendar">Calendar</Link>
-              <Link to="/city-tours">City Tours</Link>
-              <Link to="/blog">Blog</Link>
-              <Link to="/rental">Rental</Link>
-              <Link to="/contact">Contact</Link>
-              <Link to="/about">About</Link>
-            </Nav>
-          </StyledNavbar>
-        </StyledContainer>
-      )}
-    />
+        render={data => (
+          <>
+              <StyledNavbar expandSm ref={this.navBar}>
+                <Nav>
+                  <Link to="/" className="logo"><Img fixed={data.file.childImageSharp.fixed} alt="Top Bike Tours Portugal" /></Link>
+                  <StyledBurgerButton light outline toggleCollapse expandSm onClick={() => this.handleOpenCloseNav()}>
+                    <span>&#9776;</span>
+                  </StyledBurgerButton>
+                </Nav>
+                <Nav collapse expandSm hidden={hidden}>
+                  <Link to="/bike-hollidays">Bike Holidays</Link>
+                  <Link to="/tour-calendar">Calendar</Link>
+                  <Link to="/city-tours">City Tours</Link>
+                  <Link to="/blog">Blog</Link>
+                  <Link to="/rental">Rental</Link>
+                  <Link to="/contact">Contact</Link>
+                  <Link to="/about">About</Link>
+                </Nav>
+              </StyledNavbar>
+          </>
+        )}
+      />
     )
   }
 }

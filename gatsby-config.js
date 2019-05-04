@@ -78,7 +78,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Roboto']
+          families: ['Roboto','Lato','Montserrat']
         }
       }
     },
@@ -158,7 +158,8 @@ module.exports = {
         display: `standalone`,
       },
     },
-    `gatsby-plugin-offline`,
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
 
   ],
