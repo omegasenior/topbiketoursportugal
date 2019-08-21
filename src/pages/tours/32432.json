@@ -1,0 +1,23 @@
+{
+  "templateKey": "tour-page",
+  "title": "32432",
+  "date": "2019-08-21T14:07:58.136Z",
+  "description": "432432fdsfdsfds",
+  "body": "sdfsdfds",
+  "tags": [
+    "sdfds sdfds",
+    "dfsfds",
+    "f",
+    "dsf",
+    "ds",
+    "fds"
+  ],
+  "waypoints": [
+    {
+      "lat": "{\"type\":\"Point\",\"coordinates\":[-8.3605957,5.7253114]}"
+    },
+    {
+      "lat": "{\"type\":\"Point\",\"coordinates\":[-37.265625,-17.9787331]}"
+    }
+  ]
+}
