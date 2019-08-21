@@ -4,6 +4,40 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - name: menu
+    label: Menu
+    folder: src/menu
+    create: true
+    widget: "object"
+    editor: 
+     preview: false 
+    fields:
+      - label: Title
+        name: title
+        widget: "string"
+      - label: Links
+        name: links
+        widget: list
+        fields:
+        - label: Display
+          name: display
+          widget: markdown
+        - label: Link
+          name: link
+          widget: text
+        - label: Description
+          name: description
+          widget: text
+        - label: Aliases
+          name: aliases
+          widget: list
+          fields:
+            - label: Link
+              name: link
+              widget: string
+            - label: Permanent
+              name: permanent
+              widget: boolean
   - name: blog
     label: Blog
     folder: src/pages/blog
@@ -30,6 +64,8 @@ collections:
         name: tags
         widget: list
   - name: tours
+    extension: json
+    format: json
     label: Tours
     folder: src/pages/tours
     create: true
@@ -58,12 +94,43 @@ collections:
         name: waypoints
         widget: list
         fields:
-          - label: Latitude
+          - label: Point
             name: lat
-            widget: string
-          - label: Longitude
-            name: lon
-            widget: string
+            widget: map
+  - name: toursj
+    extension: json
+    format: json
+    label: Tours
+    folder: src/pages/tours
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: tour-page
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Description
+        name: description
+        widget: markdown
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Tags
+        name: tags
+        widget: list
+      - label: Waypoints
+        name: waypoints
+        widget: list
+        fields:
+          - label: Point
+            name: lat
+            widget: map
   - name: home_banners
     label: Home Banners
     folder: src/banners/home
