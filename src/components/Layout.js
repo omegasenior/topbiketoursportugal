@@ -1,14 +1,13 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
-import NavbarComponent from '../components/Navbar'
-import Banner from '../components/Banner'
-import Footer from '../components/Footer'
+import React from "react";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
+import NavbarComponent from "../components/Navbar";
+import Footer from "../components/Footer";
 
-import styled from "styled-components"
-import { createGlobalStyle } from 'styled-components'
-import { ChevronUp } from 'styled-icons/feather/ChevronUp';
-import Scroll from '../components/Scroll';
+import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import { ChevronUp } from "styled-icons/feather/ChevronUp";
+import Scroll from "../components/Scroll";
 
 const ScrollUpButton = styled.button`
   opacity: 0.7;
@@ -22,29 +21,29 @@ const ScrollUpButton = styled.button`
   padding: 7px;
   border-radius: 4px;
   padding-bottom: 9px;
-  &:hover{
+  &:hover {
     opacity: 1;
-    cursor:pointer;
-    span{
+    cursor: pointer;
+    span {
       // display:none;
-      opacity:0;
+      opacity: 0;
     }
-    svg{
+    svg {
       transform: translateY(7px);
     }
   }
-  svg{
+  svg {
     width: 30px;
     margin-top: 0;
     margin-bottom: -7px;
     transition: all 200ms linear;
   }
-  span{
-    font:12px Lato,sans-serif;
-    opacity:1;
+  span {
+    font: 12px Lato, sans-serif;
+    opacity: 1;
     transition: all 200ms linear;
   }
-`
+`;
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -52,7 +51,16 @@ const GlobalStyle = createGlobalStyle`
     background: #f9f9f9;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   }
-  @-webkit-keyframes bounce {
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  header{
+    min-height:115px;
+  }
+   @-webkit-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
     }
@@ -63,19 +71,19 @@ const GlobalStyle = createGlobalStyle`
       transform: translateY(-15px);
     }
   }
-`
+`;
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query HeadingQuery {
-          site {
-            siteMetadata {
-              title,
-              description,
-            }
+      query HeadingQuery2 {
+        site {
+          siteMetadata {
+            title
+            description
           }
         }
+      }
     `}
     render={data => (
       <React.Fragment>
@@ -83,9 +91,15 @@ const TemplateWrapper = ({ children }) => (
         <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
-          <meta name="description" content={data.site.siteMetadata.description} />
+          <meta
+            name="description"
+            content={data.site.siteMetadata.description}
+          />
           <meta charset="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
 
           <meta name="theme-color" content="#fff" />
 
@@ -93,17 +107,14 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
-
         </Helmet>
         <header>
-        <NavbarComponent />
-        <Banner></Banner>
-
+          <NavbarComponent />
         </header>
         <>{children}</>
-        <Footer/>
+        <Footer />
         <Scroll>
-          <ScrollUpButton  aria-label="Scroll to top" role="navigation">
+          <ScrollUpButton aria-label="Scroll to top" role="navigation">
             <ChevronUp>Top</ChevronUp>
             <span>Top</span>
           </ScrollUpButton>
@@ -111,6 +122,6 @@ const TemplateWrapper = ({ children }) => (
       </React.Fragment>
     )}
   />
-)
+);
 
-export default TemplateWrapper
+export default TemplateWrapper;

@@ -100,8 +100,8 @@ collections:
   - name: toursj
     extension: json
     format: json
-    label: Tours
-    folder: src/pages/tours
+    label: Toursj
+    folder: src/pages/toursj
     create: true
     slug: '{{slug}}'
     fields:

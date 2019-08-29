@@ -55,3 +55,25 @@ npm install --global --production windows-build-tools
 
 ## Purgecss
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+
+
+Themes
+
+http://themes.themegoods.com/grandtour/demo/tours/tour-3-columns-grid/
+http://travelwp.physcode.com/tour-destination/brazil/
+https://voyage.mikado-themes.com/landing/
+
+https://themes.waituk.com/entrada-intro/
+https://themes.waituk.com/entrada-default/product/hiking-trip-to-mountain/
+http://wp.swlabs.co/exploore/tours/madrid-tour/
+
+https://demo.goodlayers.com/tourpackage/europe/
+https://demo.goodlayers.com/traveltour/landing/
+https://demo.goodlayers.com/traveltour/hiking/tour-grid-3-columns/
+https://demo.goodlayers.com/traveltour/main4/tour-grid-2-columns/
+http://adventure-tours.themedelight.com/tours/
+
+
+//City Tours
+
+https://komo.vamtam.com/ - https://komo.vamtam.com/theme-presentation/

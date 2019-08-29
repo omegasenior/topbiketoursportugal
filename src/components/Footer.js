@@ -5,7 +5,6 @@ import { Column, Row } from 'styled-grid-system-component'
 import img1 from './../img/banners/1.jpg'
 
 const FooterContainer = styled.footer`
-    margin-top: 50px;
     position: relative;
     background-color: #2b2b2b;
     color: #999;
@@ -43,7 +42,6 @@ const FooterPostSummary = styled.div`
     outline: none !important;
     margin-left: 10px;
 `
-
 
 export default class Footer extends React.Component {
     render() {

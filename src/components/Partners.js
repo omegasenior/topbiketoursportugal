@@ -1,8 +1,8 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Slider from 'react-animated-slider';
+// import { StaticQuery, graphql } from 'gatsby'
+// import Slider from 'react-animated-slider';
 import styled from "styled-components"
-import BackgroundImage from 'gatsby-background-image'
+// import BackgroundImage from 'gatsby-background-image'
 
 
 const Title=styled.h2`
