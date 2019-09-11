@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title": "Home",
     "pt": {
         "links": [
@@ -72,4 +73,17 @@
             }
         ]
     }
+=======
+  "title": "Home",
+  "languages": {
+    "code": "PT",
+    "links": [
+      {
+        "display": "Home",
+        "link": "/pt",
+        "description": "Ir para a homepage"
+      }
+    ]
+  }
+>>>>>>> e79025a179c84d8d239c428e96970ba1f56510dc
 }
