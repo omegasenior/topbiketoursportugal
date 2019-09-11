@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
 import _format from 'date-fns/format'
+import parseISO from 'date-fns/parseISO'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
@@ -34,7 +35,7 @@ export const SinglePostTemplate = ({
                 itemProp="dateCreated pubdate datePublished"
                 date={date}
               >
-                {_format(date, 'MMMM Do, YYYY')}
+                {_format(parseISO(date), 'MMMM Do, YYYY')}
               </time>
             )}
             {categories && (
