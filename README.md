@@ -57,7 +57,10 @@ npm install --global --production windows-build-tools
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
 
 
-Themes
+## MDX
+https://github.com/renvrant/gatsby-mdx-netlify-cms-starter
+
+## Themes
 
 http://themes.themegoods.com/grandtour/demo/tours/tour-3-columns-grid/
 http://travelwp.physcode.com/tour-destination/brazil/
@@ -74,6 +77,6 @@ https://demo.goodlayers.com/traveltour/main4/tour-grid-2-columns/
 http://adventure-tours.themedelight.com/tours/
 
 
-//City Tours
+## City Tours
 
 https://komo.vamtam.com/ - https://komo.vamtam.com/theme-presentation/

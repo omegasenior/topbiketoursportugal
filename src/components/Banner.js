@@ -259,17 +259,15 @@ const Banner = ({ className }) => (
     query={graphql`
       query {
         allBannerJson {
-          edges {
-            node {
-              id
-              title
-              description
-              button
-              image {
-                childImageSharp {
-                  fluid(quality: 60, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid
-                  }
+          nodes {
+            id
+            title
+            description
+            button
+            image {
+              childImageSharp {
+                fluid(quality: 60, maxWidth: 1920) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
@@ -279,10 +277,10 @@ const Banner = ({ className }) => (
     `}
     render={data => {
       // Set ImageData.
-      const { edges: banners } = data.allBannerJson;
+      const { nodes: banners } = data.allBannerJson;
       return (
         <StyledSlider>
-          {banners.map(({ node: item }) => (
+          {banners.map(item => (
             <Container key={item.id}>
               <BackgroundImage fluid={item.image.childImageSharp.fluid}>
                 <Content>
@@ -298,29 +296,5 @@ const Banner = ({ className }) => (
     }}
   />
 );
-
-function flatten(a, b) {
-  return a.concat(b);
-}
-
-function getBanners(data) {
-  return data.allBannerJson.edges
-    .map(edge => (edge.node && edge.node.banners ? edge.node.banners : []))
-    .reduce(flatten, []);
-}
-
-// function getImage(imageName, images) {
-//   var imageFound = images.find(i => i.node.relativePath === imageName);
-
-//   if (
-//     imageFound &&
-//     imageFound.node &&
-//     imageFound.node.childImageSharp &&
-//     imageFound.node.childImageSharp.fluid
-//   ) {
-//     return imageFound.node.childImageSharp.fluid;
-//   }
-//   return images[0].node.childImageSharp.fluid;
-// }
 
 export default Banner;

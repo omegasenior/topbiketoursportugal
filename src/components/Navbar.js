@@ -62,7 +62,7 @@ const StyledNavbar = styled(Navbar)`
       visibility: hidden;
       transform: scaleX(0);
       transition: all 0.3s ease-in-out 0s;
-
+      // box-shadow: 1px 1px 3px 0px #363636;
     }
 
     &:hover:before {
@@ -188,11 +188,12 @@ const NavbarComponent = class extends React.Component {
                 </StyledBurgerButton>
               </Nav>
               <Nav collapse expandSm hidden={hidden}>
+                <Link to="/">Home</Link>
                 <Link to="/bike-hollidays">Bike Holidays</Link>
-                <Link to="/tour-calendar">Calendar</Link>
-                <Link to="/city-tours">City Tours</Link>
+                {/* <Link to="/city-tours">City Tours</Link> */}
                 <Link to="/blog">Blog</Link>
-                <Link to="/rental">Rental</Link>
+                <Link to="/tour-calendar">Calendar</Link>
+                {/* <Link to="/rental">Rental</Link> */}
                 <Link to="/contact">Contact</Link>
                 <Link to="/about">About</Link>
               </Nav>

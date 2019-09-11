@@ -4,45 +4,101 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: menu
-    label: Menu
-    folder: src/menu
+  - name: settings
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: "content/settings/global.yml"
+        label: "Global Settings"
+        name: "global-settings"
+        fields:
+          - { label: Site Title, name: siteTitle, widget: string }
+          - { label: Site Url, name: siteUrl, widget: string, required: false }
+          - {
+              label: Site Description,
+              name: siteDescription,
+              widget: text,
+              required: false,
+            }
+          - label: Social Media Card
+            name: socialMediaCard
+            widget: object
+            fields:
+              - { label: Image, name: image, widget: image, required: false }
+          - {
+              label: Google Analytics Tracking Id,
+              name: googleTrackingId,
+              widget: string,
+              required: false,
+            }
+  - name: menus
+    label: Menus
+    extension: json
+    format: json
+    folder: content/menus
     create: true
     widget: "object"
-    editor: 
-     preview: false 
+    editor:
+      preview: false
     fields:
-      - label: Title
-        name: title
-        widget: "string"
-      - label: Links
-        name: links
-        widget: list
+      - { label: Title, name: title, widget: "string" }
+      - label: "English"
+        name: en
+        widget: "object"
         fields:
-        - label: Display
-          name: display
-          widget: markdown
-        - label: Link
-          name: link
-          widget: text
-        - label: Description
-          name: description
-          widget: text
-        - label: Aliases
-          name: aliases
-          widget: list
-          fields:
-            - label: Link
-              name: link
-              widget: string
-            - label: Permanent
-              name: permanent
-              widget: boolean
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - label: Display
+                name: display
+                widget: markdown
+              - label: Link
+                name: link
+                widget: text
+              - label: Description
+                name: description
+                widget: text
+                required: false
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                deafault: true
+      - label: "Português"
+        name: pt
+        widget: "object"
+        fields:
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - label: Display
+                name: display
+                widget: markdown
+              - label: Link
+                name: link
+                widget: text
+              - label: Description
+                name: description
+                widget: text
+                required: false
+        # - label: Aliases
+        #   name: aliases
+        #   widget: list
+        #   fields:
+        #     - label: Link
+        #       name: link
+        #       widget: string
+        #     - label: Permanent
+        #       name: permanent
+        #       widget: boolean
   - name: blog
     label: Blog
     folder: src/pages/blog
     create: true
-    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -51,6 +107,18 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["Published", "Featured", "Draft"]
+        default: "Published"
+      - { label: Date / Order, name: date, widget: date }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
       - label: Publish Date
         name: date
         widget: datetime
@@ -63,13 +131,32 @@ collections:
       - label: Tags
         name: tags
         widget: list
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
   - name: tours
     extension: json
     format: json
     label: Tours
     folder: src/pages/tours
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -103,7 +190,7 @@ collections:
     label: Toursj
     folder: src/pages/toursj
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -135,7 +222,7 @@ collections:
     label: Home Banners
     folder: src/banners/home
     create: true
-    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -158,9 +245,10 @@ collections:
         widget: list
   - name: pages
     label: Pages
+    delete: false
     files:
-      - file: src/pages/about/index.md
-        label: About
+      - file: content/pages/about/index.en.md
+        label: AboutEN
         name: about
         fields:
           - label: Template Key
@@ -173,7 +261,21 @@ collections:
           - label: Body
             name: body
             widget: markdown
-      - file: src/pages/products/index.md
+      - file: content/pages/about/index.pt.md
+        label: AboutPT
+        name: about
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/products/index.md
         label: Products Page
         name: products
         fields:
@@ -292,3 +394,115 @@ collections:
                   - label: Items
                     name: items
                     widget: list
+      - file: content/pages/home/index.en.md
+        label: HomeEN
+        name: homeEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - label: Title
+            name: title
+            widget: string
+          - label: TourSection
+            name: toursection
+            widget: object
+            fields:
+              - label: Heading
+                name: heading
+                widget: markdown
+              - label: Description
+                name: description
+                widget: markdown
+              - label: DescriptionAfter
+                name: descriptionafter
+                widget: markdown
+              - label: Tours
+                name: tours
+                widget: list
+                fields:
+                  - label: Tour
+                    name: tour
+                    widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: "Banners"
+            name: "banners"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Banners"
+                name: "banners"
+                widget: "relation"
+                collection: "banners"
+                searchFields: ["title"]
+                valueField: "path"
+      - file: content/pages/home/index.pt.md
+        label: HomePT
+        name: homePT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - label: Title
+            name: title
+            widget: string
+          - label: TourSection
+            name: toursection
+            widget: object
+            fields:
+              - label: Heading
+                name: heading
+                widget: markdown
+              - label: Description
+                name: description
+                widget: markdown
+              - label: DescriptionAfter
+                name: descriptionafter
+                widget: markdown
+              - label: Tours
+                name: tours
+                widget: list
+                fields:
+                  - label: Tour
+                    name: tour
+                    widget: string
+          - label: Body
+            name: body
+            widget: markdown
+  - name: banners
+    label: Banners
+    editor:
+      preview: false
+    folder: content/banners
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: key, name: key, widget: object }
+      - { label: Template, name: template, widget: hidden, default: Banner }
+      - { label: Title, name: title, widget: markdown }
+      - { label: Description, name: description, widget: markdown }
+      - { label: GoTo, name: goto, widget: object }
+      - { label: Image, name: image, widget: image, required: true }
+      # - label: 'Meta'
+      #   required: false
+      #   name: 'meta'
+      #   widget: 'object'
+      #   fields:
+      #     - { label: Title, name: title, widget: string, required: false }
+      #     - {
+      #         label: Description,
+      #         name: description,
+      #         widget: text,
+      #         required: false,
+      #       }
+      #     - {
+      #         label: Canonical Link,
+      #         name: canonicalLink,
+      #         widget: string,
+      #         required: false,
+      #       }
+      #     - { label: Noindex, name: noindex, widget: boolean, required: false }

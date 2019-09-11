@@ -1,9 +1,12 @@
+const languages = require("./src/data/languages");
 const _ = require("lodash");
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 
 exports.createPages = ({ actions, graphql }) => {
+  console.log("Starting createPages");
+
   const { createPage } = actions;
 
   return graphql(`
@@ -23,6 +26,7 @@ exports.createPages = ({ actions, graphql }) => {
             id
             fields {
               slug
+              localizedPath
             }
             frontmatter {
               tags
@@ -60,8 +64,12 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(edge => {
       const id = edge.node.id;
       createPage({
-        path: edge.node.frontmatter.path || edge.node.fields.slug,
+        path:
+          edge.node.frontmatter.path ||
+          edge.node.fields.localizedPath ||
+          edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
+        languages: [],
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
@@ -99,21 +107,124 @@ exports.createPages = ({ actions, graphql }) => {
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
+  // console.log('Starting onCreateNode');
+
   const { createNodeField } = actions;
   fmImagesToRelative(node); // convert image paths for gatsby images
-  // console.log(node.internal.type);
-  // if (node.internal.type === `json`) {
-  //   const value2 = createFilePath({ node, getNode });
-  // }
+
   if (node.internal.type === `MarkdownRemark`) {
+    const fileNode = getNode(node.parent);
+    const parsedFilePath = path.parse(fileNode.relativePath);
+
     const value = createFilePath({ node, getNode });
+
+    // console.log(value);
+
     createNodeField({
       name: `slug`,
       node,
       value
     });
+
+    if (_.get(node, "frontmatter.slug")) {
+      slug = `/${node.frontmatter.slug.toLowerCase()}/`;
+    } else if (
+      // home page gets root slug
+      parsedFilePath.name === "home" &&
+      parsedFilePath.dir.indexOf("pages") !== -1 &&
+      parsedFilePath.dir.indexOf("posts") !== -1
+    ) {
+      slug = `/`;
+    } else if (_.get(node, "frontmatter.title")) {
+      slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
+        node.frontmatter.title
+      )}/`;
+    } else if (parsedFilePath.dir === "") {
+      slug = `/${parsedFilePath.name}/`;
+    } else {
+      slug = `/${parsedFilePath.dir}/`;
+    }
+
+    // console.log(parsedFilePath.dir);
+
+    // Add contentType to node.fields
+    createNodeField({
+      node,
+      name: `contentType`,
+      value: parsedFilePath.dir
+    });
+
+    //add lankey to node fields
+    var regex = /^.+\.([aA-zZ]{2})$/gi;
+    var matches = regex.exec(parsedFilePath.name);
+    var langCode = matches && matches.length > 1 ? matches[1] : "en";
+    var langKey = langCode.length > 0 ? langCode : "en";
+    createNodeField({
+      node,
+      name: `langKey`,
+      value: langKey
+    });
+
+    //Create localized path
+    createNodeField({
+      node,
+      name: `localizedPath`,
+      value:
+        langKey === languages.defaultLangKey ? `${slug}` : `/${langKey}${slug}`
+    });
   }
 };
+
+exports.onCreatePage = async ({ page, actions }) => {
+  if (page.path === "/_optional/") {
+    deletePage(page);
+    return;
+  }
+
+  const { createPage, deletePage } = actions;
+  const regex = /^.+\.([aA-zZ]{2})\/.*$/;
+  // Check if the page is a localized 404
+  if (page.path.match(regex)) {
+    const oldPage = { ...page };
+
+    // Get the language code from the path, and match all paths
+    // starting with this code (apart from other valid paths)
+    const langCode = regex.exec(page.path)[1] || languages.defaultLangKey;
+    const isDefaultLanguage = languages.defaultLangKey === langCode;
+
+    // page.matchPath = isDefaultLanguage ? `/*` : `/${langCode}/*`;
+
+    let newPath = isDefaultLanguage
+      ? `${page.path.replace(`.${langCode}`, "")}`
+      : `/${langCode}${page.path.replace(`.${langCode}`, "")}`;
+
+    if (newPath.endsWith("/index/"))
+      newPath = newPath.substring(0, newPath.length - 7);
+
+    console.log(`${page.path} -> ${newPath}`);
+
+    // Recreate the modified page
+    deletePage(oldPage);
+    createPage({
+      ...page,
+      path: newPath
+    });
+  }
+};
+
+// function replaceLanguagePath(path) {
+//   var langCode = path.substring(path.length - 2);
+
+//   if (langCode === languages.defaultLangKey)
+//     return path.substring(0, path.length - 3);
+
+//   if (languages.langs.indexOf(langCode) !== -1) {
+//     return path.substring(0, path.length - 3);
+//   }
+
+//   return path;
+// }
+
 // exports.createSchemaCustomization = ({ actions }) => {
 //   const { createTypes } = actions;
 //   const typeDefs = `

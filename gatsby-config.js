@@ -1,3 +1,5 @@
+const languages = require("./src/data/languages");
+
 module.exports = {
   siteMetadata: {
     title: "Top Bike Tours Portugal",
@@ -65,6 +67,32 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    // {
+    //   resolve: "gatsby-plugin-i18n",
+    //   options: {
+    //     langKeyDefault: "en",
+    //     prefixDefault: false,
+    //     langKeyForNull: "any",
+    //     useLangKeyLayout: false,
+    //     markdownRemark: {
+    //       postPage: "src/templates/blog-post.js",
+    //       query: `
+    //         {
+    //           allMarkdownRemark {
+    //             edges {
+    //               node {
+    //                 fields {
+    //                   slug,
+    //                   langKey
+    //                 }
+    //               }
+    //             }
+    //           }
+    //         }
+    //       `
+    //     }
+    //   }
+    // },
     "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -85,8 +113,22 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/content`,
         name: "pages"
+      }
+    },
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     path: `${__dirname}/content/pages`,
+    //     name: "pages"
+    //   }
+    // },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/content/posts`,
+        name: "posts"
       }
     },
     {
@@ -96,8 +138,6 @@ module.exports = {
         name: "images"
       }
     },
-    
-    `gatsby-mdx`,
     {
       resolve: `gatsby-plugin-material-ui`,
       options: {
@@ -137,6 +177,20 @@ module.exports = {
         ]
       }
     },
+    // {
+    //   resolve: `gatsby-mdx`,
+    //   options: {
+    //     extensions: [".mdx", ".md"],
+    //     defaultLayouts: {
+    //       // This entry template will switch the page template based on
+    //       // a frontmatter value provided in the CMS, allowing users to
+    //       // choose different template layouts.
+    //       default: require.resolve(
+    //         `${__dirname}/src/page-templates/cms-entry.template.js`
+    //       )
+    //     }
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
@@ -147,7 +201,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name:'data',
+        name: "data",
         path: `./src/data/`
       }
     },

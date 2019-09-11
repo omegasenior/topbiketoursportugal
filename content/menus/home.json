@@ -1,0 +1,75 @@
+{
+    "title": "Home",
+    "pt": {
+        "links": [
+            {
+                "display": "Home",
+                "link": "/pt",
+                "description": "Ir para a homepage",
+                "enable": true
+            },
+            {
+                "display": "Cicloturismo",
+                "link": "/pt/cicloturismo",
+                "description": "Ver oferta cicloturismo",
+                "enable": true
+            },
+            {
+                "display": "Blog",
+                "link": "/pt/blog",
+                "enable": true
+            },
+            {
+                "display": "Calendário",
+                "link": "/pt/calendario-tours",
+                "description": "Ver oferta cicloturismo",
+                "enable": true
+            },
+            {
+                "display": "Contactos",
+                "link": "/pt/contacte-nos",
+                "enable": true
+            },
+            {
+                "display": "Sobre nós",
+                "link": "/pt/sobre-nos",
+                "enable": true
+            }
+        ]
+    },
+    "en": {
+        "links": [
+            {
+                "display": "Home",
+                "link": "/",
+                "description": "Go to homepage",
+                "enable": true
+            },
+            {
+                "display": "Bike Tours",
+                "link": "/bike-tours",
+                "enable": true
+            },
+            {
+                "display": "Blog",
+                "link": "/blog",
+                "enable": true
+            },
+            {
+                "display": "Calendar",
+                "link": "/tours-calendar",
+                "enable": true
+            },
+            {
+                "display": "Contacts",
+                "link": "/contact-us",
+                "enable": true
+            },
+            {
+                "display": "About",
+                "link": "/about",
+                "enable": true
+            }
+        ]
+    }
+}

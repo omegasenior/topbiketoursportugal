@@ -21,7 +21,7 @@ export default function Tourhighlights() {
           <Style.SameHeightColumn xs={1} sm={6} md={4} my={10}>
             <Style.Tour>
               <Style.ToursImageContainer>
-                <Style.ToursImage src={img_tour_3} height={285} />
+                <Style.ToursImage src={img_tour_3} />
               </Style.ToursImageContainer>
               <Style.TourTitle>The Silver Coast - Route 1</Style.TourTitle>
               <Style.TourResume>
