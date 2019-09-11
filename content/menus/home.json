@@ -1,0 +1,13 @@
+{
+  "title": "Home",
+  "languages": {
+    "code": "PT",
+    "links": [
+      {
+        "display": "Home",
+        "link": "/pt",
+        "description": "Ir para a homepage"
+      }
+    ]
+  }
+}
