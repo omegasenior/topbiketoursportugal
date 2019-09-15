@@ -49,35 +49,45 @@ exports.createPages = ({ actions, graphql }) => {
       const {
         node: { templateKey, path: uri, id }
       } = edge;
-      createPage({
-        path: uri,
-        component: path.resolve(`src/templates/${String(templateKey)}.js`),
-        // additional data can be passed via context
-        context: {
-          id
-        }
-      });
+      try {
+        createPage({
+          path: uri,
+          component: path.resolve(`src/templates/${String(templateKey)}.js`),
+          // additional data can be passed via context
+          context: {
+            id
+          }
+        });
+      } catch (error) {
+        console.log(templateKey);
+        throw error;
+      }
     });
 
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach(edge => {
       const id = edge.node.id;
-      createPage({
-        path:
-          edge.node.frontmatter.path ||
-          edge.node.fields.localizedPath ||
-          edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        languages: [],
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id
-        }
-      });
+      try {
+        createPage({
+          path:
+            edge.node.frontmatter.path ||
+            edge.node.fields.localizedPath ||
+            edge.node.fields.slug,
+          tags: edge.node.frontmatter.tags,
+          languages: [],
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id
+          }
+        });
+      } catch (error) {
+        console.log(edge.node.frontmatter.templateKey);
+        throw error;
+      }
     });
 
     // Tag pages:
@@ -176,12 +186,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 };
 
 exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage, deletePage } = actions;
   if (page.path === "/_optional/") {
     deletePage(page);
     return;
   }
 
-  const { createPage, deletePage } = actions;
   const regex = /^.+\.([aA-zZ]{2})\/.*$/;
   // Check if the page is a localized 404
   if (page.path.match(regex)) {

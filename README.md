@@ -60,23 +60,3 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 ## MDX
 https://github.com/renvrant/gatsby-mdx-netlify-cms-starter
 
-## Themes
-
-http://themes.themegoods.com/grandtour/demo/tours/tour-3-columns-grid/
-http://travelwp.physcode.com/tour-destination/brazil/
-https://voyage.mikado-themes.com/landing/
-
-https://themes.waituk.com/entrada-intro/
-https://themes.waituk.com/entrada-default/product/hiking-trip-to-mountain/
-http://wp.swlabs.co/exploore/tours/madrid-tour/
-
-https://demo.goodlayers.com/tourpackage/europe/
-https://demo.goodlayers.com/traveltour/landing/
-https://demo.goodlayers.com/traveltour/hiking/tour-grid-3-columns/
-https://demo.goodlayers.com/traveltour/main4/tour-grid-2-columns/
-http://adventure-tours.themedelight.com/tours/
-
-
-## City Tours
-
-https://komo.vamtam.com/ - https://komo.vamtam.com/theme-presentation/

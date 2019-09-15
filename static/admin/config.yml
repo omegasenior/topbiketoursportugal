@@ -485,7 +485,15 @@ collections:
       - { label: Template, name: template, widget: hidden, default: Banner }
       - { label: Title, name: title, widget: markdown }
       - { label: Description, name: description, widget: markdown }
-      - { label: GoTo, name: goto, widget: object }
+      - {
+          label: GoTo,
+          name: goto,
+          widget: object,
+          fields: 
+            - { label: Link, name: link, widget: string }
+            - { label: LinkText, name: linktext, widget: string }
+            - { label: LinkTitle, name: linktitle, widget: string }
+        }
       - { label: Image, name: image, widget: image, required: true }
       # - label: 'Meta'
       #   required: false
