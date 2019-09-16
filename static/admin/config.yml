@@ -489,10 +489,12 @@ collections:
           label: GoTo,
           name: goto,
           widget: object,
-          fields: 
-            - { label: Link, name: link, widget: string }
-            - { label: LinkText, name: linktext, widget: string }
-            - { label: LinkTitle, name: linktitle, widget: string }
+          fields:
+            [
+              { label: Link, name: link, widget: string },
+              { label: LinkText, name: linktext, widget: string },
+              { label: LinkTitle, name: linktitle, widget: string },
+            ]
         }
       - { label: Image, name: image, widget: image, required: true }
       # - label: 'Meta'
