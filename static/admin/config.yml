@@ -4,6 +4,26 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - name: languages
+    label: Languages
+    folder: content/languages
+    create: false
+    delete: false
+    fields:
+    - label: "Title"
+      name: "title"
+      widget: "string"
+    - label: "Code"
+      name: "code"
+      widget: "string"
+    - label: "Icon"
+      name: "icon"
+      default: false
+      widget: "image"
+    - label: "Predefinida"
+      name: "isDefault"
+      default: false
+      widget: "boolean"
   - name: settings
     label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
@@ -14,7 +34,24 @@ collections:
         label: "Global Settings"
         name: "global-settings"
         fields:
-          - { label: Site Title, name: siteTitle, widget: string }
+          - {
+              label: Site Title,
+              name: siteTitle,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: "English",
+                    name: en,
+                    widget: string,
+                  },
+                  {
+                    label: "Portuguese",
+                    name: pt,
+                    widget: string,
+                  },
+                ],
+            }
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - {
               label: Site Description,
@@ -33,6 +70,16 @@ collections:
               widget: string,
               required: false,
             }
+          - {
+              label: Languages,
+              name: languages,
+              delete: false,
+              widget: list,
+              fields: [
+                 { label: Language, name: language, widget: "string" },
+                 { label: Code, name: code, widget: "string" }
+                ]
+          }
   - name: menus
     label: Menus
     extension: json
@@ -478,12 +525,13 @@ collections:
     editor:
       preview: false
     folder: content/banners
-    slug: "{{slug}}"
+    slug: "{{title-language}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: key, name: key, widget: uuid }
       - { label: Template, name: template, widget: hidden, default: Banner }
       - { label: Title, name: title, widget: markdown }
+      - { label: Title, name: language, widget: markdown }
       - { label: Description, name: description, widget: markdown }
       - {
           label: GoTo,
@@ -494,7 +542,7 @@ collections:
               { label: Link, name: link, widget: string },
               { label: LinkText, name: linktext, widget: string },
               { label: LinkTitle, name: linktitle, widget: string },
-            ]
+            ],
         }
       - { label: Image, name: image, widget: image, required: true }
       # - label: 'Meta'

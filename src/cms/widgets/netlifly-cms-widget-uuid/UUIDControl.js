@@ -14,7 +14,7 @@ export default class UUIDControl extends Component {
   };
 
   static defaultProps = {
-    value: uuidv4()
+    value: ''
   };
 
   render() {
