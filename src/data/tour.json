@@ -220,6 +220,9 @@
                 "image": "../img/silver-coast-2/20190106_153320.jpg",
                 "name": "Silver Coast"
             }
+        ],
+        "prices": [
+            {}
         ]
     },
     {
@@ -448,7 +451,8 @@
             }
         ],
         "gallery": []
-    },    {
+    },
+    {
         "templateKey": "tour-gen",
         "highlight": "1",
         "path": "/silver-coast-route-5",

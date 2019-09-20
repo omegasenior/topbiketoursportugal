@@ -206,36 +206,134 @@ collections:
     extension: json
     format: json
     label: Tours
-    folder: src/pages/tours
+    folder: content/pages/tours
     create: true
     slug: "{{slug}}"
     fields:
       - label: Template Key
         name: templateKey
         widget: hidden
-        default: tour-page
+        default: tour-gen
+      - label: Image
+        name: image
+        widget: image     
       - label: Title
         name: title
-        widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
+        widget: markdown
+      - label: Sub Title
+        name: subTitle
+        widget: markdown
       - label: Description
         name: description
         widget: markdown
       - label: Body
         name: body
-        widget: markdown
+        widget: markdown     
+      - label: Publish Date
+        name: date
+        widget: datetime
       - label: Tags
         name: tags
         widget: list
-      - label: Waypoints
-        name: waypoints
+      - label: "Meta"
+        required: false
+        name: "meta"
+        widget: "object"
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+      - label: Group SizeMax
+        name: groupSizeMax
+        required: false
+        widget: number
+      - label: Group SizeMin
+        name: groupSizeMin
+        required: false
+        widget: number
+
+      - label: minAge
+        name: minAge
+        required: false
+        widget: number
+      - label: skillLevel
+        name: skillLevel
+        required: false
+        widget: number
+      
+      - label: distance
+        name: distance
+        required: false
+        widget: number
+      - label: distanceUnit
+        name: distanceUnit
+        required: false
+        widget: string
+      
+      - label: duration
+        name: duration
+        required: false
+        widget: number
+      - label: durationUnit
+        name: durationUnit
+        required: false
+        widget: string
+
+      - label: difficulty
+        name: difficulty
+        required: false
+        widget: number        
+      - label: physicality
+        name: physicality
+        required: false
+        widget: number
+      - label: Rating
+        name: rating
+        widget: number  
+      - label: Rating Count
+        name: ratingCount
+        widget: number  
+      - label: Rating Link
+        name: ratingLink
+        widget: string     
+      - label: Path
+        name: path
+        widget: string
+      - label: Order
+        name: order
+        widget: number
+      - label: Itinerary
+        name: itinerary
         widget: list
         fields:
-          - label: Point
-            name: lat
-            widget: map
+          - label: day
+            name: day
+            widget: string
+          - label: title
+            name: title
+            widget: string
+          - label: description
+            name: description
+            widget: string
+          - label: Location
+            name: location
+            widget: object
+            fields:
+                label: geo
+                name: geo
+                widget: map
   - name: toursj
     extension: json
     format: json
