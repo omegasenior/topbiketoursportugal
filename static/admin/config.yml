@@ -34,24 +34,20 @@ collections:
         label: "Global Settings"
         name: "global-settings"
         fields:
-          - {
-              label: Site Title,
-              name: siteTitle,
-              widget: object,
-              fields:
-                [
-                  {
-                    label: "English",
-                    name: en,
-                    widget: string,
-                  },
-                  {
-                    label: "Portuguese",
-                    name: pt,
-                    widget: string,
-                  },
-                ],
-            }
+          - label: "English"
+            name: en
+            widget: "object"
+            fields:
+              - label: Title
+                name: title
+                widget: string
+          - label: "Portugues"
+            name: pt
+            widget: "object"
+            fields:
+              - label: Title
+                name: title
+                widget: string
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - {
               label: Site Description,
@@ -145,7 +141,7 @@ collections:
     label: Blog
     folder: src/pages/blog
     create: true
-    slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
+    slug: "{{slug}}-{{language}}-{{year}}-{{month}}-{{day}}"
     fields:
       - label: Template Key
         name: templateKey
@@ -154,6 +150,14 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: "Language"
+        name: "language"
+        widget: "relation"
+        collection: "languages"
+        searchFields: ["Title"]
+        valueField: "code"
+        default: 'en'
+        required: true
       - label: "Status"
         name: "status"
         widget: "select"
@@ -176,6 +180,7 @@ collections:
         name: body
         widget: markdown
       - label: Tags
+        required: false
         name: tags
         widget: list
       - label: "Meta"
@@ -531,7 +536,7 @@ collections:
       - { label: key, name: key, widget: uuid }
       - { label: Template, name: template, widget: hidden, default: Banner }
       - { label: Title, name: title, widget: markdown }
-      - { label: Title, name: language, widget: markdown }
+      - { label: Language, name: language, widget: markdown }
       - { label: Description, name: description, widget: markdown }
       - {
           label: GoTo,

@@ -14,7 +14,7 @@ export default class UUIDControl extends Component {
   };
 
   static defaultProps = {
-    value: ''
+    value: ""
   };
 
   render() {
@@ -29,14 +29,17 @@ export default class UUIDControl extends Component {
 
     return (
       <input
+        readOnly={true}
         type="text"
         id={forID}
         className={classNameWrapper}
         value={value || uuidv4()}
         onChange={e => onChange(e.target.value)}
-        onFocus={setActiveStyle}
-        onBlur={setInactiveStyle}
+       
       />
+
+      // onFocus={setActiveStyle}
+      // onBlur={setInactiveStyle}
     );
   }
 }
