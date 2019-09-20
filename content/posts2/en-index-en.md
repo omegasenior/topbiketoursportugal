@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: /teste
 title: teste
 language: en
 status: Published
