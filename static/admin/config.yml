@@ -167,7 +167,7 @@ collections:
     extension: json
     format: json
     label: Tours
-    folder: content/tours
+    folder: content/tours2
     create: true
     slug: "{{slug}}"
     fields:
@@ -269,9 +269,11 @@ collections:
       - label: Rating Link
         name: ratingLink
         widget: string
+        required: false
       - label: Path
         name: path
         widget: string
+        required: false
       - label: Order
         name: order
         widget: number
@@ -288,13 +290,53 @@ collections:
           - label: description
             name: description
             widget: string
+            required: false
           - label: Location
             name: location
-            widget: object
+            widget: map
+            required: false
+      - label: Gallery
+        name: gallery
+        widget: list
+        fields:
+          - label: alt
+            name: alt
+            widget: string
+          - label: image
+            name: image
+            widget: image
+      - label: Price Table
+        name: pricing
+        widget: list
+        fields:
+          - label: Package
+            name: package
+            widget: string
+          - label: type
+            name: type
+            widget: string
+          - label: price
+            name: price
+            widget: number
+          - label: discount
+            name: discount
+            deafult: 0
+            widget: number
+            required: false
+          - label: High Season Price Supplement
+            name: highSeasonPriceSupplement
+            default: 100
+            widget: number
+          - label: Package Description
+            name: packageContents
+            widget: list
             fields:
-              label: geo
-              name: geo
-              widget: map
+              - label: title
+                name: title
+                widget: string
+              - label: Value
+                name: value
+                widget: string
   - name: home_banners
     label: Home Banners
     folder: src/banners/home
@@ -448,10 +490,36 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: about-page
+            default: bike-hollidays
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "en"
+            }
+          - {
+              label: "Language",
+              name: "languageKey",
+              widget: hidden,
+              default: "en"
+            }
+          - {
+              label: "Language",
+              name: "lang",
+              widget: hidden,
+              default: "en"
+            }
           - label: Title
             name: title
             widget: string
+          - label: Image
+            name: image
+            widget: image
+            required: false
+          - label: Path
+            name: path
+            widget: string
+            required: false
           - label: Body
             name: body
             widget: markdown
@@ -462,9 +530,33 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: about-page
+            default: bike-hollidays
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "pt"
+            }
+          - {
+              label: "Language",
+              name: "languageKey",
+              widget: hidden,
+              default: "pt"
+            }
+          - {
+              label: "Language",
+              name: "lang",
+              widget: hidden,
+              default: "pt"
+            }
           - label: Title
             name: title
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+          - label: Path
+            name: path
             widget: string
           - label: Body
             name: body

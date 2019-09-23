@@ -124,7 +124,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
     render={data => {
       const { siteTitle, socialMediaCard, googleTrackingId } =
         data.settingsYaml || {};
-
+      const menu = data.menu[language || "en"].links;
       return (
         <React.Fragment>
           <GlobalStyle />
@@ -158,7 +158,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
           />
           <LanguageSwitcher />
           <header>
-            <NavbarComponent />
+            <NavbarComponent menu={menu} />
             <Banners banners={data.banners} />
           </header>
           <>{children}</>

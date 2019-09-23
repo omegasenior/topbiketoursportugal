@@ -1,20 +1,13 @@
 ---
-templateKey: 'home-page'
-path: /
-title: Home
+templateKey: 'bike-hollidays'
+path: /bike-tours
+title: Bike Hollidays
 langKey: en
 lang: en
 language: en
 meta:
   description: This is a meta description.
-  title: Home Page
-tourHighlights: >-
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem
-    ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-    consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-    Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa
+  title: Bike Hollidays
 ---
 
 ## Why Choose Us
