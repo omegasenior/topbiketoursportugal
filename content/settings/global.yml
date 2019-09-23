@@ -11,4 +11,21 @@ pt:
 siteUrl: 'https://topbiketoursportugal.com'
 socialMediaCard:
   image: /img/logo.svg
+socialNetworks:
+  - display: Facebook
+    icon: facebook
+    link: 'https://www.facebook.com/topbiketoursportugal/'
+  - display: instagram
+    icon: instagram
+    link: 'https://www.instagram.com/topbiketoursportugal/'
+  - display: Twitter
+    icon: twitter
+    link: 'https://twitter.com/FoldnVisit'
+  - display: youtube
+    icon: youtube
+    link: 'https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A'
+  - display: tripadvisor
+    icon: tripadvisor
+    link: >-
+      https://www.tripadvisor.co.uk/Attraction_Review-g189180-d4105907-Reviews-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 googleTrackingId: UA-106573860-1
