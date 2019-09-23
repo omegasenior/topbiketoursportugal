@@ -1,8 +1,7 @@
-siteTitle:
-  - {
-    en: 'Portugal Bike tours | Top Bike tours Portugal',
-    pt: 'Cicloturismo em Portugal | Porto | Top Biketours Portugal'
-  }
+en:
+  title: teste
+pt:
+  title: stes
 siteUrl: 'https://topbiketoursportugal.com'
 siteDescription: blba
 socialMediaCard:
