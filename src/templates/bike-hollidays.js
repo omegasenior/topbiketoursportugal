@@ -120,7 +120,7 @@ const TourDiscountPrice = styled.div`
 function ToursListPage({ data }) {
   const tours = data.allTourJson.nodes;
   return (
-    <Layout>
+    <Layout language={tours.language}>
       <Helmet titleTemplate="%s | `Bike hollidays`">
         <title>Bike hollidays</title>
         <meta name="description" content="Bike Hollidays" />
@@ -206,6 +206,7 @@ export const pageQuery = graphql`
         distance
         duration
         minAge
+        language
         image {
           name
           src {

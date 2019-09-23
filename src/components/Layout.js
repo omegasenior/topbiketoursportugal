@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import NavbarComponent from "../components/Navbar";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
@@ -74,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const TemplateWrapper = ({ children, meta, title }) => (
+const TemplateWrapper = ({ children, meta, title, language }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery2 {
@@ -94,7 +95,7 @@ const TemplateWrapper = ({ children, meta, title }) => (
         <React.Fragment>
           <GlobalStyle />
           <Helmet>
-            <html lang="en" />
+            <html lang={language || `en`} />
             <title>{data.site.siteMetadata.title}</title>
             <meta
               name="description"
@@ -123,6 +124,7 @@ const TemplateWrapper = ({ children, meta, title }) => (
           />
           <header>
             <NavbarComponent />
+            <LanguageSwitcher/>
           </header>
           <>{children}</>
           <Footer />

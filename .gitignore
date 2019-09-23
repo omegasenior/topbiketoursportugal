@@ -9,3 +9,4 @@ static/admin/*.bundle.*
 yarn-error.log
 
 src/img/*.zip
+readme.ignore.md

@@ -1,4 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
+import _filter from "lodash/filter";
+import _first from "lodash/first";
+
 import { Link, StaticQuery, graphql } from "gatsby";
 import { Nav, Navbar } from "styled-bootstrap-components";
 // import Img from "gatsby-image";
@@ -67,7 +71,7 @@ const StyledNavbar = styled(Navbar)`
 
     &:hover:before {
       visibility: visible;
-      transform: scaleX(1);      
+      transform: scaleX(1);
     }
   }
 
@@ -110,7 +114,7 @@ const NavbarComponent = class extends React.Component {
   navBar = React.createRef();
 
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       hidden: true,
       stickyNav: false
@@ -150,6 +154,12 @@ const NavbarComponent = class extends React.Component {
   }
 
   render() {
+    const defaultLink = _first(
+      _filter(this.props.menu, item => item.isHome === true)
+    ) || {
+      link: "/"
+    };
+    // console.log(JSON.stringify(menu));
     var hidden = this.state.hidden;
     return (
       <StaticQuery
@@ -170,7 +180,7 @@ const NavbarComponent = class extends React.Component {
           <>
             <StyledNavbar expandSm ref={this.navBar}>
               <Nav>
-                <Link to="/" className="logo">
+                <Link to={defaultLink.link} className="logo">
                   {/* <Img
                     fixed={data.file.childImageSharp.fixed}
                     alt="Top Bike Tours Portugal"
@@ -188,14 +198,23 @@ const NavbarComponent = class extends React.Component {
                 </StyledBurgerButton>
               </Nav>
               <Nav collapse expandSm hidden={hidden}>
-                <Link to="/">Home</Link>
-                <Link to="/bike-hollidays">Bike Holidays</Link>
+                {this.props &&
+                  this.props.menu &&
+                  this.props.menu.map((menuItem, index) => (
+                    <Link key={`mi${index}`} to={menuItem.link}>
+                      {menuItem.display}
+                    </Link>
+                  ))}
+                <Link to="/">English</Link>
+                <Link to="/pt">Português</Link>
+                {/* <Link to="/">Home</Link> */}
+                {/* <Link to="/bike-hollidays">Bike Holidays</Link> */}
                 {/* <Link to="/city-tours">City Tours</Link> */}
-                <Link to="/blog">Blog</Link>
-                <Link to="/tour-calendar">Calendar</Link>
+                {/* <Link to="/blog">Blog</Link> */}
+                {/* <Link to="/tour-calendar">Calendar</Link> */}
                 {/* <Link to="/rental">Rental</Link> */}
-                <Link to="/contact">Contact</Link>
-                <Link to="/about">About</Link>
+                {/* <Link to="/contact">Contact</Link> */}
+                {/* <Link to="/about">About</Link> */}
               </Nav>
             </StyledNavbar>
           </>
@@ -204,5 +223,16 @@ const NavbarComponent = class extends React.Component {
     );
   }
 };
+
+// NavbarComponent.propsTypes = {
+//   menu: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       description: PropTypes.string,
+//       display: PropTypes.string,
+//       enable: PropTypes.string,
+//       link: PropTypes.string
+//     })
+//   )
+// };
 
 export default NavbarComponent;

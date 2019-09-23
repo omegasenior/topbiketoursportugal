@@ -1,10 +1,13 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import NavbarComponent from "../components/Navbar";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
@@ -75,68 +78,111 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const TemplateWrapper = ({ children, meta, title }) => (
-  <StaticQuery
-    query={graphql`
-      query HeadingQuery {
-        site {
-          siteMetadata {
-            title
-            description
+const TemplateWrapper = ({ children, meta, title, language }) => {
+  // console.log(language);
+  return (
+    <StaticQuery
+      query={graphql`
+        query HeadingQuery {
+          site {
+            siteMetadata {
+              title
+              description
+            }
+          }
+          menu: menusJson(title: { eq: "Home" }) {
+            en {
+              links {
+                description
+                display
+                enable
+                link
+              }
+            }
+            pt {
+              links {
+                description
+                display
+                enable
+                link
+              }
+            }
           }
         }
-      }
-    `}
-    render={data => {
-      const { siteTitle, socialMediaCard, googleTrackingId } =
-        data.settingsYaml || {};
-      return (
-        <React.Fragment>
-          <GlobalStyle />
-          <Helmet>
-            <html lang="en" />
-            <title>{data.site.siteMetadata.title}</title>
-            <meta
-              name="description"
-              content={data.site.siteMetadata.description}
-            />
-            <meta charset="utf-8" />
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1, shrink-to-fit=no"
-            />
+      `}
+      render={data => {
+        const { siteTitle, socialMediaCard, googleTrackingId } =
+          data.settingsYaml || {};
+        const menu = data.menu[language || "en"].links;
 
-            <meta name="theme-color" content="#fff" />
+        // console.log(JSON.stringify(language));
+        // console.log(JSON.stringify(data));
 
-            <meta property="og:type" content="business.business" />
-            <meta property="og:title" content={data.site.siteMetadata.title} />
-            <meta property="og:url" content="/" />
-            <meta property="og:image" content="/img/og-image.jpg" />
-          </Helmet>
-          <Meta
-            googleTrackingId={googleTrackingId}
-            absoluteImageUrl={
-              socialMediaCard && socialMediaCard.image && socialMediaCard.image
-            }
-            {...meta}
-            {...data.settingsYaml}
-          />
-          <header>
-            <NavbarComponent />
-            <Banner></Banner>
-          </header>
-          <>{children}</>
-          <Footer />
-          <Scroll>
-            <ScrollUpButton aria-label="Scroll to top" role="navigation">
-              <ChevronUp>Top</ChevronUp>
-              <span>Top</span>
-            </ScrollUpButton>
-          </Scroll>
-        </React.Fragment>
-      );
-    }}
-  />
-);
+        return (
+          <React.Fragment>
+            <GlobalStyle />
+            <Helmet>
+              <html lang={language || `en`} />
+              <title>{data.site.siteMetadata.title}</title>
+              <meta
+                name="description"
+                content={data.site.siteMetadata.description}
+              />
+              <meta charset="utf-8" />
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no"
+              />
+
+              <meta name="theme-color" content="#fff" />
+
+              <meta property="og:type" content="business.business" />
+              <meta
+                property="og:title"
+                content={data.site.siteMetadata.title}
+              />
+              <meta property="og:url" content="/" />
+              <meta property="og:image" content="/img/og-image.jpg" />
+            </Helmet>
+            <Meta
+              googleTrackingId={googleTrackingId}
+              absoluteImageUrl={
+                socialMediaCard &&
+                socialMediaCard.image &&
+                socialMediaCard.image
+              }
+              {...meta}
+              {...data.settingsYaml}
+            />
+            <header>
+              <NavbarComponent menu={menu} />
+              <LanguageSwitcher />
+              <Banner></Banner>
+            </header>
+            <>{children}</>
+            <Footer />
+            <Scroll>
+              <ScrollUpButton aria-label="Scroll to top" role="navigation">
+                <ChevronUp>Top</ChevronUp>
+                <span>Top</span>
+              </ScrollUpButton>
+            </Scroll>
+          </React.Fragment>
+        );
+      }}
+    />
+  );
+};
+
+TemplateWrapper.propsTypes = {
+  menu: PropTypes.arrayOf(
+    PropTypes.shape({
+      description: PropTypes.string,
+      display: PropTypes.string,
+      enable: PropTypes.string,
+      link: PropTypes.string
+    })
+  )
+};
 
 export default TemplateWrapper;

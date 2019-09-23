@@ -25,8 +25,8 @@ const ImageWrapper = styled.div`
 //https://blog.usejournal.com/building-highly-performant-masonry-layouts-with-gatsby-js-54115acc3e72
 const TourGallery = ({ tour: { gallery } }) => (
   <GalleryContainer>
-    {gallery.map(item => (
-      <ImageWrapper>
+    {gallery.map((item, index) => (
+      <ImageWrapper key={`tg${index}`}>
         <Img
           key={item.image.childImageSharp.id}
           fluid={item.image.childImageSharp.fluid}

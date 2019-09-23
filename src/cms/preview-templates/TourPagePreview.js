@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { TourPageTemplate } from '../../templates/tours-page'
+// import { TourPageTemplate } from '../../templates/tours-page'
 
 const TourPagePreview = ({ entry, getAsset }) => {
 //   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])

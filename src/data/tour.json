@@ -1,6 +1,7 @@
 [
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "1",
         "path": "/silver-coast-route-1",
         "title": "The Silver Coast - Route 1",
@@ -227,6 +228,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 2",
         "path": "/silver-coast-route-2",
@@ -306,6 +308,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 3",
         "path": "/silver-coast-route-3",
@@ -380,6 +383,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 4",
         "path": "/silver-coast-route-4",
@@ -454,6 +458,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "1",
         "path": "/silver-coast-route-5",
         "title": "The Silver Coast - Route 5",
@@ -677,6 +682,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 6",
         "path": "/silver-coast-route-6",
@@ -756,6 +762,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 7",
         "path": "/silver-coast-route-7",
@@ -830,6 +837,7 @@
     },
     {
         "templateKey": "tour-gen",
+        "language": "en",
         "highlight": "2",
         "title": "The Silver Coast - Route 8",
         "path": "/silver-coast-route-8",
