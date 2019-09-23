@@ -1,0 +1,224 @@
+{
+    "templateKey": "tour-gen",
+    "language": "en",
+    "highlight": "1",
+    "path": "/silver-coast-route-5",
+    "title": "The Silver Coast - Route 5",
+    "subTitle": "The second and third largest cities of Portugal joined by bike",
+    "description": "Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the Foz of the River Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon. This 7-day bike ride you are going through one of the most important links along the coast between the city of Porto and the \"capital\" of the central region of Portugal, Coimbra. See some characteristics that make Oporto one of the most important (culturally and historically), doing the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the \"city of knowledge \"Coimbra, famous for its noble university, historical monuments and of course Coimbra Fado.",
+    "slug": "silvercoast-1",
+    "image": {
+        "src": "../img/silver-coast-2/20190106_095810.jpg",
+        "name": "teste"
+    },
+    "tags": [
+        "Porto",
+        "Coimbra"
+    ],
+    "groupSizeMax": "12",
+    "groupSizeMin": "1",
+    "minAge": "12+",
+    "skillLevel": 7,
+    "difficulty": 5,
+    "physicality": 7,
+    "distance": 243,
+    "distanceUnit": "km",
+    "duration": 7,
+    "durationUnit": "days",
+    "price": 1500,
+    "discountPrice": null,
+    "rating": 4.5,
+    "ratingCount": 600,
+    "ratingLink": "",
+    "itinerary": [
+        {
+            "day": 1,
+            "title": "Day 1 - Porto reception",
+            "description": "On this first day, you will make the coa"
+        },
+        {
+            "day": 2,
+            "title": "Day 2 - Porto - Furadouro (47 Km)",
+            "description": "On this first day, you will make the coast towards the small village of Furadouro. Leaving Porto, you will cross the city center of Porto, heading toward the river through one of the most famous bridges in Portugal. After crossing the Don Luis I bridge, you will enter the city of Vila Nova de Gaia, where you can observe the famous cellars of Porto wine. During this journey you will observe one of the most important icons, the chapel of Senhor da Pedra located in Miramar Beach. Arrival to the city of Espinho famous for its fresh fish, you taste the various fish dishes. Arriving in the city of Ovar, there is the opportunity to taste the famous bread-cake of ovar, the highlight for tourists with a tradition of more than two centuries, and the convent sweets. Being a fishing ground can still taste the famous stews of fish or eels. You will have the opportunity to see the famous Chapel of the Steps, which is classified as a National Interest Monument. You can see over the city several tiles, and thats why the city of Ovar be considered the city's \"Tile Museum\"."
+        },
+        {
+            "day": 3,
+            "title": "Day 3 - Furadouro - Aveiro (45 KM)",
+            "description": "Starting the 3 rd day continue the path along the coast, on the road  N327, towards the city of Aveiro, known as the little Venice of Portugal. Ride several fishing villages, one of which is the town of Torreira. Continuing our way see the famous natural reserve of S. Jacinto dunes where you can observe several species of birds (bird watching). To accomplish the crossing to Aveiro, make the passage via Ferry Boat. Arrive at the famous city of Aveiro can visit the Monastery of Jesus, observe the tiles from the train station and make a boat tour of the Ria de Aveiro."
+        },
+        {
+            "day": 4,
+            "title": "Day 4 - Aveiro - Praia de Mira (40 Km)",
+            "description": "On this route of 48km, you shall know the city of Ílhavo, famous for the manufacture of porcelain Vista Alegre with over 200 years of tradition as well, you can observe the fantastic scenery of the famous Costa Nova do Prado where the beaches are intertwined with the rural, creating a unique environment where is the opportunity to view the famous haystack houses on the waterfront, easily recognized by the paintings on vertical colored bands."
+        },
+        {
+            "day": 5,
+            "title": "Day 5 - Praia de Mira - Figueira da Foz (50 Km)",
+            "description": "Route towards the city of Figueira da Foz, you will be pleased to know the hidden and beautiful the lagoon barrinha also \"fed\" by the Ria de Aveiro. The adventure follows the famous pine forest inserted in the dunes, where the aroma of the trees combines with the sea breeze, quite exploited by sailing boats and windsurfing. Coming finally to the \"Queen of the Silver Coast\", Figueira da Foz, famous for its long beaches, where the beautiful River Mondego flows."
+        },
+        {
+            "day": 6,
+            "title": "Day 6 - Figueira da Foz - Coimbra (55 Km)",
+            "description": "Finally, towards Coimbra, move away from the seaside resort frequented by \"Coimbrenses\" and the Spanish population of the area of Extremadura. In this path of 55km, let us go away from the coast, yet always accompanied by the Mondego River, with headwaters in the highest point of continental Portugal (Serra da Estrela), renowned for its purity and transparency, the scenery will be motivating to get to town Coimbra. Despite the famous fado \"... Coimbra has more charm in the time to say goodbye ...\", you will enjoy the cultural potential to the full, the endless monuments, full of nostalgic fado houses and \"knowledge\", imbued in the university environment where cultivation teaching as most any place in Portugal."
+        },
+        {
+            "day": 7,
+            "title": "Day 7 - Transfer",
+            "description": ""
+        }
+    ],
+    "gallery": [
+        {
+            "image": "../img/silver-coast-2/20190106_095810.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_095842.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_095906.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_095909.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_102859.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_102903.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_103439.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_103443.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_111354.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_111357.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_111949.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112141.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112143.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112306.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112308.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112312.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_112527.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_113752.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_114003.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_114007.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_114009.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_114012.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_114014.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_120909.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_120913.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_143558.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_143601.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_152425.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_152429.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_152437.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_152445.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_152448.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153236.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153243.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153244.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153249.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153250.jpg",
+            "name": "Silver Coast"
+        },
+        {
+            "image": "../img/silver-coast-2/20190106_153320.jpg",
+            "name": "Silver Coast"
+        }
+    ]
+}

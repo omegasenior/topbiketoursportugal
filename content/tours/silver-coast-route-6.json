@@ -1,0 +1,80 @@
+{
+    "templateKey": "tour-gen",
+    "language": "en",
+    "highlight": "2",
+    "title": "The Silver Coast - Route 6",
+    "path": "/silver-coast-route-6",
+    "subTitle": "Discover the richness of nature and the sea by the famous Portuguese coast",
+    "description": "The Cycle Trail of Minho River in 2009 was ranked as the fourth best trail in Europe in 2009, showcases all the amazing Portuguese landscapes, rivers and it even provides you a breathtaking seaside view.  Cycling trough villages considered World Heritage will give you the fulfilment you’re craving. The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km until it reaches Caminha. The natural border between Portugal and Spain lies between Melgaço and the river mouth. The taste of the worldwide known gastronomy and wines are the icing on the cake in this region with such a rich landscape and cultural, historical and architecture heritage. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!",
+    "slug": "silvercoast-2",
+    "image": {
+        "src": "../img/silver-coast-2/20190106_152448.jpg",
+        "name": "teste"
+    },
+    "tags": [
+        "Melgaço",
+        "Valença",
+        "Caminha",
+        "Viana do castelo",
+        "Ponte de Lima",
+        "Arcos de Valdevez"
+    ],
+    "groupSizeMax": "12",
+    "groupSizeMin": "1",
+    "minAge": "12+",
+    "skillLevel": 7,
+    "difficulty": 5,
+    "physicality": 7,
+    "distance": 152,
+    "distanceUnit": "km",
+    "duration": 7,
+    "durationUnit": "days",
+    "price": 1500,
+    "discountPrice": 2000,
+    "rating": 3,
+    "ratingCount": 12,
+    "ratingLink": "",
+    "itinerary": [
+        {
+            "day": 1,
+            "title": "Day 1: Melgaço – Valença (43 km)",
+            "description": "This amazing cycling trip starts alongside the Minho River, in Melgaço, a city in the north of Portugal. Ride on several bicycle paths along the Minho River always with Spain on the other side.Famous for its beautiful landscapes, history, gastronomy and also for producing the well-known and much appreciated green wine caste, “Alvarinho”.Every year this city organizes the “Festa do Alvarinho e do Fumeiro”, a huge event which is national and internationally known, that showcases the local gastronomy (like the Alvarinho green wine) and many other local handmade crafts. Sloping in Monção where the valleys are conducive to the practice of agriculture and viticulture, and it’s possible to find several archaeological finds that testify to a past filled with traces of the passage of different peoples through these lands.Next entering the city of Valença, a historic town in the north of Portugal, located right on the border with Spain, separated by the beautiful Minho River, and surrounded by ramparts atop a hill, boasting a long defensive look. With very old origins, assumingly, the presence of human communities in this territory date since pre-history."
+        },
+        {
+            "day": 2,
+            "title": "Day 2 - Porto - Furadouro (47 Km)",
+            "description": "On this first day, you will make the coast towards the small village of Furadouro. Leaving Porto, you will cross the city center of Porto, heading toward the river through one of the most famous bridges in Portugal. After crossing the Don Luis I bridge, you will enter the city of Vila Nova de Gaia, where you can observe the famous cellars of Porto wine. During this journey you will observe one of the most important icons, the chapel of Senhor da Pedra located in Miramar Beach. Arrival to the city of Espinho famous for its fresh fish, you taste the various fish dishes. Arriving in the city of Ovar, there is the opportunity to taste the famous bread-cake of ovar, the highlight for tourists with a tradition of more than two centuries, and the convent sweets. Being a fishing ground can still taste the famous stews of fish or eels. You will have the opportunity to see the famous Chapel of the Steps, which is classified as a National Interest Monument. You can see over the city several tiles, and thats why the city of Ovar be considered the city's \"Tile Museum\"."
+        },
+        {
+            "day": 3,
+            "title": "Day 3 - Furadouro - Aveiro (45 KM)",
+            "description": "Starting the 3 rd day continue the path along the coast, on the road  N327, towards the city of Aveiro, known as the little Venice of Portugal. Ride several fishing villages, one of which is the town of Torreira. Continuing our way see the famous natural reserve of S. Jacinto dunes where you can observe several species of birds (bird watching). To accomplish the crossing to Aveiro, make the passage via Ferry Boat. Arrive at the famous city of Aveiro can visit the Monastery of Jesus, observe the tiles from the train station and make a boat tour of the Ria de Aveiro."
+        },
+        {
+            "day": 4,
+            "title": "Day 4 - Aveiro - Praia de Mira (40 Km)",
+            "description": "On this route of 48km, you shall know the city of Ílhavo, famous for the manufacture of porcelain Vista Alegre with over 200 years of tradition as well, you can observe the fantastic scenery of the famous Costa Nova do Prado where the beaches are intertwined with the rural, creating a unique environment where is the opportunity to view the famous haystack houses on the waterfront, easily recognized by the paintings on vertical colored bands."
+        },
+        {
+            "day": 5,
+            "title": "Day 5 - Praia de Mira - Figueira da Foz (50 Km)",
+            "description": "Route towards the city of Figueira da Foz, you will be pleased to know the hidden and beautiful the lagoon barrinha also \"fed\" by the Ria de Aveiro. The adventure follows the famous pine forest inserted in the dunes, where the aroma of the trees combines with the sea breeze, quite exploited by sailing boats and windsurfing. Coming finally to the \"Queen of the Silver Coast\", Figueira da Foz, famous for its long beaches, where the beautiful River Mondego flows."
+        },
+        {
+            "day": 6,
+            "title": "Day 6 - Figueira da Foz - Coimbra (55 Km)",
+            "description": "Finally, towards Coimbra, move away from the seaside resort frequented by \"Coimbrenses\" and the Spanish population of the area of Extremadura. In this path of 55km, let us go away from the coast, yet always accompanied by the Mondego River, with headwaters in the highest point of continental Portugal (Serra da Estrela), renowned for its purity and transparency, the scenery will be motivating to get to town Coimbra. Despite the famous fado \"... Coimbra has more charm in the time to say goodbye ...\", you will enjoy the cultural potential to the full, the endless monuments, full of nostalgic fado houses and \"knowledge\", imbued in the university environment where cultivation teaching as most any place in Portugal."
+        },
+        {
+            "day": 7,
+            "title": "Day 7 - Transfer",
+            "description": ""
+        }
+    ],
+    "gallery": [
+        {
+            "image": "../img/silver-coast-2/20190106_095810.jpg",
+            "name": "Silver Coast"
+        }
+    ]
+}

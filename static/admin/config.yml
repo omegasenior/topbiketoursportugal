@@ -167,7 +167,7 @@ collections:
     extension: json
     format: json
     label: Tours
-    folder: content/pages/tours
+    folder: content/tours
     create: true
     slug: "{{slug}}"
     fields:
@@ -348,13 +348,17 @@ collections:
               - label: DescriptionAfter
                 name: descriptionafter
                 widget: markdown
-              - label: Tours
-                name: tours
-                widget: list
-                fields:
-                  - label: Tour
-                    name: tour
-                    widget: string
+              - {
+                  label: "Tours",
+                  name: "tours",
+                  widget: "relation",
+                  collection: "tours",
+                  displayFields: ["title", "language"],
+                  searchFields: ["title"],
+                  valueField: "id",
+                  required: false,
+                  multiple: true,
+                }
           - label: Body
             name: body
             widget: markdown
@@ -393,44 +397,21 @@ collections:
               - label: DescriptionAfter
                 name: descriptionafter
                 widget: markdown
-              - label: Tours
-                name: tours
-                widget: list
-                fields:
-                  - label: Tour
-                    name: tour
-                    widget: string
+              - {
+                  label: "Tours",
+                  name: "tours",
+                  widget: "relation",
+                  collection: "tours",
+                  displayFields: ["title", "language"],
+                  searchFields: ["title"],
+                  valueField: "id",
+                  required: false,
+                  multiple: true,
+                }
           - label: Body
             name: body
             widget: markdown
-      - file: content/pages/about/index.en.md
-        label: AboutEN
-        name: aboutEN
-        fields:
-          - label: Template Key
-            name: templateKey
-            widget: hidden
-            default: about-page
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
-      - file: content/pages/about/index.pt.md
-        label: AboutPT
-        name: aboutPT
-        fields:
-          - label: Template Key
-            name: templateKey
-            widget: hidden
-            default: about-page
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
+
       - file: content/pages/bike-hollidays/index.en.md
         label: Bike Hollidays EN
         name: bikeHollidaysEN
@@ -459,6 +440,152 @@ collections:
           - label: Body
             name: body
             widget: markdown
+
+      - file: content/pages/day-tours/index.en.md
+        label: Day Tours EN
+        name: dayToursEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/day-tours/index.pt.md
+        label: Day Tours PT
+        name: dayToursPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - file: content/pages/blog/index.en.md
+        label: Blog EN
+        name: blogEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/blog/index.pt.md
+        label: Blog PT
+        name: blogPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - file: content/pages/calendar/index.en.md
+        label: Calendar EN
+        name: calendarEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/calendar/index.pt.md
+        label: Calendar PT
+        name: calendarPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - file: content/pages/contact/index.en.md
+        label: Contact EN
+        name: contactEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/contact/index.pt.md
+        label: Contact EN
+        name: contactPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+      - file: content/pages/about/index.en.md
+        label: AboutEN
+        name: aboutEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/pages/about/index.pt.md
+        label: AboutPT
+        name: aboutPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
   - name: banners
     label: Banners
     folder: content/banners
@@ -644,7 +771,7 @@ collections:
                   label: Display,
                   name: display,
                   widget: string,
-                  required: false
+                  required: false,
                 }
               - { label: Link, name: link, widget: string, required: false }
               - { label: Icon, name: icon, widget: string, required: false }
@@ -652,9 +779,9 @@ collections:
                   label: Google Analytics Tracking Id,
                   name: googleTrackingId,
                   widget: string,
-                  required: false
+                  required: false,
                 }
-  - name: "testimonials" 
+  - name: "testimonials"
     label: "Testimonials"
     folder: content/testimonials
     create: true
@@ -670,8 +797,18 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-      - { label: Title, name: title, widget: string, default: "Everything is awesome!" }
-      - { label: Quote, name: quote, widget: string, default: "Everything is awesome!" }
+      - {
+          label: Title,
+          name: title,
+          widget: string,
+          default: "Everything is awesome!",
+        }
+      - {
+          label: Quote,
+          name: quote,
+          widget: string,
+          default: "Everything is awesome!",
+        }
       - label: Date
         name: date
         widget: date
@@ -680,15 +817,25 @@ collections:
         widget: object
         fields:
           - { label: Name, name: name, widget: string, default: "Emmet" }
-          - { label: Country, name: country, widget: string, default: "Portugal", required: false }
-          - { label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg" }
+          - {
+              label: Country,
+              name: country,
+              widget: string,
+              default: "Portugal",
+              required: false,
+            }
+          - {
+              label: Avatar,
+              name: avatar,
+              widget: image,
+              default: "/img/emmet.jpg",
+            }
       - label: "Tour"
         name: "tour"
         widget: "relation"
         collection: "tours"
-        displayFields: ["title", "slug","language"]
+        displayFields: ["title", "slug", "language"]
         searchFields: ["title", "slug"]
         valueField: "id"
         required: false
         multiple: false
-   
