@@ -459,12 +459,11 @@ collections:
           - label: Body
             name: body
             widget: markdown
-
   - name: banners
     label: Banners
     folder: content/banners
-    slug: "{{title}}-{{language}}"
-    summary: "{{language}} - {{title}}"
+    slug: "{{title}}-{{fields.language}}"
+    summary: "{{fields.language}} - {{title}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       # - { label: Template, name: templateKey, widget: hidden, default: Banner }
@@ -639,18 +638,57 @@ collections:
           - label: Social Networks
             name: socialNetworks
             widget: list
+            summary: "{{fields.display}}"
             fields:
-              - { label: Link, name: link, widget: string, required: false }
               - {
                   label: Display,
                   name: display,
                   widget: string,
-                  required: false,
+                  required: false
                 }
+              - { label: Link, name: link, widget: string, required: false }
               - { label: Icon, name: icon, widget: string, required: false }
-          - {
-              label: Google Analytics Tracking Id,
-              name: googleTrackingId,
-              widget: string,
-              required: false,
-            }
+              - {
+                  label: Google Analytics Tracking Id,
+                  name: googleTrackingId,
+                  widget: string,
+                  required: false
+                }
+  - name: "testimonials" 
+    label: "Testimonials"
+    folder: content/testimonials
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.language}} - {{title}}"
+    fields:
+      - label: "Language"
+        name: "language"
+        widget: "relation"
+        collection: "languages"
+        displayFields: ["title"]
+        searchFields: ["title"]
+        valueField: "code"
+        default: "en"
+        required: true
+      - { label: Title, name: title, widget: string, default: "Everything is awesome!" }
+      - { label: Quote, name: quote, widget: string, default: "Everything is awesome!" }
+      - label: Date
+        name: date
+        widget: date
+      - label: Author
+        name: author
+        widget: object
+        fields:
+          - { label: Name, name: name, widget: string, default: "Emmet" }
+          - { label: Country, name: country, widget: string, default: "Portugal", required: false }
+          - { label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg" }
+      - label: "Tour"
+        name: "tour"
+        widget: "relation"
+        collection: "tours"
+        displayFields: ["title", "slug","language"]
+        searchFields: ["title", "slug"]
+        valueField: "id"
+        required: false
+        multiple: false
+   
