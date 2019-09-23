@@ -10,6 +10,7 @@ import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { ChevronUp } from "styled-icons/feather/ChevronUp";
 import Scroll from "../components/Scroll";
+import Banners from "./banners";
 
 const ScrollUpButton = styled.button`
   opacity: 0.7;
@@ -85,6 +86,39 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             description
           }
         }
+        menu: menusJson(title: { eq: "Home" }) {
+          en {
+            links {
+              description
+              display
+              enable
+              link
+            }
+          }
+          pt {
+            links {
+              description
+              display
+              enable
+              link
+            }
+          }
+        }
+        banners: allBannerJson {
+          nodes {
+            id
+            title
+            description
+            button
+            image {
+              childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
       }
     `}
     render={data => {
@@ -122,9 +156,10 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             {...meta}
             {...data.settingsYaml}
           />
+          <LanguageSwitcher />
           <header>
             <NavbarComponent />
-            <LanguageSwitcher/>
+            <Banners banners={data.banners} />
           </header>
           <>{children}</>
           <Footer />

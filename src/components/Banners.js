@@ -254,7 +254,7 @@ const StyledSlider = styled(Slider)`
   }
 `;
 
-const Banner = ({ className }) => (
+const Banners = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -266,7 +266,7 @@ const Banner = ({ className }) => (
             button
             image {
               childImageSharp {
-                fluid(quality: 60, maxWidth: 1920) {
+                fluid(quality: 90, maxWidth: 1920) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -280,6 +280,9 @@ const Banner = ({ className }) => (
       const { nodes: banners } = data.allBannerJson;
       return (
         <StyledSlider>
+          {/* {banners.map(item => (
+            <BannerSlide key={`b${item.id}`} banner={item} />
+          ))} */}
           {banners.map(item => (
             <Container key={item.id}>
               <BackgroundImage fluid={item.image.childImageSharp.fluid}>
@@ -297,4 +300,15 @@ const Banner = ({ className }) => (
   />
 );
 
-export default Banner;
+// const BannerSlide = ({ banner: { id, image, title, description, button } }) => (
+//   <Container>
+//     <BackgroundImage fluid={image.childImageSharp.fluid}>
+//       <Content>
+//         <Title>{title}</Title>
+//         <Subtitle>{description}</Subtitle>
+//         <Action>{button}</Action>
+//       </Content>
+//     </BackgroundImage>
+//   </Container>
+// );
+export default Banners;

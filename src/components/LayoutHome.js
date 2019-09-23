@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import NavbarComponent from "../components/Navbar";
-import Banner from "../components/Banner";
+import Banners from "./banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 import LanguageSwitcher from "../components/LanguageSwitcher";
@@ -108,6 +108,21 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               }
             }
           }
+          banners: allBannerJson {
+            nodes {
+              id
+              title
+              description
+              button
+              image {
+                childImageSharp {
+                  fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
         }
       `}
       render={data => {
@@ -154,10 +169,10 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               {...meta}
               {...data.settingsYaml}
             />
+            <LanguageSwitcher />
             <header>
               <NavbarComponent menu={menu} />
-              <LanguageSwitcher />
-              <Banner></Banner>
+              <Banners banners={data.banners} />
             </header>
             <>{children}</>
             <Footer />

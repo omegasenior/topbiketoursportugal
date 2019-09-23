@@ -462,14 +462,12 @@ collections:
 
   - name: banners
     label: Banners
-    editor:
-      preview: false
     folder: content/banners
     slug: "{{title}}-{{language}}"
     summary: "{{language}} - {{title}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: Banner }
+      # - { label: Template, name: templateKey, widget: hidden, default: Banner }
       - { label: key, name: key, widget: uuid }
       - {
           label: "Language",
