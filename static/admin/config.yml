@@ -485,10 +485,16 @@ collections:
           name: order,
           widget: number,
           required: false,
-          default: 1
+          default: 1,
         }
       - { label: Title, name: title, widget: markdown }
-      - { label: Description, name: description, widget: markdown }
+
+      - {
+          label: Description,
+          name: description,
+          required: false,
+          widget: markdown,
+        }
       - {
           label: GoTo,
           name: goto,
