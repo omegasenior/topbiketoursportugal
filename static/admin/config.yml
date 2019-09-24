@@ -31,6 +31,16 @@ collections:
               - label: Link
                 name: link
                 widget: text
+              - {
+                label: "Pages",
+                name: "page",
+                widget: "relation",
+                collection: ["pages","tours"],
+                displayFields: ["title","language"],
+                searchFields: ["title"],
+                valueField: "id",
+                required: false,
+              }
               - label: Description
                 name: description
                 widget: text
@@ -61,6 +71,16 @@ collections:
               - label: Link
                 name: link
                 widget: text
+              - {
+                label: "Pages",
+                name: "page",
+                widget: "relation",
+                collection: ["pages","tours"],
+                displayFields: ["title","language"],
+                searchFields: ["title"],
+                valueField: "id",
+                required: false,
+              }
               - label: Description
                 name: description
                 widget: text

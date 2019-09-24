@@ -43,7 +43,7 @@
             },
             {
                 "display": "Sobre nós",
-                "link": "/pt/sobre-nos",
+                "link": "/sobre-nos-hire-a-bike",
                 "enable": true,
                 "order": 1,
                 "isHome": false
@@ -90,7 +90,7 @@
             },
             {
                 "display": "About",
-                "link": "/about",
+                "link": "/about-us-biking-travel",
                 "enable": true,
                 "order": 1,
                 "isHome": false
