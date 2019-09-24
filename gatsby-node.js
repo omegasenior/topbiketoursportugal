@@ -217,7 +217,7 @@ exports.onCreatePage = async ({ page, actions }) => {
     deletePage(oldPage);
     createPage({
       ...page,
-      path: newPath
+      path: newPath.replace("/../", "/")
     });
   }
 };
