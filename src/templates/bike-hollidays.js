@@ -131,9 +131,9 @@ function ToursListPage({ data }) {
         <Container>
           <Row>
             {tours.map(tour => (
-              <TourColumn xs={1} sm={4} md={3} my={10}>
+              <TourColumn key={tour.id} xs={1} sm={4} md={4} my={10}>
                 <TourLink to={tour.path}>
-                  <Tour key={tour.id}>
+                  <Tour>
                     <TourImageContainer>
                       <Img fluid={tour.image.src.childImageSharp.fluid} />
                     </TourImageContainer>

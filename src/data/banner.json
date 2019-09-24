@@ -2,6 +2,12 @@
     {
         "title": "Vulputate Mollis Ultricies Fermentum Parturient",
         "subdescriptionTitle": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+        "image": "../../static/img/mountains.jpg",
+        "button": "Read mode"
+    },
+    {
+        "title": "Vulputate Mollis Ultricies Fermentum Parturient",
+        "subdescriptionTitle": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
         "image": "../img/banners/0.jpg",
         "button": "Read mode"
     },

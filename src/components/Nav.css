@@ -87,7 +87,7 @@
 }
 
 .Nav--Group.active .Nav--GroupLinks {
-  max-height: 100vh;
+  max-height: 80vh;
   opacity: 1;
   transition: 0.6s ease all;
 }

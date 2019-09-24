@@ -79,7 +79,7 @@ const Action = styled.button`
 const StyledSlider = styled(Slider)`
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   // background-size: 150%;
   z-index: 1;
@@ -125,7 +125,7 @@ const StyledSlider = styled(Slider)`
     // align-items: center;
     // justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     overflow: hidden;
     &.hidden {

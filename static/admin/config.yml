@@ -35,11 +35,11 @@ collections:
                 label: "Pages",
                 name: "page",
                 widget: "relation",
-                collection: ["pages","tours"],
+                collection: ["pages"],
                 displayFields: ["title","language"],
                 searchFields: ["title"],
                 valueField: "id",
-                required: false,
+                required: false
               }
               - label: Description
                 name: description

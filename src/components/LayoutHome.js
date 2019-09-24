@@ -7,7 +7,6 @@ import NavbarComponent from "../components/Navbar";
 import Banners from "./banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
-import LanguageSwitcher from "../components/LanguageSwitcher";
 
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
@@ -90,7 +89,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               description
             }
           }
-          menu: menusJson(title: { eq: "Home" }) {
+          menu: menusJson(title: {eq: "Home"}, en: {links: {elemMatch: {enable: {eq: true}}}}, pt: {links: {elemMatch: {enable: {eq: true}}}}) {
             en {
               links {
                 description
@@ -169,7 +168,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               {...meta}
               {...data.settingsYaml}
             />
-            <LanguageSwitcher />
+            
             <header>
               <NavbarComponent menu={menu} />
               <Banners banners={data.banners} />

@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import LanguageSwitcher from "./LanguageSwitcher";
 import _filter from "lodash/filter";
 import _first from "lodash/first";
 
@@ -9,11 +10,36 @@ import { Nav, Navbar } from "styled-bootstrap-components";
 // import { Container } from 'styled-container-component';
 import { Button } from "styled-button-component";
 import styled from "styled-components";
+import { Facebook } from "styled-icons/boxicons-logos/Facebook";
+import { Twitter } from "styled-icons/boxicons-logos/Twitter";
+import { Youtube } from "styled-icons/boxicons-logos/Youtube";
+import { Instagram } from "styled-icons/boxicons-logos/Instagram";
+import { Tripadvisor } from "styled-icons/fa-brands/Tripadvisor";
+import { AlternateEmail } from "styled-icons/material/AlternateEmail";
+import { PhoneAlt } from "styled-icons/fa-solid/PhoneAlt";
 // const StyledContainer = styled(Container)`
 //   z-index:2;
 //   background:transparent!important;
 //   // position:fixed;
 // `
+
+const StyledTripAdvisor = styled(Tripadvisor)`
+  vertical-align: -0.3em;
+`;
+
+const icons = {
+  facebook: Facebook,
+  twitter: Twitter,
+  instagram: Instagram,
+  youtube: Youtube,
+  tripadvisor: StyledTripAdvisor
+};
+
+const TopContainer = styled.div`
+  position: absolute;
+  top: 0;
+  width: 100%;
+`;
 
 const StyledBurgerButton = styled(Button)`
   background: #fff;
@@ -21,16 +47,42 @@ const StyledBurgerButton = styled(Button)`
   height: 40px;
 `;
 
+const LanguageSwitcherContainer = styled.div`
+  width: 100%;
+  position: relative;
+  text-align: right;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.45) !important;
+  align-items: center;
+  z-index: 1000;
+
+  div {
+    align-items: center;
+    flex: auto;
+    padding: 20px 35px 0 20px;
+  }
+
+  .contactsContainer {
+    text-align: left;
+  }
+
+  a {
+    margin: 0 !important;
+    padding: 10px;
+    color: #fff;
+  }
+`;
+
 const StyledNavbar = styled(Navbar)`
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.45) !important;
   padding: 0;
-  position: fixed;
-  top: 0;
+  // position: fixed;
+  // top: 41.5px;
   width: 100%;
   z-index: 1000;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   max-height: 500px;
-  min-height: 115px;
+  min-height: 80px;
   transition: max-height 300ms ease-in-out, background 0.4s ease-in-out;
 
   a.logo:before {
@@ -45,7 +97,7 @@ const StyledNavbar = styled(Navbar)`
     max-width: 148px;
     // max-height: 100%;
     transition: all 250ms linear;
-    margin: -5px;
+    // margin: -5px;
   }
 
   a {
@@ -75,13 +127,21 @@ const StyledNavbar = styled(Navbar)`
     }
   }
 
+  a:last {
+    margin: 0;
+  }
+
   nav {
     padding: 0 10px;
+    justify-content: flex-end;
   }
 
   &.fixed-nav {
     box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff !important;
+    position: fixed;
+    top: 0;
+
     max-height: 70px;
     padding: 10px 0;
     a {
@@ -95,6 +155,7 @@ const StyledNavbar = styled(Navbar)`
     .logo {
       width: 98px;
       height: 70px;
+      margin-left: 25px;
     }
     .logo img {
       max-width: 130px !important;
@@ -174,10 +235,42 @@ const NavbarComponent = class extends React.Component {
                 }
               }
             }
+            settings: settingsYaml {
+              socialNetworks {
+                display
+                icon
+                link
+              }
+            }
           }
         `}
         render={data => (
-          <>
+          <TopContainer>
+            <LanguageSwitcherContainer>
+              <div className="contactsContainer">
+                <a>
+                  <PhoneAlt size="18" /> (+351) 915 316 999​
+                </a>
+                <a href="mailto:info@topbiketoursportugal.com">
+                  <AlternateEmail size="18" />
+                  info@topbiketoursportugal.com
+                </a>
+              </div>
+              <div>
+                {data &&
+                  data.settings &&
+                  data.settings.socialNetworks &&
+                  data.settings.socialNetworks.map((social, index) => {
+                    const SocialIcon = icons[social.icon];
+                    return (
+                      <a key={`i${index}`} href={social.link} target="_blank">
+                        <SocialIcon size="18"></SocialIcon>
+                      </a>
+                    );
+                  })}
+                <LanguageSwitcher />
+              </div>
+            </LanguageSwitcherContainer>
             <StyledNavbar expandSm ref={this.navBar}>
               <Nav>
                 <Link to={defaultLink.link} className="logo">
@@ -205,8 +298,6 @@ const NavbarComponent = class extends React.Component {
                       {menuItem.display}
                     </Link>
                   ))}
-                <Link to="/">English</Link>
-                <Link to="/pt">Português</Link>
                 {/* <Link to="/">Home</Link> */}
                 {/* <Link to="/bike-hollidays">Bike Holidays</Link> */}
                 {/* <Link to="/city-tours">City Tours</Link> */}
@@ -217,7 +308,7 @@ const NavbarComponent = class extends React.Component {
                 {/* <Link to="/about">About</Link> */}
               </Nav>
             </StyledNavbar>
-          </>
+          </TopContainer>
         )}
       />
     );

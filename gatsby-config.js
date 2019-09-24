@@ -67,6 +67,16 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    'gatsby-transformer-yaml',
+    // {
+    //   resolve: 'gatsby-plugin-google-tagmanager',
+    //   options: {
+    //     /*id: 'GTM-add_your_tag_here',*/
+    //     id: 'GTM-P4RNF8D',
+    //     includeInDevelopment: false
+    //   }
+    // },
+    
     // {
     //   resolve: "gatsby-plugin-i18n",
     //   options: {
@@ -124,6 +134,13 @@ module.exports = {
     //     name: "pages"
     //   }
     // },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/content/settings`,
+        name: "settings"
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -221,6 +238,15 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-nprogress',
+      options: {
+        // Setting a color is optional.
+        color: 'white',
+        // Disable the loading spinner.
+        showSpinner: false
       }
     },
     "gatsby-plugin-sitemap",

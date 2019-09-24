@@ -6,7 +6,7 @@
                 "display": "Home",
                 "link": "/pt",
                 "description": "Ir para a homepage",
-                "enable": true,
+                "enable": false,
                 "order": 1,
                 "isHome": true
             },
@@ -56,7 +56,7 @@
                 "display": "Home",
                 "link": "/",
                 "description": "Go to homepage",
-                "enable": true,
+                "enable": false,
                 "order": 1,
                 "isHome": true
             },
