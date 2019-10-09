@@ -20,6 +20,15 @@
                 
             },
             {
+                "display": "Visitas Diárias",
+                "link": "/pt/tours-diarias",
+                "description": "Ver oferta cicloturismo",
+                "enable": true,
+                "order": 1,
+                "isHome": false
+                
+            },
+            {
                 "display": "Blog",
                 "link": "/pt/blog",
                 "enable": true,
@@ -66,6 +75,15 @@
                 "enable": true,
                 "order": 1,
                 "isHome": false
+            },
+            {
+                "display": "Daily Tours",
+                "link": "/day-tours",
+                "description": "Ver oferta cicloturismo",
+                "enable": true,
+                "order": 1,
+                "isHome": false
+                
             },
             {
                 "display": "Blog",
