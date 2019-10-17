@@ -329,9 +329,30 @@ collections:
         name: pricing
         widget: list
         fields:
-          - label: Package
-            name: package
-            widget: string
+          - label: "English"
+            name: en
+            widget: "object"
+            fields: 
+              - label: Package
+                name: package
+                widget: mardown
+              - label: Package Contents
+                name: packageContents
+                widget: list
+                fields:
+                    - label: title
+                      name: title
+                      widget: string
+                    - label: Value
+                      name: value
+                      widget: markdown
+                      required: false
+                    - label: Icon
+                      name: icon
+                      widget: "select"
+                      options: ["✓", "X", "-"]
+                      required: false
+
           - label: type
             name: type
             widget: string
@@ -347,20 +368,7 @@ collections:
             name: highSeasonPriceSupplement
             default: 100
             widget: number
-          - label: "English"
-            name: en
-            widget: "object"
-            fields: 
-            - label: Package Description
-              name: packageContents
-              widget: list
-              fields:
-                  - label: title
-                    name: title
-                    widget: string
-                  - label: Value
-                    name: value
-                    widget: string
+          
                     
   - name: home_banners
     label: Home Banners
