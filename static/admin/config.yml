@@ -187,7 +187,7 @@ collections:
     extension: json
     format: json
     label: Tours
-    folder: content/tours2
+    folder: content/tours
     create: true
     slug: "{{slug}}"
     fields:
