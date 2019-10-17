@@ -1,0 +1,78 @@
+{
+  "body": "1",
+  "groupSizeMax": 1,
+  "path": "/tour1",
+  "meta": {
+    "title": "1",
+    "description": "1",
+    "canonicalLink": "1",
+    "noindex": false
+  },
+  "templateKey": "tour-gen",
+  "pricing": [
+    {
+      "package": "das",
+      "type": "dsa",
+      "price": 21321,
+      "discount": 2,
+      "highSeasonPriceSupplement": 100,
+      "en": {
+        "packageContents": [
+          {
+            "title": "s",
+            "value": "s"
+          },
+          {
+            "title": "s",
+            "value": "s"
+          }
+        ]
+      }
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "1",
+      "description": "1",
+      "location": "{\"type\":\"Point\",\"coordinates\":[14.5898438,14.9447849]}"
+    },
+    {
+      "day": "2",
+      "title": "2",
+      "description": "2",
+      "location": "{\"type\":\"Point\",\"coordinates\":[55.0195312,10.833306]}"
+    }
+  ],
+  "minAge": 1,
+  "order": 1,
+  "date": "2019-10-17T21:08:04.890Z",
+  "ratingCount": 1,
+  "groupSizeMin": 1,
+  "gallery": [
+    {
+      "alt": "sad",
+      "image": "/img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1935.jpg"
+    },
+    {
+      "alt": "qwewqe",
+      "image": "/img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-0071.jpg"
+    }
+  ],
+  "skillLevel": 1,
+  "duration": 1,
+  "distance": 1,
+  "physicality": 1,
+  "ratingLink": "1",
+  "durationUnit": "1",
+  "title": "Tour 1",
+  "subTitle": "Tou1 sub",
+  "tags": [
+    "1"
+  ],
+  "distanceUnit": "1",
+  "image": "/img/Silver-coast-5.jpg",
+  "difficulty": 1,
+  "description": "1",
+  "rating": 1
+}
