@@ -370,31 +370,32 @@ collections:
             widget: number
           
                     
-  - name: home_banners
-    label: Home Banners
-    folder: src/banners/home
-    create: true
-    slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
-    fields:
-      - label: Template Key
-        name: templateKey
-        widget: hidden
-        default: blog-post
-      - label: Title
-        name: title
-        widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Description
-        name: description
-        widget: text
-      - label: Body
-        name: body
-        widget: markdown
-      - label: Tags
-        name: tags
-        widget: list
+  # - name: home_banners
+  #   label: Home Banners
+  #   folder: src/banners/home
+  #   create: true
+  #   slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
+
+  #   fields:
+  #     - label: Template Key
+  #       name: templateKey
+  #       widget: hidden
+  #       default: blog-post
+  #     - label: Title
+  #       name: title
+  #       widget: string
+  #     - label: Publish Date
+  #       name: date
+  #       widget: datetime
+  #     - label: Description
+  #       name: description
+  #       widget: text
+  #     - label: Body
+  #       name: body
+  #       widget: markdown
+  #     - label: Tags
+  #       name: tags
+  #       widget: list
   - name: pages
     label: Pages
     delete: false
