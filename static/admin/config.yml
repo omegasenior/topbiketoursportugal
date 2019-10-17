@@ -347,16 +347,21 @@ collections:
             name: highSeasonPriceSupplement
             default: 100
             widget: number
-          - label: Package Description
-            name: packageContents
-            widget: list
-            fields:
-              - label: title
-                name: title
-                widget: string
-              - label: Value
-                name: value
-                widget: string
+          - label: "English"
+            name: en
+            widget: "object"
+            fields: 
+            - label: Package Description
+              name: packageContents
+              widget: list
+              fields:
+                  - label: title
+                    name: title
+                    widget: string
+                  - label: Value
+                    name: value
+                    widget: string
+                    
   - name: home_banners
     label: Home Banners
     folder: src/banners/home
