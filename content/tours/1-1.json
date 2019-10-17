@@ -1,7 +1,27 @@
 {
   "body": "1",
   "templateKey": "tour-gen",
-  "pricing": [],
+  "pricing": [
+    {
+      "en": {
+        "package": "TEste",
+        "packageContents": [
+          {
+            "title": "1",
+            "value": "1",
+            "icon": "✓"
+          },
+          {
+            "title": "2",
+            "value": "2"
+          }
+        ]
+      },
+      "type": "1",
+      "price": 1,
+      "highSeasonPriceSupplement": 100
+    }
+  ],
   "order": -2,
   "date": "2019-10-17T22:02:14.660Z",
   "ratingCount": 1,
