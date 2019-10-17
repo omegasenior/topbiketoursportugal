@@ -1,14 +1,11 @@
 import styled from "styled-components"
 import { Time } from 'styled-icons/boxicons-regular/Time'
-import { Column } from 'styled-grid-system-component'
 
-export const SameHeightColumn = styled(Column)`
-    display: flex;
-`
+// export const SameHeightColumn = styled(Col)`
+//     display: flex;
+// `
 
 export const Tours = styled.div`
-    padding-top: 20px;
-    padding-bottom: 20px;
 `
 
 export const Tour = styled.article`

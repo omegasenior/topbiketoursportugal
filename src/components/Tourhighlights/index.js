@@ -1,7 +1,6 @@
 import React from "react";
-
-import { Container } from "styled-container-component";
-import { Row } from "styled-grid-system-component";
+import "./tourhighlights.mod.scss";
+import { Col, Row, Container } from "@bootstrap-styled/v4";
 import * as Style from "./Tourhighlights.styled";
 // import BackgroundImage from 'gatsby-background-image'
 
@@ -11,17 +10,17 @@ import img_tour_3 from "./../../img/banners/caminho-portugues-de (5).jpg";
 
 export default function Tourhighlights() {
   return (
-    <Style.Tours className="tourHighlights">
-      <Style.TourHeaderTitle>Popular Tours</Style.TourHeaderTitle>
-      <Style.Subtitle>
+    <div className="tourHighlights">
+      <h2 className="tourHeaderTitle">Popular Tours</h2>
+      <p className="subtitle">
         We have a unique way of meeting your adventurous expectations!
-      </Style.Subtitle>
-      <Container>
-        <Row>
-          <Style.SameHeightColumn xs={1} sm={6} md={4} my={10}>
+      </p>
+      <div className="container">
+        <div className="row">
+          <div className="col col-xs-12 col-sm-6 col-md-4">
             <Style.Tour>
               <Style.ToursImageContainer>
-                <Style.ToursImage src={img_tour_3} />
+                <Style.ToursImage src={img_tour_3} title="3" />
               </Style.ToursImageContainer>
               <Style.TourTitle>The Silver Coast - Route 1</Style.TourTitle>
               <Style.TourResume>
@@ -37,11 +36,11 @@ export default function Tourhighlights() {
                 <Style.StyledTime />
               </Style.TourChart>
             </Style.Tour>
-          </Style.SameHeightColumn>
-          <Style.SameHeightColumn xs={1} sm={6} md={4}>
+          </div>
+          <div className="col col-xs-12 col-sm-6 col-md-4">
             <Style.Tour>
               <Style.ToursImageContainer>
-                <Style.ToursImage src={img_tour_2} height={285} />
+                <Style.ToursImage src={img_tour_2} height={285} title="2" />
               </Style.ToursImageContainer>
               <Style.TourTitle>The Way of St. James BikeTour</Style.TourTitle>
               <Style.TourResume>
@@ -54,12 +53,12 @@ export default function Tourhighlights() {
                 <Style.StyledTime />
               </Style.TourChart>
             </Style.Tour>
-          </Style.SameHeightColumn>
-          <Style.SameHeightColumn xs={1} sm={6} md={4}>
+          </div>
+          <div className="col col-xs-12 col-sm-6 col-md-4">
             {/* <BackgroundImage fluid={img1} height={285} /> */}
             <Style.Tour>
               <Style.ToursImageContainer>
-                <Style.ToursImage src={img1} height={285} />
+                <Style.ToursImage src={img1} height={285} title="3" />
               </Style.ToursImageContainer>
               <Style.TourTitle>The Way of St. James BikeTour 3</Style.TourTitle>
               <Style.TourResume>
@@ -72,9 +71,9 @@ export default function Tourhighlights() {
                 <Style.StyledTime />
               </Style.TourChart>
             </Style.Tour>
-          </Style.SameHeightColumn>
-        </Row>
-      </Container>
-    </Style.Tours>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

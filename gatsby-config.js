@@ -67,7 +67,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    'gatsby-transformer-yaml',
+    "gatsby-transformer-yaml",
     // {
     //   resolve: 'gatsby-plugin-google-tagmanager',
     //   options: {
@@ -76,7 +76,7 @@ module.exports = {
     //     includeInDevelopment: false
     //   }
     // },
-    
+
     // {
     //   resolve: "gatsby-plugin-i18n",
     //   options: {
@@ -103,7 +103,13 @@ module.exports = {
     //     }
     //   }
     // },
-    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        path: `${__dirname}/static/img`,
+        name: "uploads"
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -222,6 +228,8 @@ module.exports = {
         path: `./src/data/`
       }
     },
+    
+    // `gatsby-plugin-postcss`,
     "gatsby-plugin-purgecss", // must be after other CSS plugins
     // {
     //   resolve: 'gatsby-plugin-sw',
@@ -241,10 +249,10 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-nprogress',
+      resolve: "gatsby-plugin-nprogress",
       options: {
         // Setting a color is optional.
-        color: 'white',
+        color: "white",
         // Disable the loading spinner.
         showSpinner: false
       }

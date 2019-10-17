@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import LanguageSwitcher from "./LanguageSwitcher";
 import _filter from "lodash/filter";
 import _first from "lodash/first";
@@ -22,6 +22,8 @@ import { PhoneAlt } from "styled-icons/fa-solid/PhoneAlt";
 //   background:transparent!important;
 //   // position:fixed;
 // `
+
+// import "./Navbar.scss";
 
 const StyledTripAdvisor = styled(Tripadvisor)`
   vertical-align: -0.3em;
@@ -91,13 +93,20 @@ const StyledNavbar = styled(Navbar)`
 
   .logo {
     width: 148px;
-  }
 
-  .logo img {
-    max-width: 148px;
-    // max-height: 100%;
-    transition: all 250ms linear;
-    // margin: -5px;
+    img {
+      max-width: 148px;
+      // max-height: 100%;
+      transition: all 250ms linear;
+      // margin: -5px;
+    }
+
+    .white {
+      display: block;
+    }
+    .black {
+      display: none;
+    }
   }
 
   a {
@@ -157,10 +166,20 @@ const StyledNavbar = styled(Navbar)`
       height: 70px;
       margin-left: 25px;
     }
+
+    .logo .white {
+      display: none;
+    }
+
+    .logo .black {
+      display: block;
+    }
+
     .logo img {
       max-width: 130px !important;
       margin: -20px -17px;
     }
+
     // .logo .gatsby-image-wrapper img {
     //   max-width: 98px !important;
     //   max-height: 70px !important;
@@ -248,7 +267,7 @@ const NavbarComponent = class extends React.Component {
           <TopContainer>
             <LanguageSwitcherContainer>
               <div className="contactsContainer">
-                <a>
+                <a href="#">
                   <PhoneAlt size="18" /> (+351) 915 316 999​
                 </a>
                 <a href="mailto:info@topbiketoursportugal.com">
@@ -263,8 +282,17 @@ const NavbarComponent = class extends React.Component {
                   data.settings.socialNetworks.map((social, index) => {
                     const SocialIcon = icons[social.icon];
                     return (
-                      <a key={`i${index}`} href={social.link} target="_blank">
-                        <SocialIcon size="18"></SocialIcon>
+                      <a
+                        rel="noopener noreferrer"
+                        key={`i${index}`}
+                        href={social.link}
+                        target="_blank"
+                        title={social.display}
+                      >
+                        <SocialIcon
+                          size="18"
+                          title={social.display}
+                        ></SocialIcon>
                       </a>
                     );
                   })}
@@ -278,7 +306,16 @@ const NavbarComponent = class extends React.Component {
                     fixed={data.file.childImageSharp.fixed}
                     alt="Top Bike Tours Portugal"
                   /> */}
-                  <img src="/img/logo.svg" alt="Top Bike Tours Protugal" />
+                  <img
+                    className="white"
+                    src="/img/logo_white.png"
+                    alt="Top Bike Tours Portugal"
+                  />
+                  <img
+                    className="black"
+                    src="/img/logo.svg"
+                    alt="Top Bike Tours Portugal"
+                  />
                 </Link>
                 <StyledBurgerButton
                   light

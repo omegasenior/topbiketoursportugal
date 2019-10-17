@@ -2,12 +2,11 @@ import React from "react";
 import Img from "gatsby-image";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from '../layout/Layout';
 import Rating from "../components/Rating";
 import Helmet from "react-helmet";
 import styled from "styled-components";
-import { Container } from "styled-container-component";
-import { Column, Row } from "styled-grid-system-component";
+import { Col, Row, Container } from "@bootstrap-styled/v4";
 import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
@@ -38,7 +37,7 @@ const TourLink = styled(Link)`
   }
 `;
 
-const TourColumn = styled(Column)`
+const TourColumn = styled(Col)`
   padding-bottom: 30px;
 `;
 
@@ -131,7 +130,7 @@ function ToursListPage({ data }) {
         <Container>
           <Row>
             {tours.map(tour => (
-              <TourColumn key={tour.id} xs={1} sm={4} md={4} my={10}>
+              <TourColumn key={tour.id} xs="12" sm="4" md="4" my={10}>
                 <TourLink to={tour.path}>
                   <Tour>
                     <TourImageContainer>

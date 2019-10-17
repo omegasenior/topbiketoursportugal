@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Star } from "styled-icons/boxicons-solid/Star";
 import { StarHalf } from "styled-icons/boxicons-solid/StarHalf";
 import { Star as StarEmpty } from "styled-icons/boxicons-regular/Star";
-import { pure } from "recompose";
+// import { pure } from "recompose";
 
 function Rating({ value, total, size = 24, style, direction }) {
   const fullStars = [...Array(Math.floor(Math.abs(value))).keys()];

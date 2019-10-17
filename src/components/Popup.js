@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { X } from 'react-feather'
 
-import './Popup.css'
+//import './Popup.scss'
 
 class Popup extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Popup extends Component {
       <Fragment>
         <div className="taCenter">
           <h3> Simple Popup Example</h3>
-          <div class="Button" onClick={this.togglePopup.bind(this)}>
+          <div className="Button" onClick={this.togglePopup.bind(this)}>
             Click To Launch Popup
           </div>
         </div>
@@ -33,7 +33,7 @@ class Popup extends Component {
               onClick={this.togglePopup.bind(this)}
             ></div>
             <div className="Popup-Inner">
-              <X class="Popup-Close" onClick={this.togglePopup.bind(this)} />
+              <X className="Popup-Close" onClick={this.togglePopup.bind(this)} />
               {children}
             </div>
           </div>

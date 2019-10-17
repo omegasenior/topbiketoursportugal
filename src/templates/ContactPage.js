@@ -6,8 +6,8 @@ import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
 import GoogleMap from '../components/GoogleMap'
-import Layout from '../components/Layout'
-import './ContactPage.css'
+import Layout from '../layout/Layout'
+//import './ContactPage.scss'
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({

@@ -24,14 +24,14 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             id
-            fields {
-              slug
-              localizedPath
-            }
             frontmatter {
               tags
               templateKey
               path
+            }
+            fields {
+              slug
+              localizedPath
             }
           }
         }

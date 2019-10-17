@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 const uuidv4 = require("uuid/v4");
-const validate = require("uuid-validate");
+// const validate = require("uuid-validate");
 
 export default class UUIDControl extends Component {
   static propTypes = {
@@ -22,9 +22,9 @@ export default class UUIDControl extends Component {
       forID,
       value,
       onChange,
-      classNameWrapper,
-      setActiveStyle,
-      setInactiveStyle
+      classNameWrapper//,
+      // setActiveStyle,
+      // setInactiveStyle
     } = this.props;
 
     return (

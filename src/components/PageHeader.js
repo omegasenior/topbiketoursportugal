@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Image from './Image'
+// import Image from './Image'
 import Content from './Content'
-import './PageHeader.css'
+//import './PageHeader.scss'
 
 const PageHeader = ({
   title,
   subtitle,
-  backgroundImage,
+  // backgroundImage,
   large,
   className = ''
 }) => {

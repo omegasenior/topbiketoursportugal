@@ -1,8 +1,8 @@
 import styled from "styled-components"
 import { Time } from 'styled-icons/boxicons-regular/Time'
-import { Column } from 'styled-grid-system-component'
+import { Col, Row, Container } from "@bootstrap-styled/v4";
 
-export const SameHeightColumn = styled(Column)`
+export const SameHeightColumn = styled(Col)`
     display: flex;
 `
 

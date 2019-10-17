@@ -1,93 +1,58 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Content, { HTMLContent } from "../components/Content";
-import styled from "styled-components";
-import Layout from "../components/LayoutHome";
+import { HTMLContent } from "../components/Content";
+import Layout from "../layout/LayoutBootstrap";
 import Scroll from "../components/Scroll";
 import Tourhighlights from "../components/Tourhighlights/index";
 import ReviewsHighlights from "../components/ReviewsHighlights";
 import Partners from "../components/Partners";
 import { ChevronCircleDown } from "styled-icons/fa-solid/ChevronCircleDown";
-import { Container } from "styled-container-component";
-
-const ScrollButtonContainer = styled.div`
-  margin-top: -100px;
-  width: 100%;
-  text-align: center;
-  z-index: 999;
-  color: #fff;
-  position: absolute;
-`;
-
-const ScrollButton = styled.button`
-  width: 70px;
-  border: none;
-  background-color: transparent;
-  transition: all 100ms linear 100ms;
-  display: block;
-  margin: 20px auto;
-
-  &:focus {
-    border: none;
-    outline: none;
-  }
-  &:hover {
-    cursor: pointer;
-    transform: scale3d(1.1);
-    animation: none;
-  }
-`;
-
-const AnimatedScrollButton = styled(ScrollButton)`
-  color: #fff;
-  animation: bounce 2s infinite;
-`;
-
-const Home = styled(Container)`
-  display: block;
-  margin: 50px auto;
-  margin-top: 0;
-  padding: 15px;
-`;
+import "./home-page.mod.scss";
 
 export const HomePageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
+  // const PageContent = contentComponent || Content;
 
   return (
     <>
       <Scroll type="class" element="home" offset={-100}>
-        <ScrollButtonContainer>
-          <AnimatedScrollButton
+        <div className="scrollButtonContainer">
+          <button
+            className="scrollButton animatedScrollButton"
             aria-label="Go to tourhighlights"
             role="navigation"
             resource="scroll.nav.gototourhighlights"
           >
             <ChevronCircleDown />
-          </AnimatedScrollButton>
-        </ScrollButtonContainer>
+          </button>
+        </div>
       </Scroll>
-      <Home
-        className="home"
-        dangerouslySetInnerHTML={{ __html: content }}
-      ></Home>
-
+      <div className="container">
+        <div
+          className="home"
+          dangerouslySetInnerHTML={{ __html: content }}
+        ></div>
+      </div>
       <Scroll type="class" element="tourHighlights" offset={-95}>
-        <ScrollButton aria-label="Go to tourhighlights" role="navigation">
+        <button
+          className="scrollButton"
+          aria-label="Go to tourhighlights"
+          role="navigation"
+        >
           <ChevronCircleDown />
-        </ScrollButton>
+        </button>
       </Scroll>
 
       <Tourhighlights className="tourHighlights" />
 
-      <Container>
+      <div className="container">
         Here are reasons you should plan trip with us Handpicked Hotels Lorem
         ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
         eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
         consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
         Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
         elit. Aenean commodo ligula eget dolor. Aenean massa
-      </Container>
+      </div>
 
       {/* <Scroll type="class" element="home" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>

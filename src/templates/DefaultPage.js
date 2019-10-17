@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
-import Layout from '../components/Layout'
+import Layout from '../layout/Layout'
 import SVGIcon from '../components/SVGIcon'
 
 // Export Template for use in CMS preview

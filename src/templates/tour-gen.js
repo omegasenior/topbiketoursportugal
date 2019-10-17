@@ -1,22 +1,29 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../layout/Layout";
 import styled from "styled-components";
 import {
   TourInformation,
   TourGallery,
-  TourLocations,
+  // TourLocations,
   TourPlan,
-  TourReviews
+  TourReviews,
+  TourPricing
 } from "../components/Tour/index";
 import Helmet from "react-helmet";
-import BackgroundImage from "gatsby-background-image";
+// import BackgroundImage from "gatsby-background-image";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "styled-container-component";
+
+import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
+// import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
+
+// import { Youtube } from "styled-icons/boxicons-regular/CheckCircle";
+
 // import Box from "@material-ui/core/Box";
 // import { UserCheck } from "styled-icons/icomoon";
 
@@ -30,9 +37,9 @@ const StyledContainer = styled(Container)`
   padding: 15px;
 `;
 
-const StyledBackgroundImage = styled(BackgroundImage)`
-  min-height: 300px;
-`;
+// const StyledBackgroundImage = styled(BackgroundImage)`
+//   min-height: 300px;
+// `;
 
 function TabPanel({ children, value, index, ...other }) {
   // const  = props;
@@ -90,6 +97,7 @@ function TourGen({ data }) {
           <Tab label="Tour Plan" {...a11yProps(1)} />
           <Tab label="Gallery" {...a11yProps(2)} />
           <Tab label="Reviews" {...a11yProps(3)} />
+          <Tab label="Pricing" {...a11yProps(4)} />
           {/* <Tab label="Locations" {...a11yProps(4)} /> */}
         </Tabs>
       </StyledPaper>
@@ -105,6 +113,9 @@ function TourGen({ data }) {
         </TabPanel>
         <TabPanel value={value} index={3}>
           <TourReviews tour={tour}></TourReviews>
+        </TabPanel>
+        <TabPanel value={value} index={4}>
+          <TourPricing></TourPricing>
         </TabPanel>
         {/* <TabPanel value={value} index={4}>
           <TourLocations tour={tour}></TourLocations>

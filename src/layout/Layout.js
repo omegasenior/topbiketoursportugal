@@ -5,12 +5,13 @@ import NavbarComponent from "../components/Navbar";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 
-
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { ChevronUp } from "styled-icons/feather/ChevronUp";
 import Scroll from "../components/Scroll";
-import Banners from "./banners";
+import Banners from "../components/Banners";
+
+// import "../sass/style.scss";
 
 const ScrollUpButton = styled.button`
   opacity: 0.7;
@@ -86,7 +87,11 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             description
           }
         }
-        menu: menusJson(title: {eq: "Home"}, en: {links: {elemMatch: {enable: {eq: true}}}}, pt: {links: {elemMatch: {enable: {eq: true}}}}) {
+        menu: menusJson(
+          title: { eq: "Home" }
+          en: { links: { elemMatch: { enable: { eq: true } } } }
+          pt: { links: { elemMatch: { enable: { eq: true } } } }
+        ) {
           en {
             links {
               description
@@ -122,8 +127,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
       }
     `}
     render={data => {
-      const { siteTitle, socialMediaCard, googleTrackingId } =
-        data.settingsYaml || {};
+      const { socialMediaCard, googleTrackingId } = data.settingsYaml || {};
       const menu = data.menu[language || "en"].links;
       return (
         <React.Fragment>

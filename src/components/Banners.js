@@ -1,7 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Slider from "react-animated-slider";
-// import sliderStyle from '../../node_modules/react-animated-slider/build/horizontal.css';
+// //import sliderStyle from '../../node_modules/react-animated-slider/build/horizontal.scss';
 import styled from "styled-components";
 import BackgroundImage from "gatsby-background-image";
 

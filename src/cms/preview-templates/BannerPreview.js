@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Banners } from "../../components/banners";
+import { Banners } from "../../components/Banners";
 
-const BannerPreview = ({ entry, widgetFor }) => {
+const BannerPreview = ({ entry }) => {
   var banner = entry.getIn(["data", "title"]);
   return <Banners banners={[banner]} />;
 };

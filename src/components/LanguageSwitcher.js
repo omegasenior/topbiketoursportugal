@@ -1,6 +1,6 @@
 import React from "react";
 // import './Logo.css'
-import languages from "../data/languages";
+// import languages from "../data/languages";
 import { Link } from "gatsby";
 import FlagIconFactory from "react-flag-icon-css";
 

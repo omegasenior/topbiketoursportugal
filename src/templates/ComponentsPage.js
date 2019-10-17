@@ -3,7 +3,7 @@
 
 // import PageHeader from '../components/PageHeader'
 // import Content from '../components/Content.js'
-// import Layout from '../components/Layout.js'
+// import Layout from '../layout/Layout'
 // import Accordion from '../components/Accordion'
 // import BackgroundVideo from '../components/BackgroundVideo'
 // import Gallery from '../components/Gallery'

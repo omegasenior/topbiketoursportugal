@@ -115,17 +115,17 @@ export default class ReviewsHighlights extends React.Component {
   }
 }
 
-{
-  /* <ReviewQuote key={index}>
-            <TextTruncate
-              line={3}
-              element="div"
-              truncateText="…"
-              text={review.quote}
-              textTruncateChild={<Link to={"/reviews/" + index}>more</Link>}
-            />
-            <div>
-              <cite>{review.author}</cite>, {review.country}
-            </div>
-          </ReviewQuote> */
-}
+// {
+//   /* <ReviewQuote key={index}>
+//             <TextTruncate
+//               line={3}
+//               element="div"
+//               truncateText="…"
+//               text={review.quote}
+//               textTruncateChild={<Link to={"/reviews/" + index}>more</Link>}
+//             />
+//             <div>
+//               <cite>{review.author}</cite>, {review.country}
+//             </div>
+//           </ReviewQuote> */
+// }

@@ -6,11 +6,10 @@ import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker,
+  // Marker,
   Polyline
 } from "react-google-maps";
-import { Container } from "styled-container-component";
-import { Column, Row } from "styled-grid-system-component";
+import { Col, Row, Container } from "@bootstrap-styled/v4";
 
 const TourPlanWrapper = styled.div`
   position: relative;
@@ -89,7 +88,7 @@ const MyMapComponent = compose(
 const TourPlan = ({ tour: { itinerary } }) => (
   <Container fluid>
     <Row>
-      <Column xs={12} sm={7}>
+      <Col xs="12" sm="7">
         <TourPlanWrapper>
           {itinerary.map((item, index) => (
             <TourPlanContainer key={index}>
@@ -101,10 +100,10 @@ const TourPlan = ({ tour: { itinerary } }) => (
             </TourPlanContainer>
           ))}
         </TourPlanWrapper>
-      </Column>
-      <Column xs={12} sm={5}>
+      </Col>
+      <Col xs="12" sm="5">
         <MyMapComponent />
-      </Column>
+      </Col>
     </Row>
   </Container>
 );
