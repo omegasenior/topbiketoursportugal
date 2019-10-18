@@ -117,7 +117,7 @@ collections:
       - label: "Traduções"
         name: "languagePages"
         widget: "relation"
-        collection: "blog"
+        collection: "languages"
         displayFields: ["title", "slug", "path"]
         searchFields: ["title", "slug"]
         valueField: "id"
@@ -325,7 +325,7 @@ collections:
           - label: image
             name: image
             widget: image
-      - label: Price Table
+      - label: "Price Table"
         name: pricing
         widget: list
         fields:
@@ -335,7 +335,7 @@ collections:
             fields: 
               - label: Package
                 name: package
-                widget: mardown
+                widget: markdown
               - label: Package Contents
                 name: packageContents
                 widget: list

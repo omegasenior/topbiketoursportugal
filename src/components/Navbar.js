@@ -196,7 +196,7 @@ const NavbarComponent = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      hidden: true,
+      hidden: false,
       stickyNav: false
     };
   }

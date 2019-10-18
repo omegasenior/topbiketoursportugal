@@ -7,10 +7,10 @@ export default class UUIDControl extends Component {
   static propTypes = {
     onChange: PropTypes.func.isRequired,
     forID: PropTypes.string,
-    value: PropTypes.string,
-    classNameWrapper: PropTypes.string.isRequired,
-    setActiveStyle: PropTypes.func.isRequired,
-    setInactiveStyle: PropTypes.func.isRequired
+    value: PropTypes.string//,
+    // classNameWrapper: PropTypes.string.isRequired,
+    // setActiveStyle: PropTypes.func.isRequired,
+    // setInactiveStyle: PropTypes.func.isRequired
   };
 
   static defaultProps = {
@@ -22,9 +22,7 @@ export default class UUIDControl extends Component {
       forID,
       value,
       onChange,
-      classNameWrapper//,
-      // setActiveStyle,
-      // setInactiveStyle
+      classNameWrapper
     } = this.props;
 
     return (
@@ -35,7 +33,6 @@ export default class UUIDControl extends Component {
         className={classNameWrapper}
         value={value || uuidv4()}
         onChange={e => onChange(e.target.value)}
-       
       />
 
       // onFocus={setActiveStyle}
