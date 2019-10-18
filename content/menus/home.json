@@ -62,46 +62,53 @@
         "link": "/pt",
         "description": "Ir para a homepage",
         "isHome": true,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Cicloturismo",
         "link": "/pt/cicloturismo",
         "description": "Ver oferta cicloturismo",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Visitas Diárias",
         "link": "/pt/tours-diarias",
         "description": "Ver oferta cicloturismo",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Blog",
         "link": "/pt/blog",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Calendário",
         "link": "/pt/calendario-tours",
         "description": "Ver oferta cicloturismo",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Contactos",
         "link": "/pt/contacte-nos",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       },
       {
         "display": "Sobre nós",
         "link": "/sobre-nos-hire-a-bike",
         "isHome": false,
-        "order": 1
+        "order": 1,
+        "enabled":  true
       }
     ]
   }

@@ -71,7 +71,8 @@ const LanguageSwitcherContainer = styled.div`
   a {
     margin: 0 !important;
     padding: 10px;
-    color: #fff;
+    color: #fff !important;
+    text-decoration: none !important;
   }
 `;
 
@@ -84,7 +85,7 @@ const StyledNavbar = styled(Navbar)`
   z-index: 1000;
   font-size: 1.25rem;
   max-height: 500px;
-  min-height: 80px;
+  min-height: 100px;
   transition: max-height 300ms ease-in-out, background 0.4s ease-in-out;
 
   a.logo:before {
@@ -110,10 +111,10 @@ const StyledNavbar = styled(Navbar)`
   }
 
   a {
-    color: #fff;
+    color: #fff !important;
+    text-decoration: none !important;
     margin-right: 40px;
     position: relative;
-    text-decoration: none;
     text-shadow: 1px 1px 3px #222;
 
     &:before {
@@ -154,7 +155,7 @@ const StyledNavbar = styled(Navbar)`
     max-height: 70px;
     padding: 10px 0;
     a {
-      color: #000;
+      color: #000!important;
       text-shadow: none;
 
       &:before {

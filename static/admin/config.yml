@@ -31,16 +31,6 @@ collections:
               - label: Link
                 name: link
                 widget: text
-              - {
-                label: "Pages",
-                name: "page",
-                widget: "relation",
-                collection: ["pages"],
-                displayFields: ["title","language"],
-                searchFields: ["title"],
-                valueField: "id",
-                required: false
-              }
               - label: Description
                 name: description
                 widget: text
@@ -71,20 +61,14 @@ collections:
               - label: Link
                 name: link
                 widget: text
-              - {
-                label: "Pages",
-                name: "page",
-                widget: "relation",
-                collection: ["pages","tours"],
-                displayFields: ["title","language"],
-                searchFields: ["title"],
-                valueField: "id",
-                required: false,
-              }
               - label: Description
                 name: description
                 widget: text
                 required: false
+              - label: Enabled
+                name: enabled
+                widget: boolean
+                default: true
               - label: Is Home
                 name: isHome
                 widget: boolean

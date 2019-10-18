@@ -89,14 +89,14 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
         }
         menu: menusJson(
           title: { eq: "Home" }
-          en: { links: { elemMatch: { enable: { eq: true } } } }
-          pt: { links: { elemMatch: { enable: { eq: true } } } }
+          en: { links: { elemMatch: { enabled: { eq: true } } } }
+          pt: { links: { elemMatch: { enabled: { eq: true } } } }
         ) {
           en {
             links {
               description
               display
-              enable
+              enabled
               link
             }
           }
@@ -104,7 +104,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             links {
               description
               display
-              enable
+              enabled
               link
             }
           }
