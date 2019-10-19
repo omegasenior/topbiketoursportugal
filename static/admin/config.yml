@@ -92,21 +92,12 @@ collections:
     folder: content/post
     create: true
     slug: "{{slug}}.{{fields.language}}"
-    summary: "{{language}} - {{title}} - {{path}}"
+    summary: "{{fields.language}} - {{slug}} - {{fields.path}}"
     fields:
       - label: Template Key
         name: templateKey
         widget: hidden
         default: blog-post
-      - label: "Traduções"
-        name: "languagePages"
-        widget: "relation"
-        collection: "languages"
-        displayFields: ["title", "slug", "path"]
-        searchFields: ["title", "slug"]
-        valueField: "id"
-        required: false
-        multiple: true
       - label: Path
         name: path
         widget: string
@@ -161,12 +152,35 @@ collections:
               required: false,
             }
           - {
+              label: Keywords,
+              name: keywords,
+              widget: text,
+              required: false,
+            }
+          - {
               label: Canonical Link,
               name: canonicalLink,
               widget: string,
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+          - label: "Traduções"
+            name: "languagePages"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Language"
+                name: "language"
+                widget: "relation"
+                collection: "languages"
+                displayFields: ["title"]
+                searchFields: ["title"]
+                valueField: "code"
+                default: "en"
+                required: true
+              - label: "path"
+                name: "path"
+                widget: "string"
   - name: tours
     extension: json
     format: json
@@ -813,16 +827,6 @@ collections:
         label: "Global Settings"
         name: "global-settings"
         fields:
-          - label: robots
-            name: robots
-            widget: "select"
-            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
-            required: false
-          - label: Viewport
-            name: viewport
-            widget: string
-            default: "width=device-width,initial-scale=1"
-            required: false
           - label: "English"
             name: en
             widget: "object"
@@ -836,12 +840,7 @@ collections:
                 required: false
               - label: Keywords
                 name: keywords
-                widget: list
-                required: false
-                fields:
-                  - label: Keyword
-                    name: keyword
-                    widget: string 
+                widget: string 
               # - label: canonical
               #   name: canonical
               #   widget: string
@@ -866,12 +865,7 @@ collections:
                 required: false
               - label: Keywords
                 name: keywords
-                widget: list
-                required: false
-                fields:
-                  - label: Keyword
-                    name: keyword
-                    widget: string 
+                widget: string 
               # - label: canonical
               #   name: canonical
               #   widget: string
@@ -908,6 +902,16 @@ collections:
               widget: string,
               required: false,
             }
+          - label: robots
+            name: robots
+            widget: "select"
+            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
+            required: false
+          - label: Viewport
+            name: viewport
+            widget: string
+            default: "width=device-width,initial-scale=1"
+            required: false
   - name: "testimonials"
     label: "Testimonials"
     folder: content/testimonials
