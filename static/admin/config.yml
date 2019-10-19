@@ -89,7 +89,7 @@ collections:
         #       widget: boolean
   - name: blog
     label: Blog
-    folder: content/post
+    folder: content/posts
     create: true
     slug: "{{slug}}.{{fields.language}}"
     summary: "{{fields.language}} - {{slug}} - {{fields.path}}"

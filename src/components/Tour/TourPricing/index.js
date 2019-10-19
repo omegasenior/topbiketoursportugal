@@ -8,6 +8,13 @@ import "./tourPricing.mod.scss";
 export default function() {
   const tour = {
     body: "Tour 1",
+    groupSizeMax: 1,
+    path: "/silver-coast-version2",
+    meta: {
+      title: "1",
+      description: "1",
+      canonicalLink: "1"
+    },
     templateKey: "tour-gen",
     pricing: [
       {
@@ -83,6 +90,7 @@ export default function() {
         },
         type: "1",
         price: 1860,
+        discount: -1,
         highSeasonPriceSupplement: 100
       },
       {
@@ -236,16 +244,39 @@ export default function() {
         highSeasonPriceSupplement: 100
       }
     ],
+    itinerary: [
+      {
+        day: "1",
+        title: "1",
+        location: '{"type":"Point","coordinates":[36.7382812,15.2841851]}'
+      }
+    ],
+    minAge: -2,
     order: -2,
     date: "2019-10-17T22:02:14.660Z",
     ratingCount: 1,
+    groupSizeMin: 1,
+    skillLevel: 1,
+    duration: 1,
+    distance: 1,
+    physicality: 1,
+    ratingLink: "1",
+    durationUnit: "1",
     title: "1",
     subTitle: "Tour porto",
     tags: ["1"],
+    distanceUnit: "1",
     image: "/img/Specialized-diverge-e5-2-2.jpg",
+    difficulty: 1,
     description: "1",
     rating: 1
   };
+
+  const packagePricing = tour.pricing
+    .filter(p => p.en)
+    .map(p => p.en.packageContents.map(pc => pc.title))
+    .flat()
+    .distinct();
 
   return (
     <div>
