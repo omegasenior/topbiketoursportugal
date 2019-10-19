@@ -902,12 +902,12 @@ collections:
                 }
               - { label: Link, name: link, widget: string, required: false }
               - { label: Icon, name: icon, widget: string, required: false }
-              - {
-                  label: Google Analytics Tracking Id,
-                  name: googleTrackingId,
-                  widget: string,
-                  required: false,
-                }
+          - {
+              label: Google Analytics Tracking Id,
+              name: googleTrackingId,
+              widget: string,
+              required: false,
+            }
   - name: "testimonials"
     label: "Testimonials"
     folder: content/testimonials

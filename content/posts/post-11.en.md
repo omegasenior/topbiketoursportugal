@@ -3,6 +3,7 @@ templateKey: SinglePost
 title: Yellow Van
 status: Published
 date: '2018-05-25'
+language: en
 featuredImage: 'https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

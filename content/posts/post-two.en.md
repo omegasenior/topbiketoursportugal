@@ -3,6 +3,7 @@ templateKey: SinglePost
 title: Post Two
 status: Published
 date: '2018-03-28'
+language: en
 featuredImage: 'https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/'
 excerpt: This is an excerpt of Post Two
 categories:

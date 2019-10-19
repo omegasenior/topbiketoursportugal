@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Porquê escolher uma tour guiada
 date: 2016-12-17T15:04:10.000Z
+language: pt
 description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
 featuredImage: '../../img/blog/bike_tour_matosinhos.webp'
 categories:

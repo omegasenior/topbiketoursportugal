@@ -3,6 +3,7 @@ templateKey: blog-post
 status: Published
 title: Why choose a guided bicycle tour?
 date: 2018-11-22T15:04:10.000Z
+language: en
 description: Just think in the troubles to organize a bike tour on your own. Find a place to rent a bicycle? Bring your own bike? How can I transport the bicycle on the fly.
 featuredImage: '../../img/blog/bike_tour_matosinhos.webp'
 tags:

@@ -3,6 +3,7 @@ templateKey: SinglePost
 title: Trees
 status: Published
 date: '2018-05-25'
+language: en
 featuredImage: 'https://ucarecdn.com/52b27af8-262d-4e2c-9773-15125ab8a5b2/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
