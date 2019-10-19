@@ -268,7 +268,7 @@ const NavbarComponent = class extends React.Component {
         `}
         render={data => (
           <TopContainer>
-            <LanguageSwitcherContainer className="d-none d-sm-block">
+            <LanguageSwitcherContainer className="d-none d-sm-flex">
               <div className="contactsContainer">
                 <a href="#">
                   <PhoneAlt size="18" /> (+351) 915 316 999​

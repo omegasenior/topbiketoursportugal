@@ -101,22 +101,17 @@ function TourGen({ data }) {
           {/* <Tab label="Locations" {...a11yProps(4)} /> */}
         </Tabs>
       </StyledPaper>
+      <TourInformation tour={tour}></TourInformation>
+      <TourPlan tour={tour}></TourPlan>
+      <TourPricing></TourPricing>
+      <TourReviews tour={tour}></TourReviews>
+      <TourGallery tour={tour}>1</TourGallery>
       <StyledContainer fluid>
-        <TabPanel value={value} index={0}>
-          <TourInformation tour={tour}></TourInformation>
-        </TabPanel>
-        <TabPanel value={value} index={1} tour={tour}>
-          <TourPlan tour={tour}></TourPlan>
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          <TourGallery tour={tour}>1</TourGallery>
-        </TabPanel>
-        <TabPanel value={value} index={3}>
-          <TourReviews tour={tour}></TourReviews>
-        </TabPanel>
-        <TabPanel value={value} index={4}>
-          <TourPricing></TourPricing>
-        </TabPanel>
+        <TabPanel value={value} index={0}></TabPanel>
+        <TabPanel value={value} index={1} tour={tour}></TabPanel>
+        <TabPanel value={value} index={2}></TabPanel>
+        <TabPanel value={value} index={3}></TabPanel>
+        <TabPanel value={value} index={4}></TabPanel>
         {/* <TabPanel value={value} index={4}>
           <TourLocations tour={tour}></TourLocations>
         </TabPanel> */}
