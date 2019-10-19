@@ -103,7 +103,7 @@ function TourGen({ data }) {
       </StyledPaper>
       <TourInformation tour={tour}></TourInformation>
       <TourPlan tour={tour}></TourPlan>
-      <TourPricing></TourPricing>
+      <TourPricing tour={tour}></TourPricing>
       <TourReviews tour={tour}></TourReviews>
       <TourGallery tour={tour}>1</TourGallery>
       <StyledContainer fluid>
@@ -156,6 +156,20 @@ export const tourGenQuery = graphql`
             }
           }
         }
+      }
+      pricing {
+        discount
+        en {
+          package
+          packageContents {
+            icon
+            title
+            value
+          }
+        }
+        highSeasonPriceSupplement
+        price
+        type
       }
     }
   }

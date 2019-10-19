@@ -83,6 +83,7 @@
       "type": "1",
       "price": 1860,
       "discount": -1,
+      "bestValue": true,
       "highSeasonPriceSupplement": 100
     },
     {

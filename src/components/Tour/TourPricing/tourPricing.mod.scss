@@ -1,5 +1,8 @@
 $default-lh: "24px";
 $tooltip-icon-top: "icon";
+
+$hover-color: #b35432;
+
 /*! Comparative Responsive Pricing Tables.3.0 - 2017-03-16 */
 .crpt-flat button::-moz-focus-inner {
   border: 0;
@@ -892,7 +895,7 @@ $tooltip-icon-top: "icon";
   .crpt-flat-candlelight.pt-col
   .pt-block:hover
   .pt-back:after {
-  background-color: #fecd0f;
+  background-color: $hover-color;
   -webkit-box-shadow: 0 0 10px 1px #2b2b33;
   box-shadow: 0 0 10px 1px #2b2b33;
 }
