@@ -68,6 +68,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id;
+      console.log("Path:" + edge.node.frontmatter.path);
       try {
         createPage({
           path:
@@ -75,6 +76,7 @@ exports.createPages = ({ actions, graphql }) => {
             edge.node.fields.localizedPath ||
             edge.node.fields.slug,
           tags: edge.node.frontmatter.tags,
+          localizedPath: edge.node.fields.localizedPath,
           languages: [],
           component: path.resolve(
             `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
@@ -145,6 +147,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       parsedFilePath.dir.indexOf("posts") !== -1
     ) {
       slug = `/`;
+    } else if (_.get(node, "frontmatter.path")) {
+      slug = `/${_.kebabCase(node.frontmatter.path)}/`;
     } else if (_.get(node, "frontmatter.title")) {
       slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
         node.frontmatter.title
@@ -185,42 +189,45 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 };
 
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage, deletePage } = actions;
-  if (page.path === "/_optional/") {
-    deletePage(page);
-    return;
-  }
+// exports.onCreatePage = async ({ page, actions }) => {
+//   const { createPage, deletePage } = actions;
 
-  const regex = /^.+\.([aA-zZ]{2})\/.*$/;
-  // Check if the page is a localized 404
-  if (page.path.match(regex)) {
-    const oldPage = { ...page };
+//   console.log("Current path: " + page.path);
 
-    // Get the language code from the path, and match all paths
-    // starting with this code (apart from other valid paths)
-    const langCode = regex.exec(page.path)[1] || languages.defaultLangKey;
-    const isDefaultLanguage = languages.defaultLangKey === langCode;
+//   if (page.path === "/_optional/") {
+//     deletePage(page);
+//     return;
+//   }
 
-    // page.matchPath = isDefaultLanguage ? `/*` : `/${langCode}/*`;
+//   const regex = /^.+\.([aA-zZ]{2})\/.*$/;
+//   // Check if the page is a localized 404
+//   if (page.path.match(regex)) {
+//     const oldPage = { ...page };
 
-    let newPath = isDefaultLanguage
-      ? `${page.path.replace(`.${langCode}`, "")}`
-      : `/${langCode}${page.path.replace(`.${langCode}`, "")}`;
+//     // Get the language code from the path, and match all paths
+//     // starting with this code (apart from other valid paths)
+//     const langCode = regex.exec(page.path)[1] || languages.defaultLangKey;
+//     const isDefaultLanguage = languages.defaultLangKey === langCode;
 
-    if (newPath.endsWith("/index/"))
-      newPath = newPath.substring(0, newPath.length - 7);
+//     // page.matchPath = isDefaultLanguage ? `/*` : `/${langCode}/*`;
 
-    console.log(`${page.path} -> ${newPath}`);
+//     let newPath = isDefaultLanguage
+//       ? `${page.path.replace(`.${langCode}`, "")}`
+//       : `/${langCode}${page.path.replace(`.${langCode}`, "")}`;
 
-    // Recreate the modified page
-    deletePage(oldPage);
-    createPage({
-      ...page,
-      path: newPath.replace("/../", "/")
-    });
-  }
-};
+//     if (newPath.endsWith("/index/"))
+//       newPath = newPath.substring(0, newPath.length - 7);
+
+//     console.log(`${page.path} -> ${newPath}`);
+
+//     // Recreate the modified page
+//     deletePage(oldPage);
+//     createPage({
+//       ...page,
+//       path: newPath.replace("/../", "/")
+//     });
+//   }
+// };
 
 // function replaceLanguagePath(path) {
 //   var langCode = path.substring(path.length - 2);

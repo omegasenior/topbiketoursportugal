@@ -1,33 +1,18 @@
 ---
-templateKey: 'home-page'
-path: /pt
-title: Home
+templateKey: 'bike-hollidays'
+path: /pt/tours-diarias
+title: tours diária
 langKey: pt
 lang: pt
 language: pt
 meta:
   description: This is a meta description.
-  title: Home Page
-tourHighlights:
-  title: >-
-    Popular Tours
-  descriptionBefore: >-
-    We have a unique way of meeting your adventurous expectations!
-  descriptionAfter: >-
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem
-    ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-    consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-    Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa
-  tours:
-    - The Silver Coast - Route 1
-    - The Silver Coast - Route 2
+  title: Vistoursitas diárias
 ---
 
-## Porquê escolher-nos
+## Why Choose tours diárias
 
-Visite todo o portugal :D all around Portugal in a bicycle with our expertise guides.
+Visit all around Portugal in a bicycle with our expertise guides.
 
 Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.
 

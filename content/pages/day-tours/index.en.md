@@ -1,23 +1,17 @@
 ---
-templateKey: 'home-page'
-path: /
-title: Home
-langKey: en
-lang: en
-language: en
+templateKey: 'bike-hollidays'
+path: /day-tours
+slug: day-tours
+title: tours diária
+langKey: pt
+lang: pt
+language: pt
 meta:
   description: This is a meta description.
-  title: Home Page
-tourHighlights: >-
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem
-    ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-    consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-    Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa
+  title: Vistoursitas diárias
 ---
 
-## Why Choose Us
+## Why Choose tours diárias
 
 Visit all around Portugal in a bicycle with our expertise guides.
 

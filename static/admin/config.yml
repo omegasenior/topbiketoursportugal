@@ -695,6 +695,7 @@ collections:
           - label: Body
             name: body
             widget: markdown
+            
 
   - name: banners
     label: Banners
@@ -833,6 +834,14 @@ collections:
                 name: description
                 widget: string
                 required: false
+              - label: Keywords
+                name: keywords
+                widget: list
+                required: false
+                fields:
+                  - label: Keyword
+                    name: keyword
+                    widget: string 
               # - label: canonical
               #   name: canonical
               #   widget: string
@@ -855,6 +864,14 @@ collections:
                 name: description
                 widget: string
                 required: false
+              - label: Keywords
+                name: keywords
+                widget: list
+                required: false
+                fields:
+                  - label: Keyword
+                    name: keyword
+                    widget: string 
               # - label: canonical
               #   name: canonical
               #   widget: string

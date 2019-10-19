@@ -53,19 +53,20 @@ const LanguageSwitcherContainer = styled.div`
   width: 100%;
   position: relative;
   text-align: right;
-  display: flex;
+  display: flex!important;
   background-color: rgba(0, 0, 0, 0.45) !important;
   align-items: center;
   z-index: 1000;
-
   div {
     align-items: center;
     flex: auto;
+    flex: 50%;
     padding: 20px 35px 0 20px;
   }
 
   .contactsContainer {
     text-align: left;
+    flex: 50%;
   }
 
   a {
@@ -144,6 +145,7 @@ const StyledNavbar = styled(Navbar)`
   nav {
     padding: 0 10px;
     justify-content: flex-end;
+    text-align: right;
   }
 
   &.fixed-nav {
@@ -266,7 +268,7 @@ const NavbarComponent = class extends React.Component {
         `}
         render={data => (
           <TopContainer>
-            <LanguageSwitcherContainer>
+            <LanguageSwitcherContainer className="d-none d-sm-block">
               <div className="contactsContainer">
                 <a href="#">
                   <PhoneAlt size="18" /> (+351) 915 316 999​
@@ -328,7 +330,8 @@ const NavbarComponent = class extends React.Component {
                   <span>&#9776;</span>
                 </StyledBurgerButton>
               </Nav>
-              <Nav collapse expandSm hidden={hidden}>
+              {/* <Nav collapse expandSm hidden={hidden} className="d-none d-sm-block"> */}
+                <Nav className="d-none d-sm-block">
                 {this.props &&
                   this.props.menu &&
                   this.props.menu.map((menuItem, index) => (

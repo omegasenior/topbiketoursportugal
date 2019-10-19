@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
-import Layout from '../layout/Layout';
+import Layout from "../layout/Layout";
 import Rating from "../components/Rating";
 import Helmet from "react-helmet";
 import styled from "styled-components";
@@ -15,7 +15,8 @@ import { Road } from "styled-icons/fa-solid/Road";
 
 const SectionTitle = styled.h1`
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding: 45px;
 `;
 
 const TourLink = styled(Link)`
