@@ -3,7 +3,7 @@
   "en": {
     "links": [
       {
-        "display": "Home1",
+        "display": "Home",
         "link": "/",
         "description": "Go to homepage",
         "enabled": true,
