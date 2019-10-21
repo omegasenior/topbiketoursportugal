@@ -1,25 +1,34 @@
 import React from "react";
 import { Link } from "gatsby";
-
-// import Image from './Image'
-//import './PostCard.scss'
+import Img from "gatsby-image/withIEPolyfill";
+//  import Image from "./Image";
+import "./PostCard.scss";
+import BackgroundImage from "gatsby-background-image";
 
 const PostCard = ({
   featuredImage,
+  featuredImagePostion,
   title,
   excerpt,
   slug,
   path,
+  localizedPath,
   categories = [],
   className = "",
   ...props
 }) => (
-  <Link to={path || slug} className={`PostCard ${className}`}>
-    {/* {featuredImage && (
+  <Link to={localizedPath || slug} className={`PostCard ${className}`}>
+    {featuredImage && (
       <div className="PostCard--Image relative">
-        <Image background src={featuredImage} alt={title} />
+        {/* <Img background fluid={featuredImage.childImageSharp.fluid} alt={title} /> */}
+        <Img className="PostCard--BGImage"
+          fluid={featuredImage.childImageSharp.fluid}
+          alt={title}
+          // objectPosition={featuredImagePostion}
+          style={{color: featuredImagePostion}}
+        />
       </div>
-    )} */}
+    )}
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
       <div className="PostCard--Category">

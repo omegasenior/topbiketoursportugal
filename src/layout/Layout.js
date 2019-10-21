@@ -118,7 +118,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             image {
               childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }

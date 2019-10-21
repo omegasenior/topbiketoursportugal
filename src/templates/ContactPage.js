@@ -1,31 +1,31 @@
-import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
-import { graphql } from 'gatsby'
+import React from "react";
+import { MapPin, Smartphone, Mail } from "react-feather";
+import { graphql } from "gatsby";
 
-import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
-import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
-import Layout from '../layout/Layout'
-//import './ContactPage.scss'
+import PageHeader from "../components/PageHeader";
+import FormSimpleAjax from "../components/FormSimpleAjax";
+import Content from "../components/Content";
+import GoogleMap from "../components/GoogleMap";
+import Layout from "../layout/Layout";
+import "./ContactPage.scss";
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({
   body,
   title,
   subtitle,
-  featuredImage,
+  // featuredImage,
   address,
   phone,
   email,
   locations
 }) => (
   <main className="Contact">
-    <PageHeader
+    {/* <PageHeader
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-    />
+    /> */}
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
@@ -64,7 +64,7 @@ export const ContactPageTemplate = ({
 
     <GoogleMap locations={locations} />
   </main>
-)
+);
 
 const ContactPage = ({ data: { page } }) => (
   <Layout
@@ -73,9 +73,9 @@ const ContactPage = ({ data: { page } }) => (
   >
     <ContactPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
-)
+);
 
-export default ContactPage
+export default ContactPage;
 
 export const pageQuery = graphql`
   query ContactPage($id: String!) {
@@ -86,7 +86,13 @@ export const pageQuery = graphql`
         title
         templateKey
         subtitle
-        featuredImage
+        featuredImage {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 1920) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
         address
         phone
         email
@@ -98,4 +104,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

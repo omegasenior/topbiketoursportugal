@@ -4,8 +4,8 @@ title: Mountains
 status: Published
 date: '2018-03-28'
 language: en
-featuredImage: >-
-  https://ucarecdn.com/b89e588f-5659-47e9-9caa-6be0ad058572/-/crop/1690x1728/0,638/-/preview/
+featuredImage: '/img/Silver-coast-5.jpg'
+featuredImagePosition: 'top center'
 excerpt: This is an excerpt of Post Two
 categories:
   - category: Updates

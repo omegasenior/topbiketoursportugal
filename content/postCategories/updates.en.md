@@ -2,6 +2,7 @@
 templateKey: "blog-index"
 title: Updates
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+featuredImage: '/img/Silver-coast-5.jpg'
+featuredImagePosition: 'top center'
 ---
 

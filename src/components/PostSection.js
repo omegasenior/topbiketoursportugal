@@ -1,39 +1,47 @@
-import React from 'react'
+import React from "react";
 
-import PostCard from '../components/PostCard'
-//import './PostSection.scss'
+import PostCard from "../components/PostCard";
+import "./PostSection.scss";
 
 class PostSection extends React.Component {
   static defaultProps = {
     posts: [],
-    title: '',
+    title: "",
     limit: 12,
     showLoadMore: true,
-    loadMoreTitle: 'Load More',
+    loadMoreTitle: "Load More",
     perPageLimit: 12
-  }
+  };
 
   state = {
     limit: this.props.limit
-  }
+  };
 
   increaseLimit = () =>
     this.setState(prevState => ({
       limit: prevState.limit + this.props.perPageLimit
-    }))
+    }));
 
   render() {
     const { posts, title, showLoadMore, loadMoreTitle } = this.props,
       { limit } = this.state,
-      visiblePosts = posts.slice(0, limit || posts.length)
+      visiblePosts = posts.slice(0, limit || posts.length);
 
     return (
-      <div className="PostSection">
-        {title && <h2 className="PostSection--Title">{title}</h2>}
+      <>
+        {title && (
+          <div className="row">
+            <div class="col-12">
+              <h2 className="PostSection--Title">{title}</h2>
+            </div>
+          </div>
+        )}
         {!!visiblePosts.length && (
-          <div className="PostSection--Grid">
+          <div className="row">
             {visiblePosts.map((post, index) => (
-              <PostCard key={post.title + index} {...post} />
+              <div className="col-xs-12 col-sm-4">
+                <PostCard key={post.title + index} {...post} />
+              </div>
             ))}
           </div>
         )}
@@ -44,9 +52,9 @@ class PostSection extends React.Component {
             </button>
           </div>
         )}
-      </div>
-    )
+      </>
+    );
   }
 }
 
-export default PostSection
+export default PostSection;

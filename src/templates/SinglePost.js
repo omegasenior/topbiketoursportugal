@@ -101,8 +101,8 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
-        nextPostURL={_get(thisEdge, 'next.fields.slug')}
-        prevPostURL={_get(thisEdge, 'previous.fields.slug')}
+        nextPostURL={_get(thisEdge, 'next.fields.localizedPath')||_get(thisEdge, 'next.fields.slug')}
+        prevPostURL={_get(thisEdge, 'previous.fields.localizedPath')||_get(thisEdge, 'previous.fields.slug')}
       />
     </Layout>
   )
@@ -142,6 +142,7 @@ export const pageQuery = graphql`
         next {
           fields {
             slug
+            localizedPath
           }
           frontmatter {
             title
@@ -150,6 +151,7 @@ export const pageQuery = graphql`
         previous {
           fields {
             slug
+            localizedPath
           }
           frontmatter {
             title

@@ -120,13 +120,20 @@ export const pageQuery = graphql`
       ...Meta
       fields {
         contentType
+        localizedPath
       }
       excerpt(pruneLength: 280)
       frontmatter {
         title
         templateKey
         subtitle
-        featuredImage
+        featuredImage{
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 1920) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
         contentType
       }
     }
@@ -140,6 +147,7 @@ export const pageQuery = graphql`
           excerpt(pruneLength: 280)
           fields {
             slug
+            localizedPath
           }
           frontmatter {
             title
@@ -147,7 +155,13 @@ export const pageQuery = graphql`
             categories {
               category
             }
-            featuredImage
+            featuredImage{
+              childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
           }
         }
       }

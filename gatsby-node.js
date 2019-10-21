@@ -143,8 +143,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     } else if (
       // home page gets root slug
       parsedFilePath.name === "home" &&
-      parsedFilePath.dir.indexOf("pages") !== -1 &&
-      parsedFilePath.dir.indexOf("posts") !== -1
+      parsedFilePath.dir.indexOf("pages") !== -1 
+      // && parsedFilePath.dir.indexOf("posts") !== -1
     ) {
       slug = `/`;
     } else if (_.get(node, "frontmatter.path")) {
@@ -159,7 +159,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       slug = `/${parsedFilePath.dir}/`;
     }
 
-    // console.log(parsedFilePath.dir);
+    console.log("slug:" + slug);
 
     // Add contentType to node.fields
     createNodeField({
@@ -173,6 +173,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     var matches = regex.exec(parsedFilePath.name);
     var langCode = matches && matches.length > 1 ? matches[1] : "en";
     var langKey = langCode.length > 0 ? langCode : "en";
+    
     createNodeField({
       node,
       name: `langKey`,
