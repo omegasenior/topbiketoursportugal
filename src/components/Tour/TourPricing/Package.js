@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Package = ({ data }) => {
-  console.log(JSON.stringify(data));
+  // console.log(JSON.stringify(data));
 
   return (
     <div className="pt-col">

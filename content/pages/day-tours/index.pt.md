@@ -1,10 +1,11 @@
 ---
-templateKey: 'bike-hollidays'
+templateKey: 'city-tours'
 path: /pt/tours-diarias
 title: tours diária
 langKey: pt
 lang: pt
 language: pt
+afterList: 'teste'
 meta:
   description: This is a meta description.
   title: Vistoursitas diárias

@@ -1,13 +1,15 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from '../layout/Layout'
+import Layout from "../layout/Layout";
+import { Timeline } from "../components/Timeline";
+import "./tour-calendar.scss";
 
 export const TourCalendarTemplate = ({ title, description, ...other }) => {
   return (
-    <div>
-      <div>{title}</div>
+    <>
+      <h1>{title}</h1>
       <div>{description}</div>
-    </div>
+    </>
   );
 };
 
@@ -18,7 +20,10 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
       meta={tourCalendar.frontmatter.meta || false}
       title={tourCalendar.frontmatter.title || false}
     >
-      <TourCalendarTemplate {...tourCalendar.frontmatter} />
+      <div className="container tourCalendar">
+        <TourCalendarTemplate {...tourCalendar.frontmatter} />
+        <Timeline></Timeline>
+      </div>
     </Layout>
   );
 };

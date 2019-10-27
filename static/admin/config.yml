@@ -221,6 +221,12 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - label: "Tour Type"
+        name: "tourtype"
+        widget: "select"
+        multiple: true
+        options: ["Multi", "Single"]
+        default: ["Multi"]
       - label: Publish Date
         name: date
         widget: datetime
@@ -562,6 +568,9 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: After Tour List
+            name: afterList
+            widget: markdown
       - file: content/pages/day-tours/index.pt.md
         label: Day Tours PT
         name: dayToursPT
@@ -595,7 +604,9 @@ collections:
           - label: Body
             name: body
             widget: markdown
-
+          - label: After Tour List
+            name: afterList
+            widget: markdown
       - file: content/pages/blog/index.en.md
         label: Blog EN
         name: blogEN
@@ -842,6 +853,22 @@ collections:
               - label: Keywords
                 name: keywords
                 widget: string
+              - label: Address
+                name: adddress
+                widget: object
+                fields:
+                  - label: Street 
+                    name: street 
+                    widget: string
+                  - label: 'Postal Code' 
+                    name: postalCode 
+                    widget: string
+                  - label: City 
+                    name: city 
+                    widget: string
+                  - label: Country 
+                    name: country 
+                    widget: string
               # - label: canonical
               #   name: canonical
               #   widget: string
@@ -867,6 +894,33 @@ collections:
               - label: Keywords
                 name: keywords
                 widget: string
+              - label: Address
+                name: adddress
+                widget: object
+                fields:
+                  - label: Street 
+                    name: street 
+                    widget: string
+                  - label: 'Postal Code' 
+                    name: postalCode 
+                    widget: string
+                  - label: City 
+                    name: city 
+                    widget: string
+                  - label: Country 
+                    name: country 
+                    widget: string
+          - label: Location 
+            name: location 
+            widget: object
+            fields:
+              - label: Latitude
+                name: lat 
+                widget: string
+              - label: Longitude
+                name: lng 
+                widget: string
+
               # - label: canonical
               #   name: canonical
               #   widget: string
@@ -878,6 +932,21 @@ collections:
               #   fields:
               #     - { label: Name, name: name, widget: string }
               #     - { label: Value, name: value, widget: string }
+          - label: Phone 
+            name: phone 
+            widget: string
+          - label: Mobile 
+            name: mobile 
+            widget: string
+          - label: Email 
+            name: email 
+            widget: string
+          - label: Tour Operator 
+            name: tourOperator 
+            widget: string
+          - label: Travel Agency 
+            name: travelAgency 
+            widget: string
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - label: Social Media Card
             name: socialMediaCard
@@ -900,6 +969,12 @@ collections:
           - {
               label: Google Analytics Tracking Id,
               name: googleTrackingId,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: Google Analytics api key,
+              name: googleApiKey,
               widget: string,
               required: false,
             }

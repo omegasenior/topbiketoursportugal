@@ -33,7 +33,7 @@ const TourPricing = ({ tour: { pricing } }) => {
       })
   );
 
-  console.log(JSON.stringify(packages));
+  // console.log(JSON.stringify(packages));
 
   return (
     <div>

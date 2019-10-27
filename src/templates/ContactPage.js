@@ -16,9 +16,11 @@ export const ContactPageTemplate = ({
   subtitle,
   // featuredImage,
   address,
-  phone,
   email,
-  locations
+  location,
+  phone,
+  mobile,
+  googleApiKey
 }) => (
   <main className="Contact">
     {/* <PageHeader
@@ -29,23 +31,31 @@ export const ContactPageTemplate = ({
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
-          <Content source={body} />
+          {title && <h1>{title}</h1>}
+          {subtitle && <h2>{subtitle}</h2>}
+          <div dangerouslySetInnerHTML={{ __html: body }} />
           <div className="Contact--Details">
-            {address && (
+            {address && address.street && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
+                href={`https://www.google.pt/maps/search/${encodeURI(
+                  address.street
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <MapPin /> {address}
+                <MapPin /> {address.street}
+                {address.postalCode && `, ${address.postalCode}`}
               </a>
             )}
             {phone && (
               <a className="Contact--Details--Item" href={`tel:${phone}`}>
                 <Smartphone /> {phone}
+              </a>
+            )}
+            {mobile && (
+              <a className="Contact--Details--Item" href={`tel:${mobile}`}>
+                <Smartphone /> {mobile}
               </a>
             )}
             {email && (
@@ -62,16 +72,21 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    {location && <GoogleMap locations={location} mapkey={googleApiKey} />}
   </main>
 );
 
-const ContactPage = ({ data: { page } }) => (
+const ContactPage = ({ data: { page, settings } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ContactPageTemplate {...page.frontmatter} body={page.html} />
+    <ContactPageTemplate
+      {...settings}
+      {...settings[page.language || "en"]}
+      {...page.frontmatter}
+      body={page.html}
+    />
   </Layout>
 );
 
@@ -79,12 +94,50 @@ export default ContactPage;
 
 export const pageQuery = graphql`
   query ContactPage($id: String!) {
+    settings: settingsYaml {
+      googleTrackingId
+      googleApiKey
+      siteUrl
+      mobile
+      phone
+      email
+      location {
+        lat
+        lng
+      }
+      tourOperator
+      travelAgency
+      socialNetworks {
+        display
+        icon
+        link
+      }
+      pt {
+        address {
+          city
+          country
+          hint
+          postalCode
+          street
+        }
+      }
+      en {
+        address {
+          city
+          country
+          hint
+          postalCode
+          street
+        }
+      }
+    }
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
       frontmatter {
         title
         templateKey
+        language
         subtitle
         featuredImage {
           childImageSharp {
@@ -92,14 +145,6 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
-        }
-        address
-        phone
-        email
-        locations {
-          mapLink
-          lat
-          lng
         }
       }
     }

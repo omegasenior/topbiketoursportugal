@@ -1,5 +1,4 @@
 ---
-templateKey: 'about-page'
 langKey: 'en'
 contentType: ''
 meta:

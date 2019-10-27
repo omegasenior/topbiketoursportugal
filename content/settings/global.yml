@@ -3,11 +3,33 @@ en:
     Bike tours Portugal: Are you lost in Portugal?Check out our Porto city
     bicycle tours, as well as our guided and self guided bike tours in Portugal
   title: Portugal Bike tours | Top Bike tours Portugal
+  keywords: 'tours, porto, portugal'
+  address: 
+    street: 'Street Alferes Malheiro nº 139'
+    postalCode: '4000-057'
+    city: 'Oporto'
+    country: 'Portugal'
+    hint: '300m from Trindade Metro, near Oporto City Hall' 
 pt:
   description: >-
     Cicloturismo em Portugal. De norte a sul do país conheça a nossa oferta de
     passeios em autonomia ou guiados em bicicleta
   title: Cicloturismo em Portugal | Porto | Top Biketours Portugal
+  keywords: 'tours, porto, portugal'
+  address: 
+    street: 'Rua Alferes Malheiro nº 139'
+    postalCode: '4000-057'
+    city: 'Porto'
+    country: 'Portugal'
+    hint: '300m da estação de metro da Trindade, perto da camara do porto' 
+location:
+  lat: '41.152103'
+  lng: '-8.610452'
+phone: "(+351) 220 997 106"
+mobile: '(+351) 915 316 999​'
+email: 'info@topbiketoursportugal.com' 
+tourOperator: '7/2014'
+travelAgency: '7008'
 siteUrl: 'https://topbiketoursportugal.com'
 socialMediaCard:
   image: /img/logo.svg
@@ -29,3 +51,4 @@ socialNetworks:
     link: >-
       https://www.tripadvisor.co.uk/Attraction_Review-g189180-d4105907-Reviews-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 googleTrackingId: UA-106573860-1
+googleApiKey: AIzaSyC5YPliu9trA7Ntf0b1CsCGdAn5Mfc_q2k
