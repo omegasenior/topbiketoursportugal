@@ -222,6 +222,40 @@ collections:
         name: templateKey
         widget: hidden
         default: tour-gen
+      - label: Path
+        name: path
+        widget: string
+        required: false
+      - {
+          label: "Language",
+          name: "language",
+          widget: "relation",
+          collection: "languages",
+          displayFields: ["title"],
+          searchFields: ["title"],
+          valueField: "code",
+          default: "en",
+          required: true,
+        }
+      - label: "Traduções"
+          name: "languagePages"
+          widget: "list"
+          required: false
+          editor: 
+            preview: false
+          fields:
+            - label: "Language"
+              name: "language"
+              widget: "relation"
+              collection: "languages"
+              displayFields: ["title"]
+              searchFields: ["title"]
+              valueField: "id"
+              default: "en"
+              required: true
+            - label: "path"
+              name: "path"
+              widget: "string"
       - label: Image
         name: image
         widget: image
@@ -269,68 +303,6 @@ collections:
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-
-      - label: Group SizeMax
-        name: groupSizeMax
-        required: false
-        widget: number
-      - label: Group SizeMin
-        name: groupSizeMin
-        required: false
-        widget: number
-
-      - label: minAge
-        name: minAge
-        required: false
-        widget: number
-      - label: skillLevel
-        name: skillLevel
-        required: false
-        widget: number
-
-      - label: distance
-        name: distance
-        required: false
-        widget: number
-      - label: distanceUnit
-        name: distanceUnit
-        required: false
-        widget: string
-
-      - label: duration
-        name: duration
-        required: false
-        widget: number
-      - label: durationUnit
-        name: durationUnit
-        required: false
-        widget: string
-
-      - label: difficulty
-        name: difficulty
-        required: false
-        widget: number
-      - label: physicality
-        name: physicality
-        required: false
-        widget: number
-      - label: Rating
-        name: rating
-        widget: number
-      - label: Rating Count
-        name: ratingCount
-        widget: number
-      - label: Rating Link
-        name: ratingLink
-        widget: string
-        required: false
-      - label: Path
-        name: path
-        widget: string
-        required: false
-      - label: Order
-        name: order
-        widget: number
       - label: Itinerary
         name: itinerary
         widget: list
@@ -402,6 +374,65 @@ collections:
             name: highSeasonPriceSupplement
             default: 100
             widget: number
+
+      - label: Group SizeMax
+        name: groupSizeMax
+        required: false
+        widget: number
+      - label: Group SizeMin
+        name: groupSizeMin
+        required: false
+        widget: number
+
+      - label: minAge
+        name: minAge
+        required: false
+        widget: number
+      - label: skillLevel
+        name: skillLevel
+        required: false
+        widget: number
+
+      - label: distance
+        name: distance
+        required: false
+        widget: number
+      - label: distanceUnit
+        name: distanceUnit
+        required: false
+        widget: string
+
+      - label: duration
+        name: duration
+        required: false
+        widget: number
+      - label: durationUnit
+        name: durationUnit
+        required: false
+        widget: string
+
+      - label: difficulty
+        name: difficulty
+        required: false
+        widget: number
+      - label: physicality
+        name: physicality
+        required: false
+        widget: number
+      - label: Rating
+        name: rating
+        widget: number
+      - label: Rating Count
+        name: ratingCount
+        widget: number
+      - label: Rating Link
+        name: ratingLink
+        widget: string
+        required: false
+
+      - label: Order
+        name: order
+        widget: number
 
   # - name: home_banners
   #   label: Home Banners
