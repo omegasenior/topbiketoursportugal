@@ -114,17 +114,28 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-      - label: "Status"
-        name: "status"
-        widget: "select"
-        options: ["Published", "Featured", "Draft"]
-        default: "Published"
-      - { label: Date / Order, name: date, widget: date }
+        editor: 
+          preview: false 
+      # - label: "Status"
+      #   name: "status"
+      #   widget: "select"
+      #   options: ["Published", "Featured", "Draft"]
+      #   default: "Published"
+      # - label: Publish Date
+      #   name: date
+      #   widget: datetime
+      -  label: Date / Order, 
+         name: date, 
+         widget: date,
+         editor: 
+           preview: false
       - {
           label: Featured Image,
           name: featuredImage,
           widget: image,
           required: false,
+          editor: 
+           preview: false
         }
       - {
           label: Featured Image Position,
@@ -143,13 +154,12 @@ collections:
               "bottom right",
             ],
           default: "center center",
+          editor: 
+           preview: false
         }
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Description
-        name: description
-        widget: text
+      # - label: Description
+      #   name: description
+      #   widget: text
       - label: Body
         name: body
         widget: markdown
@@ -157,10 +167,14 @@ collections:
         required: false
         name: tags
         widget: list
+        editor: 
+           preview: false
       - label: "Meta"
         required: false
         name: "meta"
         widget: "object"
+        editor: 
+           preview: false
         fields:
           - { label: Title, name: title, widget: string, required: false }
           - {
@@ -177,23 +191,25 @@ collections:
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-          - label: "Traduções"
-            name: "languagePages"
-            widget: "list"
-            required: false
-            fields:
-              - label: "Language"
-                name: "language"
-                widget: "relation"
-                collection: "languages"
-                displayFields: ["title"]
-                searchFields: ["title"]
-                valueField: "code"
-                default: "en"
-                required: true
-              - label: "path"
-                name: "path"
-                widget: "string"
+        - label: "Traduções"
+          name: "languagePages"
+          widget: "list"
+          required: false
+          editor: 
+            preview: false
+          fields:
+            - label: "Language"
+              name: "language"
+              widget: "relation"
+              collection: "languages"
+              displayFields: ["title"]
+              searchFields: ["title"]
+              valueField: "code"
+              default: "en"
+              required: true
+            - label: "path"
+              name: "path"
+              widget: "string"
   - name: tours
     extension: json
     format: json
@@ -215,6 +231,7 @@ collections:
       - label: Sub Title
         name: subTitle
         widget: markdown
+        required: false
       - label: Description
         name: description
         widget: markdown
