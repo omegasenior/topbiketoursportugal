@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react'
-import _get from 'lodash/get'
+import React, { Fragment } from "react";
+import _get from "lodash/get";
 // import _format from 'date-fns/format'
 // import _parseISO from 'date-fns/parseISO'
-import { Link, graphql } from 'gatsby'
-import { ChevronLeft } from 'react-feather'
+import { Link, graphql } from "gatsby";
+import { ChevronLeft } from "react-feather";
 
-import Content from '../components/Content'
-import Layout from '../layout/Layout'
+import Content, { HTMLContent } from "../components/Content";
+import Layout from "../layout/Layout";
 //import './SinglePost.scss'
 
 export const SinglePostTemplate = ({
@@ -19,7 +19,7 @@ export const SinglePostTemplate = ({
 }) => (
   <main>
     <article
-      className="SinglePost section light"
+      className="SinglePost section light container"
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
@@ -48,7 +48,7 @@ export const SinglePostTemplate = ({
                   >
                     {cat.category}
                     {/* Add a comma on all but last category */}
-                    {index !== categories.length - 1 ? ',' : ''}
+                    {index !== categories.length - 1 ? "," : ""}
                   </span>
                 ))}
               </Fragment>
@@ -62,7 +62,7 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
-            <Content source={body} />
+            <div dangerouslySetInnerHTML={{ __html: body }} />
           </div>
 
           <div className="SinglePost--Pagination">
@@ -87,11 +87,11 @@ export const SinglePostTemplate = ({
       </div>
     </article>
   </main>
-)
+);
 
 // Export Default SinglePost for front-end
 const SinglePost = ({ data: { post, allPosts } }) => {
-  const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
+  const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id);
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -101,14 +101,20 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
-        nextPostURL={_get(thisEdge, 'next.fields.localizedPath')||_get(thisEdge, 'next.fields.slug')}
-        prevPostURL={_get(thisEdge, 'previous.fields.localizedPath')||_get(thisEdge, 'previous.fields.slug')}
+        nextPostURL={
+          _get(thisEdge, "next.fields.localizedPath") ||
+          _get(thisEdge, "next.fields.slug")
+        }
+        prevPostURL={
+          _get(thisEdge, "previous.fields.localizedPath") ||
+          _get(thisEdge, "previous.fields.slug")
+        }
       />
     </Layout>
-  )
-}
+  );
+};
 
-export default SinglePost
+export default SinglePost;
 
 export const pageQuery = graphql`
   ## Query for SinglePost data
@@ -160,4 +166,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

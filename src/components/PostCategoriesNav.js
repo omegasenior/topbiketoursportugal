@@ -13,8 +13,8 @@ const PostCategoriesNav = ({ categories, enableSearch }) => (
       <Link
         exact="true"
         className="NavLink"
-        key={category.title + index}
-        to={category.slug}
+        key={category.key + index}
+        to={category.path || category.slug}
       >
         {category.title}
       </Link>
