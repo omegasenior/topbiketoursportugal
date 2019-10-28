@@ -13,8 +13,6 @@ collections:
     folder: content/menus
     create: true
     widget: "object"
-    editor:
-      preview: false
     fields:
       - { label: Title, name: title, widget: "string" }
       - label: "English"
@@ -114,8 +112,6 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-        editor: 
-          preview: false 
       # - label: "Status"
       #   name: "status"
       #   widget: "select"
@@ -127,15 +123,11 @@ collections:
       -  label: Date / Order, 
          name: date, 
          widget: date,
-         editor: 
-           preview: false
       - {
           label: Featured Image,
           name: featuredImage,
           widget: image,
           required: false,
-          editor: 
-           preview: false
         }
       - {
           label: Featured Image Position,
@@ -154,8 +146,6 @@ collections:
               "bottom right",
             ],
           default: "center center",
-          editor: 
-           preview: false
         }
       # - label: Description
       #   name: description
@@ -167,14 +157,10 @@ collections:
         required: false
         name: tags
         widget: list
-        editor: 
-           preview: false
       - label: "Meta"
         required: false
         name: "meta"
         widget: "object"
-        editor: 
-           preview: false
         fields:
           - { label: Title, name: title, widget: string, required: false }
           - {
@@ -195,8 +181,6 @@ collections:
           name: "languagePages"
           widget: "list"
           required: false
-          editor: 
-            preview: false
           fields:
             - label: "Language"
               name: "language"
@@ -880,8 +864,6 @@ collections:
   - name: settings
     label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
-    editor:
-      preview: false
     files:
       - file: "content/settings/global.yml"
         label: "Global Settings"
