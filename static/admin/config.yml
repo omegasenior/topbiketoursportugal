@@ -199,7 +199,7 @@ collections:
         name: templateKey
         widget: hidden
         default: tour-gen
-            - label: Path
+      - label: Path
         name: path
         widget: string
         required: false
