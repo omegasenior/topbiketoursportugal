@@ -223,11 +223,11 @@ collections:
           required: true,
         }
       - label: "Traduções"
-          name: "languagePages"
-          widget: "list"
-          required: false
-          fields:
-            - label: "Language"
+        name: "languagePages"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Language"
               name: "language"
               widget: "relation"
               collection: "languages"
@@ -236,7 +236,7 @@ collections:
               valueField: "id"
               default: "en"
               required: true
-            - label: "path"
+          - label: "path"
               name: "path"
               widget: "string"
       - label: Image
