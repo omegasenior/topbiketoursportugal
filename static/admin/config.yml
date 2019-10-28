@@ -225,8 +225,6 @@ collections:
           name: "languagePages"
           widget: "list"
           required: false
-          editor: 
-            preview: false
           fields:
             - label: "Language"
               name: "language"
