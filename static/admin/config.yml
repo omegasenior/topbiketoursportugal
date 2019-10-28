@@ -224,26 +224,26 @@ collections:
           default: "en",
           required: true,
         }
-        
-      - label: "Traduções"
-        name: "languagePages"
-        widget: "list"
-        required: false
-        fields:
-          - {
-              label: "Language",
-              name: "language",
-              widget: "relation",
-              collection: "languages",
-              displayFields: ["title"],
-              searchFields: ["title"],
-              valueField: "code",
-              default: "en",
-              required: true
-            }
-          - label: "path"
-            name: "path"
-            widget: "string"
+
+      # - label: "Traduções"
+      #   name: "languagePages"
+      #   widget: "list"
+      #   required: false
+      #   fields:
+      #     - {
+      #         label: "Language",
+      #         name: "language",
+      #         widget: "relation",
+      #         collection: "languages",
+      #         displayFields: ["title"],
+      #         searchFields: ["title"],
+      #         valueField: "code",
+      #         default: "en",
+      #         required: true
+      #       }
+      #     - label: "path"
+      #       name: "path"
+      #       widget: "string"
       - label: Image
         name: image
         widget: image
