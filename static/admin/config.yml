@@ -114,34 +114,8 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-      - label: "Traduções"
-        name: "languagePages"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Language"
-            name: "language"
-            widget: "relation"
-            collection: "languages"
-            displayFields: ["title"]
-            searchFields: ["title"]
-            valueField: "code"
-            default: "en"
-            required: true
-          - label: "path"
-            name: "path"
-            widget: "string"
-      # - label: "Status"
-      #   name: "status"
-      #   widget: "select"
-      #   options: ["Published", "Featured", "Draft"]
-      #   default: "Published"
-      # - label: Publish Date
-      #   name: date
-      #   widget: datetime
-      -  label: Date / Order, 
-         name: date, 
-         widget: date
+
+      - { label: Date / Order, name: date, widget: date }
       - {
           label: Featured Image,
           name: featuredImage,
@@ -196,7 +170,23 @@ collections:
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-
+          - label: "Traduções"
+            name: "languagePages"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Language"
+                name: "language"
+                widget: "relation"
+                collection: "languages"
+                displayFields: ["title"]
+                searchFields: ["title"]
+                valueField: "code"
+                default: "en"
+                required: true
+              - label: "path"
+                name: "path"
+                widget: "string"
   - name: tours
     extension: json
     format: json
@@ -209,7 +199,7 @@ collections:
         name: templateKey
         widget: hidden
         default: tour-gen
-      - label: Path
+            - label: Path
         name: path
         widget: string
         required: false
@@ -222,25 +212,6 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-      # - label: "Traduções"
-      #   name: "languagePages"
-      #   widget: "list"
-      #   required: false
-      #   fields:
-      #     - {
-      #         label: "Language",
-      #         name: "language",
-      #         widget: "relation",
-      #         collection: "languages",
-      #         displayFields: ["title"],
-      #         searchFields: ["title"],
-      #         valueField: "code",
-      #         default: "en",
-      #         required: true
-      #       }
-      #     - label: "path"
-      #       name: "path"
-      #       widget: "string"
       - label: Image
         name: image
         widget: image
@@ -288,6 +259,68 @@ collections:
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+      - label: Group SizeMax
+        name: groupSizeMax
+        required: false
+        widget: number
+      - label: Group SizeMin
+        name: groupSizeMin
+        required: false
+        widget: number
+
+      - label: minAge
+        name: minAge
+        required: false
+        widget: number
+      - label: skillLevel
+        name: skillLevel
+        required: false
+        widget: number
+
+      - label: distance
+        name: distance
+        required: false
+        widget: number
+      - label: distanceUnit
+        name: distanceUnit
+        required: false
+        widget: string
+
+      - label: duration
+        name: duration
+        required: false
+        widget: number
+      - label: durationUnit
+        name: durationUnit
+        required: false
+        widget: string
+
+      - label: difficulty
+        name: difficulty
+        required: false
+        widget: number
+      - label: physicality
+        name: physicality
+        required: false
+        widget: number
+      - label: Rating
+        name: rating
+        widget: number
+      - label: Rating Count
+        name: ratingCount
+        widget: number
+      - label: Rating Link
+        name: ratingLink
+        widget: string
+        required: false
+      - label: Path
+        name: path
+        widget: string
+        required: false
+      - label: Order
+        name: order
+        widget: number
       - label: Itinerary
         name: itinerary
         widget: list
@@ -359,65 +392,6 @@ collections:
             name: highSeasonPriceSupplement
             default: 100
             widget: number
-
-      - label: Group SizeMax
-        name: groupSizeMax
-        required: false
-        widget: number
-      - label: Group SizeMin
-        name: groupSizeMin
-        required: false
-        widget: number
-
-      - label: minAge
-        name: minAge
-        required: false
-        widget: number
-      - label: skillLevel
-        name: skillLevel
-        required: false
-        widget: number
-
-      - label: distance
-        name: distance
-        required: false
-        widget: number
-      - label: distanceUnit
-        name: distanceUnit
-        required: false
-        widget: string
-
-      - label: duration
-        name: duration
-        required: false
-        widget: number
-      - label: durationUnit
-        name: durationUnit
-        required: false
-        widget: string
-
-      - label: difficulty
-        name: difficulty
-        required: false
-        widget: number
-      - label: physicality
-        name: physicality
-        required: false
-        widget: number
-      - label: Rating
-        name: rating
-        widget: number
-      - label: Rating Count
-        name: ratingCount
-        widget: number
-      - label: Rating Link
-        name: ratingLink
-        widget: string
-        required: false
-
-      - label: Order
-        name: order
-        widget: number
 
   # - name: home_banners
   #   label: Home Banners
@@ -865,6 +839,8 @@ collections:
   - name: settings
     label: "Settings"
     delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
     files:
       - file: "content/settings/global.yml"
         label: "Global Settings"
