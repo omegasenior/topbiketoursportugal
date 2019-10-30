@@ -6,7 +6,7 @@ import Layout from "../layout/LayoutBootstrap";
 import Scroll from "../components/Scroll";
 import Tourhighlights from "../components/Tourhighlights/index";
 import ReviewsHighlights from "../components/ReviewsHighlights";
-import Partners from "../components/Partners";
+// import Partners from "../components/Partners";
 import { ChevronCircleDown } from "styled-icons/fa-solid/ChevronCircleDown";
 import "./home-page.mod.scss";
 
@@ -61,7 +61,7 @@ export const HomePageTemplate = ({ title, content, contentComponent }) => {
           <ChevronCircleDown>Click me</ChevronCircleDown>
         </Scroll> */}
       <ReviewsHighlights className="reviewsHighlights" />
-      <Partners className="partners" />
+      {/* <Partners className="partners" /> */}
     </>
   );
 };

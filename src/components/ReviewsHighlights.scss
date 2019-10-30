@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/grid";
+.reviewTitle {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.containerReview {
+  @extend .container;
+  margin-bottom: 35px;
+}

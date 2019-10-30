@@ -8,12 +8,15 @@ import Banners from "../components/Banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 
+import BackgroundImage from "gatsby-background-image";
+import Img from "gatsby-image";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { ChevronUp } from "styled-icons/feather/ChevronUp";
 import Scroll from "../components/Scroll";
 
 import "../sass/style.global.scss";
+import "./layoutboostrap.scss";
 
 const ScrollUpButton = styled.button`
   opacity: 0.7;
@@ -79,7 +82,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const TemplateWrapper = ({ children, meta, title, language }) => {
+const TemplateWrapper = ({ children, meta, title, language, feature }) => {
   // console.log(language);
   return (
     <StaticQuery
@@ -162,8 +165,12 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               />
               <meta property="og:url" content="/" />
               <meta property="og:image" content="/img/og-image.jpg" />
-               <meta property="og:image" content="/icons/icon-48x48.png" />
-            <link rel="shortcut icon" type="image/png" href="/icon-48x48.png" />
+              <meta property="og:image" content="/icons/icon-48x48.png" />
+              <link
+                rel="shortcut icon"
+                type="image/png"
+                href="/icon-48x48.png"
+              />
             </Helmet>
             <Meta
               googleTrackingId={googleTrackingId}
@@ -178,9 +185,38 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
 
             <header>
               <NavbarComponent menu={menu} />
-              <Banners banners={data.banners} />
+              {feature && (
+                <div
+                  className="feature"
+                  style={{
+                    color: (feature.textcolor || "white") + `!important`
+                  }}
+                >
+                  {/* <Img
+                    objectFit="cover"
+                    objectPosition="50% 50%"
+                    fluid={feature.image.childImageSharp.fluid}
+                    alt={feature.title}
+                  /> */}
+                  <BackgroundImage
+                    fluid={feature.image.childImageSharp.fluid}
+                    backgroundColor={`#fff`}
+                  >
+                    {feature.title && (
+                      <h1
+                        style={{
+                          color: feature.textcolor || "white"
+                        }}
+                      >
+                        {feature.title}
+                      </h1>
+                    )}
+                  </BackgroundImage>
+                </div>
+              )}
+              {!feature && <Banners banners={data.banners} />}
             </header>
-            <>{children}</>
+            <main>{children}</main>
             <Footer />
             <Scroll>
               <ScrollUpButton aria-label="Scroll to top" role="navigation">

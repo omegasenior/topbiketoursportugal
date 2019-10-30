@@ -284,7 +284,7 @@ const Banners = ({ className }) => (
             <BannerSlide key={`b${item.id}`} banner={item} />
           ))} */}
           {banners.map(item => (
-            <Container key={item.id}>
+            <Container key={`banner`+item.id}>
               <BackgroundImage fluid={item.image.childImageSharp.fluid}>
                 <Content>
                   <Title>{item.title}</Title>

@@ -17,7 +17,7 @@ export default function Tourhighlights() {
       </p>
       <div className="container">
         <div className="row">
-          <div className="col col-xs-12 col-sm-6 col-md-4">
+          <div className="col col-12 col-md-4">
             <Style.Tour>
               <Style.ToursImageContainer>
                 <Style.ToursImage src={img_tour_3} title="3" />
@@ -37,7 +37,7 @@ export default function Tourhighlights() {
               </Style.TourChart>
             </Style.Tour>
           </div>
-          <div className="col col-xs-12 col-sm-6 col-md-4">
+          <div className="col col-12 col-md-4">
             <Style.Tour>
               <Style.ToursImageContainer>
                 <Style.ToursImage src={img_tour_2} height={285} title="2" />
@@ -54,7 +54,7 @@ export default function Tourhighlights() {
               </Style.TourChart>
             </Style.Tour>
           </div>
-          <div className="col col-xs-12 col-sm-6 col-md-4">
+          <div className="col col-12 col-md-4">
             {/* <BackgroundImage fluid={img1} height={285} /> */}
             <Style.Tour>
               <Style.ToursImageContainer>

@@ -18,7 +18,7 @@ tourHighlights: >-
 ---
 
 ## Why Choose Us
-
+\
 Visit all around Portugal in a bicycle with our expertise guides.
 
 Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.

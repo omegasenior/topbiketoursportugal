@@ -151,7 +151,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             <meta property="og:title" content={data.site.siteMetadata.title} />
             <meta property="og:url" content="/" />
             <meta property="og:image" content="/icons/icon-48x48.png" />
-            <link rel="shortcut icon" type="image/png" href="/icon-48x48.png" />
+            <link rel="shortcut icon" type="image/png" href="/icons/icon-48x48.png" />
           </Helmet>
           <Meta
             googleTrackingId={googleTrackingId}
@@ -165,7 +165,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
             <NavbarComponent menu={menu} />
             <Banners banners={data.banners} />
           </header>
-          <>{children}</>
+          <main>{children}</main>
           <Footer />
           <Scroll>
             <ScrollUpButton aria-label="Scroll to top" role="navigation">

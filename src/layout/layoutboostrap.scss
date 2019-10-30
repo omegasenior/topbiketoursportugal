@@ -65,3 +65,17 @@ header {
     transition: all 200ms linear;
   }
 }
+
+.feature {
+  height: 50vh;
+  overflow: hidden;
+  .gatsby-image-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // .h1 {
+    //   color: #fff;
+    // }
+  }
+}

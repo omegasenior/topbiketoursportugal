@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import Truncate from 'react-truncate';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import Truncate from "react-truncate";
+import "./readMore.scss";
+
 class ReadMore extends Component {
   constructor(...args) {
     super(...args);
@@ -36,13 +38,13 @@ class ReadMore extends Component {
     const { expanded, truncated } = this.state;
 
     return (
-      <div>
+      <div className="readMoreContainer">
         <Truncate
           lines={!expanded && lines}
           ellipsis={
             <span>
-              ...{" "}
-              <a href="#" onClick={this.toggleLines}>
+              ...
+              <a className="moreBtn" href="#" onClick={this.toggleLines}>
                 {more}
               </a>
             </span>
@@ -53,8 +55,7 @@ class ReadMore extends Component {
         </Truncate>
         {!truncated && expanded && (
           <span>
-            {" "}
-            <a href="#" onClick={this.toggleLines}>
+            <a className="moreBtn" href="#" onClick={this.toggleLines}>
               {less}
             </a>
           </span>

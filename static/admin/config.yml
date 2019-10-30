@@ -114,7 +114,6 @@ collections:
         valueField: "code"
         default: "en"
         required: true
-
       - { label: Date / Order, name: date, widget: date }
       - {
           label: Featured Image,
@@ -140,9 +139,6 @@ collections:
             ],
           default: "center center"
         }
-      # - label: Description
-      #   name: description
-      #   widget: text
       - label: Body
         name: body
         widget: markdown
@@ -212,12 +208,29 @@ collections:
         valueField: "code"
         default: "en"
         required: true
+      - label: "Traduções"
+        name: "languagePages"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Language"
+            name: "language"
+            widget: "relation"
+            collection: "languages"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "code"
+            default: "en"
+            required: true
+          - label: "path"
+            name: "path"
+            widget: "string"
       - label: Image
         name: image
         widget: image
       - label: Title
         name: title
-        widget: markdown
+        widget: string
       - label: Sub Title
         name: subTitle
         widget: markdown

@@ -184,7 +184,7 @@ const TemplateWrapper = ({ children, meta, title, language }) => {
               <NavbarComponent menu={menu} />
               <Banners banners={data.banners} />
             </header>
-            <>{children}</>
+            <main>{children}</main>
             <Footer />
             <Scroll>
               <ScrollUpButton aria-label="Scroll to top" role="navigation">

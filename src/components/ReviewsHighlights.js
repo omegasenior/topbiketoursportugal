@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import LinesEllipsis from "react-lines-ellipsis";
+import ReadMore from "./ReadMore";
+import "./ReviewsHighlights.scss";
 
 export const ReviewList = styled.div`
   display: flex;
@@ -32,16 +34,13 @@ export const ReviewQuote = styled.blockquote`
   }
 
   cite {
-    padding: 20px;
+    padding: 20px 0 0 20px;
   }
 `;
 
 export const ReviewContainer = styled.div`
   text-align: center;
-`;
-
-export const ReviewTitle = styled.h2`
-  text-align: center;
+  margin: 35px 0;
 `;
 
 export const ReviewCite = styled.cite`
@@ -73,44 +72,27 @@ const reviews = [
 export default class ReviewsHighlights extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { useEllipsis: true };
-    this.onTextClick = this.onTextClick.bind(this);
-  }
-
-  onTextClick(e) {
-    e.preventDefault();
-    this.setState({ useEllipsis: false });
   }
 
   render() {
-    const { useEllipsis } = this.state;
     return (
-      <ReviewContainer>
-        <ReviewTitle>What People Are Saying</ReviewTitle>
-        <ReviewList>
+      <div className="containerReview">
+        <div className="row">
+          <div className="col-12">
+            <h2 className="reviewTitle">What People Are Saying</h2>
+          </div>
           {reviews.map((review, index) => (
-            <ReviewQuote key={index}>
-              {useEllipsis ? (
-                <div onClick={this.onTextClick} tabIndex="0">
-                  <LinesEllipsis
-                    className="quote collapsed"
-                    text={review.quote}
-                    maxLine="3"
-                    ellipsis="..."
-                    trimRight
-                    component={"div"}
-                  />
-                </div>
-              ) : (
-                <div className="quote">{review.quote}</div>
-              )}
-              <ReviewCite>
-                <cite>{review.author}</cite>, {review.country}
-              </ReviewCite>
-            </ReviewQuote>
+            <div key={`review` + index} className="col-12 col-md-6">
+              <ReviewQuote>
+                <ReadMore>{review.quote}</ReadMore>
+                <ReviewCite>
+                  <cite>{review.author}</cite>, {review.country}
+                </ReviewCite>
+              </ReviewQuote>
+            </div>
           ))}
-        </ReviewList>
-      </ReviewContainer>
+        </div>
+      </div>
     );
   }
 }
