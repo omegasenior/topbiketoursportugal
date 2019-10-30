@@ -930,6 +930,9 @@ collections:
                   - label: Country 
                     name: country 
                     widget: string
+          - label: TitleFormat
+            name: titleformat 
+            widget: string
           - label: Location 
             name: location 
             widget: object

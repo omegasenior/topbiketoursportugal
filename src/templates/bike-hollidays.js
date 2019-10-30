@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout/Layout";
 import Rating from "../components/Rating";
+import { HTMLContent } from "../components/Content";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -119,15 +120,16 @@ const TourDiscountPrice = styled.div`
 /*https://www.gatsbyjs.org/docs/adding-pagination*/
 function ToursListPage({ data }) {
   const tours = data.allTourJson.nodes;
+  const toursPage = data.toursPage;
   return (
-    <Layout language={tours.language}>
-      <Helmet titleTemplate="%s | `Bike hollidays`">
-        <title>Bike hollidays</title>
-        <meta name="description" content="Bike Hollidays" />
-      </Helmet>
-
+    <Layout
+      language={tours.language}
+      meta={toursPage.frontmatter.meta || false}
+      title={toursPage.frontmatter.title || false}
+      feature={toursPage.frontmatter.feature}
+    >
       <section>
-        <SectionTitle>Our Tours</SectionTitle>
+        <HTMLContent content={toursPage.html} className="container" />
         <Container>
           <Row>
             {tours.map(tour => (
@@ -194,7 +196,17 @@ ToursListPage.propTypes = {
 export default ToursListPage;
 
 export const pageQuery = graphql`
-  query ToursQuery {
+  query ToursQuery($id: String!) {
+    toursPage: markdownRemark(id: { eq: $id }) {
+      ...Meta
+      ...FeatureImage
+      id
+      html
+      frontmatter {
+        title
+        description
+      }
+    }
     allTourJson {
       nodes {
         id

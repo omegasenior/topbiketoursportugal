@@ -22,6 +22,7 @@ pt:
     city: 'Porto'
     country: 'Portugal'
     hint: '300m da estação de metro da Trindade, perto da camara do porto' 
+titleformat: "%s  | Top Bike tours Portugal"
 location:
   lat: '41.152103'
   lng: '-8.610452'

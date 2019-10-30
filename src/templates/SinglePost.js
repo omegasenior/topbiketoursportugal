@@ -62,7 +62,7 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
-            <div dangerouslySetInnerHTML={{ __html: body }} />
+            <HTMLContent content={body} />
           </div>
 
           <div className="SinglePost--Pagination">

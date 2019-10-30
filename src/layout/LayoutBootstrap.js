@@ -94,6 +94,18 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
               description
             }
           }
+          settingsYaml {
+            en {
+              description
+              keywords
+              title
+            }
+            pt {
+              description
+              keywords
+              title
+            }
+          }
           menu: menusJson(
             title: { eq: "Home" }
             en: { links: { elemMatch: { enabled: { eq: true } } } }
@@ -136,6 +148,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
       render={data => {
         const { socialMediaCard, googleTrackingId } = data.settingsYaml || {};
         const menu = data.menu[language || "en"].links;
+        const defaultMetadata = data.settingsYaml[language || "en"];
 
         // console.log(JSON.stringify(language));
         // console.log(JSON.stringify(data));
@@ -143,17 +156,14 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
         return (
           <React.Fragment>
             <GlobalStyle />
-            <Helmet>
+            <Helmet titleTemplate={data.settingsYaml.titleformat}>
               <html lang={language || `en`} />
-              <title>{data.site.siteMetadata.title}</title>
+              <title>{title || defaultMetadata.title}</title>
               <meta
                 name="description"
-                content={data.site.siteMetadata.description}
-              />
-              <meta charset="utf-8" />
-              <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1, shrink-to-fit=no"
+                content={
+                  (meta && meta.description) || defaultMetadata.description
+                }
               />
 
               <meta name="theme-color" content="#fff" />
@@ -161,15 +171,19 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
               <meta property="og:type" content="business.business" />
               <meta
                 property="og:title"
-                content={data.site.siteMetadata.title}
+                content={title || defaultMetadata.title}
               />
               <meta property="og:url" content="/" />
-              <meta property="og:image" content="/img/og-image.jpg" />
               <meta property="og:image" content="/icons/icon-48x48.png" />
               <link
                 rel="shortcut icon"
                 type="image/png"
-                href="/icon-48x48.png"
+                href="/icons/icon-48x48.png"
+              />
+              <meta charset="utf-8" />
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no"
               />
             </Helmet>
             <Meta

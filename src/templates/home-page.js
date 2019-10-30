@@ -28,10 +28,7 @@ export const HomePageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </Scroll>
       <div className="container">
-        <div
-          className="home"
-          dangerouslySetInnerHTML={{ __html: content }}
-        ></div>
+        <HTMLContent className="home" content={content} />
       </div>
       <Scroll type="class" element="tourHighlights" offset={-95}>
         <button

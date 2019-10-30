@@ -1,9 +1,10 @@
 import React from "react";
 import Img from "gatsby-image";
 import PropTypes from "prop-types";
-import { graphql, Link,navigate } from "gatsby";
+import { graphql, Link, navigate } from "gatsby";
 import Layout from "../layout/Layout";
 import Rating from "../components/Rating";
+import { HTMLContent } from "../components/Content";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -64,11 +65,9 @@ export const ToursListTemplate = ({ tours }) => (
 
 export const CityToursTemplate = ({ tours, body, afterList }) => (
   <section className="tourList">
-    <div className="row">
-      <div dangerouslySetInnerHTML={{ __html: body }} />
-    </div>
+    <HTMLContent className="row" content={body} />
     <ToursListTemplate tours={tours} />
-    {afterList && <div dangerouslySetInnerHTML={{ __html: afterList }} />}
+    {afterList && <HTMLContent content={afterList} />}
   </section>
 );
 

@@ -4,7 +4,8 @@ import { StaticQuery, graphql } from "gatsby";
 import NavbarComponent from "../components/Navbar";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
-
+import BackgroundImage from "gatsby-background-image";
+import Img from "gatsby-image";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { ChevronUp } from "styled-icons/feather/ChevronUp";
@@ -77,7 +78,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const TemplateWrapper = ({ children, meta, title, language }) => (
+const TemplateWrapper = ({ children, meta, title, language, feature }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery2 {
@@ -85,6 +86,18 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
           siteMetadata {
             title
             description
+          }
+        }
+        settingsYaml {
+          en {
+            description
+            keywords
+            title
+          }
+          pt {
+            description
+            keywords
+            title
           }
         }
         menu: menusJson(
@@ -129,29 +142,39 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
     render={data => {
       const { socialMediaCard, googleTrackingId } = data.settingsYaml || {};
       const menu = data.menu[language || "en"].links;
+      const defaultMetadata = data.settingsYaml[language || "en"];
       return (
         <React.Fragment>
           <GlobalStyle />
-          <Helmet>
+          <Helmet titleTemplate={data.settingsYaml.titleformat}>
             <html lang={language || `en`} />
-            <title>{data.site.siteMetadata.title}</title>
+            <title>{title || defaultMetadata.title}</title>
             <meta
               name="description"
-              content={data.site.siteMetadata.description}
+              content={
+                (meta && meta.description) || defaultMetadata.description
+              }
+            />
+
+            <meta name="theme-color" content="#fff" />
+
+            <meta property="og:type" content="business.business" />
+            <meta
+              property="og:title"
+              content={title || defaultMetadata.title}
+            />
+            <meta property="og:url" content="/" />
+            <meta property="og:image" content="/icons/icon-48x48.png" />
+            <link
+              rel="shortcut icon"
+              type="image/png"
+              href="/icons/icon-48x48.png"
             />
             <meta charset="utf-8" />
             <meta
               name="viewport"
               content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
-
-            <meta name="theme-color" content="#fff" />
-
-            <meta property="og:type" content="business.business" />
-            <meta property="og:title" content={data.site.siteMetadata.title} />
-            <meta property="og:url" content="/" />
-            <meta property="og:image" content="/icons/icon-48x48.png" />
-            <link rel="shortcut icon" type="image/png" href="/icons/icon-48x48.png" />
           </Helmet>
           <Meta
             googleTrackingId={googleTrackingId}
@@ -163,7 +186,36 @@ const TemplateWrapper = ({ children, meta, title, language }) => (
           />
           <header>
             <NavbarComponent menu={menu} />
-            <Banners banners={data.banners} />
+            {feature && (
+              <div
+                className="feature"
+                style={{
+                  color: (feature.textcolor || "white") + `!important`
+                }}
+              >
+                {/* <Img
+                    objectFit="cover"
+                    objectPosition="50% 50%"
+                    fluid={feature.image.childImageSharp.fluid}
+                    alt={feature.title}
+                  /> */}
+                <BackgroundImage
+                  fluid={feature.image.childImageSharp.fluid}
+                  backgroundColor={`#fff`}
+                >
+                  {feature.title && (
+                    <h1
+                      style={{
+                        color: feature.textcolor || "white"
+                      }}
+                    >
+                      {feature.title}
+                    </h1>
+                  )}
+                </BackgroundImage>
+              </div>
+            )}
+            {!feature && <Banners banners={data.banners} />}
           </header>
           <main>{children}</main>
           <Footer />

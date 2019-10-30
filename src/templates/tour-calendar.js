@@ -35,22 +35,11 @@ export const pageQuery = graphql`
   query TourCalendarPageByID($id: String!) {
     tourCalendar: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...FeatureImage
       id
       frontmatter {
         title
         description
-        feature {
-          title
-          textcolor
-          align
-          image {
-            childImageSharp {
-              fluid(quality: 90, maxWidth: 1920) {
-                ...GatsbyImageSharpFluid_tracedSVG
-              }
-            }
-          }
-        }
       }
     }
   }

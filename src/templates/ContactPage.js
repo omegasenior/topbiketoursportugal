@@ -3,6 +3,7 @@ import { MapPin, Smartphone, Mail } from "react-feather";
 import { graphql } from "gatsby";
 
 import PageHeader from "../components/PageHeader";
+import { HTMLContent } from "../components/Content";
 import FormSimpleAjax from "../components/FormSimpleAjax";
 import Content from "../components/Content";
 import GoogleMap from "../components/GoogleMap";
@@ -33,7 +34,7 @@ export const ContactPageTemplate = ({
         <div>
           {title && <h1>{title}</h1>}
           {subtitle && <h2>{subtitle}</h2>}
-          <div dangerouslySetInnerHTML={{ __html: body }} />
+          <HTMLContent content={body} />
           <div className="Contact--Details">
             {address && address.street && (
               <a
