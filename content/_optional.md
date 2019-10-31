@@ -1,5 +1,6 @@
 ---
 langKey: 'en'
+language: 'en'
 contentType: ''
 meta:
   canonicalLink: ''

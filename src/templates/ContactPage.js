@@ -81,6 +81,7 @@ const ContactPage = ({ data: { page, settings } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
+    feature={page.frontmatter.feature}
   >
     <ContactPageTemplate
       {...settings}
@@ -134,6 +135,7 @@ export const pageQuery = graphql`
     }
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...FeatureImage
       html
       frontmatter {
         title

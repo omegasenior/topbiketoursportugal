@@ -72,24 +72,19 @@ export const CityToursTemplate = ({ tours, body, afterList }) => (
 );
 
 export const CityToursPage = ({ data }) => {
+  const { page, tours } = data;
+
   // console.log(JSON.stringify(data.page.frontmatter.meta));
   return (
     <Layout
-      language={data.page.frontmatter.language}
-      meta={data.page.frontmatter.meta || false}
+      meta={page.frontmatter.meta || false}
+      title={page.frontmatter.title || false}
+      feature={page.frontmatter.feature}
     >
-      <Helmet titleTemplate="%s | `City tours hollidays`">
-        <title>{data.page.frontmatter.meta.title}</title>
-        <meta
-          name="description"
-          content={data.page.frontmatter.meta.description}
-        />
-        <meta name="keywords" content={data.page.frontmatter.meta.keywords} />
-      </Helmet>
       <CityToursTemplate
-        tours={data.allTourJson.nodes}
-        body={data.page.html}
-        {...data.page.frontmatter}
+        tours={tours.nodes}
+        body={page.html}
+        {...page.frontmatter}
       />
     </Layout>
   );
@@ -105,6 +100,7 @@ export const pageQuery = graphql`
   query CityToursPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...FeatureImage
       html
       frontmatter {
         title
@@ -121,7 +117,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allTourJson {
+    tours: allTourJson {
       nodes {
         id
         title

@@ -212,6 +212,9 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                   <BackgroundImage
                     fluid={feature.image.childImageSharp.fluid}
                     backgroundColor={`#fff`}
+                    style={{
+                      backgroundPosition: feature.imageAlign || "top left"
+                    }}
                   >
                     {feature.title && (
                       <h1

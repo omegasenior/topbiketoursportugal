@@ -1,3 +1,4 @@
+import { graphql } from "gatsby";
 export const query = graphql`
   fragment FeatureImage on MarkdownRemark {
     frontmatter {
@@ -12,6 +13,7 @@ export const query = graphql`
             }
           }
         }
+        imageAlign
       }
     }
   }

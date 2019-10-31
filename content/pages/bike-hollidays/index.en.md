@@ -6,7 +6,8 @@ langKey: en
 lang: en
 language: en
 feature:
-  image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
+  image: /img/caminho-portugues-de-santiago_4_1900x600.jpg
+  imageAlign: "bottom center"
   title: Our tours calendar
   textcolor: white
   align: center
@@ -18,5 +19,6 @@ meta:
 ---
 
 ## Bike Hollidays
+\
 
-\ 
+

@@ -47,15 +47,20 @@ AboutPageTemplate.propTypes = {
 };
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { page } = data;
 
   return (
-    <Layout>
+    <Layout
+      language={page.frontmatter.language}
+      meta={page.frontmatter.meta || false}
+      title={page.frontmatter.title || false}
+      feature={page.frontmatter.feature}
+    >
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-        team={post.frontmatter.team}
+        title={page.frontmatter.title}
+        content={page.html}
+        team={page.frontmatter.team}
       />
     </Layout>
   );
@@ -67,12 +72,15 @@ AboutPage.propTypes = {
 
 export default AboutPage;
 
-export const aboutPageQuery = graphql`
+export const pageQuery = graphql`
   query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    page: markdownRemark(id: { eq: $id }) {
       html
+      ...Meta
+      ...FeatureImage
       frontmatter {
         title
+        language
         team {
           bio
           name

@@ -6,13 +6,21 @@ langKey: pt
 lang: pt
 language: pt
 afterList: 'teste'
+feature:
+  image: /img/porto.jpg
+  imageAlign: "top center"
+  title: Tours diárias
+  textcolor: white
+  align: center
+  subtitle: 
 meta:
   description: This is a meta description.
-  title: Vistoursitas diárias
+  title: Visitas diárias
 ---
 
 ## Why Choose tours diárias
-
+\
+\
 Visit all around Portugal in a bicycle with our expertise guides.
 
 Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.

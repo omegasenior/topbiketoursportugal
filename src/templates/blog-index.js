@@ -89,6 +89,7 @@ const BlogIndex = ({ data: { page, posts, postCategories } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
+    feature={page.frontmatter.feature}
   >
     <BlogIndexTemplate
       {...page}
@@ -118,6 +119,7 @@ export const pageQuery = graphql`
   query BlogIndex($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...FeatureImage
       fields {
         contentType
         localizedPath

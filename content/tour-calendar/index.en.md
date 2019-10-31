@@ -5,8 +5,10 @@ path: /tours-calendar
 title: Tour Calendar
 subtitle: This is the contact page subtitle.
 description: This is a meta description.
+language: 'en'
 feature:
   image: /img/pexels-photo-100582.jpeg
+  imageAlign: "center center"
   title: Our tours calendar
   textcolor: white
   align: center

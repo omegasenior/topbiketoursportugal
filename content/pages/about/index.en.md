@@ -3,6 +3,14 @@ templateKey: 'about-page'
 path: /about-us-biking-travel
 title: About us
 langKey: en
+language: en
+feature:
+  image: /img/bike-tours-portugal-city_LEVELED.jpg
+  imageAlign: "bottom center"
+  title: About us
+  textcolor: #000
+  align: center
+  subtitle: 
 team:
     - name: Sergio Marques
       bio: >-

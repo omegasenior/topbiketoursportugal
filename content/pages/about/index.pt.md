@@ -1,8 +1,16 @@
 ---
 templateKey: 'about-page'
 path: /sobre-nos-hire-a-bike
-title: Sobre nos
+title: Sobre nós
 langKey: pt
+language: 'pt'
+feature:
+  image: /img/bike-tours-portugal-city_LEVELED.jpg
+  imageAlign: "bottom center"
+  title:  Sobre nós
+  textcolor: #000
+  align: center
+  subtitle: 
 team:
     - name: Sergio Marques
       bio: >-
