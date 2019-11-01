@@ -4,7 +4,7 @@ path: "/walk-tour-porto-downtown"
 meta:
   title: Walking tour - Oporto’s Downtown
   description: "1"
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

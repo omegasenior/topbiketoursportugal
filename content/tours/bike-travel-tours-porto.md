@@ -5,7 +5,7 @@ path: "/bike-travel-tours-porto"
 meta:
   title: Bohemian Night – An Eccentric Bike Tour
   description: "1"
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

@@ -72,7 +72,7 @@ function a11yProps(index) {
 }
 
 function TourGen({ data }) {
-  const { tour } = data;
+  const tour = { ...data.tourv2, ...data.tourv2.frontmatter };
   const [value, setValue] = React.useState(0);
 
   function handleChange(_, newValue) {
@@ -80,11 +80,11 @@ function TourGen({ data }) {
   }
 
   return (
-    <Layout>
-      <Helmet titleTemplate={`%s | ${tour.title}`}>
-        <title>{tour.title}</title>
-        <meta name="description" content={tour.description} />
-      </Helmet>
+    <Layout
+      language={tour.language}
+      meta={tour.meta || false}
+      title={tour.title || false}
+    >
       <StyledPaper>
         <Tabs
           value={value}
@@ -95,27 +95,17 @@ function TourGen({ data }) {
         >
           <Tab label="Information" {...a11yProps(0)} />
           <Tab label="Tour Plan" {...a11yProps(1)} />
-          <Tab label="Gallery" {...a11yProps(2)} />
+          {/* <Tab label="Gallery" {...a11yProps(2)} /> */}
           <Tab label="Reviews" {...a11yProps(3)} />
           <Tab label="Pricing" {...a11yProps(4)} />
           {/* <Tab label="Locations" {...a11yProps(4)} /> */}
         </Tabs>
       </StyledPaper>
-      <TourInformation tour={tour}></TourInformation>
-      <TourPlan tour={tour}></TourPlan>
-      <TourPricing tour={tour}></TourPricing>
-      <TourReviews tour={tour}></TourReviews>
-      <TourGallery tour={tour}>1</TourGallery>
-      <StyledContainer fluid>
-        <TabPanel value={value} index={0}></TabPanel>
-        <TabPanel value={value} index={1} tour={tour}></TabPanel>
-        <TabPanel value={value} index={2}></TabPanel>
-        <TabPanel value={value} index={3}></TabPanel>
-        <TabPanel value={value} index={4}></TabPanel>
-        {/* <TabPanel value={value} index={4}>
-          <TourLocations tour={tour}></TourLocations>
-        </TabPanel> */}
-      </StyledContainer>
+      <TourInformation tour={tour} />
+      <TourPlan tour={tour} />
+      <TourPricing tour={tour} />
+      <TourReviews tour={tour} />
+      {/* <TourGallery tour={tour}></TourGallery> */}
     </Layout>
   );
 }
@@ -123,54 +113,63 @@ function TourGen({ data }) {
 export default TourGen;
 
 export const tourGenQuery = graphql`
-  query TourGenByID($id: String!) {
-    tour: tourJson(id: { eq: $id }) {
-      title
-      subtitle
-      description
-      slug
-      difficulty
-      distance
-      duration
-      distanceUnit
-      durationUnit
-      groupSizeMax
-      groupSizeMin
-      highlight
-      itinerary {
-        day
-        description
+  query CityTourGenByID($id: String!) {
+    tourv2: markdownRemark(id: { eq: $id }) {
+      ...Meta
+      ...Itinerary
+      ...TourSkill
+      ...TourPricing
+      frontmatter {
+        templateKey
+        key
         title
-      }
-      path
-      physicality
-      skillLevel
-      tags
-      templateKey
-      gallery {
-        name
+        path
+        subtitle
+        description
+        code
+        packagetype
+        tourtype
+        tourcategory
+        tags
+        gallery {
+          name
+          image 
+        }
+        pricing {
+          discount
+          en {
+            package
+            packageContents {
+              icon
+              title
+              value
+            }
+          }
+          highSeasonPriceSupplement
+          price
+          type
+        }
         image {
+          name
           childImageSharp {
-            fluid(quality: 60, maxWidth: 1920) {
-              ...GatsbyImageSharpFluid
+            fluid(quality: 90, maxWidth: 1920) {
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-      }
-      pricing {
-        discount
-        en {
-          package
-          packageContents {
-            icon
-            title
-            value
-          }
+        lang
+        language
+        langKey
+        languagePages {
+          language
+          path
         }
-        highSeasonPriceSupplement
-        price
-        type
+        rating
+        ratingCount
+        ratingLink
+        slug
       }
+      html
     }
   }
 `;

@@ -6,7 +6,7 @@ meta:
   description:
     Torna-se impossível não falar da segunda maior metrópole de Portugal
     sem referir a História do Vinho do Porto e a sua típica gastronomia.
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

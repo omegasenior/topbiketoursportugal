@@ -5,7 +5,7 @@ meta:
   title: "1"
   description: "1"
   canonicalLink: "1"
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

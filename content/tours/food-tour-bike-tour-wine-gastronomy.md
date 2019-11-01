@@ -4,7 +4,7 @@ path: "/food-tour-bike-tour-wine-gastronomy"
 meta:
   title: BIKE TOUR -Food tour | Wine & Gastournomy
   description: "1"
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

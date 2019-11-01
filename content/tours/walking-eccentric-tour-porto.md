@@ -4,7 +4,7 @@ path: "/walking-eccentric-tour-porto"
 meta:
   title: Walking tour - OportoDowntown at Night - An Eccentric Tour
   description: "1"
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
   - en:
       package: Self Guided bike Tour

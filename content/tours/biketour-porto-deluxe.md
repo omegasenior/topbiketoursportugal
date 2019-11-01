@@ -4,7 +4,7 @@ path: "/biketour-porto-deluxe"
 meta:
   title: Full Day Biketour Deluxe - 45 KM estimated
   description: '1'
-templateKey: tour-gen
+templateKey: city-tour-gen
 pricing:
 - en:
     package: Self Guided bike Tour
