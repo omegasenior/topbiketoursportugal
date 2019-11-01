@@ -214,7 +214,7 @@ const TourPricing = ({ tour: { pricing } }) => {
 TourPricing.propsTypes = {
   tour: PropTypes.shape({
     title: PropTypes.string,
-    subTitle: PropTypes.string,
+    subtitle: PropTypes.string,
     description: PropTypes.string,
     pricing: PropTypes.arrayOf(
       PropTypes.shape({

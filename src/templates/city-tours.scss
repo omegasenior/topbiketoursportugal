@@ -26,9 +26,17 @@ body {
   margin-bottom: 40px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 
+  .tourImageContainer {
+    max-height: 250px;
+    overflow: hidden;
+  }
+
   .gatsby-image-wrapper img {
     transition: transform 300ms linear, opacity 500ms ease 0s !important;
-    &:hover {
+  }
+
+  &:hover {
+    .gatsby-image-wrapper img {
       transform: scale3d(1.25, 1.25, 1.25);
     }
   }

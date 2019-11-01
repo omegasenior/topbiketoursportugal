@@ -211,7 +211,7 @@ export const pageQuery = graphql`
       nodes {
         id
         title
-        subTitle
+        subtitle
         description
         slug
         difficulty

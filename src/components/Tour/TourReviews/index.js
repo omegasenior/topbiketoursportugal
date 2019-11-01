@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const TourReviews = ({ tour: { title, subTitle, description } }) => (
+const TourReviews = ({ tour: { title, subtitle, description } }) => (
   <div>
     <h1>{title}</h1>
-    <h2>{subTitle}</h2>
+    <h2>{subtitle}</h2>
     <p>{description}</p>
   </div>
 );
@@ -12,7 +12,7 @@ const TourReviews = ({ tour: { title, subTitle, description } }) => (
 TourReviews.propsTypes = {
   tour: PropTypes.shape({
     title: PropTypes.string,
-    subTitle: PropTypes.string,
+    subtitle: PropTypes.string,
     description: PropTypes.string
   })
 };

@@ -16,49 +16,62 @@ import { Road } from "styled-icons/fa-solid/Road";
 import "./city-tours.scss";
 /*https://www.gatsbyjs.org/docs/adding-pagination*/
 
+export const TourTemplate = ({
+  image,
+  path,
+  title,
+  price,
+  discount,
+  rating,
+  html,
+  excerpt
+}) => (
+  <div
+    className="row tour"
+    onClick={event => {
+      event.preventDefault();
+      navigate(path);
+    }}
+  >
+    <div className="col-12 col-sm-4 no-gutter tourImageContainer">
+      <Img fluid={image.childImageSharp.fluid} />
+    </div>
+    <div className="col-12 col-sm-8 tourBody">
+      <div className="row h-100">
+        <div className="col-8">
+          <h2>{title}</h2>
+          <HTMLContent content={excerpt} />
+        </div>
+        <div className="col-4 priceContainer text-center">
+          {price && (
+            <>
+              <div>From</div>
+              <div className="priceDiscount">{discount}</div>
+              <div className="price">€ {price}</div>
+              <Rating
+                style={{ color: "#fa7500" }}
+                value={rating}
+                total={5}
+                size={16}
+              />
+            </>
+          )}
+          <div className="action">
+            <Link to={path} className="btn btn-primary">
+              Details
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
 export const ToursListTemplate = ({ tours }) => (
   <>
     {tours &&
-      tours.map(tour => (
-        <div
-          key={tour.id}
-          className="row tour"
-          onClick={event => {
-            event.preventDefault();
-            navigate(tour.path);
-          }}
-        >
-          <div className="col-12 col-sm-4 no-gutter">
-            <Img fluid={tour.image.src.childImageSharp.fluid} />
-          </div>
-          <div className="col-12 col-sm-8 tourBody">
-            <div className="row h-100">
-              <div className="col-8">
-                <h2>{tour.title}</h2>
-              </div>
-              <div className="col-4 priceContainer text-center">
-                {tour.price && (
-                  <>
-                    <div>From</div>
-                    <div className="priceDiscount">{tour.discount}</div>
-                    <div className="price">€ {tour.price}</div>
-                    <Rating
-                      style={{ color: "#fa7500" }}
-                      value={tour.rating}
-                      total={5}
-                      size={16}
-                    />
-                  </>
-                )}
-                <div className="action">
-                  <Link to={tour.path} className="btn btn-primary">
-                    Details
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      tours.map((tour, index) => (
+        <TourTemplate key={`t` + index} {...tour} {...tour.frontmatter} />
       ))}
   </>
 );
@@ -117,47 +130,50 @@ export const pageQuery = graphql`
         }
       }
     }
-    tours: allTourJson {
+    tours: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/.+/tours/.+/" }
+        frontmatter: { packagetype: { eq: "SingleTour" } }
+      }
+    ) {
       nodes {
-        id
-        title
-        subTitle
-        description
-        slug
-        difficulty
-        distance
-        duration
-        minAge
-        language
-        image {
-          name
-          src {
+        ...Meta
+        ...Itinerary
+        ...TourSkill
+        ...TourPricing
+        frontmatter {
+          templateKey
+          key
+          title
+          path
+          subtitle
+          description
+          code
+          packagetype
+          tourtype
+          tourcategory
+          tags
+          image {
             childImageSharp {
-              fluid(quality: 60, maxWidth: 1920) {
+              fluid(quality: 90, maxWidth: 1920) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
+          lang
+          language
+          langKey
+          languagePages {
+            language
+            path
+          }
+          rating
+          ratingCount
+          ratingLink
+          slug
         }
-        distanceUnit
-        durationUnit
-        groupSizeMax
-        groupSizeMin
-        highlight
-        price
-        discountPrice
-        rating
-        ratingCount
-        ratingLink
-        itinerary {
-          day
-          description
-          title
-        }
-        path
-        physicality
-        skillLevel
-        tags
+        html
+        excerpt(truncate: true, pruneLength: 100)
       }
     }
   }

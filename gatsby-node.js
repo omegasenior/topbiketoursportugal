@@ -5,7 +5,7 @@ const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 
 exports.createPages = ({ actions, graphql }) => {
-  console.log("Starting createPages");
+  // console.log("Starting createPages");
 
   const { createPage } = actions;
 
@@ -59,7 +59,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
         });
       } catch (error) {
-        console.log(templateKey);
+        // console.log(templateKey);
         throw error;
       }
     });
@@ -68,7 +68,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id;
-      console.log("Path:" + edge.node.frontmatter.path);
+      // console.log("Path:" + edge.node.frontmatter.path);
       try {
         createPage({
           path:
@@ -87,7 +87,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
         });
       } catch (error) {
-        console.log(edge.node.frontmatter.templateKey);
+        // console.log(edge.node.frontmatter.templateKey);
         throw error;
       }
     });
@@ -159,7 +159,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       slug = `/${parsedFilePath.dir}/`;
     }
 
-    console.log("slug:" + slug);
+    // console.log("slug:" + slug);
 
     // Add contentType to node.fields
     createNodeField({

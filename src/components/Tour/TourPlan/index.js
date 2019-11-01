@@ -111,7 +111,7 @@ const TourPlan = ({ tour: { itinerary } }) => (
 TourPlan.propsTypes = {
   tour: PropTypes.shape({
     title: PropTypes.string,
-    subTitle: PropTypes.string,
+    subtitle: PropTypes.string,
     description: PropTypes.string,
     itinerary: PropTypes.arrayOf(
       PropTypes.shape({

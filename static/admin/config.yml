@@ -119,7 +119,7 @@ collections:
           label: Featured Image,
           name: featuredImage,
           widget: image,
-          required: false
+          required: false,
         }
       - {
           label: Featured Image Position,
@@ -137,7 +137,7 @@ collections:
               "bottom left",
               "bottom right",
             ],
-          default: "center center"
+          default: "center center",
         }
       - label: Body
         name: body
@@ -184,75 +184,85 @@ collections:
                 name: "path"
                 widget: "string"
   - name: tours
-    extension: json
-    format: json
+    # extension: md
+    # format: markdown
     label: Tours
     folder: content/tours
     create: true
     slug: "{{slug}}"
     fields:
-      - label: Template Key
-        name: templateKey
-        widget: hidden
-        default: tour-gen
-      - label: Path
-        name: path
-        widget: string
-        required: false
-      - label: "Language"
-        name: "language"
-        widget: "relation"
-        collection: "languages"
-        displayFields: ["title"]
-        searchFields: ["title"]
-        valueField: "code"
-        default: "en"
-        required: true
+      - {
+          label: Template Key,
+          name: templateKey,
+          widget: hidden,
+          default: tour-gen,
+        }
+      - { label: Path, name: path, widget: string, required: false }
+      - {
+          label: Feautured,
+          name: featured,
+          widget: boolean,
+          required: false,
+          default: false,
+        }
+      - {
+          label: "Language",
+          name: "language",
+          widget: "relation",
+          collection: "languages",
+          displayFields: ["title"],
+          searchFields: ["title"],
+          valueField: "code",
+          default: "en",
+          required: true,
+        }
       - label: "Traduções"
         name: "languagePages"
         widget: "list"
         required: false
         fields:
-          - label: "Language"
-            name: "language"
-            widget: "relation"
-            collection: "languages"
-            displayFields: ["title"]
-            searchFields: ["title"]
-            valueField: "code"
-            default: "en"
-            required: true
-          - label: "path"
-            name: "path"
-            widget: "string"
-      - label: Image
-        name: image
-        widget: image
-      - label: Title
-        name: title
-        widget: string
-      - label: Sub Title
-        name: subTitle
-        widget: markdown
-        required: false
-      - label: Description
-        name: description
-        widget: markdown
-      - label: Body
-        name: body
-        widget: markdown
-      - label: "Tour Type"
-        name: "tourtype"
-        widget: "select"
-        multiple: false
-        options: ["Multi", "Single"]
-        default: ["Multi"]
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Tags
-        name: tags
-        widget: list
+          - {
+              label: "Language",
+              name: "language",
+              widget: "relation",
+              collection: "languages",
+              displayFields: ["title"],
+              searchFields: ["title"],
+              valueField: "code",
+              default: "en",
+              required: true,
+            }
+          - { label: "path", name: "path", widget: "string" }
+      - { label: Image, name: image, widget: image }
+      - { label: Title, name: title, widget: string }
+      - { label: Sub Title, name: subtitle, widget: markdown, required: false }
+      - { label: Description, name: description, widget: markdown }
+      - { label: Body, name: body, widget: markdown }
+      - {
+          label: "Package Type",
+          name: "pacakgetype",
+          widget: "select",
+          multiple: false,
+          options: ["PackageTour", "SingleTour"],
+          default: ["PackageTour"],
+        }
+      - {
+          label: "Tour Type",
+          name: "tourtype",
+          widget: "select",
+          multiple: false,
+          options: ["Bike", "Walking"],
+          default: ["Bike"],
+        }
+      - {
+          label: "Tour Category",
+          name: "tourcategory",
+          widget: "select",
+          multiple: false,
+          options: ["Bike", "Walking"],
+          default: ["Bike"],
+        }
+      - { label: Tags, name: tags, widget: list }
       - label: "Meta"
         required: false
         name: "meta"
@@ -273,95 +283,80 @@ collections:
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
-      - label: Group SizeMax
-        name: groupSizeMax
-        required: false
-        widget: number
-      - label: Group SizeMin
-        name: groupSizeMin
-        required: false
-        widget: number
+      - {
+          label: Group SizeMax,
+          name: groupSizeMax,
+          required: false,
+          widget: number,
+        }
+      - {
+          label: Group SizeMin,
+          name: groupSizeMin,
+          required: false,
+          widget: number,
+        }
+      - { label: minAge, name: minAge, required: false, widget: number }
+      - { label: skillLevel, name: skillLevel, required: false, widget: number }
 
-      - label: minAge
-        name: minAge
-        required: false
-        widget: number
-      - label: skillLevel
-        name: skillLevel
-        required: false
-        widget: number
+      - { label: distance, name: distance, required: false, widget: number }
+      - {
+          label: distanceUnit,
+          name: distanceUnit,
+          required: false,
+          widget: string,
+        }
 
-      - label: distance
-        name: distance
-        required: false
-        widget: number
-      - label: distanceUnit
-        name: distanceUnit
-        required: false
-        widget: string
+      - { label: duration, name: duration, required: false, widget: number }
+      - {
+          label: durationUnit,
+          name: durationUnit,
+          required: false,
+          widget: string,
+        }
 
-      - label: duration
-        name: duration
-        required: false
-        widget: number
-      - label: durationUnit
-        name: durationUnit
-        required: false
-        widget: string
-
-      - label: difficulty
-        name: difficulty
-        required: false
-        widget: number
-      - label: physicality
-        name: physicality
-        required: false
-        widget: number
+      - { label: difficulty, name: difficulty, required: false, widget: number }
+      - {
+          label: physicality,
+          name: physicality,
+          required: false,
+          widget: number,
+        }
       - label: Rating
         name: rating
-        widget: number
-      - label: Rating Count
-        name: ratingCount
-        widget: number
-      - label: Rating Link
-        name: ratingLink
-        widget: string
-        required: false
-      - label: Path
-        name: path
-        widget: string
-        required: false
-      - label: Order
-        name: order
-        widget: number
+        widget: list
+        fields:
+          - { label: Rating, name: rating, widget: number }
+          - {
+              label: Rating Link,
+              name: ratingLink,
+              widget: string,
+              required: false,
+            }
       - label: Itinerary
         name: itinerary
         widget: list
         fields:
-          - label: day
-            name: day
-            widget: string
-          - label: title
-            name: title
-            widget: string
-          - label: description
-            name: description
-            widget: string
-            required: false
+          - { label: day, name: day, widget: string }
+          - { label: title, name: title, widget: string }
+          - {
+              label: description,
+              name: description,
+              widget: string,
+              required: false,
+            }
           - label: Location
             name: location
-            widget: map
-            required: false
+            widget: object
+            fields:
+              - { label: Latitude, name: lat, widget: string }
+              - { label: Longitude, name: lng, widget: string }
+
       - label: Gallery
         name: gallery
         widget: list
         fields:
-          - label: alt
-            name: alt
-            widget: string
-          - label: image
-            name: image
-            widget: image
+          - { label: alt, name: alt, widget: string }
+          - { label: image, name: image, widget: image }
       - label: "Price Table"
         name: pricing
         widget: list
@@ -377,34 +372,36 @@ collections:
                 name: packageContents
                 widget: list
                 fields:
-                  - label: title
-                    name: title
-                    widget: string
-                  - label: Value
-                    name: value
-                    widget: markdown
-                    required: false
-                  - label: Icon
-                    name: icon
-                    widget: "select"
-                    options: ["✓", "X", "-"]
-                    required: false
+                  - { label: title, name: title, widget: string }
+                  - {
+                      label: Value,
+                      name: value,
+                      widget: markdown,
+                      required: false,
+                    }
+                  - {
+                      label: Icon,
+                      name: icon,
+                      widget: "select",
+                      options: ["✓", "X", "-"],
+                      required: false,
+                    }
 
-          - label: type
-            name: type
-            widget: string
-          - label: price
-            name: price
-            widget: number
-          - label: discount
-            name: discount
-            deafult: 0
-            widget: number
-            required: false
-          - label: High Season Price Supplement
-            name: highSeasonPriceSupplement
-            default: 100
-            widget: number
+          - { label: type, name: type, widget: string }
+          - { label: price, name: price, widget: number }
+          - {
+              label: discount,
+              name: discount,
+              deafult: 0,
+              widget: number,
+              required: false,
+            }
+          - {
+              label: High Season Price Supplement,
+              name: highSeasonPriceSupplement,
+              default: 100,
+              widget: number,
+            }
 
   # - name: home_banners
   #   label: Home Banners
@@ -798,7 +795,7 @@ collections:
         }
       - {
           label: Sub Title Color,
-          name: subTitleColor,
+          name: subtitleColor,
           widget: string,
           required: false,
         }
@@ -877,17 +874,17 @@ collections:
                 name: adddress
                 widget: object
                 fields:
-                  - label: Street 
-                    name: street 
+                  - label: Street
+                    name: street
                     widget: string
-                  - label: 'Postal Code' 
-                    name: postalCode 
+                  - label: "Postal Code"
+                    name: postalCode
                     widget: string
-                  - label: City 
-                    name: city 
+                  - label: City
+                    name: city
                     widget: string
-                  - label: Country 
-                    name: country 
+                  - label: Country
+                    name: country
                     widget: string
               # - label: canonical
               #   name: canonical
@@ -918,30 +915,30 @@ collections:
                 name: adddress
                 widget: object
                 fields:
-                  - label: Street 
-                    name: street 
+                  - label: Street
+                    name: street
                     widget: string
-                  - label: 'Postal Code' 
-                    name: postalCode 
+                  - label: "Postal Code"
+                    name: postalCode
                     widget: string
-                  - label: City 
-                    name: city 
+                  - label: City
+                    name: city
                     widget: string
-                  - label: Country 
-                    name: country 
+                  - label: Country
+                    name: country
                     widget: string
           - label: TitleFormat
-            name: titleformat 
+            name: titleformat
             widget: string
-          - label: Location 
-            name: location 
+          - label: Location
+            name: location
             widget: object
             fields:
               - label: Latitude
-                name: lat 
+                name: lat
                 widget: string
               - label: Longitude
-                name: lng 
+                name: lng
                 widget: string
 
               # - label: canonical
@@ -955,20 +952,20 @@ collections:
               #   fields:
               #     - { label: Name, name: name, widget: string }
               #     - { label: Value, name: value, widget: string }
-          - label: Phone 
-            name: phone 
+          - label: Phone
+            name: phone
             widget: string
-          - label: Mobile 
-            name: mobile 
+          - label: Mobile
+            name: mobile
             widget: string
-          - label: Email 
-            name: email 
+          - label: Email
+            name: email
             widget: string
-          - label: Tour Operator 
-            name: tourOperator 
+          - label: Tour Operator
+            name: tourOperator
             widget: string
-          - label: Travel Agency 
-            name: travelAgency 
+          - label: Travel Agency
+            name: travelAgency
             widget: string
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - label: Social Media Card

@@ -9,6 +9,7 @@ meta:
   title: ''
 featuredImage: '/img/Silver-coast-5.jpg'
 featuredImagePosition: 'top center'
+highlight: false
 subtitle: ''
 tags:
 gallery:
