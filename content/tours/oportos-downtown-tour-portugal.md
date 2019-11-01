@@ -1,5 +1,5 @@
 ---
-title: Oporto’s Downtown tour
+title: "Oporto’s Downtown tour"
 groupSizeMax: 1
 path: "/oportos-downtown-tour-portugal"
 meta:
