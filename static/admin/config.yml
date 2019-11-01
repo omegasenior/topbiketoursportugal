@@ -214,8 +214,7 @@ collections:
           searchFields: ["title"],
           valueField: "code",
           default: "en",
-          required: false
-
+          required: false,
         }
       - label: "Traduções"
         name: "languagePages"
@@ -233,18 +232,18 @@ collections:
               required: false,
             }
           - { label: "path", name: "path", widget: "string" }
-        
-      - { label: Image, name: image, widget: image, required: false}
+
+      - { label: Image, name: image, widget: image, required: false }
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
       - {
           label: "Package Type",
-          name: "pacakgetype",
+          name: "packagetype",
           widget: "select",
           multiple: false,
           options: ["PackageTour", "SingleTour"],
           default: ["PackageTour"],
-          required: false
+          required: false,
         }
       - {
           label: "Tour Type",

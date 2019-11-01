@@ -4,7 +4,7 @@ featured: true
 language: en
 image: /img/specialized-diverge-e5-2.jpg
 title: Santiago de Compostela BikeTour
-pacakgetype: PackageTour
+packagetype: PackageTour
 tourtype: Bike
 tourcategory: Bike
 tags:
