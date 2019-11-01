@@ -1,8 +1,9 @@
 ---
+title: Walking Eccentric tour porto
 groupSizeMax: 1
 path: "/walking-eccentric-tour-porto"
 meta:
-  title: Walking tour - OportoDowntown at Night - An Eccentric Tour
+  title: Walking tour - Oporto Downtown at Night - An Eccentric Tour
   description: "1"
 templateKey: city-tour-gen
 pricing:
@@ -140,7 +141,6 @@ distance: 1
 physicality: 1
 ratingLink: "1"
 durationUnit: "1"
-title: Downtown and Sightseeing bike tour
 subtitle: Tour porto
 tags:
   - "1"
@@ -157,19 +157,19 @@ price: 10
 discountPrice: 10
 gallery:
 - image: "/img/silver-coast-2/20190106_095810.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095842.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095906.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095909.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102859.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102903.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_103439.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 
 ---
 

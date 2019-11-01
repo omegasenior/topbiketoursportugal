@@ -1,5 +1,5 @@
 ---
-title: Downtown and Sightseeing bike tour
+title: Bohemian Night - An Eccentric Bike Tour
 groupSizeMax: 1
 path: "/bike-travel-tours-porto"
 meta:
@@ -156,19 +156,19 @@ price: 10
 discountPrice: 10
 gallery:
 - image: "/img/silver-coast-2/20190106_095810.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095842.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095906.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095909.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102859.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102903.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_103439.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 
 ---
 

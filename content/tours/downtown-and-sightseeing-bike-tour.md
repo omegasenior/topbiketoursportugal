@@ -1,8 +1,9 @@
 ---
+title: Bike tour sightseeing Oporto
 groupSizeMax: 1
 path: "/bike-tour-sightseeing-porto"
 meta:
-  title: "1"
+  title: "Bike tour sightseeing Oporto"
   description: "1"
   canonicalLink: "1"
 templateKey: city-tour-gen
@@ -141,7 +142,6 @@ distance: 1
 physicality: 1
 ratingLink: "1"
 durationUnit: "1"
-title: Downtown and Sightseeing bike tour
 subtitle: Tour porto
 tags:
   - "1"
@@ -158,19 +158,19 @@ price: 10
 discountPrice: 10
 gallery:
 - image: "/img/silver-coast-2/20190106_095810.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095842.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095906.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_095909.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102859.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_102903.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 - image: "/img/silver-coast-2/20190106_103439.jpg"
-  name: Silver Coast
+  alt: Silver Coast
 
 ---
 

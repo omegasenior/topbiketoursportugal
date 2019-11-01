@@ -132,7 +132,7 @@ export const tourGenQuery = graphql`
         tourcategory
         tags
         gallery {
-          name
+          alt
           image 
         }
         pricing {
