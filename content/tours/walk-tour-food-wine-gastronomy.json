@@ -82,7 +82,6 @@
       "type": "1",
       "price": 1860,
       "discount": -1,
-      "bestValue": true,
       "highSeasonPriceSupplement": 100
     },
     {
@@ -243,10 +242,17 @@
       "location": "{\"type\":\"Point\",\"coordinates\":[36.7382812,15.2841851]}"
     }
   ],
+  "languagePages": [
+    {
+      "language": "pt",
+      "path": "/porto-visita-gastronomica"
+    }
+  ],
   "minAge": -2,
   "order": -2,
   "date": "2019-10-17T22:02:14.660Z",
   "ratingCount": 1,
+  "tourtype": "Single",
   "groupSizeMin": 1,
   "skillLevel": 1,
   "duration": 1,
@@ -254,15 +260,17 @@
   "physicality": 1,
   "ratingLink": "1",
   "durationUnit": "1",
-  "title": "Downtown and Sightseeing bike tour",
+  "title": "Walking tour - Food tour: Wine & Gastournomy",
+  "language": "en",
   "subTitle": "Tour porto",
   "tags": [
-    "1"
+    "Walking tour",
+    "Food tour",
+    "Wine & Gastournomy"
   ],
   "distanceUnit": "1",
   "image": "/img/Specialized-diverge-e5-2-2.jpg",
   "difficulty": 1,
-  "description": "1",
-  "rating": 1,
-  "tourtype": "Single"
+  "description": "REMOVER",
+  "rating": 1
 }
