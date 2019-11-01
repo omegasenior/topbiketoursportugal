@@ -248,6 +248,12 @@
   "ratingCount": 1,
   "tourtype": "Single",
   "groupSizeMin": 1,
+  "gallery": [
+    {
+      "alt": "teste",
+      "image": "/img/20190920_135559.jpg"
+    }
+  ],
   "skillLevel": 1,
   "duration": 1,
   "distance": 1,
@@ -255,6 +261,7 @@
   "ratingLink": "1",
   "durationUnit": "1",
   "title": "Downtown and Sightseeing bike tour",
+  "language": "en",
   "subTitle": "Tour porto",
   "tags": [
     "1"
