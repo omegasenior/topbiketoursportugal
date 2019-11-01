@@ -11,15 +11,6 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allTourJson {
-        edges {
-          node {
-            id
-            path
-            templateKey
-          }
-        }
-      }
       allMarkdownRemark(limit: 1000) {
         edges {
           node {
@@ -43,26 +34,26 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors);
     }
 
-    const tours = result.data.allTourJson.edges;
+    // const tours = result.data.allTourJson.edges;
 
-    tours.forEach(edge => {
-      const {
-        node: { templateKey, path: uri, id }
-      } = edge;
-      try {
-        createPage({
-          path: uri,
-          component: path.resolve(`src/templates/${String(templateKey)}.js`),
-          // additional data can be passed via context
-          context: {
-            id
-          }
-        });
-      } catch (error) {
-        // console.log(templateKey);
-        throw error;
-      }
-    });
+    // tours.forEach(edge => {
+    //   const {
+    //     node: { templateKey, path: uri, id }
+    //   } = edge;
+    //   try {
+    //     createPage({
+    //       path: uri,
+    //       component: path.resolve(`src/templates/${String(templateKey)}.js`),
+    //       // additional data can be passed via context
+    //       context: {
+    //         id
+    //       }
+    //     });
+    //   } catch (error) {
+    //     // console.log(templateKey);
+    //     throw error;
+    //   }
+    // });
 
     const posts = result.data.allMarkdownRemark.edges;
 

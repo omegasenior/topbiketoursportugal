@@ -2,11 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
-
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
+      <div key={_kebabCase(item.text)} className="column is-6">
         <section className="section">
           <div className="has-text-centered">
             <div

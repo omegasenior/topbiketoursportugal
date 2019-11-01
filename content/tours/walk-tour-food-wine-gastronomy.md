@@ -131,43 +131,63 @@ itinerary:
   - day: "1"
     title: Fold n´Visit Store
     description: Our journey starts from here.
-    location: '{"type":"Point","coordinates":[36.7382812,15.2841851]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "2"
     title: Mercado do Bolhão
     description: Mercado do Bolhão
-    location: '{"type":"Point","coordinates":[-2.9882813,17.3086879]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "3"
     title: Café Majestic
     description: Café Majestic
-    location: '{"type":"Point","coordinates":[-13.1835938,15.2841851]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "4"
     title: Estação de S. Bento
     description: Estação de S. Bento
-    location: '{"type":"Point","coordinates":[9.6679687,18.979026]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "5"
     title: Estação de S. Bento
     description: Estação de S. Bento
-    location: '{"type":"Point","coordinates":[3.3398437,19.6425875]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "6"
     title: Instituto dos Vinhos do Douro e Porto
     description: Instituto dos Vinhos do Douro e Porto
-    location: '{"type":"Point","coordinates":[-3.6914062,22.268764]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "7"
     title: Feitoria Inglesa
     description: Feitoria Inglesa
-    location: '{"type":"Point","coordinates":[-8.6132812,20.9614396]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "8"
     title: Ribeira
     description: Ribeira
-    location: '{"type":"Point","coordinates":[-27.9492188,43.0688878]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "9"
     title: Caves de Vinho do Porto
     description: Caves de Vinho do Porto
-    location: '{"type":"Point","coordinates":[15.6445312,39.9097362]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
   - day: "10"
     title: Back to store by metro
     description: Back to store by metro
-    location: '{"type":"Point","coordinates":[7.5585937,-3.1624555]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
 languagePages:
   - language: pt
     path: "/porto-visita-gastronomica"

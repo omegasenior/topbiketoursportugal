@@ -102,9 +102,11 @@ function TourGen({ data }) {
         </Tabs>
       </StyledPaper>
       <TourInformation tour={tour}></TourInformation>
-      <TourPlan tour={tour}></TourPlan>
+      <div className="container">
+        <TourPlan tour={tour}></TourPlan>
+      </div>
       <TourPricing tour={tour}></TourPricing>
-      <TourReviews tour={tour}></TourReviews>
+      {/* <TourReviews tour={tour}></TourReviews> */}
       <TourGallery tour={tour}>1</TourGallery>
       <StyledContainer fluid>
         <TabPanel value={value} index={0}></TabPanel>
@@ -124,7 +126,12 @@ export default TourGen;
 
 export const tourGenQuery = graphql`
   query TourGenByID($id: String!) {
-    tour: tourJson(id: { eq: $id }) {
+    tour: markdownRemark(id: { eq: $id }) {
+      ...Meta
+      ...Itinerary
+      ...TourSkill
+      ...TourPricing
+      frontmatter {
       title
       subtitle
       description
@@ -137,18 +144,13 @@ export const tourGenQuery = graphql`
       groupSizeMax
       groupSizeMin
       highlight
-      itinerary {
-        day
-        description
-        title
-      }
       path
       physicality
       skillLevel
       tags
       templateKey
       gallery {
-        name
+        alt
         image {
           childImageSharp {
             fluid(quality: 60, maxWidth: 1920) {
@@ -173,4 +175,5 @@ export const tourGenQuery = graphql`
       }
     }
   }
+}
 `;

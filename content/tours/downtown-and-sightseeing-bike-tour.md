@@ -130,7 +130,9 @@ pricing:
 itinerary:
   - day: "1"
     title: "1"
-    location: '{"type":"Point","coordinates":[36.7382812,15.2841851]}'
+    location:
+      lat: '41.15591'
+      lng: '-8.60248'
 minAge: -2
 order: -2
 date: "2019-10-17T22:02:14.660Z"

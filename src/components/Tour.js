@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Tours = ({ tours }) => (
   <div>
     {tours.map((testimonial, index) => (
-      <div key={`t` + index}>deu</div>
+      <div key={`tourtestemonial` + index}>deu</div>
     ))}
   </div>
 );

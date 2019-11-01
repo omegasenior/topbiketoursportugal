@@ -6,6 +6,8 @@ export const query = graphql`
         day
         description
         location
+          lat
+          lng
         title
       }
     }
