@@ -20,5 +20,3 @@ meta:
 
 ## Bike Hollidays
 \
-
-

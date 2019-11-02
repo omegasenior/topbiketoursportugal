@@ -190,6 +190,7 @@ collections:
     folder: content/tours
     create: true
     slug: "{{slug}}"
+    summary: "{{slug}} - {{fields.language}} - {{fields.path}}"
     fields:
       - {
           label: Template Key,
