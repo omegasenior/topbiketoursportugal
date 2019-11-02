@@ -6,7 +6,7 @@ import { Link, graphql } from "gatsby";
 import { ChevronLeft } from "react-feather";
 
 import Content, { HTMLContent } from "../components/Content";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 //import './SinglePost.scss'
 
 export const SinglePostTemplate = ({

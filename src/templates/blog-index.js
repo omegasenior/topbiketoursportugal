@@ -6,7 +6,7 @@ import qs from "qs";
 // import PageHeader from '../components/PageHeader'
 import PostSection from "../components/PostSection";
 import PostCategoriesNav from "../components/PostCategoriesNav";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 
 /**
  * Filter posts by date. Feature dates will be fitered

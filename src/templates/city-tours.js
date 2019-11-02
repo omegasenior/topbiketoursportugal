@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import PropTypes from "prop-types";
 import { graphql, Link, navigate } from "gatsby";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
 import { sum } from "lodash-es";

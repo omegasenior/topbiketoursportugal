@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 import Content, { HTMLContent } from "../components/Content";
 import { TeamListComponent } from "../components/team";
 import "./about-page.scss";

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
 import { sum } from "lodash-es";
 

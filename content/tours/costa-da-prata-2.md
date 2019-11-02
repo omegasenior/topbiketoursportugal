@@ -1,9 +1,10 @@
 ---
 templateKey: tour-gen
-featured: true
-language: en
+featured: false
+language: pt
 image: /img/specialized-diverge-e5-2.jpg
-title: Santiago de Compostela Bike Tour
+title: The Silver Coast - Route 2
+path: /costa-da-prata-2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: Bike
@@ -15,7 +16,7 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
-  title: Santiago de Compostela Bike Tour
+  title: The Silver Coast - Route 2
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1

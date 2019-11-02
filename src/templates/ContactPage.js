@@ -7,7 +7,7 @@ import { HTMLContent } from "../components/Content";
 import FormSimpleAjax from "../components/FormSimpleAjax";
 import Content from "../components/Content";
 import GoogleMap from "../components/GoogleMap";
-import Layout from "../layout/Layout";
+import Layout from "../layout/LayoutBootstrap";
 import "./ContactPage.scss";
 
 // Export Template for use in CMS preview

@@ -1,5 +1,5 @@
 ---
-templateKey: 'home-page'
+templateKey: "home-page"
 path: /
 title: Home
 langKey: en
@@ -8,16 +8,29 @@ language: en
 meta:
   description: This is a meta description.
   title: Home Page
-tourHighlights: >-
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem
-    ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-    consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-    Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa
+tourHighlights: |
+  Here are reasons you should plan trip with us Handpicked Hotels Lorem
+  ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
+  eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
+  consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+  Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
+  elit. Aenean commodo ligula eget dolor. Aenean massa
+toursection:
+  description: |
+    We have a unique way of meeting your adventurous expectations!
+  descriptionafter: |
+    Here are reasons you should plan trip with us Handpicked Hotels Lorem ipsum
+    dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa World Class Service Lorem ipsum dolor sit amet, consect
+    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Best Price
+    Guarantee Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
+    commodo ligula eget dolor. Aenean massa
+  heading: |
+    ## Popular Tours
 ---
 
 ## Why Choose Us
+
 \
 Visit all around Portugal in a bicycle with our expertise guides.
 

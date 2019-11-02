@@ -456,17 +456,17 @@ collections:
               - label: DescriptionAfter
                 name: descriptionafter
                 widget: markdown
-              - {
-                  label: "Tours",
-                  name: "tours",
-                  widget: "relation",
-                  collection: "tours",
-                  displayFields: ["title", "language"],
-                  searchFields: ["title"],
-                  valueField: "id",
-                  required: false,
-                  multiple: true,
-                }
+              # - {
+              #     label: "Tours",
+              #     name: "tours",
+              #     widget: "relation",
+              #     collection: "tours",
+              #     displayFields: ["title", "language", "id"],
+              #     searchFields: ["title"],
+              #     valueField: "id",
+              #     required: false,
+              #     multiple: true,
+              #   }
           - label: Body
             name: body
             widget: markdown

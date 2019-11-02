@@ -13,7 +13,8 @@ import "./home-page.mod.scss";
 export const HomePageTemplate = ({
   title,
   content,
-  contentComponent
+  contentComponent,
+  toursection
 }) => {
   // const PageContent = contentComponent || Content;
 
@@ -44,16 +45,7 @@ export const HomePageTemplate = ({
         </button>
       </Scroll>
 
-      <Tourhighlights className="tourHighlights" />
-
-      <div className="container">
-        Here are reasons you should plan trip with us Handpicked Hotels Lorem
-        ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-        eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-        consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-        Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-        elit. Aenean commodo ligula eget dolor. Aenean massa
-      </div>
+      <Tourhighlights className="tourHighlights" {...toursection} />
 
       {/* <Scroll type="class" element="home" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>
@@ -71,7 +63,7 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  tours: PropTypes.any
+  toursection: PropTypes.any
 };
 
 const HomePage = ({ data }) => {
@@ -83,6 +75,7 @@ const HomePage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        toursection={post.frontmatter.toursection}
       />
     </Layout>
   );
@@ -101,6 +94,11 @@ export const homePageQuery = graphql`
       frontmatter {
         title
         language
+        toursection {
+          description
+          descriptionafter
+          heading
+        }
       }
     }
   }

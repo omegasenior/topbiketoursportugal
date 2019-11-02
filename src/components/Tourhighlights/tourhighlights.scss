@@ -21,7 +21,7 @@ h2.tourHeaderTitle {
   padding: 20px;
 }
 
-h2.tourTitle {
+.tourTitle {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 5px 0;
@@ -47,14 +47,20 @@ img.toursImage {
   transition: all 0.2s ease-out;
 }
 
-p.subtitle {
-  text-align: center;
-  position: relative;
-  margin-bottom: 30px;
-  padding: 30px;
-  text-align: left;
-  font-size: 1.2rem;
-  text-align: center;
+.tourHighlights {
+  .subtitle {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1.2rem !important;
+    text-align: center;
+    font-weight: normal !important;
+  }
+
+  .after {
+    text-align: justify;
+  }
 }
 
 h3.title {
@@ -65,4 +71,14 @@ h3.title {
 
 .time {
   width: 20px;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: left;
+  font-size: 1.2rem;
+  text-align: center;
 }

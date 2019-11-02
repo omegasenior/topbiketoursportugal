@@ -1,17 +1,21 @@
 ---
-langKey: 'en'
-language: 'en'
-contentType: ''
+langKey: "en"
+language: "en"
+contentType: ""
 meta:
-  canonicalLink: ''
-  description: ''
+  canonicalLink: ""
+  description: ""
   noindex: false
-  title: ''
-featuredImage: '/img/Silver-coast-5.jpg'
-featuredImagePosition: 'top center'
+  title: ""
+featuredImage: "/img/Silver-coast-5.jpg"
+featuredImagePosition: "top center"
 highlight: false
-subtitle: ''
+subtitle: ""
 tags:
+toursection:
+  description:
+  descriptionafter:
+  heading:
 # gallery:
 #   - alt: ''
 #     image: ''
