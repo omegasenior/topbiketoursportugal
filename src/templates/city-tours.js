@@ -13,11 +13,9 @@ import { Col, Row, Container } from "@bootstrap-styled/v4";
 import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
-// import { display } from "@material-ui/system";
-// import { CenterFocusStrong } from "styled-icons/material";
-import "./city-tours.scss";
-/*https://www.gatsbyjs.org/docs/adding-pagination*/
 import { filter } from "lodash-es";
+import "./city-tours.scss";
+
 export const TourTemplate = ({
   image,
   path,
@@ -29,7 +27,9 @@ export const TourTemplate = ({
   excerpt,
   language
 }) => {
-  var tourRating = Math.round(sum(rating.map(r => r.rating)) / rating.length);
+  var tourRating = rating
+    ? Math.round(sum(rating.map(r => r.rating)) / rating.length)
+    : 0;
   return (
     <div
       className="row tour"
@@ -93,6 +93,11 @@ export const CityToursTemplate = ({ tours, body, afterList }) => (
 export const CityToursPage = ({ data }) => {
   const { page, tours } = data;
   const language = page.frontmatter.language;
+  const toursFiltered = filter(
+    tours.nodes,
+    t => t.frontmatter.language == language
+  );
+  console.log(JSON.stringify(toursFiltered));
   // console.log(JSON.stringify(data.page.frontmatter.meta));
   return (
     <Layout
@@ -102,7 +107,7 @@ export const CityToursPage = ({ data }) => {
       language={language}
     >
       <CityToursTemplate
-        tours={filter(tours.nodes, t => t.frontmatter.language == language)}
+        tours={toursFiltered}
         body={page.html}
         {...page.frontmatter}
       />
@@ -153,6 +158,7 @@ export const pageQuery = graphql`
           key
           title
           path
+          language
           subtitle
           description
           code
@@ -168,7 +174,6 @@ export const pageQuery = graphql`
             }
           }
           lang
-          language
           langKey
           rating {
             rating

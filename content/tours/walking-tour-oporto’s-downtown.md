@@ -1,5 +1,5 @@
 ---
-templateKey: tour-gen
+templateKey: city-tour-gen
 path: /walking-tours-porto
 featured: false
 language: en

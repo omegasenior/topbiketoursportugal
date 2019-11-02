@@ -90,7 +90,7 @@ const TourPlan = ({ tour: { itinerary } }) => (
     <Row>
       <Col xs="12" sm="7">
         <TourPlanWrapper>
-          {itinerary.map((item, index) => (
+          {itinerary && itinerary.map((item, index) => (
             <TourPlanContainer key={`tp` + index}>
               <Circle>{item.day}</Circle>
               <div>

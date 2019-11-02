@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content",
+    "\\content\\pages",
+    "\\content\\pages\\home",
+    "\\content\\tours",
+    "\\src",
+    "\\static"
   ],
+  "SelectedNode": "\\content\\tours",
   "PreviewInSolutionExplorer": false
 }

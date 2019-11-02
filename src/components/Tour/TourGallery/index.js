@@ -27,7 +27,7 @@ const TourGallery = ({ tour: { gallery } }) => (
   <div className="container">
     <h2 className="row">Gallery</h2>
     <GalleryContainer>
-      {gallery.map((item, index) => (
+      {gallery && gallery.map((item, index) => (
         <ImageWrapper key={`tg${index}`}>
           <Img
             key={item.image.childImageSharp.id}

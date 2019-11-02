@@ -44,7 +44,7 @@ const TourPricing = ({ tour: { pricing } }) => {
         <div className={"pt-cols pt-cols-" + packages.length}>
           <div className="pt-cols-side">
             <div className="pt-list-block">
-              {packagePricingKeys.map((key, index) => (
+              {packagePricingKeys && packagePricingKeys.map((key, index) => (
                 <div key={"pk" + index} className="pt-list-item">
                   {key}
                   <span className="pt-tooltip-show-icon">
@@ -64,7 +64,7 @@ const TourPricing = ({ tour: { pricing } }) => {
             </div>
           </div>
           <div className="pt-cols-main">
-            {packages.map((pack, index) => (
+            {packages && packages.map((pack, index) => (
               <Package key={`pack` + index} data={pack}></Package>
             ))}
           </div>
