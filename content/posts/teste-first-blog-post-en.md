@@ -13,6 +13,6 @@ meta:
   title: Teste first blog post meta t
   description: Teste first blog desc metsa
   keywords: 'testemtes,teste,stes'
-  languagePages: []
+languagePages: []
 ---
 # teste firs tpost body md

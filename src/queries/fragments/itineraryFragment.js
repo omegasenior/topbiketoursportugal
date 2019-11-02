@@ -5,9 +5,10 @@ export const query = graphql`
       itinerary {
         day
         description
-        location
+        location {
           lat
           lng
+        }
         title
       }
     }

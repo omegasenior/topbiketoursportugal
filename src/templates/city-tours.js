@@ -5,6 +5,8 @@ import { graphql, Link, navigate } from "gatsby";
 import Layout from "../layout/Layout";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
+import { sum } from "lodash-es";
+
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -25,47 +27,52 @@ export const TourTemplate = ({
   rating,
   html,
   excerpt
-}) => (
-  <div
-    className="row tour"
-    onClick={event => {
-      event.preventDefault();
-      navigate(path);
-    }}
-  >
-    <div className="col-12 col-sm-4 no-gutter tourImageContainer">
-      <Img fluid={image.childImageSharp.fluid} />
-    </div>
-    <div className="col-12 col-sm-8 tourBody">
-      <div className="row h-100">
-        <div className="col-8">
-          <h2>{title}</h2>
-          <HTMLContent content={excerpt} />
-        </div>
-        <div className="col-4 priceContainer text-center">
-          {price && (
-            <>
-              <div>From</div>
-              <div className="priceDiscount">{discount}</div>
-              <div className="price">€ {price}</div>
-              <Rating
-                style={{ color: "#fa7500" }}
-                value={rating}
-                total={5}
-                size={16}
-              />
-            </>
-          )}
-          <div className="action">
-            <Link to={path} className="btn btn-primary">
-              Details
-            </Link>
+}) => {
+  var tourRating = Math.round(
+    sum(rating.map(r => r.rating)) / rating.length
+  );
+  return (
+    <div
+      className="row tour"
+      onClick={event => {
+        event.preventDefault();
+        navigate(path);
+      }}
+    >
+      <div className="col-12 col-sm-4 no-gutter tourImageContainer">
+        <Img fluid={image.childImageSharp.fluid} />
+      </div>
+      <div className="col-12 col-sm-8 tourBody">
+        <div className="row h-100">
+          <div className="col-8">
+            <h2>{title}</h2>
+            <HTMLContent content={excerpt} />
+          </div>
+          <div className="col-4 priceContainer text-center">
+            {price && (
+              <>
+                <div>From</div>
+                <div className="priceDiscount">{discount}</div>
+                <div className="price">€ {price}</div>
+                <Rating
+                  style={{ color: "#fa7500" }}
+                  value={tourRating}
+                  total={5}
+                  size={16}
+                />
+              </>
+            )}
+            <div className="action">
+              <Link to={path} className="btn btn-primary">
+                Details
+              </Link>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export const ToursListTemplate = ({ tours }) => (
   <>
@@ -163,13 +170,10 @@ export const pageQuery = graphql`
           lang
           language
           langKey
-          languagePages {
-            language
-            path
+          rating {
+            rating
+            ratingLink
           }
-          rating
-          ratingCount
-          ratingLink
           slug
         }
         html

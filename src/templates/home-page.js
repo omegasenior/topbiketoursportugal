@@ -10,7 +10,11 @@ import ReviewsHighlights from "../components/ReviewsHighlights";
 import { ChevronCircleDown } from "styled-icons/fa-solid/ChevronCircleDown";
 import "./home-page.mod.scss";
 
-export const HomePageTemplate = ({ title, content, contentComponent }) => {
+export const HomePageTemplate = ({
+  title,
+  content,
+  contentComponent
+}) => {
   // const PageContent = contentComponent || Content;
 
   return (
@@ -66,7 +70,8 @@ export const HomePageTemplate = ({ title, content, contentComponent }) => {
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  tours: PropTypes.any
 };
 
 const HomePage = ({ data }) => {

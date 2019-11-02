@@ -156,7 +156,7 @@ tourtype: Bike
 tourcategory:
   - Bike
 price: 10
-discountPrice: 10
+discount: 10
 gallery:
 - image: "/img/silver-coast-2/20190106_095810.jpg"
   alt: Silver Coast

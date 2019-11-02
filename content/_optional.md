@@ -12,10 +12,10 @@ featuredImagePosition: 'top center'
 highlight: false
 subtitle: ''
 tags:
-gallery:
-  - alt: ''
-    image: ''
-    title: ''
+# gallery:
+#   - alt: ''
+#     image: ''
+#     title: ''
 ---
 
 <!-- Use this to force Gatsby to correctly determine optional images/file schema -->

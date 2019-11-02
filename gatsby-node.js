@@ -134,12 +134,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     } else if (
       // home page gets root slug
       parsedFilePath.name === "home" &&
-      parsedFilePath.dir.indexOf("pages") !== -1 
+      parsedFilePath.dir.indexOf("pages") !== -1
       // && parsedFilePath.dir.indexOf("posts") !== -1
     ) {
       slug = `/`;
     } else if (_.get(node, "frontmatter.path")) {
       slug = `/${_.kebabCase(node.frontmatter.path)}/`;
+    } else if (
+      _.get(node, "frontmatter.title") &&
+      parsedFilePath.dir.indexOf("tours") !== -1
+    ) {
+      slug = `/${_.kebabCase(node.frontmatter.title)}/`;
     } else if (_.get(node, "frontmatter.title")) {
       slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
         node.frontmatter.title
@@ -164,7 +169,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     var matches = regex.exec(parsedFilePath.name);
     var langCode = matches && matches.length > 1 ? matches[1] : "en";
     var langKey = langCode.length > 0 ? langCode : "en";
-    
+
     createNodeField({
       node,
       name: `langKey`,

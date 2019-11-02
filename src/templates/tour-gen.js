@@ -18,7 +18,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "styled-container-component";
-
+import {HTMLContent} from "../components/Content"
 import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 // import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
 
@@ -72,7 +72,7 @@ function a11yProps(index) {
 }
 
 function TourGen({ data }) {
-  const { tour } = data;
+  const tour = { ...data.tour, ...data.tour.frontmatter };
   const [value, setValue] = React.useState(0);
 
   function handleChange(_, newValue) {
@@ -80,11 +80,12 @@ function TourGen({ data }) {
   }
 
   return (
-    <Layout>
-      <Helmet titleTemplate={`%s | ${tour.title}`}>
-        <title>{tour.title}</title>
-        <meta name="description" content={tour.description} />
-      </Helmet>
+    <Layout
+      language={tour.language}
+      meta={tour.meta || false}
+      title={tour.title || false}
+      feature={tour.feature}
+    >
       <StyledPaper>
         <Tabs
           value={value}
@@ -101,7 +102,9 @@ function TourGen({ data }) {
           {/* <Tab label="Locations" {...a11yProps(4)} /> */}
         </Tabs>
       </StyledPaper>
-      <TourInformation tour={tour}></TourInformation>
+
+      <HTMLContent className="container" content={tour.html} />
+
       <div className="container">
         <TourPlan tour={tour}></TourPlan>
       </div>
@@ -131,49 +134,51 @@ export const tourGenQuery = graphql`
       ...Itinerary
       ...TourSkill
       ...TourPricing
+      ...FeatureImage
+      html
       frontmatter {
-      title
-      subtitle
-      description
-      slug
-      difficulty
-      distance
-      duration
-      distanceUnit
-      durationUnit
-      groupSizeMax
-      groupSizeMin
-      highlight
-      path
-      physicality
-      skillLevel
-      tags
-      templateKey
-      gallery {
-        alt
-        image {
-          childImageSharp {
-            fluid(quality: 60, maxWidth: 1920) {
-              ...GatsbyImageSharpFluid
+        title
+        subtitle
+        description
+        slug
+        difficulty
+        distance
+        duration
+        distanceUnit
+        durationUnit
+        groupSizeMax
+        groupSizeMin
+        highlight
+        path
+        physicality
+        skillLevel
+        tags
+        templateKey
+        gallery {
+          alt
+          image {
+            childImageSharp {
+              fluid(quality: 60, maxWidth: 1920) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-      }
-      pricing {
-        discount
-        en {
-          package
-          packageContents {
-            icon
-            title
-            value
+        pricing {
+          discount
+          en {
+            package
+            packageContents {
+              icon
+              title
+              value
+            }
           }
+          highSeasonPriceSupplement
+          price
+          type
         }
-        highSeasonPriceSupplement
-        price
-        type
       }
     }
   }
-}
 `;

@@ -11,6 +11,8 @@ import { Col, Row, Container } from "@bootstrap-styled/v4";
 import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
+import { sum, min } from "lodash-es";
+
 // import { display } from "@material-ui/system";
 // import { CenterFocusStrong } from "styled-icons/material";
 
@@ -119,7 +121,16 @@ const TourDiscountPrice = styled.div`
 
 /*https://www.gatsbyjs.org/docs/adding-pagination*/
 function ToursListPage({ data }) {
-  const tours = data.allTourJson.nodes;
+  const tours = data.allTourJson.nodes.map(t => {
+    return {
+      ...t,
+      ...t.frontmatter,
+      ...t.fields
+    };
+  });
+
+  // console.log(JSON.stringify(tours));
+
   const toursPage = data.toursPage;
   return (
     <Layout
@@ -129,59 +140,72 @@ function ToursListPage({ data }) {
       feature={toursPage.frontmatter.feature}
     >
       <section>
-        <HTMLContent content={toursPage.html} className="container" />
+        <HTMLContent content={toursPage.excerpt} className="container" />
         <Container>
           <Row>
-            {tours.map(tour => (
-              <TourColumn key={tour.id} xs="12" sm="4" md="4" my={10}>
-                <TourLink to={tour.path}>
-                  <Tour>
-                    <TourImageContainer>
-                      <Img fluid={tour.image.src.childImageSharp.fluid} />
-                    </TourImageContainer>
-                    <div style={{ padding: "25px" }}>
-                      <TourTitle>{tour.title}</TourTitle>
-                      <TourSpecificationContainer>
-                        <TourSpecification>
-                          <Time size="24" />
-                          <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
-                        </TourSpecification>
-                        <TourSpecification>
-                          <Mountain size="24" />
-                          <span alt="Difficulty">{` ${tour.difficulty}/10`}</span>
-                        </TourSpecification>
-                        <TourSpecification>
-                          <Road size="24" />
-                          <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
-                        </TourSpecification>
-                      </TourSpecificationContainer>
-                      {tour.price && tour.price > 0 && (
+            {tours.map(tour => {
+              var tourRating = Math.round(
+                sum(tour.rating.map(r => r.rating)) / tour.rating.length
+              );
+
+              return (
+                <TourColumn key={tour.id} xs="12" sm="4" md="4" my={10}>
+                  <TourLink to={tour.path || tour.localizedPath || tour.slug}>
+                    <Tour>
+                      <TourImageContainer>
+                        <Img fluid={tour.image.childImageSharp.fluid} />
+                      </TourImageContainer>
+                      <div style={{ padding: "25px" }}>
+                        <TourTitle>{tour.title}</TourTitle>
                         <TourSpecificationContainer>
-                          <TourSpecPrice>
-                            <Rating
-                              style={{ color: "#fa7500" }}
-                              value={tour.rating}
-                              total={5}
-                              size={24}
-                            />
-                            <span>{` (${tour.ratingCount} reviews)`}</span>
-                          </TourSpecPrice>
-                          <TourSpecPrice>
-                            {(tour.discountPrice ||
-                              tour.discountPrice >= tour.price) && (
-                              <TourDiscountPrice>
-                                {tour.discountPrice}€
-                              </TourDiscountPrice>
-                            )}
-                            <TourPrice>{tour.price}€</TourPrice>
-                          </TourSpecPrice>
+                          <TourSpecification>
+                            <Time size="24" />
+                            <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
+                          </TourSpecification>
+                          <TourSpecification>
+                            <Mountain size="24" />
+                            <span alt="Difficulty">{` ${tour.difficulty}/10`}</span>
+                          </TourSpecification>
+                          <TourSpecification>
+                            <Road size="24" />
+                            <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
+                          </TourSpecification>
                         </TourSpecificationContainer>
-                      )}
-                    </div>
-                  </Tour>
-                </TourLink>
-              </TourColumn>
-            ))}
+                        {tour.princing &&
+                          tour.princing.length > 0 &&
+                          tour.princing[0] &&
+                          tour.princing[0].price &&
+                          tour.princing[0].price > 0 && (
+                            <TourSpecificationContainer>
+                              <TourSpecPrice>
+                                <Rating
+                                  style={{ color: "#fa7500" }}
+                                  value={tourRating}
+                                  total={5}
+                                  size={24}
+                                />
+                                <span>{` (${tour.rating.length} reviews)`}</span>
+                              </TourSpecPrice>
+                              <TourSpecPrice>
+                                {tour.princing &&
+                                  tour.princing.length &&
+                                  tour.princing[0].discount &&
+                                  tour.princing[0].discount >=
+                                    tour.princing[0].price && (
+                                    <TourDiscountPrice>
+                                      {tour.princing[0].discount}€
+                                    </TourDiscountPrice>
+                                  )}
+                                <TourPrice>{tour.princing[0].price}€</TourPrice>
+                              </TourSpecPrice>
+                            </TourSpecificationContainer>
+                          )}
+                      </div>
+                    </Tour>
+                  </TourLink>
+                </TourColumn>
+              );
+            })}
           </Row>
         </Container>
       </section>
@@ -207,47 +231,61 @@ export const pageQuery = graphql`
         description
       }
     }
-    allTourJson {
+    allTourJson: allMarkdownRemark(
+      filter: { frontmatter: { packagetype: { eq: "PackageTour" } } }
+    ) {
       nodes {
         id
-        title
-        subtitle
-        description
-        slug
-        difficulty
-        distance
-        duration
-        minAge
-        language
-        image {
-          name
-          src {
+        excerpt(truncate: true, pruneLength: 200)
+        html
+        fields {
+          slug
+          localizedPath
+          langKey
+          contentType
+        }
+        frontmatter {
+          title
+          subtitle
+          description
+          difficulty
+          distance
+          duration
+          minAge
+          language
+          image {
             childImageSharp {
-              fluid(quality: 60, maxWidth: 1920) {
+              fluid(quality: 90, maxWidth: 1920) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }
+          distanceUnit
+          durationUnit
+          groupSizeMax
+          groupSizeMin
+          highlight
+          rating {
+            rating
+            ratingLink
+          }
+          itinerary {
+            day
+            description
+            title
+          }
+          path
+          physicality
+          skillLevel
+          tags
+          tourcategory
+          tourtype
+          pricing {
+            price
+            discount
+          }
+          packagetype
         }
-        distanceUnit
-        durationUnit
-        groupSizeMax
-        groupSizeMin
-        highlight
-        price
-        discountPrice
-        rating
-        ratingCount
-        ratingLink
-        itinerary {
-          day
-          description
-          title
-        }
-        path
-        physicality
-        skillLevel
-        tags
       }
     }
   }

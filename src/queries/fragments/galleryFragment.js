@@ -4,7 +4,13 @@ export const query = graphql`
     frontmatter {
       gallery {
         alt
-        image
+        image {
+          childImageSharp {
+            fluid(quality: 60, maxWidth: 1920) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
       }
     }
   }

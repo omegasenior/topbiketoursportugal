@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/Layout";
 import styled from "styled-components";
+import { sum } from "lodash-es";
+
 import {
   TourInformation,
   TourGallery,
@@ -133,7 +135,13 @@ export const tourGenQuery = graphql`
         tags
         gallery {
           alt
-          image 
+          image {
+            childImageSharp {
+              fluid(quality: 90, maxWidth: 1920) {
+                ...GatsbyImageSharpFluid_tracedSVG
+              }
+            }
+          }
         }
         pricing {
           discount
@@ -160,13 +168,10 @@ export const tourGenQuery = graphql`
         lang
         language
         langKey
-        languagePages {
-          language
-          path
+        rating {
+          rating
+          ratingLink
         }
-        rating
-        ratingCount
-        ratingLink
         slug
       }
       html

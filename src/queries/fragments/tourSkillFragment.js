@@ -11,11 +11,10 @@ export const query = graphql`
       groupSizeMax
       groupSizeMin
       highlight
-      price
-      discountPrice
-      rating
-      ratingCount
-      ratingLink
+      rating {
+        rating
+        ratingLink
+      }
       physicality
       skillLevel
     }

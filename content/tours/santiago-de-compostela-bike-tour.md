@@ -3,7 +3,7 @@ templateKey: tour-gen
 featured: true
 language: en
 image: /img/specialized-diverge-e5-2.jpg
-title: Santiago de Compostela BikeTour
+title: Santiago de Compostela Bike Tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: Bike
@@ -15,7 +15,7 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
-  title: Santiago de Compostela BikeTour
+  title: Santiago de Compostela Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -26,13 +26,20 @@ duration: 1
 durationUnit: hours
 difficulty: 1
 physicality: 1
+feature:
+  image: /img/bike-tours-portugal-city_LEVELED.jpg
+  imageAlign: "bottom center"
+  title:  Sobre nós
+  textcolor: #000
+  align: center
+  subtitle: 
 rating:
   - rating: 1
     ratingLink: '1'
   - rating: 1
     ratingLink: '1'
 itinerary:
-  - day: 'Day 1: Reception at Porto'
+  - day: '1'
     description: >-
       Porto: Before starting this cycling journey towards Santiago de
       Compostela, it’s almost obligatory to present and know Porto, classified
@@ -47,7 +54,7 @@ itinerary:
       lat: '41.15293'
       lng: '-8.61005'
     title: 'Day 1: Reception at Porto'
-  - day: 'Day 2: Porto – Esposende (60 km)'
+  - day: '2'
     description: >-
       Day 2 – Porto - Esposende, From Fold n´Visit’s store, based on the
       “Invicta” city of Porto, we will begin our journey heading to Esposende, a
@@ -63,7 +70,7 @@ itinerary:
       lat: '41.15591'
       lng: '-8.60248'
     title: Porto – Esposende (60 km)
-  - day: 'Day 3: Esposende – Caminha (50 km)'
+  - day: '3'
     description: >-
       Day 3 – Esposende – Caminha. We’re reaching to Viana do Castelo, another
       sea docking city also holding a huge importance during the Discoveries.
@@ -78,7 +85,7 @@ itinerary:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Day 3: Esposende – Caminha (50 km)'
-  - day: 'Day 4: Caminha – Baiona (40 km)'
+  - day: '4'
     description: >-
       Day 4 – Caminha – Baiona: During our fourth cycling day, we’re going to
       enter in Spanish territory, ending in Bayona.  It’s a city politically
@@ -93,7 +100,7 @@ itinerary:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Day 4: Caminha – Baiona (40 km)'
-  - day: 'Day 5: Baiona – pontevedra (57 km)'
+  - day: '5'
     description: >-
       Day 5 – Baiona – Pontevedra: The fifth day will encompass the stream of
       Vigo and will end in San Simon’s bay with a watery landscape to feast our
@@ -111,7 +118,7 @@ itinerary:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Day 5: Baiona – pontevedra (57 km)'
-  - day: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+  - day: '6'
     description: >-
       Day 6 – Pontevedra – Caldas de Reis  Heading to a pre-Roman city, Caldas
       de Reis, a province which belongs to Pontevedra.  According to historical
@@ -127,7 +134,7 @@ itinerary:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
-  - day: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
+  - day: '7'
     description: >-
       Day 7 – Caldas de Reis – Santiago de Compostela  Our last and seventh day
       will meet Santiago de Compostela as the final destination, one of the
@@ -152,7 +159,9 @@ pricing:
       packageContents:
         - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
+          icon: "✓"
     highSeasonPriceSupplement: 98
+    bestValue: false
     price: 100
     type: type price
 ---
