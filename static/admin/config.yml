@@ -671,7 +671,7 @@ collections:
             name: image
             widget: image
             required: false
-          
+
           - label: Body
             name: body
             widget: markdown
@@ -683,7 +683,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -742,7 +747,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -782,7 +792,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -823,7 +838,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -858,12 +878,18 @@ collections:
           - label: Body
             name: body
             widget: markdown
+            required: false
           - label: Feature Image
             name: feature
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -890,12 +916,13 @@ collections:
                 required: true
               - label: Body
                 name: body
-                widget: string
-                required: true
+                widget: text
+                required: false
               - label: Type
                 name: type
                 widget: select
                 options: ["Year", "Month", "Date"]
+                default: "Date"
       - file: content/pages/tour-calendar/index.pt.md
         label: Calendar PT
         name: calendarPT
@@ -914,12 +941,18 @@ collections:
           - label: Body
             name: body
             widget: markdown
+            required: false
           - label: Feature Image
             name: feature
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -946,12 +979,13 @@ collections:
                 required: true
               - label: Body
                 name: body
-                widget: string
-                required: true
+                widget: text
+                required: false
               - label: Type
                 name: type
                 widget: select
                 options: ["Year", "Month", "Date"]
+                default: "Date"
       - file: content/pages/contact/index.en.md
         label: Contact EN
         name: contactEN
@@ -975,7 +1009,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -1015,7 +1054,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -1055,7 +1099,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -1095,7 +1144,12 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
               - {
                   label: Text Align,
                   name: align,
@@ -1132,12 +1186,7 @@ collections:
           default: "en",
           required: true,
         }
-      - {
-          label: banner,
-          name: banner,
-          widget: hidden,
-          default: true,
-        }
+      - { label: banner, name: banner, widget: hidden, default: true }
       - {
           label: Order,
           name: order,
