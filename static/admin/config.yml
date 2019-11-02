@@ -392,6 +392,7 @@ collections:
               label: Best Value,
               name: bestValue,
               widget: boolean,
+              required: false,
               default: false,
             }
 
