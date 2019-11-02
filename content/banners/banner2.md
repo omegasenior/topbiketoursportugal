@@ -1,5 +1,4 @@
 ---
-banner: true
 title: Vulputate Mollis Ultricies Fermentum Parturient
 language: 'en'
 goto:

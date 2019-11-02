@@ -252,7 +252,12 @@ collections:
           options: ["Bike", "Walking"],
           default: ["Bike"],
         }
-      - { label: Tour Category, name: tourcategory, widget: list, required: false }
+      - {
+          label: Tour Category,
+          name: tourcategory,
+          widget: list,
+          required: false,
+        }
       - { label: Tags, name: tags, widget: list, required: false }
       - label: "Meta"
         required: false
@@ -1048,7 +1053,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       # - { label: Template, name: templateKey, widget: hidden, default: Banner }
-      - { label: key, name: key, widget: uuid }
+      - { label: key, name: key, widget: string }
       - {
           label: "Language",
           name: "language",
@@ -1081,9 +1086,19 @@ collections:
           widget: object,
           fields:
             [
-              { label: Link, name: link, widget: string },
-              { label: LinkText, name: linktext, widget: string },
-              { label: LinkTitle, name: linktitle, widget: string },
+              { label: Link, name: link, widget: string, required: true },
+              {
+                label: LinkText,
+                name: linktext,
+                widget: string,
+                required: true,
+              },
+              {
+                label: LinkTitle,
+                name: linktitle,
+                widget: string,
+                required: true,
+              },
             ],
         }
       - { label: Image, name: image, widget: image, required: true }
