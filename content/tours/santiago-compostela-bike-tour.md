@@ -2,11 +2,12 @@
 templateKey: tour-gen
 featured: true
 language: en
-image: /img/caminho-way-bike-tour-coastal-path.jpg
+image: >-
+  /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
 title: Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: 
+tourcategory:
   - Bike
 tags:
   - Santiago Compostela
