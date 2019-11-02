@@ -647,6 +647,10 @@ collections:
             name: templateKey
             widget: hidden
             default: bike-hollidays
+          - label: Path
+            name: path
+            widget: string
+            required: false
           - {
               label: "Language",
               name: "language",
@@ -667,10 +671,7 @@ collections:
             name: image
             widget: image
             required: false
-          - label: Path
-            name: path
-            widget: string
-            required: false
+          
           - label: Body
             name: body
             widget: markdown
@@ -707,6 +708,10 @@ collections:
             name: templateKey
             widget: hidden
             default: bike-hollidays
+          - label: Path
+            name: path
+            widget: string
+            required: false
           - {
               label: "Language",
               name: "language",
@@ -726,9 +731,6 @@ collections:
           - label: Image
             name: image
             widget: image
-          - label: Path
-            name: path
-            widget: string
           - label: Body
             name: body
             widget: markdown
@@ -765,6 +767,10 @@ collections:
             name: templateKey
             widget: hidden
             default: about-page
+          - label: Path
+            name: path
+            widget: string
+            required: false
           - label: Title
             name: title
             widget: string
@@ -801,6 +807,11 @@ collections:
             name: templateKey
             widget: hidden
             default: about-page
+          - label: Path
+            name: path
+            widget: string
+            required: false
+
           - label: Title
             name: title
             widget: string
