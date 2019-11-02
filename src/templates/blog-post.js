@@ -60,7 +60,13 @@ const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
   // const postImage = null;
   return (
-    <Layout>
+    <Layout
+    
+    meta={post.frontmatter.meta || false}
+    title={post.frontmatter.title || false}
+    feature={post.frontmatter.feature}
+    language={post.frontmatter.language}
+    >
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -93,9 +99,12 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      ...Meta
+      ...FeatureImage
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        language
         description
         tags
       }

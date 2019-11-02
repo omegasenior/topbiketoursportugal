@@ -82,6 +82,7 @@ const ContactPage = ({ data: { page, settings } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
     feature={page.frontmatter.feature}
+    language={page.frontmatter.language}
   >
     <ContactPageTemplate
       {...settings}

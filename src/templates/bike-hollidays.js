@@ -134,7 +134,7 @@ function ToursListPage({ data }) {
   const toursPage = data.toursPage;
   return (
     <Layout
-      language={tours.language}
+      language={toursPage.frontmatter.language}
       meta={toursPage.frontmatter.meta || false}
       title={toursPage.frontmatter.title || false}
       feature={toursPage.frontmatter.feature}
@@ -228,6 +228,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        language
         description
       }
     }

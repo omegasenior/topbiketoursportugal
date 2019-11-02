@@ -4,7 +4,7 @@ path: /day-tours
 language: en
 lang: en
 title: tours diária
-slug: day-tours
+# slug: day-tours
 afterList: teste
 feature:
   align: center
