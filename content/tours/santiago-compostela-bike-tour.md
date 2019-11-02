@@ -15,6 +15,7 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
+  keywords: teste keyword
   title: Santiago de Compostela Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
@@ -272,25 +273,21 @@ pricing:
 
 ## The Coast path - "easy"
 
-
-
+\
+\
 This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
-
-
 
 Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
 
-
-
+\
+\
 **Tour description:** easy / moderate
 
-**Estimated Km:**  278 km and 4121 m (1.30%) of cumulative gap climbs  
-
-
+**Estimated Km:**  278 km and 4121 m (1.30%) of cumulative gap climbs  
 
 Day 1: Reception at Porto
 
-Day 2: Porto – Esposende (60 km)
+Day 2: Porto – Esposende (60 km)
 
 Day 3: Esposende – Caminha (50 km)
 
