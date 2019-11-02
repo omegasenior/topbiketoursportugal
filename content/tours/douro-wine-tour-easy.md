@@ -7,7 +7,8 @@ title: Douro Wine Tour Easy
 path: /bike-tours-douro-valley-easy
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

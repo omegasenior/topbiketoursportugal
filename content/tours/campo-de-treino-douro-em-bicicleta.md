@@ -7,7 +7,8 @@ title: Douro Valley Cycling campo de treino
 path: /-campo-de-treino-douro-em-bicicleta
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

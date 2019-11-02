@@ -7,7 +7,8 @@ title: The Silver Coast - Route 2
 path: /costa-da-prata-2
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

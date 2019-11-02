@@ -252,14 +252,7 @@ collections:
           options: ["Bike", "Walking"],
           default: ["Bike"],
         }
-      - {
-          label: "Tour Category",
-          name: "tourcategory",
-          widget: "select",
-          multiple: false,
-          options: ["Bike", "Walking"],
-          default: ["Bike"],
-        }
+      - { label: Tour Category, name: tourcategory, widget: list, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
       - label: "Meta"
         required: false

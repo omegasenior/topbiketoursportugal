@@ -7,7 +7,8 @@ title: Vicentine Cost and Algarve Bike Tour
 path: /south-portugal-biketour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

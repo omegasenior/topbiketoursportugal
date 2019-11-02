@@ -7,7 +7,8 @@ title: Costa da Prata - Rota 1
 path: /costa-da-prata-rota-1
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

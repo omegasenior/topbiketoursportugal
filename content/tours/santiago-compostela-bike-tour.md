@@ -6,7 +6,8 @@ image: /img/caminho-way-bike-tour-coastal-path.jpg
 title: Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

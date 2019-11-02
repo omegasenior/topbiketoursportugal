@@ -7,7 +7,8 @@ title: O Caminho Francês - BikeTour
 path: /pt-caminho-frances-a-santiago-bike-tour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

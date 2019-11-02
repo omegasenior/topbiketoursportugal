@@ -7,7 +7,8 @@ title: North of Portugal Bike tour
 path: /north-of-portugal-en
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

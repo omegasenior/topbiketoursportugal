@@ -6,7 +6,8 @@ image: /img/specialized-diverge-e5-2.jpg
 title: Santiago de Compostela BikeTour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

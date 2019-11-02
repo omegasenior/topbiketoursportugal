@@ -7,7 +7,7 @@ image: /img/bike-tours-porto.jpg
 title: Downtown and Sightseeing bike tour
 packagetype: SingleTour
 tourtype: Bike
-tourcategory:
+tourcategory: 
   - Bike
 tags:
   - city tours

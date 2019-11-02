@@ -7,7 +7,8 @@ title: Cycling tours douro wine
 path: /cycling-tours-douro-wine
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

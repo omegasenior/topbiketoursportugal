@@ -7,7 +7,8 @@ title: Costa Vicentina e Algarve Bike Tour
 path: /costa-vicentina-bike-tour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

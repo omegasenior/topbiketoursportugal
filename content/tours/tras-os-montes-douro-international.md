@@ -7,7 +7,8 @@ title: Trás-os-Montes & Douro international
 path: /bike-tours-portugal-douro-wine
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

@@ -7,7 +7,8 @@ title: Douro Valley Cycling camp Training
 path: /douro-valley-cycling-camp-road-bike
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

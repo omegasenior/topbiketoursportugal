@@ -7,7 +7,8 @@ title: The Way of St. James BikeTour - The French Way
 path: /french-way-to-santiago-bike-tour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: Bike
+tourcategory: 
+  - Bike
 tags:
   - Santiago Compostela
   - Costal Tour

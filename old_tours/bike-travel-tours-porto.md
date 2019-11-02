@@ -152,7 +152,7 @@ description: "1"
 rating: 1
 packagetype: SingleTour
 tourtype: Bike
-tourcategory:
+tourcategory: 
   - Bike
 price: 10
 discount: 10
