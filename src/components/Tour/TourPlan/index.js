@@ -1,14 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { compose, withProps } from "recompose";
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  // Marker,
-  Polyline
-} from "react-google-maps";
+// import { compose, withProps } from "recompose";
+// import {
+//   withScriptjs,
+//   withGoogleMap,
+//   GoogleMap,
+//   // Marker,
+//   Polyline
+// } from "react-google-maps";
+import GoogleMap from "../../GoogleMap";
+import Map from "../../leaflet";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 
 const TourPlanWrapper = styled.div`
@@ -67,42 +69,41 @@ const Description = styled.div`
   margin-bottom: 15px;
 `;
 
-const MyMapComponent = compose(
-  withProps({
-    googleMapURL:
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyC5YPliu9trA7Ntf0b1CsCGdAn5Mfc_q2k&v=3.exp&libraries=geometry,drawing,places",
-    loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px`, width: `100%` }} />,
-    mapElement: <div style={{ height: `100%` }} />
-  }),
-  withScriptjs,
-  withGoogleMap
-)(_ => (
-  <GoogleMap defaultZoom={7} defaultCenter={{ lat: -34.897, lng: 151.144 }}>
-    <Polyline
-      path={[{ lat: -34.397, lng: 150.644 }, { lat: -35.397, lng: 151.644 }]}
-    />
-  </GoogleMap>
-));
+// const MyMapComponent = compose(
+//   withProps({
+//     googleMapURL:
+//       "https://maps.googleapis.com/maps/api/js?key=AIzaSyC5YPliu9trA7Ntf0b1CsCGdAn5Mfc_q2k&v=3.exp&libraries=geometry,drawing,places",
+//     loadingElement: <div style={{ height: `100%` }} />,
+//     containerElement: <div style={{ height: `400px`, width: `100%` }} />,
+//     mapElement: <div style={{ height: `100%` }} />
+//     defaultCenter:
+//   }),
+//   withScriptjs,
+//   withGoogleMap
+// )(_ => (
+//   <
+// ));
 
-const TourPlan = ({ tour: { itinerary } }) => (
+const TourPlan = ({ tour: { itinerary } }, googleApiKey, location) => (
   <Container fluid>
     <Row>
       <Col xs="12" sm="7">
         <TourPlanWrapper>
-          {itinerary && itinerary.map((item, index) => (
-            <TourPlanContainer key={`tp` + index}>
-              <Circle>{item.day}</Circle>
-              <div>
-                <Title>{item.title}</Title>
-                <Description>{item.description}</Description>
-              </div>
-            </TourPlanContainer>
-          ))}
+          {itinerary &&
+            itinerary.map((item, index) => (
+              <TourPlanContainer key={`tp` + index}>
+                <Circle>{item.day}</Circle>
+                <div>
+                  <Title>{item.title}</Title>
+                  <Description>{item.description}</Description>
+                </div>
+              </TourPlanContainer>
+            ))}
         </TourPlanWrapper>
       </Col>
       <Col xs="12" sm="5">
-        <MyMapComponent />
+        {/* <GoogleMap zoom={7} center={location} mapkey={googleApiKey} /> */}
+        <Map></Map>
       </Col>
     </Row>
   </Container>

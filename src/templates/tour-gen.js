@@ -18,7 +18,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "styled-container-component";
-import {HTMLContent} from "../components/Content"
+import { HTMLContent } from "../components/Content";
 import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 // import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
 
@@ -73,6 +73,7 @@ function a11yProps(index) {
 
 function TourGen({ data }) {
   const tour = { ...data.tour, ...data.tour.frontmatter };
+  const { settings } = data;
   const [value, setValue] = React.useState(0);
 
   function handleChange(_, newValue) {
@@ -106,7 +107,7 @@ function TourGen({ data }) {
       <HTMLContent className="container" content={tour.html} />
 
       <div className="container">
-        <TourPlan tour={tour}></TourPlan>
+        <TourPlan tour={tour} {...settings}></TourPlan>
       </div>
       <TourPricing tour={tour}></TourPricing>
       {/* <TourReviews tour={tour}></TourReviews> */}
@@ -129,6 +130,14 @@ export default TourGen;
 
 export const tourGenQuery = graphql`
   query TourGenByID($id: String!) {
+    settings: settingsYaml {
+      googleApiKey
+      googleTrackingId
+      location {
+        lat
+        lng
+      }
+    }
     tour: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Itinerary
