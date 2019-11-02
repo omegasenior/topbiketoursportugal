@@ -1,5 +1,6 @@
 ---
 key: '1'
+banner: true
 language: en
 order: 1
 title: Discover The way of Saint Jamnes coastal path

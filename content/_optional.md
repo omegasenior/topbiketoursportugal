@@ -16,6 +16,10 @@ toursection:
   description:
   descriptionafter:
   heading:
+titleColor: '#fff'
+subtitleColor: '#fff'
+btnColor: '#ffd800'
+btnTextColor: '#fff'
 # gallery:
 #   - alt: ''
 #     image: ''

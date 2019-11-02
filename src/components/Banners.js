@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 import Slider from "react-animated-slider";
 // //import sliderStyle from '../../node_modules/react-animated-slider/build/horizontal.scss';
 import styled from "styled-components";
@@ -54,7 +54,7 @@ const Subtitle = styled.p`
   text-shadow: 1px 2px 1px #222;
 `;
 
-const Action = styled.button`
+const Action = styled(Link)`
   font-size: 16px;
   text-align: center;
   appearance: none;
@@ -258,18 +258,33 @@ const Banners = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        allBannerJson {
+        allBannerJson: allMarkdownRemark(
+          filter: { frontmatter: { banner: { eq: true } } }
+        ) {
           nodes {
             id
-            title
-            description
-            button
-            image {
-              childImageSharp {
-                fluid(quality: 90, maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid_tracedSVG
+            frontmatter {
+              language
+              banner
+              goto {
+                link
+                linktext
+                linktitle
+              }
+              image {
+                childImageSharp {
+                  fluid(quality: 100, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid_tracedSVG
+                  }
                 }
               }
+              subtitle
+              title
+              description
+              btnColor
+              btnTextColor
+              subtitleColor
+              titleColor
             }
           }
         }
@@ -277,23 +292,30 @@ const Banners = ({ className }) => (
     `}
     render={data => {
       // Set ImageData.
-      const { nodes: banners } = data.allBannerJson;
+      var banners = data.allBannerJson.nodes.map(b => {
+        return { ...b.frontmatter, ...b };
+      });
       return (
         <StyledSlider>
           {/* {banners.map(item => (
             <BannerSlide key={`b${item.id}`} banner={item} />
           ))} */}
-          {banners.map(item => (
-            <Container key={`banner`+item.id}>
-              <BackgroundImage fluid={item.image.childImageSharp.fluid}>
-                <Content>
-                  <Title>{item.title}</Title>
-                  <Subtitle>{item.description}</Subtitle>
-                  <Action>{item.button}</Action>
-                </Content>
-              </BackgroundImage>
-            </Container>
-          ))}
+          {banners &&
+            banners.map(item => (
+              <Container key={`banner` + item.id}>
+                <BackgroundImage fluid={item.image.childImageSharp.fluid}>
+                  <Content>
+                    {item.description && <Title>{item.title}</Title>}
+                    {item.description && (
+                      <Subtitle>{item.description}</Subtitle>
+                    )}
+                    {item.goto && item.goto.link && (
+                      <Action to={item.goto.link}>{item.goto.linktext}</Action>
+                    )}
+                  </Content>
+                </BackgroundImage>
+              </Container>
+            ))}
         </StyledSlider>
       );
     }}
