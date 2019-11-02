@@ -163,10 +163,60 @@ pricing:
         - icon: ✓
           title: Trains or Bus Tickets
           value: ''
-        - icon: ✓
+        - icon: X
           title: Van Support
           value: ''
         - icon: ✓
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: X
+          title: Guide
+          value: ''
+        - icon: X
+          title: Mechanical Assistance
+          value: ''
+        - icon: X
+          title: 6 lunches
+          value: ''
+        - icon: X
+          title: 6 Dinners
+          value: ''
+        - icon: X
+          title: Personal Accident Insurance
+          value: ''
+        - icon: X
+          title: Liability Insurance
+          value: ''
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 1.489 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
+    highSeasonPriceSupplement: 100
+    price: 1489
+    type: '1'
+  - bestValue: true
+    en:
+      package: Guided Bike tour
+      packageContents:
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
+        - title: Van Support
+          value: minimum 8 pax
+        - icon: '-'
           title: GPS With route per booking
           value: ''
         - icon: ✓
@@ -178,69 +228,30 @@ pricing:
         - icon: ✓
           title: Mechanical Assistance
           value: ''
-        - icon: ✓
+        - icon: X
           title: 6 lunches
           value: ''
-        - icon: ✓
+        - icon: X
           title: 6 Dinners
           value: ''
-        - icon: X
+        - icon: ✓
           title: Personal Accident Insurance
           value: ''
-        - icon: X
+        - icon: ✓
           title: Liability Insurance
           value: ''
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 1895 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1895
     type: '1'
   - bestValue: true
     en:
-      package: Fully Guided Biketour
-      packageContents:
-        - title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
-    highSeasonPriceSupplement: 100
-    price: 1860
-    type: '1'
-  - bestValue: true
-    en:
-      package: Guided Bike tour
+      package: Guided Biketour plus*
       packageContents:
         - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
@@ -265,24 +276,29 @@ pricing:
         - icon: ✓
           title: Guide
           value: ''
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+        - icon: ✓
+          title: Mechanical Assistance
+          value: ''
+        - icon: ✓
+          title: 6 lunches
+          value: ''
+        - icon: ✓
+          title: 6 Dinners
+          value: ''
+        - icon: ✓
+          title: Personal Accident Insurance
+          value: ''
+        - icon: ✓
+          title: Liability Insurance
+          value: ''
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 2.456 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: +100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2456
     type: '1'
 ---
 # The Way of St. James BikeTour
