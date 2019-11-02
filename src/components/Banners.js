@@ -197,7 +197,7 @@ const StyledSlider = styled(Slider)`
 	.slide.current h1,
 	.slide.animateIn.next h1,
 	.slide.animateIn.previous button,
-	.slide.current button,
+	.slide.current a,
 	.slide.animateIn.next button,
 	.slide.animateIn.previous p,
 	.slide.current p,
@@ -278,8 +278,8 @@ const Banners = ({ className }) => (
                   }
                 }
               }
-              subtitle
               title
+              subtitle
               description
               btnColor
               btnTextColor

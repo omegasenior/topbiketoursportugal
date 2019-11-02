@@ -540,6 +540,9 @@ collections:
             name: templateKey
             widget: hidden
             default: about-page
+          - label: Path
+            name: path
+            widget: string
           - label: Title
             name: title
             widget: string
@@ -586,6 +589,9 @@ collections:
               widget: hidden,
               default: about-page,
             }
+          - label: Path
+            name: path
+            widget: string
           - label: Title
             name: title
             widget: string

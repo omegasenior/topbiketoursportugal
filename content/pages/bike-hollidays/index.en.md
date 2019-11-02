@@ -1,5 +1,6 @@
 ---
 templateKey: bike-hollidays
+path: /bike-hollidays
 title: Bike Hollidays
 feature:
   align: center
