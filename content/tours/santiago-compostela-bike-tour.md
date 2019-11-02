@@ -2,7 +2,7 @@
 templateKey: tour-gen
 featured: true
 language: en
-image: /img/specialized-diverge-e5-2.jpg
+image: /img/caminho-way-bike-tour-coastal-path.jpg
 title: Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
@@ -15,7 +15,6 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
-  keywords: teste keyword
   title: Santiago de Compostela Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
@@ -298,3 +297,7 @@ Day 5: Baiona – Pontevedra (57 km)
 Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
+
+\
+\
+\'
