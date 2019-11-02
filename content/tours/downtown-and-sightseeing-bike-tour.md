@@ -7,7 +7,7 @@ image: /img/bike-tours-porto.jpg
 title: Downtown and Sightseeing bike tour
 packagetype: SingleTour
 tourtype: Bike
-tourcategory: 
+tourcategory:
   - Bike
 tags:
   - city tours
@@ -18,6 +18,7 @@ meta:
   description: >-
     Speed, urban history, gardens and other green areas are to be taken in this
     extreme bicycle tour. For those who enjoy riding a bike in extreme and...
+  keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
   title: Sightseeing Bike tour Porto
 itinerary:
   - day: '1'
@@ -30,11 +31,6 @@ itinerary:
       Military Fort S. Francisco Xavier, City Park, Boavista Avenue, House of
       Music and the Garden Teófilo Braga
 ---
-
-
-
-![Bike tour Porto](/img/sightseeing-porto-bike-tour.png "Bike tour Porto")
-
-
-
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
+
+![Downtown and Sightseeing bike tour](/img/sightseeing-porto-bike-tour.png "Downtown and Sightseeing bike tour")
