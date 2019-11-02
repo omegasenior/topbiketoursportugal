@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // import { X } from "styled-icons/boxicons-regular/X";
 // import { CalendarCheck } from "styled-icons/boxicons-regular/CalendarCheck";
 // import { TimeFive } from "styled-icons/boxicons-regular/TimeFive";
-// import "./tourPricing.mod.scss";
+import "./tourPricing.mod.scss";
 import uniq from "lodash-es/uniq";
 import Package from "./Package.js";
 
