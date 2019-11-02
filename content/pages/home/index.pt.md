@@ -1,28 +1,18 @@
 ---
-templateKey: 'home-page'
-path: /pt
+templateKey: home-page
 title: Home
-langKey: pt
-lang: pt
-language: pt
-meta:
-  description: This is a meta description.
-  title: Home Page
-tourHighlights:
-  title: >-
-    Popular Tours
-  descriptionBefore: >-
-    We have a unique way of meeting your adventurous expectations!
-  descriptionAfter: >-
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem
-    ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-    consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-    Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa
+toursection:
+  description: We have a unique way of meeting your adventurous expectations!
+  descriptionafter: >-
+    Here are reasons you should plan trip with us Handpicked Hotels Lorem ipsum
+    dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa World Class Service Lorem ipsum dolor sit amet, consect
+    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Best Price
+    Guarantee Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
+    commodo ligula eget dolor. Aenean massa
+  heading: Popular Tours
   tours:
-    - The Silver Coast - Route 1
-    - The Silver Coast - Route 2
+    - ''
 ---
 
 ## Porquê escolher-nos
