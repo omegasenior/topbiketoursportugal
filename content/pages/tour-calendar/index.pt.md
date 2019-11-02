@@ -1,27 +1,20 @@
 ---
-templateKey: "tour-calendar"
-slug: tour-calendar
+templateKey: tour-calendar
 path: /pt/calendario-tours
 title: Tour Calendar
-subtitle: This is the contact page subtitle.
-description: This is a meta description.
-language: pt
 feature:
-  image: /img/pexels-photo-100582.jpeg
-  imageAlign: "center center"
-  title: Our tours calendar
-  textcolor: white
   align: center
-  subtitle: 
-meta:
-  description: This is a meta description.
-  title: Tour Calendar
-events:
-  - event:
-      start:
-      end:
-      location:
-      title: 
-      group: 
-      availableSlots: 
+  image: /img/pexels-photo-100582.jpeg
+  imageAlign: center center
+  textcolor: white
+  title: Our tours calendar
+days:
+  - date: 2019-11-02T22:10:56.217Z
+    type: Year
+  - date: 2019-11-02T22:10:56.565Z
+    type: Month
+  - body: Tour silver coast 1
+    date: 2019-11-02T22:10:56.761Z
+    type: Date
 ---
+
