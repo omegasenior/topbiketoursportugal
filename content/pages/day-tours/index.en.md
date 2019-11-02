@@ -1,22 +1,17 @@
 ---
-templateKey: 'city-tours'
-path: /day-tours
-slug: day-tours
-title: tours diária
-langKey: en
-lang: en
+templateKey: city-tours
 language: en
-afterList: 'teste'
+lang: en
+title: tours diária
+path: /day-tours
+afterList: teste
 feature:
-  image: /img/porto.jpg
-  imageAlign: "center top"
-  title: Day tours
-  textcolor: white
   align: center
-  subtitle: 
-meta:
-  description: This is a meta description.
-  title: Vistoursitas diárias
+  image: /img/caminho-portugues-de (4).jpg
+  imageAlign: center top
+  subtitle: Bicycle day tours Portugal
+  textcolor: white
+  title: Day tours
 ---
 
 ## Tours diárias
