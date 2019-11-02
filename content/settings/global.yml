@@ -2,13 +2,15 @@ en:
   address:
     city: Oporto
     country: Portugal
+    hint: Near Trindade metro station
     postalCode: 4000-057
     street: Rua Alferes Malheiro nº 139
-    hint: Near Trindade metro station
   description: >-
     Bike tours Portugal: Are you lost in Portugal?Check out our Porto city
     bicycle tours, as well as our guided and self guided bike tours in Portugal
-  keywords: 'tours, porto, portugal'
+  keywords: >-
+    portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
+    porto,cycling holidays portugal
   title: Portugal Bike tours | Top Bike tours Portugal
 pt:
   address:
@@ -16,7 +18,6 @@ pt:
     country: Portugal
     postalCode: 4000-057
     street: Rua Alferes Malheiro nº 139
-    hint: Perto da estação da Trindade
   description: >-
     Cicloturismo em Portugal. De norte a sul do país conheça a nossa oferta de
     passeios em autonomia ou guiados em bicicleta
