@@ -24,7 +24,7 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
     >
       <div className="container tourCalendar">
         <TourCalendarTemplate {...tourCalendar.frontmatter} />
-        <Timeline />
+        <Timeline dates={tourCalendar.frontmatter.dates} />
       </div>
     </Layout>
   );
@@ -33,15 +33,21 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
 export default TourCalendarPage;
 
 export const pageQuery = graphql`
-  query TourCalendarPageByID($id: String!) {
+  query TourCalendar($id: String!) {
     tourCalendar: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...FeatureImage
       id
       frontmatter {
         title
+        subtitle
         language
         description
+        dates {
+          body
+          date
+          type
+        }
       }
     }
   }

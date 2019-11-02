@@ -879,6 +879,25 @@ collections:
             name: body
             widget: markdown
             required: false
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
           - label: Feature Image
             name: feature
             widget: object
@@ -942,6 +961,25 @@ collections:
             name: body
             widget: markdown
             required: false
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }  
           - label: Feature Image
             name: feature
             widget: object

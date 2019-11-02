@@ -126,18 +126,33 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
               }
             }
           }
-          banners: allBannerJson {
+          banners: allMarkdownRemark(
+            filter: { frontmatter: { banner: { eq: true } } }
+          ) {
             nodes {
               id
-              title
-              description
-              button
-              image {
-                childImageSharp {
-                  fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid_tracedSVG
+              frontmatter {
+                language
+                banner
+                goto {
+                  link
+                  linktext
+                  linktitle
+                }
+                image {
+                  childImageSharp {
+                    fluid(quality: 100, maxWidth: 1920) {
+                      ...GatsbyImageSharpFluid_tracedSVG
+                    }
                   }
                 }
+                title
+                subtitle
+                description
+                btnColor
+                btnTextColor
+                subtitleColor
+                titleColor
               }
             }
           }
