@@ -1,5 +1,6 @@
 ---
 templateKey: home-page
+path: /pt
 title: Home
 langKey: pt
 lang: pt
