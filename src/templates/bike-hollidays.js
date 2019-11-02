@@ -140,7 +140,7 @@ function ToursListPage({ data }) {
       feature={toursPage.frontmatter.feature}
     >
       <section>
-        <HTMLContent content={toursPage.excerpt} className="container" />
+        <HTMLContent content={toursPage.html} className="container" />
         <Container>
           <Row>
             {tours.map(tour => {
@@ -220,7 +220,7 @@ ToursListPage.propTypes = {
 export default ToursListPage;
 
 export const pageQuery = graphql`
-  query ToursQuery($id: String!) {
+  query ToursQuery($id: String!, $language: String!) {
     toursPage: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...FeatureImage
@@ -232,7 +232,12 @@ export const pageQuery = graphql`
       }
     }
     allTourJson: allMarkdownRemark(
-      filter: { frontmatter: { packagetype: { eq: "PackageTour" } } }
+      filter: {
+        frontmatter: {
+          packagetype: { eq: "PackageTour" }
+          language: { eq: $language }
+        }
+      }
     ) {
       nodes {
         id

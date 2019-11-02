@@ -1,6 +1,6 @@
 ---
 templateKey: blog-index
-# path: /blog
+path: /pt/blog
 slug: blog
 language: pt
 title: Blog Page

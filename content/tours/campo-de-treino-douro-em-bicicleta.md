@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 featured: true
-language: en
+language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: Douro Valley Cycling campo de treino
 path: /-campo-de-treino-douro-em-bicicleta

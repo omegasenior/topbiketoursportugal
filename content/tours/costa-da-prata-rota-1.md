@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 featured: false
-language: en
+language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: Costa da Prata - Rota 1
 path: /costa-da-prata-rota-1

@@ -20,6 +20,7 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
       meta={tourCalendar.frontmatter.meta || false}
       title={tourCalendar.frontmatter.title || false}
       feature={tourCalendar.frontmatter.feature}
+      language={tourCalendar.frontmatter.language}
     >
       <div className="container tourCalendar">
         <TourCalendarTemplate {...tourCalendar.frontmatter} />
@@ -39,6 +40,7 @@ export const pageQuery = graphql`
       id
       frontmatter {
         title
+        language
         description
       }
     }

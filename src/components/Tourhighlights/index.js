@@ -3,48 +3,55 @@ import Img from "gatsby-image";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 import * as Style from "./Tourhighlights.styled";
 // import BackgroundImage from 'gatsby-background-image'
-import { StaticQuery, navigate, graphql } from "gatsby";
+import { StaticQuery, navigate, graphql, Link } from "gatsby";
 import { HTMLContent } from "../Content";
 import showdown from "showdown";
 import "./tourhighlights.scss";
+import { filter } from "lodash-es";
 
-const Tourhighlights = ({ description, descriptionafter, heading }) => {
+const Tourhighlights = ({
+  description,
+  descriptionafter,
+  heading,
+  language
+}) => {
   const converter = new showdown.Converter();
-
-  return (
-    <StaticQuery
-      query={graphql`
-        query featuredToursQuery {
-          tours: allMarkdownRemark(
-            filter: {
-              frontmatter: {
-                packagetype: { eq: "PackageTour" }
-                featured: { eq: true }
-              }
-            }
-          ) {
-            nodes {
-              id
-              excerpt(truncate: true, pruneLength: 200)
-              fields {
-                slug
-                localizedPath
-              }
-              frontmatter {
-                title
-                path
-                image {
-                  childImageSharp {
-                    fluid(quality: 90, maxWidth: 1920) {
-                      ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                  }
+  const query = graphql`
+    query featuredToursQuery {
+      tours: allMarkdownRemark(
+        filter: {
+          frontmatter: {
+            packagetype: { eq: "PackageTour" }
+            featured: { eq: true }
+          }
+        }
+      ) {
+        nodes {
+          id
+          excerpt(truncate: true, pruneLength: 200)
+          fields {
+            slug
+            localizedPath
+          }
+          frontmatter {
+            title
+            path
+            language
+            image {
+              childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
           }
         }
-      `}
+      }
+    }
+  `;
+  return (
+    <StaticQuery
+      query={query}
       render={data => (
         <div className="tourHighlights">
           <HTMLContent
@@ -60,32 +67,47 @@ const Tourhighlights = ({ description, descriptionafter, heading }) => {
               {data &&
                 data.tours &&
                 data.tours.nodes &&
-                data.tours.nodes.map((tour, index) => (
-                  <div
-                    key={"featured" + tour.id}
-                    className="col col-12 col-md-4"
-                    onClick={event => {
-                      event.preventDefault();
-                      navigate(
-                        tour.frontmatter.path ||
-                          tour.fields.localizedPath ||
-                          tour.fields.slug
-                      );
-                    }}
-                  >
-                    <Style.Tour>
-                      <Style.ToursImageContainer>
-                        <Img
-                          fluid={tour.frontmatter.image.childImageSharp.fluid}
-                        />
-                      </Style.ToursImageContainer>
-                      <Style.TourTitle>
-                        {tour.frontmatter.title}
-                      </Style.TourTitle>
-                      <Style.TourResume>{tour.excerpt}</Style.TourResume>
-                    </Style.Tour>
-                  </div>
-                ))}
+                filter(
+                  data.tours.nodes,
+                  t => t.frontmatter.language == language
+                )
+                  .slice(0, 3)
+                  .map((tour, index) => (
+                    <div
+                      key={"featured" + tour.id}
+                      className="col col-12 col-md-4"
+                      onClick={event => {
+                        event.preventDefault();
+                        navigate(
+                          tour.frontmatter.path ||
+                            tour.fields.localizedPath ||
+                            tour.fields.slug
+                        );
+                      }}
+                    >
+                      <Style.Tour>
+                        <Link
+                          to={
+                            tour.frontmatter.path ||
+                            tour.fields.localizedPath ||
+                            tour.fields.slug
+                          }
+                        >
+                          <Style.ToursImageContainer>
+                            <Img
+                              fluid={
+                                tour.frontmatter.image.childImageSharp.fluid
+                              }
+                            />
+                          </Style.ToursImageContainer>
+                          <Style.TourTitle>
+                            {tour.frontmatter.title}
+                          </Style.TourTitle>
+                          <Style.TourResume>{tour.excerpt}</Style.TourResume>
+                        </Link>
+                      </Style.Tour>
+                    </div>
+                  ))}
             </div>
           </div>
           <HTMLContent

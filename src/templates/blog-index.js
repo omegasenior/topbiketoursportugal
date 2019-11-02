@@ -90,6 +90,7 @@ const BlogIndex = ({ data: { page, posts, postCategories } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
     feature={page.frontmatter.feature}
+    language={page.frontmatter.language}
   >
     <BlogIndexTemplate
       {...page}
@@ -129,6 +130,7 @@ export const pageQuery = graphql`
         title
         templateKey
         subtitle
+        language
         featuredImage {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {

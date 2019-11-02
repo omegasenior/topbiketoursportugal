@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               path
+              language
             }
             fields {
               slug
@@ -59,7 +60,11 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id;
+      const language = edge.node.frontmatter.language || "en";
       // console.log("Path:" + edge.node.frontmatter.path);
+      console.log(
+        "Path:" + edge.node.frontmatter.path + ", language:" + language
+      );
       try {
         createPage({
           path:
@@ -74,7 +79,8 @@ exports.createPages = ({ actions, graphql }) => {
           ),
           // additional data can be passed via context
           context: {
-            id
+            id,
+            language
           }
         });
       } catch (error) {

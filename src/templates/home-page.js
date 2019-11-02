@@ -14,7 +14,8 @@ export const HomePageTemplate = ({
   title,
   content,
   contentComponent,
-  toursection
+  toursection,
+  language
 }) => {
   // const PageContent = contentComponent || Content;
 
@@ -45,7 +46,11 @@ export const HomePageTemplate = ({
         </button>
       </Scroll>
 
-      <Tourhighlights className="tourHighlights" {...toursection} />
+      <Tourhighlights
+        language={language}
+        className="tourHighlights"
+        {...toursection}
+      />
 
       {/* <Scroll type="class" element="home" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>
@@ -63,19 +68,21 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  toursection: PropTypes.any
+  toursection: PropTypes.any,
+  language: PropTypes.string
 };
 
 const HomePage = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const language = post.frontmatter.language || `en`;
   return (
-    <Layout language={post.frontmatter.language || `en`}>
+    <Layout language={language}>
       <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
         toursection={post.frontmatter.toursection}
+        language={language}
       />
     </Layout>
   );

@@ -17,7 +17,7 @@ import { Road } from "styled-icons/fa-solid/Road";
 // import { CenterFocusStrong } from "styled-icons/material";
 import "./city-tours.scss";
 /*https://www.gatsbyjs.org/docs/adding-pagination*/
-
+import { filter } from "lodash-es";
 export const TourTemplate = ({
   image,
   path,
@@ -26,11 +26,10 @@ export const TourTemplate = ({
   discount,
   rating,
   html,
-  excerpt
+  excerpt,
+  language
 }) => {
-  var tourRating = Math.round(
-    sum(rating.map(r => r.rating)) / rating.length
-  );
+  var tourRating = Math.round(sum(rating.map(r => r.rating)) / rating.length);
   return (
     <div
       className="row tour"
@@ -93,16 +92,17 @@ export const CityToursTemplate = ({ tours, body, afterList }) => (
 
 export const CityToursPage = ({ data }) => {
   const { page, tours } = data;
-
+  const language = page.frontmatter.language;
   // console.log(JSON.stringify(data.page.frontmatter.meta));
   return (
     <Layout
       meta={page.frontmatter.meta || false}
       title={page.frontmatter.title || false}
       feature={page.frontmatter.feature}
+      language={language}
     >
       <CityToursTemplate
-        tours={tours.nodes}
+        tours={filter(tours.nodes, t => t.frontmatter.language == language)}
         body={page.html}
         {...page.frontmatter}
       />
