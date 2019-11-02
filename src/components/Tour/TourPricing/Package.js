@@ -18,9 +18,11 @@ const Package = ({ data }) => {
           </span>
         </div>
         <div className="pt-list">
-          {(data.packageContents || []).map((pc, index) => (
-            <PackageItem key={"pi" + index} {...pc} />
-          ))}
+          {data &&
+            data.packageContents &&
+            (data.packageContents || []).map((pc, index) => (
+              <PackageItem key={"pi" + index} {...pc} />
+            ))}
         </div>
       </div>
     </div>

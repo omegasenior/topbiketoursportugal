@@ -31,7 +31,7 @@ itinerary:
 pricing:
   - bestValue: true
     en:
-      package: "* Departures: 10h00 o 14h30\n* Estimated time: 3h00\r\n* \rAll year\r\n* \rMeeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)\r\n* Minimum participants: 2\r\n\n\n\n**Price per person (VAT included at legal rate):\r 25 €**\n\n**Private tour: Price per person: 55 €**\n\n****\n\n****\n\n**Observations:**\r\n\nVisit with a tour guide in the respective dialects: Portuguese, English, French and Spanish. Other dialects are available only with a previous booking. The tour includes a short break of 20m. If you would like to have lunch in a traditional restaurant, an additional cost will be charged.\r\n\n\r\n\nA liability insurance and personal accident insurance are included in the tours.\n\n****"
+      package: Package Name
     highSeasonPriceSupplement: 100
     observations: "* Departures: 09h00 and 14h30\n* e\rstimated time: 3h00\r\n* All year\r\n* Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)\r\n* Minimum participants: 2\r\n\n\r\n\n**Price per person :\r 25 €**\n\n**Private tour: Price per person: 50 €**\n\nVAT included in price at legal rate\n\n****\n\n**Observations:**\r\n\nVisit with a tour guide in the respective dialects: Portuguese, English and Spanish.  The tour includes a short break of 20m. \n\nA liability insurance and personal accident insurance are included in the tours.\n\n****\n\n****"
     price: 25

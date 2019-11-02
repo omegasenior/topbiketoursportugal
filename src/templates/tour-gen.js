@@ -107,11 +107,11 @@ function TourGen({ data }) {
       <HTMLContent className="container" content={tour.html} />
 
       <div className="container">
-        <TourPlan tour={tour} {...settings}></TourPlan>
+        {tour.itinerary && <TourPlan tour={tour} {...settings}></TourPlan>}
       </div>
-      <TourPricing tour={tour}></TourPricing>
+      {tour.pricing && <TourPricing tour={tour}></TourPricing>}
       {/* <TourReviews tour={tour}></TourReviews> */}
-      <TourGallery tour={tour}>1</TourGallery>
+      {tour.gallery && <TourGallery tour={tour}>1</TourGallery>}
       <StyledContainer fluid>
         <TabPanel value={value} index={0}></TabPanel>
         <TabPanel value={value} index={1} tour={tour}></TabPanel>

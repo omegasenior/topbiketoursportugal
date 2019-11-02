@@ -359,7 +359,7 @@ collections:
             fields:
               - label: Package
                 name: package
-                widget: markdown
+                widget: string
               - label: Package Contents
                 name: packageContents
                 widget: list

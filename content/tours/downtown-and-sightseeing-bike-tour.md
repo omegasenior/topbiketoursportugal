@@ -29,14 +29,9 @@ itinerary:
       São Bento Station, Garden Infante Dom Henrique, Garden Passeio Alegre,
       Military Fort S. Francisco Xavier, City Park, Boavista Avenue, House of
       Music and the Garden Teófilo Braga
-pricing:
-  - bestValue: false
-    en:
-      package: "* Departures: 09h00 and 14h30\n* Estimated time: 3h00\r\n* All year\r\n* Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)\r\n* Minimum participants: 1\n\n\r\n\n**Price per person:\r 25 €**\n\n****\n\n**Price per person: Private services and groups**\r\n\nuntil 2 participants:s: 50,00 €\r\n\nFrom 3 to 6 participants: 45,00 €\r\n\nFrom 7 to 8 participants: 40,00 €\r\n\nFrom 9 to 20 participants: 25,00 €\r\n\n\n\n VAT included in price at legal rate"
-    highSeasonPriceSupplement: 100
-    price: 25
 ---
-# 
+
+
 
 ![Bike tour Porto](/img/sightseeing-porto-bike-tour.png "Bike tour Porto")
 

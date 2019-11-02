@@ -4,13 +4,13 @@ import PropTypes from "prop-types";
 // import { X } from "styled-icons/boxicons-regular/X";
 // import { CalendarCheck } from "styled-icons/boxicons-regular/CalendarCheck";
 // import { TimeFive } from "styled-icons/boxicons-regular/TimeFive";
-import "./tourPricing.mod.scss";
+// import "./tourPricing.mod.scss";
 import uniq from "lodash-es/uniq";
 import Package from "./Package.js";
 
 const TourPricing = ({ tour: { pricing } }) => {
   const packagePricingKeys = uniq(
-    pricing
+    (pricing || [])
       .filter(p => p.en)
       .map(p => p.en.packageContents.map(pc => pc.title))
       .reduce(
@@ -19,9 +19,11 @@ const TourPricing = ({ tour: { pricing } }) => {
       )
   );
 
+  // console.log(JSON.stringify(packagePricingKeys));
+
   const packages = uniq(
-    pricing
-      .filter(p => p.en)
+    (pricing || [])
+    .filter(p => p.en)
       .map(p => {
         return {
           packageName: p.en.package,
@@ -33,7 +35,7 @@ const TourPricing = ({ tour: { pricing } }) => {
       })
   );
 
-  // console.log(JSON.stringify(packages));
+  //  console.log(JSON.stringify(packages));
 
   return (
     <div>
@@ -44,29 +46,32 @@ const TourPricing = ({ tour: { pricing } }) => {
         <div className={"pt-cols pt-cols-" + packages.length}>
           <div className="pt-cols-side">
             <div className="pt-list-block">
-              {packagePricingKeys && packagePricingKeys.map((key, index) => (
-                <div key={"pk" + index} className="pt-list-item">
-                  {key}
-                  <span className="pt-tooltip-show-icon">
-                    <span className="pt-tooltip-show">
-                      <i className="fa fa-info-circle"></i>
-                    </span>
-                    {/* <span className="pt-tooltip">
+              {packagePricingKeys &&
+                packagePricingKeys.map((key, index) => (
+                  <div key={"pk" + index} className="pt-list-item">
+                    {key}
+                    <span className="pt-tooltip-show-icon">
+                      <span className="pt-tooltip-show">
+                        <i className="fa fa-info-circle"></i>
+                      </span>
+                      {/* <span className="pt-tooltip">
                       <span className="pt-tooltip-content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Suspendisse vitae commodo quam, non auctor dui. Quisque
                         at ipsum at lorem accumsan viverra quis maximus eros.
                       </span>
                     </span> */}
-                  </span>
-                </div>
-              ))}
+                    </span>
+                  </div>
+                ))}
             </div>
           </div>
           <div className="pt-cols-main">
-            {packages && packages.map((pack, index) => (
-              <Package key={`pack` + index} data={pack}></Package>
-            ))}
+            {packages &&
+              packages.length > 0 &&
+              packages.map((pack, index) => (
+                <Package key={`pack` + index} data={pack}></Package>
+              ))}
           </div>
         </div>
       </div>

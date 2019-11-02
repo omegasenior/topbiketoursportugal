@@ -10,7 +10,7 @@ import styled from "styled-components";
 //   Polyline
 // } from "react-google-maps";
 import GoogleMap from "../../GoogleMap";
-import Map from "../../leaflet";
+// import Map from "../../leaflet";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 
 const TourPlanWrapper = styled.div`
@@ -102,8 +102,7 @@ const TourPlan = ({ tour: { itinerary } }, googleApiKey, location) => (
         </TourPlanWrapper>
       </Col>
       <Col xs="12" sm="5">
-        {/* <GoogleMap zoom={7} center={location} mapkey={googleApiKey} /> */}
-        <Map></Map>
+        <GoogleMap zoom={7} center={location} mapkey={googleApiKey} />
       </Col>
     </Row>
   </Container>
