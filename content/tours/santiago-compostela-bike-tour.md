@@ -2,7 +2,7 @@
 templateKey: tour-gen
 featured: true
 language: en
-image: /img/specialized-diverge-e5-2.jpg
+image: /img/caminho-way-bike-tour-coastal-path.jpg
 title: Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
@@ -15,7 +15,6 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
-  keywords: teste keyword
   title: Santiago de Compostela Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
@@ -155,118 +154,151 @@ pricing:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
+        - icon: X
+          title: Van Support
+          value: ''
+        - icon: ✓
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: X
+          title: Guide
+          value: ''
+        - icon: X
+          title: Mechanical Assistance
+          value: ''
+        - icon: X
+          title: 6 lunches
+          value: ''
+        - icon: X
+          title: 6 Dinners
+          value: ''
+        - icon: X
+          title: Personal Accident Insurance
+          value: ''
+        - icon: X
+          title: Liability Insurance
+          value: ''
         - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 1.489 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1489
     type: '1'
   - bestValue: true
     en:
-      package: Fully Guided Biketour
+      package: Guided Bike tour
       packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
+        - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: minimum 8 pax
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: ✓
+          title: Guide
+          value: ''
+        - icon: ✓
+          title: Mechanical Assistance
+          value: ''
+        - icon: X
+          title: 6 lunches
+          value: ''
+        - icon: X
+          title: 6 Dinners
+          value: ''
+        - icon: ✓
+          title: Personal Accident Insurance
+          value: ''
+        - icon: ✓
+          title: Liability Insurance
+          value: ''
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 1895 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1895
     type: '1'
   - bestValue: true
     en:
-      package: Fully Guided Biketour
+      package: Guided Biketour plus*
       packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
+        - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
+        - icon: ✓
+          title: Van Support
+          value: ''
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: ✓
+          title: Guide
+          value: ''
+        - icon: ✓
+          title: Mechanical Assistance
+          value: ''
+        - icon: ✓
+          title: 6 lunches
+          value: ''
+        - icon: ✓
+          title: 6 Dinners
+          value: ''
+        - icon: ✓
+          title: Personal Accident Insurance
+          value: ''
+        - icon: ✓
+          title: Liability Insurance
+          value: ''
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 2.456 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: +100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2456
     type: '1'
 ---
 # The Way of St. James BikeTour
@@ -298,3 +330,7 @@ Day 5: Baiona – Pontevedra (57 km)
 Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
+
+\
+\
+\'
