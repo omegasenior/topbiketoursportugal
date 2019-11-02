@@ -154,30 +154,42 @@ pricing:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
+        - icon: ✓
+          title: Van Support
+          value: ''
+        - icon: ✓
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: ✓
+          title: Guide
+          value: ''
+        - icon: ✓
+          title: Mechanical Assistance
+          value: ''
+        - icon: ✓
+          title: 6 lunches
+          value: ''
+        - icon: ✓
+          title: 6 Dinners
+          value: ''
+        - icon: X
+          title: Personal Accident Insurance
+          value: ''
+        - icon: X
+          title: Liability Insurance
+          value: ''
         - title: 8 Nights / 9 Days ( price per person)
           value: 1.860 €
         - title: 'July, August and September Prices'
@@ -191,8 +203,7 @@ pricing:
     en:
       package: Fully Guided Biketour
       packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
+        - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'yes'
@@ -229,25 +240,31 @@ pricing:
     type: '1'
   - bestValue: true
     en:
-      package: Fully Guided Biketour
+      package: Guided Bike tour
       packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
+        - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
+        - icon: ✓
+          title: Luggage shuttling
+          value: ''
+        - icon: ✓
+          title: Porto Airport Transfers
+          value: ''
+        - icon: ✓
+          title: Trains or Bus Tickets
+          value: ''
+        - icon: ✓
+          title: Van Support
+          value: ''
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
+        - icon: ✓
+          title: Bike rent
+          value: ''
+        - icon: ✓
+          title: Guide
+          value: ''
         - title: Mechanical Assistance
           value: 'yes'
         - title: 7 lunches
