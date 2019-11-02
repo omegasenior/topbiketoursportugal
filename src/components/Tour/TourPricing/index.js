@@ -12,7 +12,7 @@ const TourPricing = ({ tour: { pricing } }) => {
   const packagePricingKeys = uniq(
     (pricing || [])
       .filter(p => p.en)
-      .map(p => p.en.packageContents.map(pc => pc.title))
+      .map(p => (p.en.packageContents || []).map(pc => pc.title))
       .reduce(
         (accumulator, currentValue) => accumulator.concat(currentValue),
         []
@@ -23,14 +23,14 @@ const TourPricing = ({ tour: { pricing } }) => {
 
   const packages = uniq(
     (pricing || [])
-    .filter(p => p.en)
+      .filter(p => p.en)
       .map(p => {
         return {
           packageName: p.en.package,
           price: p.price,
           discount: p.discount,
           bestValue: p.besValue,
-          packageContents: p.en.packageContents
+          packageContents: p.en.packageContents || []
         };
       })
   );
