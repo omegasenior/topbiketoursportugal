@@ -277,7 +277,8 @@ pricing:
 # North of Portugal Bike tour
 
 ## Cycling in the oldest Village of Portugal and near the river and sea
-
+\
+\
 The Cycle Trail of Minho River in 2009 was ranked as the fourth best trail in Europe in 2009, showcases all the amazing Portuguese landscapes, rivers and it even provides you a breathtaking seaside view.  Cycling trough villages considered World Heritage will give you the fulfilment you’re craving. 
 
 The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km until it reaches Caminha. The natural border between Portugal and Spain lies between Melgaço and the river mouth.
