@@ -3,7 +3,7 @@ templateKey: tour-gen
 path: /douro-valley-wine-tour
 featured: true
 language: en
-image: /img/specialized-diverge-e5-2.jpg
+image: /img/pinhao3.jpg
 title: 02 EN Douro Wine Tour moderate
 packagetype: PackageTour
 tourtype: Bike
@@ -14,10 +14,11 @@ tags:
   - Costal Tour
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
-  title: Douro Wine Tour moderate
+    The Valley of the Douro, classified as Natural Heritage, is nowadays an
+    ultimate masterpiece of nature, very well sought by its villae, houses and
+    vineyards.
+  keywords: 'ouro, landscape, bicycle, wine, vineyards '
+  title: ' Douro Valley bike tour '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -28,249 +29,245 @@ duration: 1
 durationUnit: hours
 difficulty: 1
 physicality: 1
-rating:
-  - rating: 1
-    ratingLink: '1'
-  - rating: 1
-    ratingLink: '1'
+rating: []
 itinerary:
   - day: '1'
-    description: >-
-      Porto: Before starting this cycling journey towards Santiago de
-      Compostela, it’s almost obligatory to present and know Porto, classified
-      as World Heritage and Capital of Culture and Tourism. Join us in a city
-      tour (bike or walk) in the City Centre and discover a huge miscellanea of
-      heritage, from the Middle Ages to the beginning of the 20th Century. Meet
-      famous and well-known hot spots, such as the bookstore that influenced
-      J.K. Rowling’s Harry Potter, the magnificent Stock Exchange Marke, blue
-      and white tiled churches and much more. Art, heritage and traditions are
-      meant to be found and seen during this short city tour.
+    description: ''
     location:
-      lat: '41.15293'
-      lng: '-8.61005'
+      lat: '41.21223207'
+      lng: '-7.42980301'
     title: 'Day 1: Reception at Porto'
   - day: '2'
     description: >-
-      Day 2 – Porto - Esposende, From Fold n´Visit’s store, based on the
-      “Invicta” city of Porto, we will begin our journey heading to Esposende, a
-      seaside city located in the North. During the first day, you will be
-      overwhelmed with seaside landscapes and small “Portuguese rivieras” until
-      you reach Esposende, a city from the Middle Ages. During your first day, a
-      huge variety of fishing villages (Póvoa de Varzim) will be met by us,
-      where we can experience ancient traditions linked to the fish exploration
-      as well taste this famous gastronomy. In Vila do Conde, you’ll know why
-      these Portuguese coastal cities were so important during the “el dorado”
-      of the Portuguese Discoveries.
+      Land where the cave paintings are classified as World Heritage, which also
+      produces the famous Douro wine.  Cycling until Vila Nova de Foz Coa. We
+      will begin the course heading towards Ervedosa do Douro and continue to
+      São João da Pesqueira, enjoying the Douro River.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: Porto – Esposende (60 km)
+      lat: '41.07807865'
+      lng: '-7.13896749'
+    title: 'Day 2: Pinhão – Vila Nova de Foz Côa.'
   - day: '3'
     description: >-
-      Day 3 – Esposende – Caminha. We’re reaching to Viana do Castelo, another
-      sea docking city also holding a huge importance during the Discoveries.
-      During the XIV-XVth Centuries it was in this precise city that the ships
-      were developed to be departed to Brasil, India, Africa and other
-      Portuguese colonies.  Still, in the district of Viana do Castelo, our
-      destination will be Caminha. This city finds the delta of the river Minho,
-      being part of the incredible landscape. Caminha is also very well-known
-      for its natural and green heritage, like the sightseeing areas,
-      waterfalls, beaches and the camping park.
+      Pedaling towards Figueira de Castelo Rodrigo, we will visit the Northern
+      plateau of Figueira de Castelo Rodrigo, a preserved village with its
+      medieval castle which overlooks the highest point of Portugal. We also
+      will pass through Castelo Melhor, Algodres and Vilar de Amargo. Between
+      February and March, in Figueira de Castelo Rodrigo, this natural landscape
+      provides a beautiful scenery of almond blossoms.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 3: Esposende – Caminha (50 km)'
+      lat: '40.89676004'
+      lng: '-6.96072578'
+    title: 'Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo:'
   - day: '4'
     description: >-
-      Day 4 – Caminha – Baiona: During our fourth cycling day, we’re going to
-      enter in Spanish territory, ending in Bayona.  It’s a city politically
-      linked to Pontevedra where you can breathe the sea breeze. Yet, apart from
-      the sea landscape you can also get lost in the old city centre, born from
-      Roman roots and grew always towards the coast during the Middle Ages, with
-      an influence from the Catholic Church. Curiously, during the XVI Century,
-      Bayona was raided by British ships led by the great corsair and explorer
-      Francis Drake who saw an opportunity to establish a commercial and
-      merchant point in this territory.
+      We continue our cycling journey to. Our day will start following the river
+      course of the Côa River, which will go up to Pinhel. Marialva is connected
+      to a nobility title of Marquis, created after the Portuguese Restoration,
+      in 1640, as well as connected to the equestrian art of the 18th Century.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 4: Caminha – Baiona (40 km)'
+      lat: '40.90918386'
+      lng: '-7.23094225'
+    title: 'Day 4: Figueira de Castelo Rodrigo – Marialva'
   - day: '5'
     description: >-
-      Day 5 – Baiona – Pontevedra: The fifth day will encompass the stream of
-      Vigo and will end in San Simon’s bay with a watery landscape to feast our
-      eyes.  Always following the coast line, this day will be dedicated to
-      Arcade and its famous oysters. Apart from this delightful cuisine, you
-      will see monuments and sights dedicated to the Santiago’s culture, such as
-      the church of Santiago in Arcade (XII-XIII centuries) and roads or paths
-      that will lead to our pilgrimage destination.  It’s almost mandatory that
-      if you are passing by Arcade, you must taste and enjoy the famous oysters,
-      produced and harvested in the waters of this region. Curiously, during
-      April’s first week there’s a festival dedicated to this traditional
-      gastronomy – “Fiesta de la Ostra” – where the city is filled with tourists
-      and pilgrims to attend this event.
+      Mêda and Ranhados, highest points of this route. From this stage we will
+      enjoy the unique landscapes of the vineyards, that portrait the
+      inhabitants of Douro and the vine carving in the mountains.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 5: Baiona – pontevedra (57 km)'
+      lat: '40.98965764'
+      lng: '-7.39509343'
+    title: 'Day 5: Marialva – Penedono'
   - day: '6'
     description: >-
-      Day 6 – Pontevedra – Caldas de Reis  Heading to a pre-Roman city, Caldas
-      de Reis, a province which belongs to Pontevedra.  According to historical
-      archives, the first inhabitants were a pre-Roman community that lived from
-      the hot springs of this territory. The name “Caldas de Reis” is connected
-      to the birthplace of Afonso VII, acting in the Middle Ages as a pilgrim
-      path to Santiago de Compostela. Apart form the rich cultural heritage,
-      like Arcade, Caldas de Reis holds a peculiar gastronomy, such as the
-      “empanadas” of lamprey and the traditional Spanish bread. Since the hot
-      springs accompanied the evolution of this territory, nowadays is a hot
-      spot for tourism who seek better healthy treatments for several illnesses.
+      Enjoy a rest day or, if you prefer to be on the bike, you can cycle a
+      loop, through neighboring villages.  It will not be an easy ride. Leaving
+      Penedono, you will find yourself in the middle of traditional farmlands,
+      dominated by vineyards and chestnuts. The Sernacelhe area is known as
+      chestnut country. Cycling alongside the Távora River, you can enjoy the
+      wonderful geography with the mountains and valleys so typical of this part
+      of the country. If you have the time, be sure to visit the 12th century
+      church.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+      lat: '40.98965764'
+      lng: '-7.39509343'
+    title: 'Day 6: Penedono loop '
   - day: '7'
     description: >-
-      Day 7 – Caldas de Reis – Santiago de Compostela  Our last and seventh day
-      will meet Santiago de Compostela as the final destination, one of the
-      ultimate pilgrimage cores in Western Europe.  Like Rome and Jerusalem, the
-      city of Santiago de Compostela present us a unique religious beacon for
-      tourists who find in this cycling journey an act of faith and inner-self.
-      Reach to the Square of Obradoiro, where you will witness the majestic
-      baroque cathedral where the remains of the apostle are located.
+      From here, we will ride along the Douro River. Régua is the last frontier
+      of the Douro wine on the way to Porto.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
+      lat: '41.15629912'
+      lng: '-7.77725457'
+    title: 'Day 7: Penedono - Régua.'
+  - day: '8'
+    location:
+      lat: '41.15629912'
+      lng: '-7.77725457'
+    title: 'Day 8: Transfer to Porto'
 gallery:
-  - alt: group 1
-    image: /img/20190920_135559.jpg
+  - alt: guided bike tour in douro valley
+    image: /img/guided-bike-tour-in-douro-valley.jpg
   - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
+    image: /img/douro8.jpg
+  - alt: Sandman winery in douro valley
+    image: /img/img_20170520_113737_hdr.jpg
+  - alt: relaxing bike tour in douro valley
+    image: /img/relaxing-bike-tour-in-douro-valley.jpg
+  - alt: douro family picture
+    image: /img/img_20170912_171254_hdr.jpg
+  - alt: Castels in douro valle
+    image: /img/img_20170914_121008_hdr.jpg
 pricing:
   - bestValue: true
     discount: -1
     en:
-      package: Self Guided bike Tour
+      package: Self Guided bike tour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
+          value: 'Yes'
         - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
+          value: 'No'
         - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'No'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'No'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'No'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'No'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'No'
+        - title: 7 Nights / 8 Days ( price per person)
+          value: 1.589 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1589
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
+          value: 'Yes'
         - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: minimum 8 pax
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'Yes'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 7 Nights / 8 Days ( price per person)
+          value: 1.945 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1944
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour Plus*
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
+          value: 'Yes'
         - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'Yes'
+        - title: 6 Dinners
+          value: 'Yes'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 2.556 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2556
     type: '1'
 ---
-This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
+# Douro Wine Tour
 
+## A demarcated and classified wine region
 \
 \
+The Douro valley is one of the ultimate wonders of nature, but also the takes the efforts and energy of the man to provide this astonishing nature and environmental transformation. Browsing the Douro is enjoying its convents and churches, meet its rustic crafts, taste the genuine cuisine and witnessing the folklore Portuguese traditions.
+
+The Port Wine is undoubtedly the most remarkable concept, along with the several holidays and wine celebration, such as the harvest in September, the most important and lively event. 
 \
-Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+\
+**Tour description:** Moderate
+
+**Estimated KM:** 270 km and 4435 m (1.89%) of cumulative ascents.  
+\
+\
+Day1: Porto – Pinhão (110 km, transfer de comboio)
+
+Day 2: Pinhão – Vila Nova de Foz Côa (74 km)
+
+Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)
+
+Day 4: Figueira de Castelo Rodrigo – Marialva (60 km)
+
+Day 5: Marialva – Penedono (27 km)
+
+Day 6: Penedono loop (40 km)
+
+Day 7: Penedono – Régua (52 km)
+
+Day 8: Transfer by train to Porto
