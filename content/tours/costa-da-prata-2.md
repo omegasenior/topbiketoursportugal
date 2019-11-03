@@ -3,7 +3,7 @@ templateKey: tour-gen
 path: /costa-da-prata-2
 featured: false
 language: pt
-image: /img/figueira-da-foz.jpg
+image: /img/nazaré.jpg
 title: The Silver Coast - Route 2
 packagetype: PackageTour
 tourtype: Bike
