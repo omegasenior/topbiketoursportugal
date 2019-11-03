@@ -21,6 +21,27 @@ meta:
   keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
   title: Sightseeing Bike tour Porto
 itinerary: []
+gallery:
+  - alt: bicycle city tour in Aliados
+    image: /img/bicycle-city-tour-in-aliados.jpg
+  - alt: bike tour in Ferreira Borges market
+    image: /img/bike-tour-in-ferreira-borges-market.jpg
+  - alt: biketour near the sea
+    image: /img/bike-tour-photo-near-the-sea.jpg
+  - alt: city bike tour in raining day
+    image: /img/city-bike-tour-in-raining-day.jpg
+  - alt: city bike tour near the river
+    image: /img/city-bike-tour-near-the-river.jpg
+  - alt: city tour in bicycle lane
+    image: /img/city-tour-in-bicycle-lane.jpg
+  - alt: bike tour in Casa da Musica
+    image: /img/extreme-city-pictures-003.jpg
+  - alt: city bike tour with friends
+    image: /img/extreme-city.jpg
+  - alt: group bike tours with company workers
+    image: /img/group-bicycle-tours.jpg
+  - alt: bike tour in the sun
+    image: /img/portugal-mit-den-frauen-mai-2015-154-1.jpg
 ---
 \
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
