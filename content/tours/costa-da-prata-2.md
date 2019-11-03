@@ -178,7 +178,15 @@ itinerary:
       lat: '38.72240025'
       lng: '-9.39690917'
     title: 'Day 8: Transfer to Lisbon'
-gallery: []
+gallery:
+  - alt: sao pedro de moel cycling lane
+    image: /img/sao-pedro-de-moel-cycling-lane.jpg
+  - alt: near the atlantic sea on a bicycle
+    image: /img/near-the-atlantic-sea-on-a-bicycle.jpg
+  - alt: into the forest with a bike
+    image: /img/into-the-forest-with-a-bike.jpg
+  - alt: cofee stop to rest from the cycling
+    image: /img/coffe-stop-to-rest-fro-the-cycling.jpg
 pricing:
   - bestValue: true
     discount: -1
