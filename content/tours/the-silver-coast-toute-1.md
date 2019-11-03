@@ -122,10 +122,24 @@ itinerary:
       lng: '-8.4292057'
     title: 'Day 7: Departure'
 gallery:
-  - alt: group 1
+  - alt: Coimbra group photo
     image: /img/20190920_135559.jpg
-  - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
+  - alt: miramar cycling tour
+    image: /img/miramar-cycling-tour.jpg
+  - alt: furadouro forest cyclin lan
+    image: /img/furadouro-forest-cyclin-lan.jpg
+  - alt: fish restaurant with top bike tours portugal
+    image: /img/fish-restaurant-with-top-bike-tours-portugal.jpg
+  - alt: student bridge dormitory in Aveiro with top biketoursportugal
+    image: /img/student-bridge-dormitory-in-aveiro-with-top-biketoursportugal.jpg
+  - alt: Costa nova cycling lane
+    image: /img/costa-nova-cycling-lane.jpg
+  - alt: senhora da pedra chapel in the sand with bike photo
+    image: /img/senhora-da-pedra-chapel-in-the-sand-with-bike-photo.jpg
+  - alt: senhora da pedra
+    image: /img/p1000473_edited-1.jpg
+  - alt: FIGUEIRA DA FOZ
+    image: /img/figueira-da-foz.jpg
 pricing:
   - bestValue: true
     discount: -1
