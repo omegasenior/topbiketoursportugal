@@ -2,7 +2,7 @@
 templateKey: tour-gen
 path: /costa-da-prata-2
 featured: false
-language: pt
+language: en
 image: /img/praia-do-norte-nazare.jpg
 title: 12 EN The Silver Coast - Route 2
 packagetype: PackageTour
