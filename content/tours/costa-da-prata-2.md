@@ -3,7 +3,7 @@ templateKey: tour-gen
 path: /costa-da-prata-2
 featured: false
 language: pt
-image: /img/praia-de-mira.jpg
+image: /img/praia-do-norte-nazare.jpg
 title: The Silver Coast - Route 2
 packagetype: PackageTour
 tourtype: Bike
