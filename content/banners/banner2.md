@@ -9,7 +9,7 @@ goto:
   link: /bike-tour-sightseeing-porto
   linktext: Read more
   linktitle: Read more
-image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
+image: /img/lagoons-biketour.jpg
 titleColor: '#fff'
 subtitleColor: '#fff'
 btnColor: '#ffd800'
