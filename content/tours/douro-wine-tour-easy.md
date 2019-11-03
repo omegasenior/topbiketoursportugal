@@ -4,7 +4,7 @@ path: /douro-valley-wine-tour
 featured: true
 language: en
 image: /img/specialized-diverge-e5-2.jpg
-title: Douro Wine Tour moderate
+title: 02 EN Douro Wine Tour moderate
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
