@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-path: /costa-da-prata-2
+path: /from-coimbra-to-lisbon-bike-tour
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
