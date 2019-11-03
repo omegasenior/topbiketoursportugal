@@ -145,46 +145,58 @@ pricing:
   - bestValue: true
     discount: -1
     en:
-      package: Self Guided bike Tour
+      package: Self Guided bikeTour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
+          value: 'Yes'
         - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
+        - title: Trains or Bus Tickets to Porto
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
+          value: 'No'
         - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
         - title: Bike rent
           value: 'yes'
         - title: Guide
-          value: 'yes'
+          value: 'No'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'No'
+        - title: 5 lunches
+          value: 'No'
+        - title: 5 Dinners
+          value: 'No'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'No'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'No'
+        - title: 6 Nights / 5 Days ( price per person)
+          value: 1.669 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 1860
+    observations: |-
+      **Observations:**
+
+      * Prices are based for 2 people sharing the same room;
+      * **Prices can suffer updates due high season, holidays or weekends**
+
+      **Extras**
+
+      * Electric bicycles price: 175€
+      * Suplement for single room: 329 €
+      * Solo traveler: 400 €
+      * Extra nights: on request
+    price: 1669
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided Biketour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
@@ -205,25 +217,25 @@ pricing:
           value: 'yes'
         - title: Mechanical Assistance
           value: 'yes'
-        - title: 7 lunches
+        - title: 5 lunches
           value: 'yes'
-        - title: 7 Dinners
+        - title: 5 Dinners
           value: 'yes'
         - title: Personal Accident Insurance
           value: 'yes'
         - title: Liability Insurance
           value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+        - title: 6 Nights / 7 Days ( price per person)
+          value: '1.669'
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 1669
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided Biketour plus *
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
@@ -244,22 +256,22 @@ pricing:
           value: 'yes'
         - title: Mechanical Assistance
           value: 'yes'
-        - title: 7 lunches
+        - title: 5 lunches
           value: 'yes'
-        - title: 7 Dinners
+        - title: 5 Dinners
           value: 'yes'
         - title: Personal Accident Insurance
           value: 'yes'
         - title: Liability Insurance
           value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+        - title: 6 Nights / 7 Days ( price per person)
+          value: '2.210'
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2210
     type: '1'
 ---
 # North of Portugal Bike tour
