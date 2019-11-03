@@ -3,13 +3,13 @@ key: '2'
 language: en
 banner: true
 order: 2
-title: Visit Oporto city with our guides
-description: 'Wine, astronomy & history on one tour'
+title: Book a guided bike tour!
+description: Lots onf informations and great photos
 goto:
   link: /bike-tour-sightseeing-porto
   linktext: Read more
   linktitle: Read more
-image: /img/bike-tours-porto.jpg
+image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
 titleColor: '#fff'
 subtitleColor: '#fff'
 btnColor: '#ffd800'
