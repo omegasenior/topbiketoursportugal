@@ -147,9 +147,25 @@ itinerary:
     title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
 gallery:
   - alt: group 1
-    image: /img/20190920_135559.jpg
+    image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
   - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
+    image: /img/the-way-of-st.-james-bike-tour-top-bike-tours-portugal.jpg
+  - alt: CROSSING THE FERRY WITH BICYCLES
+    image: /img/crossing-the-ferry-with-bicycles.jpg
+  - alt: GROUP PHOTO VIANA DO CASTELO WITH TOP BIKE TOURS PORTUGAL
+    image: /img/biketour-group-photo-in-viana-do-castelo.jpg
+  - alt: BIKETOUR IN OIA
+    image: /img/biketour-in-oia.jpg
+  - alt: BIKING ON THE CAMINO TRAIL
+    image: /img/biking-on-the-camino-trail.jpg
+  - alt: ELECTRIC BICYCLE ON THE CAMINO
+    image: /img/electric-bicycle-on-the-camino.jpg
+  - alt: GROUP PHOTO IN THE WATER FALL
+    image: /img/group-photo-in-the-water-fall.jpg
+  - alt: GROUP PHOTO IN THE WATER FALL
+    image: /img/mountain-bicycle-on-the-camino.jpg
+  - alt: The Way of St. James Bike Tour - Fold N Visit Cycling Holidays-4394
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4394.jpg
 pricing:
   - bestValue: true
     discount: -1
