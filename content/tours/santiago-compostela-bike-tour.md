@@ -195,7 +195,7 @@ pricing:
         - icon: X
           title: Liability Insurance
           value: ''
-        - title: 8 Nights / 9 Days ( price per person)
+        - title: 7 Nights / 6 Days ( price per person)
           value: 1.489 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -338,4 +338,4 @@ Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
 \
 \
-\'
+'
