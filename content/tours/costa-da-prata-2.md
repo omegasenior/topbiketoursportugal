@@ -1,23 +1,23 @@
 ---
 templateKey: tour-gen
+path: /costa-da-prata-2
 featured: false
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: The Silver Coast - Route 2
-path: /costa-da-prata-2
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: 
+tourcategory:
   - Bike
 tags:
   - Santiago Compostela
   - Costal Tour
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
-  title: The Silver Coast - Route 2
+    From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
+    expect some climbs in this great bike tour
+  keywords: 'Cycling tour sLisbon, bike tours coimbra, bike tour silver Coast'
+  title: Silver Coast Moderate route 2 till Lisbon
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -28,256 +28,316 @@ duration: 1
 durationUnit: hours
 difficulty: 1
 physicality: 1
-feature:
-  image: /img/bike-tours-portugal-city_LEVELED.jpg
-  imageAlign: "bottom center"
-  title:  Sobre nós
-  textcolor: #000
-  align: center
-  subtitle: 
-rating:
-  - rating: 1
-    ratingLink: '1'
-  - rating: 1
-    ratingLink: '1'
+rating: []
 itinerary:
   - day: '1'
-    description: >-
-      Porto: Before starting this cycling journey towards Santiago de
-      Compostela, it’s almost obligatory to present and know Porto, classified
-      as World Heritage and Capital of Culture and Tourism. Join us in a city
-      tour (bike or walk) in the City Centre and discover a huge miscellanea of
-      heritage, from the Middle Ages to the beginning of the 20th Century. Meet
-      famous and well-known hot spots, such as the bookstore that influenced
-      J.K. Rowling’s Harry Potter, the magnificent Stock Exchange Marke, blue
-      and white tiled churches and much more. Art, heritage and traditions are
-      meant to be found and seen during this short city tour.
+    description: ''
     location:
-      lat: '41.15293'
-      lng: '-8.61005'
-    title: 'Day 1: Reception at Porto'
+      lat: '40.1482816'
+      lng: '-8.8554141'
+    title: ' Day 1: Reception at Figueira da Foz'
   - day: '2'
     description: >-
-      Day 2 – Porto - Esposende, From Fold n´Visit’s store, based on the
-      “Invicta” city of Porto, we will begin our journey heading to Esposende, a
-      seaside city located in the North. During the first day, you will be
-      overwhelmed with seaside landscapes and small “Portuguese rivieras” until
-      you reach Esposende, a city from the Middle Ages. During your first day, a
-      huge variety of fishing villages (Póvoa de Varzim) will be met by us,
-      where we can experience ancient traditions linked to the fish exploration
-      as well taste this famous gastronomy. In Vila do Conde, you’ll know why
-      these Portuguese coastal cities were so important during the “el dorado”
-      of the Portuguese Discoveries.
+      This amazing cycling trip starts alongside the Atlantic Ocean in Figueira
+      da Foz, a city in the center of Portugal, located in the district of
+      Coimbra. Here you can enjoy one of the best beaches in Portugal since this
+      city is known as the "Queen of the beaches of Portugal", the gastronomy
+      and the warm climate. The city is an important industrial center,
+      producing wood pulp, paper and glass and it also has notable naval
+      construction and fish industries.Here we have a cycling stop in Pedrogão,
+      this is a little village that has 1400m of beach. The people of this place
+      have always been dedicated to agriculture and fishing, so today Xávega
+      Art, a brand image, still persists. Now cycling through São Pedro de Moel,
+      surrounded by extensive areas of pine forests, offers various points of
+      leisure and communion with nature. A particular note is the famous "Volta
+      dos Sete": a course of approximately 7 km, which combines sea, woods and
+      beach, with pure forest, parks, fountains and streams. The typical dishes
+      that stand out are the: “Vidreiro” soup, Cod soup and Rabbit stew.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: Porto – Esposende (60 km)
+      lat: '39.7578992'
+      lng: '-9.0297521'
+    title: 'Day 2: Figueira da Foz – São Pedro de Moel (65 KM)'
   - day: '3'
     description: >-
-      Day 3 – Esposende – Caminha. We’re reaching to Viana do Castelo, another
-      sea docking city also holding a huge importance during the Discoveries.
-      During the XIV-XVth Centuries it was in this precise city that the ships
-      were developed to be departed to Brasil, India, Africa and other
-      Portuguese colonies.  Still, in the district of Viana do Castelo, our
-      destination will be Caminha. This city finds the delta of the river Minho,
-      being part of the incredible landscape. Caminha is also very well-known
-      for its natural and green heritage, like the sightseeing areas,
-      waterfalls, beaches and the camping park.
+      Continuing our cycling ride to Nazaré a beautiful and quiet seaside town,
+      with a breathtaking view from the top of a big cliff, where you can climb
+      by funicular lift or car.Nowadays, the great attraction of this city is
+      the waves and the surf, thanks to the "Cannon of Nazaré", a submarine
+      geomorphological phenomenon that allows the formation of giant and perfect
+      waves. It is the largest submerged gorge in Europe, with about 170
+      kilometres along the coast, which is 5000 meters deep.The Hawaiian surfer
+      Garrett McNamara gave it worldwide visibility when, in 2011, he surfed the
+      world's biggest wave.The middle stop of this day is the Beach of the North
+      and that part of Nazaré region and here you will find the biggest waves in
+      Europe. 
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 3: Esposende – Caminha (50 km)'
+      lat: '39.60004501'
+      lng: '-9.07155991'
+    title: 'Day 3: São Pedro de Moel – Nazaré (29 Km)'
   - day: '4'
     description: >-
-      Day 4 – Caminha – Baiona: During our fourth cycling day, we’re going to
-      enter in Spanish territory, ending in Bayona.  It’s a city politically
-      linked to Pontevedra where you can breathe the sea breeze. Yet, apart from
-      the sea landscape you can also get lost in the old city centre, born from
-      Roman roots and grew always towards the coast during the Middle Ages, with
-      an influence from the Catholic Church. Curiously, during the XVI Century,
-      Bayona was raided by British ships led by the great corsair and explorer
-      Francis Drake who saw an opportunity to establish a commercial and
-      merchant point in this territory.
+      Leaving Nazaré the next village is Óbidos. Without doubt this town is one
+      of Portugal's most classic walled settlements and the visitors can also
+      enjoy amazing views of windmills, vineyards and surrounding farmlands. In
+      the residential area below, narrow cobblestone streets are lined with
+      whitewashed houses supporting terracotta roofs. Every year the city
+      organizes two important events, the first one is  a traditional 'Medieval
+      Market', where the castle and the surrounding town recreate the spirit of
+      medieval Europe and the second one is the Chocolate Festival is also an
+      event that attracts great interest from tourists, in this festival you can
+      see real-life chocolate sculptures.  São Martinho do Porto is the city of
+      passage today. This region constituted by the Serra da Pescaria and by the
+      Bouro mountain constituted, in geological times, a single island. When it
+      was divided it gave rise to the bay of São Martinho do Porto. São Martinho
+      do Porto was even considered the best beach to go with the family in the
+      guide of 2015 beaches of eDreams. 
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 4: Caminha – Baiona (40 km)'
+      lat: '39.3680634'
+      lng: '-9.18730437'
+    title: 'Day 4: Nazaré – Óbidos (47 Km)'
   - day: '5'
     description: >-
-      Day 5 – Baiona – Pontevedra: The fifth day will encompass the stream of
-      Vigo and will end in San Simon’s bay with a watery landscape to feast our
-      eyes.  Always following the coast line, this day will be dedicated to
-      Arcade and its famous oysters. Apart from this delightful cuisine, you
-      will see monuments and sights dedicated to the Santiago’s culture, such as
-      the church of Santiago in Arcade (XII-XIII centuries) and roads or paths
-      that will lead to our pilgrimage destination.  It’s almost mandatory that
-      if you are passing by Arcade, you must taste and enjoy the famous oysters,
-      produced and harvested in the waters of this region. Curiously, during
-      April’s first week there’s a festival dedicated to this traditional
-      gastronomy – “Fiesta de la Ostra” – where the city is filled with tourists
-      and pilgrims to attend this event.
+      On this fifth day we will return to the coastal area to the city of
+      Peniche. The city was built on a rocky peninsula which is considered by
+      geologists, a unique example of the Toarcian turnover during the worldwide
+      Early Jurassic extinction.Peniche is known for its long beaches, which are
+      popular for recreational activities and sports such as surfing,
+      windsurfing, body boarding and kite surfing. These beaches are
+      consistently windy and have good surf breaks with supertubos and it´s
+      considered among the best in Europe.The Berlengas islands, about 10
+      kilometres (6 mi) offshore from the peninsula, are part of the
+      municipality. They form one of the world's first nature reserves.In this
+      day we have a cycling stop in “ Lagoa de Óbidos”, is a lagoon that extends
+      between the municipalities of Óbidos and Caldas da Rainha. It is a natural
+      barrier that separate the Atlantic Ocean and marine biome from the river
+      ecosystem of Foz do Arelho formed by lateral dunes.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 5: Baiona – pontevedra (57 km)'
+      lat: '39.33722515'
+      lng: '-9.31285284'
+    title: 'Day 5: Óbidos – Peniche (35 Km)'
   - day: '6'
     description: >-
-      Day 6 – Pontevedra – Caldas de Reis  Heading to a pre-Roman city, Caldas
-      de Reis, a province which belongs to Pontevedra.  According to historical
-      archives, the first inhabitants were a pre-Roman community that lived from
-      the hot springs of this territory. The name “Caldas de Reis” is connected
-      to the birthplace of Afonso VII, acting in the Middle Ages as a pilgrim
-      path to Santiago de Compostela. Apart form the rich cultural heritage,
-      like Arcade, Caldas de Reis holds a peculiar gastronomy, such as the
-      “empanadas” of lamprey and the traditional Spanish bread. Since the hot
-      springs accompanied the evolution of this territory, nowadays is a hot
-      spot for tourism who seek better healthy treatments for several illnesses.
+      Leaving Peniche but continuing along the coast the next destination is
+      Ericeira, a civil parish and seaside resort/fishing community on the
+      western coast of Portugal, in the municipality of Mafra, about 35
+      kilometres (22 mi) northwest of the capital, Lisbon.Ericeira was a popular
+      summer retreat for many of Lisbon's families in the 1940s and 1950s.
+      Today, it is a popular destination for local and visiting tourists, as
+      well as surfers from around the world (owing to the forty beaches with
+      good conditions in the area)Ericeira is also keen on its musical culture.
+      The local philharmonic, currently named Filarmónica Cultural Ericeira, has
+      existed since 1849 and pursues a path of success in this villages's
+      musical heritage with a permanent free musical school for all who love
+      this type of culture.The beach of Santa Cruz it´s the place of passage
+      during this day, and it is a place that is conducive to a large part of
+      wave sports. Every year there is the "Ocean Spirit" festival of wave
+      sports where international competitions of various kinds are held.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+      lat: '38.9631655'
+      lng: '-9.4170098'
+    title: 'Day 6: Peniche – Ericeira (68 Km)'
   - day: '7'
     description: >-
-      Day 7 – Caldas de Reis – Santiago de Compostela  Our last and seventh day
-      will meet Santiago de Compostela as the final destination, one of the
-      ultimate pilgrimage cores in Western Europe.  Like Rome and Jerusalem, the
-      city of Santiago de Compostela present us a unique religious beacon for
-      tourists who find in this cycling journey an act of faith and inner-self.
-      Reach to the Square of Obradoiro, where you will witness the majestic
-      baroque cathedral where the remains of the apostle are located.
+      On this day, the route leaves the coast and goes to the city of Sintra.
+      This place is known for its many 19th-century Romantic architectural
+      monuments, which has resulted in its classification by UNESCO as a World
+      Heritage Site.  It has become a major tourist center, visited by many one
+      day-travellers who travel from the capital Lisbon. In addition to the
+      Sintra Mountains and Sintra-Cascais Nature Park, the parishes of the town
+      of Sintra are places with royal retreats, estates, castles and other
+      buildings, including the medievil Castelo dos Mouros, the Pena National
+      Palace and the Sintra National Palace..
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
-gallery:
-  - alt: group 1
-    image: /img/20190920_135559.jpg
-  - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
+      lat: '38.79846'
+      lng: '-9.3881'
+    title: 'Day 7: Ericeira – Sintra (27 Km)'
+  - day: '8'
+    description: >-
+      Continuing through the center, this cycling tour ends at the coastal city
+      of Cascais. West of Lisbon it is a cosmopolitan suburb of the Portuguese
+      capital and one of the richest municipalities in Portugal. The former
+      fishing village gained fame as a resort for Portugal's royal family in the
+      late 19th century and early 20th century. Nowadays, it is a popular
+      vacation spot for both Portuguese and foreign tourists.Cascais is
+      surrounded by popular beaches such as Guincho Beach to the west, and the
+      lush Sintra mountains to the north. Some of its shoreline has cliffs,
+      attracting tourists who come for the panoramic views of the sea and other
+      natural sights such as the Boca do Inferno. It is also becoming a popular
+      golf destination, with over 10 golf courses nearby.   The Sintra – Cascais
+      Natural Park it´s a mandatory place to visit and admire because is one of
+      the 13 Natural Parks of Portugal and, the park includes the Serra de
+      Sintra Mountain Range but extends all the way to the coast and Cabo da
+      Roca, continental Europe's westernmost point and it contains the Castle of
+      the Moors
+    location:
+      lat: '38.72240025'
+      lng: '-9.39690917'
+    title: 'Day 8: Sintra – Cascais (40 Km)'
+  - day: '9'
+    location:
+      lat: '38.72240025'
+      lng: '-9.39690917'
+    title: 'Day 8: Transfer to Lisbon'
+gallery: []
 pricing:
-  - en:
-      package: Self Guided bike Tour
-      packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
+  - bestValue: true
     discount: -1
-    bestValue: true
-    highSeasonPriceSupplement: 100
-  - en:
-      package: Fully Guided Biketour
+    en:
+      package: Self Guided bike tour
       packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'No'
+        - title: GPS With route per booking
+          value: 'Yes'
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'No'
+        - title: Mechanical Assistance
+          value: 'No'
+        - title: 7 lunches
+          value: 'No'
+        - title: 7 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'No'
+        - title: Liability Insurance
+          value: 'No'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 1.860 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
     highSeasonPriceSupplement: 100
+    price: 1858
+    type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour
       packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
+        - icon: ✓
+          title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: minimum 8 participants
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 7 lunches
+          value: 'No'
+        - title: 7 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 2.367 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '4'
     highSeasonPriceSupplement: 100
+    price: 2367
+    type: '1'
+  - en:
+      package: Guided bike tour PLUS*
+      packageContents:
+        - icon: ✓
+          title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 7 lunches
+          value: 'Yes'
+        - title: 7 Dinners
+          value: 'Yes'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 3.123 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '4'
+    highSeasonPriceSupplement: 100
+    price: 3123
+    type: '1'
 ---
-This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
+# Silver Coast Bike tour- Route 2
+
+## Discover the richness of nature and the sea by the famous Portuguese coast
+\
+\
+This cycling tour of the Silver Coast, is an immersive and amazing route that goes along the coast where you‘re going to find some of the most important villages in Portugal. Here you will have a “mix” of beaches and pine forests creating different feelings during the trip.
+
+Exploring the trails and its main highlights will give you the sense of fulfillment. 
+
+Try the best taste in the traditional Portuguese fishing arts, accompanied with green wine and amazing local deserts. 
+
+The amazing monuments like the Castel of Pena and the Castel of Óbidos will bring you back into the centuries through the medieval times. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
+
 
 \
 \
+**Tour Description:** moderated
+
+**Estimated KM:** 394 km
+
+
 \
-Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+\
+Day 1: Figueira da Foz
+
+Day 2: Figueira da Foz – São Pedro de Moel (65 KM) – Pedrógão e Praia da Vieira
+
+Day 3: São Pedro de Moel – Nazaré (29 Km) – praia do norte- giant waves!
+
+Day 4: Nazaré – Óbidos (47 Km) – São Martinho do Porto
+
+Day 5: Óbidos – Peniche (35 Km) –  Óbidos lagoon
+
+Day 6: Peniche – Ericeira (68 Km) – Santa Cruz beach
+
+Day 7: Ericeira – Sintra (27 Km)
+
+Day 8: Sintra – Cascais (40 Km) – natural park Sintra- Cascais
+
+Day 9: Departure
