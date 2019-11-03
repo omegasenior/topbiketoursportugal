@@ -181,18 +181,7 @@ pricing:
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    observations: |-
-      **Observations:**
-
-      * Prices are based for 2 people sharing the same room;
-      * **Prices can suffer updates due high season, holidays or weekends**
-
-      **Extras**
-
-      * Electric bicycles price: 175€
-      * Suplement for single room: 329 €
-      * Solo traveler: 400 €
-      * Extra nights: on request
+    observations: '****'
     price: 1669
     type: '1'
   - en:
@@ -277,6 +266,7 @@ pricing:
 # North of Portugal Bike tour
 
 ## Cycling in the oldest Village of Portugal and near the river and sea
+
 \
 \
 The Cycle Trail of Minho River in 2009 was ranked as the fourth best trail in Europe in 2009, showcases all the amazing Portuguese landscapes, rivers and it even provides you a breathtaking seaside view.  Cycling trough villages considered World Heritage will give you the fulfilment you’re craving. 
@@ -285,13 +275,11 @@ The Minho River is also the perfect excuse for relaxing in the north of the coun
 
 The taste of the worldwide known gastronomy and wines are the icing on the cake in this region with such a rich landscape and cultural, historical and architecture heritage. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
 
-
 \
 \
 **Tour Description:** Easy extended track
 
 **Estimated KM**: 238
-
 
 \
 Day 1 – Melgaço
@@ -307,3 +295,21 @@ Day 5 - Ponte de Lima – Esposende ( 55 km)
 Day 6 – Esposende – Porto (60km)
 
 Day 7 - Departure
+
+
+
+
+
+
+
+**Observations:**
+
+* Prices are based for 2 people sharing the same room;
+* **Prices can suffer updates due high season, holidays or weekends**
+
+**Extras**
+
+* Electric bicycles price: 175€
+* Suplement for single room: 329 €
+* Solo traveler: 400 €
+* Extra nights: on request
