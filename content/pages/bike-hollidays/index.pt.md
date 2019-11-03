@@ -15,8 +15,7 @@ feature:
 meta:
   description: This is a meta description.
   title: Bike Hollidays
-  keywords: 
-    - sobre nós
+  keywords: ""
 ---
 
 # Ciclotorismo
