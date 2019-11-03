@@ -40,8 +40,8 @@ itinerary:
       Included is an introductory meeting with our local partner including tour
       presentation and explanation.
     location:
-      lat: '41.15293'
-      lng: '-8.61005'
+      lat: '42.1130412'
+      lng: '-8.2593422'
     title: 'Day 1: Reception at Porto and transfer to Melgaço'
   - day: '2'
     description: >-
@@ -58,8 +58,8 @@ itinerary:
       privileged view over the River Minho were vital to protecting Portugal
       from invasion by its northern neighbors.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
+      lat: '42.0270455'
+      lng: '-8.6428831'
     title: >-
       Day 2: Melgaço – Valença, 27 mi. (43 km) plus extra track to Tui, 4 mi. (6
       km)
@@ -86,8 +86,8 @@ itinerary:
       that the ships were built and later deployed to Brazil, India, Africa, and
       other Portuguese colonies (14th and 15th centuries).
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
+      lat: '41.694867'
+      lng: '-8.831088'
     title: 'Day 3: Valença – Viana do Castelo, 37 mi. (60 km)'
   - day: '4'
     description: >-
@@ -98,8 +98,8 @@ itinerary:
       the first century, has always been a place of passage for the pilgrims who
       are going to Santiago.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
+      lat: '41.7675021'
+      lng: '-8.5830992'
     title: 'Day 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)'
   - day: '5'
     description: >-
@@ -116,8 +116,8 @@ itinerary:
       high scenic and environmental value and confirms Esposende as one of the
       most beautiful counties in the North region.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
+      lat: '41.5455885'
+      lng: '-8.75827562'
     title: 'Day 5: Ponte de Lima - Esposende, 31 mi. (50 km)'
   - day: '6'
     description: >-
@@ -129,8 +129,8 @@ itinerary:
       these Portuguese coastal cities were so important during the “el dorado”
       of the Portuguese Discoveries.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
+      lat: '41.1494512'
+      lng: '-8.6107884'
     title: 'Day 6: Esponsende - Porto, 41 mi. (65 km)'
 gallery:
   - alt: Our guide Tiago photo near Esposende
