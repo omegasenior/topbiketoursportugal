@@ -1,7 +1,7 @@
 ---
 templateKey: 'city-tours'
 path: /pt/tours-diarias
-title: tours diária
+title: tours diárias
 langKey: pt
 lang: pt
 language: pt

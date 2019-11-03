@@ -1,6 +1,7 @@
 ---
 templateKey: bike-hollidays
 path: /bike-tours
+
 title: Bike Hollidays
 feature:
   align: center

@@ -1,10 +1,9 @@
 ---
 templateKey: city-tours
 path: /day-tours
+title: Day tours
 language: en
 lang: en
-title: tours diária
-# slug: day-tours
 afterList: teste
 feature:
   align: center
