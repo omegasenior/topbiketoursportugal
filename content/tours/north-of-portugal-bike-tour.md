@@ -4,7 +4,7 @@ path: /north-of-portugal-en
 featured: false
 language: en
 image: /img/cyling-path-north-of-portugalbike-tour.jpg
-title: North of Portugal Bike tour
+title: 30 EN North of Portugal Bike tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
