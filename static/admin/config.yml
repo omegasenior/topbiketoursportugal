@@ -825,6 +825,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
@@ -871,6 +890,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
@@ -1080,6 +1118,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
@@ -1107,6 +1164,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+      
       - file: content/pages/contact/index.pt.md
         label: Contact EN
         name: contactPT
@@ -1125,6 +1183,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
@@ -1152,6 +1229,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+          
       - file: content/pages/about/index.en.md
         label: AboutEN
         name: aboutEN
@@ -1170,6 +1248,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
@@ -1215,6 +1312,25 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - { label: Keywords, name: keywords, widget: text, required: false }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                } 
           - label: Feature Image
             name: feature
             widget: object
