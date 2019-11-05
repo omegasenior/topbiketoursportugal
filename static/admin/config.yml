@@ -190,7 +190,7 @@ collections:
     folder: content/tours
     create: true
     slug: "{{slug}}"
-    summary: "{{slug}} - {{fields.language}} - {{fields.path}}"
+    summary: "{{fields.productcode}} - {{fields.language}} - {{slug}} - {{fields.path}}"
     fields:
       - {
           label: Template Key,
@@ -199,6 +199,7 @@ collections:
           default: tour-gen,
         }
       - { label: Path, name: path, widget: string, required: false }
+      - { label: ProductCode, name: productcode, widget: string, required: false }
       - {
           label: Feautured,
           name: featured,

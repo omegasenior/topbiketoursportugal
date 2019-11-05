@@ -5,6 +5,7 @@ language: en
 image: /img/specialized-diverge-e5-2.jpg
 title: Douro Valley Cycling camp Training
 path: /douro-valley-cycling-camp-road-bike
+productcode: 9999
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: 

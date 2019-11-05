@@ -5,6 +5,7 @@ language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: Norte de Portugal Bike tour
 path: /pt-norte-de-portugal-bike-tour
+productcode: 9999
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: 

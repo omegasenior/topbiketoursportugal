@@ -5,6 +5,7 @@ language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: O Caminho Francês - BikeTour
 path: /pt-caminho-frances-a-santiago-bike-tour
+productcode: 9999
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: 

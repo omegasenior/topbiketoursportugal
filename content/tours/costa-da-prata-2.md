@@ -4,7 +4,8 @@ path: /from-coimbra-to-lisbon-bike-tour
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
-title: 12 EN The Silver Coast - Route 2
+productcode: 12
+title: The Silver Coast - Route 2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:

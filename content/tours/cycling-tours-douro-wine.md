@@ -5,6 +5,7 @@ language: pt
 image: /img/specialized-diverge-e5-2.jpg
 title: Cycling tours douro wine
 path: /cycling-tours-douro-wine
+productcode: 02
 packagetype: PackageTour
 tourtype: Bike
 tourcategory: 

@@ -3,7 +3,8 @@ templateKey: tour-gen
 featured: false
 language: en
 image: /img/praia-de-mira.jpg
-title: 11 EN The Silver Coast - Route 1
+productcode: 11
+title: The Silver Coast - Route 1
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:

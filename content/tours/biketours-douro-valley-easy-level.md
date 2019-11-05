@@ -4,7 +4,8 @@ path: /biketours-douro-valley-easy-level
 featured: true
 language: en
 image: /img/douro.jpg
-title: 01 EN Douro Wine Tour Easy
+productcode: 01
+title: Douro Wine Tour Easy
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:

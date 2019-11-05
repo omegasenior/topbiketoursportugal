@@ -3,6 +3,7 @@ templateKey: tour-gen
 featured: true
 language: en
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 9999
 title: The Way of St. James BikeTour - The French Way
 path: /french-way-to-santiago-bike-tour
 packagetype: PackageTour

@@ -4,6 +4,7 @@ path: /costa-da-prata-2
 featured: false
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 9999
 title: Costa da Prata - Route 2
 packagetype: PackageTour
 tourtype: Bike

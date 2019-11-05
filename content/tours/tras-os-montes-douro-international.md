@@ -4,7 +4,8 @@ path: /bike-tours-portugal-douro-wine
 featured: true
 language: en
 image: /img/pinhao13-1-.jpg
-title: 03 EN Trás-os-Montes & Douro international
+productcode: 03
+title: Trás-os-Montes & Douro international
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:

@@ -3,6 +3,7 @@ templateKey: tour-gen
 featured: false
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 11
 title: Costa da Prata - Rota 1
 path: /costa-da-prata-rota-1
 packagetype: PackageTour

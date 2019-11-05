@@ -4,6 +4,7 @@ path: /walking-tours-porto
 featured: false
 language: en
 image: /img/rent_bike_porto-hire-bike-porto-portugal.jpg
+productcode: 9999
 title: Walking tour - Oporto’s Downtown
 packagetype: SingleTour
 tourtype: Bike

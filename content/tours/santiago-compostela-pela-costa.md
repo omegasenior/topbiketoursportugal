@@ -3,6 +3,7 @@ templateKey: tour-gen
 featured: true
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 9999
 title: Santiago de Compostela BikeTour
 packagetype: PackageTour
 tourtype: Bike

@@ -3,6 +3,7 @@ templateKey: tour-gen
 featured: true
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 11
 title: Trás-os-Montes & Douro internacional
 path: /cycling-tours-tras-os-montes
 packagetype: PackageTour

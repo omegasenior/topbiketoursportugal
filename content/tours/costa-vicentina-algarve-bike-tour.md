@@ -3,6 +3,7 @@ templateKey: tour-gen
 featured: false
 language: pt
 image: /img/specialized-diverge-e5-2.jpg
+productcode: 40
 title: Costa Vicentina e Algarve Bike Tour
 path: /costa-vicentina-bike-tour
 packagetype: PackageTour

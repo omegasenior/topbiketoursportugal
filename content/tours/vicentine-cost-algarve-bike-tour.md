@@ -4,7 +4,8 @@ path: /south-portugal-biketour
 featured: false
 language: en
 image: /img/great-sea-views.jpg
-title: 40 EN Vicentine Cost and Algarve Bike Tour
+productcode: 40
+title: Vicentine Cost and Algarve Bike Tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:

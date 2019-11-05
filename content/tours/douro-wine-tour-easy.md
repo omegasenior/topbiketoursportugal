@@ -4,7 +4,8 @@ path: /douro-valley-wine-tour
 featured: true
 language: en
 image: /img/pinhao3.jpg
-title: 02 EN Douro Wine Tour moderate
+productcode: 02
+title: Douro Wine Tour moderate
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
