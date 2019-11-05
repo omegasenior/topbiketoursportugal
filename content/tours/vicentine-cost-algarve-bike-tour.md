@@ -52,7 +52,7 @@ itinerary:
       lat: '38.48694667'
       lng: '-8.90220881'
     title: Day 2 -  Lisboa – Troia (65 km) * moderate dificulty
-  - day: Day3
+  - day: '3'
     description: >-
       Beginning the day with some extensive sandy beaches within, Santo André is
       a very multicultural city, which received a lot of people from Portuguese
@@ -202,121 +202,128 @@ pricing:
   - bestValue: true
     discount: -1
     en:
-      package: Self Guided bike Tour
+      package: Self Guided bike tour
       packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
+        - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
+          value: 'No'
         - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'No'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'No'
+        - title: 8 lunches ( 6 lunches reduced option)
+          value: 'No'
+        - title: 8 Dinners ( 6 dinners reduced option)
+          value: 'No'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'No'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'No'
+        - title: 7 Nights / 8 Days ( price per person)
+          value: 1.609 €
+        - title: 9 Nights / 10 Days ( price per person)
+          value: 1.940 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: + 150 € (+100 € reduced option)
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
     price: 1860
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: minimum 8 pax
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 8 lunches ( 6 lunches reduced option)
+          value: 'No'
+        - title: 8 Dinners ( 6 dinners reduced option)
+          value: 'No'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 7 Nights / 8 Days ( price per person)
+          value: 2.060 €
+        - title: 9 Nights / 10 Days ( price per person)
+          value: 2.468 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: '* 150 € (+100 € reduced option)'
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2060
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour Plus*
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
+          value: 'Yes'
+        - title: Lisbon Airport Transfers
+          value: 'Yes'
         - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+          value: 'Yes'
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 8 lunches ( 6 lunches reduced option)
+          value: 'Yes'
+        - title: 8 Dinners ( 6 dinners reduced option)
+          value: 'Yes'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 7 Nights / 8 Days ( price per person)
+          value: 2.520 €
+        - title: 9 Nights / 10 Days ( price per person)
+          value: 3.085 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: '* 150 € (+100 € reduced option)'
         - title: Min. Participants
-          value: '2'
+          value: '4'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 2520
     type: '1'
 ---
 # Vicentine Cost and Algarve Bike Tour
