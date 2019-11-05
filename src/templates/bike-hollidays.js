@@ -143,69 +143,76 @@ function ToursListPage({ data }) {
         <HTMLContent content={toursPage.html} className="container" />
         <Container>
           <Row>
-            {tours.map(tour => {
-              var tourRating = Math.round(
-                sum(tour.rating.map(r => r.rating)) / tour.rating.length
-              );
+            {tours &&
+              tours.map(tour => {
+                var tourRating = 0;
 
-              return (
-                <TourColumn key={tour.id} xs="12" sm="4" md="4" my={10}>
-                  <TourLink to={tour.path || tour.localizedPath || tour.slug}>
-                    <Tour>
-                      <TourImageContainer>
-                        <Img fluid={tour.image.childImageSharp.fluid} />
-                      </TourImageContainer>
-                      <div style={{ padding: "25px" }}>
-                        <TourTitle>{tour.title}</TourTitle>
-                        <TourSpecificationContainer>
-                          <TourSpecification>
-                            <Time size="24" />
-                            <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
-                          </TourSpecification>
-                          <TourSpecification>
-                            <Mountain size="24" />
-                            <span alt="Difficulty">{` ${tour.difficulty}/10`}</span>
-                          </TourSpecification>
-                          <TourSpecification>
-                            <Road size="24" />
-                            <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
-                          </TourSpecification>
-                        </TourSpecificationContainer>
-                        {tour.princing &&
-                          tour.princing.length > 0 &&
-                          tour.princing[0] &&
-                          tour.princing[0].price &&
-                          tour.princing[0].price > 0 && (
-                            <TourSpecificationContainer>
-                              <TourSpecPrice>
-                                <Rating
-                                  style={{ color: "#fa7500" }}
-                                  value={tourRating}
-                                  total={5}
-                                  size={24}
-                                />
-                                <span>{` (${tour.rating.length} reviews)`}</span>
-                              </TourSpecPrice>
-                              <TourSpecPrice>
-                                {tour.princing &&
-                                  tour.princing.length &&
-                                  tour.princing[0].discount &&
-                                  tour.princing[0].discount >=
-                                    tour.princing[0].price && (
-                                    <TourDiscountPrice>
-                                      {tour.princing[0].discount}€
-                                    </TourDiscountPrice>
-                                  )}
-                                <TourPrice>{tour.princing[0].price}€</TourPrice>
-                              </TourSpecPrice>
-                            </TourSpecificationContainer>
-                          )}
-                      </div>
-                    </Tour>
-                  </TourLink>
-                </TourColumn>
-              );
-            })}
+                if (tour && tour.rating)
+                  tourRating = Math.round(
+                    sum(tour.rating.map(r => r.rating || 0)) /
+                      tour.rating.length
+                  );
+
+                return (
+                  <TourColumn key={tour.id} xs="12" sm="4" md="4" my={10}>
+                    <TourLink to={tour.path || tour.localizedPath || tour.slug}>
+                      <Tour>
+                        <TourImageContainer>
+                          <Img fluid={tour.image.childImageSharp.fluid} />
+                        </TourImageContainer>
+                        <div style={{ padding: "25px" }}>
+                          <TourTitle>{tour.title}</TourTitle>
+                          <TourSpecificationContainer>
+                            <TourSpecification>
+                              <Time size="24" />
+                              <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
+                            </TourSpecification>
+                            <TourSpecification>
+                              <Mountain size="24" />
+                              <span alt="Difficulty">{` ${tour.difficulty}/10`}</span>
+                            </TourSpecification>
+                            <TourSpecification>
+                              <Road size="24" />
+                              <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
+                            </TourSpecification>
+                          </TourSpecificationContainer>
+                          {tour.princing &&
+                            tour.princing.length > 0 &&
+                            tour.princing[0] &&
+                            tour.princing[0].price &&
+                            tour.princing[0].price > 0 && (
+                              <TourSpecificationContainer>
+                                <TourSpecPrice>
+                                  <Rating
+                                    style={{ color: "#fa7500" }}
+                                    value={tourRating}
+                                    total={5}
+                                    size={24}
+                                  />
+                                  <span>{` (${tour.rating.length} reviews)`}</span>
+                                </TourSpecPrice>
+                                <TourSpecPrice>
+                                  {tour.princing &&
+                                    tour.princing.length &&
+                                    tour.princing[0].discount &&
+                                    tour.princing[0].discount >=
+                                      tour.princing[0].price && (
+                                      <TourDiscountPrice>
+                                        {tour.princing[0].discount}€
+                                      </TourDiscountPrice>
+                                    )}
+                                  <TourPrice>
+                                    {tour.princing[0].price}€
+                                  </TourPrice>
+                                </TourSpecPrice>
+                              </TourSpecificationContainer>
+                            )}
+                        </div>
+                      </Tour>
+                    </TourLink>
+                  </TourColumn>
+                );
+              })}
           </Row>
         </Container>
       </section>
