@@ -1,13 +1,13 @@
 ---
 templateKey: tour-gen
+path: /south-portugal-biketour
 featured: false
 language: en
-image: /img/specialized-diverge-e5-2.jpg
-title: Vicentine Cost and Algarve Bike Tour
-path: /south-portugal-biketour
+image: /img/great-sea-views.jpg
+title: 40 EN Vicentine Cost and Algarve Bike Tour
 packagetype: PackageTour
 tourtype: Bike
-tourcategory: 
+tourcategory:
   - Bike
 tags:
   - Santiago Compostela
@@ -28,13 +28,6 @@ duration: 1
 durationUnit: hours
 difficulty: 1
 physicality: 1
-feature:
-  image: /img/bike-tours-portugal-city_LEVELED.jpg
-  imageAlign: "bottom center"
-  title:  Sobre nós
-  textcolor: #000
-  align: center
-  subtitle: 
 rating:
   - rating: 1
     ratingLink: '1'
@@ -155,129 +148,126 @@ gallery:
   - alt: group 2
     image: /img/IMG_20170704_075031_HDR.jpg
 pricing:
-  - en:
+  - bestValue: true
+    discount: -1
+    en:
       package: Self Guided bike Tour
       packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
-    discount: -1
-    bestValue: true
+        - icon: ✓
+          title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'yes'
+        - title: Porto Airport Transfers
+          value: 'yes'
+        - title: Trains or Bus Tickets
+          value: 'yes'
+        - title: Van Support
+          value: 'yes'
+        - title: GPS With route per booking
+          value: 'yes'
+        - title: Bike rent
+          value: 'yes'
+        - title: Guide
+          value: 'yes'
+        - title: Mechanical Assistance
+          value: 'yes'
+        - title: 7 lunches
+          value: 'yes'
+        - title: 7 Dinners
+          value: 'yes'
+        - title: Personal Accident Insurance
+          value: 'yes'
+        - title: Liability Insurance
+          value: 'yes'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 1.860 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
     highSeasonPriceSupplement: 100
+    price: 1860
+    type: '1'
   - en:
       package: Fully Guided Biketour
       packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
+        - icon: ✓
+          title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'yes'
+        - title: Porto Airport Transfers
+          value: 'yes'
+        - title: Trains or Bus Tickets
+          value: 'yes'
+        - title: Van Support
+          value: 'yes'
+        - title: GPS With route per booking
+          value: 'yes'
+        - title: Bike rent
+          value: 'yes'
+        - title: Guide
+          value: 'yes'
+        - title: Mechanical Assistance
+          value: 'yes'
+        - title: 7 lunches
+          value: 'yes'
+        - title: 7 Dinners
+          value: 'yes'
+        - title: Personal Accident Insurance
+          value: 'yes'
+        - title: Liability Insurance
+          value: 'yes'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 1.860 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
     highSeasonPriceSupplement: 100
+    price: 1860
+    type: '1'
   - en:
       package: Fully Guided Biketour
       packageContents:
-      - title: Accommodations W/ Breakfast
-        value: Yes (3 and 4 stars, farms or rural houses)
-        icon: "✓"
-      - title: Luggage shuttling
-        value: 'yes'
-      - title: Porto Airport Transfers
-        value: 'yes'
-      - title: Trains or Bus Tickets
-        value: 'yes'
-      - title: Van Support
-        value: 'yes'
-      - title: GPS With route per booking
-        value: 'yes'
-      - title: Bike rent
-        value: 'yes'
-      - title: Guide
-        value: 'yes'
-      - title: Mechanical Assistance
-        value: 'yes'
-      - title: 7 lunches
-        value: 'yes'
-      - title: 7 Dinners
-        value: 'yes'
-      - title: Personal Accident Insurance
-        value: 'yes'
-      - title: Liability Insurance
-        value: 'yes'
-      - title: 8 Nights / 9 Days ( price per person)
-        value: 1.860 €
-      - title: July, August and September Prices
-        value: "+ 100 €"
-      - title: Min. Participants
-        value: '2'
-    type: '1'
-    price: 1860
+        - icon: ✓
+          title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'yes'
+        - title: Porto Airport Transfers
+          value: 'yes'
+        - title: Trains or Bus Tickets
+          value: 'yes'
+        - title: Van Support
+          value: 'yes'
+        - title: GPS With route per booking
+          value: 'yes'
+        - title: Bike rent
+          value: 'yes'
+        - title: Guide
+          value: 'yes'
+        - title: Mechanical Assistance
+          value: 'yes'
+        - title: 7 lunches
+          value: 'yes'
+        - title: 7 Dinners
+          value: 'yes'
+        - title: Personal Accident Insurance
+          value: 'yes'
+        - title: Liability Insurance
+          value: 'yes'
+        - title: 8 Nights / 9 Days ( price per person)
+          value: 1.860 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
     highSeasonPriceSupplement: 100
+    price: 1860
+    type: '1'
 ---
-This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
+# Vicentine Cost and Algarve Bike Tour
 
-\
-\
-\
-Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+## From Lisbon or Sines to the south of Portugal thru the coast line
