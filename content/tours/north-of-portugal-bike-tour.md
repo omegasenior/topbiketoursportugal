@@ -277,7 +277,7 @@ The taste of the worldwide known gastronomy and wines are the icing on the cake 
 
 \
 \
-**Tour Description:** Easy extended track
+**Tour Description:** Easy 
 
 **Estimated KM**: 238
 
@@ -296,12 +296,33 @@ Day 6 – Esposende – Porto (60km)
 
 Day 7 - Departure
 
+\
+\
+_**Reduced option:** _
 
+\
+**Tour Description:** Easy 
 
+**Estimated KM**: 152 km and 1894 m of cumulative gap climbs 
+\
+\
+Day 1: Melgaço
 
+Day 2: Melgaço – Valença (43 km)
 
+Day 3: Valença – Caminha (30 km)
 
+Day 4: Caminha – Viana do Castelo (25 Km)
 
+Day 5: Viana do Castelo – Ponte de Lima (26 Km)
+
+Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
+
+Day 7: Departure
+\
+\
+\
+\
 **Observations:**
 
 * Prices are based for 2 people sharing the same room;
