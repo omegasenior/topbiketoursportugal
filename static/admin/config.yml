@@ -1116,8 +1116,8 @@ collections:
                   required: false,
                   default: "center center",
                 }
-          - label: Days
-            name: days
+          - label: Dates
+            name: dates
             widget: list
             fields:
               - label: Date
