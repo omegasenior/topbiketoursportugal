@@ -187,9 +187,15 @@ itinerary:
     title: Day 10 - Departure
 gallery:
   - alt: group 1
-    image: /img/20190920_135559.jpg
+    image: /img/0-copy.jpg
   - alt: group 2
     image: /img/IMG_20170704_075031_HDR.jpg
+  - alt: sines in the vicentine coast bike holiday
+    image: /img/img_20170701_154433_hdr.jpg
+  - alt: picture in sagres with animal
+    image: /img/vicentine-coast-bike-tour.jpg
+  - alt: South of portugal bike tou
+    image: /img/south-of-portugal-bike-tour.jpg
 pricing:
   - bestValue: true
     discount: -1
