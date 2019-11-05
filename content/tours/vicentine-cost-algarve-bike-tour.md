@@ -196,6 +196,8 @@ gallery:
     image: /img/vicentine-coast-bike-tour.jpg
   - alt: South of portugal bike tou
     image: /img/south-of-portugal-bike-tour.jpg
+  - alt: Zambujeira do mar in a bycicle
+    image: /img/zambujeira-do-mar-2-.jpg
 pricing:
   - bestValue: true
     discount: -1
