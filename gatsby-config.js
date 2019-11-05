@@ -24,7 +24,6 @@ module.exports = {
       twitter: "https://twitter.com/FoldnVisit",
       fbAppID: "",
       youtube: "https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A",
-      youtube: "https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A",
       facebook: "https://www.facebook.com/topbiketoursportugal/",
       instagram: "https://www.instagram.com/topbiketoursportugal/",
       googleplus: "https://plus.google.com/u/0/112634467779546919402"
@@ -76,7 +75,31 @@ module.exports = {
     //     includeInDevelopment: false
     //   }
     // },
-
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
+    //     head: false,
+    //     // Setting this parameter is optional
+    //     anonymize: true,
+    //     // Setting this parameter is also optional
+    //     respectDNT: true,
+    //     // Avoids sending pageview hits from custom paths
+    //     exclude: ["/preview/**", "/do-not-track/me/too/","/admin"],
+    //     // Delays sending pageview hits on route update (in milliseconds)
+    //     pageTransitionDelay: 0,
+    //     // Enables Google Optimize using your container Id
+    //     optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+    //     // Enables Google Optimize Experiment ID
+    //     experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
+    //     // Set Variation ID. 0 for original 1,2,3....
+    //     variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+    //     // Any additional optional fields
+    //     sampleRate: 5,
+    //     siteSpeedSampleRate: 10,
+    //     cookieDomain: "example.com",
+    //   }
     // {
     //   resolve: "gatsby-plugin-i18n",
     //   options: {

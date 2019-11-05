@@ -20,6 +20,8 @@ titleColor: '#fff'
 subtitleColor: '#fff'
 btnColor: '#ffd800'
 btnTextColor: '#fff'
+packagetype: 
+tourtype: 
 dates:
   - date: 2019-11-02T22:10:56.217Z
     type: Year

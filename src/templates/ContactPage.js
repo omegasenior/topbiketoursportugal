@@ -74,7 +74,24 @@ export const ContactPageTemplate = ({
     </section>
 
     {location && <GoogleMap locations={location} mapkey={googleApiKey} />}
+    {/* <script type="application/ld+json"> {
+"@context" : "http://schema.org",
+"@type" : "Step 1: Choose a Business Type",
+"name":"Top Bike Tour Portugal",
+"url":"https://www.topbiketoursportugal.com/",
+"email":"info@topbiketoursportugal",
+"telephone":"915316999",
+"openingHours": [
+"10:00", "13:00", "14:00", "19:00"],
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"5",
+"reviewCount":"10"},
+"paymentAccepted":"Visa, Master Card, Discover, Amex"
+} </script> */}
+
   </main>
+  
 );
 
 const ContactPage = ({ data: { page, settings } }) => (

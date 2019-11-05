@@ -8,6 +8,8 @@ import Banners from "../components/Banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 
+import { SEO, Heading } from "../components/SEO/SEO"
+
 import BackgroundImage from "gatsby-background-image";
 import Img from "gatsby-image";
 import styled from "styled-components";
@@ -171,6 +173,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
         return (
           <React.Fragment>
             <GlobalStyle />
+            {/* <SEO {page.}></SEO> */}
             <Helmet titleTemplate={data.settingsYaml.titleformat}>
               <html lang={language || `en`} />
               <title>{title || defaultMetadata.title}</title>

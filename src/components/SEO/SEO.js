@@ -49,6 +49,7 @@ const SEO = ({ postData, postImage, isBlogPost }) => (
             {/* General tags */}
             <title>{title}</title>
             <meta name="description" content={description} />
+            {/* <meta name="keywords" content={keywords} /> */}
             <meta name="image" content={image} />
 
             {/* OpenGraph tags */}

@@ -24,13 +24,13 @@ dates:
   - date: 2019-11-02T22:10:56.565Z
     type: Month
   - body: Tour silver coast 2
-    date: 2019-11-02T22:10:56.761Z
+    date: 2019-11-12T22:10:56.761Z
     type: Date
   - body: Tour silver coast 1
-    date: 2019-10-02T22:10:56.761Z
+    date: 2019-10-12T22:10:56.761Z
     type: Date
   - body: Tour silver coast 3
-    date: 2019-20-02T22:10:56.761Z
+    date: 2019-10-22T22:10:56.761Z
     type: Date
 ---
 
