@@ -14,10 +14,12 @@ tags:
   - Costal Tour
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
-  title: Vicentine Cost and Algarve Bike Tour
+    Start in Lisbon or in Sines in this amazing bike tours thru the south coast
+    of Portugal....wild, nature and quiet bike tour
+  keywords: >-
+    Vicentine Coast to Algarve, lisbon bike tour, alentejo bike tour, algarve
+    bike tour
+  title: 'Vicentine Coast to Algarve '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -28,120 +30,161 @@ duration: 1
 durationUnit: hours
 difficulty: 1
 physicality: 1
-rating:
-  - rating: 1
-    ratingLink: '1'
-  - rating: 1
-    ratingLink: '1'
+rating: []
 itinerary:
   - day: '1'
     description: >-
-      Porto: Before starting this cycling journey towards Santiago de
-      Compostela, it’s almost obligatory to present and know Porto, classified
-      as World Heritage and Capital of Culture and Tourism. Join us in a city
-      tour (bike or walk) in the City Centre and discover a huge miscellanea of
-      heritage, from the Middle Ages to the beginning of the 20th Century. Meet
-      famous and well-known hot spots, such as the bookstore that influenced
-      J.K. Rowling’s Harry Potter, the magnificent Stock Exchange Marke, blue
-      and white tiled churches and much more. Art, heritage and traditions are
-      meant to be found and seen during this short city tour.
+      isbon: Starting this astonishing trip, the city of Lisbon, Portugal's
+      capital. A city that has been influenced by many different far-off
+      cultures over time, still maintains a village feel in each historic
+      neighborhood.  The wide variety of landscapes and heritage is always close
+      by, whether to the north or south of the capital. Fado is an expression of
+      what it is to be Portuguese and has also been awarded World Heritage
+      status. You can hear it at night in a fado house or in a traditional
+      neighborhood.
     location:
-      lat: '41.15293'
-      lng: '-8.61005'
-    title: 'Day 1: Reception at Porto'
+      lat: '38.71217964'
+      lng: '-9.17382002'
+    title: Day 1 – Lisbon
   - day: '2'
-    description: >-
-      Day 2 – Porto - Esposende, From Fold n´Visit’s store, based on the
-      “Invicta” city of Porto, we will begin our journey heading to Esposende, a
-      seaside city located in the North. During the first day, you will be
-      overwhelmed with seaside landscapes and small “Portuguese rivieras” until
-      you reach Esposende, a city from the Middle Ages. During your first day, a
-      huge variety of fishing villages (Póvoa de Varzim) will be met by us,
-      where we can experience ancient traditions linked to the fish exploration
-      as well taste this famous gastronomy. In Vila do Conde, you’ll know why
-      these Portuguese coastal cities were so important during the “el dorado”
-      of the Portuguese Discoveries.
+    description: ' Cycling on this day throughout some Portuguese lovely cities, like the city of Montijo, strongly marked by the river.  Like almost all the localities of the Ribatejo, Montijo has great traditions of the “brava” celebration, being the bulls and the bullfights an essential characteristic of the city parties. Entering Pinhal Novo, that used to be the biggest vineyard in the country, and nowadays, it’s an expanding urban centre, it’s located near the Arrabida Natural Park.  Bike along the dramatic, pine-brushed coastline of Parque Natural da Arrábida, park of great beauty.  To end this rich first day, reachable by ferry the pristine setting of the Tróia Peninsula, unquestionably one of Portugal''s best-kept secrets.  The peninsula''s stands at the tip of a narrow spit of land comprised mostly of white sandy beaches fringed with shifting dunes and emerald pine forests.  Much of the territory is set within the confines of a nature reserve, the Reserva Natural do Estuário do Sado, a protected wildlife haven with a wealth of bird-watching possibilities.'
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: Porto – Esposende (60 km)
-  - day: '3'
+      lat: '38.48694667'
+      lng: '-8.90220881'
+    title: Day 2 -  Lisboa – Troia (65 km) * moderate dificulty
+  - day: Day3
     description: >-
-      Day 3 – Esposende – Caminha. We’re reaching to Viana do Castelo, another
-      sea docking city also holding a huge importance during the Discoveries.
-      During the XIV-XVth Centuries it was in this precise city that the ships
-      were developed to be departed to Brasil, India, Africa and other
-      Portuguese colonies.  Still, in the district of Viana do Castelo, our
-      destination will be Caminha. This city finds the delta of the river Minho,
-      being part of the incredible landscape. Caminha is also very well-known
-      for its natural and green heritage, like the sightseeing areas,
-      waterfalls, beaches and the camping park.
+      Beginning the day with some extensive sandy beaches within, Santo André is
+      a very multicultural city, which received a lot of people from Portuguese
+      former colonies.  The extensive forest that protects Santo André is a good
+      example of possible respect between the protection of the environment and
+      the industrial development.  Cycling now in Comporta, a protected nature
+      reserve and one-time fisherman’s village now famous for its paradisiacal
+      looking beaches of great quality and mild weather during the summer. 
+      Finishing the day passing through the village of Melides, which dates back
+      to the 19th century, this village emerged as a small clump of fishermen
+      and farmers. Its inhabitants are mainly dedicated to the cultivation of
+      land and handicraft activities, such as pottery and the making of cork
+      stoppers.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 3: Esposende – Caminha (50 km)'
+      lat: '38.06021165'
+      lng: '-8.78451884'
+    title: Day 3 - Troia - Vila Nova de Santo André (66 Km)
   - day: '4'
     description: >-
-      Day 4 – Caminha – Baiona: During our fourth cycling day, we’re going to
-      enter in Spanish territory, ending in Bayona.  It’s a city politically
-      linked to Pontevedra where you can breathe the sea breeze. Yet, apart from
-      the sea landscape you can also get lost in the old city centre, born from
-      Roman roots and grew always towards the coast during the Middle Ages, with
-      an influence from the Catholic Church. Curiously, during the XVI Century,
-      Bayona was raided by British ships led by the great corsair and explorer
-      Francis Drake who saw an opportunity to establish a commercial and
-      merchant point in this territory.
+      Cycling in direction of Milfontes, the perfect combination of History and
+      Nature. Because it was situated on the coast, this region has a history of
+      often being besieged by pirates.  Having the opportunity to discover the
+      city where Vasco da Gama was born (the Portuguese explorer and first
+      European to reach India by sea, connecting the West and the Orient in the
+      15th century) you’ll cicle the port city of Sines. Nowadays it’s
+      remarkable for receiving 50% of the countries’ exportations.  In the
+      village of Porto Covo, where you’ll find “Praia Grande”, one of the most
+      sought after by locals and tourists. Spacious and sheltered by the cliff,
+      is one of the busiest during the summer.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 4: Caminha – Baiona (40 km)'
+      lat: '37.72243336'
+      lng: '-8.78589749'
+    title: Day 4 – Vila Nova de Santo André – Vila Nova de Mil Fontes (55 km)
   - day: '5'
     description: >-
-      Day 5 – Baiona – Pontevedra: The fifth day will encompass the stream of
-      Vigo and will end in San Simon’s bay with a watery landscape to feast our
-      eyes.  Always following the coast line, this day will be dedicated to
-      Arcade and its famous oysters. Apart from this delightful cuisine, you
-      will see monuments and sights dedicated to the Santiago’s culture, such as
-      the church of Santiago in Arcade (XII-XIII centuries) and roads or paths
-      that will lead to our pilgrimage destination.  It’s almost mandatory that
-      if you are passing by Arcade, you must taste and enjoy the famous oysters,
-      produced and harvested in the waters of this region. Curiously, during
-      April’s first week there’s a festival dedicated to this traditional
-      gastronomy – “Fiesta de la Ostra” – where the city is filled with tourists
-      and pilgrims to attend this event.
+      Quieter than Vila Nova de Milfontes, Zambujeira do Mar attracts more of a
+      backpacker, surfy crowd. Being a small sea side town on the coast of the
+      Alentejo, in western Portugal it has some lovely sandy beaches and picture
+      perfect traditional architecture, making it a small but loved destination
+      for visitors.  The town has some charming traditional buildings. Among the
+      most notable ones are the fountains of Amores and Santa Catarina and the
+      small, whitewashed chapel of Nossa Senhora do Mar.  The beach is about 500
+      meters from the town of Almograve. It is a shallow but extensive beach,
+      with low tide providing authentic natural pools.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 5: Baiona – pontevedra (57 km)'
+      lat: '37.52514173'
+      lng: '-8.7853986'
+    title: Day 5 – VNMF – Zambujeira do Mar (40 km)
   - day: '6'
-    description: >-
-      Day 6 – Pontevedra – Caldas de Reis  Heading to a pre-Roman city, Caldas
-      de Reis, a province which belongs to Pontevedra.  According to historical
-      archives, the first inhabitants were a pre-Roman community that lived from
-      the hot springs of this territory. The name “Caldas de Reis” is connected
-      to the birthplace of Afonso VII, acting in the Middle Ages as a pilgrim
-      path to Santiago de Compostela. Apart form the rich cultural heritage,
-      like Arcade, Caldas de Reis holds a peculiar gastronomy, such as the
-      “empanadas” of lamprey and the traditional Spanish bread. Since the hot
-      springs accompanied the evolution of this territory, nowadays is a hot
-      spot for tourism who seek better healthy treatments for several illnesses.
+    description: ' Starting in Aljezur, an attractive village that straddles a river, its western part is Moorish, with a collection of cottages below a ruined 10th century hilltop castle.  Vestiges of the old harbour can be seen in the narrow alleys that give access to the Ribeira de Aljezur.  The 40km of coastline around Aljezur offers some of the most pristine and scenic beaches in Europe with the whole area of river estuaries, sheer cliffs and dense marshes rich in bird and animal life.  As the Algarve turns into Alentejo, the last coastal settlement is Odeceixe, an endearing small town with a beach classified as one of the 7 Wonders. The beach of Odeceixe that has the particularity of containing a river beach.  The beach presents a high quality landscape and biodiversity, being able to enjoy a landscape of rare and enormous beauty of the top of the cliffs. It is in fact in this Natural Park, the only place in the world where you can observe the storks that nest on the cliffs.'
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+      lat: '37.3172097'
+      lng: '-8.79592627'
+    title: Day 6 – Zambujeira do Mar – Aljezur (45 km)
   - day: '7'
     description: >-
-      Day 7 – Caldas de Reis – Santiago de Compostela  Our last and seventh day
-      will meet Santiago de Compostela as the final destination, one of the
-      ultimate pilgrimage cores in Western Europe.  Like Rome and Jerusalem, the
-      city of Santiago de Compostela present us a unique religious beacon for
-      tourists who find in this cycling journey an act of faith and inner-self.
-      Reach to the Square of Obradoiro, where you will witness the majestic
-      baroque cathedral where the remains of the apostle are located.
+      Leaving Aljezur to enter the surf-central Carrapateira, a tranquil
+      village, with two nearby beaches whose lack of development, fizzing surf
+      and strong swells attract both both surfers and the people of Lisbon. The
+      coast along here is wild, with copper-coloured and ash-grey cliffs with
+      also wide sand dunes.  Its landmarks include an old fort and a church. 
+      Carrapateira point, or Pontal, was a traditional danger for sailing ships,
+      its high reddish rock formations look deceptively similar to Cape St.
+      Vincent, the southwest corner of Portugal's coast some eleven miles
+      further south.  The extremely fast southbound current and the jutting
+      headland that made it a dangerous lure for shipwrecks in the past also
+      creates the conditions which have made it a popular surfing destination in
+      recent years.
     location:
-      lat: '41.15591'
-      lng: '-8.60248'
-    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
+      lat: '37.18373374'
+      lng: '-8.89505267'
+    title: Day 7 – Aljezur – Carrapateira (30 km)
+  - day: '8'
+    description: >-
+      A region of dramatic natural scenery, comprising of raging seas, towering
+      cliffs and vast beaches, you are now cycling in Sagres.  There is little
+      of historical or architectural interest as the original town bore the full
+      brunt of the 1755 earthquake.  Surfing is the main activity of Sagres but
+      there also challenging hiking trails, quiet roads for cycling, while
+      departing from the harbour are deep sea fishing trips.  The unique
+      Fortaleza de Sagres, this fort has only one defensive wall on the southern
+      edge, as the other three are guarded by the immense and sheer cliffs of
+      the headland.  Situated within a few Km of Europe's most south western
+      point, there’s Cape St. Vincent, up until the 14th century it was believed
+      to be the end of the known world. The ferocious waves of the Atlantic
+      Ocean pound the massive cliffs, while high above the immensely bright
+      light house guards the same dangerous cliffs.  The charm of whitewashed
+      houses scattered down the slopes of a hill crowned by the looming bulk of
+      a church tower, is found in Vila do Bispo. The narrow streets which
+      surround the main church contain many houses typical of the old Algarve,
+      with whitewashed walls, bands of bright color, carved stonework around
+      doors and windows.
+    location:
+      lat: '37.00901414'
+      lng: '-8.93903017'
+    title: Day 8 - Carrapateira – Sagres (54 km)
+  - day: '9'
+    description: >-
+      Lying along the bank of the Rio Bensafrim, with 16th century walls
+      enclosing the old town, we have Lagos.  Lagos is a historic and lively
+      city that offers visitors glorious beaches, nightlife and a charming
+      historic center.  Within the Lagos region is an abundance of varied sights
+      and activities, which makes the city a fantastic destination.  Extending
+      to the east of Lagos is the 4km long Meia Praia Beach, which is the
+      longest sandy beach on the western side of the Algarve.  Aside from its
+      hedonistic appeal, Lagos has historical clout, having launched many naval
+      excursions during Portugal’s extraordinary Age of Discoveries.  Located
+      about halfway between Lagos and Sagres there’s a picturesque fishing
+      village, the little village of Salema. Is a paradise to those who are
+      seeking tranquility and an escape from the crowd where biking
+      opportunities abound.  The village is home to a number of fishermen who
+      still cast their nets daily and moor their fishing boats on the shore. 
+      Salema's beach is one of the most pleasant and authentic segments of coast
+      in Portugal. The stretch immediately in front of town has beach umbrellas
+      and services in the European style, and while the coastline to the west is
+      fairly rocky, the sandy beachline continues for more than a kilometer to
+      the east.  Finishing off this ride, blessed with both a beautiful beach
+      and glorious climate, the Luz beach has a welcoming and friendly
+      atmosphere, as the town has a significant permanent community of retired
+      or emigrated expats.  The beach has soft golden sands and calm, pristine
+      clean waters. You’ll surely enjoy having the last stop of this fulfilling
+      trip, in this amazingly, beautiful beach with lots of sights that provide
+      a lovely and relaxing place to rest.
+    location:
+      lat: '37.10029188'
+      lng: '-8.67213964'
+    title: Day 9 -  Sagres – Lagos (45 km)
+  - day: '10'
+    location:
+      lat: '37.10029188'
+      lng: '-8.67213964'
+    title: Day 10 - Departure
 gallery:
   - alt: group 1
     image: /img/20190920_135559.jpg
@@ -271,3 +314,63 @@ pricing:
 # Vicentine Cost and Algarve Bike Tour
 
 ## From Lisbon or Sines to the south of Portugal thru the coast line
+
+\
+\
+An amazing biketour through one of Europe's most preserved regions, the southeast Alentejano Natural Park, which includes wild beaches surrounded by imposing cliffs, small mountain ranges, cork oak groves, traditional fishing villages, typical villages, spectacular views and important geographical points, such as Cape Sardão, the Cape of São Vicente (from where the caravels left for seas never before navigated) and Ponta de Sagres.
+
+January to June or October to December is our recomendation to do this bike tour. It is very hot in the summer season, so notice that, if you decid to cycle in July, August or September.
+
+Average temperatures in the Algarve, in the south of Portugal, are usually around 17ºC, and the weather is always sunny or partially sunny, as it is rare to rain in the southern regions, even during the winter.
+
+\
+\
+**Tour Description:** Easy to moderate  level
+
+**Estimated KM:** 400 km elevation: 3628 m ascent and 3637 m descent
+
+\
+\
+Day 1 – Lisbon
+
+Day 2 -  Lisboa – Troia (65 km) * moderate dificulty
+
+Day 3 - Troia - Vila Nova de Santo André (66 Km)
+
+Day 4 – Vila Nova de Santo André – Vila Nova de Mil Fontes (55 km)
+
+Day 5 – VNMF – Zambujeira do Mar (40 km)
+
+Day 6 – Zambujeira do Mar – Aljezur (45 km)
+
+Day 7 – Aljezur – Carrapateira (30 km)
+
+Day 8 - Carrapateira – Sagres (54 km)
+
+Day 9 -  Sagres – Lagos (45 km)
+
+Day 10 - Departure
+
+\
+\
+\
+**Reduced Option:**
+\
+**Tour Description:**  Easy level
+
+**Estimated KM: 254 km** , Elevation: 2528 m ascent and 2538 m descent
+\
+\
+Day 1 – Sines - Vila Nova de Mil Fontes (40 km)
+
+Day 2 – VNMF – Zambujeira do Mar (40 km)
+
+Day 3 – Zambujeira do Mar – Aljezur (45 km)
+
+Day 4– Aljezur – Carrapateira (30 km)
+
+Day 5 - Carrapateira – Sagres (54 km)
+
+Day 6 -  Sagres – Lagos (45 km)
+
+Day 7 - Departure
