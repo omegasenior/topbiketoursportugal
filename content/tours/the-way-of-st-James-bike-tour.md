@@ -205,10 +205,14 @@ itinerary:
       lng: '-8.5458608'
     title: Day 16 - Santiago de Compostela
 gallery:
-  - alt: group 1
-    image: /img/20190920_135559.jpg
-  - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
+  - alt: FRENCH CAMINO IN A BYCICLE
+    image: /img/french-camino-in-a-bycicle.png
+  - alt: FRENCH CAMINO IN A BYCICLE
+    image: /img/french-camino-in-a-bycicle2.png
+  - alt: FRENCH CAMINO IN A BYCICLE
+    image: /img/french-camino-in-a-bycicle3.png
+  - alt: FRENCH CAMINO IN A BYCICLE
+    image: /img/french-camino-in-a-bycicle4.png
 pricing:
   - bestValue: true
     discount: -1
