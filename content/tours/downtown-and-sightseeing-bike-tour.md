@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 path: bike-tour-sightseeing-porto
-productcode: '70'
+productcode: CT 01
 featured: false
 language: en
 image: /img/porto-downtown-and-sightseeing-bike-tour.jpg
