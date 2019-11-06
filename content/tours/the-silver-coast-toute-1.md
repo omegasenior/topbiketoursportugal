@@ -1,9 +1,9 @@
 ---
 templateKey: tour-gen
+productcode: 11
 featured: false
 language: en
-image: /img/praia-de-mira.jpg
-productcode: 11
+image: /img/cycling-plan-in-coasta-nova.jpg
 title: The Silver Coast - Route 1
 packagetype: PackageTour
 tourtype: Bike
@@ -125,16 +125,16 @@ itinerary:
 gallery:
   - alt: Coimbra group photo
     image: /img/20190920_135559.jpg
-  - alt: miramar cycling tour
-    image: /img/miramar-cycling-tour.jpg
-  - alt: furadouro forest cyclin lan
-    image: /img/furadouro-forest-cyclin-lan.jpg
-  - alt: fish restaurant with top bike tours portugal
-    image: /img/fish-restaurant-with-top-bike-tours-portugal.jpg
+  - alt: furadouro forest in a bicycle
+    image: /img/furadouro-forest-in-a-bicycle.jpg
+  - alt: lakes in Mira
+    image: /img/lakes-in-mira.jpg
+  - alt: dirt paths near the lakes
+    image: /img/dirt-path-with-bicycles.jpg
   - alt: student bridge dormitory in Aveiro with top biketoursportugal
     image: /img/student-bridge-dormitory-in-aveiro-with-top-biketoursportugal.jpg
   - alt: Costa nova cycling lane
-    image: /img/costa-nova-cycling-lane.jpg
+    image: /img/mira-lagoon.jpg
   - alt: senhora da pedra chapel in the sand with bike photo
     image: /img/senhora-da-pedra-chapel-in-the-sand-with-bike-photo.jpg
   - alt: senhora da pedra
