@@ -9,9 +9,7 @@ featuredImagePosition: center center
 meta:
   description: Cyclinh holiday review Bob
   keywords: Cyclinh holiday review Portugal
-  languagePages:
-    - path: single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal
-      language: en
+  languagePages: []
   title: Cyclinh holiday review Bob
 ---
 # Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo
