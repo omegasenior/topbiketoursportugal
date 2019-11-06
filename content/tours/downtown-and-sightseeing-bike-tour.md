@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: bike-tour-sightseeing-porto
+productcode: '70'
 featured: false
 language: en
 image: /img/porto-downtown-and-sightseeing-bike-tour.jpg
-productcode: 9999
 title: Downtown and Sightseeing bike tour
 packagetype: SingleTour
 tourtype: Bike
