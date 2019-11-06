@@ -24,7 +24,9 @@ Mark Mander was diagnosed with multiple sclerosis 5 years ago. He was a Chief  o
 
 This biketour was a goal for Mark and I am quite sure I will  probably meet my friend again some day!
 
-I want to thank you for trust in us and for let me guide you.
+I want to thank you for trust in us and for let me guide you
+
+.<https://www.youtube.com/watch?v=990864zV-bc>
 
 ![Mark Mander and friends](/img/mark-mander-and-friends-3.png "Mark Mander and friends")
 
