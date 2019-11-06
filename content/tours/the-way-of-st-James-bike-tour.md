@@ -4,7 +4,7 @@ path: /french-way-to-santiago-bike-tour
 productcode: SANTIAGO 03
 featured: true
 language: en
-image: /img/specialized-diverge-e5-2.jpg
+image: /img/santiago1.png
 title: The Way of St. James BikeTour - The French Way
 packagetype: PackageTour
 tourtype: Bike
@@ -15,10 +15,18 @@ tags:
   - Costal Tour
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
-  title: The Way of St. James BikeTour - The French Way
+    Going from Saint Jean Pied de Port, in the Pyrenees, all the way to Santiago
+    de Compostela, the French way is probably the most known route of the St.
+    James Way. Its use goes back to the 9th century when the route only extended
+    from Oviedo to Santiago de Compostela.
+
+    Thousands of pilgrims choose this amazing route each year, not only for its
+    authenticity, but also for all the amazing places one finds him/herself in,
+    while on the road.
+  keywords: >-
+    FRENSH WAY TO SANTIAGO DE COMPOSTELA IN A BICYCLE, ORIGINAL ROUTE TO
+    SANTIAGO DE COMPOSTELA INA BICYCLE
+  title: The Way of St. James BikeTour The French Way
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -173,6 +181,47 @@ pricing:
     price: 1860
     type: '1'
 ---
+# The Way of St. James BikeTour
+
+## The French Way
 
 Going from Saint Jean Pied de Port, in the Pyrenees, all the way to Santiago de Compostela, the French way is probably the most known route of the St. James Way. Its use goes back to the 9th century when the route only extended from Oviedo to Santiago de Compostela.
+
 Thousands of pilgrims choose this amazing route each year, not only for its authenticity, but also for all the amazing places one finds him/herself in, while on the road.
+
+\
+\
+**Tour description:** hard
+
+**Estimated Km:**  791 km and 12.000 m with cumulated ascents
+
+\
+Day 1 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
+
+Day 2 -  Roncesvalles - Puente la Reina / 67 km (94)
+
+Day 3 -  Puente la Reina - Logrono / 76 km (170)
+
+Day 4 -  Logrono - Santo Domingo / 52 km (222)
+
+Day 5 -  Santo Domingo - Burgos /72 km (294)
+
+Day 6 -  Burgos - Carrión de los Condes / 85 km (379)
+
+Day 7 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
+
+Day 8 -  León (Descanso)
+
+Day 9 -  León - Astorga / 51 km (527)
+
+Day 10 -  Astorga - Cacabelos / 70 km (597)
+
+Day 11 -  Cacabelos – Tríacastela / 55 km (652)
+
+Day 12 -  Tríacastela - Portomarin / 46 km (698)
+
+Day 13 -  Portomarin - Melide 62 Km / 39 km (737)
+
+Day 14 -  Melide - Santiago de Compostela / 54 km (791)
+
+Day 15 -  Santiago de Compostela – Partida
