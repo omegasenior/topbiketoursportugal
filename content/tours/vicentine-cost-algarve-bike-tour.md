@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /south-portugal-biketour
+productcode: VICENTINE 01
 featured: false
 language: en
 image: /img/great-sea-views.jpg
-productcode: 40
 title: Vicentine Cost and Algarve Bike Tour
 packagetype: PackageTour
 tourtype: Bike
