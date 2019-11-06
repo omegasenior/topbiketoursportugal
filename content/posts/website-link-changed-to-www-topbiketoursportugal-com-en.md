@@ -6,6 +6,8 @@ language: en
 date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/top-bike-tours-portugal-logo.png
 featuredImagePosition: center center
+tags:
+  - Company updates
 meta:
   description: Fold n´Visit as changed the old website link and logo
   keywords: ''
