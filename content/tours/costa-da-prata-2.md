@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /from-coimbra-to-lisbon-bike-tour
+productcode: 12
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
-productcode: 12
 title: The Silver Coast - Route 2
 packagetype: PackageTour
 tourtype: Bike
@@ -188,6 +188,10 @@ gallery:
     image: /img/into-the-forest-with-a-bike.jpg
   - alt: cofee stop to rest from the cycling
     image: /img/coffe-stop-to-rest-fro-the-cycling.jpg
+  - alt: cycling to Sao pedro de moel
+    image: /img/cycling-to-são-pedro-de-moel.jpg
+  - alt: long cycling path
+    image: /img/long-bicycle-path.jpg
 pricing:
   - bestValue: true
     discount: -1
