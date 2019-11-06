@@ -7,6 +7,8 @@ language: en
 date: 2018-09-10T23:00:00.000Z
 featuredImage: /img/darren-alf-bicycle-holiday-group-to-santiago.png
 featuredImagePosition: center center
+tags:
+  - bloguers articles
 meta:
   description: Darren Alff article about our bike tour The Way of Saint James
   keywords: Darren Alff article about our bike tour The Way of Saint James
