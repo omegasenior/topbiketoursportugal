@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /north-of-portugal-en
+productcode: NORTH 01
 featured: false
 language: en
 image: /img/cyling-path-north-of-portugalbike-tour.jpg
-productcode: 30
 title: North of Portugal Bike tour
 packagetype: PackageTour
 tourtype: Bike
