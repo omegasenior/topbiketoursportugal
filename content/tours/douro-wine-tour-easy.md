@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /douro-valley-wine-tour
+productcode: DOURO 02
 featured: true
 language: en
 image: /img/pinhao3.jpg
-productcode: 02
 title: Douro Wine Tour moderate
 packagetype: PackageTour
 tourtype: Bike
