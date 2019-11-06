@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 path: /walking-tours-porto
-productcode: '71'
+productcode: CT 02
 featured: false
 language: en
 image: /img/rent_bike_porto-hire-bike-porto-portugal.jpg
