@@ -6,6 +6,8 @@ language: en
 date: 2019-11-06T16:34:47.565Z
 featuredImage: /img/day-tours-portugal.jpg
 featuredImagePosition: center center
+tags:
+  - Bike tours informations
 meta:
   description: Why choose a guided bicycle tour?
   keywords: Why choose a guided bicycle tour?
