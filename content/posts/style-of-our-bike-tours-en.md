@@ -6,6 +6,8 @@ language: en
 date: 2018-06-18T23:00:00.000Z
 featuredImage: /img/style-of-our-bike-tours.png
 featuredImagePosition: center center
+tags:
+  - Bike tours informations
 meta:
   description: Style of our bike tours
   keywords: Style of our bike tours
