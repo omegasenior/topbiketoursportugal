@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /biketours-douro-valley-easy-level
+productcode: DOURO 01
 featured: true
 language: en
 image: /img/douro.jpg
-productcode: 01
 title: Douro Wine Tour Easy
 packagetype: PackageTour
 tourtype: Bike
