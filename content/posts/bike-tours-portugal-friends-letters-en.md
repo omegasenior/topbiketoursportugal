@@ -6,6 +6,8 @@ language: en
 date: 2018-05-30T23:00:00.000Z
 featuredImage: /img/letters-from-our-customers.png
 featuredImagePosition: center center
+tags:
+  - customers stuff
 meta:
   description: letters from our customers
   keywords: letters from our customers
