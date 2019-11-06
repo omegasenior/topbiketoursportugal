@@ -6,6 +6,8 @@ language: en
 date: 2018-12-21T00:00:00.000Z
 featuredImage: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4323.jpg
 featuredImagePosition: center center
+tags:
+  - Bike tours informations
 meta:
   description: Benefits of your first bike tour
   keywords: Benefits of your first bike tour
