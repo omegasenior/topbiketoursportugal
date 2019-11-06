@@ -6,6 +6,8 @@ language: en
 date: 2017-10-24T23:00:00.000Z
 featuredImage: /img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-5.png
 featuredImagePosition: center center
+tags:
+  - customers stuff
 meta:
   description: Carmen Paz e Fernando bike photos on the Way to Santiago
   keywords: Carmen Paz e Fernando bike photos on the Way to Santiago
