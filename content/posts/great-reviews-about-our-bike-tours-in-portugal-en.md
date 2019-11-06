@@ -7,7 +7,7 @@ date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/bob-review.png
 featuredImagePosition: center center
 tags:
-  - reviews
+  - customers stuff
 meta:
   description: Cyclinh holiday review Bob
   keywords: Cyclinh holiday review Portugal
