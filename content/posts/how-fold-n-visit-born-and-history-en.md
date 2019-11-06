@@ -6,6 +6,8 @@ language: en
 date: 2017-10-28T23:00:00.000Z
 featuredImage: /img/dahon-bicycle.png
 featuredImagePosition: center center
+tags:
+  - company updates
 meta:
   description: How Fold n Visit Born and History
   keywords: How Fold n Visit Born and History
