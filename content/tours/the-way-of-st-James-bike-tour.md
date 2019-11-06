@@ -214,124 +214,88 @@ gallery:
   - alt: FRENCH CAMINO IN A BYCICLE
     image: /img/french-camino-in-a-bycicle4.png
 pricing:
-  - bestValue: true
-    discount: -1
+  - bestValue: false
     en:
-      package: Self Guided bike Tour
+      package: Guided bike tour
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
+        - title: San Sebatian Airport Transfers
+          value: 'Yes'
+        - icon: '-'
+          title: Trains or Bus Tickets
+          value: ''
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 14 lunches
+          value: 'No'
+        - title: 14 Dinners
+          value: 'No'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 15 Nights / 16 Days ( price per person)
+          value: 3.400 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: + 150 €
         - title: Min. Participants
-          value: '2'
+          value: '10'
     highSeasonPriceSupplement: 100
-    price: 1860
+    price: 3400
     type: '1'
   - en:
-      package: Fully Guided Biketour
+      package: Guided bike tour Plus*
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
         - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
+          value: 'Yes'
+        - title: San Sebatian Airport Transfers
+          value: 'Yes'
+        - icon: '-'
+          title: Trains or Bus Tickets
+          value: ''
         - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+          value: ''
         - title: Bike rent
-          value: 'yes'
+          value: 'Yes'
         - title: Guide
-          value: 'yes'
+          value: 'Yes'
         - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
+          value: 'Yes'
+        - title: 14 lunches
+          value: 'Yes'
+        - title: 14 Dinners
+          value: 'Yes'
         - title: Personal Accident Insurance
-          value: 'yes'
+          value: 'Yes'
         - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 'Yes'
+        - title: 15 Nights / 16 Days ( price per person)
+          value: 4.180 €
         - title: 'July, August and September Prices'
-          value: + 100 €
+          value: + 150 €
         - title: Min. Participants
-          value: '2'
+          value: '10'
     highSeasonPriceSupplement: 100
-    price: 1860
-    type: '1'
-  - en:
-      package: Fully Guided Biketour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
-    highSeasonPriceSupplement: 100
-    price: 1860
+    price: 4180
     type: '1'
 ---
 # The Way of St. James BikeTour
