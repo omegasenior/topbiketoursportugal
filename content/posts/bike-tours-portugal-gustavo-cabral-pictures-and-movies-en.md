@@ -6,6 +6,8 @@ language: en
 date: 2017-12-05T00:00:00.000Z
 featuredImage: /img/gustavo-cabral-photos.png
 featuredImagePosition: center center
+tags:
+  - customers stuff
 meta:
   languagePages:
     - path: Gustavo Cabral fotos e videos do caminho ate santiago
