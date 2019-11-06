@@ -141,6 +141,8 @@ gallery:
     image: /img/p1000473_edited-1.jpg
   - alt: FIGUEIRA DA FOZ
     image: /img/figueira-da-foz.jpg
+  - alt: crossing the bridge in Aveiro
+    image: /img/crossing-the-bridge-in-aveiro.jpg
 pricing:
   - bestValue: true
     discount: -1
