@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 path: /from-coimbra-to-lisbon-bike-tour
-productcode: 12
+productcode: SC 02
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
