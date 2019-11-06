@@ -6,6 +6,8 @@ language: en
 date: 2017-10-18T23:00:00.000Z
 featuredImage: /img/bike-tour-douro-valley-photo-1.png
 featuredImagePosition: center center
+tags:
+  - customers stuff
 meta:
   description: Customers with blogs - Equipa JUMA
   keywords: customers in douro valley bike tour
