@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: north-short-route
+productcode: NORTH 02
 featured: false
 language: en
 image: /img/ponte-de-lima.jpg
-productcode: 31
 title: 'North of Portugal Bike tour- short route '
 packagetype: PackageTour
 tourtype: Bike
