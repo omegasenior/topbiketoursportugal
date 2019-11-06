@@ -5,6 +5,14 @@ language: en
 lang: en
 title: Day tours
 afterList: teste
+meta:
+  description: >-
+    Tours porto, Bike Tours, Walking Tours, Guided tours,City Tours Porto
+    portugal
+  keywords: >-
+    city tours,city tours porto,BIKE TOURS PORTO PORTUGAl,walk tours
+    porto,GUIDED TOURS PORTO
+  title: City tours Porto - full day bicycle tours
 feature:
   align: center
   image: /img/porto-boavista-cycling-path.jpg
