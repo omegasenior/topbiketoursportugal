@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-productcode: 11
+productcode: SC 01
 featured: false
 language: en
 image: /img/cycling-plan-in-coasta-nova.jpg
