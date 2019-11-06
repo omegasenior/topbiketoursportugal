@@ -95,6 +95,24 @@ itinerary:
       lat: '42.8804219'
       lng: '-8.5458608'
     title: 'Day 8: Santiago de Compostela'
+gallery:
+  - alt: The central way from Porto to Santiago de Compostela
+    image: >-
+      /img/the-central-way-from-porto-to-santiago-de-compostela-valença-bridge.png
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/thw-central-way-from-porto-to-santiago-de-compostela-2.png
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/thw-central-way-from-porto-to-santiago-de-compostela-3.png
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/6original-route-from-porto-to-santiago-de-compostela.jpg
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/original-route-from-porto-to-santiago-de-compostela-2.jpg
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/original-route-from-porto-to-santiago-de-compostela.jpg
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/original-route-from-porto-to-santiago-de-compostela4.jpg
+  - alt: The central way from Porto to Santiago de Compostela
+    image: /img/original-route-from-porto-to-santiago-de-compostela3.jpg
 pricing: []
 ---
 # Santiago de Compostela BikeTour
