@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
+productcode: SANTIAGO 01
 featured: true
 language: en
 image: >-
   /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
-productcode: 20
 title: Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
