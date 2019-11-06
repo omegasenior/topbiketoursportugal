@@ -4,6 +4,7 @@ path: single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal
 title: Great Reviews about our bike tours in Portugal
 language: en
 date: 2017-10-17T23:00:00.000Z
+featuredImage: /img/bob-review.png
 featuredImagePosition: center center
 meta:
   description: Cyclinh holiday review Bob
