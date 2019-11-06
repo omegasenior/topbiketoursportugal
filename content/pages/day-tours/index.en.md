@@ -1,13 +1,13 @@
 ---
 templateKey: city-tours
 path: /day-tours
-title: Day tours
 language: en
 lang: en
+title: Day tours
 afterList: teste
 feature:
   align: center
-  image: /img/caminho-portugues-de (4).jpg
+  image: /img/porto-boavista-cycling-path.jpg
   imageAlign: center top
   subtitle: Bicycle day tours Portugal
   textcolor: white
