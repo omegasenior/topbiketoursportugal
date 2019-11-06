@@ -1,10 +1,10 @@
 ---
 templateKey: tour-gen
 path: /bike-tours-portugal-douro-wine
+productcode: DOURO 03
 featured: true
 language: en
 image: /img/pinhao13-1-.jpg
-productcode: 03
 title: Trás-os-Montes & Douro international
 packagetype: PackageTour
 tourtype: Bike
