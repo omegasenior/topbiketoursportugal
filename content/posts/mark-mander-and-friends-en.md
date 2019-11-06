@@ -6,6 +6,8 @@ language: en
 date: 2018-06-05T23:00:00.000Z
 featuredImage: /img/mark-mander-and-friends-2.png
 featuredImagePosition: center center
+tags:
+  - customers stuff
 meta:
   description: Mark Mander and friends
   keywords: Mark Mander and friends
