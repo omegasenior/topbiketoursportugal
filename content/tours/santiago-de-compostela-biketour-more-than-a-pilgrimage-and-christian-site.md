@@ -113,7 +113,45 @@ gallery:
     image: /img/original-route-from-porto-to-santiago-de-compostela4.jpg
   - alt: The central way from Porto to Santiago de Compostela
     image: /img/original-route-from-porto-to-santiago-de-compostela3.jpg
-pricing: []
+pricing:
+  - bestValue: false
+    en:
+      package: Self Guided bike Tour
+      packageContents:
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'No'
+        - title: GPS With route per booking
+          value: 'Yes'
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'No'
+        - title: Mechanical Assistance
+          value: 'No'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'No'
+        - title: Liability Insurance
+          value: 'No'
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 1.489 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '2'
+    highSeasonPriceSupplement: 100
+    price: 1489
 ---
 # Santiago de Compostela BikeTour
 
