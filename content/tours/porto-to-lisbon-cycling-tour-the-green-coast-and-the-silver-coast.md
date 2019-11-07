@@ -216,7 +216,7 @@ itinerary:
     location:
       lat: '38.72240025'
       lng: '-9.39690917'
-    title: Day 14 - Cascais - Lisboa (50 km)
+    title: Day 13- Departure to Lisbon
 gallery:
   - alt: sea view
     image: /img/near-the-atlantic-sea-on-a-bicycle.jpg
@@ -256,22 +256,18 @@ Day 4 - Aveiro  -  Praia de Mira (40 Km)
 
 Day 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 
-Day 6 - Figueira da Foz - Coimbra ( 55 Km)
+Day 6 - Figueira da Foz – São Pedro de Moel (65 KM)
 
-Day 7 - Figueira da Foz – São Pedro de Moel (65 KM)
+Day 7: -São Pedro de Moel – Nazaré (29 Km) – praia do norte- giant waves!
 
-Day 8: -São Pedro de Moel – Nazaré (29 Km) – praia do norte- giant waves!
+Day 8 - Nazaré – Óbidos (47 Km) – São Martinho do Porto
 
-Day 9 - Nazaré – Óbidos (47 Km) – São Martinho do Porto
+Day 9 - Óbidos – Peniche (35 Km) –  Óbidos lagoon
 
-Day 10 - Óbidos – Peniche (35 Km) –  Óbidos lagoon
+Day 10 -Peniche – Ericeira (68 Km) – Santa Cruz beach
 
-Day 11 -Peniche – Ericeira (68 Km) – Santa Cruz beach
+Day 11 -Ericeira – Sintra (27 Km)
 
-Day 12 -Ericeira – Sintra (27 Km)
+Day 12 -Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 
-Day 13 -Sintra – Cascais (40 Km) – natural park Sintra- Cascais
-
-Day 14 - Cascais - Lisboa (50 km)
-
-Day 15 - departure
+Day 13 - Departure to Lisbon
