@@ -11,14 +11,16 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - douro
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
-  title: Douro Valley Cycling camp Training
+    Training camp in Portugal. Douro region is great for your train. Funny
+    climbs and descent ways...you will feel in you are in ancient times! Low
+    traffic
+  keywords: >-
+    Douro Valley training camp, road bike in douro valley. road bike tour
+    portugal, road bike
+  title: 'Douro Cycling training camp '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -145,133 +147,25 @@ itinerary:
     title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
 gallery:
   - alt: group 1
-    image: /img/20190920_135559.jpg
+    image: /img/14580389_1324120917632123_99557427_n.jpg
   - alt: group 2
-    image: /img/IMG_20170704_075031_HDR.jpg
-pricing:
-  - bestValue: true
-    discount: -1
-    en:
-      package: Self Guided bike Tour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
-    highSeasonPriceSupplement: 100
-    price: 1860
-    type: '1'
-  - en:
-      package: Fully Guided Biketour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
-    highSeasonPriceSupplement: 100
-    price: 1860
-    type: '1'
-  - en:
-      package: Fully Guided Biketour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'yes'
-        - title: Porto Airport Transfers
-          value: 'yes'
-        - title: Trains or Bus Tickets
-          value: 'yes'
-        - title: Van Support
-          value: 'yes'
-        - title: GPS With route per booking
-          value: 'yes'
-        - title: Bike rent
-          value: 'yes'
-        - title: Guide
-          value: 'yes'
-        - title: Mechanical Assistance
-          value: 'yes'
-        - title: 7 lunches
-          value: 'yes'
-        - title: 7 Dinners
-          value: 'yes'
-        - title: Personal Accident Insurance
-          value: 'yes'
-        - title: Liability Insurance
-          value: 'yes'
-        - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
-    highSeasonPriceSupplement: 100
-    price: 1860
-    type: '1'
+    image: /img/14625511_1324120620965486_1978575785_n.jpg
+pricing: []
 ---
-This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
+# Douro Valley Cycling camp Training
 
+## Training, discovering, quite and fun!
 \
-\
-\
-Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+Douro Valley is know because of the Wine and the great landscape.
+
+Its still an unknow region for several cyclists. Regions like Mallorca are Known for their great cycling camps, because of the weather conditions.
+
+Douro Valley from March to November is also good in terms of weather. Come and train with us, and we will suprise you with our local accommodations that in the majority are farms and also try our local gastronomy. There´s a lot of different activities to complement your stay that will surprise you!
+
+Keep in mind that traffic in Douro Valley is really really really low!
+
+We have the best tarmac roads for you in a region without the usual tourist invasion and traffic if you compare it with Mallorca.What are you waiting for?
+
+We have different daily rides in the region depending on your skills.
+
+Contact us so we can know your physical level and send you a proposal.
