@@ -4,10 +4,16 @@ path: porto-to-lisbon-cycling-tour--en
 productcode: SC 03
 featured: false
 language: en
-image: /img/crossing-the-bridge-in-aveiro.jpg
+image: /img/sintra-photo.jpg
 title: Porto to Lisbon Cycling tour The green Coast and the Silver Coast
 packagetype: PackageTour
 tourtype: Bike
+meta:
+  description: >-
+    Cycle the green Coast and the Silver Coast with is from porto to Lisbon. Ask
+    for a quote.
+  keywords: 'porto to lisbon bike, porto to lisbon biketour'
+  title: Cycling tour from Porto to Lisbon
 itinerary:
   - day: '1'
     location:
