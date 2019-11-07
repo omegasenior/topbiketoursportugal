@@ -152,6 +152,82 @@ pricing:
           value: '2'
     highSeasonPriceSupplement: 100
     price: 1489
+  - bestValue: false
+    en:
+      package: Guided Bike tour
+      packageContents:
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: minimum 8 pax
+        - icon: '-'
+          title: GPS With route per booking
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 1895 €
+        - title: 'July, August and September Prices'
+          value: + 100 €
+        - title: Min. Participants
+          value: '4'
+    highSeasonPriceSupplement: 100
+    price: 1895
+  - bestValue: false
+    en:
+      package: Guided Biketour plus*
+      packageContents:
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'Yes'
+        - icon: '-'
+          title: GPS With route per booking
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'Yes'
+        - title: 6 Dinners
+          value: 'Yes'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
+        - title: 7 Nights / 6 Days ( price per person)
+          value: 2.456 €
+        - title: 'July, August and September Prices'
+          value: +100 €
+        - title: Min. Participants
+          value: '4'
+    highSeasonPriceSupplement: 100
+    price: 2456
 ---
 # Santiago de Compostela BikeTour
 
