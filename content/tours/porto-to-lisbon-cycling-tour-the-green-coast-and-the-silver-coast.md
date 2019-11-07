@@ -264,13 +264,13 @@ pricing:
         - title: Liability Insurance
           value: 'No'
         - title: 12 Nights / 13 Days ( price per person)
-          value: '23'
+          value: 2.779 €
         - title: 'July, August and September Prices'
           value: + 2500 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 23
+    price: 2779
   - bestValue: false
     en:
       package: Guided bike tour
@@ -302,13 +302,13 @@ pricing:
         - title: Liability Insurance
           value: 'Yes'
         - title: 12 Nights / 13 Days ( price per person)
-          value: '23'
+          value: 3.589 €
         - title: 'July, August and September Prices'
           value: + 250 €
         - title: Min. Participants
           value: '4'
     highSeasonPriceSupplement: 100
-    price: 43
+    price: 3591
   - bestValue: false
     en:
       package: Guided bike tour PLUS*
@@ -340,13 +340,13 @@ pricing:
         - title: Liability Insurance
           value: 'Yes'
         - title: 12 Nights / 13 Days ( price per person)
-          value: '33'
+          value: 4.629 €
         - title: 'July, August and September Prices'
           value: + 250 €
         - title: Min. Participants
           value: '4'
     highSeasonPriceSupplement: 100
-    price: 33
+    price: 4629
 ---
 # Porto to Lisbon Cycling tour
 
