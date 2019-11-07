@@ -21,7 +21,21 @@ meta:
     extreme bicycle tour. For those who enjoy riding a bike in extreme and...
   keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
   title: Sightseeing Bike tour Porto
-itinerary: []
+itinerary:
+  - day: '1'
+    description: 'Meeting point for the begining of the Tour '
+    location:
+      lat: '41.15219034'
+      lng: '-8.6108619'
+    title: Store Top Bike tours portugal
+  - day: '2'
+    description: >-
+      Starting the tour we will be passing right in the heart of Porto in the
+      direction of the river Douro.
+    location:
+      lat: '41.1473671'
+      lng: '-8.6114428'
+    title: Avenida dos Aliados
 gallery:
   - alt: bicycle city tour in Aliados
     image: /img/bicycle-city-tour-in-aliados.jpg
