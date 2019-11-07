@@ -232,7 +232,45 @@ gallery:
     image: /img/into-the-forest-with-a-bike.jpg
   - alt: cascais photo
     image: /img/bike-tour-douro-valley-photo-3.png
-pricing: []
+pricing:
+  - bestValue: false
+    en:
+      package: Self Guided bike tour
+      packageContents:
+        - title: Accommodations W/ Breakfast
+          value: 'Yes (3 and 4 stars, farms or rural houses)'
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'No'
+        - title: GPS With route per booking
+          value: 'Yes'
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'No'
+        - title: Mechanical Assistance
+          value: 'No'
+        - title: 11 lunches
+          value: 'No'
+        - title: 11 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'No'
+        - title: Liability Insurance
+          value: 'No'
+        - title: 12 Nights / 13 Days ( price per person)
+          value: '23'
+        - title: 'July, August and September Prices'
+          value: + 2500 €
+        - title: Min. Participants
+          value: '2'
+    highSeasonPriceSupplement: 100
+    price: 23
 ---
 # Porto to Lisbon Cycling tour
 
