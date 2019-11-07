@@ -217,6 +217,15 @@ itinerary:
       lat: '38.72240025'
       lng: '-9.39690917'
     title: Day 14 - Cascais - Lisboa (50 km)
+gallery:
+  - alt: sea view
+    image: /img/near-the-atlantic-sea-on-a-bicycle.jpg
+  - alt: boat in Mira beach
+    image: /img/praia-de-mira.jpg
+  - alt: going in direction of sao pedro de moel
+    image: /img/into-the-forest-with-a-bike.jpg
+  - alt: cascais photo
+    image: /img/bike-tour-douro-valley-photo-3.png
 pricing: []
 ---
 # Porto to Lisbon Cycling tour
