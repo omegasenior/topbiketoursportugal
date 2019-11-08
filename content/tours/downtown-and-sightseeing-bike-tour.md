@@ -124,6 +124,23 @@ gallery:
     image: /img/group-bicycle-tours.jpg
   - alt: bike tour in the sun
     image: /img/portugal-mit-den-frauen-mai-2015-154-1.jpg
+pricing:
+  - bestValue: false
+    en:
+      package: Group price
+      packageContents:
+        - title: Price per person
+          value: 25 €
+    highSeasonPriceSupplement: 100
+    price: 25
+  - bestValue: false
+    en:
+      package: Private Group
+      packageContents:
+        - title: Price per person
+          value: 50 €
+    highSeasonPriceSupplement: 100
+    price: 50
 ---
 \
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
