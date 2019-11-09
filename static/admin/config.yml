@@ -1606,6 +1606,15 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: Team
+            name: team
+            widget: list
+            required: false
+            fields:
+              - { label: Name, name: name, widget: string, required: false }
+              - { label: bio, name: bio, widget: markdown, required: false }
+              - { label: image, name: image, widget: string, required: false }
+              - { label: role, name: role, widget: string, required: false }
           - label: "Meta"
             required: false
             name: "meta"
@@ -1630,6 +1639,7 @@ collections:
                   widget: string,
                   required: false,
                 }
+          
           - label: Feature Image
             name: feature
             widget: object
@@ -1688,6 +1698,15 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: Team
+            name: team
+            widget: list
+            required: false
+            fields:
+              - { label: Name, name: name, widget: string, required: false }
+              - { label: bio, name: bio, widget: markdown, required: false }
+              - { label: image, name: image, widget: string, required: false }
+              - { label: role, name: role, widget: string, required: false }
           - label: "Meta"
             required: false
             name: "meta"
