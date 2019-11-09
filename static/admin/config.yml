@@ -142,6 +142,17 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - label: 'Categories'
+       name: 'categories'
+       widget: 'list'
+       required: false
+       fields:
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'postCategories'
+            searchFields: ['title']
+            valueField: 'title'
       - label: Tags
         required: false
         name: tags
@@ -151,6 +162,14 @@ collections:
         name: "meta"
         widget: "object"
         fields:
+          - {
+              label: "Language",
+              name: "language",
+              widget: "select",
+              multiple: false,
+              options: ["EN", "PT"],
+              required: false,
+            }
           - { label: Title, name: title, widget: string, required: false }
           - {
               label: Description,
@@ -183,6 +202,66 @@ collections:
               - label: "path"
                 name: "path"
                 widget: "string"
+  - name: postCategories
+    label: Post Category
+    editor:
+      preview: false
+    folder: content/postCategories
+    slug: '{{fields.language}} - {{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Path, name: path, widget: string, required: false }
+      - { label: Template, name: template, widget: hidden, default: BlogIndex }
+      - { label: Title, name: title, widget: string }
+      - { label: Subtitle, name: subtitle, widget: string, required: false }
+      - label: Feature Image
+            name: feature
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Sub Title, name: subtitle, widget: string }
+              - {
+                  label: Text Align,
+                  name: align,
+                  widget: string,
+                  required: false,
+                  default: "center",
+                }
+              - { label: Text color, name: textcolor, widget: string }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Align,
+                  name: imageAlign,
+                  widget: string,
+                  required: false,
+                  default: "center center",
+                }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+
   - name: tours
     # extension: md
     # format: markdown
@@ -257,7 +336,7 @@ collections:
           label: Tour Category,
           name: tourcategory,
           widget: list,
-          required: false,
+          required: false
         }
       - { label: Tags, name: tags, widget: list, required: false }
       - label: "Meta"

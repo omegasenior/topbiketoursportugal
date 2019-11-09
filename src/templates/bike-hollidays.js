@@ -291,12 +291,11 @@ export const pageQuery = graphql`
           physicality
           skillLevel
           tags
-          tourcategory
-          tourtype
           pricing {
             price
             discount
           }
+          tourtype
           packagetype
         }
       }

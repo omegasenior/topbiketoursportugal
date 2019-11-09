@@ -37,6 +37,7 @@ const Tourhighlights = ({
             title
             path
             language
+            packagetype
             image {
               childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {

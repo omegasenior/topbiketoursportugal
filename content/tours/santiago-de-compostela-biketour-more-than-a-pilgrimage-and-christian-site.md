@@ -6,10 +6,8 @@ featured: false
 language: en
 image: /img/santiago13.png
 title: 'Santiago de Compostela BikeTour More than a pilgrimage and Christian site '
-packagetype:
-  - PackageTour
-tourtype:
-  - Bike
+packagetype: PackageTour
+tourtype: Bike
 meta:
   description: Start in Porto city cycling thru the way of St. James and discover yourself!
   keywords: >-
