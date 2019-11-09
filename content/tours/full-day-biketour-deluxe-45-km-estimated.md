@@ -4,7 +4,7 @@ path: biketour-porto-deluxe
 productcode: CT 04
 featured: false
 language: en
-image: /img/day-tours-portugal.jpg
+image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3296.jpg
 title: Full Day Biketour Deluxe - 45 KM estimated
 packagetype: SingleTour
 tourtype: Bike
@@ -130,6 +130,19 @@ itinerary:
       lat: '41.3509106'
       lng: '-8.7441761'
     title: Antigo Convento do Carmo
+gallery:
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-1753.jpg
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3346.jpg
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3477.jpg
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3307.jpg
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3253.jpg
+  - alt: povoa de varzom cycling lane
+    image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-1732.jpg
 pricing: []
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim - 45 KM 
