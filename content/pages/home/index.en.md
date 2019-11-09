@@ -1,33 +1,28 @@
 ---
-templateKey: "home-page"
+templateKey: home-page
 path: /
 title: Home
-langKey: en
-lang: en
-language: en
 meta:
-  description: This is a meta description.
-  title: Home Page
-tourHighlights: |
-  Here are reasons you should plan trip with us Handpicked Hotels Lorem
-  ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-  consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-  Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa
+  description: >-
+    Bike tours Portugal: Are you lost in Portugal?Check out our Porto city
+    bicycle tours, as well as our guided and self guided bike tours in Portugal
+  keywords: >-
+    portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
+    porto,cycling holidays portugal
+  title: Portugal Bike tours
 toursection:
-  description: |
-    We have a unique way of meeting your adventurous expectations!
-  descriptionafter: |
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem ipsum
-    dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor.
-    Aenean massa World Class Service Lorem ipsum dolor sit amet, consect
-    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Best Price
-    Guarantee Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
-    commodo ligula eget dolor. Aenean massa
+  description: >-
+    ****[**BIKE TOURS PORTO - BOOK
+    HERE**](https://boring-kepler-5712ff.netlify.com/day-tours)****
+  descriptionafter: >-
+    The combined experience of our team allows us to combine cycling with the
+    historical component and gastronomy. Connoisseurs of excellent hotel
+    services and catering, paths and landscapes that surprise and exceeded
+    expectations.
   heading: |
     ## Popular Tours
 ---
+# BICYCLE TOURS PORTUGAL | NORTH AND SOUTH | BIKE TOURS PORTUGAL
 
 ## Why Choose Us
 
