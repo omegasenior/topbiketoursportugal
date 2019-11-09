@@ -6,10 +6,8 @@ featured: false
 language: en
 image: /img/dscn1620.jpg
 title: E Bike Porto Downtown and Sightseeing bike tour
-packagetype:
-  - PackageTour
-tourtype:
-  - Bike
+packagetype: PackageTour
+tourtype: Bike
 meta:
   description: >-
     Enjoy all around Porto city in a Electric bicycle. Join a group or make it
