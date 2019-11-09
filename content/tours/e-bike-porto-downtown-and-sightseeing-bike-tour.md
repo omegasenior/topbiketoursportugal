@@ -98,7 +98,30 @@ itinerary:
       lat: '41.15576946'
       lng: '-8.6216569'
     title: Igreja de Sao Martinho de Cedofeita
-pricing: []
+gallery:
+  - alt: electric bike tour porto
+    image: /img/extreme-city-park.jpg
+  - alt: electric bike tour porto
+    image: /img/dsc_0026.jpg
+  - alt: electric bike tour porto
+    image: /img/img_20150728_115402.jpg
+pricing:
+  - bestValue: false
+    en:
+      package: Group
+      packageContents:
+        - title: Price per person
+          value: 35 €
+    highSeasonPriceSupplement: 100
+    price: 35
+  - bestValue: false
+    en:
+      package: Private
+      packageContents:
+        - title: Price per person
+          value: 65 €
+    highSeasonPriceSupplement: 100
+    price: 65
 ---
 # E Bike tour Porto Downtown and Sightseeing bike tour
 
