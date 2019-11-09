@@ -143,7 +143,22 @@ gallery:
     image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3253.jpg
   - alt: povoa de varzom cycling lane
     image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-1732.jpg
-pricing: []
+pricing:
+  - bestValue: false
+    en:
+      package: Group
+      packageContents:
+        - title: Price per person
+          value: 198 €
+    highSeasonPriceSupplement: 100
+    price: 198
+  - bestValue: false
+    en:
+      package: 'Private '
+    highSeasonPriceSupplement: 100
+    observations: 260 €
+    price: 260
+    type: Price per person
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim - 45 KM 
 
