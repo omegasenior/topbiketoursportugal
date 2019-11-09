@@ -17,7 +17,7 @@ const PostCard = ({
   className = "",
   ...props
 }) => (
-  <Link to={localizedPath || slug} className={`PostCard ${className}`}>
+  <Link to={path || localizedPath || slug} className={`PostCard ${className}`}>
     {featuredImage && (
       <div className="PostCard--Image relative">
         {/* <Img background fluid={featuredImage.childImageSharp.fluid} alt={title} /> */}

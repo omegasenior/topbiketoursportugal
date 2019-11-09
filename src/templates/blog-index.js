@@ -131,6 +131,7 @@ export const pageQuery = graphql`
         templateKey
         subtitle
         language
+        path
         featuredImage {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
@@ -155,6 +156,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            path
             date
             categories {
               category
