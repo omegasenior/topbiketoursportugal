@@ -126,6 +126,7 @@ module.exports = {
     //     }
     //   }
     // },
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-plugin-sass",
       options: {

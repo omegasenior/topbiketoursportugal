@@ -246,6 +246,7 @@ export const pageQuery = graphql`
           language: { eq: $language }
         }
       }
+      sort: { order: ASC, fields: [frontmatter___order] }
     ) {
       nodes {
         id

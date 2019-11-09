@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
 import {
@@ -20,6 +20,13 @@ import Typography from "@material-ui/core/Typography";
 import { Container } from "styled-container-component";
 import { HTMLContent } from "../components/Content";
 import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
+// import scrollTo from "gatsby-plugin-smoothscroll";
+import { Waypoint } from "react-waypoint";
+import ScrollableAnchor, {
+  goToAnchor,
+  configureAnchors
+} from "react-scrollable-anchor";
+configureAnchors({ offset: -140, scrollDuration: 200 });
 // import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
 
 // import { Youtube } from "styled-icons/boxicons-regular/CheckCircle";
@@ -29,6 +36,13 @@ import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 
 const StyledPaper = styled(Paper)`
   border-radius: 0;
+
+  &.sticky {
+    position: fixed;
+    top: 101px;
+    z-index: 9999;
+    width: 100%;
+  }
 `;
 const StyledContainer = styled(Container)`
   display: block;
@@ -75,9 +89,26 @@ function TourGen({ data }) {
   const tour = { ...data.tour, ...data.tour.frontmatter };
   const { settings } = data;
   const [value, setValue] = React.useState(0);
+  const [stickyNav, setNavState] = React.useState(false);
+
+  const anchors = [
+    "information",
+    "tour-plan",
+    "gallery",
+    /*"reviews",*/ "pricing"
+  ];
 
   function handleChange(_, newValue) {
     setValue(newValue);
+    goToAnchor(anchors[newValue]);
+  }
+
+  function _handleWaypointEnter(_, newValue) {
+    setNavState(false);
+  }
+
+  function _handleWaypointLeave(_, newValue) {
+    setNavState(true);
   }
 
   return (
@@ -87,7 +118,8 @@ function TourGen({ data }) {
       title={tour.title || false}
       feature={tour.feature}
     >
-      <StyledPaper>
+      <Waypoint onEnter={_handleWaypointEnter} onLeave={_handleWaypointLeave} />
+      <StyledPaper className={stickyNav ? "sticky" : ""}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -96,32 +128,48 @@ function TourGen({ data }) {
           centered
         >
           <Tab label="Information" {...a11yProps(0)} />
-          <Tab label="Tour Plan" {...a11yProps(1)} />
-          <Tab label="Gallery" {...a11yProps(2)} />
-          <Tab label="Reviews" {...a11yProps(3)} />
-          <Tab label="Pricing" {...a11yProps(4)} />
-          {/* <Tab label="Locations" {...a11yProps(4)} /> */}
+          {tour.itinerary && <Tab label="Tour Plan" {...a11yProps(1)} />}
+          {tour.gallery && <Tab label="Gallery" {...a11yProps(2)} />}
+          {/* <Tab label="Reviews" {...a11yProps(3)} /> */}
+          {tour.pricing && tour.pricing.length > 0 && (
+            <Tab label="Pricing" {...a11yProps(4)} />
+          )}
         </Tabs>
       </StyledPaper>
 
-      <HTMLContent className="container" content={tour.html} />
+      <ScrollableAnchor id={"information"}>
+        <HTMLContent className="container" content={tour.html} />
+      </ScrollableAnchor>
 
-      <div className="container">
-        {tour.itinerary && <TourPlan tour={tour} {...settings}></TourPlan>}
-      </div>
-      {tour.pricing && <TourPricing tour={tour}></TourPricing>}
+      {tour.itinerary && (
+        <ScrollableAnchor id={"tour-plan"}>
+          <div className="container">
+            <TourPlan tour={tour} {...settings}></TourPlan>
+          </div>
+        </ScrollableAnchor>
+      )}
+
+      {tour.pricing && (
+        <ScrollableAnchor id={"pricing"}>
+          <div className="container">
+            <TourPricing tour={tour}></TourPricing>
+          </div>
+        </ScrollableAnchor>
+      )}
+
       {/* <TourReviews tour={tour}></TourReviews> */}
-      {tour.gallery && <TourGallery tour={tour}>1</TourGallery>}
-      <StyledContainer fluid>
-        <TabPanel value={value} index={0}></TabPanel>
-        <TabPanel value={value} index={1} tour={tour}></TabPanel>
-        <TabPanel value={value} index={2}></TabPanel>
-        <TabPanel value={value} index={3}></TabPanel>
-        <TabPanel value={value} index={4}></TabPanel>
-        {/* <TabPanel value={value} index={4}>
-          <TourLocations tour={tour}></TourLocations>
-        </TabPanel> */}
-      </StyledContainer>
+
+      {tour.gallery && (
+        <ScrollableAnchor id={"gallery"}>
+          <div className="container">
+            <TourGallery tour={tour} />
+          </div>
+        </ScrollableAnchor>
+      )}
+
+      <ScrollableAnchor id={"the-fine-print"}>
+        <div className="container"></div>
+      </ScrollableAnchor>
     </Layout>
   );
 }

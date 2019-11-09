@@ -152,7 +152,7 @@ pricing:
         - title: Liability Insurance
           value: 'No'
         - title: 6 Nights / 7 Days ( price per person)
-          value: 1.589 €
+          value: 1.860 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
