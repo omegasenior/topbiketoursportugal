@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: single-post/2018/12/21/Benefits-of-your-first-bike-tour
+path: /single-post/2018/12/21/Benefits-of-your-first-bike-tour
 title: Benefits of your first bike tour!
 language: en
 date: 2018-12-21T00:00:00.000Z
@@ -11,10 +11,12 @@ tags:
 meta:
   description: Benefits of your first bike tour
   keywords: Benefits of your first bike tour
-  languagePages:
-    - path: beneficios do seu primeiro passeio em bicicleta
-      language: pt
   title: Benefits of your first bike tour
+languagePages:
+  - path: beneficios do seu primeiro passeio em bicicleta
+    language: pt
+categories:
+  - category: Updates
 ---
 # Benefits of your first bike tour!
 

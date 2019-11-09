@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: single-post/2017/10/29/How-Fold-n-Visit-Born-and-History
+path: /single-post/2017/10/29/How-Fold-n-Visit-Born-and-History
 title: How Fold n Visit Born and History
 language: en
 date: 2017-10-28T23:00:00.000Z
@@ -11,10 +11,12 @@ tags:
 meta:
   description: How Fold n Visit Born and History
   keywords: How Fold n Visit Born and History
-  languagePages:
-    - path: 'historia da empresa '
-      language: pt
   title: How Fold n Visit Born and History
+languagePages:
+  - path: 'historia da empresa '
+    language: pt
+categories:
+  - category: Updates
 ---
 # How Fold n Visit Born and History
 

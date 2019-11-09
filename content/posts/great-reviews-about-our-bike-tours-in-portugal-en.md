@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal
+path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal
 title: Great Reviews about our bike tours in Portugal
 language: en
 date: 2017-10-17T23:00:00.000Z
@@ -11,8 +11,10 @@ tags:
 meta:
   description: Cyclinh holiday review Bob
   keywords: Cyclinh holiday review Portugal
-  languagePages: []
   title: Cyclinh holiday review Bob
+languagePages: []
+categories:
+  - category: Updates
 ---
 # Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo
 

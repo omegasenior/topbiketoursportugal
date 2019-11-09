@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: >-
-  ingle-post/2018/10/11/Darren-Alff-article-about-our-bike-tour-The-Way-of-Saint-James
+  /single-post/2018/10/11/Darren-Alff-article-about-our-bike-tour-The-Way-of-Saint-James
 title: Darren Alff article about our bike tour The Way of Saint James
 language: en
 date: 2018-09-10T23:00:00.000Z
@@ -12,10 +12,12 @@ tags:
 meta:
   description: Darren Alff article about our bike tour The Way of Saint James
   keywords: Darren Alff article about our bike tour The Way of Saint James
-  languagePages:
-    - path: artigo de bloguer no caminho de santiago em bicicleta
-      language: pt
   title: Darren Alff article about our bike tour The Way of Saint James
+languagePages:
+  - path: artigo de bloguer no caminho de santiago em bicicleta
+    language: pt
+categories:
+  - category: Updates
 ---
 # Darren Alff article about our bike tour The Way of Saint James
 

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: single-post/2017/10/18/Website-link-changed-to-wwwtopbiketoursportugalcom
+path: /single-post/2017/10/18/Website-link-changed-to-wwwtopbiketoursportugalcom
 title: Website link changed to www.topbiketoursportugal.com
 language: en
 date: 2017-10-17T23:00:00.000Z
@@ -11,8 +11,10 @@ tags:
 meta:
   description: Fold n´Visit as changed the old website link and logo
   keywords: ''
-  languagePages: []
   title: Fold n´Visit as changed the old website link and logo
+languagePages: []
+categories:
+  - category: Updates
 ---
 Fold n´Visit as changed the old website link www.foldnvisit.com to a new one www.topbiketoursportugal.com.
 
