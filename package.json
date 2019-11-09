@@ -104,6 +104,7 @@
     "reakit-theme-default": "^0.2.0",
     "recompose": "^0.30.0",
     "showdown": "^1.9.1",
+    "smooth-scroll": "^16.1.0",
     "smoothscroll-polyfill": "^0.4.4",
     "styled-bootstrap-components": "^4.0.0",
     "styled-button-component": "^4.0.0",

@@ -143,16 +143,16 @@ collections:
         name: body
         widget: markdown
       - label: 'Categories'
-       name: 'categories'
-       widget: 'list'
-       required: false
-       fields:
-          - label: 'Category'
-            name: 'category'
-            widget: 'relation'
-            collection: 'postCategories'
-            searchFields: ['title']
-            valueField: 'title'
+        name: 'categories'
+        widget: 'list'
+        required: false
+        fields:
+           - label: 'Category'
+             name: 'category'
+             widget: 'relation'
+             collection: 'postCategories'
+             searchFields: ['title']
+             valueField: 'title'
       - label: Tags
         required: false
         name: tags
