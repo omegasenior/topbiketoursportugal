@@ -21,7 +21,71 @@ meta:
     wlaking tour portugal
   title: 'Walking tours Porto: Guided tours Portugal'
 distance: -1
-itinerary: []
+itinerary:
+  - day: '1'
+    description: Meeting Point
+    location:
+      lat: '41.15229612'
+      lng: '-8.61093253'
+    title: Top Bike tours Portugal
+  - day: '2'
+    description: >-
+      One of the most iconic avenues of Porto, with its monumental buildings and
+      city hall surrounding you.
+    location:
+      lat: '41.14918105'
+      lng: '-8.61075461'
+    title: Avenida dos Aliados
+  - day: '3'
+    description: >-
+      Standing next to one another, lie these two beautiful churches, having
+      between them the smallest house in the entire city.
+    location:
+      lat: '41.15043718'
+      lng: '-8.62380087'
+    title: Igreja do Carmo
+  - day: '4'
+    description: >-
+      The most known library in town, Lello & Irmão, was numerous times
+      considered amongst the most beautiful in the world.
+    location:
+      lat: '41.14689325'
+      lng: '-8.61478672'
+    title: Livraria Lello
+  - day: '5'
+    description: >-
+      Hovering above all nearby buildings, it is hard for it to pass unnoticed,
+      even for the more untrained eyes.
+    location:
+      lat: '41.14565045'
+      lng: '-8.61464435'
+    title: Torre dos Clerigos
+  - day: '6'
+    description: >-
+      The train station of São Bento is certainly one of the main attractions of
+      the city. Here you will be able to see its tiles in all their glory, a
+      total of 20000 tiles.
+    location:
+      lat: '41.14537273'
+      lng: '-8.61013234'
+    title: Sao Bento Railway Station
+  - day: '7'
+    description: >-
+      Henry the Navigator is without a doubt one of the main figures of
+      Portuguese history, due to its ties to the start of the Portuguese
+      discoveries.
+    location:
+      lat: '41.14119467'
+      lng: '-8.6149013'
+    title: Jardim do Infante Dom Henrique
+  - day: '8'
+    description: >-
+      Certainly the ex libris of the city of Porto, Ribeira, lies alongside the
+      river, having been for many centuries the main comercial area of the city.
+    location:
+      lat: '41.14022957'
+      lng: '-8.61360312'
+    title: Cais da Ribeira
 gallery:
   - alt: city walk tour porto portugal
     image: /img/walking-tour-group-photo-with-cycling-holiday-group.jpg
@@ -35,7 +99,23 @@ gallery:
     image: /img/walking-tour-porto-with-marta.jpg
   - alt: walking tour with students
     image: /img/walking-tour-porto-with-students.jpg
-pricing: []
+pricing:
+  - bestValue: false
+    en:
+      package: Price per person
+      packageContents:
+        - title: Group price
+          value: 25 €
+    highSeasonPriceSupplement: 100
+    price: 22
+  - bestValue: false
+    en:
+      package: Private price
+      packageContents:
+        - title: Price per person
+          value: 50 €
+    highSeasonPriceSupplement: 100
+    price: 50
 ---
 
 # Walking tour - Oporto’s Downtown

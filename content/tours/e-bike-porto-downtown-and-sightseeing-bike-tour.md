@@ -1,27 +1,22 @@
 ---
 templateKey: tour-gen
-path: bike-tour-sightseeing-porto
-productcode: CT 01
+path: electric-bike-tour-porto
+productcode: CT 05
 featured: false
 language: en
-image: /img/porto-downtown-and-sightseeing-bike-tour.jpg
-title: Downtown and Sightseeing bike tour
-packagetype: SingleTour
-tourtype: Bike
-tourcategory:
+image: /img/dscn1620.jpg
+title: E Bike Porto Downtown and Sightseeing bike tour
+packagetype:
+  - PackageTour
+tourtype:
   - Bike
-tags:
-  - city tours
-  - porto
-  - oporto
-  - bicycle tours porto
 meta:
   description: >-
-    Speed, urban history, gardens and other green areas are to be taken in this
-    extreme bicycle tour. For those who enjoy riding a bike in extreme and...
-  keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
-  title: Sightseeing Bike tour Porto
-rating: []
+    Enjoy all around Porto city in a Electric bicycle. Join a group or make it
+    your private group. The city center, the river and sea, all 3 diferent views
+    of porto city
+  keywords: Electric bike tour Porto
+  title: Electric bike tour Porto
 itinerary:
   - day: '1'
     description: 'Meeting point for the begining of the Tour '
@@ -104,61 +99,41 @@ itinerary:
       lng: '-8.6216569'
     title: Igreja de Sao Martinho de Cedofeita
 gallery:
-  - alt: bicycle city tour in Aliados
-    image: /img/bicycle-city-tour-in-aliados.jpg
-  - alt: bike tour in Ferreira Borges market
-    image: /img/bike-tour-in-ferreira-borges-market.jpg
-  - alt: biketour near the sea
-    image: /img/bike-tour-photo-near-the-sea.jpg
-  - alt: city bike tour in raining day
-    image: /img/city-bike-tour-in-raining-day.jpg
-  - alt: city bike tour near the river
-    image: /img/city-bike-tour-near-the-river.jpg
-  - alt: city tour in bicycle lane
-    image: /img/city-tour-in-bicycle-lane.jpg
-  - alt: bike tour in Casa da Musica
-    image: /img/extreme-city-pictures-003.jpg
-  - alt: city bike tour with friends
-    image: /img/extreme-city.jpg
-  - alt: group bike tours with company workers
-    image: /img/group-bicycle-tours.jpg
-  - alt: bike tour in the sun
-    image: /img/portugal-mit-den-frauen-mai-2015-154-1.jpg
+  - alt: electric bike tour porto
+    image: /img/extreme-city-park.jpg
+  - alt: electric bike tour porto
+    image: /img/dsc_0026.jpg
+  - alt: electric bike tour porto
+    image: /img/img_20150728_115402.jpg
 pricing:
   - bestValue: false
     en:
-      package: Group price
+      package: Group
       packageContents:
         - title: Price per person
-          value: 25 €
+          value: 35 €
     highSeasonPriceSupplement: 100
-    price: 25
+    price: 35
   - bestValue: false
     en:
-      package: Private Group
+      package: Private
       packageContents:
         - title: Price per person
-          value: 50 €
+          value: 65 €
     highSeasonPriceSupplement: 100
-    price: 50
+    price: 65
 ---
-\
-Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
-\
-\
-\
-![Downtown and Sightseeing bike tour](/img/sightseeing-porto-bike-tour.png "Downtown and Sightseeing bike tour")
+# E Bike tour Porto Downtown and Sightseeing bike tour
+
+Benefiting from the office's location, the tour starts high up in the city, allowing for an easy bike ride down the center of the city. Meeting the city's main river an ocean, and with all introductions aside, will enable you for a ride along side their clear water and enjoying the wonderful landscapes that give them shape. You will have time to experience all the arquitecture of the city and feel first hand how it slowly grew towards the ocean.
+
+NOTE: The tour can be shared with non e-bike clients.
 
 
-\
-Circuit: São Bento Station, Garden Infante Dom Henrique, Garden Passeio Alegre, Military Fort S. Francisco Xavier, City Park, Boavista Avenue, House of Music and the Garden Teófilo Braga
 
+**Price per person : 35 €**
 
-\
-\
-**Price per person : 25 €**
-
-**Private tour: Price per person: 50 €**
+**Private tour: Price per person: 65 €**
 
 VAT included in price at legal rate
 
