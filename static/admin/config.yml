@@ -215,27 +215,27 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Subtitle, name: subtitle, widget: string, required: false }
       - label: Feature Image
-            name: feature
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Sub Title, name: subtitle, widget: string }
-              - {
-                  label: Text Align,
-                  name: align,
-                  widget: string,
-                  required: false,
-                  default: "center",
-                }
-              - { label: Text color, name: textcolor, widget: string }
-              - { label: Image, name: image, widget: image }
-              - {
-                  label: Align,
-                  name: imageAlign,
-                  widget: string,
-                  required: false,
-                  default: "center center",
-                }
+        name: feature
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Sub Title, name: subtitle, widget: string }
+          - {
+              label: Text Align,
+              name: align,
+              widget: string,
+              required: false,
+              default: "center",
+            }
+          - { label: Text color, name: textcolor, widget: string }
+          - { label: Image, name: image, widget: image }
+          - {
+              label: Align,
+              name: imageAlign,
+              widget: string,
+              required: false,
+              default: "center center",
+            }
       - {
           label: Featured Image,
           name: featuredImage,
