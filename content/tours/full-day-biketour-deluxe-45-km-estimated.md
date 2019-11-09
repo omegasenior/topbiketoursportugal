@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 path: biketour-porto-deluxe
-productcode: Full Day Biketour Deluxe - 45 KM estimated
+productcode: CT 04
 featured: false
 language: en
 image: /img/day-tours-portugal.jpg
