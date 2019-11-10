@@ -10,7 +10,7 @@ feature:
   image: /img/esmoriz-wood-wlak-with-bike.jpg
   imageAlign: center top
   subtitle: ''
-  textcolor: Black
+  textcolor: Orange
   title: Contact us
 ---
 
