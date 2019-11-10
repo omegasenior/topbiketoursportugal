@@ -15,7 +15,7 @@ meta:
   title: City tours Porto - full day bicycle tours
 feature:
   align: center
-  image: /img/porto-boavista-cycling-path.jpg
+  image: /img/44817961982_440e783762_o.jpg
   imageAlign: center top
   subtitle: Bicycle day tours Portugal
   textcolor: white
