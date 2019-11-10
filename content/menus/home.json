@@ -26,13 +26,6 @@
         "order": 1
       },
       {
-        "display": "Blog",
-        "link": "/blog",
-        "enabled": true,
-        "isHome": false,
-        "order": 1
-      },
-      {
         "display": "Calendar",
         "link": "/guided-bike-tours-calendar-portugal",
         "enabled": true,
@@ -42,6 +35,13 @@
       {
         "display": "Bicycles",
         "link": "rent-bike-porto-portugal",
+        "enabled": true,
+        "isHome": false,
+        "order": 1
+      },
+      {
+        "display": "Blog",
+        "link": "/blog",
         "enabled": true,
         "isHome": false,
         "order": 1
