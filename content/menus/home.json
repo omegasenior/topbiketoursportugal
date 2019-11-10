@@ -7,7 +7,7 @@
         "link": "/",
         "description": "Go to homepage",
         "enabled": false,
-        "isHome": false,
+        "isHome": true,
         "order": 1
       },
       {
