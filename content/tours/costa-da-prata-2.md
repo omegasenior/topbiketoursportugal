@@ -12,13 +12,12 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - ''
 meta:
   description: >
     From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
     expect some climbs in this great bike tour
-  keywords: 'Cycling tour sLisbon, bike tours coimbra, bike tour silver Coast'
+  keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
   title: Silver Coast Moderate route 2 till Lisbon
 groupSizeMax: 1
 groupSizeMin: -2
