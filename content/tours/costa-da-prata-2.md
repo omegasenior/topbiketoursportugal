@@ -226,7 +226,7 @@ pricing:
         - title: Liability Insurance
           value: 'No'
         - title: 8 Nights / 9 Days ( price per person)
-          value: 1.860 €
+          value: 1.858 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
@@ -315,9 +315,12 @@ pricing:
     price: 3123
     type: '1'
 ---
+
+
 # Silver Coast Bike tour- Route 2
 
 ## Discover the richness of nature and the sea by the famous Portuguese coast
+
 \
 \
 This cycling tour of the Silver Coast, is an immersive and amazing route that goes along the coast where you‘re going to find some of the most important villages in Portugal. Here you will have a “mix” of beaches and pine forests creating different feelings during the trip.
@@ -328,13 +331,11 @@ Try the best taste in the traditional Portuguese fishing arts, accompanied with 
 
 The amazing monuments like the Castel of Pena and the Castel of Óbidos will bring you back into the centuries through the medieval times. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
 
-
 \
 \
 **Tour Description:** moderated
 
 **Estimated KM:** 394 km
-
 
 \
 \
