@@ -47,7 +47,7 @@ team:
       memorable."
     image: /img/marta.jpg
     name: Marta Pereira
-    role: Guia
+    role: Guide
   - bio: >-
       Born in Espinho in 1988, has a degree in Management and Planning in
       Tourism. In sports,José played professional roller hockey and adventure
@@ -61,7 +61,7 @@ team:
       he is available he participates in guided bike tours,
     image: /img/josé.jpg
     name: José Nogueira
-    role: Guia
+    role: Guide
   - bio: >-
       "Born in 1962  and banking profession I dedicate myself now to my old
       passion : cycling". Pedro started working at the age of 14 in the
@@ -89,7 +89,7 @@ meta:
   keywords: >-
     ABOUT US RENT TOURS,hire a bycicle porto portugal, city tours porto
     portugal,Biking travel
-  title: ''
+  title: About us
 feature:
   align: center
   image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4394.jpg
