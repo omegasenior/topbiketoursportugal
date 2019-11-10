@@ -74,16 +74,25 @@ descriptionafter: >-
   **QUALIFICATION OF COURSE**
 
 
-  * **Easy:** the land of good tread It mainly road or dirt roads;  _Terrain
-  mostly flat stages with daily distances of up to 50km._
+  * **Easy:** _Terrain mostly flat stages with daily distances of up to 50 km.
+  Inexperiente level_
 
-  * _**Moderated:** Mainly dirt roads or trails;_  Terrain mostly flat with
-  daily stages between 40km and 70km or mountainous terrain with average
-  positive slope up to 4%.
+  * _**Easy to moderate**: Terrain mostly flat stages with daily distances
+  between 50 km and 75 km, with some short climbs in 30% in the whole route. For
+  Inexperiente cyclist with some fitness preparation._
 
-  * **Hard:** Land of the floor mainly be dirt roads and tracks with ditches and
-  stones; * Terrain mountainous with daily steps above 50 and positive average
-  slope greater than 4%.
+  * _**Moderated:** Terrain can be in dirt roads or trails;_  Terrain mostly
+  flat with daily stages between 50km and 75km _with some short climbs in 40% in
+  the whole route. For cyclist with fitness preparation._
+
+  * _**Moderated to hard:** Terrain can be in dirt roads or trails;_  Terrain
+  mostly flat with daily stages between 50km and 75km _with moderate climbs in
+  60% in the whole route. For cyclist with fitness preparation that want to
+  challange themselves._
+
+  * **Hard:** T_errain can be in dirt roads or trails;_  Terrain mostly flat
+  with daily stages between 50km and 100km _with sstrong climbs in 60% in the
+  whole route. For Experienced cyclists_
 
 
   **NOTES:**
