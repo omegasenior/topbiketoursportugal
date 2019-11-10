@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-order: 3
+order: 5
 path: food-tour-bike-tour-wine-gastournomy-en
 productcode: CT 03 BIKE TOUR -Food tour | Wine & Gastournomy
 featured: false
