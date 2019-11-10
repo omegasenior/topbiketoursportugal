@@ -95,7 +95,7 @@ feature:
   image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4394.jpg
   imageAlign: center top
   subtitle: ''
-  textcolor: white
+  textcolor: Orange
   title: About us
 ---
 # About us
