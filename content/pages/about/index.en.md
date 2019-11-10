@@ -93,7 +93,7 @@ meta:
 feature:
   align: center
   image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4394.jpg
-  imageAlign: center up
+  imageAlign: center top
   subtitle: ''
   textcolor: white
   title: About us
