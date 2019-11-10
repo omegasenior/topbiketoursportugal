@@ -18,7 +18,9 @@ feature:
   textcolor: white
   title: Our tours calendar
 dates:
-  - body: '<https://www.topbiketoursportugal.com/pt-norte-de-portugal-bike-tour>'
+  - body: >-
+      [The North Bike
+      tour](https://www.topbiketoursportugal.com/north-of-portugal-en)
     date: 2018-09-14T23:00:00.000Z
     type: Date
 ---
