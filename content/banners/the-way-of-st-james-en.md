@@ -2,7 +2,7 @@
 key: '2'
 language: en
 banner: true
-order: 1
+order: 2
 title: The way of St. James
 goto:
   link: santiago-de-compostela-coastal-route
