@@ -7,7 +7,7 @@ meta:
   title: Contact Page
 feature:
   align: center
-  image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-0071.jpg
+  image: /img/esmoriz-wood-wlak-with-bike.jpg
   imageAlign: center top
   subtitle: ''
   textcolor: Black
