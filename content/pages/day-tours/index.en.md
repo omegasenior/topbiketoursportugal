@@ -16,7 +16,7 @@ meta:
 feature:
   align: center
   image: /img/44817961982_440e783762_o.jpg
-  imageAlign: center top
+  imageAlign: center center
   subtitle: Bicycle day tours Portugal
   textcolor: white
   title: Day tours
