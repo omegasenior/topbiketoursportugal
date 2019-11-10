@@ -6,8 +6,8 @@
         "display": "Home",
         "link": "/",
         "description": "Go to homepage",
-        "enabled": true,
-        "isHome": true,
+        "enabled": false,
+        "isHome": false,
         "order": 1
       },
       {
@@ -35,6 +35,13 @@
       {
         "display": "Calendar",
         "link": "/guided-bike-tours-calendar-portugal",
+        "enabled": true,
+        "isHome": false,
+        "order": 1
+      },
+      {
+        "display": "Bicycles",
+        "link": "rent-bike-porto-portugal",
         "enabled": true,
         "isHome": false,
         "order": 1
