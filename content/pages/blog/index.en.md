@@ -1,5 +1,6 @@
 ---
 templateKey: blog-index
+path: /blog
 title: Blog Page
 meta:
   canonicalLink: ''
