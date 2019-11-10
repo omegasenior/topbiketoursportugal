@@ -1,5 +1,6 @@
 ---
 templateKey: tour-gen
+order: 1
 path: santiago-de-compostela-coastal-route
 productcode: SANTIAGO 01
 featured: true
