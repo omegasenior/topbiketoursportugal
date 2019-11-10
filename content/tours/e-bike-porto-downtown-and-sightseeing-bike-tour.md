@@ -107,18 +107,14 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Group
-      packageContents:
-        - title: Price per person
-          value: 35 €
+      package: Price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 35
   - bestValue: false
     en:
-      package: Private
-      packageContents:
-        - title: Price per person
-          value: 65 €
+      package: 'Private: Price per person'
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 65
 ---
