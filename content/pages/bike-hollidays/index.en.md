@@ -5,7 +5,7 @@ title: Bike Hollidays
 descriptionafter: >-
   **IT IS IMPORTANT THAT YOU READ ALL GENERAL INFORMATION ABOUT CYCLE TOURS
   BEFORE BOOKING YOUR BIKE TOUR. FOR ANY FURTHER QUESTION DO NOT HESITATE TO
-  CONTACT US** \
+  CONTACT US** 
 
 
   In our tours we provide special attention to the welfare of the customer.
@@ -74,14 +74,14 @@ descriptionafter: >-
   **QUALIFICATION OF COURSE**
 
 
-  **Easy:** the land of good tread It mainly road or dirt roads;  _Terrain
-  mostly flat stages with daily distances of up to 50km.
+  * **Easy:** the land of good tread It mainly road or dirt roads;  _Terrain
+  mostly flat stages with daily distances of up to 50km._
 
-  **Moderated:** Mainly dirt roads or trails;_  Terrain mostly flat with daily
-  stages between 40km and 70km or mountainous terrain with average positive
-  slope up to 4%.
+  * _**Moderated:** Mainly dirt roads or trails;_  Terrain mostly flat with
+  daily stages between 40km and 70km or mountainous terrain with average
+  positive slope up to 4%.
 
-  **Hard:** Land of the floor mainly be dirt roads and tracks with ditches and
+  * **Hard:** Land of the floor mainly be dirt roads and tracks with ditches and
   stones; * Terrain mountainous with daily steps above 50 and positive average
   slope greater than 4%.
 
@@ -93,7 +93,6 @@ descriptionafter: >-
 
   Fold N'Visit - Rent a Bike, Unipessoal is iregistered in Tourism of Portugal
   with RNAAT number 7/2014.
-
 
 
   The liability insurance and personal accidents are included only in guided
