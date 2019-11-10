@@ -12,6 +12,7 @@ import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
 import { sum, min } from "lodash-es";
+import showdown from "showdown";
 
 // import { display } from "@material-ui/system";
 // import { CenterFocusStrong } from "styled-icons/material";
@@ -130,7 +131,7 @@ function ToursListPage({ data }) {
   });
 
   // console.log(JSON.stringify(tours));
-
+  const converter = new showdown.Converter();
   const toursPage = data.toursPage;
   return (
     <Layout
@@ -215,6 +216,17 @@ function ToursListPage({ data }) {
               })}
           </Row>
         </Container>
+        {toursPage.frontmatter.descriptionafter && (
+          <>
+            <br />
+            <HTMLContent
+              content={converter.makeHtml(
+                toursPage.frontmatter.descriptionafter
+              )}
+              className="container"
+            />
+          </>
+        )}
       </section>
     </Layout>
   );
@@ -237,6 +249,7 @@ export const pageQuery = graphql`
         title
         language
         description
+        descriptionafter
       }
     }
     allTourJson: allMarkdownRemark(

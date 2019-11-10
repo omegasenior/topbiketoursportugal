@@ -220,7 +220,8 @@ module.exports = {
             options: {
               destinationDir: "static"
             }
-          }
+          },
+          `gatsby-remark-embedder`
         ]
       }
     },
@@ -252,7 +253,7 @@ module.exports = {
         path: `./src/data/`
       }
     },
-    
+
     // `gatsby-plugin-postcss`,
     "gatsby-plugin-purgecss", // must be after other CSS plugins
     // {
