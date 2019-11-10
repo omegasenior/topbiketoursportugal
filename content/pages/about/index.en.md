@@ -57,8 +57,8 @@ team:
       experience as a guide for city tours and cycling holidays.
 
 
-      José now as is owne compay and works with little kidas after classes. When
-      he is available he participates in guided bike tours,
+      José now as is owne compay and works with little kids after classes. When
+      available he participates in our guided bike tours.
     image: /img/josé.jpg
     name: José Nogueira
     role: Guide
