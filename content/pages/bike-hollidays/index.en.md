@@ -95,6 +95,10 @@ descriptionafter: >-
   whole route. For Experienced cyclists_
 
 
+  **_With electric bicycles all the qualifications of the routes have to be
+  adapted and will be mostly easy for the majority of the cyclists._**
+
+
   **NOTES:**
 
   Cycling Holidays with guide available in the following languages: Portugues,
