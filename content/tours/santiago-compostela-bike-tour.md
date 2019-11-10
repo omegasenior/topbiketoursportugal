@@ -30,7 +30,7 @@ minAge: 2
 skillLevel: 3
 distance: 278
 distanceUnit: Km
-duration: 8
+duration: 6
 durationUnit: 'Days '
 difficulty: 3
 physicality: 1
