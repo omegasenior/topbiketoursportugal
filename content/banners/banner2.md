@@ -6,9 +6,9 @@ order: 2
 title: Book a guided bike tour!
 description: Lots onf informations and great photos
 goto:
-  link: /bike-tour-sightseeing-porto
-  linktext: Read more
-  linktitle: Read more
+  link: /guided-bike-tours-calendar-portugal
+  linktext: Book a guided bike tour!
+  linktitle: Book a guided bike tour!
 image: /img/lagoons-biketour.jpg
 titleColor: '#fff'
 subtitleColor: '#fff'
