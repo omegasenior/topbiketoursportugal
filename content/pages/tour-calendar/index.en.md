@@ -14,7 +14,7 @@ meta:
 feature:
   align: center
   image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
-  imageAlign: center center
+  imageAlign: center top
   textcolor: white
   title: Our tours calendar
 dates:
