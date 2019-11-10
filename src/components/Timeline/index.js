@@ -1,5 +1,7 @@
 import React from "react";
 import { sortBy, uniq, filter } from "lodash-es";
+import showdown from "showdown";
+import { HTMLContent } from "../Content";
 
 import "./timeline.scss";
 export const Timeline = ({ dates }) => {
@@ -21,6 +23,8 @@ export const Timeline = ({ dates }) => {
 
   var years = sortBy(uniq(dates.map(i => new Date(i.date).getFullYear())));
   // console.log(JSON.stringify(years));
+
+  const converter = new showdown.Converter();
 
   return (
     <div className="page">
@@ -52,7 +56,10 @@ export const Timeline = ({ dates }) => {
                   </div>
                   <div className="timeline__post">
                     <div className="timeline__content">
-                      <p>{item.body}</p>
+                      <HTMLContent
+                        className="container tourTitle"
+                        content={converter.makeHtml(item.body)}
+                      />
                     </div>
                   </div>
                 </div>
