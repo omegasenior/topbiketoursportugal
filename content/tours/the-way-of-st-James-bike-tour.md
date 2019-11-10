@@ -23,14 +23,14 @@ meta:
     SANTIAGO DE COMPOSTELA INA BICYCLE
   title: 'Guided Bike tour to Santiago de Compostela in the french way '
 groupSizeMax: 1
-groupSizeMin: -2
-minAge: 1
+groupSizeMin: 20
+minAge: 16
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
-difficulty: 1
+distance: 791
+distanceUnit: kms
+duration: 16
+durationUnit: days
+difficulty: 3
 physicality: 1
 rating: []
 itinerary:
