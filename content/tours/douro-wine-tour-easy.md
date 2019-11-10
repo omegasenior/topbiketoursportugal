@@ -3,7 +3,7 @@ templateKey: tour-gen
 order: 6
 path: /douro-valley-wine-tour
 productcode: DOURO 02
-featured: true
+featured: false
 language: en
 image: /img/pinhao3.jpg
 title: Douro Wine Tour moderate
