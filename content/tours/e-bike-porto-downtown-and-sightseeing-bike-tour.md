@@ -1,12 +1,13 @@
 ---
 templateKey: tour-gen
+order: 2
 path: electric-bike-tour-porto
 productcode: CT 05
 featured: false
 language: en
 image: /img/dscn1620.jpg
 title: E Bike Porto Downtown and Sightseeing bike tour
-packagetype: PackageTour
+packagetype: SingleTour
 tourtype: Bike
 meta:
   description: >-
