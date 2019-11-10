@@ -1,5 +1,7 @@
 ---
 templateKey: tour-gen
+order: 2
+path: porto-to-coimbra-biketour
 productcode: SC 01
 featured: false
 language: en
@@ -177,13 +179,13 @@ pricing:
         - title: Liability Insurance
           value: 'No'
         - title: 6 Nights / 7 Days ( price per person)
-          value: 1.340 €
+          value: 1.360 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    price: 140
+    price: 1360
     type: '1'
   - en:
       package: Guided Biketour

@@ -1,9 +1,9 @@
 ---
 templateKey: tour-gen
-order: 9999
+order: 89
 path: /french-way-to-santiago-bike-tour
 productcode: SANTIAGO 03
-featured: true
+featured: false
 language: en
 image: /img/santiago1.png
 title: The Way of St. James BikeTour - The French Way

@@ -1,8 +1,9 @@
 ---
 templateKey: tour-gen
+order: 3
 path: /north-of-portugal-en
 productcode: NORTH 01
-featured: false
+featured: true
 language: en
 image: /img/ponte-de-lima.jpg
 title: North of Portugal Bike tour

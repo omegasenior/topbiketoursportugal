@@ -1,5 +1,6 @@
 ---
 templateKey: tour-gen
+order: 8
 path: biketour-porto-deluxe
 productcode: CT 04
 featured: false
@@ -160,7 +161,7 @@ pricing:
     price: 260
     type: Price per person
 ---
-# Full Day Biketour: Porto to Póvoa de Varzim - 45 KM 
+# Full Day Biketour: Porto to Póvoa de Varzim
 
 ## ( Historical+Gastronomy+Sightseeing bike tour)
 
@@ -175,6 +176,7 @@ Experience the unmatched Portuguese northern coast, where you can find various c
 * All year
 * Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
 * Minimum participants: 2
+* 45 km
 
 **Includes:** 
 

@@ -1,12 +1,13 @@
 ---
 templateKey: tour-gen
+order: 2
 path: electric-bike-tour-porto
 productcode: CT 05
 featured: false
 language: en
 image: /img/dscn1620.jpg
 title: E Bike Porto Downtown and Sightseeing bike tour
-packagetype: PackageTour
+packagetype: SingleTour
 tourtype: Bike
 meta:
   description: >-
@@ -106,18 +107,14 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Group
-      packageContents:
-        - title: Price per person
-          value: 35 €
+      package: Price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 35
   - bestValue: false
     en:
-      package: Private
-      packageContents:
-        - title: Price per person
-          value: 65 €
+      package: 'Private: Price per person'
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 65
 ---

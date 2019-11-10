@@ -7,6 +7,8 @@ language: en
 date: 2018-09-10T23:00:00.000Z
 featuredImage: /img/darren-alf-bicycle-holiday-group-to-santiago.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - bloguers articles
 meta:
@@ -16,8 +18,6 @@ meta:
 languagePages:
   - path: artigo de bloguer no caminho de santiago em bicicleta
     language: pt
-categories:
-  - category: Updates
 ---
 # Darren Alff article about our bike tour The Way of Saint James
 
@@ -25,11 +25,11 @@ categories:
 
 Read the full article in this link:
 
-<https://bicycletouringpro.com/saint-james-bike-tour/>
+http://bit.ly/36QmXxq
 
 Also the videos available on youtube:
 
-<https://www.youtube.com/watch?v=cF3aU8J1bGI>
+https://www.youtube.com/watch?v=cF3aU8J1bGI
 
 "The Camino de Santiago is known in English as the Way of Saint James and is a network of hiking and biking paths leading to the shrine of the apostle Saint James the Great in the cathedral of Santiago de Compostela in northwestern Spain, where tradition has it that the remains of the saint are buried.
 

@@ -3,12 +3,12 @@ key: '1'
 language: en
 banner: true
 order: 1
-title: Discover The way of Saint Jamnes coastal path
+title: Discover The way of Saint James coastal path from Porto
 description: A beautifull tour on bike filled with history and great sceneries.
 goto:
-  link: /santiago-de-compostela-bike-tour-costal-path/
-  linktext: Read more
-  linktitle: Read more
+  link: /santiago-de-compostela-coastal-route
+  linktext: Bucket list bike tour!
+  linktitle: A bike tour of a lifetime
 image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3826.jpg
 titleColor: '#fff'
 subtitleColor: '#fff'

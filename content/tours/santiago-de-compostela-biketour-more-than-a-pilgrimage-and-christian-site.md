@@ -1,5 +1,6 @@
 ---
 templateKey: tour-gen
+order: 14
 path: santiago-de-compostela-original-route-from-porto
 productcode: SANTIAGO 02
 featured: false

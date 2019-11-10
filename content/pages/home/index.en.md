@@ -11,20 +11,15 @@ meta:
     porto,cycling holidays portugal
   title: Portugal Bike tours
 toursection:
-  description: >-
-    ****[**BIKE TOURS PORTO - BOOK
-    HERE**](https://boring-kepler-5712ff.netlify.com/day-tours)****
+  description: '## Popular tours'
   descriptionafter: >-
     The combined experience of our team allows us to combine cycling with the
     historical component and gastronomy. Connoisseurs of excellent hotel
     services and catering, paths and landscapes that surprise and exceeded
     expectations.
-  heading: |
-    ## Popular Tours
+  heading: "# BICYCLE\_TOURS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_BIKE TOURS PORTUGAL"
 ---
-# BICYCLE TOURS PORTUGAL | NORTH AND SOUTH | BIKE TOURS PORTUGAL
-
-## Why Choose Us
+## **Why Choose Us**
 
 \
 Visit all around Portugal in a bicycle with our expertise guides.
@@ -40,3 +35,5 @@ Safety is our priority and we will be always near to help.
 We choose the best restaurants and hotels for your needs. Lunch and dinner when not included in our guided packages will also be organized for your group.
 
 Our store is in Porto city where we also do city bike tours. Although our base is in the North of Portugal we operate in all around the country.
+
+#
