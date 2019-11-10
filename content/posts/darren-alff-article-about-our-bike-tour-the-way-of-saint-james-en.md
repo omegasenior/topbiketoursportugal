@@ -29,7 +29,7 @@ http://bit.ly/36QmXxq
 
 Also the videos available on youtube:
 
-![https://www.youtube.com/watch?v=cF3aU8J1bGI]()
+https://www.youtube.com/watch?v=cF3aU8J1bGI
 
 "The Camino de Santiago is known in English as the Way of Saint James and is a network of hiking and biking paths leading to the shrine of the apostle Saint James the Great in the cathedral of Santiago de Compostela in northwestern Spain, where tradition has it that the remains of the saint are buried.
 
