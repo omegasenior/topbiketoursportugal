@@ -221,6 +221,30 @@ pricing:
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
+    observations: |-
+      testes
+
+      teste
+
+      teste
+
+      testes
+
+      teste
+
+      teste
+
+      testes
+
+      teste
+
+      teste
+
+      testes
+
+      teste
+
+      teste
     price: 1489
     type: '1'
   - bestValue: true
