@@ -4,7 +4,7 @@ path: /day-tours
 language: en
 lang: en
 title: Day tours
-afterList: teste
+afterList: '## `The best way to know Poprtugal is in a bicycle`'
 meta:
   description: >-
     Join a city tour or a full day in douro valley, in the montains , near the
