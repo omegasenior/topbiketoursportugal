@@ -257,14 +257,27 @@ function TourGen({ data }) {
                   className="tour-booking-enquiry-form tour-booking-form-field tour-booking-with-border"
                   id="tour-booking-enquiry-form"
                 >
-                  <input type="hidden" name="product-code" value={tour.productcode} />
+                  <input
+                    type="hidden"
+                    name="product-code"
+                    value={tour.productcode}
+                  />
 
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
                     <div className="tour-booking-head">
                       Full Name<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
-                      <input type="text" name="full-name" />
+                      <input type="text" name="full-name" required />
+                    </div>
+                  </div>
+
+                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
+                    <div className="tour-booking-head">
+                      Country <span className="tour-booking-req">*</span>
+                    </div>
+                    <div className="tour-booking-tail">
+                      <input type="text" name="country" required />
                     </div>
                   </div>
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-email-address tour-booking-type-email">
@@ -272,7 +285,31 @@ function TourGen({ data }) {
                       Email Address<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
-                      <input type="email" name="email-address" />
+                      <input type="email" name="email-address" required />
+                    </div>
+                  </div>
+                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
+                    <div className="tour-booking-head">Phone</div>
+                    <div className="tour-booking-tail">
+                      <input type="text" name="phone" />
+                    </div>
+                  </div>
+                  <div className="form-group">
+                    <div className="tour-booking-head">Tour Type</div>
+                    <div className="tour-booking-tail">
+                      <div className="tour-booking-combobox-wrap">
+                        <select
+                          name="package"
+                          data-required=""
+                          className="form-control"
+                        >
+                          <option value="" selected="">
+                            -
+                          </option>
+                          <option value="Guided">Guided</option>
+                          <option value="Unguided">Unguided</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
                   {/* <div className="tour-booking-enquiry-field tour-booking-enquiry-field-travel-date tour-booking-type-datepicker">
@@ -291,9 +328,7 @@ function TourGen({ data }) {
                     </div>
                   </div> */}
                   <div className="form-group">
-                    <div className="tour-booking-head">
-                      Person<span className="tour-booking-req">*</span>
-                    </div>
+                    <div className="tour-booking-head">Person</div>
                     <div className="tour-booking-tail">
                       <div className="tour-booking-combobox-wrap">
                         <select
@@ -302,7 +337,7 @@ function TourGen({ data }) {
                           className="form-control"
                         >
                           <option value="" selected="">
-                            Person
+                            -
                           </option>
                           <option value="1-4">1-4</option>
                           <option value="5-9">5-9</option>
@@ -316,7 +351,7 @@ function TourGen({ data }) {
                       Your Enquiry<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
-                      <textarea name="your-enquiry" data-required=""></textarea>
+                      <textarea name="your-enquiry" required></textarea>
                     </div>
                   </div>
                   {/* <div className="tour-booking-enquiry-term">
