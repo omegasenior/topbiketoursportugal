@@ -108,7 +108,7 @@ meta:
   title: Bike tours Portugal - Bicycle tours Portugal
 feature:
   align: center
-  image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1935.jpg
+  image: /img/furadouro-forest-in-a-bicycle.jpg
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
