@@ -34,14 +34,14 @@
       },
       {
         "display": "Calendar",
-        "link": "/tours-calendar",
+        "link": "/guided-bike-tours-calendar-portugal",
         "enabled": true,
         "isHome": false,
         "order": 1
       },
       {
         "display": "Contacts",
-        "link": "/contact-us",
+        "link": "/contacts",
         "enabled": true,
         "isHome": false,
         "order": 1
@@ -61,54 +61,54 @@
         "display": "Home",
         "link": "/pt",
         "description": "Ir para a homepage",
+        "enabled": true,
         "isHome": true,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Cicloturismo",
         "link": "/pt/cicloturismo",
         "description": "Ver oferta cicloturismo",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Visitas Diárias",
         "link": "/pt/tours-diarias",
         "description": "Ver oferta cicloturismo",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Blog",
         "link": "/pt/blog",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Calendário",
         "link": "/pt/calendario-tours",
         "description": "Ver oferta cicloturismo",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Contactos",
         "link": "/pt/contacte-nos",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       },
       {
         "display": "Sobre nós",
         "link": "/sobre-nos-hire-a-bike",
+        "enabled": true,
         "isHome": false,
-        "order": 1,
-        "enabled":  true
+        "order": 1
       }
     ]
   }
