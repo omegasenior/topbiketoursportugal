@@ -1,5 +1,6 @@
 ---
 templateKey: tour-gen
+order: 6
 path: /douro-valley-wine-tour
 productcode: DOURO 02
 featured: true
@@ -199,7 +200,7 @@ pricing:
         - title: Min. Participants
           value: '4'
     highSeasonPriceSupplement: 100
-    price: 1944
+    price: 1945
     type: '1'
   - en:
       package: Guided bike tour Plus*
