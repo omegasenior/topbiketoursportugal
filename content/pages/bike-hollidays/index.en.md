@@ -109,7 +109,7 @@ meta:
 feature:
   align: center
   image: /img/esmoriz-wood-wlak-with-bike.jpg
-  imageAlign: bottom center
+  imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
