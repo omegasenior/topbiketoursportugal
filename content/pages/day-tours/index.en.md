@@ -7,12 +7,12 @@ title: Day tours
 afterList: teste
 meta:
   description: >-
-    Tours porto, Bike Tours, Walking Tours, Guided tours,City Tours Porto
-    portugal
+    Join a city tour or a full day in douro valley, in the montains , near the
+    sea or river. Van pick up at the end of yout bike tour
   keywords: >-
     city tours,city tours porto,BIKE TOURS PORTO PORTUGAl,walk tours
     porto,GUIDED TOURS PORTO
-  title: City tours Porto - full day bicycle tours
+  title: City tour of day tour
 feature:
   align: center
   image: /img/44817961982_440e783762_o.jpg
