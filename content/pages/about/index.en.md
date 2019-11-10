@@ -100,7 +100,15 @@ feature:
 ---
 # About us
 
-Founded in 2013, Top Bike tours Portugal is a very young company with experience in pedestrian and cycling tours in Porto and long distance cycling routes to the north of the Iberian Peninsula. Our activities are coordinated by tourism professionals, with a huge knowledge of heritage and sports.
+Founded in 2013, Top Bike tours Portugal is a company with experience in pedestrian and cycling tours in Porto and long distance cycling routes to the north of the Iberian Peninsula and all around Portugal. Our activities are coordinated by tourism professionals, with a huge knowledge of heritage and sports.
+
+In 2018 we have changed our name Fold n Visit to Top Biketours Portugal. 
+
+Since 2013 we had a big offer of diferent city tours in Porto and nowadays our core business are the cycling holidays packages. The city tours offer were reduced and we no longer rent bicycles for longer distances. It is possible to follow our history writed in Tripadvisor reviews.
+
+## 
+
+![](/img/guided-bike-tour-in-douro-valley.jpg)
 
 ## What do we do?
 
@@ -111,16 +119,8 @@ We are here to ensure you have the best vacation possible!
 
 We know that everyone is different and individual, with different needs, goals and expectations. Even so, we believe that with our experience, we are able to achieve satisfaction with their needs, goals and expectations!
 
-![](/img/guided-bike-tour-in-douro-valley.jpg)
+https://www.youtube.com/watch?v=zO2uuYBtgt4&t=1s
 
 ## How Top Bike tours Portugal Born?
 
 All started from the owner’s experience, as a cycling passionate, who decided to overcome all difficulties and make a cycling trip to Santiago de Compostela. We started out to be a shop just focused on bicycle rental and maintenance. However, the owner’s objectives were much larger and undoubtedly related to tourism. BornTop Bike tours Portugal , seeking to provide an adequate service to customer needs, showing the best that cycling has to offer without the organizational stress and thus provide the best possible experience, whose value is the key ingredient in the final satisfaction of the customer.
-
-https://www.youtube.com/watch?v=zO2uuYBtgt4&t=1s
-
-
-
-
-
-
