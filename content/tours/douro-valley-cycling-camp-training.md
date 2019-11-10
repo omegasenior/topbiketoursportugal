@@ -3,7 +3,7 @@ templateKey: tour-gen
 order: 20
 path: /douro-valley-cycling-camp-road-bike
 productcode: DOURO 04
-featured: true
+featured: false
 language: en
 image: /img/specialized-diverge-e5-2.jpg
 title: Douro Valley Cycling camp Training
