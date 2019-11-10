@@ -1,5 +1,5 @@
 ---
-key: '1'
+key: '5'
 language: en
 banner: true
 order: 1
