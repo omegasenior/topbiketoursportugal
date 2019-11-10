@@ -12,7 +12,7 @@ meta:
   keywords: >-
     city tours,city tours porto,BIKE TOURS PORTO PORTUGAl,walk tours
     porto,GUIDED TOURS PORTO
-  title: City tour of day tour
+  title: City tour or day tour
 feature:
   align: center
   image: /img/44817961982_440e783762_o.jpg
