@@ -108,7 +108,7 @@ meta:
   title: Bike tours Portugal - Bicycle tours Portugal
 feature:
   align: center
-  image: /img/esmoriz-wood-wlak-with-bike.jpg
+  image: /img/douro16.jpg
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
