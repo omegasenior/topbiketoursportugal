@@ -1,8 +1,8 @@
 ---
-key: '5'
+key: '4'
 language: en
 banner: true
-order: 1
+order: 4
 title: Discover The way of Saint James coastal path from Porto
 description: A beautifull tour on bike filled with history and great sceneries.
 goto:
