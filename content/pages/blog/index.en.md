@@ -4,7 +4,8 @@ path: /blog
 title: Blog Page
 meta:
   canonicalLink: ''
-  description: This is a meta description.
+  description: Blog Page
+  keywords: Blog Page
   title: Blog Page
 feature:
   align: center
