@@ -26,12 +26,12 @@ meta:
   title: Santiago de Compostela Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
-minAge: 1
-skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
+minAge: 2
+skillLevel: 3
+distance: 278
+distanceUnit: Km
+duration: 7
+durationUnit: Days
 difficulty: 1
 physicality: 1
 rating:
