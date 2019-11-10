@@ -1,8 +1,8 @@
 ---
-key: '2'
+key: '3'
 language: en
 banner: true
-order: 2
+order: 3
 title: Book a guided bike tour!
 description: Lots onf informations and great photos
 goto:
