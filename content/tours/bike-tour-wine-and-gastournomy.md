@@ -14,6 +14,7 @@ tags:
   - biketour
   - Porto
   - North
+  - touring bicycle
 meta:
   description: >-
     This food tour includes a visit to wine caves and a meal in a typical
