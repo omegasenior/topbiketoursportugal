@@ -364,9 +364,9 @@ Enjoy as city tour with us in Porto, to get to know a little bit of its architec
 
 \
 \
-**Tour description:** easy / moderate
+**Route classification:**  moderated
 
-**Estimated Km:**  278 km and 4121 m (1.30%) of cumulative gap climbs  
+**Estimated Km:**  278 km and 4121 meters of cumulative gap climbs  
 
 Day 1: Reception at Porto
 
