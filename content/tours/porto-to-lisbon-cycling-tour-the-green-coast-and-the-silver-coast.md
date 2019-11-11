@@ -9,6 +9,18 @@ image: /img/sintra-photo.jpg
 title: Porto to Lisbon Cycling tour The green Coast and the Silver Coast
 packagetype: PackageTour
 tourtype: Bike
+tags:
+  - Cycling Holiday
+  - Coimbra
+  - Lisbon
+  - South
+  - Center
+  - North
+  - Porto
+  - Mountain bicycle
+  - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >-
     Cycle the green Coast and the Silver Coast with is from porto to Lisbon. Ask
