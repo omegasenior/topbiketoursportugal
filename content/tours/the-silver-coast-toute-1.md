@@ -27,10 +27,10 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
+distance: 243
+distanceUnit: Km
+duration: 7
+durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
 rating: []
