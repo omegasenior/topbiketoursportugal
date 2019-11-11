@@ -14,6 +14,7 @@ tourcategory:
 tags:
   - Cycling Holiday
   - Douro
+  - Porto
   - North
   - Biketour
   - road bicycle
