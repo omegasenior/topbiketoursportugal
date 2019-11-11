@@ -12,8 +12,12 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Douro
+  - Porto
+  - North
+  - Biketour
+  - road bicycle
 meta:
   description: >
     The Valley of the Douro, classified as Natural Heritage, is nowadays an
