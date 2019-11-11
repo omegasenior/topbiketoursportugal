@@ -26,11 +26,11 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
-difficulty: 1
+distance: 400
+distanceUnit: Km
+duration: 8
+durationUnit: Days | 7 Nights
+difficulty: 2
 physicality: 1
 rating: []
 itinerary:
@@ -342,9 +342,9 @@ Average temperatures in the Algarve, in the south of Portugal, are usually aroun
 
 \
 \
-**Tour Description:** Easy to moderate  level
+**Route classification:** Easy to moderate  level
 
-**Estimated KM:** 400 km elevation: 3628 m ascent and 3637 m descent
+**Estimated KM:** 400 km elevation: 3628 metres ascent and 3637 metres descent
 
 \
 \
@@ -375,7 +375,7 @@ Day 10 - Departure
 \
 **Tour Description:**  Easy level
 
-**Estimated KM: 254 km** , Elevation: 2528 m ascent and 2538 m descent
+**Estimated KM: 254 km** , Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
 Day 1 – Sines - Vila Nova de Mil Fontes (40 km)
