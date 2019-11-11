@@ -26,10 +26,10 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
+distance: 369
+distanceUnit: Km
+duration: 7
+durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
 rating: []
@@ -228,6 +228,7 @@ pricing:
 # Trás-os-Montes & Douro international
 
 ## For those who enjoy and are delighted with the marvels of the nature and would like to venture further
+
 \
 \
 Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança’s districts.
@@ -237,7 +238,7 @@ This region is considered by many an authentic greenside paradise in the deep va
 The territory boosts breathtaking landscapes of a natural beauty, revealing not only a land rich in vineyards but also in cereals, vegetables and fruits, a typical gastronomy awarded the title of World Heritage. 
 \
 \
-**Tour Description:** Hard
+**Route classification:** Hard
 
 **Estimated KM:** 369 km with 6392 m (1.73%) of cumulative gap climbs 
 \
