@@ -6,7 +6,7 @@ productcode: DOURO 01
 featured: false
 language: en
 image: /img/douro.jpg
-title: Douro Wine Tour Easy
+title: Douro Wine Tour "Easy"
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
