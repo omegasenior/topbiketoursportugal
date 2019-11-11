@@ -18,7 +18,7 @@ meta:
     From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
     expect some climbs in this great bike tour
   keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
-  title: Silver Coast Moderate route 2 till Lisbon
+  title: Silver Coast Moderate route 2
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
