@@ -18,6 +18,8 @@ tags:
   - North
   - Biketour
   - road bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     Training camp in Portugal. Douro region is great for your train. Funny
