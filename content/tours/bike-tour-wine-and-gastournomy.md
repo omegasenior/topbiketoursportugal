@@ -6,7 +6,7 @@ productcode: CT 03 BIKE TOUR -Food tour | Wine & Gastournomy
 featured: false
 language: en
 image: /img/wini-food-bike-tour.jpg
-title: Bike tour Wine and Gastournomy
+title: Bike tour Wine and Gastournomy | Food Tour
 packagetype: SingleTour
 tourtype: Bike
 meta:
