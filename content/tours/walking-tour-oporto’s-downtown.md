@@ -1,5 +1,6 @@
 ---
 templateKey: tour-gen
+order: 99
 path: /walking-tours-porto
 productcode: CT 02
 featured: false
@@ -11,7 +12,11 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - d
+  - city tour
+  - walking tour
+  - Porto
+  - North
+  - hiking
 meta:
   description: >-
     Walking tours in Porto Portugal. The best way to know Porto is doing a
