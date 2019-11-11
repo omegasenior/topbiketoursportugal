@@ -12,8 +12,17 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Alentejo
+  - Lisbon
+  - South
+  - Center
+  - Algarve
+  - Mountain bicycle
+  - touring bicycle
+  - e-bike
+  - electric bicycle
+  - vicentine Coast
 meta:
   description: >
     Start in Lisbon or in Sines in this amazing bike tours thru the south coast
