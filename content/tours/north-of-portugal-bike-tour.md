@@ -15,7 +15,6 @@ tags:
   - Cycling Holiday
   - Porto
   - North
-  - Mountain bicycle
   - touring bicycle
   - e-bike
   - electric bicycle
