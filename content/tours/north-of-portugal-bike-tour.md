@@ -24,10 +24,10 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
+distance: 238
+distanceUnit: KM
+duration: 7
+durationUnit: Days | 6 nights
 difficulty: 1
 physicality: 1
 rating: []
@@ -182,7 +182,7 @@ pricing:
           value: 'No'
         - title: Liability Insurance
           value: 'No'
-        - title: 6 Nights / 5 Days ( price per person)
+        - title: 6 Nights / 7 Days ( price per person)
           value: 1.669 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -285,7 +285,7 @@ The taste of the worldwide known gastronomy and wines are the icing on the cake 
 
 \
 \
-**Tour Description:** Easy 
+**Route classification:** Easy 
 
 **Estimated KM**: 238
 
@@ -309,7 +309,7 @@ Day 7 - Departure
 _**Reduced option:** _
 
 \
-**Tour Description:** Easy 
+**Route classification:** Easy 
 
 **Estimated KM**: 152 km and 1894 m of cumulative gap climbs 
 \
