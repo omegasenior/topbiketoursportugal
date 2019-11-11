@@ -14,7 +14,14 @@ tourcategory:
   - Bike
 tags:
   - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Porto
+  - North
+  - Biketour
+  - road bicycle
+  - e-bike
+  - electric bicycle
+  - Spain
 meta:
   description: >
     This cycling tour presents itself as na easy route to reach to Santiago de
