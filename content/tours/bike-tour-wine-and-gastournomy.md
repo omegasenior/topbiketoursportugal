@@ -9,6 +9,11 @@ image: /img/wini-food-bike-tour.jpg
 title: Bike tour Wine and Gastournomy | Food Tour
 packagetype: SingleTour
 tourtype: Bike
+tags:
+  - city tour
+  - biketour
+  - Porto
+  - North
 meta:
   description: >-
     This food tour includes a visit to wine caves and a meal in a typical
