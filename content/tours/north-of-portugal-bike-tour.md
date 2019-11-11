@@ -183,14 +183,14 @@ pricing:
         - title: Liability Insurance
           value: 'No'
         - title: 6 Nights / 7 Days ( price per person)
-          value: 1.669 €
+          value: 1.360 €
         - title: 'July, August and September Prices'
           value: + 100 €
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
     observations: '****'
-    price: 1669
+    price: 1360
     type: '1'
   - en:
       package: Guided Biketour
