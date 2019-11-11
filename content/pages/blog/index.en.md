@@ -11,7 +11,7 @@ feature:
   align: center
   image: /img/cycling-to-são-pedro-de-moel.jpg
   imageAlign: top
-  textcolor: Orange
+  textcolor: Black
   title: blog
 ---
 #
