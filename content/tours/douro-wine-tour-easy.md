@@ -25,11 +25,11 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
-difficulty: 1
+distance: 270
+distanceUnit: Km
+duration: 8
+durationUnit: Days | 7 Nights
+difficulty: 4
 physicality: 1
 rating: []
 itinerary:
@@ -246,6 +246,7 @@ pricing:
 # Douro Wine Tour
 
 ## A demarcated and classified wine region
+
 \
 \
 The Douro valley is one of the ultimate wonders of nature, but also the takes the efforts and energy of the man to provide this astonishing nature and environmental transformation. Browsing the Douro is enjoying its convents and churches, meet its rustic crafts, taste the genuine cuisine and witnessing the folklore Portuguese traditions.
@@ -253,9 +254,9 @@ The Douro valley is one of the ultimate wonders of nature, but also the takes th
 The Port Wine is undoubtedly the most remarkable concept, along with the several holidays and wine celebration, such as the harvest in September, the most important and lively event. 
 \
 \
-**Tour description:** Moderate
+**Route classification:** Moderate to Hard
 
-**Estimated KM:** 270 km and 4435 m (1.89%) of cumulative ascents.  
+**Estimated KM:** 270 km and 4435 m (1.89%) of cumulative ascents.\
 \
 \
 Day1: Porto – Pinhão (110 km, transfer de comboio)
