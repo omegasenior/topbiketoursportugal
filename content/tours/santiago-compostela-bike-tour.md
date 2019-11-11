@@ -40,7 +40,7 @@ rating:
   - rating: 1
     ratingLink: '1'
 itinerary:
-  - day: '1'
+  - day: Day 1
     description: >-
       Porto: Before starting this cycling journey towards Santiago de
       Compostela, it’s almost obligatory to present and know Porto, classified
@@ -54,8 +54,8 @@ itinerary:
     location:
       lat: '41.15293'
       lng: '-8.61005'
-    title: 'Day 1: Reception at Porto'
-  - day: '2'
+    title: Reception at Porto
+  - day: Day 2
     description: >-
       From our store, based in the “Invicta” city of Porto, we will begin our
       journey heading to Esposende, a seaside city located to the North. During
@@ -69,8 +69,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Day 2 - Porto – Esposende (60 km)
-  - day: '3'
+    title: Porto – Esposende (60 km)
+  - day: Day 3
     description: >-
       We’re reaching Viana do Castelo, another sea docking city that was quite
       important during the Discoveries’ period. During the XIV-XVth Centuries it
@@ -83,8 +83,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 3: Esposende – Caminha (50 km)'
-  - day: '4'
+    title: Esposende – Caminha (50 km)
+  - day: Day 4
     description: >-
       During our fourth cycling day, you are going to enter in Spanish
       territory, ending in Bayona. It’s a city politically linked to Pontevedra
@@ -98,8 +98,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 4: Caminha – Baiona (40 km)'
-  - day: '5'
+    title: Caminha – Baiona (40 km)
+  - day: Day 5
     description: >-
       The fifth day will encompass the stream of Vigo and will end in San
       Simon’s bay with a watery landscape to feast our eyes. Always following
@@ -116,8 +116,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 5: Baiona – Pontevedra (64 km)'
-  - day: '6'
+    title: Baiona – Pontevedra (64 km)
+  - day: Day 6
     description: >-
       Heading to a pre-Roman city, Caldas de Reis, a province which belongs to
       Pontevedra. According to historical archives, the first inhabitants were a
@@ -132,8 +132,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
-  - day: '7'
+    title: Pontevedra – Caldas dos Reis (26 km)
+  - day: Day 7
     description: >-
       Your last day will be met by Santiago de Compostela as your final
       destination, one of the ultimate pilgrimage cores in Western Europe. Like
@@ -145,12 +145,12 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
-  - day: '8'
+    title: Caldas dos Reis – Santiago de Compostela (40 km)
+  - day: Day 8
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Day 8 - Departure
+    title: Departure
 gallery:
   - alt: group 1
     image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
