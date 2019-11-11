@@ -13,7 +13,14 @@ tourcategory:
   - Bike
 tags:
   - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Porto
+  - North
+  - Biketour
+  - road bicycle
+  - e-bike
+  - electric bicycle
+  - Spain
 meta:
   description: >
     Start cycling in France in this demmanding adventure that is very well known
