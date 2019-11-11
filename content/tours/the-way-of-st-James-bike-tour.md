@@ -27,10 +27,10 @@ groupSizeMin: 20
 minAge: 16
 skillLevel: 1
 distance: 791
-distanceUnit: kms
+distanceUnit: km
 duration: 16
-durationUnit: days
-difficulty: 3
+durationUnit: Days | 15 Nights
+difficulty: 4
 physicality: 1
 rating: []
 itinerary:
@@ -309,7 +309,7 @@ Thousands of pilgrims choose this amazing route each year, not only for its auth
 
 \
 \
-**Tour description:** hard
+**Route classification:** moderate to hard
 
 **Estimated Km:**  791 km and 12.000 m with cumulated ascents
 
