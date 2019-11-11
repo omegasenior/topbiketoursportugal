@@ -36,28 +36,34 @@ physicality: 1
 rating: []
 itinerary:
   - day: '1'
-    description: ''
+    description: >-
+      Before starting this cycling journey towards Coimbra, it's almost
+      mandatory to explore Porto, classified as World Heritage and Capital of
+      Culture and Tourism. Join us in a city walking tour and discover part of
+      the heritage this city has to offer. Meet famous and well-known hot spots,
+      such as the bookstore that influenced J.K. Rowling’s Harry Potter, the
+      magnificent Stock Exchange Market, the blue and white tiles hiding at each
+      corner and much more. Art, heritage and traditions are meant to be found
+      and seen during this short city tour.
     location:
       lat: '41.1494512'
       lng: '-8.6107884'
     title: 'Day 1: Reception at Porto'
   - day: '2'
     description: >-
-      On this first day, you will make the coast towards the small village of
-      Furadouro.  Leaving Porto, you will cross the city center of Porto,
-      heading toward the river through one of the most famous bridges in
-      Portugal. After crossing the Don Luis I bridge, you will enter the city of
-      Vila Nova de Gaia, where you can observe the famous cellars of Porto wine.
-      During this journey you will observe one of the most important icons, the
-      chapel of Senhor da Pedra located in Miramar Beach.  Arrival to the city
-      of Espinho famous for its fresh fish, you taste the various fish dishes. 
-      Arriving in the city of Ovar, there is the opportunity to taste the famous
-      bread-cake of ovar, the highlight for tourists with a tradition of more
-      than two centuries, and the convent sweets. Being a fishing ground can
-      still taste the famous stews of fish or eels.  You will have the
-      opportunity to see the famous Chapel of the Steps, which is classified as
-      a National Interest Monument. You can see over the city several tiles, and
-      thats why the city of Ovar be considered the city's "Tile Museum".
+      You will make the coast towards the small village of Furadouro. Leaving
+      Porto, you will cross the city center of Porto, heading toward the river
+      through one of the most famous bridges in Portugal. After crossing the Don
+      Luis I bridge, you will enter the city of Vila Nova de Gaia, where you can
+      observe the famous cellars of Porto wine. During this journey you will
+      observe one of the most important icons, the chapel of Senhor da Pedra
+      located in Miramar Beach. You will have time to taste traditional fish
+      dishes at lunch time in Espinho. Arriving in the city of Ovar, there is
+      the opportunity to taste the famous bread-cake, the highlight for tourists
+      with a tradition of more than two centuries, and the convent sweets. Being
+      Ovar a fishing ground can still taste the famous stews of fish or eels.
+      You will have the opportunity to see the famous Chapel of the Steps, which
+      is classified as a National Interest Monument.
     location:
       lat: '40.87313436'
       lng: '-8.67736816'
@@ -79,41 +85,40 @@ itinerary:
   - day: '4'
     description: >-
       On this route of 48km, you shall know the city of Ílhavo, famous for the
-      manufacture of porcelain Vista Alegre with over 200 years of tradition as
-      well, you can observe the fantastic scenery of the famous Costa Nova do
-      Prado where the beaches are intertwined with the rural, creating a unique
-      environment where is the opportunity to view the famous haystack houses on
-      the waterfront, easily recognized by the paintings on vertical colored
-      bands.
+      manufacture of porcelain, Vista Alegre. With over 200 years of tradition
+      as well, you can observe the fantastic scenery of the famous Costa Nova do
+      Prado, where the beaches are intertwined with the rural, creating a unique
+      environment where there is the opportunity to view the famous haystack
+      houses on the waterfront, easily recognizable by the paintings on vertical
+      colored bands.
     location:
       lat: '40.4556419'
       lng: '-8.8026211'
     title: 'Day 4 - Aveiro - Praia de Mira '
   - day: '5'
     description: >-
-      Route towards the city of Figueira da Foz, you will be pleased to know the
-      hidden and beautiful the lagoon barrinha also "fed" by the Ria de Aveiro.
-      The adventure follows the famous pine forest inserted in the dunes, where
-      the aroma of the trees combines with the sea breeze, quite exploited by
-      sailing boats and windsurfing. Coming finally to the "Queen of the Silver
-      Coast," Figueira da Foz, famous for its long beaches, where the beautiful
-      River Mondego flows.
+      You will be pleased to meet the hidden and beautiful barrinha lagoon, also
+      "fed" by the Ria de Aveiro. The adventure follows the famous pine forest
+      inserted in the dunes, where the aroma of the trees combines with the sea
+      breeze, sea area that is quite exploited by sailing boats and windsurfing.
+      Coming finally to the "Queen of the Silver Coast," Figueira da Foz, famous
+      for its long beaches, where the beautiful River Mondego flows.
     location:
       lat: '40.1482816'
       lng: '-8.8554141'
     title: Day 5 – Praia de Mira- Figueira da Foz
   - day: '6'
     description: >-
-      Finally, towards Coimbra, move away from the seaside resort frequented by
-      "Coimbrenses" and the Spanish population of the area of Extremadura. In
-      this path of 55km, let us go away from the coast, yet always accompanied
-      by the Mondego River, with headwaters in the highest point of continental
-      Portugal (Serra da Estrela), renowned for its purity and transparency, the
-      scenery will be motivating to get to town Coimbra. Despite the famous fado
-      "... Coimbra has more charm in the time to say goodbye ...", you will
-      enjoy the cultural potential to the full, the endless monuments, full of
-      nostalgic fado houses and "knowledge", imbued in the university
-      environment where cultivation teaching as most any place in Portugal.
+      Move away from the seaside resort frequented by "Coimbrenses" and the
+      Spanish population of the area of Extremadura. In this path of 55km, you
+      will go away from the coast, yet always accompanied by the Mondego River,
+      with headwaters in the highest point of continental Portugal, Serra da
+      Estrela. The river is renowned for its purity and transparency. The
+      scenery will be motivating to get to the town of Coimbra. Despite the
+      famous fado "(...) Coimbra has more charm in the time to say goodbye
+      (...)", you will enjoy the cultural potential to its fullest and the
+      endless monuments, full of nostalgic fado houses and "knowledge", imbued
+      in the university environment.
     location:
       lat: '40.2109801'
       lng: '-8.4292057'
@@ -270,15 +275,19 @@ pricing:
 ---
 # The Silver Coast - Route 1
 
-## The second and third largest cities of Portugal joined by bike
+## The second and third largest cities of Portugal linked by bike
 
 \
 \
-Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the Foz of the River Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon.
+Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the mouth of the river Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon.
 
-This 7-day bike ride you are going through one of the most important links along the coast between the city of Porto and the "capital" of the central region of Portugal, Coimbra.    
 
-See some characteristics that make Oporto one of the most important (culturally and historically), doing the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the "city of knowledge "Coimbra, famous for its noble university, historical monuments and of course Coimbra Fado.
+
+This 7-day bike ride will take you through one of the most important links along the coast between the city of Porto and the "capital" of the central region of Portugal, Coimbra.
+
+
+
+See some characteristics that make Porto one of the most important cities (culturally and historically). You will be going down the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the "city of knowledge" Coimbra, famous for its noble university, historical monuments and of course Coimbra's Fado.
 
 \
 \
