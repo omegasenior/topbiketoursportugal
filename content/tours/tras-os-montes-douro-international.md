@@ -12,7 +12,14 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - douro valley hard
+  - Cycling Holiday
+  - Douro
+  - Porto
+  - North
+  - Biketour
+  - road bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     The interior of Portugal holds us many wonders of nature, filled with tales,
