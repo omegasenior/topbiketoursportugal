@@ -217,7 +217,7 @@ pricing:
         - icon: X
           title: Liability Insurance
           value: ''
-        - title: 8 Days / 7 Nights ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 1.489 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -291,7 +291,7 @@ pricing:
         - icon: ✓
           title: Liability Insurance
           value: ''
-        - title: 8 Days / 7 Nights ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 1895 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -342,7 +342,7 @@ pricing:
         - icon: ✓
           title: Liability Insurance
           value: ''
-        - title: 8 Days / 7 Nights ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 2.456 €
         - title: 'July, August and September Prices'
           value: +100 €
