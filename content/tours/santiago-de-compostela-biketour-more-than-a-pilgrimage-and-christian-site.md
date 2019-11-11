@@ -15,6 +15,11 @@ meta:
     Cycling tours, Santiago de compostela, religious tourism, bicycle, pilgrim,
     Portugal, Gallicia 
   title: Santiago de Compostela Original route starting in Porto
+distance: 243
+distanceUnit: Km
+duration: 8
+durationUnit: Days | 7 Nights
+difficulty: 3
 itinerary:
   - day: '1'
     location:
@@ -143,7 +148,7 @@ pricing:
           value: 'No'
         - title: Liability Insurance
           value: 'No'
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 1.489 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -181,7 +186,7 @@ pricing:
           value: 'Yes'
         - title: Liability Insurance
           value: 'Yes'
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 1895 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -219,7 +224,7 @@ pricing:
           value: 'Yes'
         - title: Liability Insurance
           value: 'Yes'
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 7 Nights / 8 Days ( price per person)
           value: 2.456 €
         - title: 'July, August and September Prices'
           value: +100 €
@@ -239,7 +244,7 @@ During our bicycle tour you will discover ancient medieval roads and paths forme
 
 \
 \
-**Tour description**: Moderated
+**Route classification:**: Moderated
 
 **Estimated Km:** 243 km and 4435m (1.89%) with cumulated ascents
 
