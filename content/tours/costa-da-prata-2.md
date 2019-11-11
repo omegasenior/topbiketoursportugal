@@ -23,11 +23,11 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
-difficulty: 1
+distance: 394
+distanceUnit: Km
+duration: 9
+durationUnit: Days | 8 Nights
+difficulty: 3
 physicality: 1
 rating: []
 itinerary:
@@ -314,8 +314,6 @@ pricing:
     price: 3123
     type: '1'
 ---
-
-
 # Silver Coast Bike tour- Route 2
 
 ## Discover the richness of nature and the sea by the famous Portuguese coast
@@ -332,7 +330,7 @@ The amazing monuments like the Castel of Pena and the Castel of Óbidos will bri
 
 \
 \
-**Tour Description:** moderated
+**Route classification:** moderated
 
 **Estimated KM:** 394 km
 
