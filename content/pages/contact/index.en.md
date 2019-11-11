@@ -1,10 +1,11 @@
 ---
 templateKey: ContactPage
 path: /contacts
-title: Visit our store and experience our bikes
+title: Contact us
 meta:
-  description: This is a meta description.
-  title: Contact Page
+  description: Contact us
+  keywords: Contact us
+  title: Contact us
 feature:
   align: center
   image: /img/esmoriz-wood-wlak-with-bike.jpg
