@@ -32,7 +32,7 @@ distance: 278
 distanceUnit: Km
 duration: 8
 durationUnit: Days | 7 Nights
-difficulty: 3
+difficulty: 2
 physicality: 1
 rating:
   - rating: 1
@@ -42,15 +42,14 @@ rating:
 itinerary:
   - day: Day 1
     description: >-
-      Porto: Before starting this cycling journey towards Santiago de
-      Compostela, it’s almost obligatory to present and know Porto, classified
-      as World Heritage and Capital of Culture and Tourism. Join us in a city
-      tour (bike or walk) in the City Centre and discover a huge miscellanea of
-      heritage, from the Middle Ages to the beginning of the 20th Century. Meet
-      famous and well-known hot spots, such as the bookstore that influenced
-      J.K. Rowling’s Harry Potter, the magnificent Stock Exchange Marke, blue
-      and white tiled churches and much more. Art, heritage and traditions are
-      meant to be found and seen during this short city tour.
+      Before starting this cycling journey towards Santiago de Compostela, it's
+      almost mandatory to explore Porto, classified as World Heritage and
+      Capital of Culture and Tourism. Join us in a city walking tour and
+      discover part of the heritage this city has to offer. Meet famous and
+      well-known hot spots, such as the bookstore that influenced J.K. Rowling’s
+      Harry Potter, the magnificent Stock Exchange Market, the blue and white
+      tiles hiding at each corner and much more. Art, heritage and traditions
+      are meant to be found and seen during this short city tour.
     location:
       lat: '41.15293'
       lng: '-8.61005'
@@ -101,18 +100,17 @@ itinerary:
     title: Caminha – Baiona (40 km)
   - day: Day 5
     description: >-
-      The fifth day will encompass the stream of Vigo and will end in San
-      Simon’s bay with a watery landscape to feast our eyes. Always following
-      the coastline, this day will be dedicated to Arcade and its famous
-      oysters. Apart from this delightful cuisine, you will see monuments and
-      sights dedicated to Santiago’s culture, such as the church of Santiago in
-      Arcade (XII-XIII centuries) and roads and paths that will lead to our
-      pilgrimage destination. It’s almost mandatory that, if you are passing by
-      Arcade, you must taste and enjoy the famous oysters produced and harvested
-      in the waters of this region. Curiously, during April’s first week there
-      is a festival dedicated to this traditional gastronomy – “Fiesta de la
-      Ostra” – where the city is filled with tourists and pilgrims to attend
-      this event.
+      This day will encompass the stream of Vigo and will end in San Simon's bay
+      with a watery landscape to feast your eyes on. Always following the
+      coastline, this day will be dedicated to Arcade and its famous oysters.
+      Apart from this delightful cuisine, you will see monuments and sights
+      dedicated to Santiago’s culture, such as the church of Santiago in Arcade
+      (XII-XIII centuries) and roads and paths that will lead to our pilgrimage
+      destination. It’s almost mandatory that, if you are passing by Arcade, you
+      must taste and enjoy the famous oysters produced and harvested in the
+      waters of this region. Curiously, during April’s first week there is a
+      festival dedicated to this traditional gastronomy – “Fiesta de la Ostra” –
+      where the city is filled with tourists and pilgrims to attend this event.
     location:
       lat: '41.15591'
       lng: '-8.60248'
@@ -123,12 +121,12 @@ itinerary:
       Pontevedra. According to historical archives, the first inhabitants were a
       pre-Roman community that lived from the hot springs of this territory. The
       name “Caldas de Reis” is connected to the birthplace of Afonso VII, acting
-      in the Middle Ages as a pilgrim path to Santiago de Compostela. Apart from
-      the rich cultural heritage, like Arcade, Caldas de Reis holds a peculiar
-      gastronomy, such as the “empanadas” of lamprey and the traditional Spanish
-      bread. Since the hot springs accompanied the evolution of this territory,
-      nowadays it is a hot spot for tourism who seek better healthy treatments
-      for several illnesses
+      in the Middle Ages as a pilgrimage path to Santiago de Compostela. Apart
+      from the rich cultural heritage, like Arcade, Caldas de Reis holds a
+      peculiar gastronomy, such as the “empanadas” of lamprey and the
+      traditional Spanish bread. Since the hot springs accompanied the evolution
+      of this territory, nowadays it is a hot spot for tourism who seeks better
+      healthy treatments for several illnesses
     location:
       lat: '41.15591'
       lng: '-8.60248'
@@ -354,17 +352,19 @@ pricing:
 ---
 # The Way of St. James BikeTour
 
-## The Coast path - "easy"
+## The Coastal Way - "easy"
 
 \
 \
-This cycling tour presents itself as na easy route to reach to Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
+This cycling tour presents itself as an easy route to reach Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
 
-Enjoy as city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside ares such as Esposende, Caminha and Bayona or have a delight with the famous Arcade's oysters, know why Caldas de Reis holds such a royalty importance and ned this tour in the Square of Obradoiro, where in fron you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+
+
+Enjoy a city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside areas such as Esposende, Caminha and Bayona. Have a delight with the famous Arcade's oysters. Know why Caldas de Reis holds such a royalty importance and end this tour in the Square of Obradoiro, where you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
 
 \
 \
-**Route classification:**  moderated
+**Route classification:**  Easy to Moderate
 
 **Estimated Km:**  278 km and 4121 meters of cumulative gap climbs  
 
