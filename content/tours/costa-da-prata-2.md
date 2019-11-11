@@ -12,7 +12,13 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - ''
+  - Cycling Holiday
+  - Coimbra
+  - Lisbon
+  - South
+  - Center
+  - Mountain bicycle
+  - touring bicycle
 meta:
   description: >
     From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
