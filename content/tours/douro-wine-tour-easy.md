@@ -18,6 +18,8 @@ tags:
   - North
   - Biketour
   - road bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     The Valley of the Douro, classified as Natural Heritage, is nowadays an
