@@ -18,6 +18,8 @@ tags:
   - North
   - Biketour
   - road bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     Remember that the Douro is a valley and despite the tour being classified as
