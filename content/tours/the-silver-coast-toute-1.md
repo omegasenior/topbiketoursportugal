@@ -271,25 +271,20 @@ pricing:
 # The Silver Coast - Route 1
 
 ## The second and third largest cities of Portugal joined by bike
+
 \
 \
 Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the Foz of the River Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon.
 
-
-
 This 7-day bike ride you are going through one of the most important links along the coast between the city of Porto and the "capital" of the central region of Portugal, Coimbra.    
-
-
 
 See some characteristics that make Oporto one of the most important (culturally and historically), doing the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the "city of knowledge "Coimbra, famous for its noble university, historical monuments and of course Coimbra Fado.
 
-
 \
 \
-**Tour Description:** Easy 
+**Route classification:** Easy 
 
 **Estimated KM:** 243 km 
-
 
 \
 \
