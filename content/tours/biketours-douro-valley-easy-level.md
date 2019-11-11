@@ -12,7 +12,11 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - douro wine cycling holiday
+  - Cycling Holiday
+  - Douro
+  - North
+  - Biketour
+  - road bicycle
 meta:
   description: >
     Remember that the Douro is a valley and despite the tour being classified as
