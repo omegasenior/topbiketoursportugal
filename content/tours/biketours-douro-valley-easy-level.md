@@ -25,11 +25,11 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 1
-distanceUnit: '1'
-duration: 1
-durationUnit: hours
-difficulty: 1
+distance: 133
+distanceUnit: Km
+duration: 7
+durationUnit: Days | 6 Nights
+difficulty: 4
 physicality: 1
 rating: []
 itinerary:
@@ -246,6 +246,7 @@ pricing:
 # Douro Wine Tour
 
 ## "Easy" level tour
+
 \
 \
 This cycling tour can be made all year. We recommend doing it between the months of September and October, especially during the wine production.
@@ -253,9 +254,9 @@ This cycling tour can be made all year. We recommend doing it between the months
 A cycling path that combines hospitality in wine producing farms, with bike rides through the vineyards and olive groves, producing Port wine and olive oil from Portugal. With a resting day off to visit the cave paintings and its museum in Vila Nova de Foz Côa, you must take this journey along the incredible Douro region, considered natural heritage by UNESCO. 
 \
 \
-**Tour Description:**  Easy
+**Route classification:**  Moderated to hard
 
-**Estimated KM:**  extension of 133 km and 1895 m of cumulative ascents.  
+**Estimated KM:**  extension of 133 km and 1895 m of cumulative ascents.\
 \
 \
 Day 1: Porto – Pinhão (110 km, train transfer)
