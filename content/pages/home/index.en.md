@@ -22,18 +22,48 @@ toursection:
 ## **Why Choose Us**
 
 \
-Visit all around Portugal in a bicycle with our expertise guides.
+Our mission is to provide you with relaxing and enjoyable bike tours, complemented with historical points, tasty gastronomy and wonderful views.
 
-Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.
 
-The cycling tours we offer are designed for recreational cyclists and we use mostly touring bicycles. Road bikes are also available for harder challenges.
 
-The packages are offered in self guided or guided bike tours. Mechanical assistance will be always guaranteed, and the luggage will be transported every day of your week tour. Van support is mostly offered in guided bike tours where you can find water and snacks.
 
-Safety is our priority and we will be always near to help.
 
-We choose the best restaurants and hotels for your needs. Lunch and dinner when not included in our guided packages will also be organized for your group.
 
-Our store is in Porto city where we also do city bike tours. Although our base is in the North of Portugal we operate in all around the country.
+
+The cycling tours we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are exceptionally used depending on the bike tour.
+
+
+
+Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
+
+
+
+
+
+
+
+Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your holiday. Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
+
+
+
+
+
+
+
+Safety is our number one priority and we will always be nearby to help you.
+
+
+
+
+
+
+
+We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
+
+
+
+
+
+Our store is in the city of Porto, where we also do city bike tours. Although our base is in the North of Portugal, we operate all around the country.
 
 #
