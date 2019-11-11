@@ -19,6 +19,8 @@ tags:
   - Center
   - Mountain bicycle
   - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
