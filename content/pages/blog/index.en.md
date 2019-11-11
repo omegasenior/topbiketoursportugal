@@ -10,7 +10,7 @@ meta:
 feature:
   align: center
   image: /img/cycling-to-são-pedro-de-moel.jpg
-  imageAlign: center center
+  imageAlign: top
   textcolor: Orange
   title: blog
 ---
