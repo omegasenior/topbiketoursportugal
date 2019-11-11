@@ -34,7 +34,7 @@
       },
       {
         "display": "Bicycles",
-        "link": "rent-bike-porto-portugal",
+        "link": "/rent-bike-porto-portugal",
         "enabled": true,
         "isHome": false,
         "order": 1
