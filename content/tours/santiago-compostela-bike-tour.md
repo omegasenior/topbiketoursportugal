@@ -30,8 +30,8 @@ minAge: 2
 skillLevel: 3
 distance: 278
 distanceUnit: Km
-duration: 7
-durationUnit: Nights | 6 Days
+duration: 8
+durationUnit: Days | 7 Nights
 difficulty: 3
 physicality: 1
 rating:
@@ -217,7 +217,7 @@ pricing:
         - icon: X
           title: Liability Insurance
           value: ''
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 8 Days / 7 Nights ( price per person)
           value: 1.489 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -291,7 +291,7 @@ pricing:
         - icon: ✓
           title: Liability Insurance
           value: ''
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 8 Days / 7 Nights ( price per person)
           value: 1895 €
         - title: 'July, August and September Prices'
           value: + 100 €
@@ -342,7 +342,7 @@ pricing:
         - icon: ✓
           title: Liability Insurance
           value: ''
-        - title: 7 Nights / 6 Days ( price per person)
+        - title: 8 Days / 7 Nights ( price per person)
           value: 2.456 €
         - title: 'July, August and September Prices'
           value: +100 €
