@@ -30,7 +30,7 @@ distance: 369
 distanceUnit: Km
 duration: 7
 durationUnit: Days | 6 Nights
-difficulty: 1
+difficulty: 5
 physicality: 1
 rating: []
 itinerary:
