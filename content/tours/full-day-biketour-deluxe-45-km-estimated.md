@@ -9,6 +9,16 @@ image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3296.jp
 title: 'Full Day Biketour: Porto to Póvoa de Varzim'
 packagetype: SingleTour
 tourtype: Bike
+tourcategory:
+  - ''
+tags:
+  - city tour
+  - biketour
+  - Porto
+  - North
+  - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >-
     Ride to the beaches of northern Portugal has never been so pleasant to the
