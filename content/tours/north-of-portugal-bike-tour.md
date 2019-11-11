@@ -12,8 +12,13 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Porto
+  - North
+  - Mountain bicycle
+  - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >-
     The oldest village, the river and the sea in one bike tour around the North
