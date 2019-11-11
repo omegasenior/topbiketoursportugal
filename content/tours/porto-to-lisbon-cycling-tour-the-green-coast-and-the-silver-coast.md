@@ -15,6 +15,11 @@ meta:
     for a quote.
   keywords: 'porto to lisbon bike, porto to lisbon biketour'
   title: Cycling tour from Porto to Lisbon
+distance: 493
+distanceUnit: Km
+duration: 13
+durationUnit: Days | 12 Nights
+difficulty: 3
 itinerary:
   - day: '1'
     location:
@@ -361,9 +366,9 @@ If you want to make this bike tour shorter in days contact us and ask for a quot
 
 \
 \
-**Tour Description:** Moderate
+**Route classification:** Moderate
 
-**Estimated KM:** 600 km 
+**Estimated KM:** 493 km 
 
 \
 \
