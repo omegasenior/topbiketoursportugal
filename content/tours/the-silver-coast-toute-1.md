@@ -222,9 +222,9 @@ pricing:
         - title: Mechanical Assistance
           value: 'Yes'
         - title: 5 lunches
-          value: 'Yes'
+          value: 'No'
         - title: 5 Dinners
-          value: 'Yes'
+          value: 'No'
         - title: Personal Accident Insurance
           value: 'Yes'
         - title: Liability Insurance
