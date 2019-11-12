@@ -22,7 +22,10 @@ class GoogleMap extends Component {
       <div style={{ height: "50vh", width: "100%" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: this.props.mapkey }}
-          defaultCenter={this.props.center}
+          defaultCenter={{
+            lat: 41.14961,
+            lng: -8.61099
+          }}
           defaultZoom={this.props.zoom}
         >
           {this.props.locations &&
@@ -37,8 +40,8 @@ class GoogleMap extends Component {
             ))}
           {this.props.location && (
             <Marker
-              lat={this.props.location.lat}
-              lng={this.props.location.lng}
+              lat={41.14961}
+              lng={-8.61099}
               text={this.props.location.text || ""}
             />
           )}
