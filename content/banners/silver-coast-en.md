@@ -4,10 +4,10 @@ language: en
 banner: true
 order: 1
 title: Silver Coast
-description: The second and third largest cities of Portugal joined by bike
+description: The second and third largest cities of Portugal linked by bike
 goto:
   link: porto-to-coimbra-biketour
-  linktext: Silver Coast
+  linktext: 24 HOUR PHONE SUPPORT
   linktitle: From Porto to Coimbra
 image: /img/guided-bicycle-tour-in-coimbra.jpg
 ---
