@@ -1813,7 +1813,7 @@ collections:
             name: body
             widget: markdown
           - label: afterEquipment
-            name: body
+            name: afterequipment
             widget: markdown
           - label: Bikes
             name: bikes

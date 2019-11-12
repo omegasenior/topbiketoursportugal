@@ -13,7 +13,7 @@ export const BikesPageTemplate = ({
   title,
   bikes,
   equipment,
-  afterEquipment
+  afterequipment
 }) => {
   // const PageContent = contentComponent || Content;
   const converter = new showdown.Converter();
@@ -51,12 +51,14 @@ export const BikesPageTemplate = ({
           </div>
         ))}
       </div>
-      <div>
-        <HTMLContent
-          className="container"
-          content={converter.makeHtml(afterEquipment)}
-        />
-      </div>
+      {afterequipment && (
+        <div className="container">
+          <HTMLContent
+            className="row justify-content-center"
+            content={converter.makeHtml(afterequipment)}
+          />
+        </div>
+      )}
     </div>
   );
 };
@@ -122,6 +124,7 @@ export const bikesPageQuery = graphql`
           type
           description
         }
+        afterequipment
       }
     }
   }
