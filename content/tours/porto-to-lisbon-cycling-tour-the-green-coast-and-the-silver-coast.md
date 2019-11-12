@@ -377,12 +377,14 @@ Join the Silver Route 1 and Silver Route 2 and cycle from Porto to Lisbon in thi
 If you want to make this bike tour shorter in days contact us and ask for a quote.
 
 \
-\
-**Route classification:** Moderate
+**Route description:**
 
-**Estimated KM:** 493 km 
+* The first 50% of the route is flat terrain and the other 50% has short and steep climbs.
+* 60 % bicycle lanes, 30 % secondary paved roads with low traffic, 10% dirt roads near the ocean. 
 
 \
+**Itinerary:**
+
 \
 Day 1 - Porto reception
 
