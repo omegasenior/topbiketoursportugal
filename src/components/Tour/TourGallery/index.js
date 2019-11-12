@@ -11,7 +11,8 @@ const GalleryContainer = styled.div`
 
 const ImageWrapper = styled.div`
   flex: 0 0 33%;
-
+  max-height: 252px;
+  overflow: hidden;
   .gatsby-image-wrapper {
     margin: 25px 10px 5px 10px;
   }

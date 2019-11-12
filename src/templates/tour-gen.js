@@ -119,6 +119,8 @@ function TourGen({ data }) {
     setNavState(true);
   }
 
+  const difficultyText = ["Very easy", "Easy", "Moderate", "Hard", "Very hard"];
+
   return (
     <Layout
       language={tour.language}
@@ -146,6 +148,9 @@ function TourGen({ data }) {
                       <div className="col text-center">
                         <Mountain size="24" />
                         <span alt="Difficulty">{` ${tour.frontmatter.difficulty}/5`}</span>
+                        <span>
+                          {`  ` + difficultyText[tour.frontmatter.difficulty]}
+                        </span>
                       </div>
                     )}
                     {tour.frontmatter.distance && (
