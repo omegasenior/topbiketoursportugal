@@ -311,8 +311,6 @@ This cycling tour presents itself as an easy route to reach Santiago de Composte
 
 Enjoy a city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside areas such as Esposende, Caminha and Bayona. Have a delight with the famous Arcade's oysters. Know why Caldas de Reis holds such a royalty importance and end this tour in the Square of Obradoiro, where you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
 
-
-
 **Estimated Km:**  278 km and 4121 meters of cumulative gap climbs  
 
 Day 1: Reception at Porto
@@ -333,5 +331,5 @@ Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 **Route description:**
 
 * Flat for the first 3 days, with a few smooth and short climbs. Hilly in the last 3 days, up and down in secondary roads.
-* 30 % bike lanes and wood walk lanes , 30% smooth dirt roads. Some tracks with coubblestones and rough dirt roads, 20 % paved secondary roads with low traffic\
+* 330 % bike lanes and wood walkways, 30% smooth dirt roads. Some coubblestone roads and rough dirt roads, 20 % paved secondary roads with low traffic.\
   '
