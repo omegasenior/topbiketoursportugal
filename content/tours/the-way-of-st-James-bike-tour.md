@@ -314,11 +314,14 @@ Going from Saint Jean Pied de Port, in the Pyrenees, all the way to Santiago de 
 
 Thousands of pilgrims choose this amazing route each year, not only for its authenticity, but also for all the amazing places one finds him/herself in, while on the road.
 
-\
-\
-**Route classification:** moderate to hard
+**Route description:**
 
-**Estimated Km:**  791 km and 12.000 m with cumulated ascents
+* On this long route all kind of terrains are to be expected. Route with long and difficult climbs.
+* 12.000 meters with cumulated ascents
+
+
+\
+**Itinerary:**
 
 \
 Day 1 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
