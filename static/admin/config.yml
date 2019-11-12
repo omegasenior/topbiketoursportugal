@@ -1122,7 +1122,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
-      - file: content/pages/blog/index.en.md
+      - file: content/pages/blog/index.md
         label: Blog EN
         name: blogEN
         fields:
