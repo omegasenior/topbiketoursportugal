@@ -356,21 +356,20 @@ pricing:
 \
 An amazing biketour through one of Europe's best preserved regions. The southeast Alentejano Natural Park includes wild beaches surrounded by imposing cliffs, small mountain ranges, cork oak groves, traditional fishing villages, typical villages, spectacular views and important geographical points, such as Cape Sardão, the Cape of São Vicente, from where the caravels left for seas never before navigated, and Ponta de Sagres.
 
-
-
 January to June or October to December is our recomendation for you to do this bike tour. It can get quite hot during the summer season, and that is something you should be aware of, if you decide to cycle in July, August or September.
-
-
 
 Average temperatures in the Algarve, south of Portugal, are usually around 17ºC, and the weather is always sunny or partially sunny, as it is rare for it to rain in the southern regions, even during the winter.
 
 \
 \
-**Route classification:** Easy to moderate  level
+**Route description:**
 
-**Estimated KM:** 400 km elevation: 3628 metres ascent and 3637 metres descent
+* Mostly flat. Some short and steep climbs, especially in the last day.
+* 40 % secondary paved roads with low traffic, 40% dirt roads near the ocean and agricultural farms.
 
-\
+
+
+**Intinerary:**\
 \
 Day 1 – Lisbon
 
