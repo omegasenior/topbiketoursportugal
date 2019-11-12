@@ -115,13 +115,13 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Price per person
+      package: Group Price per person
       packageContents: []
     highSeasonPriceSupplement: 100
     price: 35
   - bestValue: false
     en:
-      package: 'Private: Price per person'
+      package: Private Price per person
       packageContents: []
     highSeasonPriceSupplement: 100
     price: 65
@@ -131,14 +131,6 @@ pricing:
 Benefiting from the office's location, the tour starts high up in the city, allowing for an easy bike ride down the center of the city. Meeting the city's main river an ocean, and with all introductions aside, will enable you for a ride along side their clear water and enjoying the wonderful landscapes that give them shape. You will have time to experience all the arquitecture of the city and feel first hand how it slowly grew towards the ocean.
 
 NOTE: The tour can be shared with non e-bike clients.
-
-
-
-**Price per person : 35 €**
-
-**Private tour: Price per person: 65 €**
-
-VAT included in price at legal rate
 
 **Tour detail:**
 
