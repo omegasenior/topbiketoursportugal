@@ -2,6 +2,8 @@
 templateKey: blog-index
 path: /blog
 title: Blog Page
+slug: blog
+language: en
 meta:
   canonicalLink: ''
   description: Blog Page

@@ -1130,6 +1130,8 @@ collections:
             name: templateKey
             widget: hidden
             default: about-page
+          - { label: language, name: language, widget: hidden, default: en }
+          - { label: slug, name: slug, widget: hidden, default: blog }
           - label: Path
             name: path
             widget: string
@@ -1199,6 +1201,7 @@ collections:
             name: templateKey
             widget: hidden
             default: about-page
+          - { label: language, name: language, widget: hidden, default: pt }
           - label: Path
             name: path
             widget: string
