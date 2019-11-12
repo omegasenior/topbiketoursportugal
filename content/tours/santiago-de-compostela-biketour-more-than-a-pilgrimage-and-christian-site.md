@@ -254,9 +254,13 @@ During our bicycle tour you will discover ancient medieval roads and paths forme
 
 \
 \
-**Route classification:**: Moderated
+**Route description:**
 
-**Estimated Km:** 243 km and 4435m (1.89%) with cumulated ascents
+* On this route all kind of terrains are to be expected. Route with long and difficult climbs.
+* 4435 meters with cumulated ascents
+
+\
+**Itinerary:**
 
 \
 Day 1: Porto – Barcelos (49 km)
