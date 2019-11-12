@@ -366,8 +366,7 @@ Average temperatures in the Algarve, south of Portugal, are usually around 17ºC
 
 * Mostly flat. Some short and steep climbs, especially in the last day.
 * 40 % secondary paved roads with low traffic, 40% dirt roads near the ocean and agricultural farms.
-
-
+* 3628 meters ascent and 3637 meters descent
 
 **Intinerary:**\
 \
