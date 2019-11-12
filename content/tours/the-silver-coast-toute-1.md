@@ -6,7 +6,7 @@ productcode: SC 01
 featured: true
 language: en
 image: /img/cycling-plan-in-coasta-nova.jpg
-title: The Silver Coast                    Route 1
+title: The Silver Coast - Porto to Coimbra
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
