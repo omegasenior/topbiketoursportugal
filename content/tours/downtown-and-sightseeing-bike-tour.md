@@ -147,9 +147,6 @@ Ride on the suburban areas, urban history, gardens and other green areas are to 
 
 ![Porto city bike tour](/img/44817961982_440e783762_o.jpg "Porto city bike tour")
 
-\
-Circuit: São Bento Station, Garden Infante Dom Henrique, Garden Passeio Alegre, Military Fort S. Francisco Xavier, City Park, Boavista Avenue, House of Music and the Garden Teófilo Braga
-
 
 
 **Tour detail:**
