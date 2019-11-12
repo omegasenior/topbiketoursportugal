@@ -147,6 +147,7 @@ export const pageQuery = graphql`
         fileAbsolutePath: { regex: "/.+/tours/.+/" }
         frontmatter: { packagetype: { eq: "SingleTour" } }
       }
+      sort: { order: ASC, fields: [frontmatter___order] }
     ) {
       nodes {
         ...Meta

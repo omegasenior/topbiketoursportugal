@@ -63,7 +63,14 @@ exports.createPages = ({ actions, graphql }) => {
       const language = edge.node.frontmatter.language || "en";
       // console.log("Path:" + edge.node.frontmatter.path);
       console.log(
-        "Path:" + edge.node.frontmatter.path + ", language:" + language
+        "Path:" +
+          edge.node.frontmatter.path +
+          ", slug:" +
+          edge.node.fields.slug +
+          ", localizedPath:" +
+          edge.node.fields.localizedPath +
+          ", language:" +
+          language
       );
       try {
         createPage({
@@ -126,7 +133,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const parsedFilePath = path.parse(fileNode.relativePath);
 
     const value = createFilePath({ node, getNode });
-
     // console.log(value);
 
     createNodeField({
@@ -137,7 +143,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (_.get(node, "frontmatter.slug")) {
       slug = `/${node.frontmatter.slug.toLowerCase()}/`;
-    } 
+    }
     // else if (
     //   // home page gets root slug
     //   parsedFilePath.name === "home" &&
@@ -145,7 +151,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     //   // && parsedFilePath.dir.indexOf("posts") !== -1
     // ) {
     //   slug = `/`;
-    // } 
+    // }
     else if (_.get(node, "frontmatter.path")) {
       slug = `/${_.kebabCase(node.frontmatter.path)}/`;
     } else if (
@@ -189,13 +195,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       name: `localizedPath`,
       value:
-        langKey === languages.defaultLangKey ? `${slug}` : `/${langKey}${slug}`
+        langKey === languages.defaultLangKey ||
+        node.frontmatter.language === languages.defaultLangKey
+          ? node.frontmatter.path || slug
+          : `/${langKey}${slug}`
     });
   }
 };
 
 exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
+  const { createTypes } = actions;
   const typeDefs = `
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter!
@@ -216,9 +225,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       skillLevel: Int
     }
     
-  `
-  createTypes(typeDefs)
-}
+  `;
+  createTypes(typeDefs);
+};
 
 // exports.onCreatePage = async ({ page, actions }) => {
 //   const { createPage, deletePage } = actions;

@@ -260,6 +260,7 @@ const Banners = ({ className }) => (
       query {
         allBannerJson: allMarkdownRemark(
           filter: { frontmatter: { banner: { eq: true } } }
+          sort: { fields: frontmatter___order, order: ASC }
         ) {
           nodes {
             id

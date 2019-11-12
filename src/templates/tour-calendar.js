@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import { Timeline } from "../components/Timeline";
 import "./tour-calendar.scss";
-
+import { orderBy } from "lodash-es";
 export const TourCalendarTemplate = ({ title, description, ...other }) => {
   return (
     <>
@@ -24,7 +24,11 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
     >
       <div className="container tourCalendar">
         <TourCalendarTemplate {...tourCalendar.frontmatter} />
-        <Timeline dates={tourCalendar.frontmatter.dates} />
+        <Timeline
+          dates={[
+            ...orderBy(tourCalendar.frontmatter.dates, ["date"], ["asc"])
+          ]}
+        />
       </div>
     </Layout>
   );

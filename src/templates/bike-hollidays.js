@@ -67,6 +67,19 @@ const Tour = styled.article`
   box-shadow: 0 0 10px rgb(220, 220, 220);
   background: #fff;
   height: 100%;
+  .colDuration {
+    padding-bottom: 15px;
+  }
+
+  .row {
+    span {
+      color: #898686;
+    }
+    svg {
+      color: #fa7500;
+      margin-right: 5px;
+    }
+  }
 
   img {
     max-width: 100%;
@@ -85,9 +98,24 @@ const TourSpecificationContainer = styled.div`
   display: flex;
 `;
 
+const TourSpecificationFull = styled.div`
+  display: flex;
+  width: 100%;
+  flex: 0 0 100%;
+  margin-bottom: 15px;
+
+  span {
+    color: #898686;
+  }
+  svg {
+    color: #fa7500;
+    margin-right: 5px;
+  }
+`;
+
 const TourSpecification = styled.div`
   display: flex;
-  flex: 0 0 33%;
+  flex: 0 0 50%;
   margin-bottom: 15px;
 
   span {
@@ -163,20 +191,20 @@ function ToursListPage({ data }) {
                         </TourImageContainer>
                         <div style={{ padding: "25px" }}>
                           <TourTitle>{tour.title}</TourTitle>
-                          <TourSpecificationContainer>
-                            <TourSpecification>
+                          <div className="row">
+                            <div className="col-12 colDuration">
                               <Time size="24" />
                               <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
-                            </TourSpecification>
-                            <TourSpecification>
+                            </div>
+                            <div className="col-6">
                               <Mountain size="24" />
-                              <span alt="Difficulty">{` ${tour.difficulty}/10`}</span>
-                            </TourSpecification>
-                            <TourSpecification>
+                              <span alt="Difficulty">{` ${tour.difficulty}/5`}</span>
+                            </div>
+                            <div className="col-6">
                               <Road size="24" />
                               <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
-                            </TourSpecification>
-                          </TourSpecificationContainer>
+                            </div>
+                          </div>
                           {tour.princing &&
                             tour.princing.length > 0 &&
                             tour.princing[0] &&
