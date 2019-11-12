@@ -47,7 +47,7 @@ rating:
   - rating: 1
     ratingLink: '1'
 itinerary:
-  - day: Day 1
+  - day: '1'
     description: >-
       Before starting this cycling journey towards Santiago de Compostela, it's
       almost mandatory to explore Porto, classified as World Heritage and
@@ -60,8 +60,8 @@ itinerary:
     location:
       lat: '41.15293'
       lng: '-8.61005'
-    title: Reception at Porto
-  - day: Day 2
+    title: 'Day 1: Reception at Porto'
+  - day: '2'
     description: >-
       From our store, based in the “Invicta” city of Porto, we will begin our
       journey heading to Esposende, a seaside city located to the North. During
@@ -75,8 +75,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Porto – Esposende (60 km)
-  - day: Day 3
+    title: 'Day 2: Porto – Esposende (60 km)'
+  - day: '3'
     description: >-
       We’re reaching Viana do Castelo, another sea docking city that was quite
       important during the Discoveries’ period. During the XIV-XVth Centuries it
@@ -89,8 +89,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Esposende – Caminha (50 km)
-  - day: Day 4
+    title: 'Day 3: Esposende – Caminha (50 km)'
+  - day: '4'
     description: >-
       During our fourth cycling day, you are going to enter in Spanish
       territory, ending in Bayona. It’s a city politically linked to Pontevedra
@@ -104,8 +104,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Caminha – Baiona (40 km)
-  - day: Day 5
+    title: 'Day 4: Caminha – Baiona (40 km)'
+  - day: '5'
     description: >-
       This day will encompass the stream of Vigo and will end in San Simon's bay
       with a watery landscape to feast your eyes on. Always following the
@@ -121,8 +121,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Baiona – Pontevedra (64 km)
-  - day: Day 6
+    title: 'Day 5: Baiona – Pontevedra (64 km)'
+  - day: '6'
     description: >-
       Heading to a pre-Roman city, Caldas de Reis, a province which belongs to
       Pontevedra. According to historical archives, the first inhabitants were a
@@ -137,8 +137,8 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Pontevedra – Caldas dos Reis (26 km)
-  - day: Day 7
+    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+  - day: '7'
     description: >-
       Your last day will be met by Santiago de Compostela as your final
       destination, one of the ultimate pilgrimage cores in Western Europe. Like
@@ -150,12 +150,12 @@ itinerary:
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Caldas dos Reis – Santiago de Compostela (40 km)
-  - day: Day 8
+    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
+  - day: '8'
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: Departure
+    title: 'Day 8: Departure'
 gallery:
   - alt: group 1
     image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
@@ -179,7 +179,7 @@ gallery:
     image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4394.jpg
 pricing:
   - bestValue: true
-    discount: -1
+    discount: ''
     en:
       package: Self Guided bike Tour
       packageContents:
@@ -229,30 +229,7 @@ pricing:
         - title: Min. Participants
           value: '2'
     highSeasonPriceSupplement: 100
-    observations: |-
-      testes
-
-      teste
-
-      teste
-
-      testes
-
-      teste
-
-      teste
-
-      testes
-
-      teste
-
-      teste
-
-      testes
-
-      teste
-
-      teste
+    observations: ''
     price: 1489
     type: '1'
   - bestValue: true
@@ -365,13 +342,9 @@ pricing:
 \
 This cycling tour presents itself as an easy route to reach Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
 
-
-
 Enjoy a city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside areas such as Esposende, Caminha and Bayona. Have a delight with the famous Arcade's oysters. Know why Caldas de Reis holds such a royalty importance and end this tour in the Square of Obradoiro, where you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
 
-\
-\
-**Route classification:**  Easy to Moderate
+
 
 **Estimated Km:**  278 km and 4121 meters of cumulative gap climbs  
 
@@ -390,5 +363,8 @@ Day 6: Pontevedra – Caldas dos Reis (26 km)
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
 \
-\
-'
+**Route description:**
+
+* Flat for the first 3 days, with a few smooth and short climbs. Hilly in the last 3 days, up and down in secondary roads.
+* 30 % bike lanes and wood walk lanes , 30% smooth dirt roads. Some tracks with coubblestones and rough dirt roads, 20 % paved secondary roads with low traffic\
+  '
