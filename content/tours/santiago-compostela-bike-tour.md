@@ -315,8 +315,10 @@ Enjoy a city tour with us in Porto, to get to know a little bit of its architect
 **Route description:**
 
 * Flat for the first 3 days, with a few smooth and short climbs. Hilly in the last 3 days, up and down in secondary roads.
-* 330 % bike lanes and wood walkways, 30% smooth dirt roads. Some coubblestone roads and rough dirt roads, 20 % paved secondary roads with low traffic.
+* 30 % bike lanes and wood walkways, 30% smooth dirt roads. Some coubblestone roads and rough dirt roads, 20 % paved secondary roads with low traffic.
+* 4121 meters of cumulative gap climbs
 
+\
 **Itinerary:**
 
 Day 1: Reception at Porto
