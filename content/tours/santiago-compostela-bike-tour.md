@@ -165,8 +165,6 @@ gallery:
     image: /img/crossing-the-ferry-with-bicycles.jpg
   - alt: GROUP PHOTO VIANA DO CASTELO WITH TOP BIKE TOURS PORTUGAL
     image: /img/biketour-group-photo-in-viana-do-castelo.jpg
-  - alt: BIKETOUR IN OIA
-    image: /img/biketour-in-oia.jpg
   - alt: BIKING ON THE CAMINO TRAIL
     image: /img/biking-on-the-camino-trail.jpg
   - alt: ELECTRIC BICYCLE ON THE CAMINO
