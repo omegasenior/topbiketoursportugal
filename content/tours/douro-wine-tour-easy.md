@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-order: 90
+order: 7
 path: /douro-valley-wine-tour
 productcode: DOURO 02
 featured: false
