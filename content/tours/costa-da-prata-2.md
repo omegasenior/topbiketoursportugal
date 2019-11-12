@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
-title: The Silver Coast - Route 2
+title: The Silver Coast Bike tour - Route 2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -50,35 +50,31 @@ itinerary:
       This amazing cycling trip starts alongside the Atlantic Ocean in Figueira
       da Foz, a city in the center of Portugal, located in the district of
       Coimbra. Here you can enjoy one of the best beaches in Portugal since this
-      city is known as the "Queen of the beaches of Portugal", the gastronomy
-      and the warm climate. The city is an important industrial center,
-      producing wood pulp, paper and glass and it also has notable naval
-      construction and fish industries.Here we have a cycling stop in Pedrogão,
-      this is a little village that has 1400m of beach. The people of this place
-      have always been dedicated to agriculture and fishing, so today Xávega
-      Art, a brand image, still persists. Now cycling through São Pedro de Moel,
-      surrounded by extensive areas of pine forests, offers various points of
+      city is known as the "Queen of the Portuguese beaches". In the middle of
+      your journey you will get to Pedrogão. The citizens of this region have
+      always been dedicated to agriculture and fishing, implementing traditional
+      means known as "Xávega", a brand image that still persists. You will
+      eventually get to your final destination São Pedro de Moel, surrounded by
+      extensive areas of pine forests. This little town offers various points of
       leisure and communion with nature. A particular note is the famous "Volta
       dos Sete": a course of approximately 7 km, which combines sea, woods and
       beach, with pure forest, parks, fountains and streams. The typical dishes
-      that stand out are the: “Vidreiro” soup, Cod soup and Rabbit stew.
+      that stand out are the: "Vidreiro" soup, Cod soup and Rabbit stew.
     location:
       lat: '39.7578992'
       lng: '-9.0297521'
     title: 'Day 2: Figueira da Foz – São Pedro de Moel (65 KM)'
   - day: '3'
     description: >-
-      Continuing our cycling ride to Nazaré a beautiful and quiet seaside town,
-      with a breathtaking view from the top of a big cliff, where you can climb
-      by funicular lift or car.Nowadays, the great attraction of this city is
-      the waves and the surf, thanks to the "Cannon of Nazaré", a submarine
-      geomorphological phenomenon that allows the formation of giant and perfect
-      waves. It is the largest submerged gorge in Europe, with about 170
-      kilometres along the coast, which is 5000 meters deep.The Hawaiian surfer
+      Heading towards Nazaré, a beautiful and quiet seaside town, with a
+      breathtaking view from the top of a big cliff, the ride today will be of
+      shorter distance. Nowadays, the great attraction of this city are the
+      waves and the surfing. This happens due to a submarine geomorphological
+      phenomenon, "Cannon of Nazaré", that allows the formation of giant and
+      perfect waves. It is the largest submerged gorge in Europe, with about 170
+      kilometres along the coast, which is 5000 meters deep. The Hawaiian surfer
       Garrett McNamara gave it worldwide visibility when, in 2011, he surfed the
-      world's biggest wave.The middle stop of this day is the Beach of the North
-      and that part of Nazaré region and here you will find the biggest waves in
-      Europe. 
+      world's biggest wave.
     location:
       lat: '39.60004501'
       lng: '-9.07155991'
@@ -86,40 +82,40 @@ itinerary:
   - day: '4'
     description: >-
       Leaving Nazaré the next village is Óbidos. Without doubt this town is one
-      of Portugal's most classic walled settlements and the visitors can also
-      enjoy amazing views of windmills, vineyards and surrounding farmlands. In
-      the residential area below, narrow cobblestone streets are lined with
-      whitewashed houses supporting terracotta roofs. Every year the city
-      organizes two important events, the first one is  a traditional 'Medieval
+      of Portugal's most classic walled settlements and visitors can also enjoy
+      amazing views of windmills, vineyards and surrounding farmlands. In the
+      residential area below, narrow cobblestone streets are lined with
+      whitewashed houses, supporting terracotta roofs. Every year the city
+      organizes two important events, the first one is a traditional 'Medieval
       Market', where the castle and the surrounding town recreate the spirit of
-      medieval Europe and the second one is the Chocolate Festival is also an
-      event that attracts great interest from tourists, in this festival you can
-      see real-life chocolate sculptures.  São Martinho do Porto is the city of
-      passage today. This region constituted by the Serra da Pescaria and by the
-      Bouro mountain constituted, in geological times, a single island. When it
-      was divided it gave rise to the bay of São Martinho do Porto. São Martinho
-      do Porto was even considered the best beach to go with the family in the
-      guide of 2015 beaches of eDreams. 
+      medieval Europe. The second one is the Chocolate Festival. This one also
+      attracts great interest from tourists, amazed by the real-life chocolate
+      sculptures. São Martinho do Porto is the city of passage today. This
+      region constituted by the "Serra da Pescaria" and by the "Bouro" mountain.
+      In previous geological times they formed a single island. When it was
+      divided it gave rise to the bay of São Martinho do Porto. São Martinho do
+      Porto was even considered the best beach to go with the family in the
+      guide of 2015 beaches of eDreams.
     location:
       lat: '39.3680634'
       lng: '-9.18730437'
     title: 'Day 4: Nazaré – Óbidos (47 Km)'
   - day: '5'
     description: >-
-      On this fifth day we will return to the coastal area to the city of
-      Peniche. The city was built on a rocky peninsula which is considered by
-      geologists, a unique example of the Toarcian turnover during the worldwide
-      Early Jurassic extinction.Peniche is known for its long beaches, which are
+      Returning to the coastal area, you will ride towards the city of Peniche.
+      The city was built on a rocky peninsula which is considered by geologists,
+      a unique example of the Toarcian turnover during the worldwide Early
+      Jurassic extinction. Peniche is known for its long beaches, which are
       popular for recreational activities and sports such as surfing,
       windsurfing, body boarding and kite surfing. These beaches are
-      consistently windy and have good surf breaks with supertubos and it´s
-      considered among the best in Europe.The Berlengas islands, about 10
-      kilometres (6 mi) offshore from the peninsula, are part of the
-      municipality. They form one of the world's first nature reserves.In this
-      day we have a cycling stop in “ Lagoa de Óbidos”, is a lagoon that extends
-      between the municipalities of Óbidos and Caldas da Rainha. It is a natural
-      barrier that separate the Atlantic Ocean and marine biome from the river
-      ecosystem of Foz do Arelho formed by lateral dunes.
+      consistently windy, which allows for good surfing, with decent waves and
+      supertubes. Berlengas islands, about 10 kilometres (6 mi) offshore from
+      the peninsula, are part of the municipality. They form one of the world's
+      first nature reserves. You will also be able to make a stop at "Lagoa de
+      Óbidos", which is a lagoon that extends between the municipalities of
+      Óbidos and Caldas da Rainha. It is a natural barrier that separate the
+      Atlantic Ocean and marine biome from the river ecosystem of "Foz do
+      Arelho" formed by lateral dunes.
     location:
       lat: '39.33722515'
       lng: '-9.31285284'
@@ -127,20 +123,19 @@ itinerary:
   - day: '6'
     description: >-
       Leaving Peniche but continuing along the coast the next destination is
-      Ericeira, a civil parish and seaside resort/fishing community on the
-      western coast of Portugal, in the municipality of Mafra, about 35
-      kilometres (22 mi) northwest of the capital, Lisbon.Ericeira was a popular
-      summer retreat for many of Lisbon's families in the 1940s and 1950s.
-      Today, it is a popular destination for local and visiting tourists, as
-      well as surfers from around the world (owing to the forty beaches with
-      good conditions in the area)Ericeira is also keen on its musical culture.
-      The local philharmonic, currently named Filarmónica Cultural Ericeira, has
-      existed since 1849 and pursues a path of success in this villages's
-      musical heritage with a permanent free musical school for all who love
-      this type of culture.The beach of Santa Cruz it´s the place of passage
-      during this day, and it is a place that is conducive to a large part of
-      wave sports. Every year there is the "Ocean Spirit" festival of wave
-      sports where international competitions of various kinds are held.
+      Ericeira. Ericeira is a civil parish and seaside resort/fishing community
+      on the western coast of Portugal, in the municipality of Mafra, about 35
+      kilometres (22 mi) northwest of the capital, Lisbon. Ericeira was a
+      popular summer retreat for many of Lisbon's families in the 1940s and
+      1950s. Today, it is a popular destination for local and visiting tourists,
+      as well as surfers from around the world. Ericeira is also keen on its
+      musical culture. The local philharmonic, currently named Filarmónica
+      Cultural Ericeira, has existed since 1849 and pursues a path of success in
+      this villages's musical heritage with a permanent free musical school for
+      all who love this type of culture. The beach of Santa Cruz it´s the place
+      of passage during this day, and it is a place that is conducive to a large
+      part of wave sports. Every year there is the "Ocean Spirit" festival of
+      wave sports where international competitions of various kinds are held.
     location:
       lat: '38.9631655'
       lng: '-9.4170098'
@@ -148,14 +143,14 @@ itinerary:
   - day: '7'
     description: >-
       On this day, the route leaves the coast and goes to the city of Sintra.
-      This place is known for its many 19th-century Romantic architectural
-      monuments, which has resulted in its classification by UNESCO as a World
-      Heritage Site.  It has become a major tourist center, visited by many one
-      day-travellers who travel from the capital Lisbon. In addition to the
+      This place is known for its many XIXth-century Romantic architectural
+      monuments, which has resulted in Sintra's classification by UNESCO as a
+      World Heritage Site. It has become a major tourist center, visited by many
+      one day-travellers who travel from the capital Lisbon. In addition to the
       Sintra Mountains and Sintra-Cascais Nature Park, the parishes of the town
       of Sintra are places with royal retreats, estates, castles and other
       buildings, including the medievil Castelo dos Mouros, the Pena National
-      Palace and the Sintra National Palace..
+      Palace and the Sintra National Palace.
     location:
       lat: '38.79846'
       lng: '-9.3881'
@@ -163,21 +158,19 @@ itinerary:
   - day: '8'
     description: >-
       Continuing through the center, this cycling tour ends at the coastal city
-      of Cascais. West of Lisbon it is a cosmopolitan suburb of the Portuguese
-      capital and one of the richest municipalities in Portugal. The former
-      fishing village gained fame as a resort for Portugal's royal family in the
-      late 19th century and early 20th century. Nowadays, it is a popular
-      vacation spot for both Portuguese and foreign tourists.Cascais is
-      surrounded by popular beaches such as Guincho Beach to the west, and the
-      lush Sintra mountains to the north. Some of its shoreline has cliffs,
+      of Cascais. Situated west of Lisbon it is a cosmopolitan suburb of the
+      Portuguese capital and one of the richest municipalities in Portugal. The
+      former fishing village gained fame as a resort for Portugal's royal family
+      in the late 19th century and early 20th century. Nowadays, it is a popular
+      vacation spot for both Portuguese and foreign tourists. Cascais is
+      surrounded by popular beaches such as "Praia do Guincho" to the west, and
+      the lush Sintra mountains to the north. Some of its shoreline has cliffs,
       attracting tourists who come for the panoramic views of the sea and other
-      natural sights such as the Boca do Inferno. It is also becoming a popular
-      golf destination, with over 10 golf courses nearby.   The Sintra – Cascais
-      Natural Park it´s a mandatory place to visit and admire because is one of
-      the 13 Natural Parks of Portugal and, the park includes the Serra de
-      Sintra Mountain Range but extends all the way to the coast and Cabo da
-      Roca, continental Europe's westernmost point and it contains the Castle of
-      the Moors
+      natural sights. It is also becoming a popular golf destination, with over
+      10 golf courses nearby. The Sintra – Cascais Natural Park it´s a mandatory
+      place to visit and admire, because it is one of the 13 Natural Parks of
+      Portugal, it includes the "Serra de Sintra" and extends all the way to the
+      coast 
     location:
       lat: '38.72240025'
       lng: '-9.39690917'
@@ -324,17 +317,23 @@ pricing:
 ---
 # Silver Coast Bike tour- Route 2
 
-## Discover the richness of nature and the sea by the famous Portuguese coast
+## Discover the wealth of land and sea on the famous Portuguese coast
 
 \
 \
-This cycling tour of the Silver Coast, is an immersive and amazing route that goes along the coast where you‘re going to find some of the most important villages in Portugal. Here you will have a “mix” of beaches and pine forests creating different feelings during the trip.
+This cycling tour is an immersive and amazing route, that goes along the coast and where you‘re going to find some of the most important villages in Portugal. Here you will have a "mix" of beaches and pine forests, creating different sensations during the trip.
 
-Exploring the trails and its main highlights will give you the sense of fulfillment. 
 
-Try the best taste in the traditional Portuguese fishing arts, accompanied with green wine and amazing local deserts. 
 
-The amazing monuments like the Castel of Pena and the Castel of Óbidos will bring you back into the centuries through the medieval times. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
+Exploring the trails and its main highlights will give you a sense of fulfillment.
+
+
+
+Try the best dishes in the traditional Portuguese fishing arts, accompanied with green wine and amazing local deserts.
+
+
+
+Monuments, like the "Castelo da Pena" and the "Castelo de Óbidos" will bring you back centuries into the medieval times. This will surely enrich your trip and give you the desire to come back and know more about Portugal!
 
 \
 \
