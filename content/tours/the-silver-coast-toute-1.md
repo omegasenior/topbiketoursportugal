@@ -279,22 +279,18 @@ pricing:
 \
 Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the mouth of the river Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon.
 
-
-
 This 7-day bike ride will take you through one of the most important links along the coast between the city of Porto and the "capital" of the central region of Portugal, Coimbra.
-
-
 
 See some characteristics that make Porto one of the most important cities (culturally and historically). You will be going down the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the "city of knowledge" Coimbra, famous for its noble university, historical monuments and of course Coimbra's Fado.
 
 \
-\
-**Route classification:** Easy 
+**Route description:**
 
-**Estimated KM:** 243 km 
+* Flat route, with only one climb in the 4th for about 4 kms.
+* 65 % bike lanes, 20% smooth dirt roads and sometimes into the agriculture fields, 5 % paved roads with low traffic.
 
-\
-\
+**Itinerary:**
+
 Day 1 - Porto reception
 
 Day 2 - Porto - Furadouro ( 47 Km)
