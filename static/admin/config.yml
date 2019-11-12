@@ -379,8 +379,20 @@ collections:
           required: false,
           widget: number,
         }
-      - { label: minAge, name: minAge, required: false, widget: number }
-      - { label: skillLevel, name: skillLevel, required: false, widget: number }
+      - {
+          label: minAge,
+          name: minAge,
+          required: false,
+          default: 16,
+          widget: number,
+        }
+      - {
+          label: skillLevel,
+          name: skillLevel,
+          required: false,
+          default: 1,
+          widget: number,
+        }
 
       - { label: distance, name: distance, required: false, widget: number }
       - {
@@ -398,7 +410,13 @@ collections:
           widget: string,
         }
 
-      - { label: difficulty, name: difficulty, required: false, widget: number }
+      - {
+          label: difficulty,
+          name: difficulty,
+          required: false,
+          default: 1,
+          widget: number,
+        }
       - {
           label: physicality,
           name: physicality,
@@ -1646,7 +1664,7 @@ collections:
                   widget: string,
                   required: false,
                 }
-          
+
           - label: Feature Image
             name: feature
             widget: object

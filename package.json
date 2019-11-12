@@ -49,6 +49,7 @@
     "gatsby-plugin-smoothscroll": "^1.0.3",
     "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-plugin-sw": "^1.0.1",
+    "gatsby-plugin-tawk": "^1.0.0",
     "gatsby-plugin-transition-link": "^1.16.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-redirect-from": "^0.2.1",
@@ -80,7 +81,6 @@
     "netlify-cms-widget-pathname": "^1.2.4",
     "netlify-cms-widget-youtube": "^0.3.0",
     "node-sass": "^4.13.0",
-    "npm-check-updates": "^3.2.0",
     "parcel-bundler": "^1.12.4",
     "postcss-at-rules-variables": "^0.1.9",
     "prop-types": "15.7.2",
@@ -139,7 +139,7 @@
   },
   "devDependencies": {
     "change-case": "^3.1.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "rimraf": "^3.0.0"
   }
 }

@@ -151,7 +151,6 @@ export const pageQuery = graphql`
       nodes {
         ...Meta
         ...Itinerary
-        ...TourSkill
         ...TourPricing
         frontmatter {
           templateKey

@@ -9,6 +9,8 @@ image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3296.jp
 title: 'Full Day Biketour: Porto to Póvoa de Varzim'
 packagetype: SingleTour
 tourtype: Bike
+minAge: 16
+difficulty: 0
 meta:
   description: >-
     Ride to the beaches of northern Portugal has never been so pleasant to the

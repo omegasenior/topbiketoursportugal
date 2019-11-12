@@ -10,6 +10,8 @@ packagetype: SingleTour
 tourtype: Bike
 tourcategory:
   - Bike
+minAge: 16
+difficulty: 0
 tags:
   - d
 meta:
@@ -20,7 +22,6 @@ meta:
     Walking Tours porto portugal,hiking tours porto,hiking tours portugal,
     wlaking tour portugal
   title: 'Walking tours Porto: Guided tours Portugal'
-distance: -1
 itinerary:
   - day: '1'
     description: Meeting Point

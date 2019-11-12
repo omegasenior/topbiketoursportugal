@@ -127,7 +127,8 @@ function TourGen({ data }) {
       feature={tour.feature}
     >
       <div className="container-fluid">
-        <div className="row">
+        <div className="row justify-content-end">
+          <div className="col-1"></div>
           <div className="col-8">
             {tour.frontmatter &&
               tour.frontmatter.duration &&
@@ -214,7 +215,7 @@ function TourGen({ data }) {
               <div className="container">fine print</div>
             </ScrollableAnchor>
           </div>
-          <div className="col-4 tour-booking-overlay">
+          <div className="col-2 tour-booking-overlay">
             <div className="tour-booking">
               <div className="tour-booking-header-price-wrap">
                 <div className="tour-booking-header-price-overlay"></div>
@@ -384,6 +385,7 @@ function TourGen({ data }) {
               </div>
             </div>
           </div>
+          <div className="col-1"></div>
         </div>
       </div>
     </Layout>

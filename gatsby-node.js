@@ -137,14 +137,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (_.get(node, "frontmatter.slug")) {
       slug = `/${node.frontmatter.slug.toLowerCase()}/`;
-    } else if (
-      // home page gets root slug
-      parsedFilePath.name === "home" &&
-      parsedFilePath.dir.indexOf("pages") !== -1
-      // && parsedFilePath.dir.indexOf("posts") !== -1
-    ) {
-      slug = `/`;
-    } else if (_.get(node, "frontmatter.path")) {
+    } 
+    // else if (
+    //   // home page gets root slug
+    //   parsedFilePath.name === "home" &&
+    //   parsedFilePath.dir.indexOf("pages") !== -1
+    //   // && parsedFilePath.dir.indexOf("posts") !== -1
+    // ) {
+    //   slug = `/`;
+    // } 
+    else if (_.get(node, "frontmatter.path")) {
       slug = `/${_.kebabCase(node.frontmatter.path)}/`;
     } else if (
       _.get(node, "frontmatter.title") &&
@@ -191,6 +193,32 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     });
   }
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter!
+    }
+
+  
+    type Frontmatter @infer {
+      minAge: Int
+      distance: Int
+      difficulty: Int
+      duration: Int
+      distanceUnit: String
+      durationUnit: String
+      groupSizeMax: Int
+      groupSizeMin: Int
+      highlight: Boolean
+      physicality: Int
+      skillLevel: Int
+    }
+    
+  `
+  createTypes(typeDefs)
+}
 
 // exports.onCreatePage = async ({ page, actions }) => {
 //   const { createPage, deletePage } = actions;

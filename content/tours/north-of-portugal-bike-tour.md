@@ -21,7 +21,7 @@ meta:
   keywords: North and Minho bike tour
   title: North and Minho Bike tour
 groupSizeMax: 1
-groupSizeMin: -2
+groupSizeMin: 1
 minAge: 1
 skillLevel: 1
 distance: 238

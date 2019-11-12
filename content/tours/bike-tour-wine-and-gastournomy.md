@@ -15,6 +15,9 @@ meta:
     portuguese restaurant
   keywords: 'BIKE TOUR WINE AND GASTOURNOMY PORTO PORTUGAL,food tour'
   title: Bike tour Wine and Gastournomy | Food Tour
+groupSizeMax: 1
+groupSizeMin: 1
+minAge: 16
 rating:
   - {}
 itinerary:

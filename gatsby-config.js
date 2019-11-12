@@ -126,6 +126,14 @@ module.exports = {
     //     }
     //   }
     // },
+    // {
+    //   resolve: `gatsby-plugin-tawk`,
+    //   options: {
+    //     tawkId: "5862998cddb8373fd2b445cf",
+    //     widgetId: "1b50j8hpi"
+    //     // get this from the tawk script widget
+    //   }
+    // },
     `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-plugin-sass",
@@ -134,12 +142,12 @@ module.exports = {
         name: "uploads"
       }
     },
-    {
-      resolve: 'gatsby-plugin-react-leaflet',
-      options: {
-        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-react-leaflet',
+    //   options: {
+    //     linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
+    //   }
+    // },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",

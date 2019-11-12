@@ -8,7 +8,7 @@ import Banners from "../components/Banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 
-import { SEO, Heading } from "../components/SEO/SEO"
+import { SEO, Heading } from "../components/SEO/SEO";
 
 import BackgroundImage from "gatsby-background-image";
 import Img from "gatsby-image";
@@ -259,6 +259,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                 <span>Top</span>
               </ScrollUpButton>
             </Scroll>
+          
           </React.Fragment>
         );
       }}

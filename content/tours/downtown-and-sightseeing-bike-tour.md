@@ -11,6 +11,7 @@ packagetype: SingleTour
 tourtype: Bike
 tourcategory:
   - Bike
+difficulty: 0
 tags:
   - city tours
   - porto
