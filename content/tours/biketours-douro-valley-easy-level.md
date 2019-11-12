@@ -256,16 +256,18 @@ pricing:
 \
 This cycling tour can be made for the entirety of the year. We recommend doing it between the months of September and October, especially during the wine production season.
 
-
-
 A cycling tour that combines the hospitality of wine making farms, with bike rides through the well known vineyards and olive fields of The Douro Valley. With a resting day, in order to visit the Paleolithic open-air paintings and its museum in Vila Nova de Foz Côa. If good wine, amazing sights and calm and relaxing cycling areas his what you are looking for, then you must take this journey along the incredible Douro region, considered natural heritage by UNESCO. 
 \
 \
-**Route classification:**  Moderated to hard
+**Route description:**
 
-**Estimated KM:**  extension of 133 km and 1895 m of cumulative ascents.\
+* Mostly steep. Up and down route.
+* 100 % paved roads with very low traffic.
+*  1895 meters of cumulative ascents.
+
 \
-\
+**Itinerary:**
+
 Day 1: Porto – Pinhão (110 km, train transfer)
 
 Day 2: Pinhão – Tabuaço (15 km)
