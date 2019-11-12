@@ -11,7 +11,6 @@ packagetype: SingleTour
 tourtype: Bike
 tourcategory:
   - Bike
-difficulty: 0
 tags:
   - city tour
   - biketour
@@ -24,6 +23,7 @@ meta:
     extreme bicycle tour. For those who enjoy riding a bike in extreme and...
   keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
   title: Sightseeing Bike tour Porto
+difficulty: 0
 rating: []
 itinerary:
   - day: '1'
@@ -130,37 +130,27 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Group price
-      packageContents:
-        - title: Price per person
-          value: 25 €
+      package: Group price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 25
   - bestValue: false
     en:
-      package: Private Group
-      packageContents:
-        - title: Price per person
-          value: 50 €
+      package: Private price per person
     highSeasonPriceSupplement: 100
     price: 50
 ---
+# Downtown and Sightseeing bike tour
+
 \
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
-
 
 ![Porto city bike tour](/img/44817961982_440e783762_o.jpg "Porto city bike tour")
 
 \
 Circuit: São Bento Station, Garden Infante Dom Henrique, Garden Passeio Alegre, Military Fort S. Francisco Xavier, City Park, Boavista Avenue, House of Music and the Garden Teófilo Braga
 
-\
-\
-**Price per person : 25 €**
 
-**Private tour: Price per person: 50 €**
-
-VAT included in price at legal rate
 
 **Tour detail:**
 
