@@ -1031,6 +1031,7 @@ collections:
                   label: Align,
                   name: imageAlign,
                   widget: string,
+
                   required: false,
                   default: "center center",
                 }
@@ -1786,6 +1787,195 @@ collections:
                   required: false,
                   default: "center center",
                 }
+  
+      - file: content/pages/bikes/index.en.md
+        label: BikesEN
+        name: bikesEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: bikes-page
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "en",
+            }
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: afterEquipment
+            name: body
+            widget: markdown
+          - label: Bikes
+            name: bikes
+            widget: list
+            required: false
+            fields:
+              - { label: Type, name: type, widget: string, required: false }
+              - { label: image, name: image, widget: image, required: false }
+          - label: Equipment
+            name: equipment
+            widget: list
+            required: false
+            fields:
+              - { label: Type, name: type, widget: string, required: false }
+              - { label: description, name: description, widget: markdown, required: false }
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+          - label: Feature Image
+            name: feature
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Text Align,
+                  name: align,
+                  widget: string,
+                  required: false,
+                  default: "center",
+                }
+              - { label: Text color, name: textcolor, widget: string }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Align,
+                  name: imageAlign,
+                  widget: string,
+                  required: false,
+                  default: "center center",
+                }
+
+      - file: content/pages/bikes/index.pt.md
+        label: BikesPT
+        name: bikesPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: bikes-page
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "pt",
+            }
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: afterEquipment
+            name: body
+            widget: markdown
+          - label: Bikes
+            name: bikes
+            widget: list
+            required: false
+            fields:
+              - { label: Type, name: type, widget: string, required: false }
+              - { label: image, name: image, widget: image, required: false }
+          - label: Equipment
+            name: equipment
+            widget: list
+            required: false
+            fields:
+              - { label: Type, name: type, widget: string, required: false }
+              - { label: description, name: description, widget: markdown, required: false }
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+          - label: Feature Image
+            name: feature
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - {
+                  label: Sub Title,
+                  name: subtitle,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Text Align,
+                  name: align,
+                  widget: string,
+                  required: false,
+                  default: "center",
+                }
+              - { label: Text color, name: textcolor, widget: string }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Align,
+                  name: imageAlign,
+                  widget: string,
+                  required: false,
+                  default: "center center",
+                }
+    
+
+
   - name: banners
     label: Banners
     folder: content/banners
@@ -2124,8 +2314,8 @@ collections:
         name: "tour"
         widget: "relation"
         collection: "tours"
-        displayFields: ["title", "slug", "language"]
-        searchFields: ["title", "slug"]
+        displayFields: ["productcode", "title", "slug", "language"]
+        searchFields: ["title", "slug", "productcode"]
         valueField: "id"
         required: false
         multiple: false

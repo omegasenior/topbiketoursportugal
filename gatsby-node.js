@@ -210,6 +210,26 @@ exports.createSchemaCustomization = ({ actions }) => {
       frontmatter: Frontmatter!
     }
 
+    type Pricing @infer {
+      discount: Float
+      price: Float
+      bestValue: Boolean
+      type: String
+      highSeasonPriceSupplement: Float
+      en: [Package]
+    }
+
+    type PackageContents @infer {
+      icon: String
+      title: String
+      value: String
+    }
+
+    type Package @infer {
+      package: String
+      packageContents: [PackageContents]
+    }
+    
   
     type Frontmatter @infer {
       minAge: Int
@@ -223,6 +243,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       highlight: Boolean
       physicality: Int
       skillLevel: Int
+      pricing: Pricing
     }
     
   `;
