@@ -11,8 +11,6 @@ packagetype: SingleTour
 tourtype: Bike
 tourcategory:
   - Bike
-minAge: 16
-difficulty: 0
 tags:
   - city tour
   - walking tour
@@ -27,6 +25,8 @@ meta:
     Walking Tours porto portugal,hiking tours porto,hiking tours portugal,
     wlaking tour portugal
   title: 'Walking tours Porto: Guided tours Portugal'
+minAge: 16
+difficulty: 0
 itinerary:
   - day: '1'
     description: Meeting Point
@@ -108,37 +108,23 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Price per person
-      packageContents:
-        - title: Group price
-          value: 25 €
+      package: Group price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 22
   - bestValue: false
     en:
-      package: Private price
-      packageContents:
-        - title: Price per person
-          value: 50 €
+      package: Private price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 50
 ---
-
 # Walking tour - Oporto’s Downtown
+
 \
 Porto became very famous when classified by UNESCO’s title of World Heritage (1996) and with the title of European Capital of Culture (2001). This walk tour was developed for those who enjoy sightseeing culture, architecture and dazzling urban landscapes with huge miscellanea. Art, Architecture and History follow the same course, acting as important beacons in Porto’s tourism, providing a tour full of hidden mysteries and ancient legends.Apart the Baroque and Rocaille art and architecture, meet the oldest parts of the city such as the Ribeira with an outstanding view to the Douro River, where you can see the wine cellars. Discover the fascinating ball rooms of the Stock Exchange Palace (Palácio da Bolsa), with a picturesque granite façade. Stroll down through Avenida dos Aliados and witness Neoclassical buildings and wide pavements. In the end of this tour, you will find an experience that you will never regret. Experience this live guided tour and explore the traditional townspeople customs, along with the main sites and tourist hot spots of this city.
 
-
 ![walking tours porto](/img/oporto-walk-tour.png "Oporto walking tour")
-
-Places to visit: Aliados, Church of Carmelitas, Bookstore Lello, Church and Tower of Clérigos, S. Bento Train Station, Old Market Ferreira Borges, Square of Ribeira , Square of Batalha, Majestic Café and the Market of Bolhão\
-\
-\
-**Price per person : 25 €**
-
-**Private tour: Price per person: 50 €**
-
-VAT included in price at legal rate
 
 \
 \
