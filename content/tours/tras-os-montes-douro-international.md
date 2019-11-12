@@ -245,9 +245,14 @@ This region is considered by many an authentic greenside paradise in the deep va
 The territory boosts breathtaking landscapes of a natural beauty, revealing not only a land rich in vineyards but also in cereals, vegetables and fruits, a typical gastronomy awarded the title of World Heritage. 
 \
 \
-**Route classification:** Hard
+**Route description**:
 
-**Estimated KM:** 369 km with 6392 m (1.73%) of cumulative gap climbs 
+* Mostly steep. Up and down route.
+* 100 % paved roads with very low traffic.
+* 6392 meters of cumulative gap climbs 
+
+\
+**Itinerary:**
 \
 \
 Day 1: Porto – Pinhão (110 km, train transfer)
