@@ -323,26 +323,21 @@ pricing:
 \
 This cycling tour is an immersive and amazing route, that goes along the coast and where you‘re going to find some of the most important villages in Portugal. Here you will have a "mix" of beaches and pine forests, creating different sensations during the trip.
 
-
-
 Exploring the trails and its main highlights will give you a sense of fulfillment.
-
-
 
 Try the best dishes in the traditional Portuguese fishing arts, accompanied with green wine and amazing local deserts.
 
-
-
 Monuments, like the "Castelo da Pena" and the "Castelo de Óbidos" will bring you back centuries into the medieval times. This will surely enrich your trip and give you the desire to come back and know more about Portugal!
+\
+**Route description:**
+
+* Mostly flat. Some short and steep climbs.
+* 30 % bicycle lanes, 30 % secondary paved roads with low traffic and 10% dirt roads near the ocean.  
+
 
 \
-\
-**Route classification:** moderated
+**Itinerary:**
 
-**Estimated KM:** 394 km
-
-\
-\
 Day 1: Figueira da Foz
 
 Day 2: Figueira da Foz – São Pedro de Moel (65 KM) – Pedrógão e Praia da Vieira
