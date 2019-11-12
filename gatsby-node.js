@@ -244,6 +244,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       physicality: Int
       skillLevel: Int
       pricing: Pricing
+      afterequipment: String
     }
     
   `;
