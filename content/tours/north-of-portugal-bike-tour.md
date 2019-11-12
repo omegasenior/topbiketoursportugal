@@ -281,19 +281,18 @@ pricing:
 \
 The Cycle Trail of Minho River was ranked as the fourth best 2009 trail in Europe. That alone showcases all the amazing Portuguese landscapes, rivers and seaside views which you will be enjoying during this trip. Cycle trough World Heritage villages, vineyards, farmed land, beaches, historical towns, going down the country in the direction of the mighty city of Porto.
 
-
-
 The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km. It serves as a natural border between Portugal and Spain, travelling the entire way across Melgaço and its mouth in Caminha.
-
-
 
 Taste the worldwide known gastronomy. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. Relish on the regional wines that the country couldn't go without. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
 
 \
 \
-**Route classification:** Easy 
+**Route description:**
 
-**Estimated KM**: 238
+* Flat route. Some short climbs in beginning of the 1st day and in the last day, entering in the city of Porto.
+* 40 % bike lanes and wood walkways and 15% smooth dirt roads. Some coubblestones roads and 10 % paved secondary roads with low traffic.
+
+**Itinerary:**
 
 \
 Day 1 – Melgaço
