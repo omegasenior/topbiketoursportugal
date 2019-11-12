@@ -6,7 +6,7 @@ productcode: SANTIAGO 02
 featured: false
 language: en
 image: /img/santiago13.png
-title: 'Santiago de Compostela BikeTour More than a pilgrimage and Christian site '
+title: 'Santiago de Compostela Biketour - More than a pilgrimage and Christian site '
 packagetype: PackageTour
 tourtype: Bike
 tags:
