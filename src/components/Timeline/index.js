@@ -1,5 +1,5 @@
 import React from "react";
-import { sortBy, uniq, filter } from "lodash-es";
+import { sortBy, orderBy, uniq, filter } from "lodash-es";
 import showdown from "showdown";
 import { HTMLContent } from "../Content";
 
@@ -21,7 +21,9 @@ export const Timeline = ({ dates }) => {
     "Dec"
   ];
 
-  var years = sortBy(uniq(dates.map(i => new Date(i.date).getFullYear())));
+  var years = uniq(dates.map(i => new Date(i.date).getFullYear())).sort(
+    (a, b) => b - a
+  );
   // console.log(JSON.stringify(years));
 
   const converter = new showdown.Converter();
@@ -34,13 +36,14 @@ export const Timeline = ({ dates }) => {
             <span className="timeline__year">{year}</span>
 
             {dates &&
-              sortBy(
+              orderBy(
                 filter(
                   dates,
                   d =>
                     d.type === "Date" && new Date(d.date).getFullYear() === year
                 ),
-                d => d.date
+                ["date"],
+                ["desc"]
               ).map((item, jindex) => (
                 <div
                   key={`tl` + year + `_` + index + `_` + jindex}

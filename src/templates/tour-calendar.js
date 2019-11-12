@@ -24,10 +24,13 @@ export const TourCalendarPage = ({ data: { tourCalendar } }) => {
     >
       <div className="container tourCalendar">
         <TourCalendarTemplate {...tourCalendar.frontmatter} />
-        <Timeline
+        {/* <Timeline
           dates={[
             ...orderBy(tourCalendar.frontmatter.dates, ["date"], ["asc"])
           ]}
+        /> */}
+        <Timeline
+          dates={tourCalendar.frontmatter.dates}
         />
       </div>
     </Layout>

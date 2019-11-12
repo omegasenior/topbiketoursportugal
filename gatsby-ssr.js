@@ -1,6 +1,6 @@
-const React = require("react");
+import React from "react";
 
-exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
+export const onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
   var tawkId = "5862998cddb8373fd2b445cf";
   var widgetId = "1b50j8hpi";
 
