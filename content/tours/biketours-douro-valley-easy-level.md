@@ -42,22 +42,21 @@ rating: []
 itinerary:
   - day: '1'
     description: >-
-      First, we’ll travel by train following the coastal waterfront of the Douro
-      River. Fortunately, we shall attend at the hotel’s reception to get our
-      bicycles, where we’ll have one night with breakfast included. You’ll have
-      enough free time to visit the Pinhão railway station, its main church and,
-      if you would like to enjoy sightseeing, having a cruise on our River
-      Douro.
+      Travel by train following Douro's riverside. You shall attend at the
+      hotel’s reception to get the bicycles you will be using through out the
+      tour. The night will be spent in Pinhão. You’ll have enough free time to
+      visit the Pinhão railway station, its main church and, if you would like,
+      to enjoy sightseeing, having a cruise on the Douro river.
     location:
       lat: '41.21165694'
       lng: '-7.42893218'
     title: 'Day 1: Porto – Pinhão'
   - day: '2'
     description: >-
-      Always by road with an acceptable and good inclination’s rise, we’re going
-      to cycle along the incredible view of the Douro River, entering through
-      Portuguese landscape heritage of humanity. Be marveled with the vineyards
-      of the Douro and its cultivation.
+      Cycling always on the road with an acceptable slope. You are going to
+      cycle along the incredible view of the Douro River, entering through
+      Portuguese World Heritage. Be marveled with the vineyards of the Douro
+      Valley and its cultivation.
     location:
       lat: '41.11824542'
       lng: '-7.56162644'
@@ -65,48 +64,47 @@ itinerary:
   - day: '3'
     description: >-
       Our cycling journey continues throughout the green landscape of the Douro
-      region, surrounded by vineyards. Our hospitality shall be in Penedono. You
-      can visit the castle and explore Sírigo, which holds a circular route
-      that  takes the traveler through the neighboring villages and outskirts,
-      such as the villages of Ferronha and A-do-Bispo.
+      region, constantly surrounded by vineyards. Our destination will be
+      Penedono. You can visit the castle and explore "Sírigo", which holds a
+      circular route that takes the traveler through the neighboring villages
+      and outskirts, such as the villages of "Ferronha" and "A-do-Bispo".
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
     title: 'Day 3: Tabuaço – Penedono '
   - day: '4'
     description: >-
-      Enjoy a free day or cycle a loop to know other villages.  If you choose to
-      cycle you are a brave person!!  Leaving Penedono, you will find yourself
-      in the middle of traditional farmlands, the landscape is dominated by
-      vineyards and chestnuts, so much that Sernacelhe area is known has
-      "chestnut county" it’s the main production, and we can see why on the road
-      side scenery, with the river Távora by your side you can enjoy the
-      wonderful geography with mountains and valleys, which is a trademark image
-      of this part of the country, and if you have the time a visit to the 12º
-      century church.
+      Enjoy a free day or cycle a loop to get to know surrounding villages. In
+      case you opt for cycling, you will leave Penedono and find yourself in the
+      middle of traditional farmlands. The landscape is dominated by vineyards
+      and chestnuts, so much so that "Sernancelhe" area is known has the
+      chestnut county. You will understand how much chestnut the region actually
+      produces on the road side scenery. With the river Távora by your side you
+      can enjoy the wonderful geography, with mountains and valleys, which is a
+      trademark image of this part of the country. If you have the time, take a
+      visit to the XIIth century church.
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
     title: 'Day 4: Penedono Loop'
   - day: '5'
     description: >-
-      Our route departs from the Douro River heading towards South, finding our
-      daily hospitality in Marialva. You can visit the castle of four towers and
-      the incredible church of Santiago. A land full of castles and with history
-      sites, being classified as a one of several historical villages of
-      Portugal.
+      Break ties with the Douro River and head South, finding your daily
+      hospitality in Marialva. You can take a visit to the castle and the
+      incredible church of "Santiago". A land full of history, being classified
+      as one of several historical villages of Portugal.
     location:
       lat: '40.9117189'
       lng: '-7.23416504'
     title: 'Day 5: Penedono – Marialva (27 km)'
   - day: '6'
     description: >-
-      The bicycle route will involve returning to the vineyards again, but now
+      The final streach will involve returning to the vineyards once more. Now
       we can also watch the astonishing olives, another important Portuguese
-      heritage, used especially as a sauce for refined dishes. Our route
-      approaching the Douro River will be traversing its highest part, ending
-      with an accommodation in Vila Nova de Foz Côa, a very well-known site for
-      its pre-historic paintings.
+      heritage, used especially as a sauce for refined dishes. Our route back,
+      approaching the River will be traversing its highest part, ending with an
+      accommodation in Vila Nova de Foz Côa, a very well known site for its
+      Paleolithic paintings.
     location:
       lat: '41.0818397'
       lng: '-7.1424138'
@@ -256,9 +254,11 @@ pricing:
 
 \
 \
-This cycling tour can be made all year. We recommend doing it between the months of September and October, especially during the wine production.
+This cycling tour can be made for the entirety of the year. We recommend doing it between the months of September and October, especially during the wine production season.
 
-A cycling path that combines hospitality in wine producing farms, with bike rides through the vineyards and olive groves, producing Port wine and olive oil from Portugal. With a resting day off to visit the cave paintings and its museum in Vila Nova de Foz Côa, you must take this journey along the incredible Douro region, considered natural heritage by UNESCO. 
+
+
+A cycling tour that combines the hospitality of wine making farms, with bike rides through the well known vineyards and olive fields of The Douro Valley. With a resting day, in order to visit the Paleolithic open-air paintings and its museum in Vila Nova de Foz Côa. If good wine, amazing sights and calm and relaxing cycling areas his what you are looking for, then you must take this journey along the incredible Douro region, considered natural heritage by UNESCO. 
 \
 \
 **Route classification:**  Moderated to hard
