@@ -37,7 +37,7 @@ distance: 791
 distanceUnit: km
 duration: 16
 durationUnit: Days | 15 Nights
-difficulty: 5
+difficulty: 4
 physicality: 1
 rating: []
 itinerary:
