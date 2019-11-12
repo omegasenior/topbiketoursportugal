@@ -345,5 +345,5 @@ Day 7: Departure
 
 * Electric bicycles price: 175€
 * Suplement for single room: 329 €
-* Solo traveler: 400 €
+* Solo traveler: 200 €
 * Extra nights: on request
