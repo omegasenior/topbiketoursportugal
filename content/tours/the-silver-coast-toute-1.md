@@ -286,7 +286,7 @@ See some characteristics that make Porto one of the most important cities (cultu
 \
 **Route description:**
 
-* Flat route, with only one climb in the 4th for about 4 kms.
+* Flat route, with only one climb in the 5th day for about 4 kms.
 * 65 % bike lanes, 20% smooth dirt roads and sometimes into the agriculture fields, 5 % paved roads with low traffic.
 
 **Itinerary:**
