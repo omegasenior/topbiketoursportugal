@@ -42,15 +42,7 @@ physicality: 1
 rating: []
 itinerary:
   - day: '1'
-    description: >-
-      Before starting this cycling journey towards Coimbra, it's almost
-      mandatory to explore Porto, classified as World Heritage and Capital of
-      Culture and Tourism. Join us in a city walking tour and discover part of
-      the heritage this city has to offer. Meet famous and well-known hot spots,
-      such as the bookstore that influenced J.K. Rowling’s Harry Potter, the
-      magnificent Stock Exchange Market, the blue and white tiles hiding at each
-      corner and much more. Art, heritage and traditions are meant to be found
-      and seen during this short city tour.
+    description: ''
     location:
       lat: '41.1494512'
       lng: '-8.6107884'
