@@ -260,11 +260,15 @@ The Douro valley is one of the ultimate wonders of nature, but also the takes th
 The Port Wine is undoubtedly the most remarkable concept, along with the several holidays and wine celebration, such as the harvest in September, the most important and lively event. 
 \
 \
-**Route classification:** Moderate to Hard
+**Route description**:
 
-**Estimated KM:** 270 km and 4435 m (1.89%) of cumulative ascents.\
+* Mostly steep. Up and down route.
+* 100 % paved roads with very low traffic.
+* 4435 meters of cumulative ascents.
+
 \
-\
+**Itinerary:**
+
 Day1: Porto – Pinhão (110 km, transfer de comboio)
 
 Day 2: Pinhão – Vila Nova de Foz Côa (74 km)
