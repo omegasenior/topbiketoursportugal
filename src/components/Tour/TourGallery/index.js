@@ -1,43 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Img from "gatsby-image";
-
-import styled from "styled-components";
-
-const GalleryContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const ImageWrapper = styled.div`
-  flex: 0 0 33%;
-  max-height: 252px;
-  overflow: hidden;
-  .gatsby-image-wrapper {
-    margin: 25px 10px 5px 10px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-`;
-
+import "./tourgallery.scss";
 //https://blog.usejournal.com/building-highly-performant-masonry-layouts-with-gatsby-js-54115acc3e72
 const TourGallery = ({ tour: { gallery } }) => (
   <div className="container">
-    {gallery && <h2 className="row">Gallery</h2>}
-    <GalleryContainer>
+    {gallery && <h2 className="row col-12">Gallery</h2>}
+    <div className="row">
       {gallery &&
         gallery.map((item, index) => (
-          <ImageWrapper key={`tg${index}`}>
+          <div className="col-xs-1 col-4 imgwrapper" key={`tg${index}`}>
             <Img
               key={item.image.childImageSharp.id}
               fluid={item.image.childImageSharp.fluid}
             />
-          </ImageWrapper>
+          </div>
         ))}
-    </GalleryContainer>
+    </div>
   </div>
 );
 
