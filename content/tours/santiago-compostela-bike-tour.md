@@ -186,42 +186,30 @@ pricing:
         - icon: ✓
           title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - icon: ✓
-          title: Luggage shuttling
-          value: ''
-        - icon: ✓
-          title: Porto Airport Transfers
-          value: ''
-        - icon: ✓
-          title: Trains or Bus Tickets
-          value: ''
-        - icon: X
-          title: Van Support
-          value: ''
-        - icon: ✓
-          title: GPS With route per booking
-          value: ''
-        - icon: ✓
-          title: Bike rent
-          value: ''
-        - icon: X
-          title: Guide
-          value: ''
-        - icon: X
-          title: Mechanical Assistance
-          value: ''
-        - icon: X
-          title: 6 lunches
-          value: ''
-        - icon: X
-          title: 6 Dinners
-          value: ''
-        - icon: X
-          title: Personal Accident Insurance
-          value: ''
-        - icon: X
-          title: Liability Insurance
-          value: ''
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'No'
+        - title: GPS With route per booking
+          value: 'Yes'
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'No'
+        - title: Mechanical Assistance
+          value: 'No'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'No'
+        - title: Liability Insurance
+          value: 'No'
         - title: 7 Nights / 8 Days ( price per person)
           value: 1.489 €
         - title: 'July, August and September Prices'
@@ -238,41 +226,31 @@ pricing:
       packageContents:
         - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - icon: ✓
-          title: Luggage shuttling
-          value: ''
-        - icon: ✓
-          title: Porto Airport Transfers
-          value: ''
-        - icon: ✓
-          title: Trains or Bus Tickets
-          value: ''
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
         - title: Van Support
           value: minimum 8 pax
         - icon: '-'
           title: GPS With route per booking
           value: ''
-        - icon: ✓
-          title: Bike rent
-          value: ''
-        - icon: ✓
-          title: Guide
-          value: ''
-        - icon: ✓
-          title: Mechanical Assistance
-          value: ''
-        - icon: X
-          title: 6 lunches
-          value: ''
-        - icon: X
-          title: 6 Dinners
-          value: ''
-        - icon: ✓
-          title: Personal Accident Insurance
-          value: ''
-        - icon: ✓
-          title: Liability Insurance
-          value: ''
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'No'
+        - title: 6 Dinners
+          value: 'No'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
         - title: 7 Nights / 8 Days ( price per person)
           value: 1895 €
         - title: 'July, August and September Prices'
@@ -288,42 +266,31 @@ pricing:
       packageContents:
         - title: Accommodations W/ Breakfast
           value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - icon: ✓
-          title: Luggage shuttling
-          value: ''
-        - icon: ✓
-          title: Porto Airport Transfers
-          value: ''
-        - icon: ✓
-          title: Trains or Bus Tickets
-          value: ''
-        - icon: ✓
-          title: Van Support
-          value: ''
+        - title: Luggage shuttling
+          value: 'Yes'
+        - title: Porto Airport Transfers
+          value: 'Yes'
+        - title: Trains or Bus Tickets
+          value: 'Yes'
+        - title: Van Support
+          value: 'Yes'
         - icon: '-'
           title: GPS With route per booking
           value: ''
-        - icon: ✓
-          title: Bike rent
-          value: ''
-        - icon: ✓
-          title: Guide
-          value: ''
-        - icon: ✓
-          title: Mechanical Assistance
-          value: ''
-        - icon: ✓
-          title: 6 lunches
-          value: ''
-        - icon: ✓
-          title: 6 Dinners
-          value: ''
-        - icon: ✓
-          title: Personal Accident Insurance
-          value: ''
-        - icon: ✓
-          title: Liability Insurance
-          value: ''
+        - title: Bike rent
+          value: 'Yes'
+        - title: Guide
+          value: 'Yes'
+        - title: Mechanical Assistance
+          value: 'Yes'
+        - title: 6 lunches
+          value: 'Yes'
+        - title: 6 Dinners
+          value: 'Yes'
+        - title: Personal Accident Insurance
+          value: 'Yes'
+        - title: Liability Insurance
+          value: 'Yes'
         - title: 7 Nights / 8 Days ( price per person)
           value: 2.456 €
         - title: 'July, August and September Prices'
