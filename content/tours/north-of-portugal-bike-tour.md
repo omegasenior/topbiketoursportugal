@@ -38,13 +38,12 @@ rating: []
 itinerary:
   - day: '1'
     description: >-
-      This amazing cycling trip starts in Melgaço, a city in the north of
-      Portugal, on the banks of the Minho River.  It is a small town, very
-      beautiful and historic, overseen by the tower of Homage, located high up
-      in the old medieval town. It overviews the beautiful Minho valley, filled
-      with vineyards, that surrounds Melgaço and the nearby Peneda Geres park.
-      Included is an introductory meeting with our local partner including tour
-      presentation and explanation.
+      The cycling trip starts in Melgaço, a city in the north of Portugal, on
+      the banks of the Minho River. It is a small, beautiful and historical
+      town, overseen by the tower of Homage, located high up in the old medieval
+      area. It overviews the beautiful Minho valley, filled with vineyards that
+      surround Melgaço and the nearby Peneda Geres park. Today you will also be
+      meeting our local partner, including a tour presentation and explanation.
     location:
       lat: '42.1130412'
       lng: '-8.2593422'
@@ -71,27 +70,26 @@ itinerary:
     title: 'Day 2: Melgaço – Valença,  (43 km) plus extra track to Tui (6 km)'
   - day: '3'
     description: >-
-      Leaving Valença continue along with the Minho river that marks the border
-      with Spain. One of today’s destination is Caminha, a fortified town where
-      several battles were fought between Portugal and Spain. Standing on a tiny
-      island in the middle of the estuary are the ruins of the fort of Ínsua,
-      built as a defensive measure concerning the entrance in the river during
-      the XVth century. Nowadays there is a daily ferry-boat linking the two
-      banks of the river between the countries. This city is also very
-      well-known for its natural and green heritage: the sightseeing areas,
-      waterfalls, beaches, camping parks and the “Modelo” beach (a favorite
-      destination of famous people in Portugal). The midday stop is Vila Nova de
-      Cerveira, the 'Village of the Arts'. The city became, after 1978, the
-      meeting point of artists from all over the world. Cycle alongside the
-      coast, overlooking the Atlantic Ocean, and you’ll reach Viana do Castelo.
-      The city is one of the most beautiful seaside cities of the north of
-      Portugal. Viana held a huge importance to Portugal in the Age of the
-      Discoveries and later on with the cod fish fishing. This city has a huge
-      tradition and connection with the sea, with the fisherman proudly
-      showcasing it nowadays, mainly during the great festivity of “Nossa
-      Senhora da Agonia”. It was also here that the ships were built and later
-      deployed to Brazil, India, Africa and other Portuguese colonies (XIVth and
-      XVth centuries
+      Leaving Valença, continue along with the Minho river. One of today's
+      destination is Caminha, a fortified town where several battles were fought
+      between Portugal and Spain. Standing on a tiny island in the middle of the
+      estuary are the ruins of the fort of Ínsua, built as a defensive measure
+      concerning the entrance in the river during the XVth century. Nowadays
+      there is a daily ferry-boat linking the two banks of the river between the
+      countries. This city is also very well-known for its natural and green
+      heritage: the sightseeing areas, waterfalls, beaches, camping parks and
+      the “Modelo” beach (a favorite destination of famous people in Portugal).
+      The midday stop is Vila Nova de Cerveira, the 'Village of the Arts'. The
+      city became, after 1978, the meeting point of artists from all over the
+      world. Cycle alongside the coast, overlooking the Atlantic Ocean, and
+      you’ll reach Viana do Castelo. The city is one of the most beautiful
+      seaside cities of the north of Portugal. Viana held a huge importance to
+      Portugal in the Age of the Portuguese Discoveries and later on with the
+      cod fish fishing. This city has a huge tradition and connection with the
+      sea, with the fisherman proudly showcasing it nowadays, mainly during the
+      great festivity of “Nossa Senhora da Agonia”. It was also here that the
+      ships were built and later deployed to Brazil, India, Africa and other
+      Portuguese colonies, during the XVth and XVIth centuries.
     location:
       lat: '41.694867'
       lng: '-8.831088'
@@ -100,15 +98,15 @@ itinerary:
     description: >-
       Leaving Viana, the cycling will be back to the interior of Portugal, with
       the beautiful Lima River alongside. The destination is now Ponte de Lima,
-      a city recognized as a universal heritage and as the ultimate North of
+      a city recognized as world heritage and stands as the ultimate North of
       Portugal in all its rusticity and scenic beauty. This land is full of
-      history and is located in the former Braga-Tui military road. With charter
-      since 1125 it’s the oldest Portuguese village. Its bridge over the river
-      Lima, built by the Romans in the 1st century, has always been a place of
-      passage for the pilgrims who were going to Santiago. Ponte de Lima is the
-      cradle of Housing Tourism, of the “Loureiro” variety that distinguishes
-      the “Vinho Verde” and the Rice of “Sarrabulho” appreciated in the most
-      faraway places in the world.
+      history and is located in the former Braga-Tui military road. It is the
+      oldest Portuguese village, since 1125 when it was granted charter. Its
+      bridge, over the river Lima, built by the Romans in the 1st century, has
+      always been a place of passage for the pilgrims who were going to
+      Santiago. Ponte de Lima is the cradle of Housing Tourism, of the
+      “Loureiro” variety that distinguishes the “Vinho Verde” and the Rice of
+      “Sarrabulho” appreciated in the most faraway places in the world.
     location:
       lat: '41.7675021'
       lng: '-8.5830992'
@@ -134,12 +132,12 @@ itinerary:
   - day: '6'
     description: >-
       During the last day, you will be overwhelmed with seaside landscapes and
-      small “Portuguese rivieras” until you reach. You will have a chance to
-      meet a huge variety of fishing villages (Póvoa de Varzim), where you can
-      experience ancient traditions linked to the fish exploration as well as
-      tasting this famous gastronomy. In Vila do Conde, you’ll know why these
-      Portuguese coastal cities were so important during the “el dorado” of the
-      Portuguese Discoveries.
+      small “Portuguese rivieras” until you reach Porto. You will have a chance
+      to meet a huge variety of fishing villages, like Póvoa de Varzim, where
+      you can experience ancient traditions linked to the fish exploration as
+      well as tasting this famous gastronomy. In Vila do Conde, you’ll know why
+      these Portuguese coastal cities were so important during the “el dorado”
+      of the Portuguese Discoveries.
     location:
       lat: '41.1494512'
       lng: '-8.6107884'
@@ -277,15 +275,19 @@ pricing:
 ---
 # North of Portugal Bike tour
 
-## Cycling in the oldest Village of Portugal and near the river and sea
+## Cycling in the oldest Village of Portugal along the river side and the sea
 
 \
 \
-The Cycle Trail of Minho River in 2009 was ranked as the fourth best trail in Europe in 2009, showcases all the amazing Portuguese landscapes, rivers and it even provides you a breathtaking seaside view.  Cycling trough villages considered World Heritage will give you the fulfilment you’re craving. 
+The Cycle Trail of Minho River was ranked as the fourth best 2009 trail in Europe. That alone showcases all the amazing Portuguese landscapes, rivers and seaside views which you will be enjoying during this trip. Cycle trough World Heritage villages, vineyards, farmed land, beaches, historical towns, going down the country in the direction of the mighty city of Porto.
 
-The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km until it reaches Caminha. The natural border between Portugal and Spain lies between Melgaço and the river mouth.
 
-The taste of the worldwide known gastronomy and wines are the icing on the cake in this region with such a rich landscape and cultural, historical and architecture heritage. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
+
+The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km. It serves as a natural border between Portugal and Spain, travelling the entire way across Melgaço and its mouth in Caminha.
+
+
+
+Taste the worldwide known gastronomy. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. Relish on the regional wines that the country couldn't go without. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
 
 \
 \
