@@ -157,19 +157,17 @@ gallery:
 pricing:
   - bestValue: false
     en:
-      package: Group
-      packageContents:
-        - title: Price per person
-          value: 198 €
+      package: Group price per person
+      packageContents: []
     highSeasonPriceSupplement: 100
     price: 198
   - bestValue: false
     en:
-      package: 'Private '
+      package: Group price per person
     highSeasonPriceSupplement: 100
-    observations: 260 €
+    observations: ''
     price: 260
-    type: Price per person
+    type: ''
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim
 
