@@ -12,8 +12,14 @@ tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - Santiago Compostela
-  - Costal Tour
+  - Cycling Holiday
+  - Coimbra
+  - North
+  - Porto
+  - Center
+  - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     Cycle with us to the Portuguese Silver Coast, bordering with the region of

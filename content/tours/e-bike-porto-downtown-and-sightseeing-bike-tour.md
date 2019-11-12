@@ -9,8 +9,14 @@ image: /img/dscn1620.jpg
 title: E Bike Porto Downtown and Sightseeing bike tour
 packagetype: SingleTour
 tourtype: Bike
-minAge: 16
-difficulty: 0
+tags:
+  - city tour
+  - biketour
+  - Porto
+  - North
+  - touring bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >-
     Enjoy all around Porto city in a Electric bicycle. Join a group or make it

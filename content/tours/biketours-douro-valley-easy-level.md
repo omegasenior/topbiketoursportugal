@@ -6,13 +6,20 @@ productcode: DOURO 01
 featured: false
 language: en
 image: /img/douro.jpg
-title: Douro Wine Tour Easy
+title: Douro Wine Tour "Easy"
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
   - Bike
 tags:
-  - douro wine cycling holiday
+  - Cycling Holiday
+  - Douro
+  - Porto
+  - North
+  - Biketour
+  - road bicycle
+  - e-bike
+  - electric bicycle
 meta:
   description: >
     Remember that the Douro is a valley and despite the tour being classified as

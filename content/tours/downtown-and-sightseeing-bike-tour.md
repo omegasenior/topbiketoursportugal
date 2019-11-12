@@ -13,10 +13,11 @@ tourcategory:
   - Bike
 difficulty: 0
 tags:
-  - city tours
-  - porto
-  - oporto
-  - bicycle tours porto
+  - city tour
+  - biketour
+  - Porto
+  - North
+  - touring bicycle
 meta:
   description: >-
     Speed, urban history, gardens and other green areas are to be taken in this

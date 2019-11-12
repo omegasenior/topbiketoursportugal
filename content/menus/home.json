@@ -33,6 +33,13 @@
         "order": 1
       },
       {
+        "display": "Bicycles",
+        "link": "/rent-bike-porto-portugal",
+        "enabled": true,
+        "isHome": false,
+        "order": 1
+      },
+      {
         "display": "Blog",
         "link": "/blog",
         "enabled": true,
@@ -49,13 +56,6 @@
       {
         "display": "About",
         "link": "/about-us-biking-travel",
-        "enabled": true,
-        "isHome": false,
-        "order": 1
-      },
-      {
-        "display": "Bicycles",
-        "link": "/rent-bike-porto-portugal",
         "enabled": true,
         "isHome": false,
         "order": 1
