@@ -10,7 +10,7 @@ meta:
 feature:
   align: center
   image: /img/esmoriz-wood-wlak-with-bike.jpg
-  imageAlign: bottom center
+  imageAlign: center top
   textcolor: WHITE
   title: Contacte-nos
 ---
