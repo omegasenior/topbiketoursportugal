@@ -28,7 +28,7 @@ The cycling tours we offer are designed for recreational cyclists. For that purp
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
-Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. 4- stars, rural houses or farms will be booked for you. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your holiday. Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
+Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your holiday. Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
 
 Safety is our number one priority and we will always be nearby to help you.
 
