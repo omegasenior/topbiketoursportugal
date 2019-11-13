@@ -3,8 +3,10 @@
   text-align: left;
 }
 
-.gatsby-image-wrapper {
-  max-height: 240px;
-  overflow: hidden;
-  margin-bottom: 30px;
+.bikesImages {
+  .gatsby-image-wrapper {
+    max-height: 240px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
 }

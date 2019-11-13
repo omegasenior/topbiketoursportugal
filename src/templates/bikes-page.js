@@ -28,7 +28,7 @@ export const BikesPageTemplate = ({
       </div>
       <div className="row">
         {groupsKeys.map((g, index) => (
-          <div key={`g` + index} className="col-4">
+          <div key={`g` + index} className="col-4 bikesImages">
             <h2>{g}</h2>
             {groups[g].map((item, index2) => (
               <Img
