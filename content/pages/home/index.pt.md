@@ -1,43 +1,38 @@
 ---
 templateKey: home-page
-path: /pt
-title: Home
-langKey: pt
-lang: pt
 language: pt
-tourHighlights: |
-  Here are reasons you should plan trip with us Handpicked Hotels Lorem
-  ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa World Class Service Lorem ipsum dolor sit amet,
-  consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
-  Best Price Guarantee Lorem ipsum dolor sit amet, consect adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa
+lang: pt
+path: /cicloturismo-portugal
+title: Home
 toursection:
-  description: |
-    We have a unique way of meeting your adventurous expectations!
-  descriptionafter: |
-    Here are reasons you should plan trip with us Handpicked Hotels Lorem ipsum
-    dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor.
-    Aenean massa World Class Service Lorem ipsum dolor sit amet, consect
-    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Best Price
-    Guarantee Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
-    commodo ligula eget dolor. Aenean massa
-  heading: |
-    ## Popular Tours
+  description: "# TOURS EM BICICLETA PORTUGAL \r\n\n# NORTE E SUL | BIKE TOURS PORTUGAL"
+  descriptionafter: >-
+    A experiência combinada de nossa equipa permite-nos combinar ciclismo com os
+    componentes histórico e gastronómico. Conhecedores de excelentes serviços de
+    hotelaria e catering, assim como, de caminhos e paisagens que surpreendem e
+    superam as expectativas.
+  heading: '## Tours populares'
+meta:
+  description: >-
+    Cicloturismo em Portugal. De norte a sul do país conheça a nossa oferta de
+    passeios em autonomia ou guiados em bicicleta
+  keywords: >-
+    passeios em bicicleta portugal, viagnes em biciclea, passeios em bicicleta
+    guiados, bike tours, cycling holidays
+  title: Tours em bicicleta em Portugal
 ---
+# Porquê escolher-nos
 
-## Porquê escolher-nos
+Visite Portugal em bicicleta com os nossos guias especializados.
 
-Visite todo o portugal :D all around Portugal in a bicycle with our expertise guides.
+Nossa missão é proporcionar um passeio relaxante, cheio de diversão e conhecimento. Pontos históricos serão explicados, boa gastronomia e desafios gastronômicos são alguns dos destaques das nossas viagens.
 
-Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.
+Os passeios de bicicleta que oferecemos são projetados para turismo de lazer e usamos principalmente touring bikes (um misto de bicicleta de montanha e bicicleta de estrada). Bicicletas de estrada também estão disponíveis para quem procura desafios mais exigentes.
 
-The cycling tours we offer are designed for recreational cyclists and we use mostly touring bicycles. Road bikes are also available for harder challenges.
+Os nossos pacotes de férias incluem passeios em bicicleta guiados ou autoguiados. A assistência mecânica é sempre garantida e a bagagem será transportada todos os dias durante a sua semana de férias. Suporte em viatura é oferecido nos passeios de bicicleta guiados, onde estará sempre disponível água e snacks.
 
-The packages are offered in self guided or guided bike tours. Mechanical assistance will be always guaranteed, and the luggage will be transported every day of your week tour. Van support is mostly offered in guided bike tours where you can find water and snacks.
+Segurança é nossa prioridade e estaremos sempre próximos para ajudar.
 
-Safety is our priority and we will be always near to help.
+Nós escolhemos os melhores restaurantes e hotéis para suas necessidades. O almoço e o jantar, quando não incluídos nos nossos pacotes guiados, também serão organizados para o seu grupo.
 
-We choose the best restaurants and hotels for your needs. Lunch and dinner when not included in our guided packages will also be organized for your group.
-
-Our store is in Porto city where we also do city bike tours. Although our base is in the North of Portugal we operate in all around the country.
+Nossa loja fica na cidade do Porto, onde também fazemos passeios de bicicleta pela cidade. Embora a nossa base seja no norte de Portugal, operamos em todo o país.
