@@ -2,7 +2,7 @@
 templateKey: ContactPage
 language: pt
 path: /pt/contacte-nos
-title: Visita a nossa loja e experimente os nosso passeios em bicicleta
+title: Contacte-nos
 meta:
   description: Contactos Top Bike tours Portugal
   keywords: Contactos Top Bike tours Portugal
@@ -12,7 +12,7 @@ feature:
   image: /img/esmoriz-wood-wlak-with-bike.jpg
   imageAlign: bottom center
   textcolor: WHITE
-  title: Visita a nossa loja e experimente os nosso passeios em bicicleta
+  title: Contacte-nos
 ---
 
 
