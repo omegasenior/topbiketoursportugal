@@ -76,11 +76,11 @@ descriptionafter: >-
   and 75 km. Short climbs up to 30% of the whole route. For inexperient cyclist
   with some fitness preparation.
 
-  * **Moderated:** Terrain can be in dirt roads or trails. Mostly flat with
-  daily distances between 50km and 75km with some climbs up to 40% of the whole
-  route. For cyclist with fitness preparation.
+  * **Moderate:** Terrain can be in dirt roads or trails. Mostly flat with daily
+  distances between 50km and 75km with some climbs up to 40% of the whole route.
+  For cyclist with fitness preparation.
 
-  * **Moderated to hard:** Terrain can be in dirt roads or trails. Daily
+  * **Moderate to hard:** Terrain can be in dirt roads or trails. Daily
   distances between 50km and 75km with moderate climbs up to 60% of the whole
   route. For cyclist with fitness preparation that want to challenge themselves.
 
