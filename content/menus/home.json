@@ -73,8 +73,8 @@
         "order": 1
       },
       {
-        "display": "Cicloturismo",
-        "link": "/pt/cicloturismo",
+        "display": "Férias em Bicicleta",
+        "link": "/pt/ferias-em-bicicleta",
         "description": "Ver oferta cicloturismo",
         "enabled": true,
         "isHome": false,
@@ -97,6 +97,13 @@
         "order": 1
       },
       {
+        "display": "Bicicletas",
+        "link": "/pt/bicicletas",
+        "enabled": true,
+        "isHome": false,
+        "order": 1
+      },
+      {
         "display": "Blog",
         "link": "/pt/blog",
         "enabled": true,
@@ -105,14 +112,14 @@
       },
       {
         "display": "Contactos",
-        "link": "/pt/contacte-nos",
+        "link": "/pt/contactos",
         "enabled": true,
         "isHome": false,
         "order": 1
       },
       {
         "display": "Sobre nós",
-        "link": "/sobre-nos-hire-a-bike",
+        "link": "/pt/sobre-nos",
         "enabled": true,
         "isHome": false,
         "order": 1
