@@ -10,8 +10,6 @@ afterequipment: |-
   * Bike tool kit for quick repairs
   * GPS Garmin
 
-  ### 
-
   **Roadbook**
 
   * Maps
@@ -19,7 +17,6 @@ afterequipment: |-
   * Tips
   * Information about restaurants
   * Other points of interest
-  * Prices and conditions
 bikes:
   - image: /img/bike.png
     type: Hybrid bicycle
