@@ -11,3 +11,6 @@ yarn-error.log
 src/img/*.zip
 readme.ignore.md
 .vs/slnx.sqlite
+.vs/slnx.sqlite
+src/.vs/VSWorkspaceState.json
+src/.vs/src/v16/.suo
