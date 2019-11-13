@@ -1,31 +1,38 @@
 ---
 templateKey: bikes-page
-title: Bicicletas
-path: /bicicletas
 language: pt
+path: /bicicletas
+title: Bicicletas
 bikes:
-  - type: BIKE KROSS TRANS ALP
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  - type: Road bike
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  - type: Mountain bike
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
+  - image: /img/bike.png
+    type: Hybrid bicycle
+  - image: /img/rent-a-bike-female.png
+    type: Hybrid bicycle
+  - image: /img/road-bike-pulso-1.png
+    type: Road bike
+  - image: /img/road-bike-vento-2.png
+    type: Road bike
+  - image: /img/tarmac-sport-specialized.webp
+    type: Road bike
+  - image: /img/xcaliber7_23147_b_primary.jpg
+    type: Mountain bike
+  - image: /img/specialized-women-mtb.png
+    type: Mountain bike
+  - image: /img/ktm-macina.jpg
+    type: Mountain bike
 equipment:
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
+  - description: Kross TRANS 5.0
+    type: Hybrid bike
+  - description: Kross TRANS 5.0
+    type: Hybrid bike
+  - description: Kross TRANS 5.0
+    type: Hybrid bike
 meta:
-  description: >-
-    Select your bike tour from our cycling tour list. Decide where to go with us
-    in your next cycling Holiday in Portugal. For recreational cyclists or
-    challenge routes
+  description: 'Aluguer de bicicletas Porto, Rent a bike porto, hire a bike porto'
   keywords: >-
-    Cycling Tours Portugal, cycling holidays in nature,bike tours, bike tours
-    portugal,guided bike tours
-  title: Bike tours Portugal - Bicycle tours Portugal
+    RENT A BIKE PORTO,ALUGAR BICICLETA PORTO,HIRE A BYCICLE PORTO
+    PORTUGAL,RENTAL BIKE OPORTO
+  title: ALUGUER BICICLETAS PORTO
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
@@ -34,5 +41,18 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
+# 
 
-# Bikes
+#### Cycling holidays Equipment
+
+* Helmet
+* Bike tool kit for quick repairs
+* GPS Garmin
+
+**Roadbook**
+
+* Maps
+* Trails detailed information
+* Tips
+* Information about restaurants
+* Other points of interest
