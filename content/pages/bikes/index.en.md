@@ -4,9 +4,6 @@ language: en
 path: /rent-bike-porto-portugal
 title: Bikes
 afterequipment: |-
-  \
-  \
-  \
   **Cycling holidays Equipment**
 
   * Helmet
