@@ -68,14 +68,14 @@ itinerary:
     title: Day 2 – Porto  - Furadouro
   - day: '3'
     description: >-
-      Starting the 3 rd day continue the path along the coast, on the road 
-      N327, towards the city of Aveiro, known as the little Venice of Portugal.
-      Ride several fishing villages, one of which is the town of Torreira. 
-      Continuing our way see the famous natural reserve of S. Jacinto dunes
-      where you can observe several species of birds (bird watching).  To
-      accomplish the crossing to Aveiro, make the passage via Ferry Boat. Arrive
-      at the famous city of Aveiro can visit the Monastery of Jesus, observe the
-      tiles from the train station and make a boat tour of the Ria de Aveiro.
+      Continuing the path along the coast, on the road N327, towards the city of
+      Aveiro, known as the little Venice of Portugal. Ride by several fishing
+      villages, one of which is the town of Torreira. Continuing our way see the
+      famous natural reserve of S. Jacinto, where you can observe several
+      species of birds. To accomplish the crossing to Aveiro, make the passage
+      via Ferry Boat. Arrive at the famous city of Aveiro where you can visit
+      the Jesus Monastery, observe the tiles from the train station and make a
+      boat tour on the Ria de Aveiro.
     location:
       lat: '40.640496'
       lng: '8.6537841'
