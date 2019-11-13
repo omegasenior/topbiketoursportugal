@@ -40,18 +40,31 @@ pricing: []
 ---
 # Douro Valley Cycling camp Training
 
-## Training, discovering, quite and fun!
+## Training, discovering, calming and fun!
+
 \
-Douro Valley is know because of the Wine and the great landscape.
+Douro Valley is known because of its Wine and great landscapes.
 
-Its still an unknow region for several cyclists. Regions like Mallorca are Known for their great cycling camps, because of the weather conditions.
 
-Douro Valley from March to November is also good in terms of weather. Come and train with us, and we will suprise you with our local accommodations that in the majority are farms and also try our local gastronomy. There´s a lot of different activities to complement your stay that will surprise you!
 
-Keep in mind that traffic in Douro Valley is really really really low!
+It's still an unknown region for several cyclists. Regions like Mallorca are known for their great cycling camps, because of the weather conditions.
 
-We have the best tarmac roads for you in a region without the usual tourist invasion and traffic if you compare it with Mallorca.What are you waiting for?
+
+
+Douro Valley from March to November is also good when it comes to weather. Come and train with us. We will suprise you with our local accommodations that, in the majority of the time, are farms. Try our local gastronomy. You might be surprised on how many different activities there are to complement your stay"!
+
+
+
+Keep in mind that traffic in Douro Valley is really, really, really low!
+
+
+
+We have the best tarmac roads for you, in a region without the usual tourist invasion, when you compare it with Mallorca. What are you waiting for?
+
+
 
 We have different daily rides in the region depending on your skills.
+
+
 
 Contact us so we can know your physical level and send you a proposal.
