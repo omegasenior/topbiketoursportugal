@@ -21,15 +21,15 @@ afterequipment: |-
   * Other points of interest
   * Prices and conditions
 bikes:
-  - image: /img/bike1.webp
+  - image: /img/bike1.jpg
     type: BIKE KROSS TRANS ALP
-  - image: /img/bike2.webp
+  - image: /img/bike2.jpg
     type: BIKE KROSS TRANS ALP
-  - image: /img/bike3.webp
+  - image: /img/bike3.jpg
     type: Road bike
-  - image: /img/bike4.webp
+  - image: /img/bike4.jpg
     type: Road bike
-  - image: /img/bike5.webp
+  - image: /img/bike5.jpg
     type: Mountain bike
 equipment:
   - description: "* Kross TRANS 5.0\r\n* 24 gears with V-brake\r\n* Crankset 22T/32T/42T\r\n* Schwalbe tires with puncture protection (size of tire 28 x1.6 ) – Marathon plus and Smart Sam\r\n* Adjustable height stem\r\n* Shimano group set\r\n* Cargo rack\r\n* Pannier bike bag\r\n* E-bike kit available with 80 km autonomy in level 2 (of 5) of assistance."
