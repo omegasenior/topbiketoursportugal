@@ -12,7 +12,7 @@ bikes:
     type: Road bike
   - image: /img/road-bike-vento-2.png
     type: Road bike
-  - image: /img/tarmac-sport-specialized.webp
+  - image: /img/specialized-tarmac-sport.png
     type: Road bike
   - image: /img/xcaliber7_23147_b_primary.jpg
     type: Mountain bike
