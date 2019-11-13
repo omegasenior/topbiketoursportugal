@@ -9,7 +9,7 @@ meta:
 feature:
   align: center
   image: /img/esmoriz-wood-wlak-with-bike.jpg
-  imageAlign: center top
+  imageAlign: center center
   subtitle: ''
   textcolor: Orange
   title: Contact us
