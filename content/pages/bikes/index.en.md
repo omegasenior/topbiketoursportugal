@@ -84,7 +84,7 @@ meta:
   title: Bike tours Portugal - Bicycle tours Portugal
 feature:
   align: center
-  image: /img/furadouro-forest-in-a-bicycle.jpg
+  image: /img/dirt-path-with-bicycles.jpg
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
