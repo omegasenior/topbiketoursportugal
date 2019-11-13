@@ -1,24 +1,43 @@
 ---
 templateKey: bikes-page
-title: Bikes
-path: /rent-bike-porto-portugal
 language: en
+path: /rent-bike-porto-portugal
+title: Bikes
+afterequipment: |-
+  #### Cycling holidays Equipment
+
+  * Helmet
+  * Bike tool kit for quick repairs
+  * GPS Garmin
+
+  ### 
+
+  **Roadbook**
+
+  * Maps
+  * Trails detailed information
+  * Tips
+  * Information about restaurants
+  * Other points of interest
+  * Prices and conditions
 bikes:
-  - type: BIKE KROSS TRANS ALP
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  - type: BIKE KROSS TRANS ALP
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  - type: Road bike
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  - type: Mountain bike
-    image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
+  - image: /img/bike1.webp
+    type: BIKE KROSS TRANS ALP
+  - image: /img/bike2.webp
+    type: BIKE KROSS TRANS ALP
+  - image: /img/bike3.webp
+    type: Road bike
+  - image: /img/bike4.webp
+    type: Road bike
+  - image: /img/bike5.webp
+    type: Mountain bike
 equipment:
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
-  - type: Hybrid bike
-    description: Kross TRANS 5.0
+  - description: "* Kross TRANS 5.0\r\n* 24 gears with V-brake\r\n* Crankset 22T/32T/42T\r\n* Schwalbe tires with puncture protection (size of tire 28 x1.6 ) – Marathon plus and Smart Sam\r\n* Adjustable height stem\r\n* Shimano group set\r\n* Cargo rack\r\n* Pannier bike bag\r\n* E-bike kit available with 80 km autonomy in level 2 (of 5) of assistance."
+    type: Hybrid bike
+  - description: "* Kross Vento 2\r\n* 16 gears with V-brake\r\n* Crankset 34T/50T\r\n* Schwalbe tires with puncture protection \r\n* Adjustable height stem\r\n* Shimano group set"
+    type: Road bike
+  - description: "* Trek X-Caliber \r\n* 18 gears\r\n* \rShimano group set"
+    type: Mountain Bike - MTB
 meta:
   description: >-
     Select your bike tour from our cycling tour list. Decide where to go with us
