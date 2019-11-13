@@ -1,17 +1,18 @@
 ---
 templateKey: tour-calendar
+language: pt
 path: /pt/calendario-tours
 title: Tour Calendar
-language: 'pt'
 meta:
-  canonicalLink: ""
-  description: ""
-  keywords: ""
-  noindex: false
-  title: ""
+  canonicalLink: ''
+  description: >-
+    Explore connosco em modo guiado os nossos pacotes em bicicleta especialmente
+    preparados para si! Calendário 2017 já disponivel
+  keywords: calendario passeios guiados portugal
+  title: Calendário de passeios guiados
 feature:
   align: center
-  image: /img/pexels-photo-100582.jpeg
+  image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
   imageAlign: center center
   textcolor: white
   title: Our tours calendar
@@ -27,10 +28,21 @@ dates:
     date: 2019-10-02T22:10:56.761Z
     type: Date
   - body: Tour silver coast 3
-    date: 2019-20-02T22:10:56.761Z
+    date: 2020-08-02T22:10:56.761Z
     type: Date
 ---
-
 # Calendário
 
-Veja aqui as nossas futuras datas.
+\
+**Conditions:**
+
+\- Biketour will only be carried out with a minimum of 4 people
+
+\- Private groups please contact us
+
+\- All dates in the calendar are guaranteed
+
+\
+At any time of year these bike tours are available on self-guided version and in different packages.
+\
+Join a group!
