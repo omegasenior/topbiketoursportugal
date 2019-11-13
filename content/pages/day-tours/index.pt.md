@@ -1,36 +1,27 @@
 ---
-templateKey: 'city-tours'
+templateKey: city-tours
 path: /pt/tours-diarias
-title: tours diárias
-langKey: pt
-lang: pt
 language: pt
-afterList: 'teste'
-feature:
-  image: /img/porto.jpg
-  imageAlign: "top center"
-  title: Tours diárias
-  textcolor: white
-  align: center
-  subtitle: 
+lang: pt
+title: tours diárias
+image: /img/44817961982_440e783762_o.jpg
+afterList: .
 meta:
-  description: This is a meta description.
-  title: Visitas diárias
+  description: >-
+    De passeios pedestres ou de bicicleta..garantimos uma experiência excêntrica
+    que nunca vai se esquecer.
+  keywords: >-
+    city tours porto portugal,passeios bicicleta porto,circuitos bicicleta
+    porto,passeios guiados de bicicleta porto
+  title: PASSEIOS DE BICICLETA COM GUIA TURISTICO PORTO
+feature:
+  align: center
+  image: /img/porto.jpg
+  imageAlign: top center
+  textcolor: white
+  title: Tours diárias
 ---
+## Bike tours Porto | 1 Day tours
 
-## Why Choose tours diárias
 \
-\
-Visit all around Portugal in a bicycle with our expertise guides.
-
-Our mission is to provide a relaxing bike tour, full of fun and knowledge. Historical points will be explained, good food and gastronomy challenges are some of the highlights of our trips.
-
-The cycling tours we offer are designed for recreational cyclists and we use mostly touring bicycles. Road bikes are also available for harder challenges.
-
-The packages are offered in self guided or guided bike tours. Mechanical assistance will be always guaranteed, and the luggage will be transported every day of your week tour. Van support is mostly offered in guided bike tours where you can find water and snacks.
-
-Safety is our priority and we will be always near to help.
-
-We choose the best restaurants and hotels for your needs. Lunch and dinner when not included in our guided packages will also be organized for your group.
-
-Our store is in Porto city where we also do city bike tours. Although our base is in the North of Portugal we operate in all around the country.
+O Porto é, por excelência, uma cidade visitável a pé ou de bicicleta. Pretendemos que desfrute dos nossos serviços e tenha uma experiência inesquecível. Providenciamos um pequeno tutorial antes de cada circuito, tendo uma duração aproximada de 3h. Os nossos circuitos, para além de serem no centro histórico, incluem áreas periféricas da do centro delimitado pela UNESCO. Se procura algo diferente, excêntrico e inesquecível, não hesite em contactar-nos.
