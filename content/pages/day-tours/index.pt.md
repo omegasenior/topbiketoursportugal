@@ -16,7 +16,7 @@ meta:
   title: PASSEIOS DE BICICLETA COM GUIA TURISTICO PORTO
 feature:
   align: center
-  image: /img/porto.jpg
+  image: /img/44817961982_440e783762_o.jpg
   imageAlign: top center
   textcolor: white
   title: Tours diárias
