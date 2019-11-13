@@ -1,7 +1,7 @@
 ---
 templateKey: bikes-page
 language: pt
-path: /bicicletas
+path: /pt/bicicletas
 title: Bicicletas
 bikes:
   - image: /img/bike.png
