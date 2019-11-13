@@ -11,7 +11,7 @@ import Package from "./Package.js";
 
 const TourPricing = ({ tour: { pricing } }) => {
   const packagePricingKeys = uniq(
-    filter(pricing || [], p => p.en)
+    filter(pricing || [], p => p !== null && p.en !== null)
       .map(p => (p.en.packageContents || []).map(pc => pc.title))
       .reduce(
         (accumulator, currentValue) => accumulator.concat(currentValue),
@@ -22,7 +22,7 @@ const TourPricing = ({ tour: { pricing } }) => {
   // console.log(JSON.stringify(packagePricingKeys));
 
   const packages = uniq(
-    filter(pricing || [], p => p.en).map(p => {
+    filter(pricing || [], p => p !== null && p.en !== null).map(p => {
       return {
         packageName: p.en.package,
         price: p.price,

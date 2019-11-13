@@ -97,7 +97,7 @@ export const CityToursPage = ({ data }) => {
     tours.nodes,
     t => t.frontmatter.language == language
   );
-  console.log(JSON.stringify(toursFiltered));
+  // console.log(JSON.stringify(toursFiltered));
   // console.log(JSON.stringify(data.page.frontmatter.meta));
   return (
     <Layout

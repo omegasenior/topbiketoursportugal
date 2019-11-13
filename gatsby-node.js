@@ -62,16 +62,16 @@ exports.createPages = ({ actions, graphql }) => {
       const id = edge.node.id;
       const language = edge.node.frontmatter.language || "en";
       // console.log("Path:" + edge.node.frontmatter.path);
-      console.log(
-        "Path:" +
-          edge.node.frontmatter.path +
-          ", slug:" +
-          edge.node.fields.slug +
-          ", localizedPath:" +
-          edge.node.fields.localizedPath +
-          ", language:" +
-          language
-      );
+      // console.log(
+      //   "Path:" +
+      //     edge.node.frontmatter.path +
+      //     ", slug:" +
+      //     edge.node.fields.slug +
+      //     ", localizedPath:" +
+      //     edge.node.fields.localizedPath +
+      //     ", language:" +
+      //     language
+      // );
       try {
         createPage({
           path:

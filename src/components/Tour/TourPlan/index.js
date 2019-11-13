@@ -176,7 +176,7 @@ const TourPlan = ({ tour: { itinerary }, googleApiKey, location }) => {
   //   zoom: DEFAULT_ZOOM,
   //   mapEffect
   // };
-  console.log(location);
+  // console.log(location);
   return (
     <div className="container">
       <TourPlanWrapper>

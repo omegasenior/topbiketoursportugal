@@ -29,7 +29,7 @@ export default class ServiceWorkerNotifications extends Component {
 
   reloadIfUpdated = () => {
     if (window.swUpdated) {
-      console.log('New content available: reloading window')
+      // console.log('New content available: reloading window')
       window.location.reload()
     }
   }
@@ -41,7 +41,7 @@ export default class ServiceWorkerNotifications extends Component {
 
   handleUpdated = () => {
     window.swUpdated = true
-    console.log('Window will reload on next render')
+    // console.log('Window will reload on next render')
     if (!this.props.updated) return
     this.setState({ message: this.props.updatedMessage })
   }
