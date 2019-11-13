@@ -56,7 +56,10 @@ descriptionafter: >-
 
 
   **Guided Tour plus**
-   Includes everything described in the last paragraph of Guided tours, plus daily lunches and dinners of typical dishes of the Portuguese regions.
+
+  Includes everything described in the last paragraph of Guided tours, plus
+  daily lunches and dinners of typical dishes of the Portuguese regions.
+
 
   **RECOMMENDATIONS**
 
