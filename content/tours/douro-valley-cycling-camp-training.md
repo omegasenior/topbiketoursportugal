@@ -29,6 +29,8 @@ meta:
     Douro Valley training camp, road bike in douro valley. road bike tour
     portugal, road bike
   title: 'Douro Cycling training camp '
+distanceUnit: '-'
+durationUnit: '-'
 rating: []
 itinerary: []
 gallery:
