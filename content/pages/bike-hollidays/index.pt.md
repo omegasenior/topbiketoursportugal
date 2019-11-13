@@ -1,9 +1,9 @@
 ---
 templateKey: bike-hollidays
-path: /passeios-de-bicicleta-portugal
+path: /pt/ferias-em-bicicleta
 language: pt
 lang: pt
-title: Bike Hollidays
+title: Ferias em bicicleta
 descriptionafter: >-
   **IT IS IMPORTANT THAT YOU READ ALL GENERAL INFORMATION ABOUT CYCLE TOURS
   BEFORE BOOKING YOUR BIKE TOUR. FOR ANY FURTHER QUESTION DO NOT HESITATE TO
