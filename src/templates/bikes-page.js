@@ -28,7 +28,7 @@ export const BikesPageTemplate = ({
       </div>
       <div className="row">
         {groupsKeys.map((g, index) => (
-          <div key={`g` + index} className="col-xs-12 col-sm-6 col-4 bikesImages">
+          <div key={`g` + index} className="col-sm-4 col-12 bikesImages">
             <h2>{g}</h2>
             {groups[g].map((item, index2) => (
               <Img
@@ -41,7 +41,7 @@ export const BikesPageTemplate = ({
       </div>
       <div className="row">
         {equipment.map((equip, index) => (
-          <div key={`equi` + index} className="col-xs-12 col-sm-6 col-4">
+          <div key={`equi` + index} className="col-sm-4 col-12">
             {equip.type}
             <br />
             <HTMLContent
