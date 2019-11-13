@@ -47,20 +47,21 @@ itinerary:
     title: 'Day 1: Reception at Porto'
   - day: '2'
     description: >-
-      Land where the cave paintings are classified as World Heritage, which also
-      produces the famous Douro wine.  Cycling until Vila Nova de Foz Coa. We
-      will begin the course heading towards Ervedosa do Douro and continue to
-      São João da Pesqueira, enjoying the Douro River.
+      Starting in Pinhão, you will begin your journey by heading towards
+      Ervedosa do Douro and continuing to São João da Pesqueira, where you can
+      visit a wine museum. The day will end with an accommodation in Vila Nova
+      de Foz Côa, very well known site for its World Heritage Paleolithic
+      paintings.
     location:
       lat: '41.07807865'
       lng: '-7.13896749'
     title: 'Day 2: Pinhão – Vila Nova de Foz Côa.'
   - day: '3'
     description: >-
-      Pedaling towards Figueira de Castelo Rodrigo, we will visit the Northern
-      plateau of Figueira de Castelo Rodrigo, a preserved village with its
-      medieval castle which overlooks the highest point of Portugal. We also
-      will pass through Castelo Melhor, Algodres and Vilar de Amargo. Between
+      Pedaling towards Figueira de Castelo Rodrigo, will pass through Castelo
+      Melhor, Algodres and Vilar de Amargo. Once in your final destination, you
+      will be able to visit its Northern plateau, a preserved village with a
+      medieval castle which overlooks the highest point of Portugal. Between
       February and March, in Figueira de Castelo Rodrigo, this natural landscape
       provides a beautiful scenery of almond blossoms.
     location:
@@ -69,41 +70,44 @@ itinerary:
     title: 'Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo:'
   - day: '4'
     description: >-
-      We continue our cycling journey to. Our day will start following the river
-      course of the Côa River, which will go up to Pinhel. Marialva is connected
-      to a nobility title of Marquis, created after the Portuguese Restoration,
-      in 1640, as well as connected to the equestrian art of the 18th Century.
+      Continuing your cycling journey in the heart of Douro, you will now be
+      heading to Marialva. The day will start with the following of the course
+      of the Côa River, which will go up to Pinhel. Marialva is connected to a
+      nobility title of Marquis, created after the Portuguese Restoration, in
+      1640, as well as connected to the equestrian art of the 18th Century.
     location:
       lat: '40.90918386'
       lng: '-7.23094225'
     title: 'Day 4: Figueira de Castelo Rodrigo – Marialva'
   - day: '5'
     description: >-
-      Mêda and Ranhados, highest points of this route. From this stage we will
-      enjoy the unique landscapes of the vineyards, that portrait the
-      inhabitants of Douro and the vine carving in the mountains.
+      Expect some challenges as you will pass by Mêda and Ranhados, the highest
+      points of this route. From this stage on, we will enjoy the unique
+      mountain carved landscapes, that which portraits the inhabitants of Douro,
+      where vineyards stand the test of time.
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
     title: 'Day 5: Marialva – Penedono'
   - day: '6'
     description: >-
-      Enjoy a rest day or, if you prefer to be on the bike, you can cycle a
-      loop, through neighboring villages.  It will not be an easy ride. Leaving
-      Penedono, you will find yourself in the middle of traditional farmlands,
-      dominated by vineyards and chestnuts. The Sernacelhe area is known as
-      chestnut country. Cycling alongside the Távora River, you can enjoy the
-      wonderful geography with the mountains and valleys so typical of this part
-      of the country. If you have the time, be sure to visit the 12th century
-      church.
+      Enjoy a free day, or cycle a loop, to get to know surrounding villages. In
+      case you opt for cycling, you will leave Penedono and find yourself in the
+      middle of traditional farmlands. The landscape is dominated by vineyards
+      and chestnuts, so much so that "Sernancelhe" area is known has the
+      chestnut county. You will understand how much chestnut the region actually
+      produces on the road side scenery. With the river Távora by your side you
+      can enjoy the wonderful geography, with mountains and valleys, which is a
+      trademark image of this part of the country. If you have the time, take a
+      visit to the XIIth century church.
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
     title: 'Day 6: Penedono loop '
   - day: '7'
     description: >-
-      From here, we will ride along the Douro River. Régua is the last frontier
-      of the Douro wine on the way to Porto.
+      From Penedono we will once again ride along the Douro River. Régua is the
+      last frontier to overcome on your way to Porto.
     location:
       lat: '41.15629912'
       lng: '-7.77725457'
@@ -255,9 +259,9 @@ pricing:
 
 \
 \
-The Douro valley is one of the ultimate wonders of nature, but also the takes the efforts and energy of the man to provide this astonishing nature and environmental transformation. Browsing the Douro is enjoying its convents and churches, meet its rustic crafts, taste the genuine cuisine and witnessing the folklore Portuguese traditions.
+The Douro valley is one of the ultimate wonders of nature. It is the culmination of the effort and energy of men and women, who through their labour gave shape to an already astonishing landscape. Travelling Douro is enjoying its convents and churches, meeting its rustic crafts, tasting the genuine cuisine and witnessing the Portuguese folklore traditions.
 
-The Port Wine is undoubtedly the most remarkable concept, along with the several holidays and wine celebration, such as the harvest in September, the most important and lively event. 
+Port Wine is undoubtedly the most famous product of this region. Douro comes to life during the summer and beginning of Autumn, with the several holidays and wine celebrations that happen at this time of the year. The harvest of the grapes is most likely the biggest and liveliest event of this region.
 \
 \
 **Route description**:
