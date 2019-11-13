@@ -6,12 +6,12 @@ import PropTypes from "prop-types";
 // import { TimeFive } from "styled-icons/boxicons-regular/TimeFive";
 import "./tourPricing.mod.scss";
 import uniq from "lodash-es/uniq";
+import filter from "lodash-es/filter";
 import Package from "./Package.js";
 
 const TourPricing = ({ tour: { pricing } }) => {
   const packagePricingKeys = uniq(
-    (pricing || [])
-      .filter(p => p.en)
+    filter(pricing || [], p => p.en)
       .map(p => (p.en.packageContents || []).map(pc => pc.title))
       .reduce(
         (accumulator, currentValue) => accumulator.concat(currentValue),
@@ -22,17 +22,15 @@ const TourPricing = ({ tour: { pricing } }) => {
   // console.log(JSON.stringify(packagePricingKeys));
 
   const packages = uniq(
-    (pricing || [])
-      .filter(p => p.en)
-      .map(p => {
-        return {
-          packageName: p.en.package,
-          price: p.price,
-          discount: p.discount,
-          bestValue: p.besValue,
-          packageContents: p.en.packageContents || []
-        };
-      })
+    filter(pricing || [], p => p.en).map(p => {
+      return {
+        packageName: p.en.package,
+        price: p.price,
+        discount: p.discount,
+        bestValue: p.besValue,
+        packageContents: p.en.packageContents || []
+      };
+    })
   );
 
   //  console.log(JSON.stringify(packages));
