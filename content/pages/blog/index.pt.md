@@ -1,26 +1,17 @@
 ---
 templateKey: blog-index
-path: /pt/blog
-slug: blog
 language: pt
+path: /pt/blog
 title: Blog Page
-featuredImage: '/img/Silver-coast-5.jpg'
-featuredImagePosition: 'top center'
-subtitle: This is the blog page subtitle.
-feature:
-  image: /img/0-copy.jpg
-  imageAlign: "center center"
-  title: blog
-  textcolor: white
-  align: center
-  subtitle: 
 meta:
+  canonicalLink: ''
   description: This is a meta description.
   title: Blog Page
-  canonicalLink: ''
-  noindex: false
-gallery:
-  - alt: ''
-    image: ''
-    title: ''
+feature:
+  align: center
+  image: /img/cycling-to-são-pedro-de-moel.jpg
+  imageAlign: center
+  textcolor: white
+  title: blog
 ---
+# BlogTop Bike tours Portugal
