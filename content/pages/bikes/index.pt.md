@@ -73,9 +73,6 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-\
-\
-\
 **Cycling holidays Equipment**
 
 * Helmet
