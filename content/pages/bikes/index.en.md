@@ -33,6 +33,8 @@ bikes:
     type: Road bike
   - image: /img/xcaliber7_23147_b_primary.jpg
     type: Mountain bike
+  - image: /img/specialized-women-mtb.png
+    type: Mountain bike
   - image: /img/ktm-macina.jpg
     type: Mountain bike
 equipment:
@@ -48,24 +50,31 @@ equipment:
   - description: |-
       **Kross Vento 2**
 
-      * 8 gears Shimano group set
+      * 16 gears with shimano group set
 
 
 
       **Specialized Tarmac Sport**
 
-      * Shimano 105 11-speed build kit
+      * 22 gears with shimano 105 11-speed build kit
 
       ****
     type: Road bike
   - description: |-
       **Trek X-Caliber 7**
 
-      * 18 gears Shimano group set
+      * 18 gears with shimano group set
+
+
+
+      **Specialized Women's Pitch Comp 27.5**
+
+      * 27 gears with shimano group set
 
       **KTM Macina electric bicycle**
 
-      * 9 gears Shimano group set
+      * 9 gears with shimano group set
+      * Bosch electric motor
     type: Mountain Bike - MTB
 meta:
   description: >-
