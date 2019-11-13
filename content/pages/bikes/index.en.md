@@ -21,22 +21,51 @@ afterequipment: |-
   * Other points of interest
   * Prices and conditions
 bikes:
-  - image: /img/bike1.jpg
-    type: BIKE KROSS TRANS ALP
-  - image: /img/bike2.jpg
-    type: BIKE KROSS TRANS ALP
-  - image: /img/bike3.jpg
+  - image: /img/bike.png
+    type: Hybrid bicycle
+  - image: /img/rent-a-bike-female.png
+    type: Hybrid bicycle
+  - image: /img/road-bike-pulso-1.png
     type: Road bike
-  - image: /img/bike4.jpg
+  - image: /img/road-bike-vento-2.png
     type: Road bike
-  - image: /img/bike5.jpg
+  - image: /img/tarmac-sport-specialized.webp
+    type: Road bike
+  - image: /img/xcaliber7_23147_b_primary.jpg
+    type: Mountain bike
+  - image: /img/ktm-macina.jpg
     type: Mountain bike
 equipment:
-  - description: "* Kross TRANS 5.0\r\n* 24 gears with V-brake\r\n* Crankset 22T/32T/42T\r\n* Schwalbe tires with puncture protection (size of tire 28 x1.6 ) – Marathon plus and Smart Sam\r\n* Adjustable height stem\r\n* Shimano group set\r\n* Cargo rack\r\n* Pannier bike bag\r\n* E-bike kit available with 80 km autonomy in level 2 (of 5) of assistance."
+  - description: >-
+      **Kross TRANS 5.0**
+
+
+      * 24 gears with V-brake
+
+      * E-bike kit available with 80 km autonomy in level 2 (of 5) of
+      assistance.
     type: Hybrid bike
-  - description: "* Kross Vento 2\r\n* 16 gears with V-brake\r\n* Crankset 34T/50T\r\n* Schwalbe tires with puncture protection \r\n* Adjustable height stem\r\n* Shimano group set"
+  - description: |-
+      **Kross Vento 2**
+
+      * 8 gears Shimano group set
+
+
+
+      **Specialized Tarmac Sport**
+
+      * Shimano 105 11-speed build kit
+
+      ****
     type: Road bike
-  - description: "* Trek X-Caliber \r\n* 18 gears\r\n* \rShimano group set"
+  - description: |-
+      **Trek X-Caliber 7**
+
+      * 18 gears Shimano group set
+
+      **KTM Macina electric bicycle**
+
+      * 9 gears Shimano group set
     type: Mountain Bike - MTB
 meta:
   description: >-
@@ -55,5 +84,8 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
+# Our Bicycles
 
-# Bikes
+
+
+**IMPORTANTE NOTE:** We don´t rent bicycles for long distances. Only city bicycles are available for rental service.
