@@ -17,7 +17,7 @@ meta:
 feature:
   align: center
   image: /img/44817961982_440e783762_o.jpg
-  imageAlign: top center
+  imageAlign: center center
   textcolor: white
   title: Tours diárias
 ---
