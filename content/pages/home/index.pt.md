@@ -2,7 +2,7 @@
 templateKey: home-page
 language: pt
 lang: pt
-path: /cicloturismo-portugal
+path: /pt
 title: Home
 toursection:
   description: "# TOURS EM BICICLETA PORTUGAL \r\n\n# NORTE E SUL | BIKE TOURS PORTUGAL"
