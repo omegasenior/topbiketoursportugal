@@ -21,12 +21,44 @@ bikes:
   - image: /img/ktm-macina.jpg
     type: Mountain bike
 equipment:
-  - description: Kross TRANS 5.0
+  - description: >-
+
+
+      **Kross TRANS 5.0**
+
+
+      * 24 gears with V-brake
+
+      * E-bike kit available with 80 km autonomy in level 2 (of 5) of
+      assistance.
     type: Hybrid bike
-  - description: Kross TRANS 5.0
-    type: Hybrid bike
-  - description: Kross TRANS 5.0
-    type: Hybrid bike
+  - description: |-
+
+
+      **Kross Vento 2**
+
+      * 16 gears with shimano group set
+
+      **Specialized Tarmac Sport**
+
+      * 22 gears with shimano 105 11-speed build kit
+    type: Road bike
+  - description: |-
+
+
+      **Trek X-Caliber 7**
+
+      * 18 gears with shimano group set
+
+      **Specialized Women's Pitch Comp 27.5**
+
+      * 27 gears with shimano group set
+
+      **KTM Macina electric bicycle**
+
+      * 9 gears with shimano group set
+      * Bosch electric motor
+    type: Mountain Bike - MTB
 meta:
   description: 'Aluguer de bicicletas Porto, Rent a bike porto, hire a bike porto'
   keywords: >-
