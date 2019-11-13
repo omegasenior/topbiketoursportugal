@@ -4,7 +4,10 @@ language: en
 path: /rent-bike-porto-portugal
 title: Bikes
 afterequipment: |-
-  #### Cycling holidays Equipment
+  \
+  \
+  \
+  **Cycling holidays Equipment**
 
   * Helmet
   * Bike tool kit for quick repairs
@@ -26,11 +29,11 @@ bikes:
     type: Road bike
   - image: /img/road-bike-vento-2.png
     type: Road bike
-  - image: /img/specialized-tarmac-sport.png
+  - image: /img/specialized-tarmac-sport.jpg
     type: Road bike
   - image: /img/xcaliber7_23147_b_primary.jpg
     type: Mountain bike
-  - image: /img/specialized-women-mtb.png
+  - image: /img/specialized-women-s-pitch-comp-27.5.jpg
     type: Mountain bike
   - image: /img/ktm-macina.jpg
     type: Mountain bike
