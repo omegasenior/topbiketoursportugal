@@ -1,8 +1,8 @@
 ---
 templateKey: ContactPage
 language: pt
-path: /pt/contacte-nos
-title: Contacte-nos
+path: /pt/contactos
+title: Contactos
 meta:
   description: Contactos Top Bike tours Portugal
   keywords: Contactos Top Bike tours Portugal
