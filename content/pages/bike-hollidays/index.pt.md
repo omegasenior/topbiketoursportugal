@@ -118,7 +118,7 @@ meta:
   title: 'Tours de bicicleta em Portugal '
 feature:
   align: center
-  image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
+  image: /img/furadouro-forest-in-a-bicycle.jpg
   imageAlign: center center
   subtitle: Tour em bicicleta Portugal
   textcolor: white
