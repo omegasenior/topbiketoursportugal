@@ -159,7 +159,7 @@ pricing:
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'Yes'
         - title: Porto Airport Transfers
@@ -199,7 +199,7 @@ pricing:
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'yes'
         - title: Porto Airport Transfers
@@ -238,7 +238,7 @@ pricing:
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'yes'
         - title: Porto Airport Transfers
