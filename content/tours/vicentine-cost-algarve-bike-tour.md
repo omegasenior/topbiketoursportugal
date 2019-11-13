@@ -227,7 +227,7 @@ pricing:
       package: Self Guided bike tour
       packageContents:
         - title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'Yes'
         - title: Lisbon Airport Transfers
@@ -268,7 +268,7 @@ pricing:
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'Yes'
         - title: Lisbon Airport Transfers
@@ -310,7 +310,7 @@ pricing:
       packageContents:
         - icon: ✓
           title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
+          value: 'Yes (4 stars, farms or rural houses)'
         - title: Luggage shuttling
           value: 'Yes'
         - title: Lisbon Airport Transfers
