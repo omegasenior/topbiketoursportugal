@@ -49,49 +49,52 @@ itinerary:
     title: 'Day 1: Reception at Porto'
   - day: '2'
     description: >-
-      We will cross Murça, land of ancient legends, wine and olive oil. You must
-      appreciate the way the liqueur wine “Favaios”. In Mirandela, we will visit
-      the city, as well as enjoying the famous sausages, the “Terrincho” cheese
-      and the delicious honey.
+      Cross Murça, land of ancient legends, wine and olive oil. You must
+      experiment the liqueur wine “Favaios”. In Mirandela, you can visit the
+      city, as well as enjoy the famous sausages, the “Terrincho” cheese and the
+      delicious honey.
     location:
       lat: '41.489615'
       lng: '-7.1774792'
     title: 'Day 2: Pinhão – Mirandela.'
   - day: '3'
     description: >-
-      This day will be a little bit of a physical difficulty with moderate /
-      hard level, due to accumulated climbed uphill. But halfway through, right 
-      after Macedo de Cavaleiros, we will find paradise right nearby the delta
-      of the Azibo. Bragança is the region's capital and gateway to one of the
-      oldest national parks in Portugal - the Montesinho. Visit the castle with
-      the army museum.
+      This day will be somewhat of a physical challenge, due to the cumulative
+      uphill. Halfway through the day, right after Macedo de Cavaleiros, you
+      will find paradise right nearby the delta of the Azibo. Bragança is the
+      region's capital and gateway to one of the oldest national parks in
+      Portugal, the Montesinho. 
     location:
       lat: '41.8071182'
       lng: '-6.7589839'
     title: 'Day 3: Mirandela – Bragança'
   - day: '4'
     description: >-
-      Cycling to Miranda do Douro, by crossing the Maças River and then we pass
-      nearby Vimioso. After this, we will be in the International Douro’s
-      landscapes, and finally reach to Miranda do Douro. Check out the famous
+      Cycle to Miranda do Douro, by crossing the Maças River and then pass
+      nearby Vimioso. After this, you will be in the International Douro's
+      landscape. Finally reach to Miranda do Douro. Check out the famous
       “Mirandesa” steak served by the genuine Northern locals. Here you will
-      find people who speak a strange language – “mirandês”, linked to the
-      Iberian Peninsula’s History.
+      find people who speak a strange language, “mirandês”, linked to the
+      Iberian Peninsula's History.
     location:
       lat: '41.50999485'
       lng: '-6.31215889'
     title: 'Day 4: Bragança – Miranda do Douro '
   - day: '5'
-    description: ' Let’s keep riding to reach to Alfândega da Fé. During our day,we will a little accumulated climbs. We’re going to visit the astonishing Natural Park of Douro and cross the Sabor River.'
+    description: >-
+      Keep riding to reach to Alfândega da Fé. During the day, you will feel a
+      little the accumulated climbs. You can visit the astonishing Natural Park
+      of Douro and cross the Sabor River.
     location:
       lat: '41.3275826'
       lng: '-6.96178431'
     title: 'Day 5: Miranda do Douro – Alfândega da Fé'
   - day: '6'
     description: >-
-      We begin with a small descent into the Valley of Vilariça. Then, we go up
-      to the village of of Seixo de Manhoses and go down the Douro River. The
-      cycling path will follow waterfront of the Tua River, ending in its delta.
+      This day begins with a small descent into the Valley of Vilariça. Then you
+      will go up to the village of Seixo de Manhoses and go down to the Douro
+      River. The cycling path will follow waterfront of the Tua River, ending in
+      its delta.
     location:
       lat: '41.20488091'
       lng: '-7.41104362'
@@ -234,15 +237,19 @@ pricing:
 ---
 # Trás-os-Montes & Douro international
 
-## For those who enjoy and are delighted with the marvels of the nature and would like to venture further
+## For those who enjoy the marvels of nature and would like to venture further
 
 \
 \
-Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança’s districts.
+Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança.
 
-This region is considered by many an authentic greenside paradise in the deep valleys of the Douro region, where you will find beautiful vineyards, the heart of the Port and Douro wines.
 
-The territory boosts breathtaking landscapes of a natural beauty, revealing not only a land rich in vineyards but also in cereals, vegetables and fruits, a typical gastronomy awarded the title of World Heritage. 
+
+This area is considered by many as an authentic greenside paradise in the deep valleys of the region, where you will find beautiful vineyards at the heart of the Port and Douro wines.
+
+
+
+The territory boosts breathtaking landscapes of natural beauty, revealing not only a land rich in vineyards, but also in cereals, vegetables and fruits, combining in a typical gastronomy, awarded the title of World Heritage.
 \
 \
 **Route description**:
