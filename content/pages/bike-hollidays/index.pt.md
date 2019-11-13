@@ -5,15 +5,9 @@ language: pt
 lang: pt
 title: Ferias em bicicleta
 descriptionafter: >-
-  **IT IS IMPORTANT THAT YOU READ ALL GENERAL INFORMATION ABOUT CYCLE TOURS
-  BEFORE BOOKING YOUR BIKE TOUR. FOR ANY FURTHER QUESTION DO NOT HESITATE TO
-  CONTACT US**
-
-
-  Passeios em bicicleta | Férias em bicicleta | Portugal
-
-
-  Férias em bicicleta | Passeios em bicicleta Portugal |Cicloturismo
+  **ESTEJA A PAR DE TODA A INFORMAÇÃO GERAL RELACIONADA COM OS PASSEIOS EM
+  BICICLETA ANTES DE EFECTUAR A RESERVA. PARA QUALQUER ESCLARECIMENTO EXTRA NÃO
+  HESITE EM CONTACTAR-NOS**
 
 
   Nos nossos passeios damos especial atenção ao bem estar do Cliente.
@@ -31,92 +25,91 @@ descriptionafter: >-
   Tudo isto porque queremos proporcionar uma excepcional experiência de aventura
   com sabor a pouco.
 
+  \
 
-  **Our Bike tours in Portugal:**
-
-
-  * Self Guided Tour
-
-  * Guided Tours
-
-  * Guided Tour Plus
+  **Os nossos Bike tours em Portugal:**
 
 
-  **GENERAL INFORMATION ABOUT CYCLING HOLIDAYS (IMPORTANT)**
+  * Passeio Auto-Guiado
+
+  * Passeio Guiado
+
+  * Passeio Guiado Plus
 
 
-  **Self-Guided Tour**: Transfer from the airport to the hotel in Porto's or
-  Lisbon city center is guaranteed. All hotels are booked by us, so all you need
-  to do is the check-in once you get to each hotel. The bike tour is made ​​with
-  the aid of a GPS and your luggage is transferred every morning to the next
-  hotel, meaning that you only take with you what you find necessary. Although
-  not compulsory, it makes for an easier ride if you know the basic mechanics of
-  a bicycle. Transfer from the destination back to Porto or Lisbon is also
-  guaranteed.
+  **INFORMAÇÃO GERAL SOBRE OS PASSEIOS DE BICICLETA**
 
 
-  **Guided Tours:** Transfer from the airport to the hotel in Porto's or Lisbon
-  city center is guaranteed. The bike tour is made with the aid of a guide and a
-  support van. They will be in charge of making sure that everything goes as
-  smooth as possible. The guide and the support van will provide for everything
-  you need, as well as water and snacks, mechanical assistance and the transport
-  for an eventual dropout. Lunches and dinners are organized by the guides for
-  the group. Transfer from the destination back to Porto or Lisbon is also
-  guaranteed.
+  **Passeio Auto-Guiado:** Transfere do aeroporto para o hotel no centro do
+  Porto ou de Lisboa é garantido. Todos os hotéis são por nós reservados. Tudo o
+  que necessita fazer será o check-in durante a entrada em cada hotel. O passeio
+  de bicicleta é realizado com o auxílio de um GPS e toda a sua bagagem será
+  transferida pela empresa entre hotéis, o que significa que levará consigo
+  aquilo que achar necessário. Apesar de não ser compulsório, saber o mínimo de
+  mecânica de uma bicicleta facilitará o seu passeio. Transfere do destino de
+  volta para o Porto ou Lisboa é também garantido.
 
 
-  **Guided Tour plus** Includes everything described in the last paragraph of
-  Guided tours, plus daily lunches and dinners of typical dishes of the
-  Portuguese regions.
+  **Passeio Guiado:** Transfere do aeroporto para o hotel no centro do Porto ou
+  de Lisboa é garantido. O passeio de bicicleta é realizado com o auxílio de um
+  Guia e de um veículo de apoio. Ambos estarão encarregues de garantir que tudo
+  correrá da melhor forma. O guia e o veículo de apoio irão providenciar aquilo
+  que for necessário, assim como água e snacks, assistência mecânica e
+  transporte na eventualidade de desistência. Almoços e jantares são organizados
+  pelos guias. Transfere do destino de volta para o Porto ou Lisboa é também
+  garantido.
 
 
-  **RECOMMENDATIONS** 
+  **Passeio Guiado Plus:** Inclui o mesmo que o Passei Guiado, mais almoços e
+  jantares diários de pratos típicos das regiões.
 
 
-  We strongly recommend the use of a pair of gloves, sunglasses with UV
-  protection and cycling clothing, including shorts or pants with pad, both in
-  lycra jersey and also a waterproof wind cuts. The shoes should have stiff sole
-  for cycling comfortably, preferably specific to mountain biking.
+  **RECOMENDAÇÕES**
 
 
-  **ROUTE CLASSIFICATION**
+  Recomenda-se vivamente o uso de um par de luvas, óculos de sol com protecção
+  UV e roupa de ciclismo, incluindo calções ou calças com almofada, em licra ou
+  em jersey e um corta vento impermeável. A sola do calçado deve ser dura para
+  pedalar confortavelmente, preferencialmente específicos de ciclismo de
+  montanha.
 
 
-  **Easy:** Mostly flat terrain with daily distances up to 50 km. Inexperient
-  level.
+  **CLASSIFICAÇÃO DO CAMINHO**
 
 
-  **Easy to moderate:** Mostly flat terrain with daily distances between 50 km
-  and 75 km. Short climbs up to 30% of the whole route. For inexperient cyclist
-  with some fitness preparation.
+  * **Fácil:** Terreno maioritariamente plano com distâncias diárias máximas de
+  50Km. Nível inexperiente.
+
+  * **Fácil a Moderado:** Terreno maioritariamente plano com distâncias diárias
+  entre 50Km a 75Km. Pequenas subidas representando no máximo 30% do percurso.
+  Para um nível inexperiente com alguma preparação física.
+
+  * **Moderado:** Terreno pode ser de terra batida ou trilhos. Terreno
+  maioritariamente plano com distâncias diárias entre 50Km a 75Km, com algumas
+  subidas representado no máximo 40% do percurso. Para ciclistas com preparação
+  física.
+
+  * **Moderado a Difícil:** Terreno pode ser de terra batida ou trilhos.
+  Distâncias diárias entre 50Km a 75Km, com subidas moderadas representado no
+  máximo 60% do percurso. Para ciclistas com preparação física e que procuram um
+  desafio.
+
+  * **Difícil:** Terreno pode ser de terra batida ou trilhos. Distâncias diárias
+  entre 50Km a 100Km, com subidas moderadas representado no máximo 60% do
+  percurso. Para ciclistas experientes.
+
+  * **Com bicicleta eléctrica todas as classificações dos caminhos estão
+  sujeitas a revisão, e serão maioritariamente fáceis para a maioria dos
+  ciclistas.**
 
 
-  **Moderated:** Terrain can be in dirt roads or trails. Mostly flat with daily
-  distances between 50km and 75km with some climbs up to 40% of the whole route.
-  For cyclist with fitness preparation.
+  **NOTAS:** Passeios em bicicleta com guia disponível nas seguintes línguas:
+  Português, Espanhol e Inglês. Fold N'Visit - Rent a Bike, Unipessoal Lda está
+  registada no Turismo de Portugal com o número RNAAT 7/2014.
 
 
-  **Moderated to hard:** Terrain can be in dirt roads or trails. Daily distances
-  between 50km and 75km with moderate climbs up to 60% of the whole route. For
-  cyclist with fitness preparation that want to challenge themselves.
-
-
-  **Hard:** Terrain can be in dirt roads or trails. Daily distances between 50km
-  and 100km with strong climbs up to 60% of the whole route. For experienced
-  cyclists.
-
-
-  **With electric bicycles all the route classifications have to be adapted and
-  will be mostly easy for the majority of the cyclists.**
-
-
-  **NOTES:** Cycling Holidays with guide available in the following languages:
-  Portugues, Spanish and English. Fold N'Visit - Rent a Bike, Unipessoal is
-  iregistered in Tourism of Portugal with RNAAT number 7/2014.
-
-
-  The liability insurance and personal accidents insurance are included only in
-  guided Bike tours.ketours guiados.
+  O seguro de responsabilidade civil e seguro de acidentes pessoais estão
+  incluídos apenas em passeios guiados de bicicleta.
 meta:
   description: >-
     Desfrute das suas férias com percursos turísticos de bicicleta pelo Norte de
