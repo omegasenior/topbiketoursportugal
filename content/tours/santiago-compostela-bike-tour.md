@@ -296,7 +296,7 @@ pricing:
     price: 2456
     type: '1'
 afterpricing: >-
-  **Reservation and cancellation Policy:**
+  **Reservation and cancellation Policy**
 
 
   1 Contact us to confirm if the Bike tour you intend to partake is available.
@@ -357,7 +357,7 @@ afterpricing: >-
   refunding any amount paid for services that weren’t used by you.
 
 
-  **Safety:**
+  **Safety**
 
 
   Participants should always follow the instructions of the guide and respect
@@ -367,7 +367,7 @@ afterpricing: >-
   particular can not prevent the safety and fun of the whole group.
 
 
-  **Insurance:**
+  **Insurance**
 
 
   Fold n Visit, Rent a bike, Unipessoal, Lda, holds insurance in accordance with
@@ -397,7 +397,7 @@ afterpricing: >-
   misuse, the customer will have to pay their losses.
 
 
-  **Pictures:**
+  **Pictures**
 
 
   Fold n Visit, Rent a bike, Unipessoal, Lda, holds the right to use photos
