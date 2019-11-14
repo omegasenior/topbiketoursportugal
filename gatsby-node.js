@@ -216,7 +216,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       bestValue: Boolean
       type: String
       highSeasonPriceSupplement: Float
-      en: [Package]
+      package: String
+      packageContents: [PackageContents!]!
     }
 
     type PackageContents @infer {
@@ -225,12 +226,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       value: String
     }
 
-    type Package @infer {
-      package: String
-      packageContents: [PackageContents]
-    }
-    
-  
     type Frontmatter @infer {
       minAge: Int
       distance: Int
@@ -243,7 +238,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       highlight: Boolean
       physicality: Int
       skillLevel: Int
-      pricing: Pricing
+      pricing: [Pricing!]!
       afterequipment: String
     }
     

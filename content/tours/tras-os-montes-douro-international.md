@@ -114,123 +114,122 @@ gallery:
     image: /img/14625511_1324120620965486_1978575785_n.jpg
 pricing:
   - bestValue: true
-    discount: -1
-    en:
-      package: Self Guided biketour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'No'
-        - title: GPS With route per booking
-          value: 'Yes'
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'No'
-        - title: Mechanical Assistance
-          value: 'No'
-        - title: 5 lunches
-          value: 'No'
-        - title: 5 Dinners
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'No'
-        - title: Liability Insurance
-          value: 'No'
-        - title: 6 Nights / 7 Days ( price per person)
-          value: 1.789 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '2'
+    discount: 0
+    package: Self Guided biketour
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'No'
+      - title: GPS With route per booking
+        value: 'Yes'
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'No'
+      - title: Mechanical Assistance
+        value: 'No'
+      - title: 5 lunches
+        value: 'No'
+      - title: 5 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'No'
+      - title: Liability Insurance
+        value: 'No'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.789 €
+      - title: 'July, August and September Prices'
+        value: + 100 €
+      - title: Min. Participants
+        value: '2'
     highSeasonPriceSupplement: 100
     price: 1789
     type: '1'
-  - en:
-      package: Guided bike tour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: minimum 8 pax
-        - icon: '-'
-          title: GPS With route per booking
-          value: ''
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 5 lunches
-          value: 'No'
-        - title: 5 Dinners
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 6 Nights / 7 Days ( price per person)
-          value: 1.945 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '4'
+  - package: Guided bike tour
+    discount: 0
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: minimum 8 pax
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 5 lunches
+        value: 'No'
+      - title: 5 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.945 €
+      - title: 'July, August and September Prices'
+        value: + 100 €
+      - title: Min. Participants
+        value: '4'
     highSeasonPriceSupplement: 100
     price: 2556
     type: '1'
-  - en:
-      package: Guided bike tour Plus*
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'Yes'
-        - icon: '-'
-          title: GPS With route per booking
-          value: ''
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 5 lunches
-          value: 'Yes'
-        - title: 5 Dinners
-          value: 'Yes'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 6 Nights / 7 Days ( price per person)
-          value: 2.556 €
-        - title: 'July, August and September Prices'
-          value: + 100 €
-        - title: Min. Participants
-          value: '4'
+  - package: Guided bike tour Plus*
+    discount: 0
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'Yes'
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 5 lunches
+        value: 'Yes'
+      - title: 5 Dinners
+        value: 'Yes'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 2.556 €
+      - title: 'July, August and September Prices'
+        value: + 100 €
+      - title: Min. Participants
+        value: '4'
     highSeasonPriceSupplement: 100
     price: 2556
     type: '1'

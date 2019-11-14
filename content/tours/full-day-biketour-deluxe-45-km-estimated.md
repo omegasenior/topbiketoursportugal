@@ -156,17 +156,17 @@ gallery:
     image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-1732.jpg
 pricing:
   - bestValue: false
-    en:
-      package: Group price per person
-      packageContents: []
+    package: Group price per person
+    packageContents: []
     highSeasonPriceSupplement: 100
+    discount: 0
     price: 198
   - bestValue: false
-    en:
-      package: Group price per person
+    package: Group price per person
     highSeasonPriceSupplement: 100
     observations: ''
     price: 260
+    discount: 0
     type: ''
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim

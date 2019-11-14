@@ -218,85 +218,85 @@ gallery:
     image: /img/french-camino-in-a-bycicle4.png
 pricing:
   - bestValue: false
-    en:
-      package: Guided bike tour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: San Sebatian Airport Transfers
-          value: 'Yes'
-        - icon: '-'
-          title: Trains or Bus Tickets
-          value: ''
-        - title: Van Support
-          value: 'Yes'
-        - icon: '-'
-          title: GPS With route per booking
-          value: ''
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 14 lunches
-          value: 'No'
-        - title: 14 Dinners
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 15 Nights / 16 Days ( price per person)
-          value: 3.400 €
-        - title: 'July, August and September Prices'
-          value: + 150 €
-        - title: Min. Participants
-          value: '10'
+    package: Guided bike tour
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (3 and 4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: San Sebatian Airport Transfers
+        value: 'Yes'
+      - icon: '-'
+        title: Trains or Bus Tickets
+        value: ''
+      - title: Van Support
+        value: 'Yes'
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 14 lunches
+        value: 'No'
+      - title: 14 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 15 Nights / 16 Days ( price per person)
+        value: 3.400 €
+      - title: 'July, August and September Prices'
+        value: + 150 €
+      - title: Min. Participants
+        value: '10'
+    discount: 0
     highSeasonPriceSupplement: 100
     price: 3400
     type: '1'
-  - en:
-      package: Guided bike tour Plus*
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (3 and 4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: San Sebatian Airport Transfers
-          value: 'Yes'
-        - icon: '-'
-          title: Trains or Bus Tickets
-          value: ''
-        - title: Van Support
-          value: 'Yes'
-        - icon: '-'
-          title: GPS With route per booking
-          value: ''
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 14 lunches
-          value: 'Yes'
-        - title: 14 Dinners
-          value: 'Yes'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 15 Nights / 16 Days ( price per person)
-          value: 4.180 €
-        - title: 'July, August and September Prices'
-          value: + 150 €
-        - title: Min. Participants
-          value: '10'
+  - package: Guided bike tour Plus*
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (3 and 4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: San Sebatian Airport Transfers
+        value: 'Yes'
+      - icon: '-'
+        title: Trains or Bus Tickets
+        value: ''
+      - title: Van Support
+        value: 'Yes'
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 14 lunches
+        value: 'Yes'
+      - title: 14 Dinners
+        value: 'Yes'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 15 Nights / 16 Days ( price per person)
+        value: 4.180 €
+      - title: 'July, August and September Prices'
+        value: + 150 €
+      - title: Min. Participants
+        value: '10'
+    discount: 0
     highSeasonPriceSupplement: 100
     price: 4180
     type: '1'

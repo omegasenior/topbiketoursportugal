@@ -463,31 +463,22 @@ collections:
         name: pricing
         widget: list
         fields:
-          - label: "English"
-            name: en
-            widget: "object"
+          - label: Package
+            name: package
+            widget: string
+          - label: Package Contents
+            name: packageContents
+            widget: list
             fields:
-              - label: Package
-                name: package
-                widget: string
-              - label: Package Contents
-                name: packageContents
-                widget: list
-                fields:
-                  - { label: title, name: title, widget: string }
-                  - {
-                      label: Value,
-                      name: value,
-                      widget: markdown,
-                      required: false,
-                    }
-                  - {
-                      label: Icon,
-                      name: icon,
-                      widget: "select",
-                      options: ["✓", "X", "-"],
-                      required: false,
-                    }
+              - { label: title, name: title, widget: string }
+              - { label: Value, name: value, widget: markdown, required: false }
+              - {
+                  label: Icon,
+                  name: icon,
+                  widget: "select",
+                  options: ["✓", "X", "-"],
+                  required: false,
+                }
 
           - { label: type, name: type, widget: string, required: false }
           - {
@@ -854,7 +845,7 @@ collections:
                   default: "center center",
                 }
       - file: content/pages/bike-hollidays/index.pt.md
-        label: Bike Hollidays EN
+        label: Bike Hollidays PT
         name: bikeHollidaysPT
         fields:
           - {
@@ -1535,7 +1526,7 @@ collections:
                 }
 
       - file: content/pages/contact/index.pt.md
-        label: Contact EN
+        label: Contact PT
         name: contactPT
         fields:
           - label: Template Key
@@ -1787,7 +1778,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
-  
+
       - file: content/pages/bikes/index.en.md
         label: BikesEN
         name: bikesEN
@@ -1828,7 +1819,12 @@ collections:
             required: false
             fields:
               - { label: Type, name: type, widget: string, required: false }
-              - { label: description, name: description, widget: markdown, required: false }
+              - {
+                  label: description,
+                  name: description,
+                  widget: markdown,
+                  required: false,
+                }
           - label: "Meta"
             required: false
             name: "meta"
@@ -1921,7 +1917,12 @@ collections:
             required: false
             fields:
               - { label: Type, name: type, widget: string, required: false }
-              - { label: description, name: description, widget: markdown, required: false }
+              - {
+                  label: description,
+                  name: description,
+                  widget: markdown,
+                  required: false,
+                }
           - label: "Meta"
             required: false
             name: "meta"
@@ -1973,8 +1974,6 @@ collections:
                   required: false,
                   default: "center center",
                 }
-    
-
 
   - name: banners
     label: Banners

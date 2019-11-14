@@ -114,16 +114,16 @@ gallery:
     image: /img/img_20150728_115402.jpg
 pricing:
   - bestValue: false
-    en:
-      package: Group Price per person
-      packageContents: []
+    package: Group Price per person
+    packageContents: []
     highSeasonPriceSupplement: 100
+    discount: 0
     price: 35
   - bestValue: false
-    en:
-      package: Private Price per person
-      packageContents: []
+    package: Private Price per person
+    packageContents: []
     highSeasonPriceSupplement: 100
+    discount: 0
     price: 65
 ---
 # E Bike tour Porto Downtown and Sightseeing bike tour

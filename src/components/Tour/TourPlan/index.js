@@ -179,23 +179,27 @@ const TourPlan = ({ tour: { itinerary }, googleApiKey, location }) => {
   // console.log(location);
   return (
     <div className="container">
-      <TourPlanWrapper>
-        {itinerary &&
-          itinerary.map((item, index) => (
-            <TourPlanContainer key={`tp` + index}>
-              <Circle>{item.day}</Circle>
-              <div>
-                <Title>{item.title}</Title>
-                <Description>{item.description}</Description>
-              </div>
-            </TourPlanContainer>
-          ))}
-      </TourPlanWrapper>
-      <GoogleMap zoom={7} center={location} mapkey={googleApiKey} />
-      {/* <Map {...mapSettings} ref={map => this.map = map}>
+      <div className="row">
+        <div className="col-12">
+          <GoogleMap zoom={7} center={location} mapkey={googleApiKey} />
+          {/* <Map {...mapSettings} ref={map => this.map = map}>
         <Marker ref={markerRef} position={CENTER} />
         <Routing map={this.map} />
       </Map> */}
+          <TourPlanWrapper>
+            {itinerary &&
+              itinerary.map((item, index) => (
+                <TourPlanContainer key={`tp` + index}>
+                  <Circle>{item.day}</Circle>
+                  <div>
+                    <Title>{item.title}</Title>
+                    <Description>{item.description}</Description>
+                  </div>
+                </TourPlanContainer>
+              ))}
+          </TourPlanWrapper>
+        </div>
+      </div>
     </div>
   );
 };

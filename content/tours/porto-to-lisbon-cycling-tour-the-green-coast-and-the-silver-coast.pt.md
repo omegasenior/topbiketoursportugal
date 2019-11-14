@@ -242,117 +242,117 @@ gallery:
     image: /img/bike-tour-douro-valley-photo-3.png
 pricing:
   - bestValue: false
-    en:
-      package: Self Guided bike tour
-      packageContents:
-        - title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'No'
-        - title: GPS With route per booking
-          value: 'Yes'
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'No'
-        - title: Mechanical Assistance
-          value: 'No'
-        - title: 11 lunches
-          value: 'No'
-        - title: 11 Dinners
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'No'
-        - title: Liability Insurance
-          value: 'No'
-        - title: 12 Nights / 13 Days ( price per person)
-          value: 2.779 €
-        - title: 'July, August and September Prices'
-          value: + 2500 €
-        - title: Min. Participants
-          value: '2'
+    package: Self Guided bike tour
+    packageContents:
+      - title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'No'
+      - title: GPS With route per booking
+        value: 'Yes'
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'No'
+      - title: Mechanical Assistance
+        value: 'No'
+      - title: 11 lunches
+        value: 'No'
+      - title: 11 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'No'
+      - title: Liability Insurance
+        value: 'No'
+      - title: 12 Nights / 13 Days ( price per person)
+        value: 2.779 €
+      - title: 'July, August and September Prices'
+        value: + 2500 €
+      - title: Min. Participants
+        value: '2'
+    discount: 0
     highSeasonPriceSupplement: 100
     price: 2779
   - bestValue: false
-    en:
-      package: Guided bike tour
-      packageContents:
-        - title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: minimum 8 participants
-        - icon: '-'
-          title: GPS With route per booking
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 11 lunches
-          value: 'No'
-        - title: 11 Dinners
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 12 Nights / 13 Days ( price per person)
-          value: 3.589 €
-        - title: 'July, August and September Prices'
-          value: + 250 €
-        - title: Min. Participants
-          value: '4'
+    package: Guided bike tour
+    packageContents:
+      - title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: minimum 8 participants
+      - icon: '-'
+        title: GPS With route per booking
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 11 lunches
+        value: 'No'
+      - title: 11 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 12 Nights / 13 Days ( price per person)
+        value: 3.589 €
+      - title: 'July, August and September Prices'
+        value: + 250 €
+      - title: Min. Participants
+        value: '4'
+    discount: 0
     highSeasonPriceSupplement: 100
     price: 3591
   - bestValue: false
-    en:
-      package: Guided bike tour PLUS*
-      packageContents:
-        - title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Porto Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'Yes'
-        - icon: '-'
-          title: GPS With route per booking
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 11 lunches
-          value: 'Yes'
-        - title: 11 Dinners
-          value: 'Yes'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 12 Nights / 13 Days ( price per person)
-          value: 4.629 €
-        - title: 'July, August and September Prices'
-          value: + 250 €
-        - title: Min. Participants
-          value: '4'
+    package: Guided bike tour PLUS*
+    packageContents:
+      - title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'Yes'
+      - icon: '-'
+        title: GPS With route per booking
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 11 lunches
+        value: 'Yes'
+      - title: 11 Dinners
+        value: 'Yes'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 12 Nights / 13 Days ( price per person)
+        value: 4.629 €
+      - title: 'July, August and September Prices'
+        value: + 250 €
+      - title: Min. Participants
+        value: '4'
+    discount: 0
     highSeasonPriceSupplement: 100
     price: 4629
 ---

@@ -46,7 +46,8 @@ const StyledPaper = styled(Paper)`
 
   &.sticky {
     position: fixed;
-    top: 101px;
+    top: 100px;
+    left: 0;
     z-index: 9999;
     width: 100%;
   }
@@ -119,7 +120,14 @@ function TourGen({ data }) {
     setNavState(true);
   }
 
-  const difficultyText = ["Very easy", "Easy", "Moderate", "Hard", "Very hard"];
+  const difficultyText = [
+    "Easy",
+    "Easy to moderate",
+    "Moderate",
+    "Moderate to hard",
+    "Hard"
+  ];
+  // const difficultyText = ["Fácil", "Fácil a moderado", "Moderado", "Moderade a dificil"];
 
   return (
     <Layout
@@ -128,99 +136,61 @@ function TourGen({ data }) {
       title={tour.title || false}
       feature={tour.feature}
     >
-      <div className="container-fluid">
-        <div className="row justify-content-end">
-          <div className="col-1"></div>
-          <div className="col-8">
-            {tour.frontmatter &&
-              tour.frontmatter.duration &&
-              tour.frontmatter.distance &&
-              tour.frontmatter.difficulty && (
-                <div className="container specs">
-                  <div className="row">
-                    {tour.frontmatter.duration && (
-                      <div className="col text-center">
-                        <Clock size="24" />
-                        <span>{` ${tour.frontmatter.duration} ${tour.frontmatter.durationUnit}`}</span>
-                      </div>
-                    )}
-                    {tour.frontmatter.difficulty && (
-                      <div className="col text-center">
-                        <Mountain size="24" />
-                        <span alt="Difficulty">{` ${tour.frontmatter.difficulty}/5`}</span>
-                        <span>
-                          {`  ` + difficultyText[tour.frontmatter.difficulty]}
-                        </span>
-                      </div>
-                    )}
-                    {tour.frontmatter.distance && (
-                      <div className="col text-center">
-                        <Road size="24" />
-                        <span>{` ${tour.frontmatter.distance} ${tour.frontmatter.distanceUnit}`}</span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-            <Waypoint
-              onEnter={_handleWaypointEnter}
-              onLeave={_handleWaypointLeave}
-            />
-            <StyledPaper className={stickyNav ? "sticky" : ""}>
-              <Tabs
-                value={value}
-                onChange={handleChange}
-                indicatorColor="primary"
-                textColor="primary"
-                centered
-              >
-                <Tab label="Information" {...a11yProps(0)} />
-                {tour.itinerary && <Tab label="Tour Plan" {...a11yProps(1)} />}
-                {tour.gallery && <Tab label="Gallery" {...a11yProps(2)} />}
-                {/* <Tab label="Reviews" {...a11yProps(3)} /> */}
-                {tour.pricing && tour.pricing.length > 0 && (
-                  <Tab label="Pricing" {...a11yProps(4)} />
-                )}
+      {tour && tour.duration && tour.distance && tour.difficulty && (
+        <div className="container specs">
+          <div className="row">
+            {tour.frontmatter.duration && (
+              <div className="col text-center">
+                <Clock size="24" />
+                <span>{` ${tour.duration} ${tour.durationUnit}`}</span>
+              </div>
+            )}
+            {tour.difficulty && (
+              <div className="col text-center">
+                <Mountain size="24" />
+                <span alt="Difficulty">{` ${tour.difficulty}/5`}</span>
+                <span>{`  ` + difficultyText[tour.difficulty]}</span>
+              </div>
+            )}
+            {tour.distance && (
+              <div className="col text-center">
+                <Road size="24" />
+                <span>{` ${tour.distance} ${tour.distanceUnit}`}</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+      <Waypoint onEnter={_handleWaypointEnter} onLeave={_handleWaypointLeave} />
+      <div className="container">
+        <StyledPaper className={stickyNav ? "sticky" : ""}>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            centered
+          >
+            <Tab label="Information" {...a11yProps(0)} />
+            {tour.itinerary && <Tab label="Tour Plan" {...a11yProps(1)} />}
+            {tour.gallery && <Tab label="Gallery" {...a11yProps(2)} />}
+            {/* <Tab label="Reviews" {...a11yProps(3)} /> */}
+            {tour.pricing && tour.pricing.length > 0 && (
+              <Tab label="Pricing" {...a11yProps(4)} />
+            )}
 
-                <Tab label="The fine print" {...a11yProps(5)} />
-              </Tabs>
-            </StyledPaper>
-
+            <Tab label="The fine print" {...a11yProps(5)} />
+          </Tabs>
+        </StyledPaper>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-9">
             <ScrollableAnchor id={"information"}>
               <HTMLContent className="container" content={tour.html} />
             </ScrollableAnchor>
-
-            {tour.itinerary && (
-              <ScrollableAnchor id={"tour-plan"}>
-                <div className="container">
-                  <TourPlan tour={tour} {...settings}></TourPlan>
-                </div>
-              </ScrollableAnchor>
-            )}
-
-            {tour.pricing && (
-              <ScrollableAnchor id={"pricing"}>
-                <div className="container">
-                  <TourPricing tour={tour}></TourPricing>
-                </div>
-              </ScrollableAnchor>
-            )}
-
-            {/* <TourReviews tour={tour}></TourReviews> */}
-
-            {tour.gallery && (
-              <ScrollableAnchor id={"gallery"}>
-                <div className="container">
-                  <TourGallery tour={tour} />
-                </div>
-              </ScrollableAnchor>
-            )}
-
-            <ScrollableAnchor id={"the-fine-print"}>
-              <div className="container">fine print</div>
-            </ScrollableAnchor>
           </div>
-          <div className="col-2 tour-booking-overlay">
+          <div className="col-3 tour-booking-overlay">
             <div className="tour-booking">
               <div className="tour-booking-header-price-wrap">
                 <div className="tour-booking-header-price-overlay"></div>
@@ -243,7 +213,7 @@ function TourGen({ data }) {
                         {tour.pricing[0].price} €
                       </span>
                     </span>
-                    {tour.pricing[0].discount && (
+                    {tour.pricing[0].discount > 0 && (
                       <span className="tour-booking-tour-discount-price">
                         {tour.pricing[0].discount} €
                       </span>
@@ -390,7 +360,40 @@ function TourGen({ data }) {
               </div>
             </div>
           </div>
-          <div className="col-1"></div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            {tour.itinerary && (
+              <ScrollableAnchor id={"tour-plan"}>
+                <div className="container">
+                  <TourPlan tour={tour} {...settings}></TourPlan>
+                </div>
+              </ScrollableAnchor>
+            )}
+            {tour.pricing && (
+              <ScrollableAnchor id={"pricing"}>
+                <div className="container">
+                  <TourPricing tour={tour}></TourPricing>
+                </div>
+              </ScrollableAnchor>
+            )}
+
+            {/* <TourReviews tour={tour}></TourReviews> */}
+
+            {tour.gallery && (
+              <ScrollableAnchor id={"gallery"}>
+                <div className="container">
+                  <TourGallery tour={tour} />
+                </div>
+              </ScrollableAnchor>
+            )}
+
+            <ScrollableAnchor id={"the-fine-print"}>
+              <div className="container">fine print</div>
+            </ScrollableAnchor>
+          </div>
         </div>
       </div>
     </Layout>

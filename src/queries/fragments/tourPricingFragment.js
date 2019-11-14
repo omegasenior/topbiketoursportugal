@@ -5,13 +5,11 @@ export const query = graphql`
       pricing {
         bestValue
         discount
-        en {
-          package
-          packageContents {
-            icon
-            title
-            value
-          }
+        package
+        packageContents {
+          icon
+          title
+          value
         }
         highSeasonPriceSupplement
         type

@@ -10,9 +10,15 @@ import filter from "lodash-es/filter";
 import Package from "./Package.js";
 
 const TourPricing = ({ tour: { pricing } }) => {
+  if (!pricing || pricing.length === 0) {
+    return <div></div>;
+  }
+
+  // console.log(JSON.stringify(pricing));
+
   const packagePricingKeys = uniq(
-    filter(pricing || [], p => p !== null && p.en !== null)
-      .map(p => (p.en.packageContents || []).map(pc => pc.title))
+    (pricing || [])
+      .map(p => (p.packageContents || []).map(pc => pc.title))
       .reduce(
         (accumulator, currentValue) => accumulator.concat(currentValue),
         []
@@ -22,13 +28,13 @@ const TourPricing = ({ tour: { pricing } }) => {
   // console.log(JSON.stringify(packagePricingKeys));
 
   const packages = uniq(
-    filter(pricing || [], p => p !== null && p.en !== null).map(p => {
+    (pricing || []).map(p => {
       return {
-        packageName: p.en.package,
+        packageName: p.package,
         price: p.price,
         discount: p.discount,
         bestValue: p.besValue,
-        packageContents: p.en.packageContents || []
+        packageContents: p.packageContents || []
       };
     })
   );
@@ -84,20 +90,11 @@ TourPricing.propsTypes = {
     description: PropTypes.string,
     pricing: PropTypes.arrayOf(
       PropTypes.shape({
-        en: PropTypes.shape({
-          packageName: PropTypes.string,
-          price: PropTypes.number,
-          discount: PropTypes.number,
-          bestValue: PropTypes.bool,
-          packageContents: PropTypes.any
-        }),
-        pt: PropTypes.shape({
-          packageName: PropTypes.string,
-          price: PropTypes.number,
-          discount: PropTypes.number,
-          bestValue: PropTypes.bool,
-          packageContents: PropTypes.any
-        })
+        packageName: PropTypes.string,
+        price: PropTypes.number,
+        discount: PropTypes.number,
+        bestValue: PropTypes.bool,
+        packageContents: PropTypes.any
       })
     )
   })

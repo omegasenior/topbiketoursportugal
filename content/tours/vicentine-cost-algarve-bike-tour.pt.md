@@ -222,129 +222,129 @@ gallery:
     image: /img/zambujeira-do-mar-2-.jpg
 pricing:
   - bestValue: true
-    discount: -1
-    en:
-      package: Self Guided bike tour
-      packageContents:
-        - title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Lisbon Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'No'
-        - title: GPS With route per booking
-          value: 'Yes'
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'No'
-        - title: Mechanical Assistance
-          value: 'No'
-        - title: 8 lunches ( 6 lunches reduced option)
-          value: 'No'
-        - title: 8 Dinners ( 6 dinners reduced option)
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'No'
-        - title: Liability Insurance
-          value: 'No'
-        - title: 7 Nights / 8 Days ( price per person)
-          value: 1.609 €
-        - title: 9 Nights / 10 Days ( price per person)
-          value: 1.940 €
-        - title: 'July, August and September Prices'
-          value: + 150 € (+100 € reduced option)
-        - title: Min. Participants
-          value: '4'
+    discount: 0
+    package: Self Guided bike tour
+    packageContents:
+      - title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Lisbon Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'No'
+      - title: GPS With route per booking
+        value: 'Yes'
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'No'
+      - title: Mechanical Assistance
+        value: 'No'
+      - title: 8 lunches ( 6 lunches reduced option)
+        value: 'No'
+      - title: 8 Dinners ( 6 dinners reduced option)
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'No'
+      - title: Liability Insurance
+        value: 'No'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 1.609 €
+      - title: 9 Nights / 10 Days ( price per person)
+        value: 1.940 €
+      - title: 'July, August and September Prices'
+        value: + 150 € (+100 € reduced option)
+      - title: Min. Participants
+        value: '4'
     highSeasonPriceSupplement: 100
     price: 1860
     type: '1'
-  - en:
-      package: Guided bike tour
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Lisbon Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: minimum 8 pax
-        - icon: '-'
-          title: GPS With route per booking
-          value: ''
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 8 lunches ( 6 lunches reduced option)
-          value: 'No'
-        - title: 8 Dinners ( 6 dinners reduced option)
-          value: 'No'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 7 Nights / 8 Days ( price per person)
-          value: 2.060 €
-        - title: 9 Nights / 10 Days ( price per person)
-          value: 2.468 €
-        - title: 'July, August and September Prices'
-          value: '* 150 € (+100 € reduced option)'
-        - title: Min. Participants
-          value: '4'
+  - package: Guided bike tour
+    discount: 0
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Lisbon Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: minimum 8 pax
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 8 lunches ( 6 lunches reduced option)
+        value: 'No'
+      - title: 8 Dinners ( 6 dinners reduced option)
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 2.060 €
+      - title: 9 Nights / 10 Days ( price per person)
+        value: 2.468 €
+      - title: 'July, August and September Prices'
+        value: '* 150 € (+100 € reduced option)'
+      - title: Min. Participants
+        value: '4'
     highSeasonPriceSupplement: 100
+    discount: 0
     price: 2060
     type: '1'
-  - en:
-      package: Guided bike tour Plus*
-      packageContents:
-        - icon: ✓
-          title: Accommodations W/ Breakfast
-          value: 'Yes (4 stars, farms or rural houses)'
-        - title: Luggage shuttling
-          value: 'Yes'
-        - title: Lisbon Airport Transfers
-          value: 'Yes'
-        - title: Trains or Bus Tickets
-          value: 'Yes'
-        - title: Van Support
-          value: 'Yes'
-        - icon: '-'
-          title: GPS With route per booking
-          value: 'Yes'
-        - title: Bike rent
-          value: 'Yes'
-        - title: Guide
-          value: 'Yes'
-        - title: Mechanical Assistance
-          value: 'Yes'
-        - title: 8 lunches ( 6 lunches reduced option)
-          value: 'Yes'
-        - title: 8 Dinners ( 6 dinners reduced option)
-          value: 'Yes'
-        - title: Personal Accident Insurance
-          value: 'Yes'
-        - title: Liability Insurance
-          value: 'Yes'
-        - title: 7 Nights / 8 Days ( price per person)
-          value: 2.520 €
-        - title: 9 Nights / 10 Days ( price per person)
-          value: 3.085 €
-        - title: 'July, August and September Prices'
-          value: '* 150 € (+100 € reduced option)'
-        - title: Min. Participants
-          value: '4'
+  - package: Guided bike tour Plus*
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Lisbon Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
+        value: 'Yes'
+      - icon: '-'
+        title: GPS With route per booking
+        value: 'Yes'
+      - title: Bike rent
+        value: 'Yes'
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 8 lunches ( 6 lunches reduced option)
+        value: 'Yes'
+      - title: 8 Dinners ( 6 dinners reduced option)
+        value: 'Yes'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 2.520 €
+      - title: 9 Nights / 10 Days ( price per person)
+        value: 3.085 €
+      - title: 'July, August and September Prices'
+        value: '* 150 € (+100 € reduced option)'
+      - title: Min. Participants
+        value: '4'
     highSeasonPriceSupplement: 100
+    discount: 0
     price: 2520
     type: '1'
 ---
