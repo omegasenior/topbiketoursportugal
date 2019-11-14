@@ -65,7 +65,7 @@ itinerary:
     location:
       lat: '40.87313436'
       lng: '-8.67736816'
-    title: Day 2 – Porto  - Furadouro
+    title: Day 2 - Porto - Furadouro ( 47 Km)
   - day: '3'
     description: >-
       Continuing the path along the coast, on the road N327, towards the city of
@@ -79,7 +79,7 @@ itinerary:
     location:
       lat: '40.640496'
       lng: '8.6537841'
-    title: Day 3 - Furadouro - Aveiro
+    title: Day 3 - Furadouro - Aveiro ( 45 KM)
   - day: '4'
     description: >-
       On this route of 48km, you shall know the city of Ílhavo, famous for the
@@ -92,7 +92,7 @@ itinerary:
     location:
       lat: '40.4556419'
       lng: '-8.8026211'
-    title: 'Day 4 - Aveiro - Praia de Mira '
+    title: Day 4 - Aveiro  -  Praia de Mira (40 Km)
   - day: '5'
     description: >-
       You will be pleased to meet the hidden and beautiful barrinha lagoon, also
@@ -104,7 +104,7 @@ itinerary:
     location:
       lat: '40.1482816'
       lng: '-8.8554141'
-    title: Day 5 – Praia de Mira- Figueira da Foz
+    title: Day 5 - Praia de Mira - Figueira da Foz ( 50 Km)
   - day: '6'
     description: >-
       Move away from the seaside resort frequented by "Coimbrenses" and the
@@ -120,7 +120,7 @@ itinerary:
     location:
       lat: '40.2109801'
       lng: '-8.4292057'
-    title: Day 6 - Figueira da Foz - Coimbra
+    title: Day 6 - Figueira da Foz - Coimbra ( 55 Km)
   - day: '7'
     description: ''
     location:
@@ -151,6 +151,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bikeTour
     packageContents:
       - icon: ✓
@@ -186,10 +187,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1360
     type: '1'
-  - package: Guided Biketour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -225,11 +227,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1649
     type: '1'
-  - package: Guided Biketour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -265,8 +267,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2210
     type: '1'
 ---
