@@ -199,8 +199,9 @@ pricing:
       - icon: ✓
         title: Trains or Bus Tickets
         value: Trains or Bus Tickets
-      - title: Van Support
-        value: 'No'
+      - icon: X
+        title: Van Support
+        value: Van Support
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
