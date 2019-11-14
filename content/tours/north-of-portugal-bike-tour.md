@@ -154,6 +154,8 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
+    observations: '****'
     package: Self Guided bikeTour
     packageContents:
       - icon: ✓
@@ -189,11 +191,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
-    observations: '****'
     price: 1360
     type: '1'
-  - package: Guided Biketour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -228,11 +230,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1669
     type: '1'
-  - package: Guided Biketour plus *
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour plus *
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -267,10 +269,22 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2210
     type: '1'
+afterpricing: |-
+
+
+  **Observations:**
+
+  * Prices are based for 2 people sharing the same room;
+  * Prices can suffer updates due high season, holidays or weekends
+
+  **Extras**
+
+  * Electric bicycles price: 175€
+  * Suplement for single room: 329 €
+  * Solo traveler: 200 €
+  * Extra nights: on request
 ---
 # North of Portugal Bike tour
 
@@ -331,18 +345,4 @@ Day 5: Viana do Castelo – Ponte de Lima (26 Km)
 Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
 
 Day 7: Departure
-\
-\
-\
-\
-**Observations:**
-
-* Prices are based for 2 people sharing the same room;
-* **Prices can suffer updates due high season, holidays or weekends**
-
-**Extras**
-
-* Electric bicycles price: 175€
-* Suplement for single room: 329 €
-* Solo traveler: 200 €
-* Extra nights: on request
+****
