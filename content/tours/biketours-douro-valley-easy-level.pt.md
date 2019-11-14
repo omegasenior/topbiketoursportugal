@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-order: 8
+order: 12
 path: /biketours-douro-valley-easy-level-pt
 productcode: DOURO 01
 featured: false
@@ -127,6 +127,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided biketour
     packageContents:
       - icon: ✓
@@ -162,10 +163,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1860
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guidedb bike tour
     packageContents:
       - icon: ✓
@@ -202,11 +204,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1945
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided bike tour
     packageContents:
       - icon: ✓
@@ -242,8 +244,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2556
     type: '1'
 ---
