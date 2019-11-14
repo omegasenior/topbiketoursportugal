@@ -107,16 +107,16 @@ gallery:
     image: /img/walking-tour-porto-with-students.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Group price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
-    price: 22
+    price: 25
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Private price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 50
 ---
 # Walking tour - Oporto’s Downtown
