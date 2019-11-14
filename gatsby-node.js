@@ -217,7 +217,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       type: String
       highSeasonPriceSupplement: Float
       package: String
-      packageContents: [PackageContents!]!
+      packageContents: [PackageContents]
     }
 
     type PackageContents @infer {
@@ -238,7 +238,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       highlight: Boolean
       physicality: Int
       skillLevel: Int
-      pricing: [Pricing!]!
+      pricing: [Pricing]
       afterequipment: String
     }
     
