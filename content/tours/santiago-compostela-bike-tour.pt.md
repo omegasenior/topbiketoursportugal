@@ -27,10 +27,8 @@ meta:
     This cycling tour presents itself as na easy route to reach to Santiago de
     Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
     of the most important spots for religious tourism in Western Europe.
-  keywords: >-
-    Santiago de compostela bike tour, electric bicycle tour to santiago, the way
-    of st james bicycle tour,bike tours portugal
-  title: Santiago de Compostela Bike Tour
+  keywords: 'Pedale pela costa, no percurso mais fácil até Santiago de Compostela'
+  title: Santiago de Compostela - Caminho da Costa "fácil"
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 2
