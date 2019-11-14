@@ -30,6 +30,7 @@ import { Clock } from "styled-icons/fa-solid/Clock";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
 import { Tag } from "styled-icons/fa-solid/Tag";
+import showdown from "showdown";
 
 import "./tour-gen.scss";
 
@@ -128,6 +129,7 @@ function TourGen({ data }) {
     "Hard"
   ];
   // const difficultyText = ["Fácil", "Fácil a moderado", "Moderado", "Moderade a dificil"];
+  const converter = new showdown.Converter();
 
   return (
     <Layout
@@ -376,6 +378,10 @@ function TourGen({ data }) {
               <ScrollableAnchor id={"pricing"}>
                 <div className="container">
                   <TourPricing tour={tour}></TourPricing>
+
+                  <HTMLContent
+                    content={converter.makeHtml(tour.afterpricing)}
+                  />
                 </div>
               </ScrollableAnchor>
             )}

@@ -509,7 +509,7 @@ collections:
               default: 100,
               widget: number,
             }
-
+      - { label: After Pricing, name: afterpricing, widget: markdown, required: false }
   - name: pages
     label: Pages
     delete: false
