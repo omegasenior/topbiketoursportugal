@@ -180,28 +180,17 @@ pricing:
     observations: ''
     package: Self Guided bike Tour
     packageContents:
-      - icon: ✓
-        title: Accommodations W/ Breakfast
-        value: |-
-          Accommodations W/ Breakfast
-
-          Yes (4 stars, farms or rural houses)
+      - title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
       - title: Luggage shuttling
-        value: |-
-          Luggage shuttling
-
-          Yes
+        value: 'Yes'
       - title: Porto Airport Transfers
-        value: |-
-          Porto Airport Transfers
-
-          Yes
+        value: 'Yes'
       - icon: ✓
         title: Trains or Bus Tickets
-        value: Trains or Bus Tickets
-      - icon: X
-        title: Van Support
-        value: Van Support
+        value: 'Yes'
+      - title: Van Support
+        value: 'No'
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
