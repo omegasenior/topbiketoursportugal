@@ -260,7 +260,7 @@ pricing:
         value: + 150 € (+100 € reduced option)
       - title: Min. Participants
         value: '4'
-    price: 1860
+    price: 1609
     type: '1'
   - highSeasonPriceSupplement: 100
     package: Guided bike tour
