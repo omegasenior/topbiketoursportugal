@@ -65,9 +65,8 @@ itinerary:
     description: >-
       From our store, based in the “Invicta” city of Porto, we will begin our
       journey heading to Esposende, a seaside city located to the North. During
-      this second day, you will be overwhelmed with seaside landscapes and small
-      “Portuguese rivieras”, until you reach Esposende, a city from the Middle
-      Ages. A huge variety of fishing villages (Póvoa de Varzim) will be met by
+      this day, you will be overwhelmed with seaside landscapes and small
+      “Portuguese rivieras”. A huge variety of fishing villages will be met by
       us, where we can experience ancient traditions linked to the fish
       exploration, as well as taste this famous gastronomy. In Vila do Conde,
       you’ll know why these Portuguese coastal cities were so important during
@@ -83,7 +82,7 @@ itinerary:
       was in this precise city that the ships going to Brazil, India, Africa and
       other Portuguese Colonies were developed. Our final destination will be
       Caminha. This city finds the shore of the river Minho, making it part of
-      an incredible landscape. Caminha is also very well-known for its natural
+      an incredible landscape. Caminha is also very well known for its natural
       and green heritage, like the sightseeing areas, waterfalls, beaches and
       the camping park.
     location:
@@ -92,15 +91,14 @@ itinerary:
     title: 'Day 3: Esposende – Caminha (50 km)'
   - day: '4'
     description: >-
-      During our fourth cycling day, you are going to enter in Spanish
-      territory, ending in Bayona. It’s a city politically linked to Pontevedra
-      where you can breathe the sea breeze. Away from the sea landscape you can
-      also get lost in the old city center. Born from the Romans, the city kept
-      growing towards the coast during the Middle Ages, with an influence from
-      the Catholic Church. Curiously, during the XVI Century, Bayona was raided
-      by British ships, led by the great corsair and explorer Francis Drake who
-      saw an opportunity to establish a commercial and merchant point in this
-      territory.
+      You are going to enter in Spanish territory, ending in Bayona. It’s a city
+      politically linked to Pontevedra, where you can breathe the sea breeze.
+      Away from the sea landscape, you can also get lost in the old city center.
+      Born from the Romans, the city kept growing towards the coast during the
+      Middle Ages, with an influence from the Catholic Church. Curiously, during
+      the XVI Century, Bayona was raided by British ships, led by the great
+      corsair and explorer Francis Drake who saw an opportunity to establish a
+      commercial and merchant point in this territory.
     location:
       lat: '41.15591'
       lng: '-8.60248'
@@ -140,11 +138,11 @@ itinerary:
     title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
   - day: '7'
     description: >-
-      Your last day will be met by Santiago de Compostela as your final
-      destination, one of the ultimate pilgrimage cores in Western Europe. Like
-      Rome and Jerusalem, the city of Santiago de Compostela presents us an
-      unique religious beacon for tourists who find in this cycling journey an
-      act of faith and inner-self. Reach the Square of Obradoiro, where you will
+      You will be met by Santiago de Compostela as your final destination, one
+      of the ultimate pilgrimage cores in Western Europe. Like Rome and
+      Jerusalem, the city of Santiago de Compostela presents us an unique
+      religious beacon for tourists who find in this cycling journey an act of
+      faith and inner-self. Reach the Square of Obradoiro, where you will
       witness the majestic baroque cathedral where the remains of the apostle
       are located.
     location:
@@ -178,6 +176,8 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
+    observations: ''
     package: Self Guided bike Tour
     packageContents:
       - icon: ✓
@@ -213,11 +213,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
-    observations: ''
     price: 1489
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -253,11 +253,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1895
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Biketour plus*
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -293,8 +293,6 @@ pricing:
         value: +100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2456
     type: '1'
 ---
