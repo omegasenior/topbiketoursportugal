@@ -182,13 +182,23 @@ pricing:
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
-        value: 'Yes (4 stars, farms or rural houses)'
+        value: |-
+          Accommodations W/ Breakfast
+
+          Yes (4 stars, farms or rural houses)
       - title: Luggage shuttling
-        value: 'Yes'
+        value: |-
+          Luggage shuttling
+
+          Yes
       - title: Porto Airport Transfers
-        value: 'Yes'
-      - title: Trains or Bus Tickets
-        value: 'Yes'
+        value: |-
+          Porto Airport Transfers
+
+          Yes
+      - icon: ✓
+        title: Trains or Bus Tickets
+        value: Trains or Bus Tickets
       - title: Van Support
         value: 'No'
       - title: GPS With route per booking
