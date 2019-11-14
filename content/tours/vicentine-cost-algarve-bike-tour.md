@@ -115,14 +115,14 @@ itinerary:
   - day: '5'
     description: >-
       Quieter than Vila Nova de Milfontes, Zambujeira do Mar attracts more of a
-      backpacker, surfy crowd. Being a small sea side town on the coast of the
-      Alentejo, in western Portugal it has some lovely sandy beaches and picture
-      perfect traditional architecture, making it a small but loved destination
-      for visitors.  The town has some charming traditional buildings. Among the
-      most notable ones are the fountains of Amores and Santa Catarina and the
-      small, whitewashed chapel of Nossa Senhora do Mar.  The beach is about 500
-      meters from the town of Almograve. It is a shallow but extensive beach,
-      with low tide providing authentic natural pools.
+      backpacker and surf crowd. Being a small sea side town on the coast of
+      Alentejo, in western Portugal, it has some lovely sandy beaches and
+      picture perfect traditional architecture, making it a small but loved
+      destination for visitors. The town has some charming traditional
+      buildings. Among the most notable ones are the fountains of Amores and
+      Santa Catarina and the small, whitewashed chapel of Nossa Senhora do Mar.
+      The beach is about 500 meters from the town of Almograve. It is a shallow
+      but extensive beach with low tide, providing authentic natural pools.
     location:
       lat: '37.52514173'
       lng: '-8.7853986'
@@ -223,6 +223,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -259,10 +260,10 @@ pricing:
         value: + 150 € (+100 € reduced option)
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
     price: 1860
     type: '1'
-  - package: Guided bike tour
+  - highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -300,10 +301,11 @@ pricing:
         value: '* 150 € (+100 € reduced option)'
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
     price: 2060
     type: '1'
-  - package: Guided bike tour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -341,8 +343,6 @@ pricing:
         value: '* 150 € (+100 € reduced option)'
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 2520
     type: '1'
 ---
