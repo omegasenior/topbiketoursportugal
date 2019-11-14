@@ -135,6 +135,8 @@ gallery:
     image: /img/original-route-from-porto-to-santiago-de-compostela3.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike Tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -169,10 +171,10 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1489
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -207,10 +209,10 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1895
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Biketour plus*
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -245,8 +247,6 @@ pricing:
         value: +100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2456
 ---
 # Santiago de Compostela BikeTour
