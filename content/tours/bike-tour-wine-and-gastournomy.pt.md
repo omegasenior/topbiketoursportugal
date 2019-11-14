@@ -17,10 +17,14 @@ tags:
   - touring bicycle
 meta:
   description: >-
-    This food tour includes a visit to wine caves and a meal in a typical
-    portuguese restaurant
-  keywords: 'BIKE TOUR WINE AND GASTOURNOMY PORTO PORTUGAL,food tour'
-  title: Bike tour Wine and Gastournomy | Food Tour
+    Paisagens fenomenais e idílicas encontram-se inseridas neste circuito
+    turístico, em que a bicicleta torna-se indispensável para percorrer a
+    marginal 
+  keywords: >-
+    Paisagens fenomenais e idílicas encontram-se inseridas neste circuito
+    turístico, em que a bicicleta torna-se indispensável para percorrer a
+    marginal 
+  title: BIKE TOUR VINHO E GASTRONOMIA
 groupSizeMax: 1
 groupSizeMin: 1
 minAge: 16
@@ -135,39 +139,47 @@ gallery:
     image: /img/portugal-mit-den-frauen-mai-2015-154-4.jpg.jpg
 pricing:
   - bestValue: false
-    package: Group price per person
-    packageContents: []
-    highSeasonPriceSupplement: 100
     discount: 0
+    highSeasonPriceSupplement: 100
+    package: Preço de grupo por pessoa
+    packageContents: []
     price: 25
   - bestValue: false
-    package: Private price per person
-    packageContents: []
-    highSeasonPriceSupplement: 100
     discount: 0
+    highSeasonPriceSupplement: 100
+    package: Preço Privado por pessoa
+    packageContents: []
     price: 50
 ---
 # BIKE TOUR -Food tour | Wine & Gastournomy
 
 \
-Incredible and idyllic landscapes are included in this tour, where the bicycle becomes essential to go through the marginal Douro River. Come meeh us the famous Port Wine and brand and its legacy in this metropolis, complementing with visits to the renowned Café Majestic and other cultural offices that promote and manage the wine, such as the Wine Institue of Douro and Porto , the Wine Cellars in Vila Nova de Gaia and a Museum dedicated to this activity of refinement and tasting.
+Paisagens fenomenais e idílicas encontram-se inseridas neste circuito turístico, em que a bicicleta torna-se indispensável para percorrer a marginal do Rio Douro. Venha conhecer o tão divulgado Vinho do Porto e a sua marca legada nesta urbe, complementando com o famoso Café Majestic e entidades culturais que promovem e administram o Vinho, tais como o Instituto dos Vinhos do Douro e Porto, as Caves em Vila Nova de Gaia e o Museu dedicado a esta actividade de requinte e de degustação.
 
 \
 ![Bike tour Wine and Gastournomy](/img/img_20150910_114349.jpg "Bike tour Wine and Gastournomy")
 
 \
 \
-**Tour detail:**
+**Detalhes do tour:**
 
-* Departures: 09h00 and 14h30
-* estimated time: 6h00
-* All year
-* Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
-* Minimum participants: 2
+* Partidas: 09h00 e 14h30
+* Duração estimada: 6h00
+* Todo o Ano
+* Ponto de Encontro: Rua do Alferes Malheiro, 139 (Loja Fold n´Visit)
+* Mínimo de participantes: 2
+
+**Inclui:**
+
+* Prova de degustação vinícola;
+* Visita a cave do vinho do Porto;
+* Almoço ou jantar ( bebidas alcoolicas não incluidas).
+
+
 
 \
-**Observations:**
+**Observações:**
 
-Visit with a tour guide in the respective dialects: Portuguese, English, Spanish. The tour includes a short break of 20m.
+Visitas com guia turístico, nas línguas inglesa, portuguesa e espanhola. Outras línguas, apenas mediante contacto prévio com a empresa.
 
-A liability insurance and personal accident insurance are included in the tours.
+Seguro de responsabilidade Civil, seguro de acidentes pessoais e capacetes estão incluídos no percurso.
