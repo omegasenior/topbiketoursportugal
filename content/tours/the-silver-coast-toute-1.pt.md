@@ -1,12 +1,12 @@
 ---
 templateKey: tour-gen
 order: 2
-path: porto-to-coimbra-biketour-pt
+path: /costa-da-prata-rota-1
 productcode: SC 01
 featured: true
 language: pt
 image: /img/cycling-plan-in-coasta-nova.jpg
-title: The Silver Coast - Porto to Coimbra
+title: Costa da Prata - Porto a Coimbra
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -22,13 +22,10 @@ tags:
   - electric bicycle
 meta:
   description: >
-    Cycle with us to the Portuguese Silver Coast, bordering with the region of
-    Gallicia, Nature, landscape and gastronomy are imbued in this cycling
-    tour...Coimbra 
-  keywords: >-
-    Cycling Tour Silver Coast, atlantic ocean bike tour, porto to coimbra bike
-    tour. porto to lisbon bicycle tour
-  title: The Silver Coast bike tour near the Atlantic ocean
+    Pedale pela Costa da Prata até Coimbra. A natureza, a paisagem e a
+    gastronomia estão impregnadas neste percurso de bicicleta desde do Porto
+  keywords: 'Cycling costa da prata, cicloturismo, bike tours, cycling holidays, portugal'
+  title: Cycling Tours Costa da Prata e Costa Verde
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -42,11 +39,21 @@ physicality: 1
 rating: []
 itinerary:
   - day: '1'
-    description: ''
+    description: >-
+      O primeiro dia será passado no Porto, uma antiga cidade portuária outrora
+      um posto do Império Romano, impregnado de história e tradição. Localizado
+      ao longo do Vale do Rio Douro, no norte de Portugal, o Porto é uma das
+      cidades europeias mais antigas e o seu centro histórico foi proclamado
+      Património Mundial pela Unesco em 1996.  Uma visita guiada (incluída)
+      permitirá explorar esta cidade e toda a sua arte e tradição, como também
+      os tradicionais azulejos azuis e brancos nas igrejas e casas. Inclui
+      também  alguns destaques contemporâneos, incluindo a livraria que
+      inspirou, com os seus belíssimos detalhes, J. K. Rowling enquanto escrevia
+      “Harry Potter” e o Palácio da Bolsa.
     location:
       lat: '41.1494512'
       lng: '-8.6107884'
-    title: 'Day 1: Reception at Porto'
+    title: Dia 1 - Recepção no Porto
   - day: '2'
     description: >-
       You will make the coast towards the small village of Furadouro. Leaving
@@ -65,7 +72,7 @@ itinerary:
     location:
       lat: '40.87313436'
       lng: '-8.67736816'
-    title: Day 2 – Porto  - Furadouro
+    title: Dia 2 - Porto - Furadouro ( 47 Km)
   - day: '3'
     description: >-
       Continuing the path along the coast, on the road N327, towards the city of
@@ -79,7 +86,7 @@ itinerary:
     location:
       lat: '40.640496'
       lng: '8.6537841'
-    title: Day 3 - Furadouro - Aveiro
+    title: Dia 3 - Furadouro - Aveiro ( 45 KM)
   - day: '4'
     description: >-
       On this route of 48km, you shall know the city of Ílhavo, famous for the
@@ -92,7 +99,7 @@ itinerary:
     location:
       lat: '40.4556419'
       lng: '-8.8026211'
-    title: 'Day 4 - Aveiro - Praia de Mira '
+    title: Dia 4 - Aveiro - Praia de Mira (40 Km)
   - day: '5'
     description: >-
       You will be pleased to meet the hidden and beautiful barrinha lagoon, also
@@ -104,7 +111,7 @@ itinerary:
     location:
       lat: '40.1482816'
       lng: '-8.8554141'
-    title: Day 5 – Praia de Mira- Figueira da Foz
+    title: Dia 5 - Praia de Mira - Figueira da Foz ( 50 Km)
   - day: '6'
     description: >-
       Move away from the seaside resort frequented by "Coimbrenses" and the
@@ -120,13 +127,13 @@ itinerary:
     location:
       lat: '40.2109801'
       lng: '-8.4292057'
-    title: Day 6 - Figueira da Foz - Coimbra
+    title: Dia 6 - Figueira da Foz - Coimbra ( 55 Km)
   - day: '7'
     description: ''
     location:
       lat: '40.2109801'
       lng: '-8.4292057'
-    title: 'Day 7: Departure'
+    title: Dia 7 - Transfere
 gallery:
   - alt: Coimbra group photo
     image: /img/20190920_135559.jpg
@@ -151,6 +158,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bikeTour
     packageContents:
       - icon: ✓
@@ -186,10 +194,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1360
     type: '1'
-  - package: Guided Biketour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -225,11 +234,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1649
     type: '1'
-  - package: Guided Biketour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -265,41 +274,43 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2210
     type: '1'
 ---
-# The Silver Coast - Route 1
+# Costa da Prata - Rota 1
 
-## The second and third largest cities of Portugal linked by bike
-
-\
-\
-Silver Coast is the name given to the coastal region encompassing the coast of Portugal between the mouth of the river Douro in Vila Nova de Gaia and the municipality of Torres Vedras, in the district of Lisbon.
-
-This 7-day bike ride will take you through one of the most important links along the coast between the city of Porto and the "capital" of the central region of Portugal, Coimbra.
-
-See some characteristics that make Porto one of the most important cities (culturally and historically). You will be going down the Atlantic coast, visiting wonderful places (natural, historical and gastronomic), through several coastal cities, to the "city of knowledge" Coimbra, famous for its noble university, historical monuments and of course Coimbra's Fado.
+## A segunda e terceira maiores cidades de Portugal unidas por bicicleta
 
 \
-**Route description:**
+\
+Costa de Prata é o nome dado à região costeira que engloba o litoral de Portugal entre a foz do rio Douro em Vila Nova de Gaia e o concelho de Torres Vedras, no distrito de Lisboa.
 
-* Flat route, with only one climb in the 5th day for about 4 kms.
-* 65 % bike lanes, 20% smooth dirt roads and sometimes into the agriculture fields, 5 % paved roads with low traffic.
+
+
+Este passeio de bicicleta de 6 dias, percorre uma das mais importantes ligações, pela costa, entre a cidade do Porto e a "capital" da região centro de Portugal, Coimbra.
+
+
+
+Teremos a possibilidade de conhecer algumas características que tornam a cidade do Porto uma das mais importantes (cul turalmente e historicamente), percorrendo a costa atlântica, conhecendo as diversas maravilhas (naturais, históricas e gastronómicas), por diversas cidades costeiras, até à "cidade do conhecimento" Coimbra, famosa pela sua nobre universidade, monumentos históricos e claro o Fado de Coimbra.
+
+\
+**Descrição da rota:**
+
+* Plana durante todo o percurso, apenas com uma subida de 4Km no quinto dia.
+* 65% ciclovias, 20 % caminhos em terra suaves e campos agrícolas. 5 % de ruas pavimentadas com pouco tráfego.
 
 **Itinerary:**
 
-Day 1 - Porto reception
+Dia 1 - Recepção no Porto
 
-Day 2 - Porto - Furadouro ( 47 Km)
+Dia 2 - Porto - Furadouro ( 47 Km)
 
-Day 3 - Furadouro - Aveiro ( 45 KM)
+Dia 3 - Furadouro - Aveiro ( 45 KM)
 
-Day 4 - Aveiro  -  Praia de Mira (40 Km)
+Dia 4 - Aveiro - Praia de Mira (40 Km)
 
-Day 5 - Praia de Mira - Figueira da Foz ( 50 Km)
+Dia 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 
-Day 6 - Figueira da Foz - Coimbra ( 55 Km)
+Dia 6 - Figueira da Foz - Coimbra ( 55 Km)
 
-Day 7 - Transfer
+Dia 7 - Transfere
