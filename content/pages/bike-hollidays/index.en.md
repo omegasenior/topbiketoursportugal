@@ -56,7 +56,10 @@ descriptionafter: >-
 
 
   **Guided Tour plus**
-   Includes everything described in the last paragraph of Guided tours, plus daily lunches and dinners of typical dishes of the Portuguese regions.
+
+  Includes everything described in the last paragraph of Guided tours, plus
+  daily lunches and dinners of typical dishes of the Portuguese regions.
+
 
   **RECOMMENDATIONS**
 
@@ -76,9 +79,9 @@ descriptionafter: >-
   and 75 km. Short climbs up to 30% of the whole route. For inexperient cyclist
   with some fitness preparation.
 
-  * **Moderate:** Terrain can be in dirt roads or trails. Mostly flat with
-  daily distances between 50km and 75km with some climbs up to 40% of the whole
-  route. For cyclist with fitness preparation.
+  * **Moderate:** Terrain can be in dirt roads or trails. Mostly flat with daily
+  distances between 50km and 75km with some climbs up to 40% of the whole route.
+  For cyclist with fitness preparation.
 
   * **Moderate to hard:** Terrain can be in dirt roads or trails. Daily
   distances between 50km and 75km with moderate climbs up to 60% of the whole
