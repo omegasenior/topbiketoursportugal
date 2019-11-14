@@ -62,12 +62,11 @@ itinerary:
       communities through these lands. The city of Valença is a historical town
       in the north of Portugal. It is located right on the border with Spain,
       separated by the beautiful Minho River, and surrounded by ramparts atop a
-      hill, boasting a long defensive look. With very old origins, assumingly,
-      the presence of human communities in this territory date since.
+      hill, boasting a long defensive look.
     location:
       lat: '42.0270455'
       lng: '-8.6428831'
-    title: 'Day 2: Melgaço – Valença,  (43 km) plus extra track to Tui (6 km)'
+    title: 'Day 2: Melgaço – Valença, (43 km) plus an extra track to Tui (6 km)'
   - day: '3'
     description: >-
       Leaving Valença, continue along with the Minho river. One of today's
@@ -113,8 +112,8 @@ itinerary:
     title: 'Day 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)'
   - day: '5'
     description: >-
-      Today is a day to know the south bank of the river Lima for about 25 km.
-      Then we will begin our journey heading to Esposende, a seaside city
+      Today is a day to get to know the south bank of the river Lima for about
+      25 km. Then we will begin our journey heading to Esposende, a seaside city
       located in the North. During this day, you will be overwhelmed with
       seaside landscapes and small “Portuguese rivieras” until you reach
       Esposende, a city from the Middle Ages. Neiva river and its clear waters,
