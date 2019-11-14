@@ -1,13 +1,13 @@
 ---
 templateKey: tour-gen
 order: 1
-path: santiago-de-compostela-coastal-route-pt
+path: santiago-compostela-pela-costa
 productcode: SANTIAGO 01
 featured: true
 language: pt
 image: >-
   /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
-title: Santiago de Compostela Bike Tour - Costal Path
+title: Caminho de Santiago em Bicicleta - Caminho da Costa - "fácil"
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -49,113 +49,114 @@ rating:
 itinerary:
   - day: '1'
     description: >-
-      Before starting this cycling journey towards Santiago de Compostela, it's
-      almost mandatory to explore Porto, classified as World Heritage and
-      Capital of Culture and Tourism. Join us in a city walking tour and
-      discover part of the heritage this city has to offer. Meet famous and
-      well-known hot spots, such as the bookstore that influenced J.K. Rowling’s
-      Harry Potter, the magnificent Stock Exchange Market, the blue and white
-      tiles hiding at each corner and much more. Art, heritage and traditions
-      are meant to be found and seen during this short city tour.
+      Antes de ser iniciada a jornada até Santiago de Compostela, é quase
+      obrigatório explorar o Porto, classificado como Património Mundial e
+      Capital da Cultura e Turismo. Junte-se a nós num passeio a pé pela cidade
+      e descubra parte do património que esta cidade tem para oferecer. Conheça
+      lugares famosos como a livraria que influenciou o livro Harry Potter de
+      J.K. Rowling, o magnífico mercado da bolsa, os azulejos azuis e brancos
+      que se escondem a cada esquina e muito mais. Arte, património e tradições
+      esperam por si ao longo deste pequeno passeio pela cidade.
     location:
       lat: '41.15293'
       lng: '-8.61005'
-    title: 'Day 1: Reception at Porto'
+    title: 'Dia 1: Recepção no Porto'
   - day: '2'
     description: >-
-      From our store, based in the “Invicta” city of Porto, we will begin our
-      journey heading to Esposende, a seaside city located to the North. During
-      this second day, you will be overwhelmed with seaside landscapes and small
-      “Portuguese rivieras”, until you reach Esposende, a city from the Middle
-      Ages. A huge variety of fishing villages (Póvoa de Varzim) will be met by
-      us, where we can experience ancient traditions linked to the fish
-      exploration, as well as taste this famous gastronomy. In Vila do Conde,
-      you’ll know why these Portuguese coastal cities were so important during
-      the “el dorado” of the Portuguese Discoveries
+      Da nossa loja, sediada na Invicta cidade do Porto, iniciará a sua jornada
+      em direcção a Esposende, uma cidade costeira localizada a Norte. Durante
+      este segundo dia, terá a possibilidade de apreciar inúmeras paisagens
+      costeiras, até alcançar Esposende, uma cidade desde os tempos medievais.
+      Uma enorme variedade de aldeias piscatórias, como a Póvoa de Varzim,
+      esperam por si, onde poderá observar tradições ancestrais ligadas à
+      exploração marítima, assim como provar toda a gastronomia que tem aí a sua
+      origem. Em Vila do Conde, irá descobrir a razão pela qual estas cidades
+      costeiras foram tão relevantes durante o "el dorado" das descobertas
+      Portuguesas.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 2: Porto – Esposende (60 km)'
+    title: 'Dia 2: Porto – Esposende (60 km)'
   - day: '3'
     description: >-
-      We’re reaching Viana do Castelo, another sea docking city that was quite
-      important during the Discoveries’ period. During the XIV-XVth Centuries it
-      was in this precise city that the ships going to Brazil, India, Africa and
-      other Portuguese Colonies were developed. Our final destination will be
-      Caminha. This city finds the shore of the river Minho, making it part of
-      an incredible landscape. Caminha is also very well-known for its natural
-      and green heritage, like the sightseeing areas, waterfalls, beaches and
-      the camping park.
+      A caminho de Viana do Castelo, outra cidade com âncora no mar, que foi
+      extremamente importante durante o período das descobertas Portuguesas.
+      Durante os séculos XIV e XV foi aqui que os navios, com destinos como o
+      Brasil, Índia, África ou outras colónias, eram desenvolvidos. O seu
+      destino final será Caminha. Esta cidade encontra-se na margem de rio
+      Minho, fazendo parte de uma paisagem incrível. A cidade é também muito
+      conhecida pelo seu património natural, com as suas vistas panorâmicas,
+      cascatas, praias e parque de campismo.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 3: Esposende – Caminha (50 km)'
+    title: 'Dia 3: Esposende – Caminha (50 km)'
   - day: '4'
     description: >-
-      During our fourth cycling day, you are going to enter in Spanish
-      territory, ending in Bayona. It’s a city politically linked to Pontevedra
-      where you can breathe the sea breeze. Away from the sea landscape you can
-      also get lost in the old city center. Born from the Romans, the city kept
-      growing towards the coast during the Middle Ages, with an influence from
-      the Catholic Church. Curiously, during the XVI Century, Bayona was raided
-      by British ships, led by the great corsair and explorer Francis Drake who
-      saw an opportunity to establish a commercial and merchant point in this
-      territory.
+      Irá entrar em território Espanhol, acabando o dia em Baiona. É uma cidade
+      politicamente ligada a Pontevedra, onde poderá respirar a suave brisa do
+      mar. Afastado da frente marítima, é possível perder-se no antigo centro da
+      cidade. Nascida com os romanos, a cidade manteve um contínuo crescimento
+      em direcção ao mar durante a época medieval, com uma influência da igreja
+      católica. Curiosamente, durante o século XVI, Baiona foi atacada por
+      navios britânicos, comandados pelo corsário e explorador Francis Drake,
+      que viu a oportunidade de estabelecer um posto comercial e mercantil no
+      território.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 4: Caminha – Baiona (40 km)'
+    title: 'Dia 4: Caminha - Baiona (40 Km)'
   - day: '5'
     description: >-
-      This day will encompass the stream of Vigo and will end in San Simon's bay
-      with a watery landscape to feast your eyes on. Always following the
-      coastline, this day will be dedicated to Arcade and its famous oysters.
-      Apart from this delightful cuisine, you will see monuments and sights
-      dedicated to Santiago’s culture, such as the church of Santiago in Arcade
-      (XII-XIII centuries) and roads and paths that will lead to our pilgrimage
-      destination. It’s almost mandatory that, if you are passing by Arcade, you
-      must taste and enjoy the famous oysters produced and harvested in the
-      waters of this region. Curiously, during April’s first week there is a
-      festival dedicated to this traditional gastronomy – “Fiesta de la Ostra” –
-      where the city is filled with tourists and pilgrims to attend this event.
+      Este dia abrangerá a costa de Vigo e terminará na baía de San Simon, com
+      uma vista marítima para banquetear a vista. Seguindo sempre o litoral,
+      este dia é dedicado a Arcade e às suas famosas ostras. Para além deste
+      delicioso aperitivo, irá ver monumentos e lugares dedicados ao culto de
+      Santiago, como é o caso da igreja de Santiago em Arcade, séculos XII e
+      XIII, e ruas e caminhos que o irão levar até ao destino desta
+      peregrinação. É quase peremptório que, passando por Arcade, saboreie as
+      famosas ostras, produzidas e colectadas nas águas da região. Curiosamente,
+      durante a primeira semana de Abril, há um evento dedicado a esta
+      gastronomia tradicional, a "Fiesta de la Ostra", onde toda a cidade está
+      compactada com turistas e peregrinos que marcam presença neste evento.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 5: Baiona – Pontevedra (64 km)'
+    title: 'Dia 5: Baiona – Pontevedra (64 km)'
   - day: '6'
     description: >-
-      Heading to a pre-Roman city, Caldas de Reis, a province which belongs to
-      Pontevedra. According to historical archives, the first inhabitants were a
-      pre-Roman community that lived from the hot springs of this territory. The
-      name “Caldas de Reis” is connected to the birthplace of Afonso VII, acting
-      in the Middle Ages as a pilgrimage path to Santiago de Compostela. Apart
-      from the rich cultural heritage, like Arcade, Caldas de Reis holds a
-      peculiar gastronomy, such as the “empanadas” of lamprey and the
-      traditional Spanish bread. Since the hot springs accompanied the evolution
-      of this territory, nowadays it is a hot spot for tourism who seeks better
-      healthy treatments for several illnesses
+      Dirigindo-se agora para a cidade pré-romana de Caldas de Reis, cidade esta
+      que pertence a Pontevedra. De acordo com registos históricos, os primeiros
+      habitantes da região, foram uma comunidade pré-romana que viveu das
+      nascentes de água quente. O nome "Caldas de Rei" está ligado ao local de
+      nascimento de Afonso VII, actuando já na idade média como um local de
+      passagem dos peregrinos. Caldas de Reis detém um espólio gastronómico
+      peculiar, como as "empanadas" de lampreia e o tradicional pão espanhol.
+      Como as nascentes de água quente sempre acompanharam a evolução deste
+      território, hoje em dia é um local comum para os turista que procuram
+      tratamentos para diversos problemas.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 6: Pontevedra – Caldas dos Reis (26 km)'
+    title: 'Dia 6: Pontevedra – Caldas dos Reis (26 km)'
   - day: '7'
     description: >-
-      Your last day will be met by Santiago de Compostela as your final
-      destination, one of the ultimate pilgrimage cores in Western Europe. Like
-      Rome and Jerusalem, the city of Santiago de Compostela presents us an
-      unique religious beacon for tourists who find in this cycling journey an
-      act of faith and inner-self. Reach the Square of Obradoiro, where you will
-      witness the majestic baroque cathedral where the remains of the apostle
-      are located.
+      Será recebido por Santiago de Compostela como o destino final, um dos
+      principais lugares  de peregrinação na Europa Ocidental. Assim como Roma e
+      Jerusalém, a cidade de Santiago de Compostela apresenta-se-nos como um
+      marco religioso, para turistas que encontrem esta jornada em bicicleta,
+      como um ato de fé e introspecção. Alcance a praça de Obradoiro, onde
+      poderá presenciar a majestosa catedral barroca, onde os restos do apostolo
+      estão localizados.
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 7: Caldas dos Reis – Santiago de Compostela (40 km)'
+    title: 'Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)'
   - day: '8'
     location:
       lat: '41.15591'
       lng: '-8.60248'
-    title: 'Day 8: Departure'
+    title: 'Dia 8: Partida'
 gallery:
   - alt: group 1
     image: /img/camino-de-santiago-coastal-route-bicycle-tour.jpg
@@ -178,6 +179,8 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
+    observations: ''
     package: Self Guided bike Tour
     packageContents:
       - icon: ✓
@@ -213,11 +216,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
-    observations: ''
     price: 1489
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -253,11 +256,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1895
     type: '1'
   - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Biketour plus*
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -293,44 +296,54 @@ pricing:
         value: +100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2456
     type: '1'
 ---
-# The Way of St. James BikeTour
+# Caminho de Santiago em Bicicleta
 
-## The Coastal Way - "easy"
-
-\
-\
-This cycling tour presents itself as an easy route to reach Santiago de Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one of the most important spots for religious tourism in Western Europe.
-
-Enjoy a city tour with us in Porto, to get to know a little bit of its architecture, heritage and local traditions. After this, ride towards Santiago, passing by sunny and seaside areas such as Esposende, Caminha and Bayona. Have a delight with the famous Arcade's oysters. Know why Caldas de Reis holds such a royalty importance and end this tour in the Square of Obradoiro, where you can see the colossal baroque cathedral where the remains of the apostle Santiago lies.
+## Caminho da Costa - "fácil"
 
 \
-**Route description:**
+\
+O caminho da costa apresenta-se com uma forma mais fácil de chegar a Santiago de Compostela, o principal ponto de peregrinação na Península Ibérica e um dos mais importantes de turismo religioso na Europa Ocidental.
 
-* Flat for the first 3 days, with a few smooth and short climbs. Hilly in the last 3 days, up and down in secondary roads.
-* 30 % bike lanes and wood walkways, 30% smooth dirt roads. Some coubblestone roads and rough dirt roads, 20 % paved secondary roads with low traffic.
-* 4121 meters of cumulative gap climbs
+Aproveite e faça connosco um passeio a pé pela cidade do Porto, para que fique a conhecer um pouco mais da arquitectura da cidade, do seu património e tradições locais. Inicie depois a sua viagem até Santiago, passando por locais ensolarados e à beira mar, como é o caso de Esposende, Caminha e Baiona. Aproveite a delícia que são as ostras de Arcade. Conheça a razão porque Caldas de Rei detém uma importante relevância real e termine o seu passeio em bicicleta na praça de Obradoiro, onde poderá contemplar a colossal catedral barroca, onde os restos de Santiago estão depositados.
 
 \
-**Itinerary:**
+**Descrição da rota:**
 
-Day 1: Reception at Porto
+* Plana durante os três primeiros dias com poucas subidas suaves e curtas. Montanhoso nos três últimos dias por estradas secundárias.
+* 30 % ciclovias e passadiços, 30 % caminhos em terra suaves. Algumas ruas em paralelo e caminhos em terra irregulares. 20 % estradas pavimentadas com pouco tráfego.
+* Altimetria acumulada de 4121 metros.
 
-Day 2: Porto – Esposende (60 km)
+\
+**Itinerário:**
 
-Day 3: Esposende – Caminha (50 km)
+Dia 1: Recepção no Porto
 
-Day 4: Caminha – Baiona (40 km)
 
-Day 5: Baiona – Pontevedra (64 km)
 
-Day 6: Pontevedra – Caldas dos Reis (26 km)
+Dia 2: Porto – Esposende (60 km)
 
-Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
+
+
+Dia 3: Esposende – Caminha (50 km)
+
+
+
+Dia 4: Caminha – Baiona (40 km)
+
+
+
+Dia 5: Baiona – Pontevedra (64 km)
+
+
+
+Dia 6: Pontevedra – Caldas dos Reis (26 km)
+
+
+
+Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
 \
 '
