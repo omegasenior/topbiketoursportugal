@@ -143,13 +143,13 @@ pricing:
     highSeasonPriceSupplement: 100
     package: Preço de grupo por pessoa
     packageContents: []
-    price: 25
+    price: 95
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 100
     package: Preço Privado por pessoa
     packageContents: []
-    price: 50
+    price: 129
 ---
 # BIKE TOUR -Food tour | Wine & Gastournomy
 
