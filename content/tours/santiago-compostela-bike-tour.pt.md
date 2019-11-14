@@ -23,10 +23,8 @@ tags:
   - electric bicycle
   - Spain
 meta:
-  description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
+  description: |
+    Pedale pela costa, no percurso mais fácil até Santiago de Compostela
   keywords: 'Pedale pela costa, no percurso mais fácil até Santiago de Compostela'
   title: Santiago de Compostela - Caminho da Costa "fácil"
 groupSizeMax: 1
@@ -303,15 +301,15 @@ pricing:
 
 \
 \
-O caminho da costa apresenta-se com uma forma mais fácil de chegar a Santiago de Compostela, o principal ponto de peregrinação na Península Ibérica e um dos mais importantes de turismo religioso na Europa Ocidental.
+O caminho da costa apresenta-se como uma rota mais fácil de chegar a Santiago de Compostela, o principal ponto de peregrinação na Península Ibérica e um dos mais importantes de turismo religioso na Europa Ocidental.
 
 Aproveite e faça connosco um passeio a pé pela cidade do Porto, para que fique a conhecer um pouco mais da arquitectura da cidade, do seu património e tradições locais. Inicie depois a sua viagem até Santiago, passando por locais ensolarados e à beira mar, como é o caso de Esposende, Caminha e Baiona. Aproveite a delícia que são as ostras de Arcade. Conheça a razão porque Caldas de Rei detém uma importante relevância real e termine o seu passeio em bicicleta na praça de Obradoiro, onde poderá contemplar a colossal catedral barroca, onde os restos de Santiago estão depositados.
 
 \
 **Descrição da rota:**
 
-* Plana durante os três primeiros dias com poucas subidas suaves e curtas. Montanhoso nos três últimos dias por estradas secundárias.
-* 30 % ciclovias e passadiços, 30 % caminhos em terra suaves. Algumas ruas em paralelo e caminhos em terra irregulares. 20 % estradas pavimentadas com pouco tráfego.
+* Rota plana durante os três primeiros dias com poucas subidas suaves e curtas. Montanhoso nos três últimos dias por estradas secundárias.
+* 30 % ciclovias e passadiços, 30 % caminhos em terra suave. Algumas ruas em paralelo e caminhos em terra irregulares. 20 % estradas pavimentadas com pouco tráfego.
 * Altimetria acumulada de 4121 metros.
 
 \
@@ -319,27 +317,15 @@ Aproveite e faça connosco um passeio a pé pela cidade do Porto, para que fique
 
 Dia 1: Recepção no Porto
 
-
-
 Dia 2: Porto – Esposende (60 km)
-
-
 
 Dia 3: Esposende – Caminha (50 km)
 
-
-
 Dia 4: Caminha – Baiona (40 km)
-
-
 
 Dia 5: Baiona – Pontevedra (64 km)
 
-
-
 Dia 6: Pontevedra – Caldas dos Reis (26 km)
-
-
 
 Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
