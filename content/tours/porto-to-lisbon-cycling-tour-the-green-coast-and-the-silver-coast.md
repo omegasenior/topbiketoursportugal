@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-order: 12
+order: 6
 path: porto-to-lisbon-cycling-tour--en
 productcode: SC 03
 featured: false
@@ -242,6 +242,8 @@ gallery:
     image: /img/bike-tour-douro-valley-photo-3.png
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -276,10 +278,10 @@ pricing:
         value: + 2500 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2779
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -314,10 +316,10 @@ pricing:
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3591
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided bike tour PLUS*
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -352,8 +354,6 @@ pricing:
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 4629
 ---
 # Porto to Lisbon Cycling tour
