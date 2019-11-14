@@ -302,7 +302,6 @@ pricing:
       - title: Min. Participants
         value: '4'
     highSeasonPriceSupplement: 100
-    discount: 0
     price: 2060
     type: '1'
   - package: Guided bike tour Plus*
