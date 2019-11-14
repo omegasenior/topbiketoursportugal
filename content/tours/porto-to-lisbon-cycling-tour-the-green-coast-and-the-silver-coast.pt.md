@@ -1,6 +1,6 @@
 ---
 templateKey: tour-gen
-order: 6
+order: 8
 path: porto-to-lisbon-cycling-tour-pt
 productcode: SC 03
 featured: false
