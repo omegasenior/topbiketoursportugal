@@ -115,6 +115,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided biketour
     packageContents:
       - icon: ✓
@@ -150,11 +151,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1789
     type: '1'
-  - package: Guided bike tour
-    discount: 0
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -190,11 +191,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
-    price: 2556
+    price: 1945
     type: '1'
-  - package: Guided bike tour Plus*
-    discount: 0
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -230,7 +231,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
     price: 2556
     type: '1'
 ---
