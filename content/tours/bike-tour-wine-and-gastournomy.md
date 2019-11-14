@@ -135,17 +135,17 @@ gallery:
     image: /img/portugal-mit-den-frauen-mai-2015-154-4.jpg.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 99
     package: Group price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 25
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 129
     package: Private price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
-    price: 50
+    price: 125
 ---
 # BIKE TOUR -Food tour | Wine & Gastournomy
 
