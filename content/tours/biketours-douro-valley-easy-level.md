@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 12
-path: /biketours-douro-valley-easy-level
+path: /bike-tours-douro-valley-easy
 productcode: DOURO 01
 featured: false
 language: en
@@ -27,7 +27,7 @@ meta:
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
-  title: Douro Wine Tour Easy
+  title: Cycling Tours - Douro Wine easy
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
