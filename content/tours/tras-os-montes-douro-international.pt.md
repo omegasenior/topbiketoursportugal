@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 79
-path: /bike-tours-portugal-douro-wine-pt
+path: /cycling-tours-tras-os-montes
 productcode: DOURO 03
 featured: false
 language: pt
@@ -21,14 +21,14 @@ tags:
   - e-bike
   - electric bicycle
 meta:
-  description: >
-    The interior of Portugal holds us many wonders of nature, filled with tales,
-    stories and traditional dishes. Ride along with us to discover the ancient
-    Portuguese
+  description: >-
+    O interior português reserva-nos muitas maravilhas da natureza, repletas de
+    estórias, lendas e pratos gastronómicos. Pedale pelos antigos caminhos de
+    Portugal.
   keywords: >-
-    Cycling tours, Douro Valley, nature, heritage, Portugal, North, bicycle,
-    nature tourism 
-  title: Bike Holidays - Douro internacional
+    Cycling Tours, vale do douro, natureza, património, portugal, norte,
+    bicicleta, turismo natureza
+  title: Cycling Tours - Douro internacional | Top Bike tours Portugal
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -115,6 +115,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided biketour
     packageContents:
       - icon: ✓
@@ -150,10 +151,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1789
     type: '1'
-  - package: Guided bike tour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -189,11 +191,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2556
     type: '1'
-  - package: Guided bike tour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -229,8 +231,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 2556
     type: '1'
 ---
