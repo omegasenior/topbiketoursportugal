@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 5
-path: /from-coimbra-to-lisbon-bike-tour-pt
+path: /costa-da-prata-2
 productcode: SC 02
 featured: false
 language: pt
@@ -22,11 +22,13 @@ tags:
   - e-bike
   - electric bicycle
 meta:
-  description: >
-    From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
-    expect some climbs in this great bike tour
-  keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
-  title: Silver Coast Moderate route 2
+  description: >-
+    VEM CONHECER A COSTA DE PORTUGAL EM BICICLETA E A CONHECIDA A COSTA DA PRATA
+    junto ao mar do Atlantico
+  keywords: >-
+    Cycling Tours costa da prata, costa da prata em bicicleta, mar do atlanticco
+    em bicicleta
+  title: 'Cicloturismo Portugal - Coast da Prata '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -196,6 +198,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -230,10 +233,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1858
     type: '1'
-  - package: Guided bike tour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -269,11 +273,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2367
     type: '1'
-  - package: Guided bike tour PLUS*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour PLUS*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -309,8 +313,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3123
     type: '1'
 ---
