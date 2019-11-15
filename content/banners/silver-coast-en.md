@@ -9,6 +9,6 @@ goto:
   link: porto-to-coimbra-biketour
   linktext: 24 HOUR PHONE SUPPORT
   linktitle: From Porto to Coimbra
-image: /img/lakes-in-mira.jpg
+image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-3589.jpg
 ---
 
