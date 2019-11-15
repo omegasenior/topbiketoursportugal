@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 8
-path: porto-to-lisbon-cycling-tour-pt
+path: /pt-porto-lisboa-bike-tour
 productcode: SC 03
 featured: false
 language: pt
@@ -23,10 +23,10 @@ tags:
   - electric bicycle
 meta:
   description: >-
-    Cycle the green Coast and the Silver Coast with is from porto to Lisbon. Ask
-    for a quote.
-  keywords: 'porto to lisbon bike, porto to lisbon biketour'
-  title: Cycling tour from Porto to Lisbon
+    Percorra a costa verde e a Costa de Prata connosco desde o Porto até Lisboa.
+    Peça uma cotação.
+  keywords: 'porto lisbon passeio de bicicleta, porto to lisbon biketour'
+  title: Desde o Porto a Lisboa em bicicleta
 distance: 493
 distanceUnit: Km
 duration: 13
