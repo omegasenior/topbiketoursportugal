@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 1
-path: bike-tour-sightseeing-porto
+path: /bike-tour-sightseeing-porto
 productcode: CT 01
 featured: false
 language: en
@@ -22,7 +22,7 @@ meta:
     Speed, urban history, gardens and other green areas are to be taken in this
     extreme bicycle tour. For those who enjoy riding a bike in extreme and...
   keywords: 'Tours porto, Bike Tours porto portugal, Walking Tours porto portugal'
-  title: Sightseeing Bike tour Porto
+  title: 'BIKE TOURS,CITY TOURS PORTO PORTUGAL'
 difficulty: 0
 rating: []
 itinerary:
@@ -129,16 +129,16 @@ gallery:
     image: /img/portugal-mit-den-frauen-mai-2015-154-1.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Group price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 25
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Private price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 50
 ---
 # Downtown and Sightseeing bike tour
