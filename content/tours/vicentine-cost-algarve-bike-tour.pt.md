@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 4
-path: /south-portugal-biketour-pt
+path: /costa-vicentina-bike-tour
 productcode: VICENTINE 01
 featured: false
 language: pt
@@ -24,13 +24,13 @@ tags:
   - electric bicycle
   - vicentine Coast
 meta:
-  description: >
-    Start in Lisbon or in Sines in this amazing bike tours thru the south coast
-    of Portugal....wild, nature and quiet bike tour
+  description: >-
+    Comece em Lisboa ou em Sines neste incrível passeio de bicicleta pelo sul da
+    costa de Portugal .... passeio de bicicleta selvagem, natural e silencioso
   keywords: >-
-    Vicentine Coast to Algarve, lisbon bike tour, alentejo bike tour, algarve
-    bike tour
-  title: 'Vicentine Coast to Algarve '
+    Costa Vicentina ao Algarve, passeio bicicleta em lisboa, passeio de
+    bicicleta alentejo, passeio bicicleta algarve
+  title: Costa Vicentina até ao Algarve
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
