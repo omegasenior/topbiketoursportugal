@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 1
-path: santiago-compostela-pela-costa
+path: /santiago-compostela-pela-costa
 productcode: SANTIAGO 01
 featured: true
 language: pt
