@@ -12,7 +12,7 @@ meta:
 feature:
   align: center
   image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
-  imageAlign: center center
+  imageAlign: bottom
   textcolor: Black
   title: blog
 ---
