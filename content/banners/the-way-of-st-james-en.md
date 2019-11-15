@@ -1,8 +1,8 @@
 ---
-key: '2'
+key: '1'
 language: en
 banner: true
-order: 2
+order: 1
 title: The Way to Santiago de Compostela
 description: Visit all around Portugal on a bicycle with our expert guides
 goto:
