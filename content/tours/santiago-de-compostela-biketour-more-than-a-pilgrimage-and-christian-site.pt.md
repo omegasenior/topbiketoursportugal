@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 14
-path: santiago-de-compostela-original-route-from-porto-pt
+path: /santiago-compostela
 productcode: SANTIAGO 02
 featured: false
 language: pt
@@ -20,11 +20,13 @@ tags:
   - electric bicycle
   - Spain
 meta:
-  description: Start in Porto city cycling thru the way of St. James and discover yourself!
+  description: >-
+    Na Idade Média, os caminhos de Santiago de Compostela eram percorridos por
+    reis e rainhas. Actualmente, estes trilhos são utilizados por peregrinos. 
   keywords: >-
-    Cycling tours, Santiago de compostela, religious tourism, bicycle, pilgrim,
-    Portugal, Gallicia 
-  title: Santiago de Compostela Original route starting in Porto
+    Cycling Tours, santiago de compostela, turismo religioso, bicicleta,
+    peregrino, portugal, galiza
+  title: 'Cycling Tours - Santiago de Compostela '
 distance: 243
 distanceUnit: Km
 duration: 8
@@ -135,6 +137,8 @@ gallery:
     image: /img/original-route-from-porto-to-santiago-de-compostela3.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike Tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -169,10 +173,10 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1489
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -207,10 +211,10 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1895
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided Biketour plus*
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -245,8 +249,6 @@ pricing:
         value: +100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2456
 ---
 # Santiago de Compostela BikeTour
