@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 89
-path: /french-way-to-santiago-bike-tour-pt
+path: /pt-caminho-frances-a-santiago-bike-tour
 productcode: SANTIAGO 03
 featured: false
 language: pt
@@ -23,12 +23,12 @@ tags:
   - Spain
 meta:
   description: >
-    Start cycling in France in this demmanding adventure that is very well known
-    buy our team...discover the way with us!
+    Comece a andar de bicicleta na França nesta aventura exigente que é muito
+    conhecida. Uma viajem inesquecível em bicicleta com muitos peregrinos...
   keywords: >-
-    FRENSH WAY TO SANTIAGO DE COMPOSTELA IN A BICYCLE, ORIGINAL ROUTE TO
-    SANTIAGO DE COMPOSTELA INA BICYCLE
-  title: 'Guided Bike tour to Santiago de Compostela in the french way '
+    Passeios de bicicleta guiados portugal - Santiago de Compostela, caminho
+    francês
+  title: 'Santiago de Compostela, Caminho Francês | Top Bike tours Portugal'
 groupSizeMax: 1
 groupSizeMin: 20
 minAge: 16
@@ -218,6 +218,8 @@ gallery:
     image: /img/french-camino-in-a-bycicle4.png
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided bike tour
     packageContents:
       - icon: ✓
@@ -255,11 +257,11 @@ pricing:
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3400
     type: '1'
-  - package: Guided bike tour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -296,8 +298,6 @@ pricing:
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 4180
     type: '1'
 ---
