@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 7
-path: /douro-valley-wine-tour-pt
+path: /cycling-tours-douro-wine
 productcode: DOURO 02
 featured: false
 language: pt
@@ -22,11 +22,10 @@ tags:
   - electric bicycle
 meta:
   description: >
-    The Valley of the Douro, classified as Natural Heritage, is nowadays an
-    ultimate masterpiece of nature, very well sought by its villae, houses and
-    vineyards.
-  keywords: 'ouro, landscape, bicycle, wine, vineyards '
-  title: ' Douro Valley bike tour '
+    O Vale do Douro, considerado Património Natural, é um fenómeno da natureza,
+    sendo bastante procurado pelas suas quintas. Pedale connosco nesta viagem.
+  keywords: Cycling Tours wine tour
+  title: 'Bike Tours - Douro Wine tour '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -133,6 +132,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - icon: ✓
@@ -168,10 +168,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1589
     type: '1'
-  - package: Guided bike tour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -207,11 +208,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1945
     type: '1'
-  - package: Guided bike tour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -247,8 +248,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2556
     type: '1'
 ---
