@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 3
-path: /north-of-portugal-pt
+path: /pt-norte-de-portugal-bike-tour
 productcode: NORTH 01
 featured: true
 language: pt
@@ -19,11 +19,9 @@ tags:
   - e-bike
   - electric bicycle
 meta:
-  description: >-
-    The oldest village, the river and the sea in one bike tour around the North
-    of Portugal.
-  keywords: North and Minho bike tour
-  title: North and Minho Bike tour
+  description: 'A vila mais antiga de Portugal, o mar e o rio num único bike tour!'
+  keywords: Norte e Minho Bike tour
+  title: 'Norte e Minho de Portugal Bike tour '
 groupSizeMax: 1
 groupSizeMin: 1
 minAge: 1
@@ -154,6 +152,8 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
+    observations: '****'
     package: Self Guided bikeTour
     packageContents:
       - icon: ✓
@@ -189,11 +189,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
-    observations: '****'
     price: 1360
     type: '1'
-  - package: Guided Biketour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -228,11 +228,11 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 1669
     type: '1'
-  - package: Guided Biketour plus *
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided Biketour plus *
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -267,8 +267,6 @@ pricing:
         value: + 100 €
       - title: Min. Participants
         value: '2'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2210
     type: '1'
 ---
