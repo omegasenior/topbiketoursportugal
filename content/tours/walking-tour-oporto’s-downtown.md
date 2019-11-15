@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /walking-tours-porto
+path: /walk-tour-porto-downtown
 productcode: CT 02
 featured: false
 language: en
@@ -19,8 +19,10 @@ tags:
   - hiking
 meta:
   description: >-
-    Walking tours in Porto Portugal. The best way to know Porto is doing a
-    guided walking tour with us.
+    Porto became very famous when classified by UNESCO’s title of World Heritage
+    (1996) and with the title of European Capital of Culture (2001). This walk
+    tour was developed for those who enjoy sightseeing culture, architecture and
+    dazzling urban landscapes with huge miscellanea.
   keywords: >-
     Walking Tours porto portugal,hiking tours porto,hiking tours portugal,
     wlaking tour portugal
