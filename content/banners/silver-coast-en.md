@@ -1,8 +1,8 @@
 ---
-key: '1'
+key: '2'
 language: en
 banner: true
-order: 1
+order: 2
 title: Silver Coast
 description: The second and third largest cities of Portugal linked by bike
 goto:
