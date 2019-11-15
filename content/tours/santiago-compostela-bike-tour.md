@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 1
-path: santiago-de-compostela-coastal-route
+path: /santiago-de-compostela-coastal-route
 productcode: SANTIAGO 01
 featured: true
 language: en
@@ -24,13 +24,12 @@ tags:
   - Spain
 meta:
   description: >
-    This cycling tour presents itself as na easy route to reach to Santiago de
-    Compostela, the ultimate pilgrimage beacon in the Iberian Peninsula and one
-    of the most important spots for religious tourism in Western Europe.
+    Ride along the coast, in the easiest route to Santiago de Compostela. Start
+    in Porto city and make a journey of a life time.
   keywords: >-
-    Santiago de compostela bike tour, electric bicycle tour to santiago, the way
-    of st james bicycle tour,bike tours portugal
-  title: Santiago de Compostela Bike Tour
+    cycling holidays portugal,Cycling tours, Santiago de Compostela, sea,
+    religious tourism, bicycle, Portugal, Gallicia 
+  title: Santiago de Compostela starting in Porto
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 2
