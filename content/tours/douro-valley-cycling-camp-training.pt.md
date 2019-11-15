@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /douro-valley-cycling-camp-road-bike-pt
+path: /-campo-de-treino-douro-em-bicicleta
 productcode: DOURO 04
 featured: false
 language: pt
@@ -22,13 +22,11 @@ tags:
   - electric bicycle
 meta:
   description: >
-    Training camp in Portugal. Douro region is great for your train. Funny
-    climbs and descent ways...you will feel in you are in ancient times! Low
-    traffic
-  keywords: >-
-    Douro Valley training camp, road bike in douro valley. road bike tour
-    portugal, road bike
-  title: 'Douro Cycling training camp '
+    Em bicicleta de estrada (speed) descubra a região do douro em bicicleta.
+    Vale com muito pouco transito e paisagens que só no vale do Douro
+    existem.Venha treinar
+  keywords: 'bicicleta de estrada no douro, douro road bike, bicicleta de speed no douro'
+  title: Campo de treino de ciclismo no Douro
 groupSizeMax: 0
 groupSizeMin: 0
 minAge: 0
