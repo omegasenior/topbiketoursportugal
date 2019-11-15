@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 2
-path: porto-to-coimbra-biketour
+path: /porto-to-coimbra-biketour
 productcode: SC 01
 featured: true
 language: en
@@ -26,8 +26,8 @@ meta:
     Gallicia, Nature, landscape and gastronomy are imbued in this cycling
     tour...Coimbra 
   keywords: >-
-    Cycling Tour Silver Coast, atlantic ocean bike tour, porto to coimbra bike
-    tour. porto to lisbon bicycle tour
+    Cycling Tours Silver Coast, percursos na natureza em bicicleta,ACTIVE BIKE
+    TOURISM, atlantic cycling holiday
   title: The Silver Coast bike tour near the Atlantic ocean
 groupSizeMax: 1
 groupSizeMin: -2
