@@ -11,8 +11,8 @@ meta:
   title: Blog Page
 feature:
   align: center
-  image: /img/cycling-to-são-pedro-de-moel.jpg
-  imageAlign: center
+  image: /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-1866.jpg
+  imageAlign: center center
   textcolor: Black
   title: blog
 ---
