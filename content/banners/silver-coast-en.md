@@ -9,6 +9,6 @@ goto:
   link: porto-to-coimbra-biketour
   linktext: 24 HOUR PHONE SUPPORT
   linktitle: From Porto to Coimbra
-image: /img/guided-bicycle-tour-in-coimbra.jpg
+image: /img/cycling-plan-in-coasta-nova.jpg
 ---
 
