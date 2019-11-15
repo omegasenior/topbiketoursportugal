@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 8
-path: biketour-porto-deluxe-pt
+path: /full-day-biketour-deluxe
 productcode: CT 04
 featured: false
 language: pt
@@ -20,11 +20,14 @@ tags:
   - e-bike
   - electric bicycle
 meta:
-  description: >-
-    Ride to the beaches of northern Portugal has never been so pleasant to the
-    taste of the idyllic and fantastic scenery.
-  keywords: 'city tours,ACTIVITIES IN PORTO, CITY TOURS PORTO'
-  title: 1 Day Biketour in Porto city
+  description: >
+
+    Pedalar até às praias do Norte de Portugal nunca foi tão agradável ao sabor
+    da idílica e fantástica paisagem. 
+  keywords: >-
+    city tours,circuitos em bicicleta PORTO, actividades em bicicleta PORTO,
+    ferias em bicicleta PORTO
+  title: Full Day Biketour Deluxe
 itinerary:
   - day: '1'
     description: Meeting Point
