@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /walking-tours-porto-pt
+path: /walk-city-tour-oporto-downtown
 productcode: CT 02
 featured: false
 language: pt
@@ -19,12 +19,13 @@ tags:
   - hiking
 meta:
   description: >-
-    Walking tours in Porto Portugal. The best way to know Porto is doing a
-    guided walking tour with us.
+    A cidade do Porto num contexto de cultura e património histórico, dispõe de
+    um leque de edificado, classificado pela UNESCO, para os olhos mais curiosos
+    que...
   keywords: >-
-    Walking Tours porto portugal,hiking tours porto,hiking tours portugal,
-    wlaking tour portugal
-  title: 'Walking tours Porto: Guided tours Portugal'
+    Passeio pedestre pela baixa do Porto,passeios pedestres, passeios
+    arquitectura Porto
+  title: PASSEIO PEDESTRE PELA BAIXA DO PORTO
 minAge: 16
 difficulty: 0
 itinerary:
