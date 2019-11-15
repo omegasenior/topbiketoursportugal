@@ -22,12 +22,12 @@ tags:
   - electric bicycle
 meta:
   description: >
-    Remember that the Douro is a valley and despite the tour being classified as
-    easy, it is necessary to take this into consideration
+    Lembre-se que o Douro é um vale e que apesar do tour ser classificado como
+    fácil, é necessário ter isso em consideração
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
-  title: Douro Wine Tour Easy
+  title: 'Cycling Tours - Douro Wine '
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
