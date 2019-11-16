@@ -99,7 +99,7 @@ export default class Footer extends React.Component {
             </Col>
           </Row>
           <div class="terms text-center">
-            @ Top Bike tours portugal 2019 - Terms and conditions - Privacy
+            @ Top Bike tours portugal 2019 - <Link to="/terms">Terms and conditions</Link> - <Link to="/privacy">Privacy</Link>
             policy
           </div>
         </Container>
