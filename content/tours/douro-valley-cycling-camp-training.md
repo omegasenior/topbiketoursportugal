@@ -47,6 +47,13 @@ gallery:
   - alt: group 2
     image: /img/14625511_1324120620965486_1978575785_n.jpg
 pricing: []
+feature:
+  align: center
+  image: /img/furadouro-forest-in-a-bicycle.jpg
+  imageAlign: center
+  subtitle: The Camino Bicycle tour
+  textcolor: white
+  title: The Way of St. James - The Coast Route "easy"
 ---
 # Douro Valley Cycling camp Training
 

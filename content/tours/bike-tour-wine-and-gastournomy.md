@@ -146,6 +146,13 @@ pricing:
     package: Private price per person
     packageContents: []
     price: 125
+feature:
+  align: center
+  image: /img/44817961982_440e783762_o.jpg
+  imageAlign: center center
+  subtitle: Bicycle day tours Portugal
+  textcolor: white
+  title: Day tours
 ---
 # BIKE TOUR -Food tour | Wine & Gastournomy
 

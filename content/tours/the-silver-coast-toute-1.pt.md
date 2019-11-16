@@ -272,6 +272,13 @@ pricing:
         value: '4'
     price: 2210
     type: '1'
+feature:
+  align: center
+  image: /img/furadouro-forest-in-a-bicycle.jpg
+  imageAlign: center
+  subtitle: The Camino Bicycle tour
+  textcolor: white
+  title: The Way of St. James - The Coast Route "easy"
 ---
 # Costa da Prata - Rota 1
 
