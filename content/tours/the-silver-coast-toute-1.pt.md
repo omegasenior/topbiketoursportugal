@@ -56,74 +56,70 @@ itinerary:
     title: Dia 1 - Recepção no Porto
   - day: '2'
     description: >-
-      You will make the coast towards the small village of Furadouro. Leaving
-      Porto, you will cross the city center of Porto, heading toward the river
-      through one of the most famous bridges in Portugal. After crossing the Don
-      Luis I bridge, you will enter the city of Vila Nova de Gaia, where you can
-      observe the famous cellars of Porto wine. During this journey you will
-      observe one of the most important icons, the chapel of Senhor da Pedra
-      located in Miramar Beach. You will have time to taste traditional fish
-      dishes at lunch time in Espinho. Arriving in the city of Ovar, there is
-      the opportunity to taste the famous bread-cake, the highlight for tourists
-      with a tradition of more than two centuries, and the convent sweets. Being
-      Ovar a fishing ground can still taste the famous stews of fish or eels.
-      You will have the opportunity to see the famous Chapel of the Steps, which
-      is classified as a National Interest Monument.
+      A saída do Porto faz-se por uma das pontes mais famosas de Portugal, a
+      Ponte Don Luís, entrando assim na cidade de Vila Nova de Gaia. A origem
+      desta cidade remonta a um castro celta, posteriormente integrada no
+      Império Romano. Aqui pode-se visitar as mundialmente famosas adegas de
+      vinho do Porto. Já em Miramar poderá observar a capela do Senhor da Pedra.
+      Neste monumento, construído no topo de uma rocha situada na costa do
+      oceano Atlântico, desfruta-se de vistas incríveis para o mar e para a
+      praia de areia branca que se estende em frente.  Há hora de almoço pode-se
+      provar o verdadeiro gosto do mar, com o famoso peixe fresco de Espinho.
+      Passando por Ovar, não se pode deixar de provar o conhecido pão-de-ló! Em
+      Portugal fazer pão é uma parte integrante da cultura Portuguesa, assim
+      como o é a produção de vinho, queijo e pastelaria. Terá também a
+      oportunidade de ver a famosa Capela dos Passos, classificada como
+      Monumento de Interesse Nacional e ainda diversos exemplos de azulejos
+      típicos portugueses, não só nas fachadas de edifícios públicos, como
+      também em casas de propriedade privada.
     location:
       lat: '40.87313436'
       lng: '-8.67736816'
     title: Dia 2 - Porto - Furadouro ( 47 Km)
   - day: '3'
     description: >-
-      Continuing the path along the coast, on the road N327, towards the city of
-      Aveiro, known as the little Venice of Portugal. Ride by several fishing
-      villages, one of which is the town of Torreira. Continuing our way see the
-      famous natural reserve of S. Jacinto, where you can observe several
-      species of birds. To accomplish the crossing to Aveiro, make the passage
-      via Ferry Boat. Arrive at the famous city of Aveiro where you can visit
-      the Jesus Monastery, observe the tiles from the train station and make a
-      boat tour on the Ria de Aveiro.
+      Seguindo pela costa em direcção ao sul, percorrerá uma estrada secundária
+      durante grande parte do dia, atravessando várias aldeias de pescadores,
+      incluindo a Torreira, possuidora de uma longa e fantástica praia.
+      Atravessará ainda a famosa reserva natural das Dunas de São Jacinto, uma
+      tranquila reserva natural de 6,7 quilómetros quadrados, equipada com
+      trilhos e áreas de observação de pássaros. O esticão final será iniciado
+      via ferry boat, atravessando a ria, para finalmente realizar os
+      quilómetros finais até Aveiro. Aqui pode-se visitar o Mosteiro de Jesus,
+      observar os azulejos da estação de comboio e fazer um passeio de barco
+      pela Ria de Aveiro.
     location:
       lat: '40.640496'
       lng: '8.6537841'
     title: Dia 3 - Furadouro - Aveiro ( 45 KM)
   - day: '4'
     description: >-
-      On this route of 48km, you shall know the city of Ílhavo, famous for the
-      manufacture of porcelain, Vista Alegre. With over 200 years of tradition
-      as well, you can observe the fantastic scenery of the famous Costa Nova do
-      Prado, where the beaches are intertwined with the rural, creating a unique
-      environment where there is the opportunity to view the famous haystack
-      houses on the waterfront, easily recognizable by the paintings on vertical
-      colored bands.
+      Neste dia a rota leva-o a Ílhavo, localidade da empresa Vista Alegre, onde
+      se fabrica porcelana portuguesa, fundada em 1815. Pode-se apreciar a
+      fantástica paisagem da famosa Costa Nova do Prado, onde as praias se
+      interligam com o ambiente rural, criando um ambiente único.
     location:
       lat: '40.4556419'
       lng: '-8.8026211'
     title: Dia 4 - Aveiro - Praia de Mira (40 Km)
   - day: '5'
     description: >-
-      You will be pleased to meet the hidden and beautiful barrinha lagoon, also
-      "fed" by the Ria de Aveiro. The adventure follows the famous pine forest
-      inserted in the dunes, where the aroma of the trees combines with the sea
-      breeze, sea area that is quite exploited by sailing boats and windsurfing.
-      Coming finally to the "Queen of the Silver Coast," Figueira da Foz, famous
-      for its long beaches, where the beautiful River Mondego flows.
+      A pouco conhecida e bela Lagoa da Barrinha é o foco deste dia. A paisagem
+      progride desde a beira-do-mar e da grande extensão de dunas de areia, até
+      à lagoa e às florestas aromáticas de pinho. A Rainha da Costa de Prata,
+      Figueira da Foz, é o destino do dia. É aqui que o belo Rio Mondego se
+      junta ao Oceano.
     location:
       lat: '40.1482816'
       lng: '-8.8554141'
     title: Dia 5 - Praia de Mira - Figueira da Foz ( 50 Km)
   - day: '6'
     description: >-
-      Move away from the seaside resort frequented by "Coimbrenses" and the
-      Spanish population of the area of Extremadura. In this path of 55km, you
-      will go away from the coast, yet always accompanied by the Mondego River,
-      with headwaters in the highest point of continental Portugal, Serra da
-      Estrela. The river is renowned for its purity and transparency. The
-      scenery will be motivating to get to the town of Coimbra. Despite the
-      famous fado "(...) Coimbra has more charm in the time to say goodbye
-      (...)", you will enjoy the cultural potential to its fullest and the
-      endless monuments, full of nostalgic fado houses and "knowledge", imbued
-      in the university environment.
+      No último dia de ciclismo a rota afasta-se do mar, mas continua sempre ao
+      longo do rio Mondego, terminando em Coimbra. Esta cidade é muito famosa
+      pela sua Universidade, a mais antiga de Portugal e uma das mais antigas da
+      Europa. Ao longo do tempo Coimbra moldou a sua imagem para se tornar a
+      conhecida “Cidade dos estudantes ".
     location:
       lat: '40.2109801'
       lng: '-8.4292057'
@@ -283,15 +279,15 @@ pricing:
 
 \
 \
-Costa de Prata é o nome dado à região costeira que engloba o litoral de Portugal entre a foz do rio Douro em Vila Nova de Gaia e o concelho de Torres Vedras, no distrito de Lisboa.
+Costa de Prata é o nome dado à região costeira que engloba o litoral de Portugal entre a barrinha de Esmoriz e o concelho de Torres Vedras, no distrito de Lisboa.
 
 
 
-Este passeio de bicicleta de 6 dias, percorre uma das mais importantes ligações, pela costa, entre a cidade do Porto e a "capital" da região centro de Portugal, Coimbra.
+Este passeio de bicicleta de 6 dias percorre, pela costa, uma das mais importantes ligações entre a cidade do Porto e a "capital" da região centro do Portugal, Coimbra.
 
 
 
-Teremos a possibilidade de conhecer algumas características que tornam a cidade do Porto uma das mais importantes (cul turalmente e historicamente), percorrendo a costa atlântica, conhecendo as diversas maravilhas (naturais, históricas e gastronómicas), por diversas cidades costeiras, até à "cidade do conhecimento" Coimbra, famosa pela sua nobre universidade, monumentos históricos e claro o Fado de Coimbra.
+Teremos a possibilidade de conhecer algumas características que tornam a cidade do Porto, uma das mais importantes a nível cultural e histórico. Percorrendo a costa atlântica conhecerá diversas maravilhas naturais, históricas, gastronómicas e as diversas cidades costeiras que se encontram distribuídas ao longo do caminho até à "cidade do conhecimento", Coimbra. Coimbra é uma cidade famosa pela sua nobre universidade, os seus monumentos históricos e, claro, o Fado de Coimbra.
 
 \
 **Descrição da rota:**
