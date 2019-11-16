@@ -178,6 +178,10 @@ collections:
               required: false,
             }
           - { label: Keywords, name: keywords, widget: text, required: false }
+          - label: robots
+            name: robots
+            widget: "select"
+            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
           - {
               label: Canonical Link,
               name: canonicalLink,
@@ -359,6 +363,10 @@ collections:
               required: false,
             }
           - { label: Keywords, name: keywords, widget: text, required: false }
+          - label: robots
+            name: robots
+            widget: "select"
+            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
           - {
               label: Canonical Link,
               name: canonicalLink,
@@ -509,7 +517,12 @@ collections:
               default: 100,
               widget: number,
             }
-      - { label: After Pricing, name: afterpricing, widget: markdown, required: false }
+      - {
+          label: After Pricing,
+          name: afterpricing,
+          widget: markdown,
+          required: false,
+        }
       - label: Feature Image
         name: feature
         widget: object
@@ -540,7 +553,7 @@ collections:
               required: false,
               default: "center center",
             }
-      
+
   - name: pages
     label: Pages
     delete: false
@@ -580,6 +593,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -696,6 +715,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }  
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -737,6 +762,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -794,6 +825,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -801,8 +838,8 @@ collections:
                 }
 
       - file: content/pages/terms/index.en.md
-        label: "Privacy EN"
-        name: privacyEN
+        label: "Terms EN"
+        name: termsEN
         fields:
           - label: Template Key
             name: templateKey
@@ -837,14 +874,20 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
                   required: false,
                 }
       - file: content/pages/terms/index.pt.md
-        label: "Privacy PT"
-        name: privacyPT
+        label: "Terms PT"
+        name: termsPT
         fields:
           - label: Template Key
             name: templateKey
@@ -892,12 +935,17 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
                   required: false,
                 }
-
 
       - file: content/pages/bike-hollidays/index.en.md
         label: Bike Hollidays EN
@@ -937,6 +985,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1027,6 +1081,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1124,6 +1184,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1214,6 +1280,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1283,6 +1355,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1368,6 +1446,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1436,6 +1520,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1538,6 +1628,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1624,6 +1720,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1707,6 +1809,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1784,6 +1892,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1876,6 +1990,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1976,6 +2096,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -2072,6 +2198,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
