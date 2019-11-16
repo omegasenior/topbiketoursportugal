@@ -46,142 +46,150 @@ itinerary:
     location:
       lat: '40.1482816'
       lng: '-8.8554141'
-    title: ' Day 1: Reception at Figueira da Foz'
+    title: ' Dia 1:Transfer do Porto até Figueira da Foz'
   - day: '2'
     description: >-
-      This amazing cycling trip starts alongside the Atlantic Ocean in Figueira
-      da Foz, a city in the center of Portugal, located in the district of
-      Coimbra. Here you can enjoy one of the best beaches in Portugal since this
-      city is known as the "Queen of the Portuguese beaches". In the middle of
-      your journey you will get to Pedrogão. The citizens of this region have
-      always been dedicated to agriculture and fishing, implementing traditional
-      means known as "Xávega", a brand image that still persists. You will
-      eventually get to your final destination São Pedro de Moel, surrounded by
-      extensive areas of pine forests. This little town offers various points of
-      leisure and communion with nature. A particular note is the famous "Volta
-      dos Sete": a course of approximately 7 km, which combines sea, woods and
-      beach, with pure forest, parks, fountains and streams. The typical dishes
-      that stand out are the: "Vidreiro" soup, Cod soup and Rabbit stew.
+      Esta deslumbrante viagem de bicicleta começa ao lado do Oceano Atlântico
+      na Figueira da Foz, uma cidade no centro de Portugal, localizada no
+      distrito de Coimbra.Aqui você pode desfrutar de uma das melhores praias de
+      Portugal desde que esta cidade é conhecida como a "Rainha das praias de
+      Portugal", a gastronomia e o clima quente.A cidade é um centro industrial
+      importante, produzindo polpa de madeira, papel e vidro e também tem
+      notável construção naval e indústrias de peixe.Aqui temos uma paragem de
+      bicicleta em Pedrogão, esta é uma pequena aldeia que tem 1400m de praia.
+      As pessoas deste lugar sempre foram dedicadas à agricultura e pesca, por
+      isso hoje Xávega Arte, uma imagem de marca, ainda persiste.Agora, através
+      de São Pedro de Moel, cercado por extensas áreas de pinhais, oferece
+      vários pontos de lazer e de comunhão com a natureza. Destaca-se a famosa
+      "Volta dos Sete": um percurso de aproximadamente 7 km, que combina mar,
+      bosques e praia, com pura floresta, parques, fontes e riachos. Os pratos
+      típicos que se destacam são: sopa "Vidreiro", sopa de bacalhau e ensopado
+      de coelho.
     location:
       lat: '39.7578992'
       lng: '-9.0297521'
-    title: 'Day 2: Figueira da Foz – São Pedro de Moel (65 KM)'
+    title: 'Dia 2: Figueira da Foz – São Pedro de Moel (65 KM)'
   - day: '3'
     description: >-
-      Heading towards Nazaré, a beautiful and quiet seaside town, with a
-      breathtaking view from the top of a big cliff, the ride today will be of
-      shorter distance. Nowadays, the great attraction of this city are the
-      waves and the surfing. This happens due to a submarine geomorphological
-      phenomenon, "Cannon of Nazaré", that allows the formation of giant and
-      perfect waves. It is the largest submerged gorge in Europe, with about 170
-      kilometres along the coast, which is 5000 meters deep. The Hawaiian surfer
-      Garrett McNamara gave it worldwide visibility when, in 2011, he surfed the
-      world's biggest wave.
+      Continuando o nosso passeio de bicicleta para Nazaré uma cidade linda e
+      tranquila à beira-mar, com uma vista deslumbrante do alto de um grande
+      penhasco, onde pode escalar por elevador funicular ou carro.Hoje em dia, o
+      grande atrativo desta cidade são as ondas e o surf, graças ao "Canhão da
+      Nazaré", um fenómeno submarino geomorfológico que permite a formação de
+      ondas gigantes e perfeitas. É o maior desfiladeiro submerso na Europa, com
+      cerca de 170 quilómetros ao longo da costa, que é de 5000 metros de
+      profundidade.O surfista havaiano Garrett McNamara deu-lhe visibilidade
+      mundial quando, em 2011, surfou a maior onda do mundo.A paragem média
+      deste dia é a Praia do Norte e a parte da região da Nazaré e aqui você vai
+      encontrar as maiores ondas na Europa.
     location:
       lat: '39.60004501'
       lng: '-9.07155991'
-    title: 'Day 3: São Pedro de Moel – Nazaré (29 Km)'
+    title: 'Dia 3: São Pedro de Moel – Nazaré (29 Km)'
   - day: '4'
     description: >-
-      Leaving Nazaré the next village is Óbidos. Without doubt this town is one
-      of Portugal's most classic walled settlements and visitors can also enjoy
-      amazing views of windmills, vineyards and surrounding farmlands. In the
-      residential area below, narrow cobblestone streets are lined with
-      whitewashed houses, supporting terracotta roofs. Every year the city
-      organizes two important events, the first one is a traditional 'Medieval
-      Market', where the castle and the surrounding town recreate the spirit of
-      medieval Europe. The second one is the Chocolate Festival. This one also
-      attracts great interest from tourists, amazed by the real-life chocolate
-      sculptures. São Martinho do Porto is the city of passage today. This
-      region constituted by the "Serra da Pescaria" and by the "Bouro" mountain.
-      In previous geological times they formed a single island. When it was
-      divided it gave rise to the bay of São Martinho do Porto. São Martinho do
-      Porto was even considered the best beach to go with the family in the
-      guide of 2015 beaches of eDreams.
+      Deixando Nazaré a próxima aldeia é Óbidos. Sem dúvida esta cidade é um dos
+      assentamentos mais clássicos de paredes de Portugal e os visitantes também
+      podem desfrutar de vistas deslumbrantes sobre moinhos de vento, vinhas e
+      terras agrícolas circundantes. Na área residencial abaixo, estreitas ruas
+      de paralelepípedos são alinhadas com casas caiadas de branco que suportam
+      telhados de terracota.Todos os anos a cidade organiza dois eventos
+      importantes, o primeiro é um tradicional "Mercado Medieval", onde o
+      castelo ea cidade circundante recriar o espírito da Europa medieval eo
+      segundo é o Festival do Chocolate é também um evento que atrai grande
+      interesse de Turistas, neste festival você pode ver real-vida esculturas
+      de chocolate.São Martinho do Porto é hoje a cidade de passagem. Esta
+      região constituída pela Serra da Pescaria e pela montanha Bouro
+      constituiu, em tempos geológicos, uma única ilha. Quando foi dividida deu
+      origem à baía de São Martinho do Porto. São Martinho do Porto foi
+      considerada até mesmo a melhor praia para ir com a família no guia de 2015
+      praias de eDreams.
     location:
       lat: '39.3680634'
       lng: '-9.18730437'
-    title: 'Day 4: Nazaré – Óbidos (47 Km)'
+    title: 'Dia 4: Nazaré – Óbidos (47 Km)'
   - day: '5'
     description: >-
-      Returning to the coastal area, you will ride towards the city of Peniche.
-      The city was built on a rocky peninsula which is considered by geologists,
-      a unique example of the Toarcian turnover during the worldwide Early
-      Jurassic extinction. Peniche is known for its long beaches, which are
-      popular for recreational activities and sports such as surfing,
-      windsurfing, body boarding and kite surfing. These beaches are
-      consistently windy, which allows for good surfing, with decent waves and
-      supertubes. Berlengas islands, about 10 kilometres (6 mi) offshore from
-      the peninsula, are part of the municipality. They form one of the world's
-      first nature reserves. You will also be able to make a stop at "Lagoa de
-      Óbidos", which is a lagoon that extends between the municipalities of
-      Óbidos and Caldas da Rainha. It is a natural barrier that separate the
-      Atlantic Ocean and marine biome from the river ecosystem of "Foz do
-      Arelho" formed by lateral dunes.
+      Neste quinto dia regressaremos à zona costeira para a cidade de Peniche. A
+      cidade foi construída sobre uma península rochosa que é considerada pelos
+      geólogos, um exemplo único do volume de negócios Toarcian durante a
+      extinção do Jurássico Precoce mundial. Peniche é conhecida pelas suas
+      longas praias, que são populares para atividades recreativas e desportos
+      como surf, windsurf, bodyboard e kite surf. Estas praias são muito
+      ventosas e tem boas rupturas de surf com supertubos e é considerado entre
+      os melhores da Europa.As ilhas Berlengas, acerca de 10 km de distância da
+      península, fazem parte do município. Estas ilhas são uma das primeiras
+      reservas naturais do mundo.Neste dia temos uma paragem de bicicleta na
+      Lagoa de Óbidos, é uma lagoa que se estende entre os municípios de Óbidos
+      e Caldas da Rainha. É uma barreira natural que separa o Oceano Atlântico e
+      o bioma marinho do ecossistema fluvial de Foz do Arelho formado por dunas
+      laterais.
     location:
       lat: '39.33722515'
       lng: '-9.31285284'
-    title: 'Day 5: Óbidos – Peniche (35 Km)'
+    title: ' Dia 5: Óbidos – Peniche (35 Km)'
   - day: '6'
     description: >-
-      Leaving Peniche but continuing along the coast the next destination is
-      Ericeira. Ericeira is a civil parish and seaside resort/fishing community
-      on the western coast of Portugal, in the municipality of Mafra, about 35
-      kilometres (22 mi) northwest of the capital, Lisbon. Ericeira was a
-      popular summer retreat for many of Lisbon's families in the 1940s and
-      1950s. Today, it is a popular destination for local and visiting tourists,
-      as well as surfers from around the world. Ericeira is also keen on its
-      musical culture. The local philharmonic, currently named Filarmónica
-      Cultural Ericeira, has existed since 1849 and pursues a path of success in
-      this villages's musical heritage with a permanent free musical school for
-      all who love this type of culture. The beach of Santa Cruz it´s the place
-      of passage during this day, and it is a place that is conducive to a large
-      part of wave sports. Every year there is the "Ocean Spirit" festival of
-      wave sports where international competitions of various kinds are held.
+      Deixando Peniche mas continuando ao longo da costa o próximo destino é
+      Ericeira, uma paróquia civil e um recurso de praia / comunidade de pesca
+      na costa ocidental de Portugal, no município de Mafra, aproximadamente 35
+      quilômetros ao noroeste da capital, Lisboa.A Ericeira foi um popular
+      retiro de verão para muitas das famílias de Lisboa nas décadas de 1940 e
+      1950. Hoje, é um destino popular para turistas locais e visitantes, bem
+      como surfistas de todo o mundo (devido às quarenta praias com boas
+      condições)A Ericeira também é famosa pela sua cultura musical. A
+      Filarmónica Cultural Ericeira existe desde 1849 e segue um caminho de
+      sucesso na herança musical desta aldeia, com uma escola musical livre e
+      permanente para todos os que amam este tipo de cultura.A praia de Santa
+      Cruz é o lugar de passagem durante este dia, e é um lugar que é propício
+      para uma grande parte de desportos de onda. Todos os anos há o "Ocean
+      Spirit" festival de desportos de onda onde competições internacionais de
+      vários tipos são realizadas.
     location:
       lat: '38.9631655'
       lng: '-9.4170098'
-    title: 'Day 6: Peniche – Ericeira (68 Km)'
+    title: 'Dia 6: Peniche – Ericeira (68 Km)'
   - day: '7'
     description: >-
-      On this day, the route leaves the coast and goes to the city of Sintra.
-      This place is known for its many XIXth-century Romantic architectural
-      monuments, which has resulted in Sintra's classification by UNESCO as a
-      World Heritage Site. It has become a major tourist center, visited by many
-      one day-travellers who travel from the capital Lisbon. In addition to the
-      Sintra Mountains and Sintra-Cascais Nature Park, the parishes of the town
-      of Sintra are places with royal retreats, estates, castles and other
-      buildings, including the medievil Castelo dos Mouros, the Pena National
-      Palace and the Sintra National Palace.
+      Neste dia, a rota sai da costa e vai para a cidade de Sintra. Este lugar é
+      conhecido por seus muitos monumentos arquitectónicos românticos do século
+      XIX, o que resultou na classificação pela UNESCO como Patrimônio da
+      Humanidade. Tornou-se um importante centro turístico, visitado por muitos
+      viajantes de um dia que viajam da capital Lisboa. Para além das Montanhas
+      de Sintra e do Parque Natural de Sintra-Cascais, as freguesias da cidade
+      de Sintra são locais com retiros reais, propriedades, castelos e outros
+      edifícios, entre os quais o Castelo dos Mouros, o Palácio Nacional da Pena
+      e o Palácio Nacional de Sintra..
     location:
       lat: '38.79846'
       lng: '-9.3881'
-    title: 'Day 7: Ericeira – Sintra (27 Km)'
+    title: 'Dia 7: Ericeira – Sintra (27 Km)'
   - day: '8'
     description: >-
-      Continuing through the center, this cycling tour ends at the coastal city
-      of Cascais. Situated west of Lisbon it is a cosmopolitan suburb of the
-      Portuguese capital and one of the richest municipalities in Portugal. The
-      former fishing village gained fame as a resort for Portugal's royal family
-      in the late 19th century and early 20th century. Nowadays, it is a popular
-      vacation spot for both Portuguese and foreign tourists. Cascais is
-      surrounded by popular beaches such as "Praia do Guincho" to the west, and
-      the lush Sintra mountains to the north. Some of its shoreline has cliffs,
-      attracting tourists who come for the panoramic views of the sea and other
-      natural sights. It is also becoming a popular golf destination, with over
-      10 golf courses nearby. The Sintra – Cascais Natural Park it´s a mandatory
-      place to visit and admire, because it is one of the 13 Natural Parks of
-      Portugal, it includes the "Serra de Sintra" and extends all the way to the
-      coast 
+      Continuando pelo centro, este passeio de bicicleta termina na cidade
+      costeira de Cascais. A oeste de Lisboa, é um subúrbio cosmopolita da
+      capital portuguesa e um dos municípios mais ricos de Portugal. A antiga
+      aldeia piscatória ganhou fama como um recurso para a família real de
+      Portugal no final do século XIX e início do século XX. Hoje em dia, é um
+      local de férias popular para turistas portugueses e estrangeiros.Cascais
+      está rodeado por praias populares como a Praia do Guincho a oeste e as
+      exuberantes montanhas de Sintra a norte. Alguns de seus litorais tem
+      falésias, atraindo turistas que vêm para as vistas panorâmicas do mar e
+      outras atracções naturais, como a Boca do Inferno. Também é um destino de
+      golfe, com mais de 10 campos de golfe nas proximidades.  O Parque Natural
+      de Sintra - Cascais é um lugar obrigatório para visitar e admirar porque é
+      um dos 13 Parques Naturais de Portugal e, o Parque inclui a Serra de
+      Sintra Montanha, mas estende-se até a costa e Cabo da Roca, continental O
+      ponto mais ocidental da Europa que contém o Castelo dos Mouros.
     location:
       lat: '38.72240025'
       lng: '-9.39690917'
-    title: 'Day 8: Sintra – Cascais (40 Km)'
+    title: 'Dia 8: Sintra – Cascais (40 Km)'
   - day: '9'
     location:
       lat: '38.72240025'
       lng: '-9.39690917'
-    title: 'Day 8: Transfer to Lisbon'
+    title: Dia 9 - Transfere para Lisboa
 gallery:
   - alt: sao pedro de moel cycling lane
     image: /img/sao-pedro-de-moel-cycling-lane.jpg
@@ -316,43 +324,41 @@ pricing:
     price: 3123
     type: '1'
 ---
-# Silver Coast Bike tour- Route 2
+# Costa da Prata – Rota 2
 
-## Discover the wealth of land and sea on the famous Portuguese coast
+## Descubra a riqueza da natureza e do mar pela famosa costa portuguesa
 
 \
-\
-This cycling tour is an immersive and amazing route, that goes along the coast and where you‘re going to find some of the most important villages in Portugal. Here you will have a "mix" of beaches and pine forests, creating different sensations during the trip.
+O bike tour Costa de Prata, é uma rota imersiva e surpreendente que vai ao longo da costa onde vai encontrar algumas das mais importantes aldeias de Portugal. Aqui você terá uma "mistura" de praias e florestas de pinheiros criando sentimentos diferentes durante a viagem.
 
-Exploring the trails and its main highlights will give you a sense of fulfillment.
+Explorando as trilhas e seus principais destaques lhe dará o sentimento de realização.
 
-Try the best dishes in the traditional Portuguese fishing arts, accompanied with green wine and amazing local deserts.
+Experimente o melhor sabor das artes tradicionais da pesca portuguesa, acompanhado de vinho verde e incríveis desertos locais.
 
-Monuments, like the "Castelo da Pena" and the "Castelo de Óbidos" will bring you back centuries into the medieval times. This will surely enrich your trip and give you the desire to come back and know more about Portugal!
+Os monumentos surpreendentes como o Castelo de Pena e o Castelo de Óbidos trarão você de volta aos séculos através dos tempos medievais. Isso certamente enriquecerá a sua viagem e lhe dará o desejo de voltar e descobrir mais de Portugal!
 \
 **Route description:**
 
 * Mostly flat. Some short and steep climbs.
 * 30 % bicycle lanes, 30 % secondary paved roads with low traffic and 10% dirt roads near the ocean.  
 
-
 \
-**Itinerary:**
+**Itenerário:**
 
-Day 1: Figueira da Foz
+Dia 1 Figueira da Foz
 
-Day 2: Figueira da Foz – São Pedro de Moel (65 KM) – Pedrógão e Praia da Vieira
+Dia 2: Figueira da Foz - São Pedro de Moel (65 KM) - Pedrógão e Praia da Vieira
 
-Day 3: São Pedro de Moel – Nazaré (29 Km) – praia do norte- giant waves!
+Dia 3: São Pedro de Moel - Nazaré (29 Km) - Praia do Norte - ondas gigantes!
 
-Day 4: Nazaré – Óbidos (47 Km) – São Martinho do Porto
+Dia 4: Nazaré - Óbidos (47 Km) - São Martinho do Porto
 
-Day 5: Óbidos – Peniche (35 Km) –  Óbidos lagoon
+Dia 5: Óbidos - Peniche (35 Km) - Lagoa de Óbidos
 
-Day 6: Peniche – Ericeira (68 Km) – Santa Cruz beach
+Dia 6: Peniche - Ericeira (68 Km) - Praia de Santa Cruz
 
-Day 7: Ericeira – Sintra (27 Km)
+Dia 7: Ericeira - Sintra (27 Km)
 
-Day 8: Sintra – Cascais (40 Km) – natural park Sintra- Cascais
+Dia 8: Sintra - Cascais (40 Km) - parque natural Sintra- Cascais
 
-Day 9: Departure
+Dia 9: Partida
