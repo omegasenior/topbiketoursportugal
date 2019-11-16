@@ -35,111 +35,96 @@ physicality: 1
 rating: []
 itinerary:
   - day: '1'
-    description: >-
-      The cycling trip starts in Melgaço, a city in the north of Portugal, on
-      the banks of the Minho River. It is a small, beautiful and historical
-      town, overseen by the tower of Homage, located high up in the old medieval
-      area. It overviews the beautiful Minho valley, filled with vineyards that
-      surround Melgaço and the nearby Peneda Geres park. Today you will also be
-      meeting our local partner, including a tour presentation and explanation.
+    description: ''
     location:
       lat: '42.1130412'
       lng: '-8.2593422'
-    title: 'Day 1: Reception at Porto and transfer to Melgaço'
+    title: 'Dia 1: Recepção no Porto e transfere até Melgaço'
   - day: '2'
     description: >-
-      Melgaço is alongside the Minho River. Famous for its beautiful landscape,
-      history, gastronomy and also for producing the well-known and much
-      appreciated green wine caste, “Alvarinho”.Every year this city organizes
-      the “Festa do Alvarinho e do Fumeiro”, a huge event which is nationally
-      and internationally known. This event showcases the local gastronomy (like
-      the Alvarinho green wine) and many other local handmade crafts. Advancing
-      to Monção, where the valleys are conducive to the practice of agriculture
-      and viticulture, it is possible to find several archaeological finds that
-      testify to a past filled with traces of the passage of different
-      communities through these lands. The city of Valença is a historical town
-      in the north of Portugal. It is located right on the border with Spain,
-      separated by the beautiful Minho River, and surrounded by ramparts atop a
-      hill, boasting a long defensive look. With very old origins, assumingly,
-      the presence of human communities in this territory date since.
+      Esta deslumbrante viagem de bicicleta inicia-se lado a lado com o Rio
+      Minho, em Melgaço. Pedale ao longo do Rio Minho, sempre com a vizinha
+      Espanha do outro lado. Famosa pelas suas belas paisagens, história,
+      gastronomia e também pela produção do conhecido e apreciado vinho de Casta
+      Verde "Alvarinho", esta cidade organiza todos os anos a "Festa do
+      Alvarinho e do Fumeiro", um grande evento nacional, também
+      internacionalmente conhecido, que dá a provar o gosto da gastronomia local
+      (como o “Alvarinho”) e muitos outros produtos artesanais típicos desta
+      zona.  Avançando até Monção, onde os vales são propícios à prática de
+      agricultura e viticultura, encontram-se vários achados arqueológicos que
+      testemunham um passado cheio de vestígios da passagem de diferentes povos
+      através destas terras. Entrará em seguida na cidade de Valença, uma cidade
+      histórica situada mesmo na fronteira com Espanha, separada pelo belo Rio
+      Minho e cercada por muralhas no topo de uma colina.  Com origens muito
+      antigas, a presença de comunidades humanas neste território pressupõe-se
+      que date desde a pré-história.
     location:
       lat: '42.0270455'
       lng: '-8.6428831'
     title: 'Day 2: Melgaço – Valença,  (43 km) plus extra track to Tui (6 km)'
   - day: '3'
     description: >-
-      Leaving Valença, continue along with the Minho river. One of today's
-      destination is Caminha, a fortified town where several battles were fought
-      between Portugal and Spain. Standing on a tiny island in the middle of the
-      estuary are the ruins of the fort of Ínsua, built as a defensive measure
-      concerning the entrance in the river during the XVth century. Nowadays
-      there is a daily ferry-boat linking the two banks of the river between the
-      countries. This city is also very well-known for its natural and green
-      heritage: the sightseeing areas, waterfalls, beaches, camping parks and
-      the “Modelo” beach (a favorite destination of famous people in Portugal).
-      The midday stop is Vila Nova de Cerveira, the 'Village of the Arts'. The
-      city became, after 1978, the meeting point of artists from all over the
-      world. Cycle alongside the coast, overlooking the Atlantic Ocean, and
-      you’ll reach Viana do Castelo. The city is one of the most beautiful
-      seaside cities of the north of Portugal. Viana held a huge importance to
-      Portugal in the Age of the Portuguese Discoveries and later on with the
-      cod fish fishing. This city has a huge tradition and connection with the
-      sea, with the fisherman proudly showcasing it nowadays, mainly during the
-      great festivity of “Nossa Senhora da Agonia”. It was also here that the
-      ships were built and later deployed to Brazil, India, Africa and other
-      Portuguese colonies, during the XVth and XVIth centuries.
+      Deixando Valença para trás e continuando pelo rio Minho, o destino de hoje
+      é Viana do Castelo, uma das mais belas cidades costeiras do norte de
+      Portugal. Viana teve uma enorme importância para Portugal na Época dos
+      Descobrimentos e, mais tarde, com a pesca do bacalhau. Esta cidade tem uma
+      enorme tradição e ligação com o mar, com os pescadores mostrando-o hoje em
+      dia orgulhosamente, principalmente durante a grande festa de “Nossa
+      Senhora da Agonia”. Vila Praia de Âncora é uma bela cidade de passagem
+      hoje. Um lugar dominado por paisagens encantadoras, cheio de vinhas e
+      hortas deslumbrantes. Desde praias fluviais e atlânticas, às maravilhosas
+      margens do rio Âncora, à gastronomia regional, às magníficas vistas do
+      Monte do Calvário e ao património construído, esta aldeia certamente o
+      surpreenderá.
     location:
       lat: '41.694867'
       lng: '-8.831088'
-    title: 'Day 3: Valença – Viana do Castelo, 37 mi. (60 km)'
+    title: 'Dia 3: Valença – Viana do Castelo, 37 mi. (60 km)'
   - day: '4'
     description: >-
-      Leaving Viana, the cycling will be back to the interior of Portugal, with
-      the beautiful Lima River alongside. The destination is now Ponte de Lima,
-      a city recognized as world heritage and stands as the ultimate North of
-      Portugal in all its rusticity and scenic beauty. This land is full of
-      history and is located in the former Braga-Tui military road. It is the
-      oldest Portuguese village, since 1125 when it was granted charter. Its
-      bridge, over the river Lima, built by the Romans in the 1st century, has
-      always been a place of passage for the pilgrims who were going to
-      Santiago. Ponte de Lima is the cradle of Housing Tourism, of the
-      “Loureiro” variety that distinguishes the “Vinho Verde” and the Rice of
-      “Sarrabulho” appreciated in the most faraway places in the world.
+      Continuando a sua jornada, hoje o caminho volta para o interior de
+      Portugal, com o rio Lima a acompanhar. O destino é agora Ponte de Lima,
+      uma cidade reconhecida como Património Mundial e como o último Norte de
+      Portugal em toda a sua rusticidade e beleza. Esta terra cheia de história,
+      está localizada na antiga estrada militar Braga-Tui. Com carta desde 1125
+      é a mais antiga aldeia portuguesa. A sua ponte sobre o rio Lima,
+      construída pelos romanos no século I, sempre foi um lugar de passagem para
+      os peregrinos que iam a Santiago. O culto à terra e à tradição são os
+      pilares básicos do desenvolvimento, inscritos nas mais profundas raízes
+      milenares, e traça o perfil marcadamente rural desta cidade. Ponte de Lima
+      é o berço do Turismo Habitacional, da variedade "Loureiro", que distingue
+      o "Vinho Verde" e o Arroz de "Sarrabulho", apreciado nos lugares mais
+      distantes do mundo.
     location:
       lat: '41.7675021'
       lng: '-8.5830992'
-    title: 'Day 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)'
+    title: 'Dia 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)'
   - day: '5'
     description: >-
-      Today is a day to know the south bank of the river Lima for about 25 km.
-      Then we will begin our journey heading to Esposende, a seaside city
-      located in the North. During this day, you will be overwhelmed with
-      seaside landscapes and small “Portuguese rivieras” until you reach
-      Esposende, a city from the Middle Ages. Neiva river and its clear waters,
-      green pine forest of Ofir and the stunning views that offer different
-      viewpoints of Esposende, are just some of the interesting features of the
-      county in which the richness of the natural landscape and heritage built
-      by human hand, as is the case of windmills, fields in the trough, the
-      forts and mills, are combined in a unique harmony, forming landscapes of
-      high scenic and environmental value and confirms Esposende as one of the
-      most beautiful counties in the North region.
+      Atravessando desta vez a margem sul do rio Lima e, posteriormente, em
+      direcção a sul pela costa Atlântica, o destino de hoje será Esposende,
+      cidade costeira localizada no Norte do país. Aprecie todas as magníficas
+      paisagens à beira-mar, assim como as várias "rivieras Portuguesas". O
+      município de Esposende está repleto de pontos de interesse como é o caso
+      do rio Neiva, das florestas de pinho de Ofir e das diversas vistas para a
+      cidade de Esposende. Este é certamente uma das mais belas regiões do norte
+      de Portugal.
     location:
       lat: '41.5455885'
       lng: '-8.75827562'
-    title: 'Day 5: Ponte de Lima - Esposende, 31 mi. (50 km)'
+    title: 'Dia 5: Ponte de Lima - Esposende, 31 mi. (50 km)'
   - day: '6'
     description: >-
-      During the last day, you will be overwhelmed with seaside landscapes and
-      small “Portuguese rivieras” until you reach Porto. You will have a chance
-      to meet a huge variety of fishing villages, like Póvoa de Varzim, where
-      you can experience ancient traditions linked to the fish exploration as
-      well as tasting this famous gastronomy. In Vila do Conde, you’ll know why
-      these Portuguese coastal cities were so important during the “el dorado”
-      of the Portuguese Discoveries.
+      Prosseguindo pelo Atlântico, as praias, as vistas para o oceano e as vilas
+      piscatórias serão uma visão comum. Locais como a Póvoa de Varzim
+      abrir-lhe-ão as portas a testemunhar antigas tradições ligadas à pesca e
+      onde poderá saborear esta famosa gastronomia. Em Vila do Conde irá
+      perceber a razão, pela qual estas cidades costeiras foram tão importantes
+      durante o período áureo dos Descobrimentos Portugueses.
     location:
       lat: '41.1494512'
       lng: '-8.6107884'
-    title: 'Day 6: Esponsende - Porto, 41 mi. (65 km)'
+    title: 'Dia 6: Esponsende - Porto, 41 mi. (65 km)'
 gallery:
   - alt: Our guide Tiago photo near Esposende
     image: /img/our-guide-tiago-photo-near-esposende.jpg
@@ -270,65 +255,61 @@ pricing:
     price: 2210
     type: '1'
 ---
-# North of Portugal Bike tour
+# Norte de Portugal e Minho Bike tour
 
-## Cycling in the oldest Village of Portugal along the river side and the sea
-
-\
-\
-The Cycle Trail of Minho River was ranked as the fourth best 2009 trail in Europe. That alone showcases all the amazing Portuguese landscapes, rivers and seaside views which you will be enjoying during this trip. Cycle trough World Heritage villages, vineyards, farmed land, beaches, historical towns, going down the country in the direction of the mighty city of Porto.
-
-The Minho River is also the perfect excuse for relaxing in the north of the country. Explore the trails and the Portuguese villages along this border river and its main highlights. The Minho River flows along 300 km. It serves as a natural border between Portugal and Spain, travelling the entire way across Melgaço and its mouth in Caminha.
-
-Taste the worldwide known gastronomy. Enjoy the delicious corn bread, sausages, codfish, lamprey, trout and shad, cooked in many traditional ways. For those who enjoy good meat, you can’t miss out on the famous “sarrabulho” porridge and the seasoned pieces of pork. Relish on the regional wines that the country couldn't go without. This will surely enrich your trip and give you the desire to come back and discover more of Portugal!
+## Pedale pela Vila mais antiga de Portugal ao longo do rio e do mar
 
 \
 \
-**Route description:**
+ ciclovia do Rio Minho foi classificada como a quarta melhor na Europa em 2009. Esta apresenta todas as incríveis paisagens portuguesas e proporciona também uma vista deslumbrante da beira-mar. Pedalar através de aldeias consideradas Património Mundial, vai conceder-lhe tudo o que pretende deste passeio.
 
-* Flat route. Some short climbs in beginning of the 1st day and in the last day, entering in the city of Porto.
-* 40 % bike lanes and wood walkways and 15% smooth dirt roads. Some coubblestones roads and 10 % paved secondary roads with low traffic.
+O Rio Minho é a desculpa perfeita para relaxar no norte do país. Explore os trilhos e as aldeias portuguesas ao longo deste rio fronteiriço, e os seus principais destaques. O Rio Minho percorre 300 km até chegar a Caminha, servindo de fronteira entre Portugal e Espanha e situando-se entre Melgaço e o Atlântico.
 
-**Itinerary:**
-
-\
-Day 1 – Melgaço
-
-Day 2 –  Melgaço - Valença ( 43 km )
-
-Day 3 – Valença – Viana do Castelo ( 55 km)
-
-Day 4 – Viana do Castelo – Ponte de Lima ( 25 km)
-
-Day 5 - Ponte de Lima – Esposende ( 55 km)
-
-Day 6 – Esposende – Porto (60km)
-
-Day 7 - Departure
+O sabor dos mundialmente aclamados vinhos e da gastronomia portuguesa são a cereja no topo do bolo, numa região de fantásticas paisagens e património cultural, histórico e arquitectónico tão ricos. Delicie-se com o delicioso pão de milho, as salsichas, o bacalhau, a lampreia, a truta e o sável, confeccionados das mais variadas formas tradicionais. Para aqueles que apreciam boa carne, não podem perder o famoso "sarrabulho" e os rojões de carne de porco. Tudo isto certamente enriquecerá a sua viagem e dar-lhe-á o desejo de voltar e descobrir mais em Portugal!
 
 \
 \
-_**Reduced option:** _
+**Descrição do Percurso:**
+
+* Percurso Plano. Algumas pequenas subidas no começo do primeiro dia e no último dia, à entrada da cidade do Porto.
+* 40 % de ciclovias e passadiços e 15 % de caminhos suaves em terra batida. Algumas ruas em paralelo e 10 % de estradas pavimentadas com pouco tráfego.
+
+**Itinerário:**
+
+Dia 1 – Melgaço
+
+Dia 2 – Melgaço - Valença ( 43 km )
+
+Dia 3 – Valença – Viana do Castelo ( 55 km)
+
+Dia 4 – Viana do Castelo – Ponte de Lima ( 25 km)
+
+Dia 5 - Ponte de Lima – Esposende ( 55 km)
+
+Dia 6 – Esposende – Porto (60km)
+
+Dia 7 - Partida
 
 \
-**Route classification:** Easy 
+\
+**Percurso alternativo redusido_:_** 
 
-**Estimated KM**: 152 km and 1894 m of cumulative gap climbs 
+**Km estimados**: 152 km e 1894 metros de subidas acumulado
 \
 \
-Day 1: Melgaço
+Dia 1: Melgaço
 
-Day 2: Melgaço – Valença (43 km)
+Dia 2: Melgaço – Valença (43 km)
 
-Day 3: Valença – Caminha (30 km)
+Dia 3: Valença – Caminha (30 km)
 
-Day 4: Caminha – Viana do Castelo (25 Km)
+Dia 4: Caminha – Viana do Castelo (25 Km)
 
-Day 5: Viana do Castelo – Ponte de Lima (26 Km)
+Dia 5: Viana do Castelo – Ponte de Lima (26 Km)
 
-Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
+Dia 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
 
-Day 7: Departure
+Dia 7: Partida
 \
 \
 \
