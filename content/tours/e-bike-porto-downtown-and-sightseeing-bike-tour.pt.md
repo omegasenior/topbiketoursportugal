@@ -125,6 +125,13 @@ pricing:
     highSeasonPriceSupplement: 100
     discount: 0
     price: 65
+feature:
+  align: center
+  image: /img/44817961982_440e783762_o.jpg
+  imageAlign: center center
+  subtitle: Bicycle day tours Portugal
+  textcolor: white
+  title: Day tours
 ---
 # E Bike tour Porto Downtown and Sightseeing bike tour
 

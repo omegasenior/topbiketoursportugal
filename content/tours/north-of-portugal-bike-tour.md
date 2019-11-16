@@ -284,6 +284,13 @@ afterpricing: |-
   * Suplement for single room: 329 €
   * Solo traveler: 200 €
   * Extra nights: on request
+feature:
+  align: center
+  image: /img/furadouro-forest-in-a-bicycle.jpg
+  imageAlign: center
+  subtitle: The Camino Bicycle tour
+  textcolor: white
+  title: The Way of St. James - The Coast Route "easy"
 ---
 # North of Portugal Bike tour
 

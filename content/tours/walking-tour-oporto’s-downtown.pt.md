@@ -119,6 +119,13 @@ pricing:
     package: Private price per person
     packageContents: []
     price: 50
+feature:
+  align: center
+  image: /img/44817961982_440e783762_o.jpg
+  imageAlign: center center
+  subtitle: Bicycle day tours Portugal
+  textcolor: white
+  title: Day tours
 ---
 # Walking tour - Oporto’s Downtown
 

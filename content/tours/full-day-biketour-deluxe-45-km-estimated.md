@@ -168,6 +168,13 @@ pricing:
     package: Private price per person
     price: 260
     type: ''
+feature:
+  align: center
+  image: /img/44817961982_440e783762_o.jpg
+  imageAlign: center center
+  subtitle: Bicycle day tours Portugal
+  textcolor: white
+  title: Day tours
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim
 

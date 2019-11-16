@@ -300,6 +300,13 @@ pricing:
     highSeasonPriceSupplement: 100
     price: 4180
     type: '1'
+feature:
+  align: center
+  image: /img/furadouro-forest-in-a-bicycle.jpg
+  imageAlign: center
+  subtitle: The Camino Bicycle tour
+  textcolor: white
+  title: The Way of St. James - The Coast Route "easy"
 ---
 # The Way of St. James BikeTour
 
