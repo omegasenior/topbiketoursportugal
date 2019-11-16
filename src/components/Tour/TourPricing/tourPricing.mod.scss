@@ -41,15 +41,27 @@ $hover-color: #b35432;
 }
 .crpt-flat .pt-cols-2 {
   max-width: 660px;
+  .pt-col {
+    width: 50%;
+  }
 }
 .crpt-flat .pt-cols-3 {
   max-width: 990px;
+  .pt-col {
+    width: 33%;
+  }
 }
 .crpt-flat .pt-cols-4 {
   max-width: 1320px;
+  .pt-col {
+    width: 25%;
+  }
 }
 .crpt-flat .pt-cols-5 {
   max-width: 1650px;
+  .pt-col {
+    width: 20%;
+  }
 }
 .crpt-flat .pt-cols-main {
   text-align: center;
@@ -58,7 +70,6 @@ $hover-color: #b35432;
 .crpt-flat .pt-cols .pt-col {
   display: inline-block;
   max-width: 330px;
-  width: 100%;
   vertical-align: bottom;
 }
 .crpt-flat .pt-line-middle {
@@ -81,7 +92,7 @@ $hover-color: #b35432;
     max-width: 330px;
   }
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   .crpt-flat .pt-cols .pt-col {
     width: 50%;
   }
@@ -411,7 +422,7 @@ $hover-color: #b35432;
 }
 .crpt-flat .pt-title {
   color: #8aa5b7;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.24;
   margin: 0 0 10px 0;
 }
@@ -611,7 +622,7 @@ $hover-color: #b35432;
   padding-right: 6px;
 }
 .crpt-flat .pt-list-block .pt-list-item {
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 5px;
 }
 .crpt-flat .pt-list-block .pt-list-item + .pt-list-item {

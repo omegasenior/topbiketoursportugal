@@ -52,11 +52,10 @@ export default class Footer extends React.Component {
               <FooterContentContainer>
                 <FooterContentTitle>About Us</FooterContentTitle>
                 <FooterContentText>
-                  Founded in 2013, Top Bike tours Portugal is a very young
-                  company with experience in pedestrian and cycling tours in
+                  Founded in 2013, Top Bike tours Portugal is a company with
+                  experience in pedestrian and cycling tours in the city of
                   Porto and long distance cycling routes to the north of the
-                  Iberian Peninsula. Our activities are coordinated by tourism
-                  professionals, with a huge knowledge of heritage and sports.
+                  Iberian Peninsula and all around Portugal.
                 </FooterContentText>
               </FooterContentContainer>
             </Col>
@@ -99,6 +98,10 @@ export default class Footer extends React.Component {
               <FooterContentContainer></FooterContentContainer>
             </Col>
           </Row>
+          <div class="terms text-center">
+            @ Top Bike tours portugal 2019 - Terms and conditions - Privacy
+            policy
+          </div>
         </Container>
       </FooterContainer>
     );

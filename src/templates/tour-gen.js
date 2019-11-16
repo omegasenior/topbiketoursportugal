@@ -181,18 +181,18 @@ function TourGen({ data }) {
               <Tab label="Pricing" {...a11yProps(4)} />
             )}
 
-            <Tab label="The fine print" {...a11yProps(5)} />
+            {/* <Tab label="The fine print" {...a11yProps(5)} /> */}
           </Tabs>
         </StyledPaper>
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-9">
+          <div className="col-8">
             <ScrollableAnchor id={"information"}>
               <HTMLContent className="container" content={tour.html} />
             </ScrollableAnchor>
           </div>
-          <div className="col-3 tour-booking-overlay">
+          <div className="col-4 tour-booking-overlay">
             <div className="tour-booking">
               <div className="tour-booking-header-price-wrap">
                 <div className="tour-booking-header-price-overlay"></div>
@@ -240,10 +240,15 @@ function TourGen({ data }) {
                     name="product-code"
                     value={tour.productcode}
                   />
+                  <input
+                    type="hidden"
+                    name="product-title"
+                    value={tour.title}
+                  />
 
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
                     <div className="tour-booking-head">
-                      Full Name<span className="tour-booking-req">*</span>
+                      Name<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
                       <input type="text" name="full-name" required />
@@ -252,10 +257,10 @@ function TourGen({ data }) {
 
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
                     <div className="tour-booking-head">
-                      Country <span className="tour-booking-req">*</span>
+                      Country
                     </div>
                     <div className="tour-booking-tail">
-                      <input type="text" name="country" required />
+                      <input type="text" name="country" />
                     </div>
                   </div>
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-email-address tour-booking-type-email">
@@ -266,10 +271,18 @@ function TourGen({ data }) {
                       <input type="email" name="email-address" required />
                     </div>
                   </div>
-                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
+                  {/* <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
                     <div className="tour-booking-head">Phone</div>
                     <div className="tour-booking-tail">
                       <input type="text" name="phone" />
+                    </div>
+                  </div> */}
+                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
+                    <div className="tour-booking-head">
+                      Where did you find us?
+                    </div>
+                    <div className="tour-booking-tail">
+                      <input type="text" name="found" />
                     </div>
                   </div>
                   <div className="form-group">
@@ -317,9 +330,16 @@ function TourGen({ data }) {
                           <option value="" selected="">
                             -
                           </option>
-                          <option value="1-4">1-4</option>
-                          <option value="5-9">5-9</option>
-                          <option value="10+">10+</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
                         </select>
                       </div>
                     </div>
@@ -332,25 +352,20 @@ function TourGen({ data }) {
                       <textarea name="your-enquiry" required></textarea>
                     </div>
                   </div>
-                  {/* <div className="tour-booking-enquiry-term">
+                  <div className="tour-booking-enquiry-term">
                     <input
                       type="checkbox"
                       name="tour-booking-require-acceptance"
                     />
-                    * Creating an account means you're okay with our{" "}
-                    <a href="#" target="_blank">
-                      Terms of Service
+                    * <a href="#" target="_blank">
+                      Terms and conditions
                     </a>{" "}
                     and{" "}
                     <a href="#" target="_blank">
-                      Privacy Statement
+                      Privacy policy
                     </a>
                     .
-                    <div className="tour-booking-enquiry-term-message tour-booking-enquiry-form-message tour-booking-failed">
-                      Please agree to all the terms and conditions before
-                      proceeding to the next step
-                    </div>
-                  </div> */}
+                  </div>
                   <div className="tour-booking-enquiry-form-message"></div>
                   <input type="hidden" name="tour-id" value="4646" />
                   <input
@@ -387,6 +402,16 @@ function TourGen({ data }) {
             )}
 
             {/* <TourReviews tour={tour}></TourReviews> */}
+            {tour.afterpricing && tour.afterpricing.length > 0 && (
+              <>
+                <br />
+                <HTMLContent
+                  className="container"
+                  content={tour.afterpricing}
+                />
+                <br />
+              </>
+            )}
 
             {tour.gallery && (
               <ScrollableAnchor id={"gallery"}>
@@ -444,6 +469,7 @@ export const tourGenQuery = graphql`
         skillLevel
         tags
         templateKey
+        afterpricing
         gallery {
           alt
           image {

@@ -510,6 +510,37 @@ collections:
               widget: number,
             }
       - { label: After Pricing, name: afterpricing, widget: markdown, required: false }
+      - label: Feature Image
+        name: feature
+        widget: object
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Sub Title
+            name: subtitle
+            widget: string
+          - {
+              label: Text Align,
+              name: align,
+              widget: string,
+              required: false,
+              default: "center",
+            }
+          - label: Text color
+            name: textcolor
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+          - {
+              label: Align,
+              name: imageAlign,
+              widget: string,
+              required: false,
+              default: "center center",
+            }
+      
   - name: pages
     label: Pages
     delete: false
@@ -769,6 +800,105 @@ collections:
                   required: false,
                 }
 
+      - file: content/pages/terms/index.en.md
+        label: "Privacy EN"
+        name: privacyEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+      - file: content/pages/terms/index.pt.md
+        label: "Privacy PT"
+        name: privacyPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "pt",
+            }
+          - {
+              label: "Language",
+              name: "languageKey",
+              widget: hidden,
+              default: "pt",
+            }
+          - { label: "Language", name: "lang", widget: hidden, default: "pt" }
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+
+
       - file: content/pages/bike-hollidays/index.en.md
         label: Bike Hollidays EN
         name: bikeHollidaysEN
@@ -974,6 +1104,7 @@ collections:
           - label: After Tour List
             name: afterList
             widget: markdown
+            required: false
           - label: "Meta"
             required: false
             name: "meta"
@@ -1063,6 +1194,7 @@ collections:
           - label: After Tour List
             name: afterList
             widget: markdown
+            required: false
           - label: "Meta"
             required: false
             name: "meta"
