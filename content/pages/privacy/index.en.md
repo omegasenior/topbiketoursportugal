@@ -4,6 +4,8 @@ title: Privacy Policy
 meta:
   robots: NOINDEX
 ---
+**Privacy Policy**
+
 Fold n´Visit – Renta a bike, Unip, Lda (referred to herein as “Top Bike tours Portugal”) respects your privacy and is committed to protecting the personal information you share with us. Using www.topbiketoursportugal.com implies your agreement to the terms of our Privacy Policy. We reserve the right to add to, remove, or otherwise modify these terms at any time, and therefore encourage you to check this page periodically for changes.
 
 **Personal Information**
