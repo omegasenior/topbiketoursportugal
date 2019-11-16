@@ -42,79 +42,81 @@ rating: []
 itinerary:
   - day: '1'
     description: >-
-      Travel by train following Douro's riverside. You shall attend at the
-      hotel’s reception to get the bicycles you will be using through out the
-      tour. The night will be spent in Pinhão. You’ll have enough free time to
-      visit the Pinhão railway station, its main church and, if you would like,
-      to enjoy sightseeing, having a cruise on the Douro river.
+      Primeiro, vamos viajar de comboio ao longo da orla costeira do rio Douro.
+      Felizmente, deverá comparecer na recepção do hotel onde estarão as nossas
+      bicicletas, onde teremos uma noite com pequeno-almoço incluído. Você terá
+      bastante tempo livre para visitar a estação ferroviária do Pinhão, a sua
+      principal igreja e, se você gostar de desfrutar de passeios, existe um
+      cruzeiro no nosso Rio Douro.
     location:
       lat: '41.21165694'
       lng: '-7.42893218'
-    title: 'Day 1: Porto – Pinhão'
+    title: 'Dia 1: Porto - Pinhão'
   - day: '2'
     description: >-
-      Cycling always on the road with an acceptable slope. You are going to
-      cycle along the incredible view of the Douro River, entering through
-      Portuguese World Heritage. Be marveled with the vineyards of the Douro
-      Valley and its cultivation.
+      Sempre por estrada, com a ascensão de uma inclinação aceitável, vamos
+      pedalando ao longo da incrível vista para o Rio Douro, entrando no
+      património paisagístico Português da humanidade. Ficará admirado com as
+      vinhas do Douro e o seu cultivo. 
     location:
       lat: '41.11824542'
       lng: '-7.56162644'
-    title: 'Day 2: Pinhão – Tabuaço'
+    title: 'Dia 2: Pinhão - Tabuaço'
   - day: '3'
     description: >-
-      Our cycling journey continues throughout the green landscape of the Douro
-      region, constantly surrounded by vineyards. Our destination will be
-      Penedono. You can visit the castle and explore "Sírigo", which holds a
-      circular route that takes the traveler through the neighboring villages
-      and outskirts, such as the villages of "Ferronha" and "A-do-Bispo".
+      A nossa viagem de bicicleta continua durante todo o verde da paisagem da
+      região do Douro, rodeada de vinhas. Nossa hospitalidade estará em
+      Penedono. Você pode visitar o castelo e explorar Sírigo, que detém uma 
+      rota circular que leva o viajante pelas aldeias e subúrbios vizinhos, como
+      as aldeias de Ferronha e A-do-Bispo.
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
-    title: 'Day 3: Tabuaço – Penedono '
+    title: ' Dia 3: Tabuaço - Penedono'
   - day: '4'
     description: >-
-      Enjoy a free day or cycle a loop to get to know surrounding villages. In
-      case you opt for cycling, you will leave Penedono and find yourself in the
-      middle of traditional farmlands. The landscape is dominated by vineyards
-      and chestnuts, so much so that "Sernancelhe" area is known has the
-      chestnut county. You will understand how much chestnut the region actually
-      produces on the road side scenery. With the river Távora by your side you
-      can enjoy the wonderful geography, with mountains and valleys, which is a
-      trademark image of this part of the country. If you have the time, take a
-      visit to the XIIth century church.
+      Desfrute de um dia livre ou pedale para conhecer outras aldeias. Se você
+      optar por pedalar você é uma pessoa corajosa !! Deixando Penedono, você
+      vai encontrar-se no meio de terras tradicionais, a paisagem é dominada por
+      vinhedos e castanhas, tanto que a área Sernacelhe é conhecida pelo
+      "município castanha" , e podemos ver por que a paisagem do lado da estrada
+      , com o rio Távora , pode desfrutar da geografia maravilhoso com montanhas
+      e vales, que é uma imagem de marca desta parte do país, e se você tiver
+      tempo pode visitar a igreja 12º século.
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
-    title: 'Day 4: Penedono Loop'
+    title: 'Dia 4: Penedono Loop (ou dia livre)'
   - day: '5'
     description: >-
-      Break ties with the Douro River and head South, finding your daily
-      hospitality in Marialva. You can take a visit to the castle and the
-      incredible church of "Santiago". A land full of history, being classified
-      as one of several historical villages of Portugal.
+      Nossa rota sai do rio Douro em direcção a Sul, encontraremos nossa
+      hospitalidade diária em Marialva. Você pode visitar o castelo de quatro
+      torres e a igreja incrível de Santiago. Uma terra cheia de castelos e
+      sítios com história, sendo classificada como uma das várias aldeias
+      históricas de Portugal.
     location:
       lat: '40.9117189'
       lng: '-7.23416504'
-    title: 'Day 5: Penedono – Marialva (27 km)'
+    title: 'Dia 5: Penedono - Marialva '
   - day: '6'
     description: >-
-      The final streach will involve returning to the vineyards once more. Now
-      we can also watch the astonishing olives, another important Portuguese
-      heritage, used especially as a sauce for refined dishes. Our route back,
-      approaching the River will be traversing its highest part, ending with an
-      accommodation in Vila Nova de Foz Côa, a very well known site for its
-      Paleolithic paintings.
+      O percurso de bicicleta vai voltando para as vinhas de novo, mas agora
+      também podemos assistir ás azeitonas surpreendentes, outra herança
+      Portuguesa importante, sendo o azeite usado principalmente como um molho
+      para pratos refinados. O nosso percurso vai-se aproximando do rio Douro,
+      será atravessada a sua maior parte, terminando com um alojamento em Vila
+      Nova de Foz Côa, um local muito conhecido por suas pinturas
+      pré-históricas.
     location:
       lat: '41.0818397'
       lng: '-7.1424138'
-    title: 'Day 6: Marialva – Vila Nova de Foz Côa '
+    title: 'Dia 6: Marialva - Vila Nova de Foz Côa'
   - day: '7'
     description: ''
     location:
       lat: '41.0818397'
       lng: '-7.1424138'
-    title: 'Day 7: transfer to Porto'
+    title: 'Dia 7: Transfere para o Porto'
 gallery:
   - alt: douro solo traveller
     image: /img/douro-biketour.png
@@ -249,34 +251,34 @@ pricing:
 ---
 # Douro Wine Tour
 
-## "Easy" level tour
+## Nível de dificuldade "fácil"
 
 \
 \
-This cycling tour can be made for the entirety of the year. We recommend doing it between the months of September and October, especially during the wine production season.
+Este passeio de bicicleta pode ser feito durante todo o ano. Recomendamos fazê-lo entre os meses de setembro e outubro, especialmente durante a produção de vinho.
 
-A cycling tour that combines the hospitality of wine making farms, with bike rides through the well known vineyards and olive fields of The Douro Valley. With a resting day, in order to visit the Paleolithic open-air paintings and its museum in Vila Nova de Foz Côa. If good wine, amazing sights and calm and relaxing cycling areas his what you are looking for, then you must take this journey along the incredible Douro region, considered natural heritage by UNESCO. 
+A ciclovia que combina a hospitalidade em fazendas produtoras de vinho, com passeios de bicicleta pelas vinhas e olivais, a produção de vinho do Porto e azeite de Portugal. Com um dia de descanso de folga para visitar as pinturas rupestres e seu museu em Vila Nova de Foz Côa, você deve fazer essa viagem ao longo da incrível região do Douro, considerado Património Natural da Humanidade pela UNESCO.\
 \
 \
 **Route description:**
 
 * Mostly steep. Up and down route.
 * 100 % paved roads with very low traffic.
-*  1895 meters of cumulative ascents.
+* 1895 meters of cumulative ascents.
 
 \
-**Itinerary:**
+**Itenerário:**
 
-Day 1: Porto – Pinhão (110 km, train transfer)
+Dia 1: Porto – Pinhão (110 km, train transfer)
 
-Day 2: Pinhão – Tabuaço (15 km)
+Dia 2: Pinhão – Tabuaço (15 km)
 
-Day 3: Tabuaço – Penedono (36 km)
+Dia 3: Tabuaço – Penedono (36 km)
 
-Day 4: Penedono - Loop (40 Km)
+Dia 4: Penedono - Loop (40 Km)
 
-Day 5: Penedono – Marialva (30 km)
+Dia 5: Penedono – Marialva (30 km)
 
-Day 6: Marialva – Vila Nova de Foz Côa (22 km)
+Dia 6: Marialva – Vila Nova de Foz Côa (22 km)
 
-Day 7: Departure
+Dia 7: Departure
