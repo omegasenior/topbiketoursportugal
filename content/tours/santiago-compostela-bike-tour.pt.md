@@ -59,91 +59,92 @@ itinerary:
     title: 'Dia 1: Recepção no Porto'
   - day: '2'
     description: >-
-      Da nossa loja, sediada na Invicta cidade do Porto, iniciará a sua jornada
-      em direcção a Esposende, uma cidade costeira localizada a Norte. Durante
-      este segundo dia, terá a possibilidade de apreciar inúmeras paisagens
-      costeiras, até alcançar Esposende, uma cidade desde os tempos medievais.
-      Uma enorme variedade de aldeias piscatórias, como a Póvoa de Varzim,
-      esperam por si, onde poderá observar tradições ancestrais ligadas à
-      exploração marítima, assim como provar toda a gastronomia que tem aí a sua
-      origem. Em Vila do Conde, irá descobrir a razão pela qual estas cidades
-      costeiras foram tão relevantes durante o "el dorado" das descobertas
-      Portuguesas.
+      niciará a sua viagem em direcção a Esposende a partir da nossa loja Top
+      Bike Tours Portugal, sediada na Invicta cidade do Porto.  Durante este
+      primeiro dia, verá inúmeras paisagens à beira-mar, assim como pequenas
+      "rivieras portuguesas" Atravessará uma enorme variedade de vilas
+      piscatórias, como é o caso da Póvoa de Varzim, onde se pode testemunhar
+      antigas tradições ligadas à pesca e onde poderá saborear esta famosa
+      gastronomia. Em Vila do Conde irá perceber a razão, pela qual estas
+      cidades costeiras foram tão importantes durante o período áureo dos
+      Descobrimentos Portugueses.
     location:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Dia 2: Porto – Esposende (60 km)'
   - day: '3'
     description: >-
-      A caminho de Viana do Castelo, outra cidade com âncora no mar, que foi
-      extremamente importante durante o período das descobertas Portuguesas.
-      Durante os séculos XIV e XV foi aqui que os navios, com destinos como o
-      Brasil, Índia, África ou outras colónias, eram desenvolvidos. O seu
-      destino final será Caminha. Esta cidade encontra-se na margem de rio
-      Minho, fazendo parte de uma paisagem incrível. A cidade é também muito
-      conhecida pelo seu património natural, com as suas vistas panorâmicas,
-      cascatas, praias e parque de campismo.
+      Viana do Castelo estabelece-se como a principal cidade por onde irá
+      passar. Esta serve como mais um belo exemplo de uma cidade de ancoragem à
+      beira-mar, e com uma conotação ancestral e uma enorme importância durante
+      os Descobrimentos. Durante os séculos XIV e XV, foi nesta cidade que foram
+      desenvolvidos os navios, que partiram para o Brasil, Índia, África e
+      outras colónias portuguesas.  O seu destino final será Caminha. Esta
+      cidade encontra o delta do rio Minho, sendo parte de uma paisagem
+      incrível. A cidade de Caminha é largamente conhecida pelo seu património
+      natural, como as áreas de passeios, cachoeiras, praias e parque de
+      campismo.
     location:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Dia 3: Esposende – Caminha (50 km)'
   - day: '4'
     description: >-
-      Irá entrar em território Espanhol, acabando o dia em Baiona. É uma cidade
-      politicamente ligada a Pontevedra, onde poderá respirar a suave brisa do
-      mar. Afastado da frente marítima, é possível perder-se no antigo centro da
-      cidade. Nascida com os romanos, a cidade manteve um contínuo crescimento
-      em direcção ao mar durante a época medieval, com uma influência da igreja
-      católica. Curiosamente, durante o século XVI, Baiona foi atacada por
-      navios britânicos, comandados pelo corsário e explorador Francis Drake,
-      que viu a oportunidade de estabelecer um posto comercial e mercantil no
-      território.
+      Neste dia vamos começar por atravessar o rio minho e desembarcar em
+      território espanhol. O seu destino, Baiona, é uma cidade politicamente
+      ligada a Pontevedra, onde se pode respirar a brisa do mar. Para além da
+      paisagem marítima, poderá perder-se no antigo centro da cidade, nascido a
+      partir de raízes romanas e que cresceu sempre em direcção ao litoral
+      durante a Idade Média, com a influência da Igreja Católica. Curiosamente,
+      durante o século XVI, Baiona foi invadida por navios britânicos liderados
+      pelo grande corsário e explorador Francis Drake, que viu uma oportunidade
+      para estabelecer um ponto comercial e mercantil neste território.
     location:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Dia 4: Caminha - Baiona (40 Km)'
   - day: '5'
     description: >-
-      Este dia abrangerá a costa de Vigo e terminará na baía de San Simon, com
-      uma vista marítima para banquetear a vista. Seguindo sempre o litoral,
-      este dia é dedicado a Arcade e às suas famosas ostras. Para além deste
-      delicioso aperitivo, irá ver monumentos e lugares dedicados ao culto de
-      Santiago, como é o caso da igreja de Santiago em Arcade, séculos XII e
-      XIII, e ruas e caminhos que o irão levar até ao destino desta
-      peregrinação. É quase peremptório que, passando por Arcade, saboreie as
-      famosas ostras, produzidas e colectadas nas águas da região. Curiosamente,
-      durante a primeira semana de Abril, há um evento dedicado a esta
-      gastronomia tradicional, a "Fiesta de la Ostra", onde toda a cidade está
-      compactada com turistas e peregrinos que marcam presença neste evento.
+      Desde a ria de Vigo até à baía de San Simon terá uma paisagem marítima
+      para regalar os olhos. Seguindo sempre a linha da costa, este dia será
+      dedicado a Arcade e às suas famosas ostras. Não obstante esta deliciosa
+      iguaria, poderá ainda ver monumentos e pontos turísticos dedicados à
+      cultura de Santiago, como a igreja de Santiago em Arcade, dos séculos
+      XII-XIII, e as estradas e caminhos que o levarão ao seu destino de
+      peregrinação. É quase obrigatório passar por Arcade e apreciar as famosas
+      ostras, produzidas e colhidas nas águas da região. Durante a primeira
+      semana de abril ocorre um festival dedicado a esta gastronomia
+      tradicional, a "Fiesta de la Ostra", onde a cidade se encontra repleta de
+      turistas e peregrinos que vêm de longe para participar neste evento.
     location:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Dia 5: Baiona – Pontevedra (64 km)'
   - day: '6'
     description: >-
-      Dirigindo-se agora para a cidade pré-romana de Caldas de Reis, cidade esta
-      que pertence a Pontevedra. De acordo com registos históricos, os primeiros
-      habitantes da região, foram uma comunidade pré-romana que viveu das
-      nascentes de água quente. O nome "Caldas de Rei" está ligado ao local de
-      nascimento de Afonso VII, actuando já na idade média como um local de
-      passagem dos peregrinos. Caldas de Reis detém um espólio gastronómico
-      peculiar, como as "empanadas" de lampreia e o tradicional pão espanhol.
-      Como as nascentes de água quente sempre acompanharam a evolução deste
-      território, hoje em dia é um local comum para os turista que procuram
-      tratamentos para diversos problemas.
+      De acordo com os arquivos históricos, Caldas de rei tem a sua origem numa
+      comunidade pré-romana que vivia das fontes termais deste território. O seu
+      nome está ligado ao local de nascimento de Afonso VII, altura em que
+      actuava já como um caminho de peregrinação a Santiago de Compostela. Além
+      da rica herança cultural, como Arcade, Caldas de Reis mantém uma
+      gastronomia peculiar, tais como as "empanadas" de lampreia e do pão
+      tradicional espanhol. Uma vez que as fontes de água quente acompanharam a
+      evolução deste território, hoje em dia é um ponto de interesse turístico
+      para quem procura tratamentos mais saudáveis para diversas doenças.
     location:
       lat: '41.15591'
       lng: '-8.60248'
     title: 'Dia 6: Pontevedra – Caldas dos Reis (26 km)'
   - day: '7'
     description: >-
-      Será recebido por Santiago de Compostela como o destino final, um dos
-      principais lugares  de peregrinação na Europa Ocidental. Assim como Roma e
-      Jerusalém, a cidade de Santiago de Compostela apresenta-se-nos como um
-      marco religioso, para turistas que encontrem esta jornada em bicicleta,
-      como um ato de fé e introspecção. Alcance a praça de Obradoiro, onde
-      poderá presenciar a majestosa catedral barroca, onde os restos do apostolo
-      estão localizados.
+      O último e sétimo dia será percorrido desde Caldas de Reis até Santiago de
+      Compostela, o nosso destino final e um dos núcleos de peregrinação
+      religiosa na Europa Ocidental.  Tal como Roma e Jerusalém, a cidade de
+      Santiago de Compostela apresenta-se-nos como um ícone religioso único para
+      os turistas, que encontram nesta viagem de ciclismo um acto de fé e de
+      realização interna. Chegará à Praça de Obradoiro, onde terá a
+      possibilidade de contemplar a majestosa catedral barroca, onde os restos
+      mortais do apóstolo estão localizados.
     location:
       lat: '41.15591'
       lng: '-8.60248'
@@ -301,9 +302,15 @@ pricing:
 
 \
 \
-O caminho da costa apresenta-se como uma rota mais fácil de chegar a Santiago de Compostela, o principal ponto de peregrinação na Península Ibérica e um dos mais importantes de turismo religioso na Europa Ocidental.
+O caminho de Santiago pela costa apresenta-se como uma alternativa fácil, quando comparado com os percursos Portugueses mais tradicionais. O destino final permanece o mesmo, porém os desafios estão assim ao alcance da grande maioria dos ciclistas.
 
-Aproveite e faça connosco um passeio a pé pela cidade do Porto, para que fique a conhecer um pouco mais da arquitectura da cidade, do seu património e tradições locais. Inicie depois a sua viagem até Santiago, passando por locais ensolarados e à beira mar, como é o caso de Esposende, Caminha e Baiona. Aproveite a delícia que são as ostras de Arcade. Conheça a razão porque Caldas de Rei detém uma importante relevância real e termine o seu passeio em bicicleta na praça de Obradoiro, onde poderá contemplar a colossal catedral barroca, onde os restos de Santiago estão depositados.
+
+
+Antes do início da peregrinação até Santiago de Compostela, desfrute connosco de um passeio pela cidade do Porto. Ficará assim a conhecer um pouco da sua arquitectura, do seu património e tradições locais. 
+
+
+
+Com o decorrer desta jornada até Santiago, passe por diversos destinos de muito sol e praia, como é o caso de Esposende, Caminha e Bayona. Desfrute das famosas ostras de Arcade e entenda porque Caldas de Reis detém relevância nobiliárquica. Por fim atingiremos a Praça de Obradoiro, onde se ergue a colossal catedral barroca que oferece sepultura ao restos mortais do apóstolo Santiago.
 
 \
 **Descrição da rota:**
