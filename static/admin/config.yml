@@ -1318,6 +1318,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+
       - file: content/pages/blog/index.md
         label: Blog EN
         name: blogEN
@@ -1484,6 +1485,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+      
       - file: content/pages/tour-calendar/index.en.md
         label: Calendar EN
         name: calendarEN
@@ -1683,6 +1685,7 @@ collections:
                 widget: select
                 options: ["Year", "Month", "Date"]
                 default: "Date"
+
       - file: content/pages/contact/index.en.md
         label: Contact EN
         name: contactEN
@@ -1758,7 +1761,6 @@ collections:
                   required: false,
                   default: "center center",
                 }
-
       - file: content/pages/contact/index.pt.md
         label: Contact PT
         name: contactPT
@@ -2134,7 +2136,6 @@ collections:
                   required: false,
                   default: "center center",
                 }
-
       - file: content/pages/bikes/index.pt.md
         label: BikesPT
         name: bikesPT
