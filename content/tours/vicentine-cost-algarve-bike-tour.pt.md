@@ -217,7 +217,7 @@ itinerary:
     location:
       lat: '37.10029188'
       lng: '-8.67213964'
-    title: Dia 10 - Partida
+    title: Dia 10 - Transfere
 gallery:
   - alt: group 1
     image: /img/0-copy.jpg
@@ -396,7 +396,7 @@ Dia 8 - Carrapateira – Sagres (54 km)
 
 Dia 9 - Sagres – Lagos (45 km)
 
-Dia 10 - Partida
+Dia 10 - Transfere
 
 \
 \
@@ -420,4 +420,4 @@ Dia 5 - Carrapateira – Sagres (54 km)
 
 Dia 6 - Sagres – Lagos (45 km)
 
-Dia 7 - Partida
+Dia 7 - Transfere
