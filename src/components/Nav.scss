@@ -11,7 +11,7 @@
   a {
     margin: 0 !important;
     padding: 10px;
-    color: #fff !important;
+    color: #fff;
     text-decoration: none !important;
   }
 }
@@ -129,7 +129,7 @@
 
   .Nav--Links {
     display: none;
-    color:#000;
+    color: #000;
     align-items: center;
     flex-direction: column;
     position: fixed;
@@ -149,6 +149,10 @@
 
   .Nav-active .Nav--Links {
     display: flex;
+    color: #000 !important;
+    a {
+      color: #000 !important;
+    }
   }
 
   .Nav-active .NavLink {

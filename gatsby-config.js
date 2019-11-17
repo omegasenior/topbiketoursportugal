@@ -3,11 +3,11 @@ const languages = require("./src/data/languages");
 module.exports = {
   siteMetadata: {
     title: "Top Bike Tours Portugal",
-    siteUrl: "https://boring-kepler-5712ff.netlify.com/",
+    siteUrl: "https://topbiketoursportugal.com/",
     description: `
     Top Bike Tours Portugal is a provider of holiday’s packages and routes, which offers an incredible holiday experience, entertainment and leisure activities based on quality and value.
     `,
-    canonicalUrl: "https://www.topbiketoursportugal.com",
+    canonicalUrl: "https://www.topbiketoursportugal.com/",
     image: "https://www.topbiketoursportugal.com/images/jason-lengstorf.jpg",
     author: {
       name: "Top Bike Tours Portugal",
@@ -296,7 +296,40 @@ module.exports = {
         showSpinner: true
       }
     },
-    "gatsby-plugin-sitemap",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/some-other-sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: ["/category/*", `/path/to/page`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          })
+      }
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
