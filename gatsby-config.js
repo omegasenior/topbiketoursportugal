@@ -71,7 +71,7 @@ module.exports = {
     //   resolve: 'gatsby-plugin-google-tagmanager',
     //   options: {
     //     /*id: 'GTM-add_your_tag_here',*/
-    //     id: 'GTM-P4RNF8D',
+    //     id: 'GTM-NG8ZHTH',
     //     includeInDevelopment: false
     //   }
     // },
@@ -286,11 +286,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/some-other-sitemap.xml`,
+        output: `/sitemap.xml`,
         // Exclude specific pages or groups of pages using glob parameters
         // See: https://github.com/isaacs/minimatch
         // The example below will exclude the single `path/to/page` and all routes beginning with `category`
-        exclude: ["/category/*", `/path/to/page`],
+      
         query: `
           {
             site {
