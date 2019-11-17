@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 import img1 from "./../img/banners/1.jpg";
 import { Link } from "gatsby";
+import "./Footer.scss";
 
 const FooterContainer = styled.footer`
   position: relative;
@@ -10,7 +11,6 @@ const FooterContainer = styled.footer`
   color: #999;
   font-size: 12px;
   padding-top: 30px;
-  padding-bottom: 30px;
 `;
 
 const FooterContentContainer = styled.div`
@@ -99,13 +99,12 @@ export default class Footer extends React.Component {
               <FooterContentContainer></FooterContentContainer>
             </Col>
           </Row>
-          <div className="terms text-center">
-            @ Top Bike tours portugal 2019 -{" "}
-            <Link to="/terms-and-conditions">Terms and conditions</Link> -{" "}
-            <Link to="/privacy-policy">Privacy policy</Link>
-            
-          </div>
         </Container>
+        <div className="terms text-center">
+          @ Top Bike tours portugal 2019 -{" "}
+          <Link to="/terms-and-conditions">Terms and conditions</Link> -{" "}
+          <Link to="/privacy-policy">Privacy policy</Link>
+        </div>
       </FooterContainer>
     );
   }
