@@ -23,7 +23,7 @@ export const AboutPageTemplate = ({
                 {title}
               </h2> */}
               <PageContent className="content" content={content} />
-              <TeamListComponent team={team} />
+              {team && <TeamListComponent team={team} />}
             </div>
           </div>
         </div>

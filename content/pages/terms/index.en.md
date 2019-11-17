@@ -1,4 +1,5 @@
 ---
+templateKey: about-page
 path: /terms-and-conditions
 title: Terms and Conditions
 meta:

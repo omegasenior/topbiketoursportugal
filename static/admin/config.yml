@@ -734,7 +734,7 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: home-page
+            default: about-page
           - label: Path
             name: path
             widget: string
@@ -782,7 +782,7 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: home-page
+            default: about-page
           - {
               label: "Language",
               name: "language",
@@ -844,7 +844,7 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: home-page
+            default: about-page
           - label: Path
             name: path
             widget: string
@@ -892,7 +892,7 @@ collections:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: home-page
+            default: about-page
           - {
               label: "Language",
               name: "language",
