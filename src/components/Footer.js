@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 import img1 from "./../img/banners/1.jpg";
+import { Link } from "gatsby";
 
 const FooterContainer = styled.footer`
   position: relative;
@@ -98,8 +99,10 @@ export default class Footer extends React.Component {
               <FooterContentContainer></FooterContentContainer>
             </Col>
           </Row>
-          <div class="terms text-center">
-            @ Top Bike tours portugal 2019 - <Link to="/terms">Terms and conditions</Link> - <Link to="/privacy">Privacy</Link>
+          <div className="terms text-center">
+            @ Top Bike tours portugal 2019 -{" "}
+            <Link to="/terms">Terms and conditions</Link> -{" "}
+            <Link to="/privacy">Privacy</Link>
             policy
           </div>
         </Container>
