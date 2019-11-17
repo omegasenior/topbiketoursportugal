@@ -80,26 +80,12 @@ module.exports = {
       options: {
         trackingId: "UA-106573860-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/", "/admin"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Enables Google Optimize using your container Id
-        // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-        // Enables Google Optimize Experiment ID
-        // experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
-        // Set Variation ID. 0 for original 1,2,3....
-        variationId: "0",
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "topbiketoursportugal.com"
-      }
     },
     // {
     //   resolve: "gatsby-plugin-i18n",
@@ -127,14 +113,13 @@ module.exports = {
     //     }
     //   }
     // },
-    // {
-    //   resolve: `gatsby-plugin-tawk`,
-    //   options: {
-    //     tawkId: "5862998cddb8373fd2b445cf",
-    //     widgetId: "1b50j8hpi"
-    //     // get this from the tawk script widget
-    //   }
-    // },
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "5862998cddb8373fd2b445cf"
+        // get this from the tawk script widget
+      }
+    },
     `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-plugin-sass",
