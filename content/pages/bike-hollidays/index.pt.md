@@ -1,6 +1,6 @@
 ---
 templateKey: bike-hollidays
-path: /pt/ferias-em-bicicleta
+path: /passeios-de-bicicleta-portugal
 language: pt
 lang: pt
 title: Ferias em bicicleta
@@ -115,6 +115,7 @@ meta:
     Desfrute das suas férias com percursos turísticos de bicicleta pelo Norte de
     Portugal e Espanha. Cicloturismo do porto ao Norte de Portugal e Espanha
   keywords: 'Passeios de bicicleta Portugal, bike tours, cycling holidays'
+  robots: INDEX
   title: 'Tours de bicicleta em Portugal '
 feature:
   align: center
