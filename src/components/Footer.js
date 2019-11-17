@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 import img1 from "./../img/banners/1.jpg";
+import { Link } from "gatsby";
 
 const FooterContainer = styled.footer`
   position: relative;
@@ -52,11 +53,10 @@ export default class Footer extends React.Component {
               <FooterContentContainer>
                 <FooterContentTitle>About Us</FooterContentTitle>
                 <FooterContentText>
-                  Founded in 2013, Top Bike tours Portugal is a very young
-                  company with experience in pedestrian and cycling tours in
+                  Founded in 2013, Top Bike tours Portugal is a company with
+                  experience in pedestrian and cycling tours in the city of
                   Porto and long distance cycling routes to the north of the
-                  Iberian Peninsula. Our activities are coordinated by tourism
-                  professionals, with a huge knowledge of heritage and sports.
+                  Iberian Peninsula and all around Portugal.
                 </FooterContentText>
               </FooterContentContainer>
             </Col>
@@ -99,6 +99,12 @@ export default class Footer extends React.Component {
               <FooterContentContainer></FooterContentContainer>
             </Col>
           </Row>
+          <div className="terms text-center">
+            @ Top Bike tours portugal 2019 -{" "}
+            <Link to="/terms">Terms and conditions</Link> -{" "}
+            <Link to="/privacy">Privacy</Link>
+            policy
+          </div>
         </Container>
       </FooterContainer>
     );

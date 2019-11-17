@@ -1,3 +1,9 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/forms";
+
 .Contact {
 }
 
@@ -34,5 +40,28 @@
 
   .Contact--Section1--Container > * {
     width: calc(50% - 2rem);
+  }
+}
+
+.tour-booking-form {
+  padding: 28px 20px 34px;
+  border-color: #e1e1e1;
+  background-color: #ffffff;
+
+  input {
+    font-size: 20px;
+  }
+
+  .tour-booking-enquiry-term {
+    font-size: 14px;
+  }
+}
+
+.tour-booking-tail {
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
   }
 }

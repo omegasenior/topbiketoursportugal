@@ -178,6 +178,10 @@ collections:
               required: false,
             }
           - { label: Keywords, name: keywords, widget: text, required: false }
+          - label: robots
+            name: robots
+            widget: "select"
+            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
           - {
               label: Canonical Link,
               name: canonicalLink,
@@ -359,6 +363,10 @@ collections:
               required: false,
             }
           - { label: Keywords, name: keywords, widget: text, required: false }
+          - label: robots
+            name: robots
+            widget: "select"
+            options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"]
           - {
               label: Canonical Link,
               name: canonicalLink,
@@ -509,7 +517,43 @@ collections:
               default: 100,
               widget: number,
             }
-      - { label: After Pricing, name: afterpricing, widget: markdown, required: false }
+      - {
+          label: After Pricing,
+          name: afterpricing,
+          widget: markdown,
+          required: false,
+        }
+      - label: Feature Image
+        name: feature
+        widget: object
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Sub Title
+            name: subtitle
+            widget: string
+          - {
+              label: Text Align,
+              name: align,
+              widget: string,
+              required: false,
+              default: "center",
+            }
+          - label: Text color
+            name: textcolor
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+          - {
+              label: Align,
+              name: imageAlign,
+              widget: string,
+              required: false,
+              default: "center center",
+            }
+
   - name: pages
     label: Pages
     delete: false
@@ -549,6 +593,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -665,6 +715,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }  
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -706,6 +762,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -763,6 +825,122 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+
+      - file: content/pages/terms/index.en.md
+        label: "Terms EN"
+        name: termsEN
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+      - file: content/pages/terms/index.pt.md
+        label: "Terms PT"
+        name: termsPT
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+          - {
+              label: "Language",
+              name: "language",
+              widget: hidden,
+              default: "pt",
+            }
+          - {
+              label: "Language",
+              name: "languageKey",
+              widget: hidden,
+              default: "pt",
+            }
+          - { label: "Language", name: "lang", widget: hidden, default: "pt" }
+          - label: Path
+            name: path
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Keywords,
+                  name: keywords,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -807,6 +985,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -899,6 +1083,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -974,6 +1164,7 @@ collections:
           - label: After Tour List
             name: afterList
             widget: markdown
+            required: false
           - label: "Meta"
             required: false
             name: "meta"
@@ -991,6 +1182,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1063,6 +1260,7 @@ collections:
           - label: After Tour List
             name: afterList
             widget: markdown
+            required: false
           - label: "Meta"
             required: false
             name: "meta"
@@ -1080,6 +1278,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1114,6 +1318,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+
       - file: content/pages/blog/index.md
         label: Blog EN
         name: blogEN
@@ -1151,6 +1356,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1236,6 +1447,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1268,6 +1485,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
+      
       - file: content/pages/tour-calendar/index.en.md
         label: Calendar EN
         name: calendarEN
@@ -1304,6 +1522,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1406,6 +1630,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1455,6 +1685,7 @@ collections:
                 widget: select
                 options: ["Year", "Month", "Date"]
                 default: "Date"
+
       - file: content/pages/contact/index.en.md
         label: Contact EN
         name: contactEN
@@ -1492,6 +1723,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1524,7 +1761,6 @@ collections:
                   required: false,
                   default: "center center",
                 }
-
       - file: content/pages/contact/index.pt.md
         label: Contact PT
         name: contactPT
@@ -1573,6 +1809,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1652,6 +1894,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1744,6 +1992,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
@@ -1844,6 +2098,12 @@ collections:
                   required: false,
                 }
               - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
+                }
+              - {
                   label: Canonical Link,
                   name: canonicalLink,
                   widget: string,
@@ -1876,7 +2136,6 @@ collections:
                   required: false,
                   default: "center center",
                 }
-
       - file: content/pages/bikes/index.pt.md
         label: BikesPT
         name: bikesPT
@@ -1940,6 +2199,12 @@ collections:
                   name: keywords,
                   widget: text,
                   required: false,
+                }
+              - {
+                  label: robots,
+                  name: robots,
+                  widget: "select",
+                  options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
                 }
               - {
                   label: Canonical Link,
