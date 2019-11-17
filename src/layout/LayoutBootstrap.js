@@ -183,6 +183,10 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                   (meta && meta.description) || defaultMetadata.description
                 }
               />
+              <meta
+                name="keywords"
+                content={(meta && meta.keywords) || defaultMetadata.keywords}
+              />
 
               <meta name="theme-color" content="#fff" />
 
@@ -259,7 +263,6 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                 <span>Top</span>
               </ScrollUpButton>
             </Scroll>
-          
           </React.Fragment>
         );
       }}
