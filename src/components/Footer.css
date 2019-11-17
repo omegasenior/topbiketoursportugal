@@ -11,4 +11,8 @@
 
 .terms {
   background-color: black;
+  color: rgb(153, 153, 153);
+  a {
+    color: rgb(153, 153, 153);
+  }
 }

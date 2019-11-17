@@ -1,10 +1,19 @@
 .Nav {
-  background: white;
+  background-color: rgba(0, 0, 0, 0.45) !important;
   position: sticky;
   top: 0;
   z-index: 1;
   border-bottom: 1px solid var(--lightGrey);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  z-index: 9999;
+  color: #fff;
+  text-align: right;
+  a {
+    margin: 0 !important;
+    padding: 10px;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
 }
 
 .Nav--Container {
@@ -15,8 +24,9 @@
 
 .Nav--Links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
   flex-direction: row;
 }
 
@@ -61,7 +71,7 @@
 }
 
 .Nav--GroupParent::after {
-  content: '';
+  content: "";
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
