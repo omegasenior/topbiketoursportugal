@@ -177,7 +177,12 @@ export const ContactPageTemplate = ({
               </div>
             </div>
             <div className="tour-booking-enquiry-term">
-              <input type="checkbox" name="tour-booking-require-acceptance" required/>*{" "}
+              <input
+                type="checkbox"
+                name="tour-booking-require-acceptance"
+                required
+              />
+              *{" "}
               <a href="#" target="_blank">
                 Terms and conditions
               </a>{" "}
@@ -199,7 +204,13 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    {location && <GoogleMap locations={location} mapkey={googleApiKey} />}
+    {location && (
+      <GoogleMap
+        center={location}
+        location={location}
+        mapkey={googleApiKey}
+      />
+    )}
   </main>
 );
 
