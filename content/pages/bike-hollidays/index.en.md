@@ -119,11 +119,11 @@ feature:
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
-  title: Guided and unguided cycle tours Portugal
+  title: Guided and unguided cycling tours Portugal
 ---
 # 
 
-# Bike tours Portugal | Cycling Tours
+# Bike tours Portugal | Cycling Holidays
 
 
 
