@@ -26,6 +26,7 @@ meta:
     From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
     expect some climbs in this great bike tour
   keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
+  robots: INDEX
   title: Silver Coast Moderate route 2
 groupSizeMax: 1
 groupSizeMin: -2
@@ -196,6 +197,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -227,13 +229,14 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.858 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1858
     type: '1'
-  - package: Guided bike tour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -266,14 +269,14 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 2.367 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2367
     type: '1'
-  - package: Guided bike tour PLUS*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour PLUS*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -306,15 +309,12 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 3.123 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3123
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -322,9 +322,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 200€
+  * Supplement for single room: 450 €
+  * Solo traveler: 250 €
   * Extra nights: on request
 feature:
   align: center
