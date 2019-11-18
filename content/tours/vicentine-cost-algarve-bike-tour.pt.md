@@ -30,6 +30,7 @@ meta:
   keywords: >-
     Costa Vicentina ao Algarve, passeio bicicleta em lisboa, passeio de
     bicicleta alentejo, passeio bicicleta algarve
+  robots: INDEX
   title: Costa Vicentina até ao Algarve
 groupSizeMax: 1
 groupSizeMin: -2
@@ -358,7 +359,6 @@ pricing:
     price: 2520
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -366,9 +366,11 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 200€
+  * Suplement for single room : 490 €
+  * Suplement for single room reduced option: 329 €
+  * Solo traveler: 290 €
+  * Solo traveler reduced option: 200 €
   * Extra nights: on request
 feature:
   align: center
