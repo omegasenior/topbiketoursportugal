@@ -28,6 +28,7 @@ meta:
   keywords: >-
     FRENSH WAY TO SANTIAGO DE COMPOSTELA IN A BICYCLE, ORIGINAL ROUTE TO
     SANTIAGO DE COMPOSTELA INA BICYCLE
+  robots: INDEX
   title: 'Guided Bike tour to Santiago de Compostela in the french way '
 groupSizeMax: 1
 groupSizeMin: 20
@@ -218,6 +219,8 @@ gallery:
     image: /img/french-camino-in-a-bycicle4.png
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Guided bike tour
     packageContents:
       - icon: ✓
@@ -255,11 +258,11 @@ pricing:
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3400
     type: '1'
-  - package: Guided bike tour Plus*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -296,12 +299,9 @@ pricing:
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 4180
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -309,9 +309,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 300 €
+  * Supplement for single room: 650 €
+  * Solo traveler: 430 €
   * Extra nights: on request
 feature:
   align: center
