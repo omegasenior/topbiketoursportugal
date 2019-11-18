@@ -169,7 +169,7 @@ pricing:
   - bestValue: true
     discount: 0
     highSeasonPriceSupplement: 100
-    package: Guidedb bike tour
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
