@@ -27,6 +27,7 @@ meta:
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
+  robots: INDEX
   title: 'Cycling Tours - Douro Wine '
 groupSizeMax: 1
 groupSizeMin: -2
@@ -162,7 +163,7 @@ pricing:
       - title: 6 Nights / 7 Days ( price per person)
         value: 1.589 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '2'
     price: 1589
@@ -170,7 +171,7 @@ pricing:
   - bestValue: true
     discount: 0
     highSeasonPriceSupplement: 100
-    package: Guidedb bike tour
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -203,7 +204,7 @@ pricing:
       - title: 6 Nights / 7 Days ( price per person)
         value: 1.945 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 1945
@@ -211,7 +212,7 @@ pricing:
   - bestValue: true
     discount: 0
     highSeasonPriceSupplement: 100
-    package: Guided bike tour
+    package: Guided bike tour Plus
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -243,13 +244,12 @@ pricing:
       - title: 6 Nights / 7 Days ( price per person)
         value: 2.556 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 2556
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -258,8 +258,8 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Supplement for single room: 385 €
+  * Solo traveler: 280 €
   * Extra nights: on request
 feature:
   align: center
