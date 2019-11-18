@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Cycling Tours costa da prata, costa da prata em bicicleta, mar do atlanticco
     em bicicleta
+  robots: INDEX
   title: 'Cicloturismo Portugal - Coast da Prata '
 groupSizeMax: 1
 groupSizeMin: -2
@@ -238,7 +239,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.858 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '2'
     price: 1858
@@ -278,7 +279,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 2.367 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
     price: 2367
@@ -318,13 +319,12 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 3.123 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
     price: 3123
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -332,9 +332,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 200€
+  * Supplement for single room: 450 €
+  * Solo traveler: 250 €
   * Extra nights: on request
 feature:
   align: center
