@@ -111,6 +111,7 @@ meta:
   keywords: >-
     Cycling Tours Portugal, cycling holidays in nature,bike tours, bike tours
     portugal,guided bike tours
+  robots: INDEX
   title: Bike tours Portugal - Bicycle tours Portugal
 feature:
   align: center
@@ -118,12 +119,12 @@ feature:
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
-  title: The Way of St. James - The Coast Route "easy"
+  title: Guided and unguided cycle tours Portugal
 ---
 # 
 
 # Bike tours Portugal | Cycling Tours
 
-## Guided and unguided cycle tours Portugal
+
 
 ##
