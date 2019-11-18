@@ -26,6 +26,7 @@ meta:
     ultimate masterpiece of nature, very well sought by its villae, houses and
     vineyards.
   keywords: 'Douro, landscape, bicycle, wine, vineyards '
+  robots: INDEX
   title: ' Douro Valley bike tour '
 groupSizeMax: 1
 groupSizeMin: -2
@@ -166,7 +167,7 @@ pricing:
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.589 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '2'
     price: 1589
@@ -206,7 +207,7 @@ pricing:
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.945 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 1945
@@ -246,13 +247,12 @@ pricing:
       - title: 7 Nights / 6 Days ( price per person)
         value: 2.556 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 2556
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -261,8 +261,8 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Supplement for single room: 385 €
+  * Solo traveler: 280 €
   * Extra nights: on request
 feature:
   align: center
