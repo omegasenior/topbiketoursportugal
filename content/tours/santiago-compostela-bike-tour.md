@@ -29,6 +29,7 @@ meta:
   keywords: >-
     cycling holidays portugal,Cycling tours, Santiago de Compostela, sea,
     religious tourism, bicycle, Portugal, Gallicia 
+  robots: INDEX
   title: Santiago de Compostela starting in Porto
 groupSizeMax: 1
 groupSizeMin: -2
