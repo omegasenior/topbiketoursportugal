@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Passeios de bicicleta guiados portugal - Santiago de Compostela, caminho
     francês
+  robots: INDEX
   title: 'Santiago de Compostela, Caminho Francês | Top Bike tours Portugal'
 groupSizeMax: 1
 groupSizeMin: 20
@@ -301,7 +302,6 @@ pricing:
     price: 4180
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -309,9 +309,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 300 €
+  * Supplement for single room: 650 €
+  * Solo traveler: 430 €
   * Extra nights: on request
 feature:
   align: center
