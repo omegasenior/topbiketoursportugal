@@ -26,6 +26,7 @@ meta:
     Cycle the green Coast and the Silver Coast with is from porto to Lisbon. Ask
     for a quote.
   keywords: 'porto to lisbon bike, porto to lisbon biketour'
+  robots: INDEX
   title: Cycling tour from Porto to Lisbon
 distance: 493
 distanceUnit: Km
@@ -356,7 +357,6 @@ pricing:
         value: '4'
     price: 4629
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -364,9 +364,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 250€
+  * Supplement for single room: 589 €
+  * Solo traveler: 400 €
   * Extra nights: on request
 feature:
   align: center
