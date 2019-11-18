@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Cycling tours, Douro Valley, nature, heritage, Portugal, North, bicycle,
     nature tourism 
+  robots: INDEX
   title: Bike Holidays - Douro internacional
 groupSizeMax: 1
 groupSizeMin: -2
@@ -234,7 +235,6 @@ pricing:
     price: 2556
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -243,7 +243,7 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
+  * Supplement for single room: 385 €
   * Solo traveler: 200 €
   * Extra nights: on request
 feature:
