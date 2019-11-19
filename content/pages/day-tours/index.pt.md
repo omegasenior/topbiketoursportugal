@@ -1,6 +1,6 @@
 ---
 templateKey: city-tours
-path: /pt/tours-diarias
+path: /passeios-bicicleta-porto
 language: pt
 lang: pt
 title: tours diárias
@@ -13,6 +13,7 @@ meta:
   keywords: >-
     city tours porto portugal,passeios bicicleta porto,circuitos bicicleta
     porto,passeios guiados de bicicleta porto
+  robots: INDEX
   title: PASSEIOS DE BICICLETA COM GUIA TURISTICO PORTO
 feature:
   align: center
