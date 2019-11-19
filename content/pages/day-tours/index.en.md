@@ -1,6 +1,6 @@
 ---
 templateKey: city-tours
-path: /day-tours
+path: /bike-tours-porto-portugal
 language: en
 lang: en
 title: Day tours
@@ -12,6 +12,7 @@ meta:
   keywords: >-
     city tours,city tours porto,BIKE TOURS PORTO PORTUGAl,walk tours
     porto,GUIDED TOURS PORTO
+  robots: INDEX
   title: City tour or day tour
 feature:
   align: center
