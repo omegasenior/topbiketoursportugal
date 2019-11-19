@@ -201,9 +201,9 @@ pricing:
       - title: Mechanical Assistance
         value: 'yes'
       - title: 5 lunches
-        value: 'yes'
+        value: 'No'
       - title: 5 Dinners
-        value: 'yes'
+        value: 'No'
       - title: Personal Accident Insurance
         value: 'yes'
       - title: Liability Insurance
