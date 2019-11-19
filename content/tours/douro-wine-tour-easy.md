@@ -199,7 +199,7 @@ pricing:
       - title: 6 lunches
         value: 'No'
       - title: 6 Dinners
-        value: 'Yes'
+        value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
