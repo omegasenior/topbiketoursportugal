@@ -133,7 +133,7 @@ pricing:
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'No'
       - title: Mechanical Assistance
@@ -173,7 +173,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -213,7 +213,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
