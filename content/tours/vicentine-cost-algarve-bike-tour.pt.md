@@ -94,90 +94,84 @@ itinerary:
     title: Dia 3 - Troia - Vila Nova de Santo André (66 Km)
   - day: '4'
     description: >-
-      Pedale em direcção a Milfontes, onde encontrará a combinação perfeita
-      entre a Natureza e a História. Situada na costa, esta região tende a ser
-      muitas vezes associado a piratas.  De seguida, partirá a descoberta da
-      cidade portuária de Sines, onde irá desbravar parte da história dos
-      descobrimentos de Portugal, devido à antiga presença de Vasco da Gama (o
-      explorador português e o primeiro europeu a chegar a Índia pelo mar,
-      ligando o Oeste e o Oriente no século 15) na mesma que foi cidade do seu
-      nascimento. Actualmente, consegue adquirir um plano de destaque nas
-      exportações dos países em 50%. Já na periferia de Sines irá se deslumbrar
-      com a "Praia Grande", devido a todo o espaço envolvente e aos notórios
-      penhasco que fazem desta uma área protegida e ideal para desfrutar. 
+      Pedale em direcção a Vila Nova de Mil Fontes, onde encontrará a combinação
+      perfeita entre a Natureza e a História. Situada na costa, esta região
+      tende a ser muitas vezes associado a piratas.  De seguida, partirá à
+      descoberta da cidade portuária de Sines, onde se pode ver parte da
+      história dos descobrimentos de Portugueses. Vasco da Gama, um dos
+      principais navegadores portugueses, nasceu nesta cidade. Actualmente Sines
+      tem um forte destaque no que toca às exportações do país, com 50% destas a
+      saírem do seu porto. Já na periferia de Sines poderá deslumbrar-se com a
+      "Praia Grande", que graças a toda a área envolvente e aos seus notórios
+      penhascos, esta encontra-se como uma praia abrigada do vento e ideal para
+      relaxar.
     location:
       lat: '37.72243336'
       lng: '-8.78589749'
     title: Dia 4 – Vila Nova de Santo André – Vila Nova de Mil Fontes (55 km)
   - day: '5'
     description: >-
-      Mais silencioso do que Vila Nova de Milfontes, Zambujeira do Mar atrai uma
-      multidão de surf. Sendo uma cidade pequena do lado marinho na costa do
-      Alentejo, no oeste de Portugal tem umas lindas praias de areia e imagem
-      perfeita arquitetura tradicional, tornando-se um destino pequeno mas amado
-      para os visitantes. A cidade tem alguns edifícios tradicionais
-      encantadores. Entre os mais notáveis estão as fontes de Amores e Santa
-      Catarina e a pequena capela encalada de Nossa Senhora do Mar. A praia fica
-      a cerca de 500 metros da cidade de Almograve. É uma praia rasa, mas
-      extensa, com maré baixa que proporciona piscinas naturais autênticas.
+      Mais silenciosa de que Vila Nova de Mil Fontes, a Zambujeira do Mar é uma
+      cidade conhecida por atrair um grande número de surfistas. Esta pequena
+      vila costeira tem famosas praias e apresenta por todo o lado a típica
+      arquitectura tradicional alentejana. Entre os mais notáveis edifícios
+      tradicionais encontram-se as fontes de Amores e Santa Catarina e a pequena
+      capela de Nossa Senhora do Mar.
     location:
       lat: '37.52514173'
       lng: '-8.7853986'
     title: Dia 5 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
   - day: '6'
     description: >-
-      Começando em Aljezur, uma aldeia atraente que atravessa um rio, sua parte
-      ocidental é região, com uma coleção de chalés abaixo de um castelo
-      arruinado do século XIII. Os vestígios do antigo porto podem ser vistos
-      nas ruas estreitas que dão acesso à Ribeira de Aljezur. Os 40 km de
-      litoral em torno de Aljezur oferecem algumas das praias mais cênicas da
-      Europa com toda a área dos estuários dos rios, penhascos e pântanos
-      densos, ricos em aves e animais. À medida que o Algarve se transforma em
-      Alentejo, o último assentamento costeiro é Odeceixe, uma pequena cidade
-      encantadora com uma praia classificada como uma das 7 Maravilhas. A praia
-      de Odeceixe que tem a particularidade de conter uma praia de rio. A praia
-      apresenta uma paisagem e uma biodiversidade de alta qualidade, podendo
-      desfrutar de uma paisagem de beleza rara e enorme do topo das falésias. Na
-      verdade, é neste parque natural, o único lugar no mundo onde pode-se
-      observar as cegonhas que aninham nas falésias.
+      Pedale até Aljezur, uma aldeia atravessada por um ribeiro com o mesmo nome
+      e que esconde, na sua parte ocidental, uma colecção de chalés, por baixo
+      de um castelo arruinado do século XIII. Os vestígios do antigo porto podem
+      ser vistos nas estreitas ruas que dão acesso à Ribeira de Aljezur. Os 40
+      km de costa em torno desta aldeia oferecem algumas das praias mais únicas
+      da Europa, espalhadas por toda a área dos estuários dos rios, penhascos e
+      pântanos densos, onde predominam todo o tipo de animais. À medida que o
+      Algarve se transforma em Alentejo, o último assentamento costeiro é
+      Odeceixe, uma pequena cidade encantadora com uma praia classificada como
+      uma das 7 Maravilha. Esta praia tem a particularidade de não ser
+      unicamente uma praia marítima, mas também fluvial. A praia apresenta uma
+      paisagem e uma biodiversidade de alta qualidade, podendo desfrutar de uma
+      paisagem de beleza rara desde o topo das falésias. É também este o único
+      lugar onde podem ser encontradas cegonhas que aninham em falésias.
     location:
       lat: '37.3172097'
       lng: '-8.79592627'
     title: Dia 6 – Zambujeira do Mar – Aljezur (45 km)
   - day: '7'
     description: >-
-      Deixando Aljezur para entrar no centro do surf Carrapateira, uma vila
-      tranquila, com duas praias próximas, cuja a falta de desenvolvimento,
-      oleadas de surf e fortes ondas atraem tanto os surfistas quanto o povo de
-      Lisboa. A costa por aí é selvagem, com penhascos de cor cobre e cinza com
-      dunas de areia muito largas. Os pontos de referência incluem um antigo
-      forte e uma igreja. O ponto de Carrapateira, ou Pontal, era um perigo
-      tradicional para os veleiros, as altas formações rochosas avermelhadas
-      parecem enganosamente semelhantes ao Cabo São Vicente, o canto sudoeste da
-      costa de Portugal, cerca de onze milhas mais ao sul. A corrente
-      extremamente rápida do sul e o promontório que o tornaram uma atração
-      percetível para os naufrágios no passado também criam as condições que o
-      tornaram um popular destino de surf nos últimos anos.
+      Seguirá em direcção ao centro do surf, a Carrapateira, uma vila tranquila
+      com duas praias próximas, cuja falta de desenvolvimento e as fortes ondas,
+      atraem tanto surfistas como o povo "Lisboeta". A vila apresenta uma linha
+      costeira selvagem, com densos penhascos de cor cobre e cinza e com dunas
+      de areia de grande extensão. Os principais pontos de referência incluem um
+      antigo forte e uma igreja. O ponto de Carrapateira, ou Pontal, constituía
+      um perigo tradicional para os veleiros, pois as suas altas formações
+      rochosas avermelhadas são muito semelhantes ao Cabo São Vicente, o canto
+      sudoeste da costa Portuguesa, cerca de onze milhas mais ao sul. A corrente
+      extremamente rápida do sul e o promontório, tornaram esta zona muito
+      recíproca a naufrágios, porém criam também as condições que a tornam um
+      popular destino de surf nos últimos anos.
     location:
       lat: '37.18373374'
       lng: '-8.89505267'
     title: Dia 7 – Aljezur – Carrapateira (30 km)
   - day: '8'
     description: >-
-      Uma região de cenário natural dramático, composta por mares furiosos,
-      penhascos e vastas praias, agora está a pedalar em Sagres. Há pouco
-      interesse histórico ou arquitetônico, já que a cidade original suportou o
-      peso total do terremoto de 1755. Surfar é a principal atividade de Sagres,
-      mas há trilhas para caminhadas desafiadoras, estradas silenciosas para
-      ciclismo, enquanto afasta-se do porto são viagens de pesca em alto mar.  A
-      Fortaleza de Sagres, tem apenas um muro defensivo na margem sul, já que os
-      outros três são guardados pelas imensas e absurdas falésias do
-      promontório. Situado a poucos quilômetros do ponto mais a sudoeste da
-      Europa, até ao século 14, acreditava-se que este era o fim do mundo
-      conhecido. O charme das casas caiadas de branco espalhadas pelas encostas
-      de uma colina coroada, é encontrado em Vila do Bispo. As ruas estreitas
+      Uma região de cenário natural dramático, composta por mares agrestes,
+      penhascos e vastas praias, encontra-se agora a pedalar em Sagres. Existe
+      pouco interesse histórico ou arquitectónico nesta cidade, já que a esta
+      sucumbiu ao rude golpe que foi o terremoto de 1755. O surf é a principal
+      actividade em Sagres, no entanto também existem trilhas para caminhadas
+      desafiadoras e estradas silenciosas para o ciclismo. A Fortaleza de Sagres
+      tem apenas um muro defensivo na margem sul, já que os outros três são
+      guardados pelas imensas e absurdas falésias do promontório. Até ao século
+      XIV acreditava-se que este era o fim do mundo conhecido. As ruas estreitas
       que cercam a igreja principal contêm muitas casas típicas do antigo
-      Algarve, com paredes caiadas de branco, faixas de cor brilhante, pedras
+      Algarve, com paredes caiadas de branco, faixas de cor brilhante e pedras
       esculpidas em torno de portas e janelas.
     location:
       lat: '37.00901414'
@@ -185,31 +179,22 @@ itinerary:
     title: Dia 8 - Carrapateira – Sagres (54 km)
   - day: '9'
     description: >-
-      Ao longo da margem do Rio Bensafrim, com paredes do século 16 que encerram
-      a cidade velha, temos Lagos. Lagos é uma cidade histórica e animada que
-      oferece aos visitantes belas praias, vida noturna e um encantador centro
-      histórico. Dentro da região de Lagos encontra-se uma abundância de vistas
-      e atividades variadas, o que torna a cidade um destino fantástico.
-      Estendendo-se para o leste de Lagos é a Praia Meia Praia de 4 km de
-      comprimento, que é a maior praia de areia do lado oeste do Algarve. Além
-      do seu atrativo hedonista, Lagos tem influência histórica, tendo lançado
-      muitas excursões navais durante a extraordinária Era dos Descobrimentos de
-      Portugal. Localizado a meio caminho entre Lagos e Sagres, há uma pitoresca
-      vila de pescadores, a pequena aldeia de Salema. É um paraíso para aqueles
-      que buscam a tranquilidade e a fuga da multidão onde as oportunidades de
-      bicicleta abundam. A aldeia é o lar de uma série de pescadores que ainda
-      lançam suas redes diariamente e amarram seus barcos de pesca na costa. A
-      praia de Salema é um dos segmentos de costa mais agradáveis e autênticos
-      de Portugal. O trecho imediatamente na frente da cidade tem guarda-sóis e
-      serviços de estilo europeu, e enquanto o litoral a oeste é bastante
-      rochoso, a linha de areia continua por mais de um quilômetro a leste.
-      Terminando este passeio, abençoado com uma bela praia e um clima glorioso,
-      a praia da Luz tem uma atmosfera acolhedora e amigável, já que a cidade
-      tem uma significativa comunidade permanente de expatriados aposentados ou
-      emigrados. A praia tem areias douradas macias e águas limpas e pristinas
-      limpas. Irá certamente gostar de ter a última paragem desta viagem
-      satisfatória, nesta incrível e linda praia com muitas vistas que
-      proporcionam um lugar encantador e relaxante para descansar.
+      Ao longo da margem do Rio Bensafrim, com paredes do século XVI que
+      encerram a velha cidade, encontra-se Lagos. Esta é uma cidade histórica e
+      animada que oferece aos visitantes belas praias, vida nocturna e um
+      encantador centro histórico. Dentro desta região de Lagos poderá encontrar
+      uma abundância de vistas e actividades variadas. Estendendo-se para o
+      leste de Lagos encontra-se a Praia Meia, com 4 km de comprimento é a maior
+      praia de areia do lado oeste do Algarve. De Lagos foram lançadas muitas
+      excursões navais durante a Era dos Descobrimentos Portugueses.  Entre
+      Lagos e Sagres existe uma pitoresca vila de pescadores, a pequena aldeia
+      de Salema. É um paraíso para aqueles que buscam a tranquilidade e a fuga
+      da cidade, onde as oportunidades para o ciclismo abundam. A aldeia é o lar
+      de uma série de pescadores que diariamente ainda lançam as suas redes ao
+      mar e amarram os seus barcos de pesca na costa. A praia de Salema é um dos
+      segmentos de costa mais agradáveis e autênticos de Portugal. Terminando
+      este passeio, será abençoado com uma bela praia com um clima glorioso, a
+      praia da Luz.
     location:
       lat: '37.10029188'
       lng: '-8.67213964'
@@ -387,6 +372,8 @@ feature:
 \
 \
 Um passeio de bicicleta incrível através de uma das regiões mais bem preservadas da Europa, o Parque Natural do sudeste Alentejano. Este inclui praias selvagens cercadas por penhascos imponentes, pequenas serras, cavernas, aldeias tradicionais de pescadores, vilas típicas, vistas espectaculares e pontos geográficos importantes, como o Cabo Sardão, o Cabo de São Vicente, de onde as caravelas largaram para mares nunca antes navegados, e Ponta de Sagres.
+
+
 
 A nossa recomendação é a de que realize este percurso entre janeiro a junho, ou outubro a dezembro. Este é um local bastante quente na época estival, por isso seja cuidadoso se optar por realizar este passeio em julho, agosto ou setembro. As temperaturas médias no Algarve são de cerca de 17ºC, e o tempo está sempre ensolarado ou parcialmente ensolarado, pois é raro chover nesta região do sul, mesmo durante o inverno.
 
