@@ -21,6 +21,7 @@ tags:
 meta:
   description: 'A vila mais antiga de Portugal, o mar e o rio num único bike tour!'
   keywords: Norte e Minho Bike tour
+  robots: INDEX
   title: 'Norte e Minho de Portugal Bike tour '
 groupSizeMax: 1
 groupSizeMin: 1
@@ -281,7 +282,7 @@ feature:
 
 \
 \
- ciclovia do Rio Minho foi classificada como a quarta melhor na Europa em 2009. Esta apresenta todas as incríveis paisagens portuguesas e proporciona também uma vista deslumbrante da beira-mar. Pedalar através de aldeias consideradas Património Mundial, vai conceder-lhe tudo o que pretende deste passeio.
+A ciclovia do Rio Minho foi classificada como a quarta melhor na Europa em 2009. Esta apresenta todas as incríveis paisagens portuguesas e proporciona também uma vista deslumbrante da beira-mar. Pedalar através de aldeias consideradas Património Mundial, vai conceder-lhe tudo o que pretende deste passeio.
 
 O Rio Minho é a desculpa perfeita para relaxar no norte do país. Explore os trilhos e as aldeias portuguesas ao longo deste rio fronteiriço, e os seus principais destaques. O Rio Minho percorre 300 km até chegar a Caminha, servindo de fronteira entre Portugal e Espanha e situando-se entre Melgaço e o Atlântico.
 
@@ -312,7 +313,7 @@ Dia 7 - Partida
 
 \
 \
-**Percurso alternativo redusido_:_** 
+**Opção reduzida_:_** 
 
 **Km estimados**: 152 km e 1894 metros de subidas acumulado
 \
@@ -327,7 +328,7 @@ Dia 4: Caminha – Viana do Castelo (25 Km)
 
 Dia 5: Viana do Castelo – Ponte de Lima (26 Km)
 
-Dia 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
+Dia 6: Ponte de Lima – Ponte da Barca ( 18 Km; etota extra até Arcos de Valdevez 28 km)
 
 Dia 7: Partida
 \
