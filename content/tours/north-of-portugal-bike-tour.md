@@ -23,6 +23,7 @@ meta:
     The oldest village, the river and the sea in one bike tour around the North
     of Portugal.
   keywords: North and Minho bike tour
+  robots: INDEX
   title: North and Minho Bike tour
 groupSizeMax: 1
 groupSizeMin: 1
@@ -216,9 +217,9 @@ pricing:
       - title: Mechanical Assistance
         value: 'yes'
       - title: 5 lunches
-        value: 'yes'
+        value: 'No'
       - title: 5 Dinners
-        value: 'yes'
+        value: 'No'
       - title: Personal Accident Insurance
         value: 'yes'
       - title: Liability Insurance
