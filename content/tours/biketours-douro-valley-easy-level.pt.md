@@ -6,7 +6,7 @@ productcode: DOURO 01
 featured: false
 language: pt
 image: /img/douro.jpg
-title: Douro Wine Tour "Easy"
+title: Pedalar na Região Vinhateira do Alto Douro - Fácil
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -55,63 +55,58 @@ itinerary:
     title: 'Dia 1: Porto - Pinhão'
   - day: '2'
     description: >-
-      Sempre por estrada, com a ascensão de uma inclinação aceitável, vamos
-      pedalando ao longo da incrível vista para o Rio Douro, entrando no
-      património paisagístico Português da humanidade. Ficará admirado com as
-      vinhas do Douro e o seu cultivo. 
+      Sempre por estrada e com uma inclinação aceitável, irá pedalar sempre com
+      uma incrível vista para o rio Douro, Património Natural da Humanidade.
+      Fique maravilhado com as vinhas do Douro e o seu cultivo.
     location:
       lat: '41.11824542'
       lng: '-7.56162644'
-    title: 'Dia 2: Pinhão - Tabuaço'
+    title: 'Dia 2: Pinhão – Tabuaço (15 km)'
   - day: '3'
     description: >-
-      A nossa viagem de bicicleta continua durante todo o verde da paisagem da
-      região do Douro, rodeada de vinhas. Nossa hospitalidade estará em
-      Penedono. Você pode visitar o castelo e explorar Sírigo, que detém uma 
-      rota circular que leva o viajante pelas aldeias e subúrbios vizinhos, como
-      as aldeias de Ferronha e A-do-Bispo.
+      A sua viagem de bicicleta irá prosseguir pelo verde das vinhas tão típicas
+      desta região em direcção a Penedono. Lá poderá visitar o seu castelo, que
+      data do século XIV, e explorar Sírigo, que detém uma rota circular que
+      leva os viajantes pelas aldeias e subúrbios vizinhos, como as aldeias de
+      Ferronha e A-do-Bispo.
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
-    title: ' Dia 3: Tabuaço - Penedono'
+    title: 'Dia 3: Tabuaço – Penedono (36 km)'
   - day: '4'
     description: >-
-      Desfrute de um dia livre ou pedale para conhecer outras aldeias. Se você
-      optar por pedalar você é uma pessoa corajosa !! Deixando Penedono, você
-      vai encontrar-se no meio de terras tradicionais, a paisagem é dominada por
-      vinhedos e castanhas, tanto que a área Sernacelhe é conhecida pelo
-      "município castanha" , e podemos ver por que a paisagem do lado da estrada
-      , com o rio Távora , pode desfrutar da geografia maravilhoso com montanhas
-      e vales, que é uma imagem de marca desta parte do país, e se você tiver
-      tempo pode visitar a igreja 12º século.
+      Desfrute de um dia livre ou pedale para conhecer outras aldeias. Se optar
+      por seguir a nossa rota, irá encontrar-se no meio de terras tradicionais
+      onde a paisagem é dominada por vinhedos e castanhas, tanto que a área
+      Sernancelhe é conhecida como o "município da castanha". Estes antigos
+      castanheiros estendem-se ao longo das estradas, acompanhado do rio Távora.
+      Recomendamos também que complemente este dia com uma visita à igreja desta
+      vila, que nos remete ao século XII.
     location:
       lat: '40.9899414'
       lng: '-7.3941885'
-    title: 'Dia 4: Penedono Loop (ou dia livre)'
+    title: 'Dia 4: Penedono - circuito(40 Km)'
   - day: '5'
     description: >-
-      Nossa rota sai do rio Douro em direcção a Sul, encontraremos nossa
-      hospitalidade diária em Marialva. Você pode visitar o castelo de quatro
-      torres e a igreja incrível de Santiago. Uma terra cheia de castelos e
-      sítios com história, sendo classificada como uma das várias aldeias
-      históricas de Portugal.
+      Saindo dos vales Durienses em direcção a Sul, irá encontrar o próximo
+      destino, Marialva. Marialva é apelidada como uma das aldeias mais
+      históricas de Portugal, onde reside um castelo muito antigo, com uma
+      imponente torre de menagem.
     location:
       lat: '40.9117189'
       lng: '-7.23416504'
-    title: 'Dia 5: Penedono - Marialva '
+    title: 'Dia 5: Penedono – Marialva (30 km)'
   - day: '6'
     description: >-
-      O percurso de bicicleta vai voltando para as vinhas de novo, mas agora
-      também podemos assistir ás azeitonas surpreendentes, outra herança
-      Portuguesa importante, sendo o azeite usado principalmente como um molho
-      para pratos refinados. O nosso percurso vai-se aproximando do rio Douro,
-      será atravessada a sua maior parte, terminando com um alojamento em Vila
-      Nova de Foz Côa, um local muito conhecido por suas pinturas
-      pré-históricas.
+      O percurso irá levá-lo novamente às paisagens do Douro. Porém, desta vez,
+      a paisagem dos vinhedos será substituída por uma outra herança cultural
+      portuguesa, os planaltos de azeitonas. Aproximando-se lentamente do rio
+      Douro, terá a sua estadia final em Vila Nova de Foz Côa, um local muito
+      conhecido por suas pinturas pré-históricas.
     location:
       lat: '41.0818397'
       lng: '-7.1424138'
-    title: 'Dia 6: Marialva - Vila Nova de Foz Côa'
+    title: 'Dia 6: Marialva – Vila Nova de Foz Côa (22 km)'
   - day: '7'
     description: ''
     location:
@@ -269,36 +264,50 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# Douro Wine Tour
+# Pedalar na Região Vinhateira do Alto Douro - "Fácil"
 
 ## Nível de dificuldade "fácil"
 
 \
 \
-Este passeio de bicicleta pode ser feito durante todo o ano. Recomendamos fazê-lo entre os meses de setembro e outubro, especialmente durante a produção de vinho.
+Este passeio de bicicleta pode ser feito durante todo o ano. A nossa recomendação é de que o faça entre os meses de Setembro e Outubro, altura da colheita das uvas e produção vincula.
 
-A ciclovia que combina a hospitalidade em fazendas produtoras de vinho, com passeios de bicicleta pelas vinhas e olivais, a produção de vinho do Porto e azeite de Portugal. Com um dia de descanso de folga para visitar as pinturas rupestres e seu museu em Vila Nova de Foz Côa, você deve fazer essa viagem ao longo da incrível região do Douro, considerado Património Natural da Humanidade pela UNESCO.\
+
+
+Este passeio em bicicleta combina a hospitalidade das quintas produtoras de vinho, pedalando entre vinhas e olivais, onde poderá deliciar-se com a produção de vinho do Porto e azeite de Portugal. Com um dia de descanso para visitar as pinturas rupestres e o museu de Vila Nova de Foz Côa, este passeio terá o seu foco na incrível região do Douro, considerada Património Natural da Humanidade pela UNESCO.\
 \
 \
 **Route description:**
 
-* Mostly steep. Up and down route.
-* 100 % paved roads with very low traffic.
-* 1895 meters of cumulative ascents.
+* Maioritariamente íngreme. Com subidas e descidas ao longo do percurso.
+* 100 % do percurso em ruas pavimentadas com pouco tráfego.
+* 1895 metros de subidas cumulativas.
 
 \
-**Itenerário:**
+**Itinerário:**
 
-Dia 1: Porto – Pinhão (110 km, train transfer)
+Dia 1: Pinhão
+
+
 
 Dia 2: Pinhão – Tabuaço (15 km)
 
+
+
 Dia 3: Tabuaço – Penedono (36 km)
 
-Dia 4: Penedono - Loop (40 Km)
+
+
+Dia 4: Penedono - (40 Km)
+
+
 
 Dia 5: Penedono – Marialva (30 km)
 
+
+
 Dia 6: Marialva – Vila Nova de Foz Côa (22 km)
 
-Dia 7: Departure
+
+
+Dia 7: Transfere de volta ao Porto
