@@ -6,7 +6,7 @@ productcode: NORTH 01
 featured: true
 language: en
 image: /img/ponte-de-lima.jpg
-title: North of Portugal Bike tour
+title: North of Portugal and Minho Bike tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -293,7 +293,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# North of Portugal Bike tour
+# North of Portugal and Minho Bike tour
 
 ## Cycling in the oldest Village of Portugal along the river side and the sea
 
@@ -352,4 +352,5 @@ Day 5: Viana do Castelo – Ponte de Lima (26 Km)
 Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
 
 Day 7: Departure
-****
+
+- - -
