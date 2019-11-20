@@ -39,19 +39,21 @@ team:
     name: Henrique Vareta
     role: Guia
   - bio: >-
-      Marta was born in 1996: "Since I was a little girl, my biggest dream has
-      ever been to become a tourist guide, because I love to discover new people
-      and new ways of thinking. I went to the university to study tourism and,
-      in the end of all of it, this job opportunity appeared in my way. During a
-      whole month period, my colleagues prepared me to become an expert in this
-      field, being supportive all along the way. Finally I had my first tour. It
-      wasn’t long after that I also had my first review. That was, in itself,
-      the best payment anyone could ever have had, because in this way I touched
-      the heart of the people by showing them the amazing culture my city has to
-      offer. I am a sports girl. I practiced badminton, karate, swimming and the
-      bicycle was my transportation for everywhere. I speak English and Spanish,
-      and my joy is to take my time to make your vacations worthwhile and
-      memorable."
+      A Marta nasceu em 1996: "Desde pequena que o meu maior sonho era tornar me
+      Guia Turística, porque tenho um grande gosto em conhecer novas pessoas e
+      em novas maneiras de pensar. No momento de decidir o meu futuro, entrei na
+      universidade para estudar Turismo e, no fim de longos 3 anos, esta
+      oportunidade de trabalho apareceu no meu caminho. Durante um longo período
+      de tempo os meus colegas prepararam-me para me tornar numa profissional no
+      terreno, apoiando-me ao longo do caminho. Finalmente tive o meu primeiro
+      "tour". Não demorou muito depois disso e tive as minhas primeiras
+      "reviews". Tal tornou-se o melhor pagamento que alguém pode ter, porque
+      desta forma eu posso tocar no coração das pessoas, mostrando a magnífica
+      cultura que a minha cidade tem para oferecer. Sou uma mulher desportiva,
+      pratico badminton, karate, natação e a bicicleta era o meu meio de
+      transporte para todo o lado. Falo Inglês e Espanhol, e a minha vontade é
+      tornar as férias de quem nos visita e a cidade do Porto numa memorável
+      experiência para os nossos clientes"
     image: /img/marta.jpg
     name: Marta Pereira
     role: Guia
@@ -62,8 +64,8 @@ team:
       diferentes culturas, aplicando esse conhecimento ao negócio da empresa
       Fold n’Visit. João fala fluentemente Inglês, Espanhol, Francês e
       Português., Tendo uma vasta experiência como guia para passeios pela
-      cidade e viagens de bicicleta. When available he participates in guided
-      bike tours.
+      cidade e viagens de bicicleta. !O José participa ocasionalmente nos nossos
+      passeios guiados.
     image: /img/josé.jpg
     name: José Nogueira
     role: Guia
@@ -86,8 +88,8 @@ team:
       para Fátima e a Grande Rota das 22 aldeias históricas de Portugal. Desde
       2007 ele organiza grupos de ciclismo. É esta sua paixão por este desporto,
       pessoas e geografia deste pequeno canto da Península Ibérica, que o leva a
-      partilhar o seu conhecimento adquirido. Todos são bem-vindos!Pedro
-      occasionally participates in guided bike tours, when he is available.
+      partilhar o seu conhecimento adquirido. Todos são bem-vindos!O Pedro
+      participa ocasionalmente nos nossos passeios guiados.
     image: /img/team/pedro_oliveira.jpg
     name: Pedro Oliveira
     role: Guia
