@@ -44,79 +44,86 @@ itinerary:
     location:
       lat: '41.21223207'
       lng: '-7.42980301'
-    title: 'Day 1: Reception at Porto'
+    title: 'Dia 1: Porto - Pinhão (110 km, transfere)'
   - day: '2'
     description: >-
-      Starting in Pinhão, you will begin your journey by heading towards
-      Ervedosa do Douro and continuing to São João da Pesqueira, where you can
-      visit a wine museum. The day will end with an accommodation in Vila Nova
-      de Foz Côa, very well known site for its World Heritage Paleolithic
-      paintings.
+      Comece este passeio no Pinhão. Irá começar a sua jornada em direcção a
+      Ervedosa do Douro para São João da Pesqueira, onde poderá visitar o museu
+      do vinho. Desfruta da paisagens que estas vilas do Douro tem para oferecer
+      o passeio e, por fim, acabará em Vila Nova de Foz Côa, onde ficará
+      acomodado, na presença da reconhecida região de herança cultural de
+      pinturas paleolíticas inseridas no património mundial.
     location:
       lat: '41.07807865'
       lng: '-7.13896749'
-    title: 'Day 2: Pinhão – Vila Nova de Foz Côa.'
+    title: 'Dia 2: Pinhão – Vila Nova de Foz Côa (74 km)'
   - day: '3'
     description: >-
-      Pedaling towards Figueira de Castelo Rodrigo, will pass through Castelo
-      Melhor, Algodres and Vilar de Amargo. Once in your final destination, you
-      will be able to visit its Northern plateau, a preserved village with a
-      medieval castle which overlooks the highest point of Portugal. Between
-      February and March, in Figueira de Castelo Rodrigo, this natural landscape
-      provides a beautiful scenery of almond blossoms.
+      Pedale em direcção a Figueira de Castelo Rodrigo, onde irá passar por
+      Castelo Melhor, Algodres e pela Vilar de Amargo. Uma vez, já no seu
+      destino final, terá o prazer de visitar o planalto norte, uma vila
+      preservada onde poderá-se deslumbrar com os castelos medievais que possuem
+      uma vista para o ponto mais alto de Portugal. Entre a época anual de
+      Fevereiro a Março na Figueira de Castelo Rodrigo, a paisagem natural
+      proporciona uma beleza natural de flores de amêndoa.
     location:
       lat: '40.89676004'
       lng: '-6.96072578'
-    title: 'Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo:'
+    title: 'Dia 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)'
   - day: '4'
     description: >-
-      Continuing your cycling journey in the heart of Douro, you will now be
-      heading to Marialva. The day will start with the following of the course
-      of the Côa River, which will go up to Pinhel. Marialva is connected to a
-      nobility title of Marquis, created after the Portuguese Restoration, in
-      1640, as well as connected to the equestrian art of the 18th Century.
+      Continuando a sua jornada de bicicleta no coração do Douro, chegará a
+      Marialva. O dia irá começar no curso do Rio Coa, onde irá escalar até
+      Pinhel. A área de Marialva, não esconde o seu renome com a ligação ao
+      título de nobreza do Marquês, que teve a sua origem depois da Restauração
+      Portuguesa, em 1640, bem como, com a ligação que esta vila possui em
+      relação as artes equestres do século XVIII. 
     location:
       lat: '40.90918386'
       lng: '-7.23094225'
-    title: 'Day 4: Figueira de Castelo Rodrigo – Marialva'
+    title: 'Dia 4: Figueira de Castelo Rodrigo – Marialva (60 km)'
   - day: '5'
     description: >-
-      Expect some challenges as you will pass by Mêda and Ranhados, the highest
-      points of this route. From this stage on, we will enjoy the unique
-      mountain carved landscapes, that which portraits the inhabitants of Douro,
-      where vineyards stand the test of time.
+      Espere alguns desafios a medida que passará por Mêda e Ranhados, os pontos
+      mais elevado deste percurso. Desde estes pontos, poderá desfrutar das
+      paisagens únicas das montanhas, que transborda o retrato dos habitantes
+      durienses, onde os vinhares resistem ao teste do tempo.
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
-    title: 'Day 5: Marialva – Penedono'
+    title: 'Dia 5: Marialva – Penedono (27 km)'
   - day: '6'
     description: >-
-      Enjoy a free day, or cycle a loop, to get to know surrounding villages. In
-      case you opt for cycling, you will leave Penedono and find yourself in the
-      middle of traditional farmlands. The landscape is dominated by vineyards
-      and chestnuts, so much so that "Sernancelhe" area is known has the
-      chestnut county. You will understand how much chestnut the region actually
-      produces on the road side scenery. With the river Távora by your side you
-      can enjoy the wonderful geography, with mountains and valleys, which is a
-      trademark image of this part of the country. If you have the time, take a
-      visit to the XIIth century church.
+      Desfrute de um dia livre, circulando as vilas para conhecer a alma de
+      Penedono. Em caso de optar por continuar a descobrir em bicicleta, irá
+      sair de Penedono para a periferia e encontrará-se no meio de fazendas
+      típicas e tradicionais. A paisagem predominante das vinhas e dos
+      castanheiros em "Sernancelhe" dão origem a um município único com
+      facilidade de o deslumbrar e com o seu título de área municipal das
+      castanhas. Nas estradas deste município é possível perceber a quantidade
+      de produção que a mesma possui. Todas estas características são ainda mais
+      realçadas pelo rio Távora, onde poderá desfrutar da maravilhosa geografia,
+      com as montanhas e os vales, que são a imagem de marca deste município. E
+      por fim, visite a a igreja do século XII.
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
-    title: 'Day 6: Penedono loop '
+    title: 'Dia 6: Penedono - circuito (40 km)'
   - day: '7'
     description: >-
-      From Penedono we will once again ride along the Douro River. Régua is the
-      last frontier to overcome on your way to Porto.
+      Desde Penedono irá pedalar ao longo do Rio Douro até a cidade imponente,
+      Régua, que será a última área para visitar, onde pode contemplar uma das
+      cidades que mais representa este passeio: a região Duriense, para por fim
+      regressar ao Porto.
     location:
       lat: '41.15629912'
       lng: '-7.77725457'
-    title: 'Day 7: Penedono - Régua.'
+    title: 'Dia 7: Penedono – Régua (52 km)'
   - day: '8'
     location:
       lat: '41.15629912'
       lng: '-7.77725457'
-    title: 'Day 8: Transfer to Porto'
+    title: 'Dia 8: Transfere de volta para o Porto'
 gallery:
   - alt: guided bike tour in douro valley
     image: /img/guided-bike-tour-in-douro-valley.jpg
@@ -277,32 +284,32 @@ feature:
 
 \
 \
-The Douro valley is one of the ultimate wonders of nature. It is the culmination of the effort and energy of men and women, who through their labour gave shape to an already astonishing landscape. Travelling Douro is enjoying its convents and churches, meeting its rustic crafts, tasting the genuine cuisine and witnessing the Portuguese folklore traditions.
+A região do Douro vinhateiro é uma região onde as maravilhas da natureza se encontram presentes. A paisagem do Douro é o culminar do esforço e da energia posta no trabalho dos homens e das mulheres durienses, que através do empenho e gosto pelo seu trabalho dão origem as formas deslumbrante das paisagens únicas que os vales do Douro tem para oferece. Descobrir o Douro é, também, descobrir os conventos e igrejas, conhecer o seu artesanato rústico no meio do descobrimento dos sabores genuínos da gastronomia típica "Duriense" e no encontrar de uma tradição popular tão antiga, o folclore português. 
 
-Port Wine is undoubtedly the most famous product of this region. Douro comes to life during the summer and beginning of Autumn, with the several holidays and wine celebrations that happen at this time of the year. The harvest of the grapes is most likely the biggest and liveliest event of this region.
+O vinho do Porto é sem dúvida o produto mais típico da região. É durante o verão e o inicio de Agosto que a região Duriense ganha vida, devido as vastas celebrações do vinho que acontecem, maioritariamente, neste período do ano. Sendo que, o maior evento da região e, também, o mais vivido consistem no seu foco de produção: a colheita das uvas. 
 \
 \
-**Route description**:
+**Itinerário**:
 
-* Mostly steep. Up and down route.
-* 100 % paved roads with very low traffic.
-* 4435 meters of cumulative ascents.
+* Maioritariamente íngreme. Com subidas e descidas ao longo do percurso.
+* 100 % do percurso em ruas pavimentadas com pouco tráfego.
+* 4435 metros de subidas cumulativas.
 
 \
 **Itinerary:**
 
-Day1: Porto – Pinhão (110 km, transfer de comboio)
+Dia 1: Porto - Pinhão (110 km, transfere de comboio)
 
-Day 2: Pinhão – Vila Nova de Foz Côa (74 km)
+Dia 2: Pinhão – Vila Nova de Foz Côa (74 km)
 
-Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)
+Dia 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)
 
-Day 4: Figueira de Castelo Rodrigo – Marialva (60 km)
+Dia 4: Figueira de Castelo Rodrigo – Marialva (60 km)
 
-Day 5: Marialva – Penedono (27 km)
+Dia 5: Marialva – Penedono (27 km)
 
-Day 6: Penedono loop (40 km)
+Dia 6: Penedono (40 km)
 
-Day 7: Penedono – Régua (52 km)
+Dia 7: Penedono – Régua (52 km)
 
-Day 8: Transfer by train to Porto
+Dia 8: Transfere de comboio para o Porto
