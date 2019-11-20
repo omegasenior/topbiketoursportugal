@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: pt
 image: /img/praia-do-norte-nazare.jpg
-title: The Silver Coast Bike tour - Route 2
+title: Costa da Prata – Rota 2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
