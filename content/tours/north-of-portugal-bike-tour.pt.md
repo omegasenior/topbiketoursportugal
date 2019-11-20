@@ -6,7 +6,7 @@ productcode: NORTH 01
 featured: true
 language: pt
 image: /img/ponte-de-lima.jpg
-title: North of Portugal Bike tour
+title: Norte de Portugal e Minho Bike tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
