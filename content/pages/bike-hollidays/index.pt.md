@@ -25,7 +25,6 @@ descriptionafter: >-
   Tudo isto porque queremos proporcionar uma excepcional experiência de aventura
   com sabor a pouco.
 
-  \
 
   **Os nossos Bike tours em Portugal:**
 
