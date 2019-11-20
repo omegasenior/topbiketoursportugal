@@ -6,7 +6,7 @@ productcode: VICENTINE 01
 featured: false
 language: pt
 image: /img/great-sea-views.jpg
-title: Vicentine Cost and Algarve Bike Tour
+title: Costa Vicentina e Algarve Bike Tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
