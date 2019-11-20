@@ -271,9 +271,9 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# Douro Wine Tour
+# Em bicicleta pelo Vale do Douro
 
-## A demarcated and classified wine region
+## Uma região vinícola demarcada e classificada
 
 \
 \
