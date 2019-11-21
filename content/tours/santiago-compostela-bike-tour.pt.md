@@ -352,3 +352,5 @@ Dia 5: Baiona – Pontevedra (64 km)
 Dia 6: Pontevedra – Caldas dos Reis (26 km)
 
 Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)
+
+![](/img/santiago-pela-costa.png)
