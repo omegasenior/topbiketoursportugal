@@ -293,7 +293,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# The Silver Coast - Route 1
+# The Silver Coast - Porto to Coimbra
 
 ## The second and third largest cities of Portugal linked by bike
 
