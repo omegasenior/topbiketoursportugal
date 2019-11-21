@@ -22,6 +22,7 @@ tags:
   - e-bike
   - electric bicycle
   - Spain
+  - atlantic coast
 meta:
   description: >
     Pedale pela costa, no percurso mais fácil até Santiago de Compostela. Não se
