@@ -6,7 +6,7 @@ productcode: SC 03
 featured: false
 language: pt
 image: /img/sintra-photo.jpg
-title: Porto to Lisbon Cycling tour -  The green Coast and the Silver Coast
+title: Do Porto a Lisboa em bicicleta
 packagetype: PackageTour
 tourtype: Bike
 tags:
@@ -436,3 +436,5 @@ Dia 11 -Ericeira – Sintra (27 Km)
 Dia 12 -Sintra – Cascais (40 Km)
 
 Dia 13 - Partida de Lisboa
+
+![](/img/porto-to-lisbon-cyling-map.png)
