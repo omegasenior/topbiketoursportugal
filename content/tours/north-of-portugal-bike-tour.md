@@ -21,8 +21,12 @@ tags:
 meta:
   description: >-
     The oldest village, the river and the sea in one bike tour around the North
-    of Portugal.
-  keywords: North and Minho bike tour
+    of Portugal. Explore the nature and cycling near the Lima and Minho river.
+    At the end of your cycling day tour taste de "vinho verde" wine. electric
+    bicycle available
+  keywords: >-
+    North and Minho bike tour, cyling holiday north of portugal, minho bike
+    tour,
   robots: INDEX
   title: North and Minho Bike tour
 groupSizeMax: 1
@@ -333,7 +337,7 @@ Day 7 - Departure
 
 \
 \
-_**Reduced option:** _
+**Reduced option:** 
 
 \
 **Route classification:** Easy 
