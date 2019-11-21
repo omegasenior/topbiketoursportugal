@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: pt
 image: /img/praia-do-norte-nazare.jpg
-title: 'Costa da Prata – Sintra e Costa Azul :Rota 2'
+title: Costa da Prata – Sintra e Costa Azul -Rota 2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -341,7 +341,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# Costa da Prata – Sintra e Costa Azul :Rota 2
+# Costa da Prata – Sintra e Costa Azul - Rota 2
 
 ## Descubra a riqueza da natureza e do mar pela famosa costa portuguesa
 
