@@ -23,7 +23,9 @@ tags:
 meta:
   description: >
     Remember that the Douro is a valley and despite the tour being classified as
-    easy, it is necessary to take this into consideration
+    easy, it is necessary to take this into consideration. For sure with an
+    electric bike it will be very easy for you to cycle near the Douro River.
+    Transfer included in our van to Douro Valley
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
