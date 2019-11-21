@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
-title: The Silver Coast Bike tour - Route 2
+title: The Silver Coast route 2 -West Coast and Sintra
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -23,11 +23,16 @@ tags:
   - electric bicycle
 meta:
   description: >
-    From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
-    expect some climbs in this great bike tour
-  keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
+    From Figueira da Foz to Cascais or Lisbon in a bicycle. Cycling near the sea
+    and expect some climbs in this great bike tour. Must visit Sintra after your
+    cycling tour day vacation. and taste the deliciouse and traditional
+    "Travesseiro" pastery. This is an easy bicycle tour if an electric bicycle
+    is used.
+  keywords: >-
+    cycling vacations Lisbon, bike tours west coast of portugal, bike tour
+    silver Coast, bicycle tours sintra
   robots: INDEX
-  title: Silver Coast Moderate route 2
+  title: Silver Coast route 2- West Coast and Sintra
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -334,7 +339,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# Silver Coast Bike tour- Route 2
+# Silver Coast Bike tour- West Coast and Sintra
 
 ## Discover the wealth of land and sea on the famous Portuguese coast
 
