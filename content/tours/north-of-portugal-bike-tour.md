@@ -329,6 +329,8 @@ Day 6 – Esposende – Porto (60km)
 
 Day 7 - Departure
 
+![Map north and minho bike tour](/img/map-north-and-minho-bike-tour.png)
+
 \
 \
 _**Reduced option:** _
@@ -353,4 +355,4 @@ Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Vald
 
 Day 7: Departure
 
-- - -
+![Map north and minho bike tour short route](/img/map-north-and-minho-bike-tour-short-route.png)
