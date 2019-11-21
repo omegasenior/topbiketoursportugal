@@ -6,7 +6,7 @@ productcode: DOURO 02
 featured: false
 language: pt
 image: /img/pinhao3.jpg
-title: Douro Wine Tour moderate
+title: Em bicicleta pelo Vale do Douro
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -313,3 +313,5 @@ Dia 6: Penedono (40 km)
 Dia 7: Penedono – Régua (52 km)
 
 Dia 8: Transfere de comboio para o Porto
+
+![Em bicicleta pelo Vale do Douro MAPA](/img/douro-cycling-holiday-02-map.png)
