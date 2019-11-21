@@ -111,9 +111,13 @@ descriptionafter: >-
   incluídos apenas em passeios guiados de bicicleta.
 meta:
   description: >-
-    Desfrute das suas férias com percursos turísticos de bicicleta pelo Norte de
-    Portugal e Espanha. Cicloturismo do porto ao Norte de Portugal e Espanha
-  keywords: 'Passeios de bicicleta Portugal, bike tours, cycling holidays'
+    Pedale por Portugal connosco. Nos passeios de bicicleta auto-guiados ou
+    guiados, todo o apoio será garantido. Transferência de bagagem, aluguer de
+    bicicleta, acomodações, excelentes paisagens serão preparadas para você.
+    Temos bicicletas hibridas de montanha e electricas disponiveis.
+  keywords: >-
+    Passeios de bicicleta Portugal, bike tours portugal, ferias em bicicleta,
+    cycling tours portugal
   robots: INDEX
   title: 'Tours de bicicleta em Portugal '
 feature:
