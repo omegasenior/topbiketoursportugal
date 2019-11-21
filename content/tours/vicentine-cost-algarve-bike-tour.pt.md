@@ -373,8 +373,6 @@ feature:
 \
 Um passeio de bicicleta incrível através de uma das regiões mais bem preservadas da Europa, o Parque Natural do sudeste Alentejano. Este inclui praias selvagens cercadas por penhascos imponentes, pequenas serras, cavernas, aldeias tradicionais de pescadores, vilas típicas, vistas espectaculares e pontos geográficos importantes, como o Cabo Sardão, o Cabo de São Vicente, de onde as caravelas largaram para mares nunca antes navegados, e Ponta de Sagres.
 
-
-
 A nossa recomendação é a de que realize este percurso entre janeiro a junho, ou outubro a dezembro. Este é um local bastante quente na época estival, por isso seja cuidadoso se optar por realizar este passeio em julho, agosto ou setembro. As temperaturas médias no Algarve são de cerca de 17ºC, e o tempo está sempre ensolarado ou parcialmente ensolarado, pois é raro chover nesta região do sul, mesmo durante o inverno.
 
 \
@@ -407,6 +405,8 @@ Dia 9 - Sagres – Lagos (45 km)
 
 Dia 10 - Transfere
 
+![](/img/vicentine-cost-and-algarve-bike-tour.png)
+
 \
 \
 \
@@ -417,16 +417,20 @@ Dia 10 - Transfere
 **Estimated KM: 254 km** , Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
-Dia 1 – Sines - Vila Nova de Mil Fontes (40 km)
+Dia 1 – Lisboa pick up
 
-Dia 2 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
+Dia 2 – Sines - Vila Nova de Mil Fontes (40 km)
 
-Dia 3 – Zambujeira do Mar – Aljezur (45 km)
+Dia 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
 
-Dia 4– Aljezur – Carrapateira (30 km)
+Dia 4 – Zambujeira do Mar – Aljezur (45 km)
 
-Dia 5 - Carrapateira – Sagres (54 km)
+Dia 5 – Aljezur – Carrapateira (30 km)
 
-Dia 6 - Sagres – Lagos (45 km)
+Dia 6 - Carrapateira – Sagres (54 km)
 
-Dia 7 - Transfere
+Dia 7 - Sagres – Lagos (45 km)
+
+Dia 8 - Transfere
+
+![](/img/vicentine-cost-and-algarve-bike-tour-short.png)
