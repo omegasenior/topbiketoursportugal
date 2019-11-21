@@ -262,11 +262,7 @@ feature:
 \
 Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança.
 
-
-
 This area is considered by many as an authentic greenside paradise in the deep valleys of the region, where you will find beautiful vineyards at the heart of the Port and Douro wines.
-
-
 
 The territory boosts breathtaking landscapes of natural beauty, revealing not only a land rich in vineyards, but also in cereals, vegetables and fruits, combining in a typical gastronomy, awarded the title of World Heritage.
 \
@@ -294,3 +290,5 @@ Day 5: Miranda do Douro – Alfândega da Fé (98 km)
 Day 6: Alfândega da Fé – Tua (74 km)
 
 Day 7: Train transfer to Porto
+
+![](/img/douro-cycling-holiday-03-map.png)
