@@ -25,6 +25,7 @@ meta:
     Pedale pela Costa da Prata até Coimbra. A natureza, a paisagem e a
     gastronomia estão impregnadas neste percurso de bicicleta desde do Porto
   keywords: 'Cycling costa da prata, cicloturismo, bike tours, cycling holidays, portugal'
+  robots: INDEX
   title: Cycling Tours Costa da Prata e Costa Verde
 groupSizeMax: 1
 groupSizeMin: -2
@@ -301,11 +302,7 @@ feature:
 \
 Costa de Prata é o nome dado à região costeira que engloba o litoral de Portugal entre a barrinha de Esmoriz e o concelho de Torres Vedras, no distrito de Lisboa.
 
-
-
 Este passeio de bicicleta de 6 dias percorre, pela costa, uma das mais importantes ligações entre a cidade do Porto e a "capital" da região centro do Portugal, Coimbra.
-
-
 
 Teremos a possibilidade de conhecer algumas características que tornam a cidade do Porto, uma das mais importantes a nível cultural e histórico. Percorrendo a costa atlântica conhecerá diversas maravilhas naturais, históricas, gastronómicas e as diversas cidades costeiras que se encontram distribuídas ao longo do caminho até à "cidade do conhecimento", Coimbra. Coimbra é uma cidade famosa pela sua nobre universidade, os seus monumentos históricos e, claro, o Fado de Coimbra.
 
@@ -330,3 +327,5 @@ Dia 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 Dia 6 - Figueira da Foz - Coimbra ( 55 Km)
 
 Dia 7 - Transfere
+
+![](/img/grean-coast-cycling-holiday-from-porto-to-coimbra.png)
