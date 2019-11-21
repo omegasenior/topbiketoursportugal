@@ -301,4 +301,4 @@ Day 6: Marialva – Vila Nova de Foz Côa (22 km)
 
 Day 7: Departure
 
-![](/img/douro-cycling-holiday-01-map.png)
+![douro valley bicycle tour map](/img/douro-cycling-holiday-01-map.png)
