@@ -18,9 +18,16 @@ tags:
   - touring bicycle
   - e-bike
   - electric bicycle
+  - atlantic coast
 meta:
-  description: 'A vila mais antiga de Portugal, o mar e o rio num único bike tour!'
-  keywords: Norte e Minho Bike tour
+  description: >-
+    A vila mais antiga de Portugal, o mar e o rio num único bike tour! Desfrute
+    da paisagem perto dos rios Lima e Minho. No final do dia do seu pedal, não
+    perca a oportunidade de beber o famoso vinho verde oriundo da região do
+    Norte de Portugal. Bicicletas eléctricas disponível.
+  keywords: >-
+    Norte e Minho Bike tour, ferias em bicicleta no norte de portugal, bike tour
+    no minho, passeios em bicicleta no norte de portugal
   robots: INDEX
   title: 'Norte e Minho de Portugal Bike tour '
 groupSizeMax: 1
