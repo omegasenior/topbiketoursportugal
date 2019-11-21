@@ -22,7 +22,9 @@ tags:
   - touring bicycle
   - e-bike
   - electric bicycle
+  - ''
   - vicentine Coast
+  - southwest bike tour
 meta:
   description: >
     Start in Lisbon or in Sines in this amazing bike tour thru the south west
