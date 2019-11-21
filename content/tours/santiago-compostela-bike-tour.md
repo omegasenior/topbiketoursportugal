@@ -7,7 +7,7 @@ featured: true
 language: en
 image: >-
   /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
-title: Santiago de Compostela Bike Tour - Costal Path
+title: Porto - Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -22,13 +22,18 @@ tags:
   - e-bike
   - electric bicycle
   - Spain
+  - atlantic coast
 meta:
   description: >
-    Ride along the coast, in the easiest route to Santiago de Compostela. Start
-    in Porto city and make a journey of a life time.
+    Cycling along the coast, in the easiest route to Santiago de Compostela.
+    Start to cycling the Camino of st James in Porto city and make a journey of
+    a life time. This amazing bike tour crosses the Nort of Portugal and North
+    of Spain where you will pedal trhough the bridge of the river Lima, the
+    bridge of Minho river and Galicia coast line.
   keywords: >-
-    cycling holidays portugal,Cycling tours, Santiago de Compostela, sea,
-    religious tourism, bicycle, Portugal, Gallicia 
+    bike tour santiago de compostela, guided bike tour santiago de
+    compostela,cycling tour the way of st james
+  robots: INDEX
   title: Santiago de Compostela starting in Porto
 groupSizeMax: 1
 groupSizeMin: -2
@@ -315,7 +320,7 @@ feature:
   textcolor: white
   title: Guided and unguided cycling tours Portugal
 ---
-# The Way of St. James BikeTour
+# The Way of St. James (Santiago de Compostela)- BikeTour
 
 ## The Coastal Way - "easy"
 
@@ -349,5 +354,4 @@ Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
-\
-'
+![SANTIAGO cOMPOSTELA CYCLING HOLIDAY MAP](/img/santiago-pela-costa.png)

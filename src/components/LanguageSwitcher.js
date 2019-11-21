@@ -4,6 +4,8 @@ import React from "react";
 import { Link } from "gatsby";
 import FlagIconFactory from "react-flag-icon-css";
 
+import "./LanguageSwitcher.scss"
+
 const LanguageSwitcher = ({ language, languageAlternateLinks }) => (
   <>
     {/* {languages.langs.map(language => (
@@ -11,11 +13,11 @@ const LanguageSwitcher = ({ language, languageAlternateLinks }) => (
     ))} */}
     <Link to="/" alt="English">
       {/* <FlagIcon code={props.code} size={props.size} /> */}
-      <FlagIcon code="gb" />
+      <span code="gb" className="flag-icon flag-icon-gb" />
     </Link>
     <Link to="/pt" alt="Português">
       {/* <FlagIcon code={props.code} size={props.size} /> */}
-      <FlagIcon code="pt" />
+      <span code="pt" className="flag-icon flag-icon-pt" />
     </Link>
   </>
 );

@@ -421,9 +421,9 @@ function TourGen({ data }) {
               </ScrollableAnchor>
             )}
 
-            <ScrollableAnchor id={"the-fine-print"}>
+            {/* <ScrollableAnchor id={"the-fine-print"}>
               <div className="container">fine print</div>
-            </ScrollableAnchor>
+            </ScrollableAnchor> */}
           </div>
         </div>
       </div>

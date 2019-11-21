@@ -6,7 +6,7 @@ productcode: DOURO 02
 featured: false
 language: en
 image: /img/pinhao3.jpg
-title: Douro Wine Tour moderate
+title: Douro Valley Wine bicycle Tour
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -22,10 +22,15 @@ tags:
   - electric bicycle
 meta:
   description: >
-    The Valley of the Douro, classified as Natural Heritage, is nowadays an
-    ultimate masterpiece of nature, very well sought by its villae, houses and
-    vineyards.
-  keywords: 'Douro, landscape, bicycle, wine, vineyards '
+    Cycle near the Douro river and in the  Douro valleys expect great views of
+    the farms and the vinyards.The Valley of the Douro, classified as Natural
+    Heritage, is nowadays an ultimate masterpiece of nature, very well sought by
+    its villae, houses and vineyards. Electric bicycles available to make your
+    ride easyer.
+  keywords: >-
+    cycling holidays douro valley, bike tour douro valley, douro river bicycle
+    tour, cycle douro valley
+  robots: INDEX
   title: ' Douro Valley bike tour '
 groupSizeMax: 1
 groupSizeMin: -2
@@ -55,7 +60,7 @@ itinerary:
     location:
       lat: '41.07807865'
       lng: '-7.13896749'
-    title: 'Day 2: Pinhão – Vila Nova de Foz Côa.'
+    title: 'Day 2: Pinhão – Vila Nova de Foz Côa (74 km)'
   - day: '3'
     description: >-
       Pedaling towards Figueira de Castelo Rodrigo, will pass through Castelo
@@ -67,7 +72,7 @@ itinerary:
     location:
       lat: '40.89676004'
       lng: '-6.96072578'
-    title: 'Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo:'
+    title: 'Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)'
   - day: '4'
     description: >-
       Continuing your cycling journey in the heart of Douro, you will now be
@@ -78,17 +83,21 @@ itinerary:
     location:
       lat: '40.90918386'
       lng: '-7.23094225'
-    title: 'Day 4: Figueira de Castelo Rodrigo – Marialva'
+    title: 'Day 4: Figueira de Castelo Rodrigo – Marialva (60 km)'
   - day: '5'
     description: >-
-      Expect some challenges as you will pass by Mêda and Ranhados, the highest
-      points of this route. From this stage on, we will enjoy the unique
+      EspExpect some challenges as you will pass by Mêda and Ranhados, the
+      highest points of this route. From this stage on, we will enjoy the unique
       mountain carved landscapes, that which portraits the inhabitants of Douro,
-      where vineyards stand the test of time.
+      where vineyards stand the test of time.ere alguns desafios a medida que
+      passará por Mêda e Ranhados, os pontos mais elevado deste percurso. Desde
+      estes pontos, poderá desfrutar das paisagens únicas das montanhas, que
+      transborda o retrato dos habitantes durienses, onde os vinhares resistem
+      ao teste do tempo.
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
-    title: 'Day 5: Marialva – Penedono'
+    title: 'Day 5: Marialva – Penedono (27 km)'
   - day: '6'
     description: >-
       Enjoy a free day, or cycle a loop, to get to know surrounding villages. In
@@ -103,7 +112,7 @@ itinerary:
     location:
       lat: '40.98965764'
       lng: '-7.39509343'
-    title: 'Day 6: Penedono loop '
+    title: 'Day 6: Penedono loop (40 km)'
   - day: '7'
     description: >-
       From Penedono we will once again ride along the Douro River. Régua is the
@@ -111,12 +120,12 @@ itinerary:
     location:
       lat: '41.15629912'
       lng: '-7.77725457'
-    title: 'Day 7: Penedono - Régua.'
+    title: 'Dia 7: Penedono – Régua (52 km)'
   - day: '8'
     location:
       lat: '41.15629912'
       lng: '-7.77725457'
-    title: 'Day 8: Transfer to Porto'
+    title: ' Day 8: Transfer to Porto'
 gallery:
   - alt: guided bike tour in douro valley
     image: /img/guided-bike-tour-in-douro-valley.jpg
@@ -150,7 +159,7 @@ pricing:
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
-        value: 'Yes'
+        value: extra 150 €
       - title: Guide
         value: 'No'
       - title: Mechanical Assistance
@@ -166,7 +175,7 @@ pricing:
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.589 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '2'
     price: 1589
@@ -190,7 +199,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 150 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -198,7 +207,7 @@ pricing:
       - title: 6 lunches
         value: 'No'
       - title: 6 Dinners
-        value: 'Yes'
+        value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
@@ -206,7 +215,7 @@ pricing:
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.945 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 1945
@@ -230,7 +239,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 150 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -246,13 +255,12 @@ pricing:
       - title: 7 Nights / 6 Days ( price per person)
         value: 2.556 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
     price: 2556
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -261,8 +269,8 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Supplement for single room: 385 €
+  * Solo traveler: 280 €
   * Extra nights: on request
 feature:
   align: center
@@ -272,7 +280,7 @@ feature:
   textcolor: white
   title: Guided and unguided cycling tours Portugal
 ---
-# Douro Wine Tour
+# Douro Valley Wine bicycle Tour
 
 ## A demarcated and classified wine region
 
@@ -307,3 +315,5 @@ Day 6: Penedono loop (40 km)
 Day 7: Penedono – Régua (52 km)
 
 Day 8: Transfer by train to Porto
+
+![cycling near the douro river map](/img/douro-cycling-holiday-02-map.png)

@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Cycling tours, Douro Valley, nature, heritage, Portugal, North, bicycle,
     nature tourism 
+  robots: INDEX
   title: Bike Holidays - Douro internacional
 groupSizeMax: 1
 groupSizeMin: -2
@@ -132,7 +133,7 @@ pricing:
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'No'
       - title: Mechanical Assistance
@@ -172,7 +173,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -212,7 +213,7 @@ pricing:
         title: GPS With route per booking
         value: ''
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -234,7 +235,6 @@ pricing:
     price: 2556
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -243,7 +243,7 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
+  * Supplement for single room: 385 €
   * Solo traveler: 200 €
   * Extra nights: on request
 feature:
@@ -262,11 +262,7 @@ feature:
 \
 Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança.
 
-
-
 This area is considered by many as an authentic greenside paradise in the deep valleys of the region, where you will find beautiful vineyards at the heart of the Port and Douro wines.
-
-
 
 The territory boosts breathtaking landscapes of natural beauty, revealing not only a land rich in vineyards, but also in cereals, vegetables and fruits, combining in a typical gastronomy, awarded the title of World Heritage.
 \
@@ -294,3 +290,5 @@ Day 5: Miranda do Douro – Alfândega da Fé (98 km)
 Day 6: Alfândega da Fé – Tua (74 km)
 
 Day 7: Train transfer to Porto
+
+![DOURO RIVER & Douro international route map](/img/douro-cycling-holiday-03-map.png)

@@ -27,6 +27,7 @@ meta:
   keywords: >-
     city tours,circuitos em bicicleta PORTO, actividades em bicicleta PORTO,
     ferias em bicicleta PORTO
+  robots: INDEX
   title: Full Day Biketour Deluxe
 itinerary:
   - day: '1'
@@ -187,6 +188,8 @@ feature:
 Ride to the beaches of northern Portugal has never been so pleasant to the taste of the idyllic and fantastic scenery.
 
 Experience the unmatched Portuguese northern coast, where you can find various cities dedicated to the activity and fishing industry, where the fish gastronomy, such as, cod fish, sardines, sea bass and dourada rules. In the middle of this bicycle route, find buildings of public interest, considered as an historical heritage of the city, such as the Porto Custom House, (a place for local events and exhibitions); the unavoidable tidal pools, designed by Álvaro Siza Vieira, (very attended in summer); a replica of a ship of the Portuguese Discoveries, of the sixteenth century, ending in Póvoa do Varzim, with its famous sea inlets.
+
+![](/img/deluxe-bike-tour.png)
 
 **Tour detail:**
 

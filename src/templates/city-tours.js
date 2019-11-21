@@ -62,7 +62,7 @@ export const TourTemplate = ({
               </>
             )}
             <div className="action">
-              <Link to={path} className="btn btn-primary">
+              <Link to={path} className="btn">
                 Details
               </Link>
             </div>

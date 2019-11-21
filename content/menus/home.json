@@ -19,7 +19,7 @@
       },
       {
         "display": "Day Tours",
-        "link": "/day-tours",
+        "link": "/bike-tours-porto-portugal",
         "description": "Ver oferta cicloturismo",
         "enabled": true,
         "isHome": false,
@@ -74,7 +74,7 @@
       },
       {
         "display": "Férias em Bicicleta",
-        "link": "/pt/ferias-em-bicicleta",
+        "link": "/passeios-de-bicicleta-portugal",
         "description": "Ver oferta cicloturismo",
         "enabled": true,
         "isHome": false,
@@ -82,7 +82,7 @@
       },
       {
         "display": "Tours Diárias",
-        "link": "/pt/tours-diarias",
+        "link": "/passeios-bicicleta-porto",
         "description": "Ver oferta cicloturismo",
         "enabled": true,
         "isHome": false,

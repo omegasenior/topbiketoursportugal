@@ -20,6 +20,7 @@ meta:
     This food tour includes a visit to wine caves and a meal in a typical
     portuguese restaurant
   keywords: 'BIKE TOUR WINE AND GASTOURNOMY PORTO PORTUGAL,food tour'
+  robots: INDEX
   title: Bike tour Wine and Gastournomy | Food Tour
 groupSizeMax: 1
 groupSizeMin: 1
@@ -159,8 +160,9 @@ feature:
 \
 Incredible and idyllic landscapes are included in this tour, where the bicycle becomes essential to go through the marginal Douro River. Come meeh us the famous Port Wine and brand and its legacy in this metropolis, complementing with visits to the renowned Café Majestic and other cultural offices that promote and manage the wine, such as the Wine Institue of Douro and Porto , the Wine Cellars in Vila Nova de Gaia and a Museum dedicated to this activity of refinement and tasting.
 
-\
-![Bike tour Wine and Gastournomy](/img/img_20150910_114349.jpg "Bike tour Wine and Gastournomy")
+
+
+![BIKE TOUR -Food tour map](/img/sightseeing-porto-bike-tour.png)
 
 \
 \

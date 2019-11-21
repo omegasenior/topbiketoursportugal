@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: pt
 image: /img/praia-do-norte-nazare.jpg
-title: The Silver Coast Bike tour - Route 2
+title: Costa da Prata – Sintra e Costa Azul -Rota 2
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -23,12 +23,17 @@ tags:
   - electric bicycle
 meta:
   description: >-
-    VEM CONHECER A COSTA DE PORTUGAL EM BICICLETA E A CONHECIDA A COSTA DA PRATA
-    junto ao mar do Atlantico
+    Da Figueira da Foz a Cascais ou Lisboa de bicicleta. Pedale de bicicleta
+    perto do mar e espere algumas subidas neste maravilhoso passeio de
+    bicicleta. Deve visitar Sintra após o seu dia de passeio de bicicleta. e
+    deguste o tradicional pastel o travesseiro.
+
+    Costa Oeste e Sintra.
   keywords: >-
-    Cycling Tours costa da prata, costa da prata em bicicleta, mar do atlanticco
-    em bicicleta
-  title: 'Cicloturismo Portugal - Coast da Prata '
+    Cycling Tours costa da prata, costa da prata em bicicleta, costa azul em
+    bicicleta, bike tours lisboa
+  robots: INDEX
+  title: 'Costa da Prata – Sintra e Costa Azul :Rota 2'
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -49,60 +54,61 @@ itinerary:
     title: ' Dia 1:Transfer do Porto até Figueira da Foz'
   - day: '2'
     description: >-
-      Esta deslumbrante viagem de bicicleta começa ao lado do Oceano Atlântico
-      na Figueira da Foz, uma cidade no centro de Portugal, localizada no
-      distrito de Coimbra.Aqui você pode desfrutar de uma das melhores praias de
-      Portugal desde que esta cidade é conhecida como a "Rainha das praias de
-      Portugal", a gastronomia e o clima quente.A cidade é um centro industrial
-      importante, produzindo polpa de madeira, papel e vidro e também tem
-      notável construção naval e indústrias de peixe.Aqui temos uma paragem de
-      bicicleta em Pedrogão, esta é uma pequena aldeia que tem 1400m de praia.
-      As pessoas deste lugar sempre foram dedicadas à agricultura e pesca, por
-      isso hoje Xávega Arte, uma imagem de marca, ainda persiste.Agora, através
-      de São Pedro de Moel, cercado por extensas áreas de pinhais, oferece
-      vários pontos de lazer e de comunhão com a natureza. Destaca-se a famosa
-      "Volta dos Sete": um percurso de aproximadamente 7 km, que combina mar,
-      bosques e praia, com pura floresta, parques, fontes e riachos. Os pratos
-      típicos que se destacam são: sopa "Vidreiro", sopa de bacalhau e ensopado
-      de coelho.
+      Esta aventura de bicicleta começa ao lado do Oceano Atlântico na Figueira
+      da Foz, uma cidade no centro de Portugal, localizada no distrito de
+      Coimbra. A cidade é um centro industrial importante no que à produção de
+      polpa de madeira, papel e vidro diz respeito. A Figueira da Foz tem ainda
+      um papel no desenvolvimento da construção naval e indústrias de peixe. De
+      seguida partirá à descoberta de Pedrogão, uma pequena aldeia com uma
+      extensão de praia de 1400m e onde os seus habitantes, com forte ligação à
+      agricultura e pesca, foram criando o legado da Arte da Xávega.  Por fim
+      irá pedalar até São Pedro de Moel que se ergue cercada por extensas áreas
+      de pinhais e, que por isso, oferece vários pontos de lazer e de comunhão
+      com a natureza. Destaca-se a famosa "Volta dos Sete": um percurso de
+      aproximadamente 7 km, que combina mar, bosques e praia, a pureza das
+      floresta, parques, fontes e riachos. Um ponto de atracção turística é a
+      sua gastronomia única e vincada, como a sopa "Vidreiro", a sopa de
+      bacalhau e o ensopado de coelho.
     location:
       lat: '39.7578992'
       lng: '-9.0297521'
     title: 'Dia 2: Figueira da Foz – São Pedro de Moel (65 KM)'
   - day: '3'
     description: >-
-      Continuando o nosso passeio de bicicleta para Nazaré uma cidade linda e
-      tranquila à beira-mar, com uma vista deslumbrante do alto de um grande
-      penhasco, onde pode escalar por elevador funicular ou carro.Hoje em dia, o
-      grande atrativo desta cidade são as ondas e o surf, graças ao "Canhão da
+      Nazaré, uma cidade à beira-mar única na sua beleza e tranquila na sua
+      paisagem, possui uma vista deslumbrante no topo de um elevado penhasco,
+      cujo o acesso é facilitado por um elevador funicular ou carro.  O grande
+      atractivo desta cidade são as ondas e o surf, graças ao "Canhão da
       Nazaré", um fenómeno submarino geomorfológico que permite a formação de
-      ondas gigantes e perfeitas. É o maior desfiladeiro submerso na Europa, com
-      cerca de 170 quilómetros ao longo da costa, que é de 5000 metros de
-      profundidade.O surfista havaiano Garrett McNamara deu-lhe visibilidade
-      mundial quando, em 2011, surfou a maior onda do mundo.A paragem média
-      deste dia é a Praia do Norte e a parte da região da Nazaré e aqui você vai
-      encontrar as maiores ondas na Europa.
+      ondas gigantes e perfeitas. Este é, com orgulho dos seus habitantes, o
+      maior desfiladeiro submerso na Europa, com cerca de 170 quilómetros ao
+      longo da costa e com 5000 metros de profundidade. Neste percurso irá
+      pedalar por praias de renome e onde encontrará as maiores ondas da Europa,
+      como a Praia do Norte e a região da Nazaré.
     location:
       lat: '39.60004501'
       lng: '-9.07155991'
     title: 'Dia 3: São Pedro de Moel – Nazaré (29 Km)'
   - day: '4'
     description: >-
-      Deixando Nazaré a próxima aldeia é Óbidos. Sem dúvida esta cidade é um dos
-      assentamentos mais clássicos de paredes de Portugal e os visitantes também
-      podem desfrutar de vistas deslumbrantes sobre moinhos de vento, vinhas e
-      terras agrícolas circundantes. Na área residencial abaixo, estreitas ruas
-      de paralelepípedos são alinhadas com casas caiadas de branco que suportam
-      telhados de terracota.Todos os anos a cidade organiza dois eventos
-      importantes, o primeiro é um tradicional "Mercado Medieval", onde o
-      castelo ea cidade circundante recriar o espírito da Europa medieval eo
-      segundo é o Festival do Chocolate é também um evento que atrai grande
-      interesse de Turistas, neste festival você pode ver real-vida esculturas
-      de chocolate.São Martinho do Porto é hoje a cidade de passagem. Esta
-      região constituída pela Serra da Pescaria e pela montanha Bouro
-      constituiu, em tempos geológicos, uma única ilha. Quando foi dividida deu
-      origem à baía de São Martinho do Porto. São Martinho do Porto foi
-      considerada até mesmo a melhor praia para ir com a família no guia de 2015
+      Deixando a Nazaré, a próxima aldeia é Óbidos. Pedale à descoberta desta
+      cidade, considerada um dos assentamentos mais clássicos de paredes de
+      Portugal e onde ficará deslumbrado pelas vistas sobre os moinhos de vento,
+      vinhas e terras agrícolas circundantes. A área residencial da cidade é
+      banhada por estreitas ruas de paralelepípedos que se alinham com casas
+      caiadas de branco suportadas por telhados de terracota. Além de toda esta
+      magia natural, Óbidos tem também um papel activo na construção do seu
+      desenvolvimento e reconhecimento. Neste contexto a cidade organiza dois
+      eventos anuais de grande importância: o primeiro é um tradicional, o
+      "Mercado Medieval", onde o castelo e a cidade circundante recriar o
+      espírito da Europa medieval. O segundo é o Festival do Chocolate um evento
+      que atrai grande interesse de Turistas, visto que nele poderá observar
+      verdadeiras obras de artes nas esculturas de chocolate. Concluindo o dia,
+      pedale até São Martinho do Porto. Esta região constituída pela Serra da
+      Pescaria e pela montanha Bouro, constituiu, em tempos geológicos remotos,
+      uma única ilha. A sua divisão posterior deu origem à baía de São Martinho
+      do Porto. Graças a todo este contexto histórico e à sua beleza natural,
+      foi considerada a melhor praia para ir com a família no guia de 2015
       praias de eDreams.
     location:
       lat: '39.3680634'
@@ -110,77 +116,69 @@ itinerary:
     title: 'Dia 4: Nazaré – Óbidos (47 Km)'
   - day: '5'
     description: >-
-      Neste quinto dia regressaremos à zona costeira para a cidade de Peniche. A
-      cidade foi construída sobre uma península rochosa que é considerada pelos
-      geólogos, um exemplo único do volume de negócios Toarcian durante a
-      extinção do Jurássico Precoce mundial. Peniche é conhecida pelas suas
-      longas praias, que são populares para atividades recreativas e desportos
-      como surf, windsurf, bodyboard e kite surf. Estas praias são muito
-      ventosas e tem boas rupturas de surf com supertubos e é considerado entre
-      os melhores da Europa.As ilhas Berlengas, acerca de 10 km de distância da
-      península, fazem parte do município. Estas ilhas são uma das primeiras
-      reservas naturais do mundo.Neste dia temos uma paragem de bicicleta na
-      Lagoa de Óbidos, é uma lagoa que se estende entre os municípios de Óbidos
-      e Caldas da Rainha. É uma barreira natural que separa o Oceano Atlântico e
-      o bioma marinho do ecossistema fluvial de Foz do Arelho formado por dunas
-      laterais.
+      Regressando à zona costeira em direcção à cidade de Peniche, terá
+      oportunidade para uma paragem de bicicleta na Lagoa de Óbidos, com uma
+      extensão entre os municípios de Óbidos e Caldas da Rainha. É uma barreira
+      natural que separa o Oceano Atlântico e o bioma marinho do ecossistema
+      fluvial de Foz do Arelho formado por dunas laterais.  Peniche hoje em dia
+      é conhecida pelas suas longas praias destinadas para actividades
+      recreativas e desportos como o surf, windsurf, bodyboard e kite surf. São
+      também consideradas praias muito ventosas o que origina uma boa reputação
+      ao nível do surf com supertubos. As ilhas das Berlengas, localizadas a
+      acerca de 10 km de distância, ganharam grande distinção e reconhecimento
+      visto que, historicamente, são uma das primeiras reservas naturais do
+      mundo.
     location:
       lat: '39.33722515'
       lng: '-9.31285284'
     title: ' Dia 5: Óbidos – Peniche (35 Km)'
   - day: '6'
     description: >-
-      Deixando Peniche mas continuando ao longo da costa o próximo destino é
-      Ericeira, uma paróquia civil e um recurso de praia / comunidade de pesca
-      na costa ocidental de Portugal, no município de Mafra, aproximadamente 35
-      quilômetros ao noroeste da capital, Lisboa.A Ericeira foi um popular
-      retiro de verão para muitas das famílias de Lisboa nas décadas de 1940 e
-      1950. Hoje, é um destino popular para turistas locais e visitantes, bem
-      como surfistas de todo o mundo (devido às quarenta praias com boas
-      condições)A Ericeira também é famosa pela sua cultura musical. A
-      Filarmónica Cultural Ericeira existe desde 1849 e segue um caminho de
-      sucesso na herança musical desta aldeia, com uma escola musical livre e
-      permanente para todos os que amam este tipo de cultura.A praia de Santa
-      Cruz é o lugar de passagem durante este dia, e é um lugar que é propício
-      para uma grande parte de desportos de onda. Todos os anos há o "Ocean
-      Spirit" festival de desportos de onda onde competições internacionais de
-      vários tipos são realizadas.
+      Deixando Peniche mas continuando ao longo da costa, o próximo destino é a
+      Ericeira. Esta cidade foi um popular retiro de verão para muitas das
+      famílias de Lisboa nas décadas de 40 e 50 do século XX. Hoje é um destino
+      popular para turistas locais e visitantes, bem como surfistas de todo o
+      mundo, devido às quarenta praias com boas condições. Possui também uma
+      forte ligação com a cultura musical, sendo que desde 1849 que a
+      Filarmónica Cultural Ericeira segue um caminho de sucesso na herança
+      musical desta aldeia, com uma escola musical livre e permanente para todos
+      os que amam este tipo de cultura. A praia de Santa Cruz é o lugar de
+      passagem durante este dia e é um lugar que é propício para uma grande
+      parte de desportos de onda. Todos os anos há o "Ocean Spirit" festival de
+      desportos de onda, onde são realizadas competições internacionais de
+      vários tipos.
     location:
       lat: '38.9631655'
       lng: '-9.4170098'
     title: 'Dia 6: Peniche – Ericeira (68 Km)'
   - day: '7'
     description: >-
-      Neste dia, a rota sai da costa e vai para a cidade de Sintra. Este lugar é
-      conhecido por seus muitos monumentos arquitectónicos românticos do século
-      XIX, o que resultou na classificação pela UNESCO como Patrimônio da
-      Humanidade. Tornou-se um importante centro turístico, visitado por muitos
-      viajantes de um dia que viajam da capital Lisboa. Para além das Montanhas
-      de Sintra e do Parque Natural de Sintra-Cascais, as freguesias da cidade
-      de Sintra são locais com retiros reais, propriedades, castelos e outros
-      edifícios, entre os quais o Castelo dos Mouros, o Palácio Nacional da Pena
-      e o Palácio Nacional de Sintra..
+      Pedale para o interior para descobrir a cidade de Sintra. Este lugar é
+      conhecido pelos muitos monumentos arquitectónicos românticos do século XIX
+      que possui, o que resultou na classificação pela UNESCO como Património da
+      Humanidade. Para além das Montanhas de Sintra e do Parque Natural de
+      Sintra-Cascais, as freguesias da cidade de Sintra são locais com retiros
+      reais, propriedades, castelos e outros edifícios, entre os quais o Castelo
+      dos Mouros, o Palácio Nacional da Pena e o Palácio Nacional de Sintra,
+      onde a herança cultural se mantém até aos dias de hoje 
     location:
       lat: '38.79846'
       lng: '-9.3881'
     title: 'Dia 7: Ericeira – Sintra (27 Km)'
   - day: '8'
     description: >-
-      Continuando pelo centro, este passeio de bicicleta termina na cidade
-      costeira de Cascais. A oeste de Lisboa, é um subúrbio cosmopolita da
-      capital portuguesa e um dos municípios mais ricos de Portugal. A antiga
-      aldeia piscatória ganhou fama como um recurso para a família real de
-      Portugal no final do século XIX e início do século XX. Hoje em dia, é um
-      local de férias popular para turistas portugueses e estrangeiros.Cascais
-      está rodeado por praias populares como a Praia do Guincho a oeste e as
-      exuberantes montanhas de Sintra a norte. Alguns de seus litorais tem
-      falésias, atraindo turistas que vêm para as vistas panorâmicas do mar e
-      outras atracções naturais, como a Boca do Inferno. Também é um destino de
-      golfe, com mais de 10 campos de golfe nas proximidades.  O Parque Natural
-      de Sintra - Cascais é um lugar obrigatório para visitar e admirar porque é
-      um dos 13 Parques Naturais de Portugal e, o Parque inclui a Serra de
-      Sintra Montanha, mas estende-se até a costa e Cabo da Roca, continental O
-      ponto mais ocidental da Europa que contém o Castelo dos Mouros.
+      Pedale até ao oeste de Lisboa e chegará a Cascais, considerado um subúrbio
+      cosmopolita da capital portuguesa e um dos municípios mais ricos de
+      Portugal. A antiga aldeia piscatória ganhou fama com a presença da família
+      real de portuguesa no final do século XIX e início do século XX. Hoje em
+      dia é um local de férias popular para turistas portugueses e estrangeiros.
+      Cascais está rodeada por praias de renome, como a Praia do Guincho, a
+      oeste, e as exuberantes montanhas de Sintra, a norte. Este é também um
+      destino apreciado pelos amantes de golfe, com mais de 10 campos de golfe
+      nas proximidades. O Parque Natural de Sintra - Cascais é um lugar
+      obrigatório a visitar, visto que é um dos 13 Parques Naturais de Portugal
+      e porque o mesmo inclui a Serra de Sintra, montanha que se estende até à
+      costa e o Cabo da Roca, o ponto continental mais ocidental da Europa.
     location:
       lat: '38.72240025'
       lng: '-9.39690917'
@@ -238,7 +236,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.858 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '2'
     price: 1858
@@ -278,7 +276,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 2.367 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
     price: 2367
@@ -318,13 +316,12 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 3.123 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
     price: 3123
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -332,9 +329,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 200€
+  * Supplement for single room: 450 €
+  * Solo traveler: 250 €
   * Extra nights: on request
 feature:
   align: center
@@ -344,23 +341,21 @@ feature:
   textcolor: white
   title: Passeios com guia e em autonomia em Portugal
 ---
-# Costa da Prata – Rota 2
+# Costa da Prata – Sintra e Costa Azul - Rota 2
 
 ## Descubra a riqueza da natureza e do mar pela famosa costa portuguesa
 
 \
-O bike tour Costa de Prata, é uma rota imersiva e surpreendente que vai ao longo da costa onde vai encontrar algumas das mais importantes aldeias de Portugal. Aqui você terá uma "mistura" de praias e florestas de pinheiros criando sentimentos diferentes durante a viagem.
+Este passeio de bicicleta apresenta-se como uma rota surpreendente ao longo da costa, onde irá encontrar algumas das mais importantes aldeias de Portugal. Explorando os trilhos e seus principais destaques, estes certamente lhe darão um sentimento de realização.
 
-Explorando as trilhas e seus principais destaques lhe dará o sentimento de realização.
+Delicie-se com o melhor sabor das artes tradicionais da pesca portuguesa, acompanhado por uma garrafa de vinho verde e saborosas sobremesas locais.
 
-Experimente o melhor sabor das artes tradicionais da pesca portuguesa, acompanhado de vinho verde e incríveis desertos locais.
-
-Os monumentos surpreendentes como o Castelo de Pena e o Castelo de Óbidos trarão você de volta aos séculos através dos tempos medievais. Isso certamente enriquecerá a sua viagem e lhe dará o desejo de voltar e descobrir mais de Portugal!
+Monumentos surpreendentes como o Castelo da Pena e o Castelo de Óbidos trá-lo-ão de volta aos tempos medievais. Tal enriquecerá certamente a sua viagem e lhe dará o desejo de voltar e descobrir mais sobre Portugal!
 \
-**Route description:**
+**Descrição do Percurso:**
 
-* Mostly flat. Some short and steep climbs.
-* 30 % bicycle lanes, 30 % secondary paved roads with low traffic and 10% dirt roads near the ocean.  
+* Percurso praticamente plano com algumas pequenas subidas inclinadas.
+* 30 % em ciclovias, 30 % estradas secundárias pavimentadas com pouco tráfego e 10% caminhos em terra perto do oceano. 
 
 \
 **Itenerário:**
@@ -382,3 +377,5 @@ Dia 7: Ericeira - Sintra (27 Km)
 Dia 8: Sintra - Cascais (40 Km) - parque natural Sintra- Cascais
 
 Dia 9: Partida
+
+![Silver Coast Bike tour map](/img/silver-coast-bike-tour-map.png)

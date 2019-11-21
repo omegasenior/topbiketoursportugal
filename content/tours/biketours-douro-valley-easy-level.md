@@ -23,10 +23,13 @@ tags:
 meta:
   description: >
     Remember that the Douro is a valley and despite the tour being classified as
-    easy, it is necessary to take this into consideration
+    easy, it is necessary to take this into consideration. For sure with an
+    electric bike it will be very easy for you to cycle near the Douro River.
+    Transfer included in our van to Douro Valley
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
+  robots: INDEX
   title: Cycling Tours - Douro Wine easy
 groupSizeMax: 1
 groupSizeMin: -2
@@ -144,7 +147,7 @@ pricing:
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'No'
       - title: Mechanical Assistance
@@ -158,53 +161,12 @@ pricing:
       - title: Liability Insurance
         value: 'No'
       - title: 6 Nights / 7 Days ( price per person)
-        value: 1.589 €
+        value: 1.489 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '2'
-    price: 1589
-    type: '1'
-  - bestValue: true
-    discount: 0
-    highSeasonPriceSupplement: 100
-    package: Guidedb bike tour
-    packageContents:
-      - icon: ✓
-        title: Accommodations W/ Breakfast
-        value: 'Yes (4 stars, farms or rural houses)'
-      - title: Luggage shuttling
-        value: 'Yes'
-      - title: Porto Airport Transfers
-        value: 'Yes'
-      - title: Trains or Bus Tickets
-        value: 'Yes'
-      - title: Van Support
-        value: minimum 8 pax
-      - icon: '-'
-        title: GPS With route per booking
-        value: ''
-      - title: Bike rent
-        value: 'Yes'
-      - title: Guide
-        value: 'Yes'
-      - title: Mechanical Assistance
-        value: 'Yes'
-      - title: 5 lunches
-        value: 'No'
-      - title: 5 Dinners
-        value: 'No'
-      - title: Personal Accident Insurance
-        value: 'Yes'
-      - title: Liability Insurance
-        value: 'Yes'
-      - title: 6 Nights / 7 Days ( price per person)
-        value: 1.945 €
-      - title: 'July, August and September Prices'
-        value: + 100 €
-      - title: Min. Participants
-        value: '4'
-    price: 1945
+    price: 1489
     type: '1'
   - bestValue: true
     discount: 0
@@ -221,11 +183,52 @@ pricing:
       - title: Trains or Bus Tickets
         value: 'Yes'
       - title: Van Support
+        value: minimum 8 pax
+      - icon: '-'
+        title: GPS With route per booking
+        value: ''
+      - title: Bike rent
+        value: extra 125 €
+      - title: Guide
+        value: 'Yes'
+      - title: Mechanical Assistance
+        value: 'Yes'
+      - title: 5 lunches
+        value: 'No'
+      - title: 5 Dinners
+        value: 'No'
+      - title: Personal Accident Insurance
+        value: 'Yes'
+      - title: Liability Insurance
+        value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.845 €
+      - title: 'July, August and September Prices'
+        value: '* 140 €'
+      - title: Min. Participants
+        value: '4'
+    price: 1842
+    type: '1'
+  - bestValue: true
+    discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour Plus
+    packageContents:
+      - icon: ✓
+        title: Accommodations W/ Breakfast
+        value: 'Yes (4 stars, farms or rural houses)'
+      - title: Luggage shuttling
+        value: 'Yes'
+      - title: Porto Airport Transfers
+        value: 'Yes'
+      - title: Trains or Bus Tickets
+        value: 'Yes'
+      - title: Van Support
         value: 'Yes'
       - title: GPS With route per booking
         value: 'Yes'
       - title: Bike rent
-        value: 'Yes'
+        value: extra 125 €
       - title: Guide
         value: 'Yes'
       - title: Mechanical Assistance
@@ -239,15 +242,14 @@ pricing:
       - title: Liability Insurance
         value: 'Yes'
       - title: 6 Nights / 7 Days ( price per person)
-        value: 2.556 €
+        value: 2.456 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 140 €'
       - title: Min. Participants
         value: '4'
-    price: 2556
+    price: 2456
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -256,8 +258,8 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Supplement for single room: 385 €
+  * Solo traveler: 280 €
   * Extra nights: on request
 feature:
   align: center
@@ -282,7 +284,7 @@ A cycling tour that combines the hospitality of wine making farms, with bike rid
 
 * Mostly steep. Up and down route.
 * 100 % paved roads with very low traffic.
-*  1895 meters of cumulative ascents.
+* 1895 meters of cumulative ascents.
 
 \
 **Itinerary:**
@@ -300,3 +302,5 @@ Day 5: Penedono – Marialva (30 km)
 Day 6: Marialva – Vila Nova de Foz Côa (22 km)
 
 Day 7: Departure
+
+![douro valley bicycle tour map](/img/douro-cycling-holiday-01-map.png)

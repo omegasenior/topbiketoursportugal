@@ -24,6 +24,7 @@ meta:
     Paisagens fenomenais e idílicas encontram-se inseridas neste circuito
     turístico, em que a bicicleta torna-se indispensável para percorrer a
     marginal 
+  robots: INDEX
   title: BIKE TOUR VINHO E GASTRONOMIA
 groupSizeMax: 1
 groupSizeMin: 1
@@ -163,10 +164,10 @@ feature:
 \
 Paisagens fenomenais e idílicas encontram-se inseridas neste circuito turístico, em que a bicicleta torna-se indispensável para percorrer a marginal do Rio Douro. Venha conhecer o tão divulgado Vinho do Porto e a sua marca legada nesta urbe, complementando com o famoso Café Majestic e entidades culturais que promovem e administram o Vinho, tais como o Instituto dos Vinhos do Douro e Porto, as Caves em Vila Nova de Gaia e o Museu dedicado a esta actividade de requinte e de degustação.
 
-\
-![Bike tour Wine and Gastournomy](/img/img_20150910_114349.jpg "Bike tour Wine and Gastournomy")
 
-\
+
+![BIKE TOUR -Food tour map](/img/sightseeing-porto-bike-tour.png)
+
 \
 **Detalhes do tour:**
 
@@ -181,8 +182,6 @@ Paisagens fenomenais e idílicas encontram-se inseridas neste circuito turístic
 * Prova de degustação vinícola;
 * Visita a cave do vinho do Porto;
 * Almoço ou jantar ( bebidas alcoolicas não incluidas).
-
-
 
 \
 **Observações:**

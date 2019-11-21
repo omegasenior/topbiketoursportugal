@@ -3,11 +3,11 @@ const languages = require("./src/data/languages");
 module.exports = {
   siteMetadata: {
     title: "Top Bike Tours Portugal",
-    siteUrl: "https://boring-kepler-5712ff.netlify.com/",
+    siteUrl: "https://topbiketoursportugal.com/",
     description: `
     Top Bike Tours Portugal is a provider of holiday’s packages and routes, which offers an incredible holiday experience, entertainment and leisure activities based on quality and value.
     `,
-    canonicalUrl: "https://www.topbiketoursportugal.com",
+    canonicalUrl: "https://www.topbiketoursportugal.com/",
     image: "https://www.topbiketoursportugal.com/images/jason-lengstorf.jpg",
     author: {
       name: "Top Bike Tours Portugal",
@@ -71,35 +71,23 @@ module.exports = {
     //   resolve: 'gatsby-plugin-google-tagmanager',
     //   options: {
     //     /*id: 'GTM-add_your_tag_here',*/
-    //     id: 'GTM-P4RNF8D',
+    //     id: 'GTM-NG8ZHTH',
     //     includeInDevelopment: false
     //   }
     // },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
-    //     head: false,
-    //     // Setting this parameter is optional
-    //     anonymize: true,
-    //     // Setting this parameter is also optional
-    //     respectDNT: true,
-    //     // Avoids sending pageview hits from custom paths
-    //     exclude: ["/preview/**", "/do-not-track/me/too/","/admin"],
-    //     // Delays sending pageview hits on route update (in milliseconds)
-    //     pageTransitionDelay: 0,
-    //     // Enables Google Optimize using your container Id
-    //     optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-    //     // Enables Google Optimize Experiment ID
-    //     experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
-    //     // Set Variation ID. 0 for original 1,2,3....
-    //     variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
-    //     // Any additional optional fields
-    //     sampleRate: 5,
-    //     siteSpeedSampleRate: 10,
-    //     cookieDomain: "example.com",
-    //   }
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-106573860-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true
+        // Avoids sending pageview hits from custom paths
+      }
+    },
     // {
     //   resolve: "gatsby-plugin-i18n",
     //   options: {
@@ -126,14 +114,13 @@ module.exports = {
     //     }
     //   }
     // },
-    // {
-    //   resolve: `gatsby-plugin-tawk`,
-    //   options: {
-    //     tawkId: "5862998cddb8373fd2b445cf",
-    //     widgetId: "1b50j8hpi"
-    //     // get this from the tawk script widget
-    //   }
-    // },
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "5862998cddb8373fd2b445cf"
+        // get this from the tawk script widget
+      }
+    },
     `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-plugin-sass",
@@ -296,7 +283,40 @@ module.exports = {
         showSpinner: true
       }
     },
-    "gatsby-plugin-sitemap",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+      
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7
+            };
+          })
+      }
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]

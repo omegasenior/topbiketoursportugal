@@ -22,11 +22,18 @@ tags:
   - e-bike
   - electric bicycle
   - Spain
+  - atlantic coast
 meta:
-  description: |
-    Pedale pela costa, no percurso mais fácil até Santiago de Compostela
-  keywords: 'Pedale pela costa, no percurso mais fácil até Santiago de Compostela'
-  title: Santiago de Compostela - Caminho da Costa "fácil"
+  description: >
+    Pedale pela costa, no percurso mais fácil até Santiago de Compostela. Não se
+    preocupe com a logistica, pois vamos organizar tudo nas suas ferias em
+    bicicleta.Vamos pedalar na ponte sobre o rio Lima e o rio Minho entrando
+    depois no Norte de Espanha e Galiza.
+  keywords: >-
+    passeio de bicicleta santiago de compostela, passeio guiado até santiago de
+    compostela, bike tour porto a santiago de compostela
+  robots: INDEX
+  title: Porto a Santiago de Compostela bike toiur - Caminho da Costa "fácil"
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 2
@@ -324,11 +331,7 @@ feature:
 \
 O caminho de Santiago pela costa apresenta-se como uma alternativa fácil, quando comparado com os percursos Portugueses mais tradicionais. O destino final permanece o mesmo, porém os desafios estão assim ao alcance da grande maioria dos ciclistas.
 
-
-
 Antes do início da peregrinação até Santiago de Compostela, desfrute connosco de um passeio pela cidade do Porto. Ficará assim a conhecer um pouco da sua arquitectura, do seu património e tradições locais. 
-
-
 
 Com o decorrer desta jornada até Santiago, passe por diversos destinos de muito sol e praia, como é o caso de Esposende, Caminha e Bayona. Desfrute das famosas ostras de Arcade e entenda porque Caldas de Reis detém relevância nobiliárquica. Por fim atingiremos a Praça de Obradoiro, onde se ergue a colossal catedral barroca que oferece sepultura ao restos mortais do apóstolo Santiago.
 
@@ -356,5 +359,4 @@ Dia 6: Pontevedra – Caldas dos Reis (26 km)
 
 Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
-\
-'
+![](/img/santiago-pela-costa.png)

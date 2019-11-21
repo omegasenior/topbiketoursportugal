@@ -39,19 +39,21 @@ team:
     name: Henrique Vareta
     role: Guia
   - bio: >-
-      Marta was born in 1996: "Since I was a little girl, my biggest dream has
-      ever been to become a tourist guide, because I love to discover new people
-      and new ways of thinking. I went to the university to study tourism and,
-      in the end of all of it, this job opportunity appeared in my way. During a
-      whole month period, my colleagues prepared me to become an expert in this
-      field, being supportive all along the way. Finally I had my first tour. It
-      wasn’t long after that I also had my first review. That was, in itself,
-      the best payment anyone could ever have had, because in this way I touched
-      the heart of the people by showing them the amazing culture my city has to
-      offer. I am a sports girl. I practiced badminton, karate, swimming and the
-      bicycle was my transportation for everywhere. I speak English and Spanish,
-      and my joy is to take my time to make your vacations worthwhile and
-      memorable."
+      A Marta nasceu em 1996: "Desde pequena que o meu maior sonho era tornar me
+      Guia Turística, porque tenho um grande gosto em conhecer novas pessoas e
+      em novas maneiras de pensar. No momento de decidir o meu futuro, entrei na
+      universidade para estudar Turismo e, no fim de longos 3 anos, esta
+      oportunidade de trabalho apareceu no meu caminho. Durante um longo período
+      de tempo os meus colegas prepararam-me para me tornar numa profissional no
+      terreno, apoiando-me ao longo do caminho. Finalmente tive o meu primeiro
+      "tour". Não demorou muito depois disso e tive as minhas primeiras
+      "reviews". Tal tornou-se o melhor pagamento que alguém pode ter, porque
+      desta forma eu posso tocar no coração das pessoas, mostrando a magnífica
+      cultura que a minha cidade tem para oferecer. Sou uma mulher desportiva,
+      pratico badminton, karate, natação e a bicicleta era o meu meio de
+      transporte para todo o lado. Falo Inglês e Espanhol, e a minha vontade é
+      tornar as férias de quem nos visita e a cidade do Porto numa memorável
+      experiência para os nossos clientes"
     image: /img/marta.jpg
     name: Marta Pereira
     role: Guia
@@ -62,8 +64,8 @@ team:
       diferentes culturas, aplicando esse conhecimento ao negócio da empresa
       Fold n’Visit. João fala fluentemente Inglês, Espanhol, Francês e
       Português., Tendo uma vasta experiência como guia para passeios pela
-      cidade e viagens de bicicleta. When available he participates in guided
-      bike tours.
+      cidade e viagens de bicicleta. !O José participa ocasionalmente nos nossos
+      passeios guiados.
     image: /img/josé.jpg
     name: José Nogueira
     role: Guia
@@ -86,14 +88,15 @@ team:
       para Fátima e a Grande Rota das 22 aldeias históricas de Portugal. Desde
       2007 ele organiza grupos de ciclismo. É esta sua paixão por este desporto,
       pessoas e geografia deste pequeno canto da Península Ibérica, que o leva a
-      partilhar o seu conhecimento adquirido. Todos são bem-vindos!Pedro
-      occasionally participates in guided bike tours, when he is available.
+      partilhar o seu conhecimento adquirido. Todos são bem-vindos!O Pedro
+      participa ocasionalmente nos nossos passeios guiados.
     image: /img/team/pedro_oliveira.jpg
     name: Pedro Oliveira
     role: Guia
 meta:
   description: Sobre a empresa Topbiketoursportugal e os seus guias
   keywords: Sobre a empresa Topbiketoursportugal e os seus guias
+  robots: INDEX
   title: Sobre -nós
 feature:
   align: center
@@ -104,27 +107,26 @@ feature:
 ---
 # Sobre nós
 
+Fundada em 2013, a Top Bike tours Portugal é uma empresa que se dedica à venda de passeios pela cidade do Porto e pacotes de longa distância a pé e de bicicleta pela Península Ibérica. As nossas actividades são coordenadas por profissionais de Turismo com um extenso conhecimento em património.
 
-Founded in 2013, Top Bike tours Portugal is a company with experience in pedestrian and cycling tours in the city of Porto and long distance cycling routes to the north of the Iberian Peninsula and all around Portugal. Our activities are coordinated by tourism professionals, with a huge knowledge on heritage and sports.
+Em 2017 o nome da empresa foi alterado de "Fold n' Visit" para "Top Biketours Portugal".
 
-In the end of 2017 we have changed our previous name "Fold n' Visit" to "Top Biketours Portugal".
-
-Since 2013 we have a big offer of diferent city tours in Porto. Nowadays our core business is the creation of cycling holiday packages. The city tours' offer was reduced, as well as the bike renting business for longer distances. It is possible to follow our history in Tripadvisor reviews.
+Desde 2013 que apresentamos uma grande oferta de passeios pela cidade do Porto. Hoje em dia o principal negócio da empresa é a criação de pacotes de passeios em bicicleta. Como tal, a oferta de passeios citadinos tem vindo a ser reduzida, assim como o aluguer de bicicletas para longas distâncias. É possível seguir a nossa história nas reviews do Tripadvisor.
 
 ![](/img/guided-bike-tour-in-douro-valley.jpg)
 
 # O que fazemos?
 
-A Top Bike tours Portugal é uma operadora de pacotes de férias e de percursos, que oferece uma experiência de férias e de atividades de animação e lazer com base na qualidade e valor.
+A Top Bike tours Portugal é uma operadora de pacotes de férias e de percursos, que oferece experiências de lazer e animação com base na qualidade e no valor.
 
-O nosso principal produto, as Cycling Holidays, este é um serviço, guiado ou não guiado, ao longo de uma semana, comportando pacotes de férias de bicicleta com base em alojamento luxuoso e algumas refeições. Este pacote de férias testado engloba não só a vertente de cicloturismo, mas também atribui uma grande ênfase à história, arquitetura, gastronomia e enologia local.
+O nosso principal produto, passeios em bicicleta de longa distância, é um serviço guiado ou não guiado, ao longo de uma semana, com base em alojamento luxuoso e algumas refeições. Este pacote de férias engloba não só a vertente de cicloturismo, mas também atribui um grande ênfase à história, arquitectura, gastronomia e enologia local.
 
 Estamos aqui para garantir que você tenha as melhores férias possíveis!
 
-Sabemos que todos são diferentes e individuais, com diferentes necessidades, objetivos e expetativas. Mesmo assim, acreditamos que com a nossa experiência, somos capazes de conseguir satisfazer as suas necessidades, objetivos e exigências!
+Sabemos que todos são diferentes e individuais, com diferentes necessidades, objectivos e expectativas. Mesmo assim, acreditamos que com a nossa experiência, somos capazes de conseguir satisfazer as suas necessidades, objectivos e exigências!
 
 https://www.youtube.com/watch?v=zO2uuYBtgt4&t=1s
 
 # Como nasceu a Top Bike tours Portugal ?
 
-Tudo surgiu da experiência do proprietário, enquanto cicloturista, que decidiu superar todas as dificuldades e realizar uma viagem de bicicleta até Santiago de Compostela. Começámos por ser uma loja focalizada apenas no aluguer de bicicletas e manutenção das mesmas. Contudo, os objetivos do proprietário eram muito maiores e, sem dúvida, relacionados com o turismo. Nasceu a Top Bike tours Portugal , procurando a prestação de um serviço adequado às necessidades do cliente, demostrando o melhor que o cicloturismo tem para oferecer, sem o stress organizacional e proporcionar assim a melhor experiência possível, cujo valor é o ingrediente chave na satisfação final do cliente.
+Tudo surgiu da própria experiência do proprietário enquanto cicloturista, que decidiu superar todas as dificuldades e realizar uma viagem de bicicleta até Santiago de Compostela. Começámos por ser uma loja focada apenas no aluguer de bicicletas e na manutenção das mesmas. Contudo os objectivos do proprietário eram muito maiores e, sem dúvida, relacionados com turismo. Nasceu assim a Top Bike tours Portugal, procurando a prestação de um serviço adequado às necessidades do cliente, demonstrando o melhor que o cicloturismo tem para oferecer, sem o stress de ter de planear e organizar tudo, proporcionando assim a melhor experiência possível, cujo valor é o ingrediente chave na satisfação final do cliente.

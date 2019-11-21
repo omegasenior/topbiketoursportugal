@@ -105,25 +105,27 @@ descriptionafter: >-
   guided Bike tours.
 meta:
   description: >-
-    Select your bike tour from our cycling tour list. Decide where to go with us
-    in your next cycling Holiday in Portugal. For recreational cyclists or
-    challenge routes
+    Cycle all around Portugal with us. In Self Guided or guided bike tours all
+    the support will be guaranteed. Luggage transference, bicycle rental, four
+    star accommodations, great scenery will be prepared for you. Hibrid
+    bicycles, mountain bikes and electric bicycles available.
   keywords: >-
-    Cycling Tours Portugal, cycling holidays in nature,bike tours, bike tours
-    portugal,guided bike tours
-  title: Bike tours Portugal - Bicycle tours Portugal
+    Cycling Tours Portugal, cycling holidays portugal,bike tours portugal,
+    guided bike tours, cycle portugal
+  robots: INDEX
+  title: Bike tours Portugal -Cycling Holidays
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
   imageAlign: center
   subtitle: The Camino Bicycle tour
   textcolor: white
-  title: The Way of St. James - The Coast Route "easy"
+  title: Guided and unguided cycling tours Portugal
 ---
 # 
 
-# Bike tours Portugal | Cycling Tours
+# Bike tours Portugal | Cycling Holidays
 
-## Guided and unguided cycle tours Portugal
+
 
 ##

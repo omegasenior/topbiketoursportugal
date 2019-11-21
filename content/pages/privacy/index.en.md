@@ -1,4 +1,5 @@
 ---
+templateKey: about-page
 path: /privacy-policy
 title: Privacy Policy
 meta:

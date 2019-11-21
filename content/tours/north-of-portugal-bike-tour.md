@@ -6,7 +6,7 @@ productcode: NORTH 01
 featured: true
 language: en
 image: /img/ponte-de-lima.jpg
-title: North of Portugal Bike tour
+title: North of Portugal and Minho cycling holiday
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -21,8 +21,13 @@ tags:
 meta:
   description: >-
     The oldest village, the river and the sea in one bike tour around the North
-    of Portugal.
-  keywords: North and Minho bike tour
+    of Portugal. Explore the nature and cycling near the Lima and Minho river.
+    At the end of your cycling day tour taste de "vinho verde" wine. electric
+    bicycle available
+  keywords: >-
+    North and Minho bike tour, cyling holiday north of portugal, minho bike
+    tour,
+  robots: INDEX
   title: North and Minho Bike tour
 groupSizeMax: 1
 groupSizeMin: 1
@@ -216,9 +221,9 @@ pricing:
       - title: Mechanical Assistance
         value: 'yes'
       - title: 5 lunches
-        value: 'yes'
+        value: 'No'
       - title: 5 Dinners
-        value: 'yes'
+        value: 'No'
       - title: Personal Accident Insurance
         value: 'yes'
       - title: Liability Insurance
@@ -292,7 +297,7 @@ feature:
   textcolor: white
   title: Guided and unguided cycling tours Portugal
 ---
-# North of Portugal Bike tour
+# North of Portugal and Minho cycling holiday
 
 ## Cycling in the oldest Village of Portugal along the river side and the sea
 
@@ -328,9 +333,11 @@ Day 6 – Esposende – Porto (60km)
 
 Day 7 - Departure
 
+![Map north and minho bike tour](/img/map-north-and-minho-bike-tour.png)
+
 \
 \
-_**Reduced option:** _
+**Reduced option:** 
 
 \
 **Route classification:** Easy 
@@ -351,4 +358,5 @@ Day 5: Viana do Castelo – Ponte de Lima (26 Km)
 Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Valdevez 28 km)
 
 Day 7: Departure
-****
+
+![Map north and minho bike tour short route](/img/map-north-and-minho-bike-tour-short-route.png)

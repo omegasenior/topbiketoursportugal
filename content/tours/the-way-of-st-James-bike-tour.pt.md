@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Passeios de bicicleta guiados portugal - Santiago de Compostela, caminho
     francês
+  robots: INDEX
   title: 'Santiago de Compostela, Caminho Francês | Top Bike tours Portugal'
 groupSizeMax: 1
 groupSizeMin: 20
@@ -301,7 +302,6 @@ pricing:
     price: 4180
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -309,9 +309,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 300 €
+  * Supplement for single room: 650 €
+  * Solo traveler: 430 €
   * Extra nights: on request
 feature:
   align: center
@@ -327,8 +327,6 @@ feature:
 
 Going from Saint Jean Pied de Port, in the Pyrenees, all the way to Santiago de Compostela, the French way is probably the most known route of the St. James Way. Its use goes back to the IXth century, when the route only extended from Oviedo to Santiago de Compostela.
 
-
-
 Thousands of pilgrims choose this amazing route each year, not only for its authenticity, but also for all the amazing places one finds him/herself in, while on the road.
 
 **Route description:**
@@ -340,32 +338,36 @@ Thousands of pilgrims choose this amazing route each year, not only for its auth
 **Itinerary:**
 
 \
-Day 1 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
+Day 1 - Saint-Jean-Pied-De-Port Reception
 
-Day 2 -  Roncesvalles - Puente la Reina / 67 km (94)
+Day 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
 
-Day 3 -  Puente la Reina - Logrono / 76 km (170)
+Day 3 -  Roncesvalles - Puente la Reina / 67 km (94)
 
-Day 4 -  Logrono - Santo Domingo / 52 km (222)
+Day 4 -  Puente la Reina - Logrono / 76 km (170)
 
-Day 5 -  Santo Domingo - Burgos /72 km (294)
+Day 5 -  Logrono - Santo Domingo / 52 km (222)
 
-Day 6 -  Burgos - Carrión de los Condes / 85 km (379)
+Day 6 -  Santo Domingo - Burgos /72 km (294)
 
-Day 7 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
+Day 7 -  Burgos - Carrión de los Condes / 85 km (379)
 
-Day 8 -  León (Descanso)
+Day 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
 
-Day 9 -  León - Astorga / 51 km (527)
+Day 9 -  León (Descanso)
 
-Day 10 -  Astorga - Cacabelos / 70 km (597)
+Day 10 -  León - Astorga / 51 km (527)
 
-Day 11 -  Cacabelos – Tríacastela / 55 km (652)
+Day 11 -  Astorga - Cacabelos / 70 km (597)
 
-Day 12 -  Tríacastela - Portomarin / 46 km (698)
+Day 12 -  Cacabelos – Tríacastela / 55 km (652)
 
-Day 13 -  Portomarin - Melide 62 Km / 39 km (737)
+Day 13 -  Tríacastela - Portomarin / 46 km (698)
 
-Day 14 -  Melide - Santiago de Compostela / 54 km (791)
+Day 14 -  Portomarin - Melide 62 Km / 39 km (737)
 
-Day 15 -  Santiago de Compostela – Partida
+Day 15 -  Melide - Santiago de Compostela / 54 km (791)
+
+Day 16 -  Santiago de Compostela – Partida
+
+![](/img/mapa-santiado-compostela-french-way.png)

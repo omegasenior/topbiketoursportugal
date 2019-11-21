@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: en
 image: /img/praia-do-norte-nazare.jpg
-title: The Silver Coast Bike tour - Route 2
+title: The Silver Coast route 2 -West Coast and Sintra
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -23,10 +23,16 @@ tags:
   - electric bicycle
 meta:
   description: >
-    From Coimbra to Cascais or Lisbon in a bicycle. Cycling near the sea and
-    expect some climbs in this great bike tour
-  keywords: 'Cycling tour Lisbon, bike tours coimbra, bike tour silver Coast'
-  title: Silver Coast Moderate route 2
+    From Figueira da Foz to Cascais or Lisbon in a bicycle. Cycling near the sea
+    and expect some climbs in this great bike tour. Must visit Sintra after your
+    cycling tour day vacation. and taste the deliciouse and traditional
+    "Travesseiro" pastery. This is an easy bicycle tour if an electric bicycle
+    is used.
+  keywords: >-
+    cycling vacations Lisbon, bike tours west coast of portugal, bike tour
+    silver Coast, bicycle tours sintra
+  robots: INDEX
+  title: Silver Coast route 2- West Coast and Sintra
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -196,6 +202,7 @@ gallery:
 pricing:
   - bestValue: true
     discount: 0
+    highSeasonPriceSupplement: 100
     package: Self Guided bike tour
     packageContents:
       - title: Accommodations W/ Breakfast
@@ -227,13 +234,14 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.858 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '2'
-    highSeasonPriceSupplement: 100
     price: 1858
     type: '1'
-  - package: Guided bike tour
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -266,14 +274,14 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 2.367 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 2367
     type: '1'
-  - package: Guided bike tour PLUS*
+  - discount: 0
+    highSeasonPriceSupplement: 100
+    package: Guided bike tour PLUS*
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
@@ -306,15 +314,12 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 3.123 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 120 €'
       - title: Min. Participants
         value: '4'
-    discount: 0
-    highSeasonPriceSupplement: 100
     price: 3123
     type: '1'
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -322,9 +327,9 @@ afterpricing: |-
 
   **Extras**
 
-  * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
-  * Solo traveler: 200 €
+  * Electric bicycles price: 200€
+  * Supplement for single room: 450 €
+  * Solo traveler: 250 €
   * Extra nights: on request
 feature:
   align: center
@@ -334,7 +339,7 @@ feature:
   textcolor: white
   title: Guided and unguided cycling tours Portugal
 ---
-# Silver Coast Bike tour- Route 2
+# Silver Coast Bike tour- West Coast and Sintra
 
 ## Discover the wealth of land and sea on the famous Portuguese coast
 
@@ -352,7 +357,6 @@ Monuments, like the "Castelo da Pena" and the "Castelo de Óbidos" will bring yo
 
 * Mostly flat. Some short and steep climbs.
 * 30 % bicycle lanes, 30 % secondary paved roads with low traffic and 10% dirt roads near the ocean.  
-
 
 \
 **Itinerary:**
@@ -374,3 +378,5 @@ Day 7: Ericeira – Sintra (27 Km)
 Day 8: Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 
 Day 9: Departure
+
+![Silver Coast Bike tour map](/img/silver-coast-bike-tour-map.png)

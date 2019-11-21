@@ -13,7 +13,7 @@ class GoogleMap extends Component {
       lat: 41.14961,
       lng: -8.61099
     },
-    zoom: 14
+    zoom: 17
   };
 
   render() {
@@ -26,7 +26,7 @@ class GoogleMap extends Component {
             lat: 41.14961,
             lng: -8.61099
           }}
-          defaultZoom={this.props.zoom}
+          defaultZoom={15}
         >
           {this.props.locations &&
             this.props.locations.length > 0 &&
@@ -35,14 +35,14 @@ class GoogleMap extends Component {
                 key={`m` + index}
                 lat={location.lat}
                 lng={location.lng}
-                text={location.text || ""}
+                text={location.text || "Top bike tours portugal"}
               />
             ))}
           {this.props.location && (
             <Marker
-              lat={41.14961}
-              lng={-8.61099}
-              text={this.props.location.text || ""}
+              lat={this.props.location.lat}
+              lng={this.props.location.lng}
+              text={this.props.location.text || "Top bike tours portugal"}
             />
           )}
         </GoogleMapReact>
