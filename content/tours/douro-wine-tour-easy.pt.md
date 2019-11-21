@@ -22,11 +22,16 @@ tags:
   - electric bicycle
 meta:
   description: >
-    O Vale do Douro, considerado Património Natural, é um fenómeno da natureza,
-    sendo bastante procurado pelas suas quintas. Pedale connosco nesta viagem.
-  keywords: Cycling Tours wine tour
+    Pedale perto do rio Douro e nos vales do Douro e desfrute de excelentes
+    vistas sobre as quintas e os vinhedos.O Vale do Douro, classificado como
+    Património Natural, é hoje uma obra-prima da natureza, muito procurada pelas
+    vilas, casas e vinhas. Bicicletas elétricas disponíveis para facilitar o seu
+    passeio.
+  keywords: >-
+    passeios de bicicleta no douro, tours em bicicleta no rio douro, ferias em
+    bicicleta no vale do douro
   robots: INDEX
-  title: 'Bike Tours - Douro Wine tour '
+  title: Vale do Douro em bicicleta
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
