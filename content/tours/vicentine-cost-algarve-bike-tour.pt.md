@@ -15,23 +15,28 @@ tags:
   - Cycling Holiday
   - Alentejo
   - Lisbon
-  - South
+  - Southwest
   - Center
   - Algarve
   - Mountain bicycle
   - touring bicycle
   - e-bike
   - electric bicycle
+  - ''
   - vicentine Coast
+  - atlantic coast
 meta:
   description: >-
-    Comece em Lisboa ou em Sines neste incrível passeio de bicicleta pelo sul da
-    costa de Portugal .... passeio de bicicleta selvagem, natural e silencioso
+    Comece em Lisboa ou em Sines neste incrível passeio de bicicleta pelo
+    sudoeste da costa de Portugal .... passeio de bicicleta selvagem, natural e
+    silencioso. Delicie-se com as deslumbrantes parais junto ao oceano
+    Atlântico. Passeios guiados e em autonomia disponiveis. Pode ser reservadas
+    bicicletas de montanha ou electricas
   keywords: >-
-    Costa Vicentina ao Algarve, passeio bicicleta em lisboa, passeio de
-    bicicleta alentejo, passeio bicicleta algarve
+    Costa Vicentina ao Algarve bike tour, passeio bicicleta em pelo sudoeste de
+    portugal, 
   robots: INDEX
-  title: Costa Vicentina até ao Algarve
+  title: Costa Vicentina e Algarve - Costa Sudoeste de Portugal
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
