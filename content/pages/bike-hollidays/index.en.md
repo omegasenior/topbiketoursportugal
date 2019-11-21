@@ -113,7 +113,7 @@ meta:
     Cycling Tours Portugal, cycling holidays portugal,bike tours portugal,
     guided bike tours, cycle portugal
   robots: INDEX
-  title: Bike tours Portugal - Bicycle tours Portugal
+  title: Bike tours Portugal -Cycling Holidays
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
