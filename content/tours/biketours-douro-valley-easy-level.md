@@ -282,7 +282,7 @@ A cycling tour that combines the hospitality of wine making farms, with bike rid
 
 * Mostly steep. Up and down route.
 * 100 % paved roads with very low traffic.
-*  1895 meters of cumulative ascents.
+* 1895 meters of cumulative ascents.
 
 \
 **Itinerary:**
@@ -300,3 +300,5 @@ Day 5: Penedono – Marialva (30 km)
 Day 6: Marialva – Vila Nova de Foz Côa (22 km)
 
 Day 7: Departure
+
+![](/img/douro-cycling-holiday-01-map.png)
