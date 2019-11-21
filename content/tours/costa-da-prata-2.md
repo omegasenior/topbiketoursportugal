@@ -353,7 +353,6 @@ Monuments, like the "Castelo da Pena" and the "Castelo de Óbidos" will bring yo
 * Mostly flat. Some short and steep climbs.
 * 30 % bicycle lanes, 30 % secondary paved roads with low traffic and 10% dirt roads near the ocean.  
 
-
 \
 **Itinerary:**
 
@@ -374,3 +373,5 @@ Day 7: Ericeira – Sintra (27 Km)
 Day 8: Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 
 Day 9: Departure
+
+![Silver Coast Bike tour map](/img/silver-coast-bike-tour-map.png)
