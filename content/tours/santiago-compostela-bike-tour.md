@@ -355,3 +355,5 @@ Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
 \
 '
+
+![](/img/santiago-pela-costa.png)
