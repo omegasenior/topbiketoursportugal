@@ -25,6 +25,7 @@ meta:
   keywords: >-
     SIGHTSEEING City Tour no Porto, circuitos em bicicleta, actividades em
     bicicleta, ferias em bicicleta
+  robots: INDEX
   title: 'SIGHTSEEING BIKE CITY TOUR NO PORTO '
 difficulty: 0
 rating: []
@@ -156,9 +157,7 @@ feature:
 \
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
 
-![Porto city bike tour](/img/44817961982_440e783762_o.jpg "Porto city bike tour")
-
-
+![Porto city bike tour](/img/sightseeing-porto-bike-tour.png "Porto city bike tour")
 
 **Tour detail:**
 
