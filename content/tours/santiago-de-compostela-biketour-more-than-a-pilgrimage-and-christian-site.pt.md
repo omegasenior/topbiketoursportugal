@@ -26,6 +26,7 @@ meta:
   keywords: >-
     Cycling Tours, santiago de compostela, turismo religioso, bicicleta,
     peregrino, portugal, galiza
+  robots: INDEX
   title: 'Cycling Tours - Santiago de Compostela '
 distance: 243
 distanceUnit: Km
@@ -278,8 +279,6 @@ feature:
 \
 Santiago de Compostela, in Northwest Spain, province of Corunha, is internationally known as one of the main destinations for Christian pilgrimage. The typical markets are an excellent location to explore delicious Galician products and traditional arts.
 
-
-
 During your bicycle tour you will discover ancient medieval roads and paths, formerly used during the Portuguese pilgrimage to Santiago de Compostela. This path was walked by kings and queens and is nowadays considered one of UNESCO's World Heritage cultural and historical routes.
 
 \
@@ -306,3 +305,5 @@ Day 5: Pontevedra – Padrón (43 km)
 Day 6: Padrón – Santiago de Compostela (28 km)
 
 Day 7: Transfer train to Porto
+
+![](/img/the-way-of-st-james-starting-porto.png)
