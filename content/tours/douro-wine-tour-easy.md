@@ -298,30 +298,18 @@ Port Wine is undoubtedly the most famous product of this region. Douro comes to 
 
 Day1: Porto – Pinhão (110 km, transfer de comboio)
 
-
-
 Day 2: Pinhão – Vila Nova de Foz Côa (74 km)
-
-
 
 Day 3: Vila Nova de Foz Côa – Figueira de Castelo Rodrigo (42 km)
 
-
-
 Day 4: Figueira de Castelo Rodrigo – Marialva (60 km)
-
-
 
 Day 5: Marialva – Penedono (27 km)
 
-
-
 Day 6: Penedono loop (40 km)
-
-
 
 Day 7: Penedono – Régua (52 km)
 
-
-
 Day 8: Transfer by train to Porto
+
+![cycling near the douro river map](/img/douro-cycling-holiday-02-map.png)
