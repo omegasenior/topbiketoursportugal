@@ -28,6 +28,7 @@ meta:
   keywords: >-
     Cycling Tours Silver Coast, percursos na natureza em bicicleta,ACTIVE BIKE
     TOURISM, atlantic cycling holiday
+  robots: INDEX
   title: The Silver Coast bike tour near the Atlantic ocean
 groupSizeMax: 1
 groupSizeMin: -2
@@ -323,3 +324,5 @@ Day 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 Day 6 - Figueira da Foz - Coimbra ( 55 Km)
 
 Day 7 - Transfer
+
+![Grean Coast cycling holiday from Porto to Coimbra](/img/grean-coast-cycling-holiday-from-porto-to-coimbra.png)
