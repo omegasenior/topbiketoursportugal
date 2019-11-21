@@ -22,10 +22,14 @@ tags:
   - electric bicycle
 meta:
   description: >
-    The Valley of the Douro, classified as Natural Heritage, is nowadays an
-    ultimate masterpiece of nature, very well sought by its villae, houses and
-    vineyards.
-  keywords: 'Douro, landscape, bicycle, wine, vineyards '
+    Cycle near the Douro river and in the  Douro valleys expect great views of
+    the farms and the vinyards.The Valley of the Douro, classified as Natural
+    Heritage, is nowadays an ultimate masterpiece of nature, very well sought by
+    its villae, houses and vineyards. Electric bicycles available to make your
+    ride easyer.
+  keywords: >-
+    cycling holidays douro valley, bike tour douro valley, douro river bicycle
+    tour, cycle douro valley
   robots: INDEX
   title: ' Douro Valley bike tour '
 groupSizeMax: 1
