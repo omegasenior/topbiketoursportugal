@@ -26,6 +26,7 @@ meta:
   description: |
     Pedale pela costa, no percurso mais fácil até Santiago de Compostela
   keywords: 'Pedale pela costa, no percurso mais fácil até Santiago de Compostela'
+  robots: INDEX
   title: Santiago de Compostela - Caminho da Costa "fácil"
 groupSizeMax: 1
 groupSizeMin: -2
@@ -324,11 +325,7 @@ feature:
 \
 O caminho de Santiago pela costa apresenta-se como uma alternativa fácil, quando comparado com os percursos Portugueses mais tradicionais. O destino final permanece o mesmo, porém os desafios estão assim ao alcance da grande maioria dos ciclistas.
 
-
-
 Antes do início da peregrinação até Santiago de Compostela, desfrute connosco de um passeio pela cidade do Porto. Ficará assim a conhecer um pouco da sua arquitectura, do seu património e tradições locais. 
-
-
 
 Com o decorrer desta jornada até Santiago, passe por diversos destinos de muito sol e praia, como é o caso de Esposende, Caminha e Bayona. Desfrute das famosas ostras de Arcade e entenda porque Caldas de Reis detém relevância nobiliárquica. Por fim atingiremos a Praça de Obradoiro, onde se ergue a colossal catedral barroca que oferece sepultura ao restos mortais do apóstolo Santiago.
 
@@ -355,6 +352,3 @@ Dia 5: Baiona – Pontevedra (64 km)
 Dia 6: Pontevedra – Caldas dos Reis (26 km)
 
 Dia 7: Caldas dos Reis – Santiago de Compostela (40 km)
-
-\
-'
