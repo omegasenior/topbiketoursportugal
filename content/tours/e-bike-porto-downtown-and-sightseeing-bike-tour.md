@@ -23,6 +23,7 @@ meta:
     your private group. The city center, the river and sea, all 3 diferent views
     of porto city
   keywords: Electric bike tour Porto
+  robots: INDEX
   title: Electric bike tour Porto
 itinerary:
   - day: '1'
@@ -114,16 +115,16 @@ gallery:
     image: /img/img_20150728_115402.jpg
 pricing:
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Group Price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 35
   - bestValue: false
+    discount: 0
+    highSeasonPriceSupplement: 100
     package: Private Price per person
     packageContents: []
-    highSeasonPriceSupplement: 100
-    discount: 0
     price: 65
 feature:
   align: center
@@ -138,6 +139,8 @@ feature:
 Benefiting from the office's location, the tour starts high up in the city, allowing for an easy bike ride down the center of the city. Meeting the city's main river an ocean, and with all introductions aside, will enable you for a ride along side their clear water and enjoying the wonderful landscapes that give them shape. You will have time to experience all the arquitecture of the city and feel first hand how it slowly grew towards the ocean.
 
 NOTE: The tour can be shared with non e-bike clients.
+
+![e bike tour map porto](/img/sightseeing-porto-bike-tour.png)
 
 **Tour detail:**
 
