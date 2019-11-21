@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: pt
 image: /img/praia-do-norte-nazare.jpg
-title: Costa da Prata – Porto a Coimbra
+title: 'Costa da Prata – Sintra e Costa Azul :Rota 2'
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -23,13 +23,17 @@ tags:
   - electric bicycle
 meta:
   description: >-
-    VEM CONHECER A COSTA DE PORTUGAL EM BICICLETA E A CONHECIDA A COSTA DA PRATA
-    junto ao mar do Atlantico
+    Da Figueira da Foz a Cascais ou Lisboa de bicicleta. Pedale de bicicleta
+    perto do mar e espere algumas subidas neste maravilhoso passeio de
+    bicicleta. Deve visitar Sintra após o seu dia de passeio de bicicleta. e
+    deguste o tradicional pastel o travesseiro.
+
+    Costa Oeste e Sintra.
   keywords: >-
-    Cycling Tours costa da prata, costa da prata em bicicleta, mar do atlanticco
-    em bicicleta
+    Cycling Tours costa da prata, costa da prata em bicicleta, costa azul em
+    bicicleta, bike tours lisboa
   robots: INDEX
-  title: 'Cicloturismo Portugal - Coast da Prata '
+  title: 'Costa da Prata – Sintra e Costa Azul :Rota 2'
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
@@ -337,7 +341,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# Costa da Prata – Rota 2
+# Costa da Prata – Sintra e Costa Azul :Rota 2
 
 ## Descubra a riqueza da natureza e do mar pela famosa costa portuguesa
 
