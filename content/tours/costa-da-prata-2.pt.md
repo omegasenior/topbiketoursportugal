@@ -344,11 +344,7 @@ feature:
 \
 Este passeio de bicicleta apresenta-se como uma rota surpreendente ao longo da costa, onde irá encontrar algumas das mais importantes aldeias de Portugal. Explorando os trilhos e seus principais destaques, estes certamente lhe darão um sentimento de realização.
 
-
-
 Delicie-se com o melhor sabor das artes tradicionais da pesca portuguesa, acompanhado por uma garrafa de vinho verde e saborosas sobremesas locais.
-
-
 
 Monumentos surpreendentes como o Castelo da Pena e o Castelo de Óbidos trá-lo-ão de volta aos tempos medievais. Tal enriquecerá certamente a sua viagem e lhe dará o desejo de voltar e descobrir mais sobre Portugal!
 \
@@ -377,3 +373,5 @@ Dia 7: Ericeira - Sintra (27 Km)
 Dia 8: Sintra - Cascais (40 Km) - parque natural Sintra- Cascais
 
 Dia 9: Partida
+
+![Silver Coast Bike tour map](/img/silver-coast-bike-tour-map.png)
