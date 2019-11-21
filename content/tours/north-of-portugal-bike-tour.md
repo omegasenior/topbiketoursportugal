@@ -6,7 +6,7 @@ productcode: NORTH 01
 featured: true
 language: en
 image: /img/ponte-de-lima.jpg
-title: North of Portugal and Minho Bike tour
+title: North of Portugal and Minho cycling holiday
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -293,7 +293,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# North of Portugal and Minho Bike tour
+# North of Portugal and Minho cycling holiday
 
 ## Cycling in the oldest Village of Portugal along the river side and the sea
 
