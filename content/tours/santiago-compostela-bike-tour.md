@@ -7,7 +7,7 @@ featured: true
 language: en
 image: >-
   /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
-title: Santiago de Compostela Bike Tour - Costal Path
+title: Porto - Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -319,7 +319,7 @@ feature:
   textcolor: white
   title: The Way of St. James - The Coast Route "easy"
 ---
-# The Way of St. James BikeTour
+# The Way of St. James (Santiago de Compostela)- BikeTour
 
 ## The Coastal Way - "easy"
 
@@ -352,7 +352,5 @@ Day 5: Baiona – Pontevedra (64 km)
 Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
-
-
 
 ![SANTIAGO cOMPOSTELA CYCLING HOLIDAY MAP](/img/santiago-pela-costa.png)
