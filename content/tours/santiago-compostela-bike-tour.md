@@ -353,7 +353,6 @@ Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
-\
-'
+
 
 ![SANTIAGO cOMPOSTELA CYCLING HOLIDAY MAP](/img/santiago-pela-costa.png)
