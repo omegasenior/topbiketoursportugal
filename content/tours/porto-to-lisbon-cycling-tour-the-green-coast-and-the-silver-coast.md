@@ -384,8 +384,6 @@ feature:
 \
 Join the Silver Route 1 and Silver Route 2 and cycle from Porto to Lisbon in this great trip between the 2 biggest cities of Portugal.
 
-
-
 If you would like to make this bike tour shorter in some days, contact us and ask us for a quote.
 
 \
@@ -423,3 +421,5 @@ Day 11 -Ericeira – Sintra (27 Km)
 Day 12 -Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 
 Day 13 - Departure to Lisbon
+
+![Porto to Lisbon Cycling map](/img/porto-to-lisbon-cyling-map.png)
