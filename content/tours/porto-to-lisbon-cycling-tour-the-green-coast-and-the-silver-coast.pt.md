@@ -23,9 +23,11 @@ tags:
   - electric bicycle
 meta:
   description: >-
-    Percorra a costa verde e a Costa de Prata connosco desde o Porto até Lisboa.
-    Peça uma cotação.
-  keywords: 'porto lisbon passeio de bicicleta, porto to lisbon biketour'
+    Pedale pela Costa verde e pela Costa de Prata connosco do Porto a Lisboa.
+    Peça um orçamento. Aproveite o passeio perto da costa do Atlântico com uma
+    bicicleta híbrida, uma mountain bike ou bicicleta eléctrica. As ciclovias
+    estão disponíveis na maioria do percurso.,
+  keywords: 'port a lisboa passeio de bicicleta, porto a lsibos tour em bicicleta'
   robots: INDEX
   title: Desde o Porto a Lisboa em bicicleta
 distance: 493
