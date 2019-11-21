@@ -272,8 +272,6 @@ feature:
 \
 Este passeio de bicicleta pode ser feito durante todo o ano. A nossa recomendação é de que o faça entre os meses de Setembro e Outubro, altura da colheita das uvas e produção vincula.
 
-
-
 Este passeio em bicicleta combina a hospitalidade das quintas produtoras de vinho, pedalando entre vinhas e olivais, onde poderá deliciar-se com a produção de vinho do Porto e azeite de Portugal. Com um dia de descanso para visitar as pinturas rupestres e o museu de Vila Nova de Foz Côa, este passeio terá o seu foco na incrível região do Douro, considerada Património Natural da Humanidade pela UNESCO.\
 \
 \
@@ -288,26 +286,16 @@ Este passeio em bicicleta combina a hospitalidade das quintas produtoras de vinh
 
 Dia 1: Pinhão
 
-
-
 Dia 2: Pinhão – Tabuaço (15 km)
-
-
 
 Dia 3: Tabuaço – Penedono (36 km)
 
-
-
 Dia 4: Penedono - (40 Km)
-
-
 
 Dia 5: Penedono – Marialva (30 km)
 
-
-
 Dia 6: Marialva – Vila Nova de Foz Côa (22 km)
 
-
-
 Dia 7: Transfere de volta ao Porto
+
+![](/img/douro-cycling-holiday-01-map.png)
