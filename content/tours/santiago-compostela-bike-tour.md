@@ -24,11 +24,14 @@ tags:
   - Spain
 meta:
   description: >
-    Ride along the coast, in the easiest route to Santiago de Compostela. Start
-    in Porto city and make a journey of a life time.
+    Cycling along the coast, in the easiest route to Santiago de Compostela.
+    Start to cycling the Camino of st James in Porto city and make a journey of
+    a life time. This amazing bike tour crosses the Nort of Portugal and North
+    of Spain where you will pedal trhough the bridge of the river Lima, the
+    bridge of Minho river and Galicia coast line.
   keywords: >-
-    cycling holidays portugal,Cycling tours, Santiago de Compostela, sea,
-    religious tourism, bicycle, Portugal, Gallicia 
+    bike tour santiago de compostela, guided bike tour santiago de
+    compostela,cycling tour the way of st james
   robots: INDEX
   title: Santiago de Compostela starting in Porto
 groupSizeMax: 1
