@@ -22,8 +22,10 @@ tags:
   - electric bicycle
 meta:
   description: >
-    Lembre-se que o Douro é um vale e que apesar do tour ser classificado como
-    fácil, é necessário ter isso em consideração
+    Lembre-se de que o Douro é um vale e, apesar de o passeio ser classificado
+    como fácil, é necessário levar isso em consideração. Com certeza, com uma
+    bicicleta eléctrica, será muito fácil pedalar junto ao rio Douro. Transferes
+    incluído em nossa van para o Vale do Douro
   keywords: >-
     Cycling Tours wine tour, douro valley bike tour, douro valley cycling tour,
     holidays in a bike in douro valley
