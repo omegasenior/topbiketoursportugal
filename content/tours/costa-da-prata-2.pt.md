@@ -6,7 +6,7 @@ productcode: SC 02
 featured: false
 language: pt
 image: /img/praia-do-norte-nazare.jpg
-title: Costa da Prata – Rota 2
+title: Costa da Prata – Porto a Coimbra
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
