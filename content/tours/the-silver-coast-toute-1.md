@@ -20,16 +20,18 @@ tags:
   - touring bicycle
   - e-bike
   - electric bicycle
+  - atlantic coast
 meta:
-  description: >
-    Cycle with us to the Portuguese Silver Coast, bordering with the region of
-    Gallicia, Nature, landscape and gastronomy are imbued in this cycling
-    tour...Coimbra 
+  description: >-
+    Cycle with us the Green and Silver Coast always with the Atlantic sea on
+    your right. You will pedal thru Aveiro and Figueira da Foz and will end in
+    Coimbra, the city of the students. Lots of highlits will be available in our
+    roadbook and everything will be ready for your vacations cycling route.
   keywords: >-
-    Cycling Tours Silver Coast, percursos na natureza em bicicleta,ACTIVE BIKE
-    TOURISM, atlantic cycling holiday
+    guided bike tour atlantic sea, bike tour porto to coimbra, bike tour porto
+    to lisbon, cycling holidays portugal
   robots: INDEX
-  title: The Silver Coast bike tour near the Atlantic ocean
+  title: Porto to Coimbra -The Silver Coast Atlantic route
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
