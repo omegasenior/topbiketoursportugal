@@ -6,7 +6,7 @@ productcode: SC 01
 featured: true
 language: pt
 image: /img/cycling-plan-in-coasta-nova.jpg
-title: Costa da Prata - Porto a Coimbra
+title: 'Costa da Prata: Porto a Coimbra biketour'
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -20,13 +20,17 @@ tags:
   - touring bicycle
   - e-bike
   - electric bicycle
+  - atlantic coast
 meta:
   description: >
     Pedale pela Costa da Prata até Coimbra. A natureza, a paisagem e a
-    gastronomia estão impregnadas neste percurso de bicicleta desde do Porto
-  keywords: 'Cycling costa da prata, cicloturismo, bike tours, cycling holidays, portugal'
+    gastronomia estão impregnadas neste percurso de bicicleta desde do Porto.
+    Explore Aveiro num barco moliceiro no fim do dia do seu bike tour.
+  keywords: >-
+    ferias em bicicleta porto a coimbra, tour de bicicleta porto a coimbra, bike
+    tour porto a coimbra
   robots: INDEX
-  title: Cycling Tours Costa da Prata e Costa Verde
+  title: 'Porto a Coimbra: Costa da Prata e Costa verde junto ao Atlântico'
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
