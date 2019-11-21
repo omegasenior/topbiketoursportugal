@@ -372,9 +372,9 @@ feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
   imageAlign: center
-  subtitle: The Camino Bicycle tour
+  subtitle: Passeios com guia e em autonomia em Portugal
   textcolor: white
-  title: The Way of St. James - The Coast Route "easy"
+  title: Passeios com guia e em autonomia em Portugal
 ---
 # Porto to Lisbon Cycling tour
 
