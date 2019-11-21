@@ -410,6 +410,8 @@ Day 9 -  Sagres – Lagos (45 km)
 
 Day 10 - Departure
 
+![Vicentine Cost and Algarve Bike Tour](/img/vicentine-cost-and-algarve-bike-tour.png)
+
 \
 \
 \
@@ -420,16 +422,20 @@ Day 10 - Departure
 **Estimated KM: 254 km** , Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
-Day 1 – Sines - Vila Nova de Mil Fontes (40 km)
+Day 1 – Lisbon Reception
 
-Day 2 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
+Day 2 – Sines - Vila Nova de Mil Fontes (40 km)
 
-Day 3 – Zambujeira do Mar – Aljezur (45 km)
+Day 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
 
-Day 4– Aljezur – Carrapateira (30 km)
+Day 4 – Zambujeira do Mar – Aljezur (45 km)
 
-Day 5 - Carrapateira – Sagres (54 km)
+Day 5 – Aljezur – Carrapateira (30 km)
 
-Day 6 -  Sagres – Lagos (45 km)
+Day 6 - Carrapateira – Sagres (54 km)
 
-Day 7 - Departure
+Day 7 -  Sagres – Lagos (45 km)
+
+Day 8 - Departure
+
+![Vicentine Cost and Algarve Bike Tour reduced route](/img/vicentine-cost-and-algarve-bike-tour-short.png)
