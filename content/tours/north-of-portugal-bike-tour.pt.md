@@ -311,6 +311,8 @@ Dia 6 – Esposende – Porto (60km)
 
 Dia 7 - Partida
 
+![](/img/map-north-and-minho-bike-tour.png)
+
 \
 \
 **Opção reduzida_:_** 
@@ -331,18 +333,5 @@ Dia 5: Viana do Castelo – Ponte de Lima (26 Km)
 Dia 6: Ponte de Lima – Ponte da Barca ( 18 Km; etota extra até Arcos de Valdevez 28 km)
 
 Dia 7: Partida
-\
-\
-\
-\
-**Observations:**
 
-* Prices are based for 2 people sharing the same room;
-* **Prices can suffer updates due high season, holidays or weekends**
-
-**Extras**
-
-* Electric bicycles price: 175€
-* Suplement for single room: 329 €
-* Solo traveler: 200 €
-* Extra nights: on request
+![](/img/map-north-and-minho-bike-tour-short-route.png)
