@@ -23,11 +23,16 @@ tags:
   - electric bicycle
   - Spain
 meta:
-  description: |
-    Pedale pela costa, no percurso mais fácil até Santiago de Compostela
-  keywords: 'Pedale pela costa, no percurso mais fácil até Santiago de Compostela'
+  description: >
+    Pedale pela costa, no percurso mais fácil até Santiago de Compostela. Não se
+    preocupe com a logistica, pois vamos organizar tudo nas suas ferias em
+    bicicleta.Vamos pedalar na ponte sobre o rio Lima e o rio Minho entrando
+    depois no Norte de Espanha e Galiza.
+  keywords: >-
+    passeio de bicicleta santiago de compostela, passeio guiado até santiago de
+    compostela, bike tour porto a santiago de compostela
   robots: INDEX
-  title: Santiago de Compostela - Caminho da Costa "fácil"
+  title: Porto a Santiago de Compostela bike toiur - Caminho da Costa "fácil"
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 2
