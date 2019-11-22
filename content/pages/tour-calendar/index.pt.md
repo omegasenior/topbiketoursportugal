@@ -9,6 +9,7 @@ meta:
     Explore connosco em modo guiado os nossos pacotes em bicicleta especialmente
     preparados para si! Calendário 2017 já disponivel
   keywords: calendario passeios guiados portugal
+  robots: INDEX
   title: Calendário de passeios guiados
 feature:
   align: center
@@ -18,55 +19,12 @@ feature:
   title: Calendário
 dates:
   - body: >-
-      [The North Bike
-      tour](https://www.topbiketoursportugal.com/north-of-portugal-en) supported
-    date: 2018-09-14T23:00:00.000Z
-    type: Date
-  - body: >-
-      [The Way of St. James - Along the coast easy -
-      Supported](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-    date: 2018-05-14T23:00:00.000Z
-    type: Date
-  - body: >-
-      [The Way of St. James - Along the coast easy -
-      Supported](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-    date: 2018-04-24T23:00:00.000Z
-    type: Date
-  - body: >-
-      [The Silver Coast Route 1 -
-      Supported](https://www.topbiketoursportugal.com/porto-to-coimbra-biketour)
-    date: 2019-09-14T23:00:00.000Z
-    type: Date
-  - body: >-
-      [ The Way of St. James - Along the coast easy -
-      Supported](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-    date: 2019-09-03T23:00:00.000Z
-    type: Date
-  - body: >-
-      [The Way of St. James - Along the coast easy -
-      Supported](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-    date: 2019-08-20T23:00:00.000Z
-    type: Date
-  - body: >-
-      [The Way of St. James - Along the coast easy -
-      Guided](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-      biket tour
-    date: 2019-06-19T23:00:00.000Z
-    type: Date
-  - body: >-
-      [ The Way of St. James - Along the coast easy -
-      Supported](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
-    date: 2019-06-13T23:00:00.000Z
-    type: Date
-  - body: >-
-      [ The Silver Coast Route 1 -
-      Guided](https://www.topbiketoursportugal.com/porto-to-coimbra-biketour)
-    date: 2019-06-01T23:00:00.000Z
-    type: Date
-  - body: >-
       [The Way of St. James - Along the coast easy -
       Guided](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
       bike tour
+
+
+      ![](/img/atlantic-coast-bike-tour-portugal.jpg)
     date: 2020-10-10T23:00:00.000Z
     type: Date
   - body: >-
@@ -90,6 +48,9 @@ dates:
       [The Way of St. James - Along the coast easy -
       G](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)uided
       bike tour
+
+
+      ![](/img/20190905_091303.jpg)
     date: 2020-06-06T23:00:00.000Z
     type: Date
   - body: >-
