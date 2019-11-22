@@ -6,7 +6,7 @@ productcode: SANTIAGO 03
 featured: false
 language: pt
 image: /img/santiago1.png
-title: The Way of St. James BikeTour - The French Way
+title: Bike tour O Caminho Francês até Santiago de Compostela
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -47,167 +47,171 @@ itinerary:
     location:
       lat: '43.1629528'
       lng: '-1.2380528'
-    title: Day 1 - Saint-Jean-Pied-De-Port
+    title: 'Dia 1 - Saint-Jean-Pied-De-Port '
   - day: '2'
     description: >-
-      This amazing cycling trip starts in the little village of
-      Saint-Jean-De-Port. This place is famous, because it is a starting point
-      to the Camino Francés. This road crosses the Pyrenees with several
-      medieval streets ending in Spain, in Roncesvalles. This village is known
-      as the first resting point for all pilgrims.
+      Este incrível passeio de bicicleta começa na pequena cidade de
+      Saint-Jean-de-Port, este lugar é um popular ponto de partida para o
+      Caminho Francês. Esta estrada atravessa os Pirinéus com várias ruas
+      medievais, e neste dia termina em Espanha, em Roncesvalles, esta cidade é
+      conhecida como o primeiro ponto de descanso para todos os peregrinos
     location:
       lat: '43.009286'
       lng: '43.009286'
-    title: Day 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
+    title: Dia 2 -  Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
   - day: '3'
     description: >-
-      Today's route passes through the interior of Spain. The destination is
-      Puente la Reina. Prepare to see lots of nature and amazing views. During
-      this path there is some little villages to stop. Puente la Reina lies
-      between Pamplona and Estella on the Way of St. James pilgrimage route to
-      Santiago de Compostela. It is the first town after the junction of the
-      French Way and the Aragonese Way.
+      Hoje através do interior da Espanha, o destino é Puente la Reina.
+      Prepare-se para ver muita natureza e vistas deslumbrantes. Durante
+      caminho, existem algumas aldeias agradáveis para parar-se. Puente la Reina
+      fica entre Estella e Pamplona na rota de peregrinação a Santiago de
+      Compostela. É a primeira cidade após a junção do Caminho Francês, e é rota
+      mais popular.
     location:
       lat: '42.6717107'
       lng: '-1.8155291'
-    title: Day 3 -  Roncesvalles - Puente la Reina / 67 km
+    title: ' Dia 3 - Roncesvalles - Puente la Reina / 67 km (94)'
   - day: '4'
     description: >-
-      Continuing through the interior of Spain, the next stop is Logrono. This
-      town is a centre of the trade in Rioja wine, for which the area is noted.
-      It also produces wood, metal, and textile products. This village is also
-      known for its Tapas, offering 50 taperías (tapas restaurants) located
-      within a four-block area near the city center.
+      Continuando pelo interior da Espanha a próxima paragem é Logrono. Esta
+      cidade é um centro de comércio para o vinho de Rioja, e também produz
+      madeira, metal e produtos têxteis. Esta vila também é conhecida por Tapas
+      oferecendo 50 taperías (tapas restaurantes) localizado dentro de uma área
+      no centro da cidade.
     location:
       lat: '42.4661196'
       lng: '-2.4396676'
-    title: Day 4 - Puente la Reina - Logrono / 76 km
+    title: Dia 4 - Puente la Reina - Logroño / 76 km
   - day: '5'
     description: >-
-      The next destination is Santo Domingo de la Calzada. In this day you will
-      see several fishermen and diverse agricultural lands, with several vines,
-      since this place is famous for the Rioja wine. The town of Santo Domingo
-      is a municipality situated on the banks of the Oja River. Its name refers
-      to its founder, Dominic de la Calzada, who built a bridge, hospital, and
-      hotel for pilgrims on the Way of St. James.
+      No 5º dia, o próximo destino é Santo Domingo de la Calzada. Nesta rota é
+      possível ver vários pescadores e principalmente diversos terrenos
+      agrícolas, com várias vinhas, porque este local é famoso devido ao vinho
+      Rioja. A cidade de Santo Domingo é um município situado nas margens do Rio
+      Oja, o seu nome refere-se ao seu fundador, Dominic de la Calzada, que
+      construiu uma ponte, hospital e hotel nesta cidade para peregrinos do
+      Caminho de Santiago.
     location:
       lat: '42.44293826'
       lng: '-2.95695305'
-    title: Day 5 -  Logrono - Santo Domingo / 52 km
+    title: Dia 5 - Logroño - Santo Domingo / 52 km
   - day: '6'
     description: >-
-      The ride today has severeal rivers and streams and the destination is the
-      city of Burgos. This city has many historical landmarks, of particular
-      importance; the Cathedral of Burgos, declared World Heritage Site by
-      UNESCO in 1984, seat of the Metropolitan Roman Catholic Archdiocese of
-      Burgos. The city is known as a main crossroad of northern Spain along the
-      Camino of Santiago, which runs parallel to the River Arlanzón.
+      O passeio de hoje contém vários rios e riachos, o destino é a cidade de
+      Burgos. Esta cidade tem muitos marcos históricos, de particular
+      importância; A Catedral de Burgos (declarada Património da Humanidade pela
+      UNESCO em 1984), local da Arquidiocese Católica Romana Metropolitana de
+      Burgos, Mosteiro das Huelgas Reales e a Cartuxa de Miraflores.  A cidade é
+      conhecida como um cruzamento principal do norte da Espanha ao longo do
+      Caminho de Santiago, que corre paralelo ao Rio Arlanzón.
     location:
       lat: '42.343926'
       lng: '-3.696977'
-    title: Day 6 - Santo Domingo - Burgos /72 km
+    title: Dia 6 - Santo Domingo - Burgos / 72 km
   - day: '7'
     description: >-
-      Continuing the Camino, the next stop is Carrión de los Condes. Carrión de
-      los Condes was taken from the Moors by Alonso Carreño, around 791–842. Don
-      Carreño took the name Carrión at this time. This city was known for the
-      strong presence of the Jews. Although they outnumbered the Christians both
-      in numbers and in property, they submitted in 1126 to the victorious King
-      Alfonso VI.
+      Continuando o Caminho, a próxima paragem é Carrión de los Condes. Carrión
+      de los Condes foi tirado dos mouros por Alonso Carreño por volta de
+      791-842, Don Carreño tomou o nome Carrión nesse momento.  Esta cidade era
+      conhecida pela forte presença dos judeus, embora fossem mais numerosos do
+      que os cristãos tanto em número como em bens, submeteram-se em 1126 ao rei
+      vitorioso Alfonso VI.
     location:
       lat: '42.3385404'
       lng: '-4.6017128'
-    title: Day 7 -  Burgos - Carrión de los Condes / 85 km
+    title: Dia 7 - Burgos - Carrión de los Condes / 85 km
   - day: '8'
     description: >-
-      You will spend one day resting in the city of Sahugún or in the city of
-      Leon. Leaving Carrión de los Condes and continuing the cycling trip, the
-      destination is Sahugún. This town is located in the province of León.
-      Sahagún contains some of the earliest examples of the mudéjar style of
-      architecture. The city of Leon is located on the Camino de Santiago, which
-      is ranked as a UNESCO World Heritage Site. Some of the city's most
-      prominent historical buildings are the Cathedral, the finest example of
-      French gothic classical style architecture in Spain.
+      Durante este dia passaremos um dia descansando na cidade de Sahugún ou na
+      cidade de León.  Deixando Carrión de los Condes e continuando a viagem de
+      bicicleta o destino é Sahugún. Esta cidade é a província de León. Sahagún
+      contém alguns dos primeiros exemplos do estilo mudéjar de arquitectura  A
+      cidade de Leon está localizada no Caminho de Santiago, que é classificado
+      como um Património Mundial da UNESCO, tornando-se um destino de turismo
+      nacional e internacional. Alguns dos edifícios históricos mais
+      proeminentes da cidade são a Catedral, o melhor exemplo da arquitectura
+      gótica clássica em estilo francês em Espanha
     location:
       lat: '42.5989995'
       lng: '-5.5682413'
-    title: Day 8 - Carrión de los Condes – Sahugún - Léon (extra night)
+    title: Dia 8 - Carrión de los Condes - Sahugún - Léon (noche extra)
   - day: '9'
     description: Discover Léon city
     location:
       lat: '42.5989995'
       lng: '-5.5682413'
-    title: Day 9 – Rest day
+    title: Dia 9 – Dia de descanso
   - day: '10'
     description: >-
-      The road is to Astorga. This path is made on clay and with many viewpoints
-      to admire the landscape. Arriving to the city center of Astorga, you can
-      admire several monuments, such as the Cathedral the Episcopal Palace and
-      the walls that surround the town built at the time of Ancient Rome.
+      Neste dia, a estrada tem como destino a cidade de  Astorga. Este caminho é
+      feito em argila e com muitos pontos de vista para admirar a paisagem.
+      Chegando ao centro da cidade de Astorga, pode-se admirar vários
+      monumentos, como a Catedral do Palácio Episcopal e as paredes que cercam a
+      cidade construída no tempo de Roma.
     location:
       lat: '42.4553555'
       lng: '-6.0529025'
-    title: Day 10 - León - Astorga / 51 km
+    title: Dia 10 - León - Astorga / 51 km
   - day: '11'
     description: >-
-      Upon departing Astorga, the next town is Cacabelos. On this day the way
-      presents us with diverse agricultural lands and forest areas. You can also
-      admire the rails until reaching Cacabelos, which are from the time of the
-      Medieval Era. Arriving to Cacabelos, you can taste its famous wines, while
-      admiring the medieval bridge that passes over the Cua river.
+      Partindo de Astorga, a próxima cidade é Cacabelos. Neste dia o caminho
+      apresenta diversas terras agrícolas e áreas florestais, também é possível 
+      admirar os trilhos até chegar a Cacabelos que são da Era Medieval. 
+      Chegando a Cacabelos, pode saborear os famosos vinhos enquanto admira a
+      ponte medieval que passa sobre o rio Cua.
     location:
       lat: '42.5988042'
       lng: '-6.7259329'
-    title: Day 11 -  Astorga - Cacabelos / 70 km
+    title: Dia 11 - Astorga - Cacabelos / 70 km
   - day: '12'
     description: >-
-      Triacastela will be this day's destination. This route is one of the most
-      beautiful of the caminho, where you can admire the vast mountains, covered
-      with nature and small villages. The city of Triacastela is a famous stop
-      point for the pilgrims, where they exchange experiences on the path they
-      have traveled.
+      Neste dia o próximo destino é Triacastela. Esta rota é uma das mais belas
+      do caminho, onde pode-se admirar as vastas montanhas cobertas com a
+      natureza, ao longo do caminho irá encontrar também pequenas aldeias
+      típicas. A cidade de Triacastela é um ponto de paragem famosa para os
+      peregrinos onde trocam experiências do caminho que já percorreram.
     location:
       lat: '42.7563403'
       lng: '-7.2397461'
-    title: Day 12 - Cacabelos – Tríacastela / 55 km
+    title: Día 12 - Cacabelos - Tríacastela / 55 km
   - day: '13'
     description: >-
-      After Breakfast, the next destination is Portomarin. This route is famous
-      for it's up's and down's, but once again you will be rewarded with
-      beautiful landscapes. This camino offers you a lot of bridges and stone
-      routes of the Medieval time, until you arrive to Portomarin.
+      Após o pequeno-almoço, o próximo destino é Portomarin. Esta rota é famosa
+      pelas suas "subidas e decidas", mas novamente irá puder admirar com belas
+      paisagens. Este caminho durante o dia oferece-lhe várias travessias de
+      pontes e rotas de pedra do tempo medieval até a chegada a Portomarin.
     location:
       lat: '42.808161'
       lng: '-7.6156139'
-    title: Day 13 -  Tríacastela - Portomarin / 46 km
+    title: Día 13 - Tríacastela - Portomarín / 46 km
   - day: '14'
     description: >-
-      Leaving Portomarin the next destination is Melide. This path is mainly
-      treaded in the middle of forests, where you can contemplate all the nature
-      that there is to offer. Arriving to Melide, you can taste the famous
-      octopus and admire the several churchs and the town castle.
+      Deixando Portomarin o próximo destino é Melide. Este caminho é feito no
+      meio de florestas onde poderá contemplar a natureza que aqui encontra-se.
+      Chegando a Melide é possível saborear o famoso polvo e admirar as várias
+      igrejas e o castelo desta cidade.
     location:
       lat: '42.9145741'
       lng: '-8.0136139'
-    title: Day 14 -  Portomarin - Melide 62 Km / 39 km
+    title: Día 14 - Portomarín - Melide 62 Km / 39 km
   - day: '15'
     description: >-
-      The final destination is Santiago de Compostela. In this day you start to
-      see more and more pilgrims and everyone wishes “Buen Camino”. Reaching to
-      Santiago you will find lots of pilgrims, happy for their achivement and,
-      of course, you will find the magnificent cathedral of Santiago that, each
-      year, continues to win more and more people to make this religious /
-      spiritual route.
+      Hoje o destino final é Santiago de Compostela. Neste dia começa-se a ver
+      cada vez mais os peregrinos e todos eles desejam "Buen Camino". Chegando a
+      Santiago, é claro quevai encontrar muitos peregrinos felizes pelo seu
+      feito e, também a magnífica catedral de Santiago que continua de ano para
+      ano a ganhar cada vez mais pessoas a fazerem esta rota religiosa /
+      espiritual.
     location:
       lat: '42.8804219'
       lng: '-8.5458608'
-    title: Day 15 -  Melide - Santiago de Compostela / 54 km
+    title: Día 15 - Melide - Santiago de Compostela / 54 km
   - day: '16'
     description: Departure
     location:
       lat: '42.8804219'
       lng: '-8.5458608'
-    title: Day 16 - Santiago de Compostela
+    title: Dia 16 - Santiago de Compostela - Partida
 gallery:
   - alt: FRENCH CAMINO IN A BYCICLE
     image: /img/french-camino-in-a-bycicle.png
@@ -321,13 +325,15 @@ feature:
   textcolor: white
   title: Passeios com guia e em autonomia em Portugal
 ---
-# The Way of St. James BikeTour
+# O Caminho Francês - BikeTour
 
-## The French Way
+## O Caminho Francês 
 
-Going from Saint Jean Pied de Port, in the Pyrenees, all the way to Santiago de Compostela, the French way is probably the most known route of the St. James Way. Its use goes back to the IXth century, when the route only extended from Oviedo to Santiago de Compostela.
+O Caminho Francês é uma das rotas mais populares entre as pessoas que fazem o Caminho de Santiago. É o caminho escolhido por muitos peregrinos que tem muitas atracções ao longo da rota de Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII, e é de longe o mais conhecido internacionalmente. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
 
-Thousands of pilgrims choose this amazing route each year, not only for its authenticity, but also for all the amazing places one finds him/herself in, while on the road.
+
+
+O Caminho Francês é uma jornada notável, cruzando tanto o terreno montanhoso como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Também atravessa muitas cidades de peregrinação muito importantes como por exemplo, Saint Jean Pied de Port e Logroño.
 
 **Route description:**
 
