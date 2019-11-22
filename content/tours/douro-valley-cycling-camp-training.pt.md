@@ -23,9 +23,12 @@ tags:
 meta:
   description: >
     Em bicicleta de estrada (speed) descubra a região do douro em bicicleta.
-    Vale com muito pouco transito e paisagens que só no vale do Douro
-    existem.Venha treinar
-  keywords: 'bicicleta de estrada no douro, douro road bike, bicicleta de speed no douro'
+    Vale com muito pouco transito e paisagens que só no vale do Douro existem.
+    Venha treinar nas suas férias em bicicleta
+  keywords: >-
+    tour em bicicleta de estrada no douro, douro road bike tour, bicicleta de
+    speed no douro em ferias
+  robots: INDEX
   title: Campo de treino de ciclismo no Douro
 groupSizeMax: 0
 groupSizeMin: 0
@@ -53,33 +56,27 @@ feature:
   textcolor: white
   title: Passeios com guia e em autonomia em Portugal
 ---
-# Douro Valley Cycling camp Training
+# Ciclismo no Vale do Douro
 
-## Training, discovering, calming and fun!
+## Treine, descubra, acalme-se e divirta-se!
 
 \
-Douro Valley is known because of its Wine and great landscapes.
+O Vale do Douro é conhecido graças ao seu vinho e às suas paisagens incríveis. É no entanto uma região ainda pouco conhecida. Locais como Maiorca são famosos pelo atractivo que representam para os ciclistas, com o seu óptimo clima.
 
 
 
-It's still an unknown region for several cyclists. Regions like Mallorca are known for their great cycling camps, because of the weather conditions.
+O Vale do Douro, de Março a Novembro, tem também um tempo excelente. Venha e treine connosco. Iremos surpreende-lo com as nossas acomodações, que na maioria das vezes são quintas. Aproveite e experimente a gastronomia local. Ficará surpreendido com a quantidade de actividades extra que existem para complementar a sua estadia.
 
 
 
-Douro Valley from March to November is also good when it comes to weather. Come and train with us. We will suprise you with our local accommodations that, in the majority of the time, are farms. Try our local gastronomy. You might be surprised on how many different activities there are to complement your stay"!
+O tráfego no Vale do Douro é muito, muito, mas mesmo muito baixo!
 
 
 
-Keep in mind that traffic in Douro Valley is really, really, really low!
+Temos as melhores estradas para ciclismo, sem a típica invasão turística, quando comparado com locais como Maiorca. De que está à espera?
 
 
 
-We have the best tarmac roads for you, in a region without the usual tourist invasion, when you compare it with Mallorca. What are you waiting for?
+Poderemos-lhe apresentar diferentes percursos diários, dependendo da sua experiência como ciclista.
 
-
-
-We have different daily rides in the region depending on your skills.
-
-
-
-Contact us so we can know your physical level and send you a proposal.
+Contacte-nos para que lhe possamos enviar uma proposta.
