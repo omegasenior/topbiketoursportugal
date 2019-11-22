@@ -290,18 +290,20 @@ During your bicycle tour you will discover ancient medieval roads and paths, for
 **Itinerary:**
 
 \
-Day 1: Porto – Barcelos (49 km)
+Day 1: Porto – reception
 
-Day 2: Barcelos – Ponte de Lima (31 km)
+Day 2: Porto – Barcelos (49 km)
 
-Day 3: Ponte de Lima – Valença (38 km)
+Day 3: Barcelos – Ponte de Lima (31 km)
 
-Day 4: Valença – Pontevedra (53 km)
+Day 4: Ponte de Lima – Valença (38 km)
 
-Day 5: Pontevedra – Padrón (43 km)
+Day 5: Valença – Pontevedra (53 km)
 
-Day 6: Padrón – Santiago de Compostela (28 km)
+Day 6: Pontevedra – Padrón (43 km)
 
-Day 7: Transfer train to Porto
+Day 7: Padrón – Santiago de Compostela (28 km)
+
+Day 8: Transfer train to Porto
 
 ![The way of Saint James mountain bike tour](/img/the-way-of-st-james-starting-porto.png)
