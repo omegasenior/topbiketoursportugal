@@ -24,10 +24,11 @@ meta:
   description: >-
     O interior português reserva-nos muitas maravilhas da natureza, repletas de
     estórias, lendas e pratos gastronómicos. Pedale pelos antigos caminhos de
-    Portugal.
+    Portugal. bicicletas de estrada /road bikes  e bicicletas eléctricas
+    disponiveis.
   keywords: >-
-    Cycling Tours, vale do douro, natureza, património, portugal, norte,
-    bicicleta, turismo natureza
+    Cycling Tours vale do douro, passeio bicicleta no douro, douro em bicicleta,
+    tour de bicicleta no douro
   robots: INDEX
   title: Cycling Tours - Douro internacional | Top Bike tours Portugal
 groupSizeMax: 1
@@ -47,65 +48,65 @@ itinerary:
     location:
       lat: '41.489615'
       lng: '-7.1774792'
-    title: 'Day 1: Reception at Porto'
+    title: 'Dia 1: Recepção no Porto'
   - day: '2'
     description: >-
-      Cross Murça, land of ancient legends, wine and olive oil. You must
-      experiment the liqueur wine “Favaios”. In Mirandela, you can visit the
-      city, as well as enjoy the famous sausages, the “Terrincho” cheese and the
-      delicious honey.
+      Atravesse a Murça, uma terra com tradições antigas e muito ligadas ao
+      vinho e ao azeite. Experimente o Moscatel de Favaios. Em Mirandela poderá
+      visitar a cidade e provar as famosas alheiras, o queijo terrincho ou o
+      delicioso mel da região.
     location:
       lat: '41.489615'
       lng: '-7.1774792'
-    title: 'Day 2: Pinhão – Mirandela.'
+    title: 'Dia 2: Pinhão – Mirandela (79 km)'
   - day: '3'
     description: >-
-      This day will be somewhat of a physical challenge, due to the cumulative
-      uphill. Halfway through the day, right after Macedo de Cavaleiros, you
-      will find paradise right nearby the delta of the Azibo. Bragança is the
-      region's capital and gateway to one of the oldest national parks in
-      Portugal, the Montesinho. 
+      Este dia será um desafio devido às constantes subidas. A meio do dia,
+      depois de Macedo de Cavaleiros, irá encontrar o paraíso, assim que atingir
+      as margens do rio Azibo. Bragança é o destino de hoje e é também a capital
+      da região, servindo de entrada a um dos parques naturais mais antigos de
+      Portugal, o Montesinho.
     location:
       lat: '41.8071182'
       lng: '-6.7589839'
-    title: 'Day 3: Mirandela – Bragança'
+    title: 'Dia 3: Mirandela – Bragança (71 km)'
   - day: '4'
     description: >-
-      Cycle to Miranda do Douro, by crossing the Maças River and then pass
-      nearby Vimioso. After this, you will be in the International Douro's
-      landscape. Finally reach to Miranda do Douro. Check out the famous
-      “Mirandesa” steak served by the genuine Northern locals. Here you will
-      find people who speak a strange language, “mirandês”, linked to the
-      Iberian Peninsula's History.
+      Pedale até Miranda do Douro, atravessando o rio das Maçãs e passando
+      próximo da vila de Vimioso. Finalmente encontrar-se-á às portas da
+      paisagem natural do Douro Internacional. Em Miranda do Douro poderá provar
+      a genuína carne Mirandesa, servida pelos locais. Aqui poderá aperceber-se
+      de que a população fala uma língua estranha, o mirandês.
     location:
       lat: '41.50999485'
       lng: '-6.31215889'
-    title: 'Day 4: Bragança – Miranda do Douro '
+    title: 'Dia 4: Bragança – Miranda do Douro (87 km)'
   - day: '5'
     description: >-
-      Keep riding to reach to Alfândega da Fé. During the day, you will feel a
-      little the accumulated climbs. You can visit the astonishing Natural Park
-      of Douro and cross the Sabor River.
+      Durante este dia irá ressentir-se um pouco mais de todas as subidas que
+      fez até chegar a este ponto. Uma vez mais poderá apreciar a fantástica
+      paisagem desta região, até alcançar a Alfândega da Fé.
     location:
       lat: '41.3275826'
       lng: '-6.96178431'
-    title: 'Day 5: Miranda do Douro – Alfândega da Fé'
+    title: 'Dia 5: Miranda do Douro – Alfândega da Fé (98 km)'
   - day: '6'
     description: >-
-      This day begins with a small descent into the Valley of Vilariça. Then you
-      will go up to the village of Seixo de Manhoses and go down to the Douro
-      River. The cycling path will follow waterfront of the Tua River, ending in
-      its delta.
+      O último dia começa com uma pequena descida em direcção ao vale da
+      Vilariça. Subirá até à vila de Seixo de Manhoses e descerá uma última vez
+      em direcção ao rio Douro. Esta parte final do percurso será feito seguindo
+      sempre o rio Tua, terminando quando este se encontra com o rio principal,
+      o Douro.
     location:
       lat: '41.20488091'
       lng: '-7.41104362'
-    title: 'Day 6: Alfândega da Fé – Tua.'
+    title: 'Dia 6: Alfândega da Fé – Tua (74 km)'
   - day: '7'
     description: ''
     location:
       lat: '41.20488091'
       lng: '-7.41104362'
-    title: 'Day 7: Transfer to Porto'
+    title: 'Dia 7: Transfere de volta para o Porto'
 gallery:
   - alt: group 1
     image: /img/14580389_1324120917632123_99557427_n.jpg
@@ -256,39 +257,37 @@ feature:
 ---
 # Trás-os-Montes & Douro international
 
-## For those who enjoy the marvels of nature and would like to venture further
+## Para aqueles que gostam das maravilhas da natureza
 
 \
 \
-Trás-os-Montes and Alto Douro is a huge Portuguese province, belonging to Vila Real and Bragança.
+Trás-os-Montes e Alto Douro é uma enorme região Portuguesa que faz parte de diversos distritos do país.
 
-This area is considered by many as an authentic greenside paradise in the deep valleys of the region, where you will find beautiful vineyards at the heart of the Port and Douro wines.
-
-The territory boosts breathtaking landscapes of natural beauty, revealing not only a land rich in vineyards, but also in cereals, vegetables and fruits, combining in a typical gastronomy, awarded the title of World Heritage.
+Esta área é considerada por muitos como um autentico paraíso verdejante, bem dentro dos vales e montanhas desta região, onde não só se podem encontrar as famosas vinhas do Douro, como também uma variedade agrícola tremenda, que vai desde os cereais, aos vegetais e às frutas, que são posteriormente combinados na excelente gastronomia da região.
 \
 \
-**Route description**:
+**Descrição do Percurso**:
 
-* Mostly steep. Up and down route.
-* 100 % paved roads with very low traffic.
-* 6392 meters of cumulative gap climbs 
+* Maioritariamente íngreme.
+* 100 % de estradas pavimentadas com muito pouco tráfego.
+* Total de 6392 metros de subidas. 
 
 \
-**Itinerary:**
+**Itinerário:**
 \
 \
-Day 1: Porto – Pinhão (110 km, train transfer)
+Dia 1: Porto – Pinhão (110 km, transfere de comboio)
 
-Day 2: Pinhão – Mirandela (79 km)
+Dia 2: Pinhão – Mirandela (79 km)
 
-Day 3: Mirandela – Bragança (71 km)
+Dia 3: Mirandela – Bragança (71 km)
 
-Day 4: Bragança – Miranda do Douro (87 km)
+Dia 4: Bragança – Miranda do Douro (87 km)
 
-Day 5: Miranda do Douro – Alfândega da Fé (98 km)
+Dia 5: Miranda do Douro – Alfândega da Fé (98 km)
 
-Day 6: Alfândega da Fé – Tua (74 km)
+Dia 6: Alfândega da Fé – Tua (74 km)
 
-Day 7: Train transfer to Porto
+Dia 7: Transfere de volta para o Porto
 
 ![](/img/douro-cycling-holiday-03-map.png)
