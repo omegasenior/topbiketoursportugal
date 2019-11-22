@@ -22,9 +22,6 @@ dates:
       [The Way of St. James - Along the coast easy -
       Guided](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)
       bike tour
-
-
-      ![](/img/atlantic-coast-bike-tour-portugal.jpg)
     date: 2020-10-10T23:00:00.000Z
     type: Date
   - body: >-
@@ -48,9 +45,6 @@ dates:
       [The Way of St. James - Along the coast easy -
       G](https://www.topbiketoursportugal.com/santiago-de-compostela-coastal-route)uided
       bike tour
-
-
-      ![](/img/20190905_091303.jpg)
     date: 2020-06-06T23:00:00.000Z
     type: Date
   - body: >-
