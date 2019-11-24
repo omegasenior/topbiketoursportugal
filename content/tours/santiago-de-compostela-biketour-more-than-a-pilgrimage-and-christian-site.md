@@ -250,16 +250,16 @@ pricing:
         value: '4'
     price: 2456
 afterpricing: |-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
   * Prices can suffer updates due high season, holidays or weekends
+  * Beverages are not included at lunch and dinner when included in the package
 
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
+  * Supplement for single room: 329 €
   * Solo traveler: 200 €
   * Extra nights: on request
 feature:
