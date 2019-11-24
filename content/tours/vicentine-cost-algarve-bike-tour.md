@@ -355,12 +355,13 @@ afterpricing: |-
 
   * Prices are based for 2 people sharing the same room;
   * Prices can suffer updates due high season, holidays or weekends
+  * Beverages are not included at lunch and dinner when included in the package
 
   **Extras**
 
   * Electric bicycles price: 200€
-  * Suplement for single room : 490 €
-  * Suplement for single room reduced option: 329 €
+  * Supplement for single room : 490 €
+  * Supplement for single room reduced option: 329 €
   * Solo traveler: 290 €
   * Solo traveler reduced option: 200 €
   * Extra nights: on request
@@ -423,7 +424,7 @@ Day 10 - Departure
 \
 **Tour Description:**  Easy level
 
-**Estimated KM:** 254 km ****, Elevation: 2528 metres ascent and 2538 meters descent
+**Estimated KM:** 254 km \*\*\*\*, Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
 Day 1 – Lisbon Reception
