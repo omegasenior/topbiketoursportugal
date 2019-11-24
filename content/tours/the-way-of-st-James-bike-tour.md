@@ -246,7 +246,7 @@ pricing:
         value: 'Yes'
       - title: 14 lunches (6 lunches reduce route)
         value: 'No'
-      - title: 14 Dinners (6 dinners redudec route)
+      - title: 14 Dinners (6 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -290,7 +290,7 @@ pricing:
         value: 'Yes'
       - title: 14 lunches (6 lunches reduce route)
         value: 'Yes'
-      - title: 14 Dinners (6 dinners redudec route)
+      - title: 14 Dinners (6 dinners reduced route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -379,6 +379,8 @@ Day 16 -  Santiago de Compostela – departure
 ![The French Camino way map](/img/mapa-santiado-compostela-french-way.png)
 
 **Itinerary reduced route:**
+
+**Km:** 315 km
 
 Day 1 -  León (Descanso)
 
