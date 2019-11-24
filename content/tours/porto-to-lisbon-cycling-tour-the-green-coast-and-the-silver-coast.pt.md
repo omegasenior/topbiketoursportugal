@@ -379,7 +379,7 @@ pricing:
       - title: 6 Nights / 7 Days ( price per person)
         value: 2.360 €
     price: 2360
-afterpricing: "**Observations:**\n\n* Prices are based for 2 people sharing the same room;\n* Prices can suffer updates due high season, holidays or weekends\n\n**Extras**\n\n* Electric bicycles price: 250€\r\n* Electric bicycles price reduced option: 175€\r\n* Supplement for single room: 589 €\r\n* Supplement for single room reduced option: 329 €\r\n* Solo traveler: 400 €\r\n* Solo traveler reduced option: 200 €\r\n* Extra nights: on request"
+afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n\n\n**Extras**\n\n* Bicicleta Elétrica: 250€\n* Bicicleta Elétrica itinerário reduzido: 175€\n* Suplemento para quarto individual: 589 €\n* Suplemento para quarto individual itinerário reduzido: 329 €\n* Viajante único: 400 €\n* Viajante único itinerário reduzido: 200 €\n* Noites extra: sob consulta"
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
@@ -436,7 +436,7 @@ Dia 13 - Partida de Lisboa
 
 ![](/img/porto-to-lisbon-cyling-map.png)
 
-**Itinerário**
+**Itinerário reduzido**
 
 **KM:** 308 Km
 
