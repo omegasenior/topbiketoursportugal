@@ -47,167 +47,162 @@ itinerary:
     location:
       lat: '43.1629528'
       lng: '-1.2380528'
-    title: 'Dia 1 - Saint-Jean-Pied-De-Port '
+    title: Dia 1 - Recepção em Saint-Jean-Pied-De-Port
   - day: '2'
     description: >-
-      Este incrível passeio de bicicleta começa na pequena cidade de
-      Saint-Jean-de-Port, este lugar é um popular ponto de partida para o
-      Caminho Francês. Esta estrada atravessa os Pirinéus com várias ruas
-      medievais, e neste dia termina em Espanha, em Roncesvalles, esta cidade é
-      conhecida como o primeiro ponto de descanso para todos os peregrinos
+      Este passeio de bicicleta tem o seu início na pequena cidade de
+      Saint-Jean-de-Port. Esta é um popular ponto de partida para o Caminho
+      Francês. O percurso deste primeiro dia atravessa os Pirenéus, passando por
+      várias ruas medievais, terminando em Espanha, em Roncesvalles, cidade
+      conhecida como o primeiro ponto de descanso para todos os peregrinos.
     location:
       lat: '43.009286'
       lng: '43.009286'
-    title: Dia 2 -  Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
+    title: Dia 2 - Saint-Jean-Pied-De-Port - Roncesvalles (27 Km)
   - day: '3'
     description: >-
-      Hoje através do interior da Espanha, o destino é Puente la Reina.
-      Prepare-se para ver muita natureza e vistas deslumbrantes. Durante
-      caminho, existem algumas aldeias agradáveis para parar-se. Puente la Reina
-      fica entre Estella e Pamplona na rota de peregrinação a Santiago de
-      Compostela. É a primeira cidade após a junção do Caminho Francês, e é rota
-      mais popular.
+      Prepare-se para ver muita natureza e vistas deslumbrantes. Durante o
+      caminho de hoje, existem algumas aldeias agradáveis onde poderá parar.
+      Puente la Reina fica entre Estella e Pamplona na rota de peregrinação a
+      Santiago de Compostela. É a primeira cidade após a junção do Caminho
+      Francês com o caminho que tem a sua origem na passagem de somport,
+      fronteira entre França e Espanha.
     location:
       lat: '42.6717107'
       lng: '-1.8155291'
-    title: ' Dia 3 - Roncesvalles - Puente la Reina / 67 km (94)'
+    title: Dia 3 - Roncesvalles - Puente la Reina (67 km)
   - day: '4'
     description: >-
-      Continuando pelo interior da Espanha a próxima paragem é Logrono. Esta
-      cidade é um centro de comércio para o vinho de Rioja, e também produz
-      madeira, metal e produtos têxteis. Esta vila também é conhecida por Tapas
-      oferecendo 50 taperías (tapas restaurantes) localizado dentro de uma área
-      no centro da cidade.
+      Continuando pelo interior da Espanha a próxima paragem é Logroño. Esta
+      cidade é um centro de comércio do vinho de Rioja, de produção de madeira,
+      metal e produtos têxteis. Esta vila é conhecida pelos seus "Tapas",
+      demonstrado pelas 50 taperías, restaurantes de tapas, localizados dentro
+      do centro da cidade.
     location:
       lat: '42.4661196'
       lng: '-2.4396676'
-    title: Dia 4 - Puente la Reina - Logroño / 76 km
+    title: Dia 4 - Puente la Reina - Logrono (76 km)
   - day: '5'
     description: >-
-      No 5º dia, o próximo destino é Santo Domingo de la Calzada. Nesta rota é
-      possível ver vários pescadores e principalmente diversos terrenos
-      agrícolas, com várias vinhas, porque este local é famoso devido ao vinho
-      Rioja. A cidade de Santo Domingo é um município situado nas margens do Rio
-      Oja, o seu nome refere-se ao seu fundador, Dominic de la Calzada, que
-      construiu uma ponte, hospital e hotel nesta cidade para peregrinos do
-      Caminho de Santiago.
+      Nesta rota é possível observar um grande número de pescadores e de
+      diversos terrenos agrícolas pejados de vinhas, pois este local é famoso
+      devido ao vinho Rioja. A cidade de Santo Domingo é um município situado
+      nas margens do Rio Oja, o seu nome refere-se ao seu fundador, Dominic de
+      la Calzada, que construiu uma ponte, hospital e hotel nesta cidade para os
+      peregrinos do Caminho de Santiago.
     location:
       lat: '42.44293826'
       lng: '-2.95695305'
-    title: Dia 5 - Logroño - Santo Domingo / 52 km
+    title: Dia 5 - Logroño - Santo Domingo (52 km)
   - day: '6'
     description: >-
-      O passeio de hoje contém vários rios e riachos, o destino é a cidade de
-      Burgos. Esta cidade tem muitos marcos históricos, de particular
-      importância; A Catedral de Burgos (declarada Património da Humanidade pela
-      UNESCO em 1984), local da Arquidiocese Católica Romana Metropolitana de
-      Burgos, Mosteiro das Huelgas Reales e a Cartuxa de Miraflores.  A cidade é
-      conhecida como um cruzamento principal do norte da Espanha ao longo do
-      Caminho de Santiago, que corre paralelo ao Rio Arlanzón.
+      O seu percurso em bicicleta durante o percurso de hoje passará por vários
+      rios e riachos, tendo a cidade de Burgos como destino final. Esta cidade
+      tem muitos marcos históricos de particular importância, como é o caso da
+      Catedral de Burgos, declarada Património da Humanidade pela UNESCO em
+      1984, o local da Arquidiocese Católica Romana Metropolitana de Burgos, o
+      Mosteiro das Huelgas Reales e a Cartuxa de Miraflores.
     location:
       lat: '42.343926'
       lng: '-3.696977'
-    title: Dia 6 - Santo Domingo - Burgos / 72 km
+    title: Dia 6 - Santo Domingo - Burgos (72 km)
   - day: '7'
     description: >-
-      Continuando o Caminho, a próxima paragem é Carrión de los Condes. Carrión
-      de los Condes foi tirado dos mouros por Alonso Carreño por volta de
-      791-842, Don Carreño tomou o nome Carrión nesse momento.  Esta cidade era
-      conhecida pela forte presença dos judeus, embora fossem mais numerosos do
-      que os cristãos tanto em número como em bens, submeteram-se em 1126 ao rei
-      vitorioso Alfonso VI.
+      A próxima paragem é Carrión de los Condes. Carrión de los Condes foi
+      tirada aos mouros por Alonso Carreño por volta de 791-842. Don Carreño
+      tomou o nome de Carrión após a conquista.  Esta cidade era conhecida pela
+      forte presença de judeus. Embora fossem mais numerosos do que os cristãos,
+      tanto em número como em bens, submeteram-se em 1126 ao rei Alfonso VI.
     location:
       lat: '42.3385404'
       lng: '-4.6017128'
-    title: Dia 7 - Burgos - Carrión de los Condes / 85 km
+    title: Dia 7 - Burgos - Carrión de los Condes (85 km)
   - day: '8'
     description: >-
-      Durante este dia passaremos um dia descansando na cidade de Sahugún ou na
-      cidade de León.  Deixando Carrión de los Condes e continuando a viagem de
-      bicicleta o destino é Sahugún. Esta cidade é a província de León. Sahagún
-      contém alguns dos primeiros exemplos do estilo mudéjar de arquitectura  A
-      cidade de Leon está localizada no Caminho de Santiago, que é classificado
-      como um Património Mundial da UNESCO, tornando-se um destino de turismo
-      nacional e internacional. Alguns dos edifícios históricos mais
-      proeminentes da cidade são a Catedral, o melhor exemplo da arquitectura
-      gótica clássica em estilo francês em Espanha
+      Deixando Carrión de los Condes e continuando a viagem de bicicleta o
+      destino é Sahugún. Esta cidade pertence à província de León. Sahagún
+      contém alguns dos primeiros exemplos do estilo arquitectónico mudéjar.  A
+      cidade de León é classificada como um Património Mundial da UNESCO, 
+      tornando-se assim num destino de turismo nacional e internacional. O
+      edifício histórico mais proeminente da cidade é a Catedral, o melhor
+      exemplo da arquitectura gótica clássica de estilo francês em Espanha.
     location:
       lat: '42.5989995'
       lng: '-5.5682413'
-    title: Dia 8 - Carrión de los Condes - Sahugún - Léon (noche extra)
+    title: Dia 8 - Carrión de los Condes - Sahugún (optional)- León (97 km)
   - day: '9'
-    description: Discover Léon city
+    description: Dia de Descanso
     location:
       lat: '42.5989995'
       lng: '-5.5682413'
     title: Dia 9 – Dia de descanso
   - day: '10'
     description: >-
-      Neste dia, a estrada tem como destino a cidade de  Astorga. Este caminho é
-      feito em argila e com muitos pontos de vista para admirar a paisagem.
-      Chegando ao centro da cidade de Astorga, pode-se admirar vários
+      Percorre-se agora a estrada com destino à cidade de  Astorga. Este caminho
+      é feito em argila e com muitos pontos panorâmicos onde se pode admirar a
+      paisagem. Chegando ao centro da cidade de Astorga, poderá ver vários
       monumentos, como a Catedral do Palácio Episcopal e as paredes que cercam a
-      cidade construída no tempo de Roma.
+      cidade, construída no tempo de Roma.
     location:
       lat: '42.4553555'
       lng: '-6.0529025'
-    title: Dia 10 - León - Astorga / 51 km
+    title: Dia 10 - León - Astorga (51 km)
   - day: '11'
     description: >-
       Partindo de Astorga, a próxima cidade é Cacabelos. Neste dia o caminho
-      apresenta diversas terras agrícolas e áreas florestais, também é possível 
-      admirar os trilhos até chegar a Cacabelos que são da Era Medieval. 
-      Chegando a Cacabelos, pode saborear os famosos vinhos enquanto admira a
-      ponte medieval que passa sobre o rio Cua.
+      apresenta diversas terras agrícolas e áreas florestais. Aproveite para
+      admirar os trilhos medievais, até finalmente chegar ao seu destino. 
+      Chegando a Cacabelos pode saborear os seus famosos vinhos, enquanto admira
+      a ponte medieval que passa sobre o rio Cua.
     location:
       lat: '42.5988042'
       lng: '-6.7259329'
-    title: Dia 11 - Astorga - Cacabelos / 70 km
+    title: Dia 11 - Astorga - Cacabelos (70 km)
   - day: '12'
     description: >-
-      Neste dia o próximo destino é Triacastela. Esta rota é uma das mais belas
-      do caminho, onde pode-se admirar as vastas montanhas cobertas com a
-      natureza, ao longo do caminho irá encontrar também pequenas aldeias
-      típicas. A cidade de Triacastela é um ponto de paragem famosa para os
-      peregrinos onde trocam experiências do caminho que já percorreram.
+      Esta rota é uma das mais belas do caminho, onde se pode apreciar as vastas
+      montanhas cobertas de natureza. Ao longo do caminho irá encontrar também
+      pequenas aldeias típicas. A cidade de Triacastela é um ponto de paragem
+      famoso para os peregrinos, onde tipicamente trocam experiências de todo o
+      caminho que já percorreram.
     location:
       lat: '42.7563403'
       lng: '-7.2397461'
-    title: Día 12 - Cacabelos - Tríacastela / 55 km
+    title: ' Dia 12 - Cacabelos – Tríacastela (55 km)'
   - day: '13'
     description: >-
       Após o pequeno-almoço, o próximo destino é Portomarin. Esta rota é famosa
-      pelas suas "subidas e decidas", mas novamente irá puder admirar com belas
-      paisagens. Este caminho durante o dia oferece-lhe várias travessias de
-      pontes e rotas de pedra do tempo medieval até a chegada a Portomarin.
+      pelas suas "subidas e decidas", como também pelas suas belas paisagens.
+      Durante o dia, este caminho oferece-lhe a travessia de pontes de pedra do
+      tempo medieval, até à chegada a Portomarin.
     location:
       lat: '42.808161'
       lng: '-7.6156139'
-    title: Día 13 - Tríacastela - Portomarín / 46 km
+    title: Dia 13 - Tríacastela - Portomarin (46 km)
   - day: '14'
     description: >-
-      Deixando Portomarin o próximo destino é Melide. Este caminho é feito no
-      meio de florestas onde poderá contemplar a natureza que aqui encontra-se.
-      Chegando a Melide é possível saborear o famoso polvo e admirar as várias
+      Deixando Portomarin, o próximo destino é Melide. Este caminho é feito no
+      meio de florestas, onde poderá contemplar a natureza que aqui se encontra.
+      Chegando a Melide, é possível saborear o famoso polvo e admirar as várias
       igrejas e o castelo desta cidade.
     location:
       lat: '42.9145741'
       lng: '-8.0136139'
-    title: Día 14 - Portomarín - Melide 62 Km / 39 km
+    title: Dia 14 - Portomarin - Melide (62 Km ou 39 km)
   - day: '15'
     description: >-
-      Hoje o destino final é Santiago de Compostela. Neste dia começa-se a ver
-      cada vez mais os peregrinos e todos eles desejam "Buen Camino". Chegando a
-      Santiago, é claro quevai encontrar muitos peregrinos felizes pelo seu
-      feito e, também a magnífica catedral de Santiago que continua de ano para
-      ano a ganhar cada vez mais pessoas a fazerem esta rota religiosa /
-      espiritual.
+      Finalmente o destino final é Santiago de Compostela. Neste dia começa-se a
+      ver cada vez mais peregrinos, todos eles desejando "Buen Camino". Chegando
+      a Santiago, perceberá que muitos peregrinos partilharam da sua felicidade,
+      por terem completo todo o trajecto até à magnífica catedral de Santiago,
+      que continua, de ano para ano, a ganhar cada vez mais clientela, que se
+      dispõem a realizar esta travessia religiosa.
     location:
       lat: '42.8804219'
       lng: '-8.5458608'
-    title: Día 15 - Melide - Santiago de Compostela / 54 km
+    title: Dia 15 - Melide - Santiago de Compostela (54 km)
   - day: '16'
-    description: Departure
+    description: Partida
     location:
       lat: '42.8804219'
       lng: '-8.5458608'
@@ -333,50 +328,82 @@ feature:
 
 ## O Caminho Francês
 
-O Caminho Francês é uma das rotas mais populares entre as pessoas que fazem o Caminho de Santiago. É o caminho escolhido por muitos peregrinos que tem muitas atracções ao longo da rota de Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII, e é de longe o mais conhecido internacionalmente. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
+O Caminho Francês é uma das rotas mais populares entre aqueles que se atrevem a deslocar-se até Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
 
-O Caminho Francês é uma jornada notável, cruzando tanto o terreno montanhoso como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Também atravessa muitas cidades de peregrinação muito importantes como por exemplo, Saint Jean Pied de Port e Logroño.
 
-**Route description:**
 
-* On this long route all kind of terrains are to be expected. Route with long and difficult climbs.
-* 12.000 meters with cumulated ascents
+O Caminho Francês é uma jornada notável, cruzando tanto terreno montanhoso, como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Atravessa também muitas cidades com um significado muito importante para as peregrinações, como por exemplo Saint Jean Pied de Port e Logroño.
+
+**Descrição do Percurso:**
+
+* Esta rota apresenta todo o tipo de terrenos. É um caminho com subidas longas e difíceis.
+* Total acumulado de 12.000 metros de subida.
 
 \
 **Itinerary:**
 
 \
-Day 1 - Saint-Jean-Pied-De-Port Reception
+Dia 1 - Recepção em Saint-Jean-Pied-De-Port
 
-Day 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
 
-Day 3 -  Roncesvalles - Puente la Reina / 67 km (94)
 
-Day 4 -  Puente la Reina - Logrono / 76 km (170)
+Dia 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
 
-Day 5 -  Logrono - Santo Domingo / 52 km (222)
 
-Day 6 -  Santo Domingo - Burgos /72 km (294)
 
-Day 7 -  Burgos - Carrión de los Condes / 85 km (379)
+Dia 3 - Roncesvalles - Puente la Reina / 67 km (94)
 
-Day 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
 
-Day 9 -  León (Descanso)
 
-Day 10 -  León - Astorga / 51 km (527)
+Dia 4 - Puente la Reina - Logroño / 76 km (170)
 
-Day 11 -  Astorga - Cacabelos / 70 km (597)
 
-Day 12 -  Cacabelos – Tríacastela / 55 km (652)
 
-Day 13 -  Tríacastela - Portomarin / 46 km (698)
+Dia 5 - Logroño - Santo Domingo / 52 km (222)
 
-Day 14 -  Portomarin - Melide 62 Km / 39 km (737)
 
-Day 15 -  Melide - Santiago de Compostela / 54 km (791)
 
-Day 16 -  Santiago de Compostela – Partida
+Dia 6 - Santo Domingo - Burgos /72 km (294)
+
+
+
+Dia 7 - Burgos - Carrión de los Condes / 85 km (379)
+
+
+
+Dia 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
+
+
+
+Dia 9 - Dia de Descanso em León
+
+
+
+Dia 10 - León - Astorga / 51 km (527)
+
+
+
+Dia 11 - Astorga - Cacabelos / 70 km (597)
+
+
+
+Dia 12 - Cacabelos – Tríacastela / 55 km (652)
+
+
+
+Dia 13 - Tríacastela - Portomarin / 46 km (698)
+
+
+
+Dia 14 - Portomarin - Melide 62 Km / 39 km (737)
+
+
+
+Dia 15 - Melide - Santiago de Compostela / 54 km (791)
+
+
+
+Dia 16 - Partida de Santiago de Compostela
 
 ![](/img/mapa-santiado-compostela-french-way.png)
 
