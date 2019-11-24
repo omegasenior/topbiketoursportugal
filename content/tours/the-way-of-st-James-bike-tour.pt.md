@@ -330,8 +330,6 @@ feature:
 
 O Caminho Francês é uma das rotas mais populares entre aqueles que se atrevem a deslocar-se até Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
 
-
-
 O Caminho Francês é uma jornada notável, cruzando tanto terreno montanhoso, como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Atravessa também muitas cidades com um significado muito importante para as peregrinações, como por exemplo Saint Jean Pied de Port e Logroño.
 
 **Descrição do Percurso:**
@@ -345,63 +343,33 @@ O Caminho Francês é uma jornada notável, cruzando tanto terreno montanhoso, c
 \
 Dia 1 - Recepção em Saint-Jean-Pied-De-Port
 
-
-
 Dia 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
 
+Dia 3 - Roncesvalles - Puente la Reina / 67 km 
 
+Dia 4 - Puente la Reina - Logroño / 76 km 
 
-Dia 3 - Roncesvalles - Puente la Reina / 67 km (94)
+Dia 5 - Logroño - Santo Domingo / 52 km 
 
+Dia 6 - Santo Domingo - Burgos /72 km 
 
+Dia 7 - Burgos - Carrión de los Condes / 85 km 
 
-Dia 4 - Puente la Reina - Logroño / 76 km (170)
-
-
-
-Dia 5 - Logroño - Santo Domingo / 52 km (222)
-
-
-
-Dia 6 - Santo Domingo - Burgos /72 km (294)
-
-
-
-Dia 7 - Burgos - Carrión de los Condes / 85 km (379)
-
-
-
-Dia 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
-
-
+Dia 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km 
 
 Dia 9 - Dia de Descanso em León
 
+Dia 10 - León - Astorga / 51 km 
 
+Dia 11 - Astorga - Cacabelos / 70 km 
 
-Dia 10 - León - Astorga / 51 km (527)
+Dia 12 - Cacabelos – Tríacastela / 55 km 
 
+Dia 13 - Tríacastela - Portomarin / 46 km 
 
+Dia 14 - Portomarin - Melide 62 Km / 39 km 
 
-Dia 11 - Astorga - Cacabelos / 70 km (597)
-
-
-
-Dia 12 - Cacabelos – Tríacastela / 55 km (652)
-
-
-
-Dia 13 - Tríacastela - Portomarin / 46 km (698)
-
-
-
-Dia 14 - Portomarin - Melide 62 Km / 39 km (737)
-
-
-
-Dia 15 - Melide - Santiago de Compostela / 54 km (791)
-
-
+Dia 15 - Melide - Santiago de Compostela / 54 km 
 
 Dia 16 - Partida de Santiago de Compostela
 
