@@ -276,8 +276,6 @@ pricing:
     price: 2210
     type: '1'
 afterpricing: |-
-
-
   **Observations:**
 
   * Prices are based for 2 people sharing the same room;
@@ -286,7 +284,7 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 175€
-  * Suplement for single room: 329 €
+  * Supplement for single room: 329 €
   * Solo traveler: 200 €
   * Extra nights: on request
 feature:
