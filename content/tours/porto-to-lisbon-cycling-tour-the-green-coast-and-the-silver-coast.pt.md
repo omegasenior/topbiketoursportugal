@@ -295,7 +295,7 @@ pricing:
       - title: 12 Nights / 13 Days ( price per person)
         value: 2.779 €
       - title: 'July, August and September Prices'
-        value: + 2500 €
+        value: '* 250 € (125 € reduced option)'
       - title: Min. Participants
         value: '2'
     price: 1480
@@ -335,7 +335,7 @@ pricing:
       - title: 12 Nights / 13 Days ( price per person)
         value: 3.589 €
       - title: 'July, August and September Prices'
-        value: + 250 €
+        value: '* 250 € (125 € reduced option)'
       - title: Min. Participants
         value: '4'
     price: 1789
@@ -373,7 +373,7 @@ pricing:
       - title: 12 Nights / 13 Days ( price per person)
         value: 4.629 €
       - title: 'July, August and September Prices'
-        value: + 250 €
+        value: '* 250 € (125 € reduced option)'
       - title: Min. Participants
         value: '4'
       - title: 6 Nights / 7 Days ( price per person)
