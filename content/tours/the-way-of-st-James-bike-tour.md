@@ -244,9 +244,9 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches (7 lunches reduce route)
+      - title: 14 lunches (6 lunches reduce route)
         value: 'No'
-      - title: 14 Dinners (7 dinners redudec route)
+      - title: 14 Dinners (6 dinners redudec route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -288,9 +288,9 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches (7 lunches reduce route)
+      - title: 14 lunches (6 lunches reduce route)
         value: 'Yes'
-      - title: 14 Dinners (7 dinners redudec route)
+      - title: 14 Dinners (6 dinners redudec route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -348,31 +348,31 @@ Day 1 - Saint-Jean-Pied-De-Port reception
 
 Day 2 - Saint-Jean-Pied-De-Port - Roncesvalles / 27 Km
 
-Day 3 -  Roncesvalles - Puente la Reina / 67 km (94)
+Day 3 -  Roncesvalles - Puente la Reina / 67 km 
 
-Day 4 -  Puente la Reina - Logrono / 76 km (170)
+Day 4 -  Puente la Reina - Logrono / 76 km 
 
-Day 5 -  Logrono - Santo Domingo / 52 km (222)
+Day 5 -  Logrono - Santo Domingo / 52 km 
 
-Day 6 -  Santo Domingo - Burgos /72 km (294)
+Day 6 -  Santo Domingo - Burgos /72 km 
 
-Day 7 -  Burgos - Carrión de los Condes / 85 km (379)
+Day 7 -  Burgos - Carrión de los Condes / 85 km 
 
-Day 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km (476)
+Day 8 - Carrión de los Condes - Sahugún (optional)- León / 97 km 
 
-Day 9 -  León (Descanso)
+Day 9 -  León (rest day)
 
-Day 10 -  León - Astorga / 51 km (527)
+Day 10 -  León - Astorga / 51 km 
 
-Day 11 -  Astorga - Cacabelos / 70 km (597)
+Day 11 -  Astorga - Cacabelos / 70 km 
 
-Day 12 -  Cacabelos – Tríacastela / 55 km (652)
+Day 12 -  Cacabelos – Tríacastela / 55 km 
 
-Day 13 -  Tríacastela - Portomarin / 46 km (698)
+Day 13 -  Tríacastela - Portomarin / 46 km 
 
-Day 14 -  Portomarin - Melide 62 Km / 39 km (737)
+Day 14 -  Portomarin - Melide 62 Km / 39 km 
 
-Day 15 -  Melide - Santiago de Compostela / 54 km (791)
+Day 15 -  Melide - Santiago de Compostela / 54 km 
 
 Day 16 -  Santiago de Compostela – departure
 
@@ -382,16 +382,16 @@ Day 16 -  Santiago de Compostela – departure
 
 Day 1 -  León (Descanso)
 
-Day 2 -  León - Astorga / 51 km (527)
+Day 2 -  León - Astorga / 51 km 
 
-Day 3 -  Astorga - Cacabelos / 70 km (597)
+Day 3 -  Astorga - Cacabelos / 70 km 
 
-Day 4 -  Cacabelos – Tríacastela / 55 km (652)
+Day 4 -  Cacabelos – Tríacastela / 55 km 
 
-Day 5 -  Tríacastela - Portomarin / 46 km (698)
+Day 5 -  Tríacastela - Portomarin / 46 km 
 
-Day 6 -  Portomarin - Melide 62 Km / 39 km (737)
+Day 6 -  Portomarin - Melide 62 Km / 39 km 
 
-Day 7 -  Melide - Santiago de Compostela / 54 km (791)
+Day 7 -  Melide - Santiago de Compostela / 54 km 
 
 Day 8 -  Santiago de Compostela – departure
