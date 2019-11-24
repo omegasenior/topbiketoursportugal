@@ -282,21 +282,23 @@ pricing:
         value: 'No'
       - title: Mechanical Assistance
         value: 'No'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'No'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'No'
       - title: Liability Insurance
         value: 'No'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.480 €
       - title: 12 Nights / 13 Days ( price per person)
         value: 2.779 €
       - title: 'July, August and September Prices'
         value: + 2500 €
       - title: Min. Participants
         value: '2'
-    price: 2779
+    price: 1480
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 100
@@ -320,21 +322,23 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'No'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.789€
       - title: 12 Nights / 13 Days ( price per person)
         value: 3.589 €
       - title: 'July, August and September Prices'
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    price: 3591
+    price: 1789
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 100
@@ -358,9 +362,9 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'Yes'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -372,19 +376,10 @@ pricing:
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    price: 4629
-afterpricing: |-
-  **Observations:**
-
-  * Prices are based for 2 people sharing the same room;
-  * Prices can suffer updates due high season, holidays or weekends
-
-  **Extras**
-
-  * Electric bicycles price: 250€
-  * Supplement for single room: 589 €
-  * Solo traveler: 400 €
-  * Extra nights: on request
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 2.360 €
+    price: 2360
+afterpricing: "**Observations:**\n\n* Prices are based for 2 people sharing the same room;\n* Prices can suffer updates due high season, holidays or weekends\n\n**Extras**\n\n* Electric bicycles price: 250€\r\n* Electric bicycles price reduced option: 175€\r\n* Supplement for single room: 589 €\r\n* Supplement for single room reduced option: 329 €\r\n* Solo traveler: 400 €\r\n* Solo traveler reduced option: 200 €\r\n* Extra nights: on request"
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
@@ -440,3 +435,22 @@ Dia 12 -Sintra – Cascais (40 Km)
 Dia 13 - Partida de Lisboa
 
 ![](/img/porto-to-lisbon-cyling-map.png)
+
+**Itinerário**
+
+**KM:** 308 Km
+
+\
+Dia 1 - Porto reception
+
+Dia 2 - Porto - Furadouro ( 47 Km)
+
+Dia 3 - Furadouro - Aveiro ( 45 KM)
+
+Dia 4 - Aveiro - Figueira da Foz ( 75 Km)
+
+Dia 5 - Figueira da Foz – São Pedro de Moel (65 KM)
+
+Dia 6: -São Pedro de Moel  – Óbidos (76 Km) 
+
+Dia 7 - Trasnfer to lisbon or Porto
