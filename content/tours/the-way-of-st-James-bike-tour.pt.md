@@ -304,7 +304,7 @@ pricing:
         value: '10'
     price: 2596
     type: '1'
-afterpricing: "**Observations:**\n\n* Prices are based for 2 people sharing the same room;\n* Prices can suffer updates due high season, holidays or weekends\n\n**Extras**\n\n* Electric bicycles price: 300 €\r\n* Electric bicycles price reduce route: 175 €\r\n* Supplement for single room: 650 €\r\n* Supplement for single room reduce route: 329 €\r\n* Extra nights: on request"
+afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n****\n\n**Extras**\n\n* Bicicleta Eléctrica: 300 €\n* Bicicleta Eléctrica itinerário reduzido: 175 €\n* Suplemento para quarto individual: 650 €\n* Suplemento para quarto individual itinerário reduzido: 329 €\n* Noites extra: sob consulta"
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
