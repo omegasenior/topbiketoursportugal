@@ -423,7 +423,7 @@ Day 10 - Departure
 \
 **Tour Description:**  Easy level
 
-**Estimated KM: 254 km** , Elevation: 2528 metres ascent and 2538 meters descent
+**Estimated KM:** 254 km ****, Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
 Day 1 – Lisbon Reception
