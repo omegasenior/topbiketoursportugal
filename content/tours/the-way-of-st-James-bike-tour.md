@@ -244,24 +244,27 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches
+      - title: 14 lunches (7 lunches reduce route)
         value: 'No'
-      - title: 14 Dinners
+      - title: 14 Dinners (7 dinners redudec route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 1.986€
       - title: 15 Nights / 16 Days ( price per person)
-        value: 3.400 €
+        value: 3.960 €
       - title: 'July, August and September Prices'
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    price: 3400
+    price: 1986
     type: '1'
   - discount: 0
     highSeasonPriceSupplement: 100
+    observations: 4.896 €
     package: Guided bike tour Plus*
     packageContents:
       - icon: ✓
@@ -285,21 +288,23 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches
+      - title: 14 lunches (7 lunches reduce route)
         value: 'Yes'
-      - title: 14 Dinners
+      - title: 14 Dinners (7 dinners redudec route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 2.596 €
       - title: 15 Nights / 16 Days ( price per person)
         value: 4.180 €
       - title: 'July, August and September Prices'
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    price: 4180
+    price: 2596
     type: '1'
 afterpricing: |-
   **Observations:**
@@ -310,8 +315,9 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 300 €
+  * Electric bicycles price reduce route: 175 €
   * Supplement for single room: 650 €
-  * Solo traveler: 430 €
+  * Supplement for single room reduce route: 329 €
   * Extra nights: on request
 feature:
   align: center
@@ -368,6 +374,24 @@ Day 14 -  Portomarin - Melide 62 Km / 39 km (737)
 
 Day 15 -  Melide - Santiago de Compostela / 54 km (791)
 
-Day 16 -  Santiago de Compostela – Partida
+Day 16 -  Santiago de Compostela – departure
 
 ![The French Camino way map](/img/mapa-santiado-compostela-french-way.png)
+
+**Itinerary reduced route:**
+
+Day 1 -  León (Descanso)
+
+Day 2 -  León - Astorga / 51 km (527)
+
+Day 3 -  Astorga - Cacabelos / 70 km (597)
+
+Day 4 -  Cacabelos – Tríacastela / 55 km (652)
+
+Day 5 -  Tríacastela - Portomarin / 46 km (698)
+
+Day 6 -  Portomarin - Melide 62 Km / 39 km (737)
+
+Day 7 -  Melide - Santiago de Compostela / 54 km (791)
+
+Day 8 -  Santiago de Compostela – departure
