@@ -304,18 +304,7 @@ pricing:
         value: '10'
     price: 2596
     type: '1'
-afterpricing: |-
-  **Observations:**
-
-  * Prices are based for 2 people sharing the same room;
-  * Prices can suffer updates due high season, holidays or weekends
-
-  **Extras**
-
-  * Electric bicycles price: 300 €
-  * Supplement for single room: 650 €
-  * Solo traveler: 430 €
-  * Extra nights: on request
+afterpricing: "**Observations:**\n\n* Prices are based for 2 people sharing the same room;\n* Prices can suffer updates due high season, holidays or weekends\n\n**Extras**\n\n* Electric bicycles price: 300 €\r\n* Electric bicycles price reduce route: 175 €\r\n* Supplement for single room: 650 €\r\n* Supplement for single room reduce route: 329 €\r\n* Extra nights: on request"
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
