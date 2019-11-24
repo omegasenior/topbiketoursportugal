@@ -268,9 +268,9 @@ pricing:
         value: 'No'
       - title: Mechanical Assistance
         value: 'No'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'No'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'No'
@@ -308,9 +308,9 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'No'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
@@ -348,9 +348,9 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 11 lunches
+      - title: 11 lunches (5 lunches reduced route)
         value: 'Yes'
-      - title: 11 Dinners
+      - title: 11 Dinners (5 dinners reduced route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
