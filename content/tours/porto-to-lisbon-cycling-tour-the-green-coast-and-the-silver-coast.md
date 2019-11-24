@@ -438,6 +438,8 @@ Day 13 - Departure to Lisbon
 
 **Itinerary reduced Route:**
 
+**KM:** 308 Km
+
 \
 Day 1 - Porto reception
 
