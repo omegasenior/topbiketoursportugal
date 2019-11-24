@@ -248,21 +248,23 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches
+      - title: 14 lunches (6 lunches reduce route)
         value: 'No'
-      - title: 14 Dinners
+      - title: 14 Dinners (6 dinners reduced route)
         value: 'No'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 1.986 €
       - title: 15 Nights / 16 Days ( price per person)
         value: 3.400 €
       - title: 'July, August and September Prices'
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    price: 3400
+    price: 1986
     type: '1'
   - discount: 0
     highSeasonPriceSupplement: 100
@@ -289,21 +291,23 @@ pricing:
         value: 'Yes'
       - title: Mechanical Assistance
         value: 'Yes'
-      - title: 14 lunches
+      - title: 14 lunches (6 lunches reduce route)
         value: 'Yes'
-      - title: 14 Dinners
+      - title: 14 Dinners (6 dinners reduced route)
         value: 'Yes'
       - title: Personal Accident Insurance
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 7 Nights / 8 Days ( price per person)
+        value: 2.596 €
       - title: 15 Nights / 16 Days ( price per person)
         value: 4.180 €
       - title: 'July, August and September Prices'
         value: + 150 €
       - title: Min. Participants
         value: '10'
-    price: 4180
+    price: 2596
     type: '1'
 afterpricing: |-
   **Observations:**
@@ -327,11 +331,9 @@ feature:
 ---
 # O Caminho Francês - BikeTour
 
-## O Caminho Francês 
+## O Caminho Francês
 
 O Caminho Francês é uma das rotas mais populares entre as pessoas que fazem o Caminho de Santiago. É o caminho escolhido por muitos peregrinos que tem muitas atracções ao longo da rota de Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII, e é de longe o mais conhecido internacionalmente. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
-
-
 
 O Caminho Francês é uma jornada notável, cruzando tanto o terreno montanhoso como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Também atravessa muitas cidades de peregrinação muito importantes como por exemplo, Saint Jean Pied de Port e Logroño.
 
@@ -377,3 +379,23 @@ Day 15 -  Melide - Santiago de Compostela / 54 km (791)
 Day 16 -  Santiago de Compostela – Partida
 
 ![](/img/mapa-santiado-compostela-french-way.png)
+
+Itinerário rota reduzida:
+
+**Km:** 315 km
+
+Dia 1 - León (Descanso)
+
+Dia 2 - León - Astorga / 51 km
+
+Dia 3 - Astorga - Cacabelos / 70 km
+
+Dia 4 - Cacabelos – Tríacastela / 55 km
+
+Dia 5 - Tríacastela - Portomarin / 46 km
+
+Dia 6 - Portomarin - Melide 62 Km / 39 km
+
+Dia 7 - Melide - Santiago de Compostela / 54 km
+
+Dia 8 - Santiago de Compostela – departure
