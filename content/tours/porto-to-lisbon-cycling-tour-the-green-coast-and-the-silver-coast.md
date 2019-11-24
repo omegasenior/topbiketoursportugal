@@ -276,13 +276,15 @@ pricing:
         value: 'No'
       - title: Liability Insurance
         value: 'No'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.480 €
       - title: 12 Nights / 13 Days ( price per person)
         value: 2.779 €
       - title: 'July, August and September Prices'
         value: + 2500 €
       - title: Min. Participants
         value: '2'
-    price: 2779
+    price: 1480
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 100
@@ -314,13 +316,15 @@ pricing:
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 1.789€
       - title: 12 Nights / 13 Days ( price per person)
         value: 3.589 €
       - title: 'July, August and September Prices'
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    price: 3591
+    price: 1789
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 100
@@ -352,13 +356,15 @@ pricing:
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 2.360 €
       - title: 12 Nights / 13 Days ( price per person)
         value: 4.629 €
       - title: 'July, August and September Prices'
         value: + 250 €
       - title: Min. Participants
         value: '4'
-    price: 4629
+    price: 2360
 afterpricing: |-
   **Observations:**
 
@@ -368,8 +374,11 @@ afterpricing: |-
   **Extras**
 
   * Electric bicycles price: 250€
+  * Electric bicycles price reduced option: 175€
   * Supplement for single room: 589 €
+  * Supplement for single room reduced option: 329 €
   * Solo traveler: 400 €
+  * Solo traveler reduced option: 200 €
   * Extra nights: on request
 feature:
   align: center
@@ -426,3 +435,20 @@ Day 12 -Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 Day 13 - Departure to Lisbon
 
 ![Porto to Lisbon Cycling map](/img/porto-to-lisbon-cyling-map.png)
+
+**Itinerary reduced Route:**
+
+\
+Day 1 - Porto reception
+
+Day 2 - Porto - Furadouro ( 47 Km)
+
+Day 3 - Furadouro - Aveiro ( 45 KM)
+
+Day 4 - Aveiro - Figueira da Foz ( 75 Km)
+
+Day 5 - Figueira da Foz – São Pedro de Moel (65 KM)
+
+Day 6: -São Pedro de Moel  – Óbidos (76 Km) 
+
+Day 7 - Trasnfer to lisbon or Porto
