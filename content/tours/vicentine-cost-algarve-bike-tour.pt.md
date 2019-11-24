@@ -419,7 +419,7 @@ Dia 10 - Transfere
 \
 **Tour Description:**  Easy level
 
-**Estimated KM: 254 km** , Elevation: 2528 metres ascent and 2538 meters descent
+**Estimated KM:** 254 km , Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
 Dia 1 – Lisboa pick up
