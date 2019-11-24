@@ -370,14 +370,14 @@ pricing:
         value: 'Yes'
       - title: Liability Insurance
         value: 'Yes'
+      - title: 6 Nights / 7 Days ( price per person)
+        value: 2.360 €
       - title: 12 Nights / 13 Days ( price per person)
         value: 4.629 €
       - title: 'July, August and September Prices'
         value: '* 250 € (125 € reduced option)'
       - title: Min. Participants
         value: '4'
-      - title: 6 Nights / 7 Days ( price per person)
-        value: 2.360 €
     price: 2360
 afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n\n\n**Extras**\n\n* Bicicleta Elétrica: 250€\n* Bicicleta Elétrica itinerário reduzido: 175€\n* Suplemento para quarto individual: 589 €\n* Suplemento para quarto individual itinerário reduzido: 329 €\n* Viajante único: 400 €\n* Viajante único itinerário reduzido: 200 €\n* Noites extra: sob consulta"
 feature:
