@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2018/11/22/Why-choose-a-guided-bicycle-tour
+path: blog/guided-bicycle-tour
 title: Why choose a guided bicycle tour?
 language: en
 date: 2019-11-06T16:34:47.565Z
 featuredImage: /img/day-tours-portugal.jpg
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - Bike tours informations
 meta:
   description: Why choose a guided bicycle tour?
   keywords: Why choose a guided bicycle tour?
+  robots: INDEX
   title: Why choose a guided bicycle tour?
 languagePages:
   - path: porwue deve escolher um passeio em bicicleta com guia
     language: pt
-categories:
-  - category: Updates
 ---
 # Why choose a guided bicycle tour?
 
