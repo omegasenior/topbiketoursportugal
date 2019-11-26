@@ -51,7 +51,7 @@ export const Timeline = ({ dates }) => {
                 >
                   <div className="timeline__date">
                     <span className="timeline__day">
-                      {new Date(item.date).getDate()}
+                      {new Date(item.date).toLocaleString("pt-PT", {timeZone: "Europe/Lisbon"}).substring(0,2)}
                     </span>
                     <span className="timeline__month">
                       {monthName[new Date(item.date).getMonth()]}
