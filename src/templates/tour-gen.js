@@ -482,6 +482,7 @@ export const tourGenQuery = graphql`
         tags
         templateKey
         afterpricing
+        language
         gallery {
           alt
           image {
