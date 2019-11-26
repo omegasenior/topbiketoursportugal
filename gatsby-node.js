@@ -240,6 +240,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       skillLevel: Int
       pricing: [Pricing]
       afterequipment: String
+      mapUrl: String
     }
     
   `;

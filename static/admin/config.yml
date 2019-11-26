@@ -442,6 +442,7 @@ collections:
               widget: string,
               required: false,
             }
+      - { label: MapUrl, name: mapUrl, required: false, widget: string }
       - label: Itinerary
         name: itinerary
         widget: list
@@ -719,7 +720,7 @@ collections:
                   name: robots,
                   widget: "select",
                   options: ["", "FOLLOW", "INDEX", "NOFOLLOW", "NOINDEX"],
-                }  
+                }
               - {
                   label: Canonical Link,
                   name: canonicalLink,
@@ -1485,7 +1486,7 @@ collections:
                   required: false,
                   default: "center center",
                 }
-      
+
       - file: content/pages/tour-calendar/index.en.md
         label: Calendar EN
         name: calendarEN

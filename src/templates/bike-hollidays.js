@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
-import { HTMLContent } from "../components/Content";
+import { HTMLMarkdownContent, HTMLContent } from "../components/Content";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -12,7 +12,6 @@ import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
 import { sum, min } from "lodash-es";
-import showdown from "showdown";
 
 // import { display } from "@material-ui/system";
 // import { CenterFocusStrong } from "styled-icons/material";
@@ -159,7 +158,6 @@ function ToursListPage({ data }) {
   });
 
   // console.log(JSON.stringify(tours));
-  const converter = new showdown.Converter();
   const toursPage = data.toursPage;
   return (
     <Layout
@@ -247,11 +245,9 @@ function ToursListPage({ data }) {
         {toursPage.frontmatter.descriptionafter && (
           <>
             <br />
-            <HTMLContent
-              content={converter.makeHtml(
-                toursPage.frontmatter.descriptionafter
-              )}
+            <HTMLMarkdownContent
               className="container"
+              content={toursPage.frontmatter.descriptionafter}
             />
           </>
         )}
@@ -324,6 +320,7 @@ export const pageQuery = graphql`
             rating
             ratingLink
           }
+          mapUrl
           itinerary {
             day
             description

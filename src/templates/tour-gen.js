@@ -18,7 +18,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "styled-container-component";
-import { HTMLContent } from "../components/Content";
+import { HTMLContent, HTMLMarkdownContent } from "../components/Content";
 import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 // import scrollTo from "gatsby-plugin-smoothscroll";
 import { Waypoint } from "react-waypoint";
@@ -30,7 +30,6 @@ import { Clock } from "styled-icons/fa-solid/Clock";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
 import { Tag } from "styled-icons/fa-solid/Tag";
-import showdown from "showdown";
 
 import "./tour-gen.scss";
 
@@ -108,6 +107,18 @@ function TourGen({ data }) {
     "the-fine-print"
   ];
 
+  function getDifficultyText(language, difficulty) {
+    switch (language) {
+      case "pt":
+        return difficultyText.pt[difficulty];
+
+        break;
+      default:
+        return difficultyText.en[difficulty];
+        break;
+    }
+  }
+
   function handleChange(_, newValue) {
     setValue(newValue);
     goToAnchor(anchors[newValue]);
@@ -121,15 +132,17 @@ function TourGen({ data }) {
     setNavState(true);
   }
 
-  const difficultyText = [
-    "Easy",
-    "Easy to moderate",
-    "Moderate",
-    "Moderate to hard",
-    "Hard"
-  ];
+  var difficultyText = {
+    en: ["Easy", "Easy to moderate", "Moderate", "Moderate to hard", "Hard"],
+    pt: [
+      "Fácil",
+      "Fácil a moderado",
+      "Moderado",
+      "Moderade a difícil",
+      "Difícil"
+    ]
+  };
   // const difficultyText = ["Fácil", "Fácil a moderado", "Moderado", "Moderade a dificil"];
-  const converter = new showdown.Converter();
 
   return (
     <Layout
@@ -151,7 +164,9 @@ function TourGen({ data }) {
               <div className="col text-center">
                 <Mountain size="24" />
                 <span alt="Difficulty">{` ${tour.difficulty}/5`}</span>
-                <span>{`  ` + difficultyText[tour.difficulty]}</span>
+                <span>
+                  {`  ` + getDifficultyText(tour.language, tour.difficulty - 1)}
+                </span>
               </div>
             )}
             {tour.distance && (
@@ -256,9 +271,7 @@ function TourGen({ data }) {
                   </div>
 
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
-                    <div className="tour-booking-head">
-                      Country
-                    </div>
+                    <div className="tour-booking-head">Country</div>
                     <div className="tour-booking-tail">
                       <input type="text" name="country" />
                     </div>
@@ -357,7 +370,8 @@ function TourGen({ data }) {
                       type="checkbox"
                       name="tour-booking-require-acceptance"
                     />
-                    * <a href="#" target="_blank">
+                    *{" "}
+                    <a href="#" target="_blank">
                       Terms and conditions
                     </a>{" "}
                     and{" "}
@@ -382,6 +396,9 @@ function TourGen({ data }) {
       <div className="container">
         <div className="row">
           <div className="col-12">
+            {tour && tour.mapUrl && (
+              <iframe src={tour.mapUrl} width={"100%"} height={"480"}></iframe>
+            )}
             {tour.itinerary && (
               <ScrollableAnchor id={"tour-plan"}>
                 <div className="container">
@@ -393,23 +410,18 @@ function TourGen({ data }) {
               <ScrollableAnchor id={"pricing"}>
                 <div className="container">
                   <TourPricing tour={tour}></TourPricing>
-
-                  <HTMLContent
-                    content={converter.makeHtml(tour.afterpricing)}
-                  />
                 </div>
               </ScrollableAnchor>
             )}
 
             {/* <TourReviews tour={tour}></TourReviews> */}
-            {tour.afterpricing && tour.afterpricing.length > 0 && (
+            {tour.afterpricing && (
               <>
                 <br />
-                <HTMLContent
+                <HTMLMarkdownContent
                   className="container"
                   content={tour.afterpricing}
                 />
-                <br />
               </>
             )}
 

@@ -2,10 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
-import Content, { HTMLContent } from "../components/Content";
+import Content, {
+  HTMLContent,
+  HTMLMarkdownContent
+} from "../components/Content";
 import Img from "gatsby-image";
 import { groupBy } from "lodash-es";
-import showdown from "showdown";
 import "./bikes-page.scss";
 
 export const BikesPageTemplate = ({
@@ -16,8 +18,6 @@ export const BikesPageTemplate = ({
   afterequipment
 }) => {
   // const PageContent = contentComponent || Content;
-  const converter = new showdown.Converter();
-
   var groups = groupBy(bikes, b => b.type);
   var groupsKeys = Object.keys(groups);
 
@@ -44,18 +44,18 @@ export const BikesPageTemplate = ({
           <div key={`equi` + index} className="col-sm-4 col-12">
             {equip.type}
             <br />
-            <HTMLContent
+            <HTMLMarkdownContent
               className="container"
-              content={converter.makeHtml(equip.description)}
+              content={equip.description}
             />
           </div>
         ))}
       </div>
       {afterequipment && (
         <div className="container">
-          <HTMLContent
+          <HTMLMarkdownContent
             className="row justify-content-center"
-            content={converter.makeHtml(afterequipment)}
+            content={afterequipment}
           />
         </div>
       )}
