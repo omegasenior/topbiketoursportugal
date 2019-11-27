@@ -43,7 +43,7 @@ physicality: 1
 rating: []
 itinerary:
   - day: '1'
-    description: Reception at Saint-Jean-Pied-De-Port
+    description: Recepção em Saint-Jean-Pied-De-Port
     location:
       lat: '43.1629528'
       lng: '-1.2380528'
@@ -96,12 +96,12 @@ itinerary:
     title: Dia 5 - Logroño - Santo Domingo (52 km)
   - day: '6'
     description: >-
-      O seu percurso em bicicleta durante o percurso de hoje passará por vários
-      rios e riachos, tendo a cidade de Burgos como destino final. Esta cidade
-      tem muitos marcos históricos de particular importância, como é o caso da
-      Catedral de Burgos, declarada Património da Humanidade pela UNESCO em
-      1984, o local da Arquidiocese Católica Romana Metropolitana de Burgos, o
-      Mosteiro das Huelgas Reales e a Cartuxa de Miraflores.
+      Passará durante o percurso de hoje por vários rios e riachos, tendo a
+      cidade de Burgos como destino final. Esta cidade tem muitos marcos
+      históricos de particular importância, como é o caso da Catedral de Burgos,
+      declarada Património da Humanidade pela UNESCO em 1984, o local da
+      Arquidiocese Católica Romana Metropolitana de Burgos, o Mosteiro das
+      Huelgas Reales e a Cartuxa de Miraflores.
     location:
       lat: '42.343926'
       lng: '-3.696977'
@@ -304,7 +304,7 @@ pricing:
         value: '10'
     price: 2596
     type: '1'
-afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n****\n\n**Extras**\n\n* Bicicleta Eléctrica: 300 €\n* Bicicleta Eléctrica itinerário reduzido: 175 €\n* Suplemento para quarto individual: 650 €\n* Suplemento para quarto individual itinerário reduzido: 329 €\n* Noites extra: sob consulta"
+afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n\n\n**Extras**\n\n* Bicicleta Eléctrica: 300 €\n* Bicicleta Eléctrica itinerário reduzido: 175 €\n* Suplemento para quarto individual: 650 €\n* Suplemento para quarto individual itinerário reduzido: 329 €\n* Noites extra: sob consulta"
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
@@ -318,6 +318,8 @@ feature:
 ## O Caminho Francês
 
 O Caminho Francês é uma das rotas mais populares entre aqueles que se atrevem a deslocar-se até Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
+
+
 
 O Caminho Francês é uma jornada notável, cruzando tanto terreno montanhoso, como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Atravessa também muitas cidades com um significado muito importante para as peregrinações, como por exemplo Saint Jean Pied de Port e Logroño.
 
