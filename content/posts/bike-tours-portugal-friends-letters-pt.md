@@ -1,32 +1,33 @@
 ---
 templateKey: blog-post
-path: /blog/date/2018-05-pt
+path: /pt/blog/cartas-de-clientes-passeios-bicicleta
 title: ' Bike tours Portugal Friends Letters'
 language: pt
 date: 2018-05-30T23:00:00.000Z
 featuredImage: /img/letters-from-our-customers.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - customers stuff
 meta:
   description: letters from our customers
   keywords: letters from our customers
+  robots: INDEX
   title: letters from our customers
 languagePages:
   - path: cartas de clientes para a nossa equipa
     language: pt
-categories:
-  - category: Updates
 ---
-# Friends Letters
+# Uma carta de amigos
 
-All guided bike tours are special!
+Todos os passeios guiados são especiais!
 
-Tourism is very rewarding.
+O turismo recompensa muito.
 
-Check out this letter from our guided biketours 2016, 2017 and 2018.
+Veja estas cartas dos nossos passeios de bicicleta de 2016, 2017 e 2018. 
 
-Thanks to all for this great letters.
+Obrigado a todos por estas maravilhosas cartas.
 
 ![letters from our customers](/img/letters-from-our-customers7.png "letters from our customers")
 
