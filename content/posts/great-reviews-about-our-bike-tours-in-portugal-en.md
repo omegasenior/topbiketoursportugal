@@ -1,20 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal
+path: /blog/Bob-review-the-way-of-st-james-starting-in-porto
 title: Great Reviews about our bike tours in Portugal
 language: en
 date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/bob-review.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
-  - customers stuff
+  - Santiago de compostela
+  - bike holidays
+  - cycling holidays
 meta:
   description: Cyclinh holiday review Bob
   keywords: Cyclinh holiday review Portugal
+  robots: INDEX
   title: Cyclinh holiday review Bob
 languagePages: []
-categories:
-  - category: Updates
 ---
 # Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo
 
