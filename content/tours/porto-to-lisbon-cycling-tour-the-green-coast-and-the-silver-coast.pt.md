@@ -34,7 +34,7 @@ distance: 493
 distanceUnit: Km
 duration: 13
 durationUnit: Days | 12 Nights
-difficulty: 3
+difficulty: 2
 itinerary:
   - day: '1'
     location:
