@@ -33,7 +33,7 @@ meta:
 distance: 493
 distanceUnit: Km
 duration: 13
-durationUnit: Days | 12 Nights
+durationUnit: Dias | 12 Noites
 difficulty: 2
 itinerary:
   - day: '1'
