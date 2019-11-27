@@ -41,7 +41,7 @@ skillLevel: 1
 distance: 394
 distanceUnit: Km
 duration: 9
-durationUnit: Days | 8 Nights
+durationUnit: Dias | 8 Noites
 difficulty: 2
 physicality: 1
 rating: []
