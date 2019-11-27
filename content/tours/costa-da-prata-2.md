@@ -41,7 +41,7 @@ distance: 394
 distanceUnit: Km
 duration: 9
 durationUnit: Days | 8 Nights
-difficulty: 3
+difficulty: 2
 physicality: 1
 rating: []
 itinerary:
