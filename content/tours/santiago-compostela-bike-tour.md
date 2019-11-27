@@ -51,7 +51,7 @@ rating:
   - rating: 1
     ratingLink: '1'
 mapUrl: >-
-  https://www.google.com/maps/d/u/1/viewer?hl=pt-PT&mid=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9&ll=42.02389623535564%2C-8.129113400000051&z=8
+  https://www.google.com/maps/d/u/1/edit?mid=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9&ll=42.013813428163076%2C-8.129113400000051&z=8
 itinerary:
   - day: '1'
     description: >-
