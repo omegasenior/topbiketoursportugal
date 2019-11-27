@@ -42,7 +42,7 @@ distance: 278
 distanceUnit: Km
 duration: 8
 durationUnit: Days | 7 Nights
-difficulty: 2
+difficulty: 3
 physicality: 1
 rating:
   - rating: 1
