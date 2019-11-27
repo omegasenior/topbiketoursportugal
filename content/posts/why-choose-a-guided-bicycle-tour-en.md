@@ -23,10 +23,6 @@ languagePages:
 
 Why choose a guided bicycle tour?
 
-June 9, 2019
-
-EN
-
 Just think in the troubles you will find to organize a bike tour on your own. Find a store to rent a bicycle? Bring your own bike? How can I transport the bicycle on the flight? And if I have a trouble with my bike, I am prepared to fix it?
 
 Now think about planning hotels and restaurants! Losing your time seraching on the web for the best options. What dish should I choose?
