@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2017/10/19/Equipa-JUMA---Maio-de-2017
+path: /blog/juma-team-from-brasil-blog
 title: Equipa JUMA
 language: en
 date: 2017-10-18T23:00:00.000Z
 featuredImage: /img/bike-tour-douro-valley-photo-1.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - customers stuff
 meta:
   description: Customers with blogs - Equipa JUMA
   keywords: customers in douro valley bike tour
+  robots: INDEX
   title: Customers with blogs - Equipa JUMA
 languagePages:
   - path: equipa-juma-outubro-2017
     language: pt
-categories:
-  - category: Updates
 ---
 # Blog of Edson Mazieiro and Jussara (JUMA)!
 
