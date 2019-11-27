@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/juma-team-from-brasil-blog
+path: /blog/juma-team-from-brasil-blog-in-douro-valley
 title: Equipa JUMA
 language: en
 date: 2017-10-18T23:00:00.000Z
