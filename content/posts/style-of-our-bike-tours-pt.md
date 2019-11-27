@@ -1,29 +1,30 @@
 ---
 templateKey: blog-post
-path: /single-post/2018/06/20/Style-of-our-bike-tours-pt
-title: Style of our bike tours
+path: /pt/blog/passeio-em-bicicleta-com-guia-em-portugal
+title: Estilo dos nossos passeios em bicicleta
 language: pt
 date: 2018-06-18T23:00:00.000Z
 featuredImage: /img/style-of-our-bike-tours.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - Bike tours informations
 meta:
   description: Style of our bike tours
   keywords: Style of our bike tours
+  robots: INDEX
   title: Style of our bike tours
 languagePages:
   - path: estilo dos nossos passeios guiados
     language: pt
-categories:
-  - category: Updates
 ---
-# Style of our bike tours
+# Estilo dos nossos passeios em bicicleta
 
-We like to give freedom to our customers. So, most of our guided bike tours don´t include meals, except breakfast and the usual snacks and water that are always available in the support van.
+Gostamos de dar liberdade aos nossos clientes. Como tal, a maioria dos nossos passeios guiados não incluem refeições, com a excepção do pequeno almoço e alguns lanches e água que se encontram disponíveis na carrinha de apoio.
 
-This allows participants to enjoy their time at lunch or dinner as they please. However, we always offer availability to book restaurant at lunch and dinner time.
+Permitimos assim que participantes aproveitem a sua hora de almoço ou jantar, da melhor forma que entenderem. De qualquer modo, estamos sempre disponíveis para efectuar reservas nos restaurantes, seja de dia ou de noite.
 
-The number of people on a guided bike tour can vary from 4 to 30 people. In recent times the trend has been for large groups where participants can meet new people and make new friends.
+O número total de pessoas num passeio guiado, pode variar entre 4 a 30 pessoas. Ultimamente a tendência tem sido para grupos grandes, onde os participantes tem a possibilidade de conhecer outras pessoas e, quem sabe, fazer novos amigos.
 
 ![Style of our bike tours](/img/style-of-our-bike-tours.png "Style of our bike tours")
