@@ -1,8 +1,10 @@
 ---
 templateKey: blog-post
 path: >-
-  /single-post/2018/10/11/Darren-Alff-article-about-our-bike-tour-The-Way-of-Saint-James-pt
-title: Darren Alff article about our bike tour The Way of Saint James
+  pt/blog/darren-alff-artigo-em-blogue-do-biketour-porto-a-santiago-de-compostela
+title: >-
+  Darren Alff: Artigo sobre o nosso passeio de bicicleta até Santiago de
+  Compostela
 language: pt
 date: 2018-09-10T23:00:00.000Z
 featuredImage: /img/darren-alf-bicycle-holiday-group-to-santiago.png
@@ -14,29 +16,32 @@ tags:
 meta:
   description: Darren Alff article about our bike tour The Way of Saint James
   keywords: Darren Alff article about our bike tour The Way of Saint James
+  robots: INDEX
   title: Darren Alff article about our bike tour The Way of Saint James
 languagePages:
   - path: artigo de bloguer no caminho de santiago em bicicleta
     language: pt
 ---
-# Darren Alff article about our bike tour The Way of Saint James
+# Darren Alff: Artigo sobre o nosso passeio de bicicleta até Santiago de Compostela
 
 ![Darren Alff article about our bike tour The Way of Saint James](/img/darren-alf-bicycle-holiday-group-to-santiago.png "Darren Alff article about our bike tour The Way of Saint James")
 
-Read the full article in this link:
+Leia o artigo completo através deste link::
 
-http://bit.ly/36QmXxq
+<http://bit.ly/36QmXxq>
 
-Also the videos available on youtube:
+Também os videos disponiveis no youtube:
 
-https://www.youtube.com/watch?v=cF3aU8J1bGI
+<https://www.youtube.com/watch?v=cF3aU8J1bGI>
 
-"The Camino de Santiago is known in English as the Way of Saint James and is a network of hiking and biking paths leading to the shrine of the apostle Saint James the Great in the cathedral of Santiago de Compostela in northwestern Spain, where tradition has it that the remains of the saint are buried.
+Não se esqueça também de espreitar os vídeos disponíveis no youtube:
 
-People from all around the world travel to Portugal and Spain in order to hike or bike one or more of the various routes to Santiago de Compostela as a form of religious pilgrimage or spiritual retreat. Others, however, chose to travel the Way of St. James purely for entertainment, sightseeing and enjoyment purposes.
+"[O Caminho de Santiago](https://topbiketoursportugal.com/santiago-compostela-pela-costa) é uma rede de percursos com destino ao túmulo do apóstolo Santiago, situado na catedral de Santiago de Compostela.
 
-While it’s possible to cycle the Way of St. James on your own, many pilgrims opt to participate in guided or self-guided cycling tours, as this mode of travel offers one of the easiest and most enjoyable methods for successfully reaching the cathedral in Santiago de Compostela.
+Pessoas de todo o mundo viajam até Portugal e Espanha, de modo a percorrerem a pé ou de bicicleta, uma das muitas rotas que os levará a este destino. Enquanto uns iniciam esta jornada com um objectivo espiritual, outros fazem-no como forma de lazer.
 
-For those wishing to cycle the Camino, one of the best ways to do it is to start in the city of Porto, Portugal and then cycle from there, to the north, along the coast, approximately 278 kilometers (173 miles) to the city of Santiago de Compostela in northwestern Spain. Then, after reaching the cathedral in Santiago de Compostela and completing the pilgrimage, simply travel back to Porto, Portugal and return home from there.
+Apesar de ser possível percorrer todo este caminho sozinho, muitos optam por participar em [passeios de bicicleta, guiados ou auto-guiados,](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) visto que este meio de transporte oferece uma das formas mais fáceis de se alcançar a catedral de Santiago de Compostela.
 
-This epic European adventure can be completed in a single week… and one of the best ways to participate this memorable cycling holiday is to take part in a guided or self-guided cycling tour with Fold N’ Visit Cycling Holidays – a small tour company based out of Porto, Portugal that specializes in this leading customers from all around the world along this particular route in northern Portugal and Spain."
+Para aqueles que desejam percorrer o caminho de bicicleta, um dos melhores percursos tem início no Porto. Daí percorrerá a costa em direcção ao Norte, aproximadamente durante 278 km. Após alcançar o seu objectivo, volte ao Porto, voltando a casa a partir daqui.
+
+Esta épica aventura na Europa pode ser completada numa única semana. Uma das melhores maneiras de participar nesta incrível jornada é fazendo parte de um passeio guiado, ou auto-guiado, com a Top Biketours Portugal, uma pequena empresa com sede no Porto, que se especializa em guiar clientes de todo o mundo ao longo desta rota no Norte de Portugal e de Espanha."
