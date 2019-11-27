@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2018/06/06/Mark-Mander-and-friends
+path: /blog/porto-to-santiago-de-compostela-mark-mander-group
 title: Mark Mander and friends
 language: en
 date: 2018-06-05T23:00:00.000Z
 featuredImage: /img/mark-mander-and-friends-2.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - customers stuff
 meta:
   description: Mark Mander and friends
   keywords: Mark Mander and friends
+  robots: INDEX
   title: Mark Mander and friends
 languagePages:
   - path: mark mander group
     language: pt
-categories:
-  - category: Updates
 ---
 # **Mark Mander and friends**
 
