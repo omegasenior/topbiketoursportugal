@@ -9,7 +9,9 @@ featuredImagePosition: center center
 categories:
   - category: Updates
 tags:
-  - customers stuff
+  - Santiago de compostela
+  - bike holidays
+  - cycling holidays
 meta:
   description: Mark Mander and friends
   keywords: Mark Mander and friends
