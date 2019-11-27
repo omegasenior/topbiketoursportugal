@@ -31,120 +31,119 @@ meta:
   title: Full Day Biketour Deluxe
 itinerary:
   - day: '1'
-    description: Meeting Point
+    description: Ponto de Encontro para o início do passeio.
     location:
       lat: '41.15227804'
       lng: '-8.61086525'
     title: Top Bike tours Portugal
   - day: '2'
     description: >-
-      Starting the tour we will be passing right in the heart of Porto in the
-      direction of the river Douro.
+      Uma das avenidas mais emblemáticas do Porto, que alberga a câmara
+      municipal e os mais belos e variados edifícios.
     location:
       lat: '41.15002108'
       lng: '-8.6107184'
     title: 'Avenida dos Aliados,'
   - day: '3'
     description: >-
-      The train station of São Bento is certainly one of the main attractions of
-      the city. Here you will be able to see its tiles in all their glory, a
-      total of 20000 tiles.
+      Uma das avenidas mais emblemáticas do Porto, que alberga a câmara
+      municipal e os mais belos e variados edifícios.
     location:
       lat: '41.14563135'
       lng: '-8.61000627'
-    title: Sao Bento Railway Station
+    title: Estação de São Bento
   - day: '4'
     description: >-
-      Here the travelers will be able to see the "Palacio da Bolsa" and the Hard
-      Club. You will also know about one of the most important Portuguese
-      personalities related to the exploration of the oceans.
+      O Infante Dom Henrique é sem dúvida uma das principais figuras da história
+      portuguesa, devido ao seu relacionamento com o início dos descobrimentos
+      portugueses.
     location:
       lat: '41.14133203'
       lng: '-8.61477256'
     title: Jardim do Infante Dom Henrique
   - day: '5'
-    description: An impressive gothic church down by the river area.
+    description: Uma impressionante igreja gótica nas margens do rio.
     location:
       lat: '41.14092299'
       lng: '-8.61569121'
     title: Igreja de Sao Francisco
   - day: '6'
     description: >-
-      Near the river on the city of Vila Nova de Gaia our customers will have a
-      chance to make a wine tour in the famous Wine Cellars of Porto wine and
-      also they will have a lunch, where they will tast the famous portuguese
-      gastronmy and ate the same time enjoying the view of Ribeira.
+      Perto do rio, na cidade de Vila Nova de Gaia, os participantes terão a
+      oportunidade de realizar uma visita pelas famosas caves de vinho do Porto.
+      De seguida será o almoço, onde irão degustar a famosa gastronomia
+      portuguesa, enquanto apreciarão a vista da Ribeira do Porto.
     location:
       lat: '41.13748191'
       lng: '-8.61388743'
     title: Vila Nova de Gaia
   - day: '7'
     description: >-
-      Almost unnoticeable lies this small structure, being the first renaissance
-      building in the entire country and even one of the oldest in Europe.
+      Quase imperceptível é esta pequena estrutura, encontrando-se como o
+      primeiro edifício renascentista em todo o país e um dos mais antigos da
+      Europa.
     location:
       lat: '41.14777694'
       lng: '-8.66785079'
     title: Farol-Capela de S. Miguel
   - day: '8'
     description: >-
-      An impressive structure down by the meeting point between the river Douro
-      and the Atlantic Ocean.
+      Quase imperceptível é esta pequena estrutura, encontrando-se como o
+      primeiro edifício renascentista em todo o país e um dos mais antigos da
+      Europa.
     location:
       lat: '41.14890612'
       lng: '-8.6744383'
-    title: Fortress Sao  Joao Baptista
+    title: Forte de São João Baptista
   - day: '9'
-    description: Enjoy the ocean view and the environment surrounding you
+    description: >-
+      Aprecie a vista para o mar e o ambiente em seu redor, antes de voltar
+      novamente para o centro da cidade.
     location:
       lat: '41.15588153'
       lng: '-8.68375093'
     title: 'Praia do Molhe,'
   - day: '10'
     description: >-
-      In a dominant position over the Atlantic Ocean and a short distance from
-      the mouth of the Douro River, it is also known as Castelo do Queijo
-      because, according to tradition, it was built on a round granite rock and
-      shaped like a cheese.
+      Conhecido como Castelo do Queijo, pois, segundo reza a história, foi
+      construído sobre uma rocha granítica redonda com uma forma de fatia de
+      queijo.
     location:
       lat: '41.16895594'
       lng: '-8.69019896'
-    title: Castle of the Cheese
+    title: Castelo do Queijo
   - day: '11'
     description: >-
-      In this area of Porto you can feel connected with the beautiful landscape
-      of the beaches all around 
+      Nesta área do Porto poderá sentir-se conectado com a beleza da paisagem e
+      das praias em redor
     location:
       lat: '41.19233759'
       lng: '-8.70685279'
     title: Leca da Palmeira
   - day: '12'
-    description: 'The "Angeiras" market it´s a typical and a very local fish market '
+    description: Um mercado local típico de venda de peixe.
     location:
       lat: '41.2647916'
       lng: '-8.72729659'
-    title: Angeiras
+    title: Mercado de Angeiras
   - day: '13'
     description: >-
-      In this area that belong to the city of Vila do Conde the customers can be
-      amazing with the landscape of the atlantic ocean and the portuguese life
-      of the "Minhotos" people. Labruge Church is a typical building from the
-      second half of the 18th century, that the customers can see in the middle
-      of the away..
+      Labruge é uma região que pertence a Vila do Conde. A igreja de Labruge é
+      um edifício típico da segunda metade do século XVIII.
     location:
       lat: '41.27454896'
       lng: '-8.72814417'
-    title: 'Igreja Santiago de Labruge,'
+    title: Igreja Santiago de Labruge
   - day: '14'
     description: >-
-      The Monastery of Santa Clara was one of the biggest and richest feminine
-      convents in Portugal, founded in 1318. The Monastery is located in a
-      hilltop and includes large walls that protect the monastery from the east
-      and the Santa Clara Aqueduct, the second largest aqueduct in Portugal. 
+      O Convento de Santa Clara foi um dos principais e mais ricos conventos
+      femininos em Portugal. Fundado em 1318, o convento encontra-se no topo de
+      uma colina sobre o rio Lima. Apresenta do lado Este, muralhas, que servem
+      como protecção, e o aqueduto de Santa Clara, o segundo maior em Portugal.
     location:
       lat: '41.3509106'
       lng: '-8.7441761'
-    title: Antigo Convento do Carmo
+    title: ' Antigo Convento de Santa Clara'
 gallery:
   - alt: povoa de varzom cycling lane
     image: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-1753.jpg
@@ -183,32 +182,31 @@ feature:
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim
 
-## ( Historical+Gastronomy+Sightseeing bike tour)
+## História, Gastronomia e Sightseeing
 
-Ride to the beaches of northern Portugal has never been so pleasant to the taste of the idyllic and fantastic scenery.
+Pedalar até às praias do Norte de Portugal nunca foi tão agradável.
 
-Experience the unmatched Portuguese northern coast, where you can find various cities dedicated to the activity and fishing industry, where the fish gastronomy, such as, cod fish, sardines, sea bass and dourada rules. In the middle of this bicycle route, find buildings of public interest, considered as an historical heritage of the city, such as the Porto Custom House, (a place for local events and exhibitions); the unavoidable tidal pools, designed by Álvaro Siza Vieira, (very attended in summer); a replica of a ship of the Portuguese Discoveries, of the sixteenth century, ending in Póvoa do Varzim, with its famous sea inlets.
+
+
+Venha conhecer a inigualável costa do norte português, onde poderá encontrar várias cidades dedicadas à actividade piscatória, onde o bacalhau, as sardinhas, a dourada e o robalo imperam. A meio deste percurso de bicicleta, encontrará imóveis de interesse público considerados património histórico da cidade, tais como a alfândega do Porto, local de eventos e exibições, as piscinas de marés, da autoria de Álvaro Siza Vieira, muito frequentadas no Verão, uma réplica de uma nau dos Descobrimentos Portugueses, do século XVI, terminando na Póvoa de Varzim, com as suas famosas enseadas marítimas.
 
 ![](/img/deluxe-bike-tour.png)
 
-**Tour detail:**
+**Detalhes do Passeio:**
 
-* Departures: 09h00 
-* estimated time: 8h00
-* All year
-* Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
-* Minimum participants: 2
-* 45 km
+* Partida: 09h00
+* Duração Estimada: 8h00
+* Todo o Ano
+* Ponto de Encontro: Rua Alferes Malheiro, 139 ( Top Bike tours portugal)
+* Mínimo de Participantes: 2
 
-**Includes:** 
+**Inclui:** 
 
-* Visit the cellar of Porto wine
-* Lunch in Matosinhos - Find out the true flavors of the sea!
-* Trasnfer metro ticket from Póvoa de Varzim to Porto
-* Alcoholic beverages not included
+* Visita às caves de vinho do Porto
+* Almoço
+* Transfere de metro desde a Póvoa de Varzim até ao Porto
+* Bebidas alcoólicas não incluídas
 
-**Observations:**
+**Observações:**
 
-Visit with a tour guide in the respective dialects: Portuguese, English, Spanish. The tour includes a short break of 20m.
-
-A liability insurance and personal accident insurance are included in the tours.
+Um seguro de responsabilidade civil e seguro de acidentes pessoais estão incluídos nos passeios.
