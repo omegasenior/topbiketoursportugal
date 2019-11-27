@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2017/10/25/Carmen-Paz-e-Fernando-pt
+path: /pt/blog/fotos-clientes-caminho-de-santiago
 title: Carmen Paz e Fernando
 language: pt
 date: 2017-10-24T23:00:00.000Z
 featuredImage: /img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-5.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - customers stuff
 meta:
   description: Carmen Paz e Fernando bike photos on the Way to Santiago
   keywords: Carmen Paz e Fernando bike photos on the Way to Santiago
+  robots: INDEX
   title: Carmen Paz e Fernando bike photos on the Way to Santiago
 languagePages:
   - path: Carmen Paz e Fernando bike photos on the Way to Santiago
     language: pt
-categories:
-  - category: Updates
 ---
 Carmen and Fernando made the Way to Santiago by the Coast in October 2017.
 
