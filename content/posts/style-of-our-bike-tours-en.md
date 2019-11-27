@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
-path: /single-post/2018/06/20/Style-of-our-bike-tours
+path: /blog/style-of-top-bike-tours-in-portugal
 title: Style of our bike tours
 language: en
 date: 2018-06-18T23:00:00.000Z
 featuredImage: /img/style-of-our-bike-tours.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - Bike tours informations
 meta:
   description: Style of our bike tours
   keywords: Style of our bike tours
+  robots: INDEX
   title: Style of our bike tours
 languagePages:
   - path: estilo dos nossos passeios guiados
     language: pt
-categories:
-  - category: Updates
 ---
 # Style of our bike tours
 
