@@ -41,7 +41,7 @@ skillLevel: 3
 distance: 278
 distanceUnit: Km
 duration: 8
-durationUnit: Days | 7 Nights
+durationUnit: Dias | 7 Noites
 difficulty: 3
 physicality: 1
 rating:
