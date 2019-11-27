@@ -50,7 +50,7 @@ rating:
     ratingLink: '1'
   - rating: 1
     ratingLink: '1'
-mapUrl: https://www.google.com/maps/d/u/1/embed?mid=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9
+mapUrl: 'https://drive.google.com/open?id=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9&usp=sharing'
 itinerary:
   - day: '1'
     description: >-
