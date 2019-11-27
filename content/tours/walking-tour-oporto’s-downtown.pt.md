@@ -31,65 +31,66 @@ minAge: 16
 difficulty: 0
 itinerary:
   - day: '1'
-    description: Meeting Point
+    description: Ponto de Encontro para o início do passeio.
     location:
       lat: '41.15229612'
       lng: '-8.61093253'
     title: Top Bike tours Portugal
   - day: '2'
     description: >-
-      One of the most iconic avenues of Porto, with its monumental buildings and
-      city hall surrounding you.
+      Uma das avenidas mais emblemáticas do Porto, que alberga a câmara
+      municipal e os mais belos e variados edifícios.
     location:
       lat: '41.14918105'
       lng: '-8.61075461'
     title: Avenida dos Aliados
   - day: '3'
     description: >-
-      Standing next to one another, lie these two beautiful churches, having
-      between them the smallest house in the entire city.
+      Construídas junto uma da outra, jazem duas belas igrejas, tendo entre elas
+      a menor casa de toda a cidade.
     location:
       lat: '41.15043718'
       lng: '-8.62380087'
     title: Igreja do Carmo
   - day: '4'
     description: >-
-      The most known library in town, Lello & Irmão, was numerous times
-      considered amongst the most beautiful in the world.
+      A biblioteca mais conhecida da cidade, Lello & Irmão, foi inúmeras vezes
+      considerada uma das mais bonitas do mundo.
     location:
       lat: '41.14689325'
       lng: '-8.61478672'
     title: Livraria Lello
   - day: '5'
     description: >-
-      Hovering above all nearby buildings, it is hard for it to pass unnoticed,
-      even for the more untrained eyes.
+      Pairando acima de todos os edifícios em volta, é difícil esta monumental
+      torre passar despercebida, mesmo para os olhos mais destreinados.
     location:
       lat: '41.14565045'
       lng: '-8.61464435'
     title: Torre dos Clerigos
   - day: '6'
     description: >-
-      The train station of São Bento is certainly one of the main attractions of
-      the city. Here you will be able to see its tiles in all their glory, a
-      total of 20000 tiles.
+      A estação de São Bento é certamente uma das principais atracções da
+      cidade. Aqui poderá ver todo o conjunto de 20000 azulejos que a tornam
+      visita obrigatória.
     location:
       lat: '41.14537273'
       lng: '-8.61013234'
-    title: Sao Bento Railway Station
+    title: Estação de São Bento
   - day: '7'
     description: >-
-      Henry the Navigator is without a doubt one of the main figures of
-      Portuguese history, due to its ties to the start of the Portuguese
-      discoveries.
+      O Infante Dom Henrique é sem dúvida uma das principais figuras da história
+      portuguesa, devido ao seu relacionamento com o início dos descobrimentos
+      portugueses.
     location:
       lat: '41.14119467'
       lng: '-8.6149013'
     title: Jardim do Infante Dom Henrique
   - day: '8'
     description: >-
-      Certainly the ex libris of the city of Porto, Ribeira, lies alongside the
-      river, having been for many centuries the main comercial area of the city.
+      O cais da ribeira é certamente uma imagem de marca da cidade do Porto.
+      Colada ao rio, esta área foi por muitos séculos a principal área comercial
+      da cidade.
     location:
       lat: '41.14022957'
       lng: '-8.61360312'
@@ -131,27 +132,29 @@ feature:
 # Walking tour - Oporto’s Downtown
 
 \
-Porto became very famous when classified by UNESCO’s title of World Heritage (1996) and with the title of European Capital of Culture (2001). This walk tour was developed for those who enjoy sightseeing culture, architecture and dazzling urban landscapes with huge miscellanea. Art, Architecture and History follow the same course, acting as important beacons in Porto’s tourism, providing a tour full of hidden mysteries and ancient legends.Apart the Baroque and Rocaille art and architecture, meet the oldest parts of the city such as the Ribeira with an outstanding view to the Douro River, where you can see the wine cellars. Discover the fascinating ball rooms of the Stock Exchange Palace (Palácio da Bolsa), with a picturesque granite façade. Stroll down through Avenida dos Aliados and witness Neoclassical buildings and wide pavements. In the end of this tour, you will find an experience that you will never regret. Experience this live guided tour and explore the traditional townspeople customs, along with the main sites and tourist hot spots of this city.
+A cidade do Porto dispõe de um vasto leque de património edificado classificado pela UNESCO (1996). Desde igrejas seculares, palácios, teatros, feitorias, praças e, sem esquecer de mencionar, alguns ícones arquitectónicos, como o seu ex-líbris, a Torre dos Clérigos, a famosa Livraria Lello, idêntica a um cenário do best-seller de J. K. Rowling – Harry Potter, o Palácio da Bolsa, com os seus opulentos e faustosos salões e a Praça da Ribeira, local de grande concentração turística e festividade S. Joanina.
 
-
+Mergulhe connosco num clássico passeio pelos principais pontos de interesse e contacte com as gentes que contribuíram para o bem-estar desta metrópole urbana.
 
 ![](/img/oporto-walk-tour.png)
 
 \
 \
-**Tour detail:**
+**Detalhes do Passeio:**
 
-* Departures: 09h00 and 14h30
-* estimated time: 3h00
-* All year
-* Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
-* Minimum participants: 2
+* Partida: 09h00 e 14h30
+* Duração Estimada: 3h00
+* Todo o Ano
+* Ponto de Encontro: Rua Alferes Malheiro, 139 ( Top Bike tours portugal)
+* Mínimo de Participantes: 2
 
 \
 \
 \
-**Observations:**
+**Observações:**
 
-Visit with a tour guide in the respective dialects: Portuguese, English, Spanish. The tour includes a short break of 20m.
+Visita com guia nas seguintes línguas: Português, Inglês e Espanhol. O passeio inclui uma paragem breve de 15 minutos.
 
-A liability insurance and personal accident insurance are included in the tours.
+
+
+Um seguro de responsabilidade civil e seguro de acidentes pessoais estão incluídos nos passeios.
