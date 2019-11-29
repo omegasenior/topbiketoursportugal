@@ -146,7 +146,7 @@ pricing:
     highSeasonPriceSupplement: 129
     package: Private price per person
     packageContents: []
-    price: 125
+    price: 129
 feature:
   align: center
   image: /img/44817961982_440e783762_o.jpg
