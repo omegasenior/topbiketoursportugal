@@ -140,7 +140,7 @@ pricing:
     highSeasonPriceSupplement: 99
     package: Group price per person
     packageContents: []
-    price: 25
+    price: 125
   - bestValue: false
     discount: 0
     highSeasonPriceSupplement: 129
