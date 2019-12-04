@@ -15,16 +15,12 @@ languagePages: []
 ---
 # **World's Leading Destination 2019**
 
-Congratulations to all the organizations and company´s in Portugal that have contributed to this [World's Leading Destination 2019](https://www.worldtravelawards.com/award-worlds-leading-destination-2019). Is the thirt time in a row that Portugal wins this price 
+Congratulations to all the organizations and company´s in Portugal that have contributed to this [**World's Leading Destination 2019**](https://www.worldtravelawards.com/award-worlds-leading-destination-2019). Is the thirt time in a row that Portugal wins this price 
 
 Top bike tours Portugal as done it´s job showing our Portugal bicycle routes to our customers from different parts of the world. 
 
-Our [Bike tours in Portugal](https://topbiketoursportugal.com/) are available all year. Check out our [calendar](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) if you are looking for a guided bike tour.
-
-
+Our ****[**Bike tours in Portuga**l](https://topbiketoursportugal.com/) are available all year. Check out our [**calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) if you are looking for a guided bike tour.
 
 ![combination with sea and cycling paths in portugal](/img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-0071.jpg "Combination with sea and cycling paths in portugal")
 
-
-
-****
+- - -
