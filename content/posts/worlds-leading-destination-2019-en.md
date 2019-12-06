@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-path: /blog/portugal-worlds-leading-destination-2019
-title: World's Leading Destination 2019
+path: /blog/portugal-wins-worlds-leading-destination-2019
+title: Portugal wins World's Leading Destination 2019
 language: en
 date: 2019-12-04T12:55:33.730Z
 featuredImage: /img/wta-winner-shield-2019.png
@@ -13,11 +13,11 @@ meta:
   title: World's Leading Destination 2019
 languagePages: []
 ---
-# **World's Leading Destination 2019**
+# Portugal wins the **World's Leading Destination 2019**
 
-Congratulations to all the organizations and company´s in Portugal that have contributed to this [**World's Leading Destination 2019**](https://www.worldtravelawards.com/award-worlds-leading-destination-2019). Is the thirt time in a row that Portugal wins this price 
+Congratulations to all the organizations and company´s in Portugal that have contributed to the [**World's Leading Destination 2019**](https://www.worldtravelawards.com/award-worlds-leading-destination-2019) ****price**.** Is the third time in a row that Portugal wins this price 
 
-Top bike tours Portugal as done it´s job showing our Portugal bicycle routes to our customers from different parts of the world. 
+Top bike tours Portugal as done it´s job showing our Portugal bicycle routes to our customers.
 
 Our [**Bike tours in Portugal**](https://topbiketoursportugal.com/) ****are available all year. Check out our ****[**calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) if you are looking for a guided bike tour.
 
