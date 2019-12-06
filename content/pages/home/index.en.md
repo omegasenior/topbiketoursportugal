@@ -18,7 +18,7 @@ toursection:
     historical component and gastronomy. Connoisseurs of excellent hotel
     services and catering, paths and landscapes that surprise and exceeded
     expectations.
-  heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_BIKE TOURS PORTUGAL"
+  heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
 ## **Why Choose Us**
 
