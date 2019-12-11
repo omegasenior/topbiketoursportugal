@@ -35,7 +35,7 @@ meta:
     bike tour santiago de compostela, guided bike tour santiago de
     compostela,cycling tour the way of st james
   robots: INDEX
-  title: Bike tour Porto to Santiago de Compostela - Coast route
+  title: Porto to Santiago de Compostela Bike tour  - Coast route
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 2
