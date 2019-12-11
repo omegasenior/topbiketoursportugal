@@ -33,7 +33,7 @@ meta:
     bridge of Minho river and Galicia coast line.
   keywords: >-
     porto to santiago de compostela Bike tour , guided bike tour santiago de
-    compostela,cycling tour the way of st james
+    compostela,porto to santiago bike tour
   robots: INDEX
   title: Porto to Santiago de Compostela Bike tour  - Coast route
 groupSizeMax: 1
