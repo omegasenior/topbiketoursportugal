@@ -27,7 +27,7 @@ It all started when Sergio bought a folding bike to take him to work. Eventually
 
 He eagerly accepted, and after what turned out to be a great adventure, Sergio started a blog:
 
-<https://dahonrips.wordpress.com/category/expeditions/santiago-de-compostela/>
+[https://dahonrips.wordpress.com/category/expeditions/santiago-de-compostela/](https://dahontrips.wordpress.com/category/expeditions/santiago-de-compostela/)
 
 Following the blog Sergio came up with the idea of establishing a store in Porto selling folding bikes, bike rental, and bike tours of the city center.
 
