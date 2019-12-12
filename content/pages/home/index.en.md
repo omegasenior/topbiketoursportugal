@@ -20,6 +20,8 @@ toursection:
     expectations.
   heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
+# Biking is the best way to discover all regions in our Bike Tours in Portugal
+
 ## **Why Choose Us**
 
 \
