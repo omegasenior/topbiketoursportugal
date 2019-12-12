@@ -7,7 +7,7 @@ featured: true
 language: en
 image: >-
   /img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-3582-1280x853.jpg
-title: Porto - Santiago de Compostela Bike Tour - Costal Path
+title: Porto to Santiago de Compostela Bike Tour - Costal Path
 packagetype: PackageTour
 tourtype: Bike
 tourcategory:
@@ -323,9 +323,9 @@ feature:
   textcolor: white
   title: Guided and unguided cycling tours Portugal
 ---
-# The Way of St. James (Santiago de Compostela)- BikeTour
+# Porto to Santiago de Compostela BikeTour
 
-## The Coastal Way - "easy"
+## The Coastal Way to St. James - "easy"
 
 \
 \
