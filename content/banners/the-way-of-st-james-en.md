@@ -3,7 +3,7 @@ key: '1'
 language: en
 banner: true
 order: 1
-title: The Way to Santiago de Compostela
+title: Porto to Santiago de Compostela Bike Tour
 description: Visit all around Portugal on a bicycle with our expert guides
 goto:
   link: santiago-de-compostela-coastal-route
