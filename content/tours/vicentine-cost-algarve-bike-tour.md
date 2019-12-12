@@ -35,7 +35,7 @@ meta:
     Vicentine Coast to Algarve cycling holiday, alentejo bike tour, algarve bike
     tour, Alentejo southwest bike tour
   robots: INDEX
-  title: Cycle the Vicentine Coast to Algarve Southewest Coast
+  title: Vicentine Cost and Algarve Bike Tour
 groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
