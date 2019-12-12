@@ -22,8 +22,6 @@ toursection:
 ---
 # Biking is the best way to discover all regions in our Bike Tours in Portugal
 
-## **Why Choose Us**
-
 \
 Our mission is to provide you with relaxing and enjoyable cycling holiday in portugal, complemented with historical points, tasty gastronomy and wonderful views.
 
