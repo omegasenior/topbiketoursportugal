@@ -28,8 +28,7 @@ meta:
   description: >
     Cycling along the coast, in the easiest route to Santiago de Compostela.
     Start to cycling the Camino of st James in Porto city and make a journey of
-    a life time. This amazing bike tour crosses the Nort of Portugal and North
-    of Spain where you will pedal trhough the bridge of the river Lima, the
+    a life time. This bike tour goes thru the bridge of the river Lima, the
     bridge of Minho river and Galicia coast line.
   keywords: >-
     porto to santiago de compostela Bike tour , guided bike tour santiago de
