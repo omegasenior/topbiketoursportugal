@@ -12,18 +12,20 @@ meta:
   robots: INDEX
   title: Portugal Bike tours
 toursection:
-  description: '## Popular tours'
+  description: '## Popular bike tours in Portugal'
   descriptionafter: >-
-    The combined experience of our team allows us to combine cycling with the
-    historical component and gastronomy. Connoisseurs of excellent hotel
-    services and catering, paths and landscapes that surprise and exceeded
-    expectations.
+
+
+    **Bike tours Portugal**: The combined experience of our team allows us to
+    combine cycling with the historical component and gastronomy. Connoisseurs
+    of excellent hotel services and catering, paths and landscapes that surprise
+    and exceeded expectations.
   heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
 # Biking is the best way to discover all regions in our Bike Tours in Portugal
 
 \
-Our mission is to provide you with relaxing and enjoyable cycling holiday in portugal, complemented with historical points, tasty gastronomy and wonderful views.
+Our mission is to provide you with relaxing and enjoyable **cycling holiday in Portugal**, complemented with historical points, tasty gastronomy and wonderful views.
 
 The cycling holidays we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are exceptionally used depending on the bike tour.
 
