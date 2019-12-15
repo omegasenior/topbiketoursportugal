@@ -29,9 +29,8 @@ meta:
   description: >-
     Comece em Lisboa ou em Sines neste incrível passeio de bicicleta pelo
     sudoeste da costa de Portugal .... passeio de bicicleta selvagem, natural e
-    silencioso. Delicie-se com as deslumbrantes parais junto ao oceano
-    Atlântico. Passeios guiados e em autonomia disponiveis. Pode ser reservadas
-    bicicletas de montanha ou eléctricas
+    silencioso. Delicie-se com as deslumbrantes praias junto ao oceano
+    Atlântico.
   keywords: >-
     Costa Vicentina ao Algarve bike tour, passeio bicicleta em pelo sudoeste de
     portugal, 
