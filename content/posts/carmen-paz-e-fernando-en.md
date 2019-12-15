@@ -38,17 +38,3 @@ Thanks for the photos Carmen and Fernando
 ![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-10.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
 
 ![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-10.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-9.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-8.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-7.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-6.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-4.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-2.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
-
-![Carmen Paz e Fernando bike photos on the Way to Santiago 1](/img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-1.png "Carmen Paz e Fernando bike photos on the Way to Santiago 1")
