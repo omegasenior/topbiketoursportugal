@@ -24,7 +24,7 @@ meta:
     of porto city
   keywords: Electric bike tour Porto
   robots: INDEX
-  title: Electric bike tour Porto
+  title: Tour em bicicleta Eléctrica Porto
 itinerary:
   - day: '1'
     description: Ponto de encontro onde será iniciado o passeio.
@@ -151,9 +151,6 @@ NOTA: O passeio pode ser compartilhado com clientes que não usem bicicleta elé
 
 **Observações:**
 
-
 Visita com guia nas seguintes línguas: Português, Inglês e Espanhol. O passeio inclui uma paragem breve de 15 minutos.
-
-
 
 Um seguro de responsabilidade civil e seguro de acidentes pessoais estão incluídos nos passeios.dent insurance are included in the tours.
