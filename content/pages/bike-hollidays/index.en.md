@@ -104,7 +104,7 @@ descriptionafter: >-
   The liability insurance and personal accidents insurance are included only in
   guided Bike tours.
 meta:
-  canonicalLink: /cycling-holidays-portugal
+  canonicalLink: ''
   description: >-
     Cycle all around Portugal with us. In Self Guided or guided bike tours all
     the support will be guaranteed. Luggage transference, bicycle rental, four
