@@ -10,7 +10,7 @@ meta:
     portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
     porto,cycling holidays portugal
   robots: INDEX
-  title: Portugal Bike tours
+  title: Bike tours Portugal | Cycling Holidays - Top Bike Tours Portugal
 toursection:
   description: '## Popular bike tours in Portugal'
   descriptionafter: >-
