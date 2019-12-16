@@ -20,7 +20,7 @@ meta:
     passeios em bicicleta portugal, viagnes em biciclea, passeios em bicicleta
     guiados, bike tours, cycling holidays
   robots: INDEX
-  title: Tours em bicicleta em Portugal
+  title: Tours em bicicleta Portugal | Férias em bicicleta - Top Bike Tours Portugal
 ---
 # Porquê escolher-nos
 
