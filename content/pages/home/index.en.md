@@ -22,7 +22,7 @@ toursection:
     and exceeded expectations.
   heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
-# Biking is the best way to discover all regions in our Bike Tours in Portugal
+# Top Bike Tours Portugal is your best choice to discover Portugal on bicycle
 
 \
 Our mission is to provide you with relaxing and enjoyable **cycling holiday in Portugal**, complemented with historical points, tasty gastronomy and wonderful views.
