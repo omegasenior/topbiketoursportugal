@@ -1,11 +1,12 @@
 ---
-templateKey: "blog-index"
+path: pt/blog/noticias
 title: News
-key: News
-path: /blog/news
-language: 'pt'
 subtitle: ''
-featuredImage: '/img/Silver-coast-5.jpg'
-featuredImagePosition: 'top center'
+feature:
+  image: /img/9287971612_75e5c36506_o.jpg
+  title: d
+  subtitle: d
+  textcolor: white
+featuredImage: /img/Silver-coast-5.jpg
 ---
 
