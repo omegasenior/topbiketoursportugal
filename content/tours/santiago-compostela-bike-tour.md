@@ -24,7 +24,7 @@ tags:
   - Spain
   - atlantic coast
 meta:
-  canonicalLink: /cycling-holidays-portugal/porto-to-santiago-de-compostela-bike-tour
+  canonicalLink: ''
   description: >
     Cycling along the coast, in the easiest route to Santiago de Compostela.
     Start to cycling the Camino of st James in Porto city and make a journey of
