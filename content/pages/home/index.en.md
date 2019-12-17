@@ -8,7 +8,7 @@ meta:
     bicycle tours, as well as our guided and self guided bike tours in Portugal
   keywords: >-
     portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
-    porto,cycling holidays portugal
+    porto,cycling portugal
   robots: INDEX
   title: Bike tours Portugal | Cycling Holidays - Top Bike Tours Portugal
 toursection:
