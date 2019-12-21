@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 1
-path: /santiago-de-compostela-coastal-route
+path: /porto-santiago-compostela-bike-tour
 productcode: SANTIAGO 01
 featured: true
 language: en
