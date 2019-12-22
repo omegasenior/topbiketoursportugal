@@ -32,7 +32,7 @@ const Content = styled.div`
   margin-top: 5px;
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   font-size: 32px;
   text-align: center;
   margin-bottom: 10px;
