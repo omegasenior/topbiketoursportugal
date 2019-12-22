@@ -40,7 +40,7 @@ durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
 rating: []
-mapUrl: 'https://drive.google.com/open?id=1xb2mHSxAuUoNT4qUVov2I1nJYf0gkMeo&usp=sharing'
+mapUrl: ''
 itinerary:
   - day: '1'
     description: >-
@@ -209,7 +209,7 @@ pricing:
         value: 'yes'
       - title: Porto Airport Transfers
         value: 'yes'
-      - title: Trains or Bus Tickets
+      - title: Trains or Bus Tickets to Porto
         value: 'yes'
       - title: Van Support
         value: 'yes'
@@ -248,7 +248,7 @@ pricing:
         value: 'yes'
       - title: Porto Airport Transfers
         value: 'yes'
-      - title: Trains or Bus Tickets
+      - title: Trains or Bus Tickets to Porto
         value: 'yes'
       - title: Van Support
         value: 'yes'
