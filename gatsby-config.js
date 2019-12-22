@@ -7,8 +7,8 @@ module.exports = {
     description: `
     Top Bike Tours Portugal is a provider of holiday’s packages and routes, which offers an incredible holiday experience, entertainment and leisure activities based on quality and value.
     `,
-    canonicalUrl: "https://www.topbiketoursportugal.com/",
-    image: "https://www.topbiketoursportugal.com/images/jason-lengstorf.jpg",
+    canonicalUrl: "https://topbiketoursportugal.com/",
+    image: "https://topbiketoursportugal.com/images/jason-lengstorf.jpg",
     author: {
       name: "Top Bike Tours Portugal",
       minibio: `
@@ -17,8 +17,8 @@ module.exports = {
     },
     organization: {
       name: "Top Bike Tours Portugal",
-      url: "https://www.topbiketoursportugal.com",
-      logo: "https://www.topbiketoursportugal.com/android-chrome-512x512.png"
+      url: "https://topbiketoursportugal.com",
+      logo: "https://topbiketoursportugal.com/android-chrome-512x512.png"
     },
     social: {
       twitter: "https://twitter.com/FoldnVisit",

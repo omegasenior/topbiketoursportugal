@@ -21,36 +21,36 @@ feature:
 dates:
   - body: >-
       [The Way of St. James - Along the coast easy -
-      G](https://www.topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
+      G](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
       bike tour
     date: 2020-05-09T23:00:00.000Z
     type: Date
   - body: >-
       [The Way of St. James - Along the coast easy -
-      G](https://www.topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
+      G](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
       bike tour
     date: 2020-06-06T23:00:00.000Z
     type: Date
   - body: >-
       [The Way of St. James - Along the coast easy -
-      G](https://www.topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
+      G](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)uided
       bike tour
     date: 2020-09-05T23:00:00.000Z
     type: Date
   - body: >-
       [The Silver Coast Route 1 -
-      Guided](https://www.topbiketoursportugal.com/porto-to-coimbra-biketour)
+      Guided](https://topbiketoursportugal.com/porto-to-coimbra-biketour)
       bike tour
     date: 2020-09-19T23:00:00.000Z
     type: Date
   - body: >-
       [The Silver Coast Route 1 - Guided bike tour
-      Plus](https://www.topbiketoursportugal.com/porto-to-coimbra-biketour)
+      Plus](https://topbiketoursportugal.com/porto-to-coimbra-biketour)
     date: 2020-10-02T23:00:00.000Z
     type: Date
   - body: >-
       [The Way of St. James - Along the coast easy -
-      Guided](https://www.topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
+      Guided](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
       biket tour
     date: 2020-10-10T23:00:00.000Z
     type: Date

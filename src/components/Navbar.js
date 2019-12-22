@@ -112,7 +112,7 @@ const NavbarComponent = class extends React.Component {
                     const SocialIcon = icons[social.icon];
                     return (
                       <a
-                        rel="noopener noreferrer"
+                        rel="nofollow noopener noreferrer"
                         key={`sli${index}`}
                         href={social.link}
                         target="_blank"
