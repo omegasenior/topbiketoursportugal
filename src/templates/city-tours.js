@@ -77,7 +77,7 @@ export const ToursListTemplate = ({ tours }) => (
   <>
     {tours &&
       tours.map((tour, index) => (
-        <TourTemplate key={`t` + index} {...tour} {...tour.frontmatter} />
+        <TourTemplate key={`ct` + index} {...tour} {...tour.frontmatter} />
       ))}
   </>
 );
