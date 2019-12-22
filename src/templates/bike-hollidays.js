@@ -185,7 +185,7 @@ function ToursListPage({ data }) {
                     <TourLink to={tour.path || tour.localizedPath || tour.slug}>
                       <Tour>
                         <TourImageContainer>
-                          <Img fluid={tour.image.childImageSharp.fluid} />
+                          <Img fluid={tour.image.childImageSharp.fluid} alt={tour.title} />
                         </TourImageContainer>
                         <div style={{ padding: "25px" }}>
                           <TourTitle>{tour.title}</TourTitle>

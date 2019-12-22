@@ -30,4 +30,4 @@ My wife and I have now experienced seven European bike tours in various countrie
 
 
 
-[https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District\_Northern\_.html#REVIEWS](https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District_Northern_.html#REVIEWS)
+[https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District\_Northern\_.html#REVIEWS](https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District_Northern_.html#REVIEWS){:rel="nofollow"}

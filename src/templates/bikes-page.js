@@ -34,6 +34,7 @@ export const BikesPageTemplate = ({
               <Img
                 key={"gi_" + index + "_" + index2}
                 fluid={item.image.childImageSharp.fluid}
+                alt={item.type}
               />
             ))}
           </div>

@@ -99,6 +99,7 @@ const Tourhighlights = ({
                               fluid={
                                 tour.frontmatter.image.childImageSharp.fluid
                               }
+                              alt={tour.frontmatter.title}
                             />
                           </Style.ToursImageContainer>
                           <Style.TourTitle>

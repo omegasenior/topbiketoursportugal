@@ -13,6 +13,7 @@ const TourGallery = ({ tour: { gallery } }) => (
             <Img
               key={item.image.childImageSharp.id}
               fluid={item.image.childImageSharp.fluid}
+              alt={item.image.title}
             />
           </div>
         ))}

@@ -39,7 +39,7 @@ export const TourTemplate = ({
       }}
     >
       <div className="col-12 col-sm-4 no-gutter tourImageContainer">
-        <Img fluid={image.childImageSharp.fluid} />
+        <Img fluid={image.childImageSharp.fluid} alt={title} />
       </div>
       <div className="col-12 col-sm-8 tourBody">
         <div className="row h-100">

@@ -15,7 +15,7 @@ languagePages: []
 ---
 # Portugal wins the **World's Leading Destination 2019**
 
-Congratulations to all the organizations and company´s in Portugal that have contributed to the [**World's Leading Destination 2019**](https://www.worldtravelawards.com/award-worlds-leading-destination-2019) price. Is the third time in a row that Portugal wins this price 
+Congratulations to all the organizations and company´s in Portugal that have contributed to the [**World's Leading Destination 2019**](https://www.worldtravelawards.com/award-worlds-leading-destination-2019){:rel="nofollow"} price. Is the third time in a row that Portugal wins this price 
 
 Top bike tours Portugal as done it´s job showing our Portugal bicycle routes to our customers.
 

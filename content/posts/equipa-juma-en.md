@@ -25,7 +25,7 @@ Follow the posts on the blog and leave a comment! The updates of the bike tour i
 
 Images of the bike tour in the Douro and from Porto to Lisbon.
 
-<http://www.juma.world/>
+<http://www.juma.world/>{:rel="nofollow"}
 
 ![Team juma in a bicycle holiday in douro valley and in the atlantic coast of portugal](/img/bike-tour-douro-valley-photo-9.png "Team juma in a bicycle holiday in douro valley and in the atlantic coast of portugal")
 

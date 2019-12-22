@@ -14,7 +14,7 @@ import "./team.scss";
 export const TeamMember = ({ image, name, role, bio }) => (
   <div className="team">
     <div className="image">
-      <Img fluid={image.childImageSharp.fluid} />
+      <Img fluid={image.childImageSharp.fluid} alt={name} />
     </div>
     <div className="detail">
       <h3 className="name">{name}</h3>
