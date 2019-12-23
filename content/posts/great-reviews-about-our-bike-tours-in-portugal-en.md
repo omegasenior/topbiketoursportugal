@@ -16,7 +16,7 @@ meta:
   description: Cyclinh holiday review Bob
   keywords: Cyclinh holiday review Portugal
   robots: INDEX
-  title: Cyclinh holiday review Bob
+  title: Cycling holiday review Bob
 languagePages: []
 ---
 # Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo

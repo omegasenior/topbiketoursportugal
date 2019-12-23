@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /pt/blog/cartas-de-clientes-passeios-bicicleta
-title: ' Bike tours Portugal Friends Letters'
+title: Uma carta de amigos
 language: pt
 date: 2018-05-30T23:00:00.000Z
 featuredImage: /img/letters-from-our-customers.png
@@ -11,10 +11,10 @@ categories:
 tags:
   - customers stuff
 meta:
-  description: letters from our customers
-  keywords: letters from our customers
+  description: Uma carta de amigos
+  keywords: Uma carta de amigos
   robots: INDEX
-  title: letters from our customers
+  title: Uma carta de amigos
 languagePages:
   - path: cartas de clientes para a nossa equipa
     language: pt

@@ -1,13 +1,14 @@
 ---
 templateKey: blog-index
 language: pt
-slug: blog
 path: /pt/blog
-title: Blog Page
+title: Página do Blog
 meta:
   canonicalLink: ''
-  description: This is a meta description.
-  title: Blog Page
+  description: Página Blog Top Bike tours Portugal
+  keywords: Página Blog Top Bike tours Portugal
+  robots: INDEX
+  title: Página Blog Top Bike tours Portugal
 feature:
   align: center
   image: /img/cycling-to-são-pedro-de-moel.jpg
@@ -15,4 +16,4 @@ feature:
   textcolor: white
   title: blog
 ---
-# BlogTop Bike tours Portugal
+# Página Blog Top Bike tours Portugal
