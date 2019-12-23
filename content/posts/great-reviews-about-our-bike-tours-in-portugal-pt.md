@@ -1,33 +1,28 @@
 ---
 templateKey: blog-post
 path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal-pt
-title: Great Reviews about our bike tours in Portugal
+title: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
 language: pt
 date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/bob-review.png
 featuredImagePosition: center center
-tags:
-  - customers stuff
-meta:
-  description: Cyclinh holiday review Bob
-  keywords: Cyclinh holiday review Portugal
-  title: Cyclinh holiday review Bob
-languagePages: []
 categories:
   - category: Updates
+tags:
+  - Ótima crítica sobre os nossos passeios de bicicleta em Portugal
+meta:
+  description: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
+  keywords: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
+  robots: INDEX
+  title: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
+languagePages: []
 ---
-# Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo
+# Ótima crítica sobre os nossos passeios de bicicleta em Portugal - Obrigado Bob por tudo e pela foto
 
-## Bike Tour from the city of Porto to Santiago de Compostela
+## Passeio de bicicleta da cidade do Porto a Santiago de Compostela
 
 ![Bob review about his cycling holiday](/img/bob-review.png "Bob review about his cycling holiday")
 
-My wife and I have now experienced seven European bike tours in various countries. Six were guided as was this one. This tour is a notch above all the others. You are in the constant hands and service of Sergio and his carefully chosen guides. The biking can be challenging at times. We chose the basic package with the meal plan. The accommodation and meals were excellent. If you invest and trust in Sergio, you will be richly rewarded. He is truly one of a kind. If you are as lucky as we were to be matched with kind and generous fellow travellers, you too may also come away with one or more life long friends.
-
-
-
-
-
-
+Minha esposa e eu já experimentamos sete passeios de bicicleta na Europa em vários países. Seis foram guiados como este. Este passeio é um ponto acima de todos os outros. Você está nas mãos e no serviço constante de Sergio e seus guias cuidadosamente escolhidos. O ciclismo pode ser um desafio às vezes. Nós escolhemos o pacote básico com o plano de refeições. O alojamento e as refeições foram excelentes. Se você investir e confiar em Sergio, será recompensado. Ele é verdadeiramente único. Se você tiver a mesma sorte de encontrar companheiros de viagem gentis e generosos, também poderá vir com um ou mais amigos ao longo da vida.
 
 [https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District\_Northern\_.html#REVIEWS](https://www.tripadvisor.pt/ShowUserReviews-g189180-d4105907-r532635022-Bike_tours_Portugal_City_Tours_Bike_rental_Fold_n-Porto_Porto_District_Northern_.html#REVIEWS){:rel="nofollow"}
