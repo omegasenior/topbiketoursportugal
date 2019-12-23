@@ -1,6 +1,7 @@
 ---
 templateKey: blog-index
 language: pt
+slug: blog
 path: /pt/blog
 title: Página do Blog
 meta:
