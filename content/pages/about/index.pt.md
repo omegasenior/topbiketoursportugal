@@ -15,7 +15,7 @@ team:
       clientes. Suas funções estão relacionadas com a gestão da empresa, tanto
       da parte financeira, como das vendas e marketing. Sergio fala Português e
       Inglês.
-    image: /img/team/sergio_marques.jpg
+    image: /img/sergio-marques.jpg
     name: Sergio Marques
     role: Proprietário
   - bio: >-
