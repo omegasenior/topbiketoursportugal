@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: pt/blog/equipa-juma-fotos-e-blog-pessoal
-title: Equipa JUMA
+title: Equipa JUMA em Portugal
 language: pt
 date: 2017-10-18T23:00:00.000Z
 featuredImage: /img/bike-tour-douro-valley-photo-1.png
@@ -11,19 +11,17 @@ categories:
 tags:
   - customers stuff
 meta:
-  description: Customers with blogs - Equipa JUMA
-  keywords: customers in douro valley bike tour
+  description: Equipa JUMA em Portugal
+  keywords: Equipa JUMA em Portugal
   robots: INDEX
-  title: Customers with blogs - Equipa JUMA
+  title: Equipa JUMA em Portugal
 languagePages:
   - path: equipa-juma-outubro-2017
     language: pt
 ---
-# Blog of Edson Mazieiro and Jussara (JUMA)!
+# Blog de Edson Mazieiro e Jussara (equipa JUMA)!
 
-Follow the posts on the blog and leave a comment! The updates of the bike tour in Portugal are being made  and well worth a visit.
-
-Images of the bike tour in the Douro and from Porto to Lisbon.
+Siga os posts no blog e deixe um comentário! As atualizações do passeio de bicicleta em Portugal estão sendo feitas e merecem uma visita. Imagens do passeio de bicicleta no Douro e do Porto para Lisboa.
 
 <http://www.juma.world/>{:rel="nofollow"}
 
