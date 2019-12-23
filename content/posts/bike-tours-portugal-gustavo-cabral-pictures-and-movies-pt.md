@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /pt/blog/date/caminho-de-santiago-pela-costa-fotos-gustavo-e-Nicole
-title: Bike tours Portugal Gustavo Cabral pictures and movies
+title: Bike tours Portugal Gustavo Cabral fotografias e video
 language: pt
 date: 2017-12-05T00:00:00.000Z
 featuredImage: /img/gustavo-cabral-photos.png
@@ -11,8 +11,10 @@ categories:
 tags:
   - customers stuff
 meta:
+  description: Bike tours Portugal Gustavo Cabral fotografias e video
+  keywords: Bike tours Portugal Gustavo Cabral fotografias e video
   robots: INDEX
-  title: Bike tours Portugal Gustavo Cabral pictures and movies
+  title: Bike tours Portugal Gustavo Cabral fotografias e video
 languagePages:
   - path: Gustavo Cabral fotos e videos do caminho ate santiago
     language: pt
