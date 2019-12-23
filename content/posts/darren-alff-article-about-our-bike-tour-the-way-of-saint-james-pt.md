@@ -20,7 +20,7 @@ languagePages:
   - path: artigo de bloguer no caminho de santiago em bicicleta
     language: pt
 ---
-# Artigo sobre passeio de bicicleta até Santiago de Compostela
+# Artigo de Darren Alff sobre passeio de bicicleta até Santiago de Compostela
 
 ![Darren Alff article about our bike tour The Way of Saint James](/img/darren-alf-bicycle-holiday-group-to-santiago.png "Darren Alff article about our bike tour The Way of Saint James")
 
