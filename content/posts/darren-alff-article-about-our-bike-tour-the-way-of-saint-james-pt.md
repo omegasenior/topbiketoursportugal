@@ -2,9 +2,7 @@
 templateKey: blog-post
 path: >-
   pt/blog/darren-alff-artigo-em-blogue-do-biketour-porto-a-santiago-de-compostela
-title: >-
-  Darren Alff: Artigo sobre o nosso passeio de bicicleta até Santiago de
-  Compostela
+title: Artigo sobre passeio de bicicleta até Santiago de Compostela
 language: pt
 date: 2018-09-10T23:00:00.000Z
 featuredImage: /img/darren-alf-bicycle-holiday-group-to-santiago.png
@@ -14,15 +12,15 @@ categories:
 tags:
   - bloguers articles
 meta:
-  description: Darren Alff article about our bike tour The Way of Saint James
-  keywords: Darren Alff article about our bike tour The Way of Saint James
+  description: Artigo sobre passeio de bicicleta até Santiago de Compostela
+  keywords: Artigo sobre passeio de bicicleta até Santiago de Compostela
   robots: INDEX
-  title: Darren Alff article about our bike tour The Way of Saint James
+  title: Artigo sobre passeio de bicicleta até Santiago de Compostela
 languagePages:
   - path: artigo de bloguer no caminho de santiago em bicicleta
     language: pt
 ---
-# Darren Alff: Artigo sobre o nosso passeio de bicicleta até Santiago de Compostela
+# Artigo sobre passeio de bicicleta até Santiago de Compostela
 
 ![Darren Alff article about our bike tour The Way of Saint James](/img/darren-alf-bicycle-holiday-group-to-santiago.png "Darren Alff article about our bike tour The Way of Saint James")
 
