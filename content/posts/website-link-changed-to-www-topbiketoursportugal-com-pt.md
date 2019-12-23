@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: pt/blog/noticia-mudança-de-link-no-website
-title: Website link changed to topbiketoursportugal.com
+title: Alteração do link do website para topbiketoursportugal.com
 language: pt
 date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/top-bike-tours-portugal-logo.png
@@ -11,14 +11,14 @@ categories:
 tags:
   - Company updates
 meta:
-  description: Fold n´Visit as changed the old website link and logo
+  description: Alteração do link do website para
   keywords: ''
   robots: INDEX
-  title: Fold n´Visit as changed the old website link and logo
+  title: Alteração do link do website para
 languagePages: []
 ---
 # Noticia
 
 A Fold n´Visit alterou o link antigo do site www.foldnvisit.com para um novo www.topbiketoursportugal.com
 
-.Esta melhoria foi decidida para tornar-nos mais claros no que fazemos. Embora tenhamos uma loja na cidade do Porto dedicada ao turismo e passeios pela cidade, o nosso principal objetivo é aumentar os nossos pacotes de biketours em Portugal.
+Esta melhoria foi decidida para tornar-nos mais claros no que fazemos. Embora tenhamos uma loja na cidade do Porto dedicada ao turismo e passeios pela cidade, o nosso principal objetivo é aumentar os nossos pacotes de biketours em Portugal.
