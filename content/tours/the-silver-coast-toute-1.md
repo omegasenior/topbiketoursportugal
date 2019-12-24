@@ -327,5 +327,3 @@ Day 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 Day 6 - Figueira da Foz - Coimbra ( 55 Km)
 
 Day 7 - Transfer
-
-![Grean Coast cycling holiday from Porto to Coimbra](/img/grean-coast-cycling-holiday-from-porto-to-coimbra.png)
