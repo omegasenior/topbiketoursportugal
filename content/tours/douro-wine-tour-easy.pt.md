@@ -43,6 +43,7 @@ durationUnit: Dias | 7 Noites
 difficulty: 4
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1FQ1YmZYlKWQxPwBQhEWF96TjtaowgG0C'
 itinerary:
   - day: '1'
     description: ''
@@ -307,5 +308,3 @@ Dia 6: Penedono (40 km)
 Dia 7: Penedono – Régua (52 km)
 
 Dia 8: Transfere de comboio para o Porto
-
-![Em bicicleta pelo Vale do Douro MAPA](/img/douro-cycling-holiday-02-map.png)
