@@ -36,6 +36,7 @@ distanceUnit: Km
 duration: 8
 durationUnit: Dias | 7 Noites
 difficulty: 3
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=14iVNLFXg8h5R_B1MI1zdY2bErIJ4fstp'
 itinerary:
   - day: '1'
     location:
@@ -311,5 +312,3 @@ Dia 6: Pontevedra – Padrón (43 km)
 Dia 7: Padrón – Santiago de Compostela (28 km)
 
 Dia 8: Transfere de comboio para o Porto
-
-![](/img/the-way-of-st-james-starting-porto.png)
