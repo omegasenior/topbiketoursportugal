@@ -45,6 +45,7 @@ durationUnit: Dias | 8 Noites
 difficulty: 2
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1UXCTxOi5RNgO3rzkgi5guuqT0cfcOI6-'
 itinerary:
   - day: '1'
     description: ''
@@ -366,5 +367,3 @@ Dia 7: Ericeira - Sintra (27 Km)
 Dia 8: Sintra - Cascais (40 Km) - parque natural Sintra- Cascais
 
 Dia 9: Partida
-
-![Silver Coast Bike tour map](/img/silver-coast-bike-tour-map.png)
