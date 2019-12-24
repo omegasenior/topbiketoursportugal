@@ -41,6 +41,7 @@ durationUnit: Days | 15 Nights
 difficulty: 4
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1HO1scn3_ETs8wsMq-TzxiymjG6iY5ydf'
 itinerary:
   - day: '1'
     description: Reception at Saint-Jean-Pied-De-Port
@@ -376,8 +377,6 @@ Day 14 -  Portomarin - Melide 62 Km / 39 km
 Day 15 -  Melide - Santiago de Compostela / 54 km 
 
 Day 16 -  Santiago de Compostela – departure
-
-![The French Camino way map](/img/mapa-santiado-compostela-french-way.png)
 
 **Itinerary reduced route:**
 
