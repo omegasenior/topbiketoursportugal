@@ -42,6 +42,7 @@ durationUnit: Dias | 6 Noites
 difficulty: 4
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1BVuKOZTTXN3sxc9ZZ4EKBVcHGWAoWHvK'
 itinerary:
   - day: '1'
     description: >-
@@ -310,5 +311,3 @@ Dia 5: Penedono – Marialva (30 km)
 Dia 6: Marialva – Vila Nova de Foz Côa (22 km)
 
 Dia 7: Transfere de volta ao Porto
-
-![](/img/douro-cycling-holiday-01-map.png)
