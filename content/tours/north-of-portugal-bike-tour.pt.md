@@ -41,6 +41,7 @@ durationUnit: Dias | 6 Noites
 difficulty: 1
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=12Ae-R3xcgPrCt6Pqsd8cMXKf0nT0uHsx'
 itinerary:
   - day: '1'
     description: ''
@@ -326,8 +327,6 @@ Dia 5 - Ponte de Lima – Esposende ( 55 km)
 Dia 6 – Esposende – Porto (60km)
 
 Dia 7 - Partida
-
-![](/img/map-north-and-minho-bike-tour.png)
 
 \
 \
