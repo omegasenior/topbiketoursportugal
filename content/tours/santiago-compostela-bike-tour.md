@@ -50,8 +50,7 @@ rating:
     ratingLink: '1'
   - rating: 1
     ratingLink: '1'
-mapUrl: >-
-  https://www.google.com/maps/d/embed?mid=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9
+mapUrl: 'https://www.google.com/maps/d/embed?mid=1xFumA-MEafLJTH8FdgLg6iTTmAnYVEc9'
 itinerary:
   - day: '1'
     description: >-
@@ -215,6 +214,8 @@ pricing:
         value: 'No'
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.489 €
+      - title: 8 Nights / 9 Days ( price per person)
+        value: 1.679 €
       - title: 'July, August and September Prices'
         value: + 100 €
       - title: Min. Participants
@@ -255,6 +256,8 @@ pricing:
         value: 'Yes'
       - title: 7 Nights / 8 Days ( price per person)
         value: 1895 €
+      - icon: '-'
+        title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
         value: + 100 €
       - title: Min. Participants
@@ -295,6 +298,8 @@ pricing:
         value: 'Yes'
       - title: 7 Nights / 8 Days ( price per person)
         value: 2.456 €
+      - icon: '-'
+        title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
         value: +100 €
       - title: Min. Participants
@@ -356,4 +361,20 @@ Day 6: Pontevedra – Caldas dos Reis (26 km)
 
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
-![SANTIAGO cOMPOSTELA CYCLING HOLIDAY MAP](/img/santiago-pela-costa.png)
+**Itinerary 8 nights / 9 Days:**
+
+Day 1: Reception at Porto
+
+Day 2: Porto – Esposende (60 km)
+
+Day 3: Esposende – Caminha (50 km)
+
+Day 4: Caminha – Baiona (40 km)
+
+Day 5: Baiona – Vigo (25 km)
+
+Day 6: Vigo – Pontevedra (39 km)
+
+Day 7: Pontevedra – Caldas dos Reis (26 km)
+
+Day 8: Caldas dos Reis – Santiago de Compostela (40 km)
