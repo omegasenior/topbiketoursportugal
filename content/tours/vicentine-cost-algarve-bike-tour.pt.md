@@ -47,6 +47,7 @@ durationUnit: Dias | 7 Noites
 difficulty: 2
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1ieK3MkKNSZ5im7KllAgWngvQiiWZksCn'
 itinerary:
   - day: '1'
     description: >-
@@ -395,8 +396,6 @@ Dia 8 - Carrapateira – Sagres (54 km)
 Dia 9 - Sagres – Lagos (45 km)
 
 Dia 10 - Transfere
-
-![](/img/vicentine-cost-and-algarve-bike-tour.png)
 
 \
 \
