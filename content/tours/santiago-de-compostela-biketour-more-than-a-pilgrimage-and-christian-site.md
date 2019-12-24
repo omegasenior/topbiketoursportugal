@@ -31,6 +31,7 @@ distanceUnit: Km
 duration: 8
 durationUnit: Days | 7 Nights
 difficulty: 3
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=14iVNLFXg8h5R_B1MI1zdY2bErIJ4fstp'
 itinerary:
   - day: '1'
     location:
@@ -305,5 +306,3 @@ Day 6: Pontevedra – Padrón (43 km)
 Day 7: Padrón – Santiago de Compostela (28 km)
 
 Day 8: Transfer train to Porto
-
-![The way of Saint James mountain bike tour](/img/the-way-of-st-james-starting-porto.png)
