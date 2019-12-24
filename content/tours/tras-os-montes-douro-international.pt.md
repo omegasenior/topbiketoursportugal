@@ -42,6 +42,7 @@ durationUnit: Dias | 6 Noites
 difficulty: 5
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1W85867bI5QEUY72r3PsE4nRSj6yzU2_F'
 itinerary:
   - day: '1'
     description: ''
@@ -278,5 +279,3 @@ Dia 5: Miranda do Douro – Alfândega da Fé (98 km)
 Dia 6: Alfândega da Fé – Tua (74 km)
 
 Dia 7: Transfere de volta para o Porto
-
-![](/img/douro-cycling-holiday-03-map.png)
