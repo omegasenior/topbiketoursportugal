@@ -35,6 +35,7 @@ distanceUnit: Km
 duration: 13
 durationUnit: Dias | 12 Noites
 difficulty: 2
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1MI8uIgum4eTAm2cW9Y3YakHGfBsSwZET'
 itinerary:
   - day: '1'
     location:
@@ -433,8 +434,6 @@ Dia 11 -Ericeira – Sintra (27 Km)
 Dia 12 -Sintra – Cascais (40 Km)
 
 Dia 13 - Partida de Lisboa
-
-![](/img/porto-to-lisbon-cyling-map.png)
 
 **Itinerário reduzido**
 
