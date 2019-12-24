@@ -41,6 +41,7 @@ durationUnit: Days | 15 Nights
 difficulty: 4
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1HO1scn3_ETs8wsMq-TzxiymjG6iY5ydf'
 itinerary:
   - day: '1'
     description: Recepção em Saint-Jean-Pied-De-Port
@@ -319,8 +320,6 @@ feature:
 
 O Caminho Francês é uma das rotas mais populares entre aqueles que se atrevem a deslocar-se até Santiago de Compostela. Esta rota específica remonta ao Codex Calixtinus do século XII. Na Idade Média, milhares de peregrinos começaram a andar pelo Caminho Francês para chegar ao túmulo de Santiago, o Grande.
 
-
-
 O Caminho Francês é uma jornada notável, cruzando tanto terreno montanhoso, como terreno plano. Este passeio passa por algumas das mais belas partes de Espanha, incluindo grandes cidades como Pamplona, Leon e Burgos. Atravessa também muitas cidades com um significado muito importante para as peregrinações, como por exemplo Saint Jean Pied de Port e Logroño.
 
 **Descrição do Percurso:**
@@ -363,8 +362,6 @@ Dia 14 - Portomarin - Melide 62 Km / 39 km
 Dia 15 - Melide - Santiago de Compostela / 54 km 
 
 Dia 16 - Partida de Santiago de Compostela
-
-![](/img/mapa-santiado-compostela-french-way.png)
 
 Itinerário rota reduzida:
 
