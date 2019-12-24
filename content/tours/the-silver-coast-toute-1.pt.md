@@ -42,6 +42,7 @@ durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
 rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1MkRMyJZHbX17eBzGJoJ736dJ0dNH8SL7'
 itinerary:
   - day: '1'
     description: >-
@@ -319,5 +320,3 @@ Dia 5 - Praia de Mira - Figueira da Foz ( 50 Km)
 Dia 6 - Figueira da Foz - Coimbra ( 55 Km)
 
 Dia 7 - Transfere
-
-![](/img/grean-coast-cycling-holiday-from-porto-to-coimbra.png)
