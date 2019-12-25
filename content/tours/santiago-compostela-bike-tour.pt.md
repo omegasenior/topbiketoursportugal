@@ -220,7 +220,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.679 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 100 € (125 € opção 8 noites)'
       - title: Min. Participants
         value: '2'
     price: 1489
@@ -262,7 +262,7 @@ pricing:
       - icon: '-'
         title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 100 € (125 € opção 8 noites)'
       - title: Min. Participants
         value: '4'
     price: 1895
@@ -304,12 +304,37 @@ pricing:
       - icon: '-'
         title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
-        value: +100 €
+        value: +100 € (125 € opção 8 noites)
       - title: Min. Participants
         value: '4'
     price: 2456
     type: '1'
-afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n**Extras**\r\n\n* Bicicleta Elétric: 175€\r\n* Suplemento para quarto individual: 329 €\r\n* Viajante único: 200 €\r\n* Noites extra: sob consulta\r\n\n"
+afterpricing: >-
+  **Observações:**
+
+
+  * Preços baseados para 2 pessoas que partilham o mesmo quarto;
+
+  * Preços podem sofrer alterações devido a alta temporada, feriados ou fins de
+  semana
+
+  * Bebidas não incluídas ao almoço ou jantar quando incluídas no package
+
+
+  **Extras**
+
+
+  * Bicicleta Elétric: 175€
+
+  * Suplemento para quarto individual: 329 €
+
+  * Suplemento para quarto individual opção 8 noites: 379 €
+
+  * Viajante único: 200 €
+
+  * Viajante único opção 8 noites: 220 €
+
+  * Noites extra: sob consulta
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
