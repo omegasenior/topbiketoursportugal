@@ -362,7 +362,7 @@ Day 6: Pontevedra – Caldas dos Reis (26 km)
 Day 7: Caldas dos Reis – Santiago de Compostela (40 km)
 
 \
-**Itinerary long route:**
+**Itinerary 8 nights / 9 Days:**
 
 Day 1: Reception at Porto
 
