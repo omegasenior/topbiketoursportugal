@@ -377,7 +377,8 @@ Day 14 -  Portomarin - Melide 62 Km / 39 km
 Day 15 -  Melide - Santiago de Compostela / 54 km 
 
 Day 16 -  Santiago de Compostela – departure
-
+\
+\
 **Itinerary reduced route:**
 
 **Km:** 315 km
