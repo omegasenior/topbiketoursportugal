@@ -217,7 +217,7 @@ pricing:
       - title: 8 Nights / 9 Days ( price per person)
         value: 1.679 €
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 100 € (125€ 8 nights option)'
       - title: Min. Participants
         value: '2'
     price: 1489
@@ -259,7 +259,7 @@ pricing:
       - icon: '-'
         title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
-        value: + 100 €
+        value: '* 100 € (125€ 8 nights option)'
       - title: Min. Participants
         value: '4'
     price: 1895
@@ -301,7 +301,7 @@ pricing:
       - icon: '-'
         title: 8 Nights / 9 Days ( price per person)
       - title: 'July, August and September Prices'
-        value: +100 €
+        value: +100 € (125€ 8 nights option)
       - title: Min. Participants
         value: '4'
     price: 2456
@@ -317,7 +317,9 @@ afterpricing: |-
 
   * Electric bicycles price: 175€
   * Supplement for single room: 329 €
+  * Supplement for single room with 8 night option: 379 €
   * Solo traveler: 200 €
+  * Solo traveler with 8 night option: 220 €
   * Extra nights: on request
 feature:
   align: center
