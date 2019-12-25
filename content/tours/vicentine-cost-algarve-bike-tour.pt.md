@@ -261,7 +261,7 @@ pricing:
       - title: 'July, August and September Prices'
         value: + 150 € (+100 € reduced option)
       - title: Min. Participants
-        value: '4'
+        value: '2'
     price: 1609
     type: '1'
   - discount: 0
