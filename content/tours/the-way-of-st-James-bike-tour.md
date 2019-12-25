@@ -255,7 +255,7 @@ pricing:
         value: 'Yes'
       - title: 7 Nights / 8 Days ( price per person)
         value: 1.986€
-      - title: 15 Nights / 16 Days ( price per person)
+      - title: 15 Nights /16 Days (price per person)
         value: 3.960 €
       - title: 'July, August and September Prices'
         value: + 150 €
@@ -299,7 +299,7 @@ pricing:
         value: 'Yes'
       - title: 7 Nights / 8 Days ( price per person)
         value: 2.596 €
-      - title: 15 Nights / 16 Days ( price per person)
+      - title: 15 Nights /16 Days (price per person)
         value: 4.180 €
       - title: 'July, August and September Prices'
         value: + 150 €
