@@ -279,7 +279,7 @@ pricing:
         value: 'No'
       - title: 6 Nights / 7 Days ( price per person)
         value: 1.480 €
-      - title: 12 Nights / 13 Days ( price per person)
+      - title: 12 Nights /13 Days (price per person)
         value: 2.779 €
       - title: 'July, August and September Prices'
         value: '* 250 € (125 € reduced option)'
@@ -319,7 +319,7 @@ pricing:
         value: 'Yes'
       - title: 6 Nights / 7 Days ( price per person)
         value: 1.789€
-      - title: 12 Nights / 13 Days ( price per person)
+      - title: 12 Nights /13 Days (price per person)
         value: 3.589 €
       - title: 'July, August and September Prices'
         value: '* 250 € (125 € reduced option)'
@@ -359,7 +359,7 @@ pricing:
         value: 'Yes'
       - title: 6 Nights / 7 Days ( price per person)
         value: 2.360 €
-      - title: 12 Nights / 13 Days ( price per person)
+      - title: 12 Nights /13 Days (price per person)
         value: 4.629 €
       - title: 'July, August and September Prices'
         value: '* 250 € (125 € reduced option)'
@@ -435,7 +435,8 @@ Day 11 -Ericeira – Sintra (27 Km)
 Day 12 -Sintra – Cascais (40 Km) – natural park Sintra- Cascais
 
 Day 13 - Departure to Lisbon
-
+\
+\
 **Itinerary reduced Route:**
 
 **KM:** 308 Km
