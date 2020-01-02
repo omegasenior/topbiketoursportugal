@@ -19,7 +19,9 @@ bikes:
   - image: /img/specialized-women-s-pitch-comp-27.5.jpg
     type: Mountain bike
   - image: /img/ktm-macina.jpg
-    type: Mountain bike
+    type: Mountain e-bike
+  - image: /img/ktm-macina-272.jpg
+    type: Electric Mountain bicycle
 equipment:
   - description: >-
 
@@ -64,6 +66,7 @@ meta:
   keywords: >-
     RENT A BIKE PORTO,ALUGAR BICICLETA PORTO,HIRE A BYCICLE PORTO
     PORTUGAL,RENTAL BIKE OPORTO
+  robots: INDEX
   title: ALUGUER BICICLETAS PORTO
 feature:
   align: center
