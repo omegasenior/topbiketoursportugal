@@ -19,9 +19,9 @@ bikes:
   - image: /img/specialized-women-s-pitch-comp-27.5.jpg
     type: Mountain bike
   - image: /img/ktm-macina.jpg
-    type: Mountain e-bike
+    type: Electric bicycles
   - image: /img/ktm-macina-272.jpg
-    type: Electric Mountain bicycle
+    type: Electric bicycles
 equipment:
   - description: >-
 
