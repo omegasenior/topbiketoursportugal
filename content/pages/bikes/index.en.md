@@ -33,7 +33,9 @@ bikes:
   - image: /img/specialized-women-s-pitch-comp-27.5.jpg
     type: Mountain bike
   - image: /img/ktm-macina.jpg
-    type: Mountain bike
+    type: Mountain e-bike
+  - image: /img/ktm-macina-272.jpg
+    type: Electric Mountain bicycle
 equipment:
   - description: >-
       **Kross TRANS 5.0**
@@ -81,6 +83,7 @@ meta:
   keywords: >-
     Cycling Tours Portugal, cycling holidays in nature,bike tours, bike tours
     portugal,guided bike tours
+  robots: INDEX
   title: Bike tours Portugal - Bicycle tours Portugal
 feature:
   align: center
