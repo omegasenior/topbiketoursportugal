@@ -12,9 +12,10 @@ tags:
   - Company updates
 meta:
   description: Alteração do link do website para
-  keywords: ''
+  keywords: Alteração do link do website para
   robots: INDEX
   title: Alteração do link do website para
+  language: PT
 languagePages: []
 ---
 # Noticia
