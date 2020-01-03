@@ -1,9 +1,7 @@
 ---
 templateKey: blog-post
 path: /pt/blog/fotos-clientes-caminho-de-santiago
-title: >-
-  Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de
-  2017
+title: Santiago pela costa em outubro de 2017
 language: pt
 date: 2017-10-24T23:00:00.000Z
 featuredImage: /img/carmen-paz-e-fernando-bike-photos-on-the-way-to-santiago-5.png
@@ -20,14 +18,12 @@ meta:
     Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de
     2017.
   robots: INDEX
-  title: >-
-    Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de
-    2017.
+  title: Santiago pela costa em outubro de 2017
 languagePages:
   - path: Carmen Paz e Fernando bike photos on the Way to Santiago
     language: pt
 ---
-Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de 2017.
+## Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de 2017.
 
 Como explicamos a todos os nossos clientes, nosso caminho nos primeiros 3 dias atinge 70% da rota original da costa. Mudamos o caminho original da costa para que seja fácil para a maioria das pessoas. No entanto, este casal do Brasil tomou a liberdade de seguir o caminho da costa, seguindo as setas e pedalando por trilhos mais complicados, tornando a aventura ainda mais inesquecível. fotos Carmen e Fernando
 
