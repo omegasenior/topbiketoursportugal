@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal-pt
-title: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
+title: 'Ótima crítica - passeios de bicicleta em Portugal '
 language: pt
 date: 2017-10-17T23:00:00.000Z
 featuredImage: /img/bob-review.png
@@ -14,7 +14,7 @@ meta:
   description: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
   keywords: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
   robots: INDEX
-  title: 'Ótima crítica sobre os nossos passeios de bicicleta em Portugal '
+  title: 'Ótima crítica - passeios de bicicleta em Portugal '
 languagePages: []
 ---
 # Ótima crítica sobre os nossos passeios de bicicleta em Portugal - Obrigado Bob por tudo e pela foto
