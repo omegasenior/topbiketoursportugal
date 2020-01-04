@@ -274,8 +274,9 @@ afterpricing: >-
 
   * Bebidas não incluídas ao almoço ou jantar quando incluídas no package
 
-  * Crianças entre 4 e 14 anos e em quarto triplo com os pais: 50% de desconto
-  sobre o preço do package.
+  * Se em quarto triplo com os pais Crianças até 10 anos - desconto de 35%.
+  Crianças dos 11 aos 14 anos - 20% de desconto. Crianças dos 15 aos 17 anos -
+  15% de desconto.
 
 
   **Extras**
