@@ -271,7 +271,7 @@ afterpricing: >-
   * Solo traveler: 280 €
 
   * Children between 4 and 14 years old and in a triple room with parents: 50 %
-  discount over package.
+  discount over package price.
 
   * Extra nights: on request
 feature:
