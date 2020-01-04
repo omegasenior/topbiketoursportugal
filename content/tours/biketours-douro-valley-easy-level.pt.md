@@ -247,7 +247,7 @@ pricing:
         value: '4'
     price: 2556
     type: '1'
-afterpricing: >+
+afterpricing: >-
   **Observações:**
 
 
@@ -268,8 +268,10 @@ afterpricing: >+
 
   * Viajante único: 280 €
 
-  * Noites extra: sob consulta
+  * Crianças entre 4 e 14 anos e em quarto triplo com os pais: 50% de desconto
+  sobre o preço do pacote.
 
+  * Noites extra: sob consulta
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
