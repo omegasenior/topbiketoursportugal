@@ -351,20 +351,34 @@ pricing:
         value: '4'
     price: 2520
     type: '1'
-afterpricing: |-
+afterpricing: >-
   **Observations:**
 
+
   * Prices are based for 2 people sharing the same room;
+
   * Prices can suffer updates due high season, holidays or weekends
+
   * Beverages are not included at lunch and dinner when included in the package
+
+  * If in a triple room with parents Children up to 10 years old - 35% discount.
+  Children from 11 to 14 years old - 20% discount. Children from 15 to 17 years
+  old - 15% discount. 
+
 
   **Extras**
 
+
   * Electric bicycles price: 200€
+
   * Supplement for single room : 490 €
+
   * Supplement for single room reduced option: 329 €
+
   * Solo traveler: 290 €
+
   * Solo traveler reduced option: 200 €
+
   * Extra nights: on request
 feature:
   align: center
