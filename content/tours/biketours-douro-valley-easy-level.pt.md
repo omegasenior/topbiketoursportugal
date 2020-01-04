@@ -258,6 +258,9 @@ afterpricing: >-
 
   * Bebidas não incluídas ao almoço ou jantar quando incluídas no package
 
+  * Crianças entre 4 e 14 anos e em quarto triplo com os pais: 50% de desconto
+  sobre o preço do pacote.
+
 
   **Extras**
 
@@ -267,9 +270,6 @@ afterpricing: >-
   * Suplemento para quarto individual: 385 €
 
   * Viajante único: 280 €
-
-  * Crianças entre 4 e 14 anos e em quarto triplo com os pais: 50% de desconto
-  sobre o preço do pacote.
 
   * Noites extra: sob consulta
 feature:
