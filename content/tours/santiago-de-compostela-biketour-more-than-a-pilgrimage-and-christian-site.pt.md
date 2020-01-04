@@ -268,7 +268,32 @@ pricing:
       - title: Min. Participants
         value: '4'
     price: 2456
-afterpricing: "**Observações:**\r\n\n* Preços baseados para 2 pessoas que partilham o mesmo quarto;\r\n* Preços podem sofrer alterações devido a alta temporada, feriados ou fins de semana\r\n* Bebidas não incluídas ao almoço ou jantar quando incluídas no package\r\n\n**Extras**\r\n\n* Bicicleta Elétric: 175€\r\n* Suplemento para quarto individual: 329 €\r\n* Viajante único: 200 €\r\n* Noites extra: sob consulta\r\n\n"
+afterpricing: >-
+  **Observações:**
+
+
+  * Preços baseados para 2 pessoas que partilham o mesmo quarto;
+
+  * Preços podem sofrer alterações devido a alta temporada, feriados ou fins de
+  semana
+
+  * Bebidas não incluídas ao almoço ou jantar quando incluídas no package
+
+  * Se em quarto triplo com os pais Crianças até 10 anos - desconto de 35%.
+  Crianças dos 11 aos 14 anos - 20% de desconto. Crianças dos 15 aos 17 anos -
+  15% de desconto.
+
+
+  **Extras**
+
+
+  * Bicicleta Elétric: 175€
+
+  * Suplemento para quarto individual: 329 €
+
+  * Viajante único: 200 €
+
+  * Noites extra: sob consulta
 feature:
   align: center
   image: /img/furadouro-forest-in-a-bicycle.jpg
