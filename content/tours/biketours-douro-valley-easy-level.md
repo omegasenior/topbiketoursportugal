@@ -260,6 +260,9 @@ afterpricing: >-
 
   * Beverages are not included at lunch and dinner when included in the package
 
+  * Children between 4 and 14 years old and in a triple room with parents: 50 %
+  discount over package price.
+
 
   **Extras**
 
@@ -269,9 +272,6 @@ afterpricing: >-
   * Supplement for single room: 385 €
 
   * Solo traveler: 280 €
-
-  * Children between 4 and 14 years old and in a triple room with parents: 50 %
-  discount over package price.
 
   * Extra nights: on request
 feature:
