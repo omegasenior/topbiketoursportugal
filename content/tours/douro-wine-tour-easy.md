@@ -271,8 +271,9 @@ afterpricing: >-
 
   * Beverages are not included at lunch and dinner when included in the package
 
-  * Children between 4 and 14 years old and in a triple room with parents: 50 %
-  discount over package price.
+  * If in a triple room with parents Children up to 10 years old - 35% discount.
+  Children from 11 to 14 years old - 25% discount. Children from 15 to 17 years
+  old - 20% discount. 
 
 
   **Extras**
