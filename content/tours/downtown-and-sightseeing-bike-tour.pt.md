@@ -156,6 +156,12 @@ feature:
 \
 Para os apaixonados por bicicleta. História urbana, jardins e parques com áreas verdes e paisagens idílicas fazem parte de tudo o que poderá ver neste circuito turístico, em que a bicicleta torna-se indispensável para percorrer a marginal do Rio Douro.
 
+NOTAS IMPORTANTES:
+
+No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado por algum tráfego de carros e pessoas. Continuaremos silenciosamente à beira do rio e do mar.
+
+No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
+
 ![Porto city bike tour](/img/sightseeing-porto-bike-tour.png "Porto city bike tour")
 
 **Tour detail:**
@@ -169,7 +175,5 @@ Para os apaixonados por bicicleta. História urbana, jardins e parques com área
 **Observações:**
 
 Visita com guia nas seguintes línguas: Português, Inglês e Espanhol. O passeio inclui uma paragem breve de 15 minutos.
-
-
 
 Um seguro de responsabilidade civil e seguro de acidentes pessoais estão incluídos nos passeios.
