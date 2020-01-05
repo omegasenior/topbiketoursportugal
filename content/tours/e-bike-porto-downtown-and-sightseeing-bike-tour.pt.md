@@ -137,6 +137,12 @@ feature:
 
 Beneficiando da localização da nossa loja, o passeio começa no alto da cidade, permitindo um passeio fácil de bicicleta pelo centro. Após conhecer o rio da cidade e com todas as devidas apresentações de lado, dê um passeio ao lado das suas águas e desfrute das maravilhosas paisagens que lhe dão forma. Terá tempo para conhecer toda a arquitectura da cidade e sentir em primeira mão como ela cresceu lentamente em direcção ao oceano.
 
+NOTAS IMPORTANTES:
+
+No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado por algum tráfego de carros e pessoas. Continuaremos silenciosamente à beira do rio e do mar.
+
+No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
+
 NOTA: O passeio pode ser compartilhado com clientes que não usem bicicleta eléctrica.
 
 ![electric bike tour map](/img/sightseeing-porto-bike-tour.png)
