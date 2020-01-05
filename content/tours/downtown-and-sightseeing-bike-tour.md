@@ -154,6 +154,12 @@ feature:
 \
 Ride on the suburban areas, urban history, gardens and other green areas are to be taken in this scenic bike tour. For those who enjoy riding a bike , we provide a visit throughout the longest avenue of Porto. You will encounter greenside places; urban palaces, relating to the 19th and 20th Centuries; opulent cottages; a city park; museums and the outstanding sea landscape. Lovers of running and biking also ensure a fantastic view in this dynamic city tour.
 
+IMPORTANT NOTES:
+
+At the beginning of the bike ride we will leave the city center which is conditioned by some car traffic and people. Then we will continue quietly by the river and the sea.
+
+In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
+
 ![Porto city bike tour](/img/sightseeing-porto-bike-tour.png "Porto city bike tour")
 
 **Tour detail:**
