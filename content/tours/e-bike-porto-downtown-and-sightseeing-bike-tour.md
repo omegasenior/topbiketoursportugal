@@ -138,6 +138,12 @@ feature:
 
 Benefiting from the location of our store, the tour starts high up in the city, allowing for an easy bike ride through the center. After meeting the river and with all proper presentations aside, take an easy bike ride along its waters and enjoy the wonderful landscapes that give it shape. You'll have time to get to know all of the city's architecture and feel firsthand how it slowly grew toward the ocean.
 
+IMPORTANT NOTES:
+
+At the beginning of the bike ride we will leave the city center which is conditioned by some car traffic and people. Then we will continue quietly by the river and the sea.
+
+In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
+
 NOTE: The tour can be shared with non e-bike clients.
 
 ![e bike tour map porto](/img/sightseeing-porto-bike-tour.png)
