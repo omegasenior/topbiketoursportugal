@@ -166,6 +166,12 @@ Paisagens fenomenais e idílicas encontram-se inseridas neste circuito turístic
 
 
 
+NOTAS IMPORTANTES:
+
+No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado por algum tráfego de carros e pessoas. Continuaremos silenciosamente à beira do rio e do mar.
+
+No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
+
 ![BIKE TOUR -Food tour map](/img/sightseeing-porto-bike-tour.png)
 
 \
