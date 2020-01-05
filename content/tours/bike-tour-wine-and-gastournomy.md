@@ -160,7 +160,11 @@ feature:
 \
 Incredible and idyllic landscapes are included in this tour, where the bicycle becomes essential to go through the marginal Douro River. Come meeh us the famous Port Wine and brand and its legacy in this metropolis, complementing with visits to the renowned Café Majestic and other cultural offices that promote and manage the wine, such as the Wine Institue of Douro and Porto , the Wine Cellars in Vila Nova de Gaia and a Museum dedicated to this activity of refinement and tasting.
 
+IMPORTANT NOTES:
 
+At the beginning of the bike ride we will leave the city center which is conditioned by some car traffic and people. Then we will continue quietly by the river and the sea.
+
+In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
 
 ![BIKE TOUR -Food tour map](/img/sightseeing-porto-bike-tour.png)
 
