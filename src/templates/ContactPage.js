@@ -46,7 +46,7 @@ export const ContactPageTemplate = ({
                 rel="noopener noreferrer"
               >
                 <MapPin /> {address.street}
-                {address.postalCode && `, ${address.postalCode}`}
+                {address.postalCode && `, ${address.postalCode}, ${address.city}, ${address.country}`}
               </a>
             )}
             {phone && (
