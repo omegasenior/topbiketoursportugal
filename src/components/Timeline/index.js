@@ -22,7 +22,7 @@ export const Timeline = ({ dates }) => {
   ];
 
   var years = uniq(dates.map(i => new Date(i.date).getFullYear())).sort(
-    (a, b) => b - a
+    (a, b) => a - b
   );
   // console.log(JSON.stringify(years));
 
@@ -43,7 +43,7 @@ export const Timeline = ({ dates }) => {
                     d.type === "Date" && new Date(d.date).getFullYear() === year
                 ),
                 ["date"],
-                ["desc"]
+                ["asc"]
               ).map((item, jindex) => (
                 <div
                   key={`tl` + year + `_` + index + `_` + jindex}

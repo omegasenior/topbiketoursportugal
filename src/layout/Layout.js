@@ -229,13 +229,13 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => (
                   }}
                 >
                   {feature.title && (
-                    <h1
+                    <h2
                       style={{
                         color: feature.textcolor || "white"
                       }}
                     >
                       {feature.title}
-                    </h1>
+                    </h2>
                   )}
                 </BackgroundImage>
               </div>

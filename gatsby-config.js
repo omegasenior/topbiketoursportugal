@@ -297,7 +297,15 @@ module.exports = {
         // Exclude specific pages or groups of pages using glob parameters
         // See: https://github.com/isaacs/minimatch
         // The example below will exclude the single `path/to/page` and all routes beginning with `category`
-
+        exclude: [
+          "/languages/*",
+          `/_optional/`,
+          "/banners/*",
+          "/404.html",
+          "/404.pt*",
+          "/tags/index.en",
+          "/tags/index.pt"
+        ],
         query: `
           {
             site {
@@ -317,7 +325,10 @@ module.exports = {
         serialize: ({ site, allSitePage }) =>
           allSitePage.edges.map(edge => {
             return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
+              url: (site.siteMetadata.siteUrl + edge.node.path).replace(
+                /\/?\/$/,
+                ""
+              ),
               changefreq: `daily`,
               priority: 0.7
             };
