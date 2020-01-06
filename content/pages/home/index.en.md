@@ -38,5 +38,3 @@ Safety is our number one priority and we will always be nearby to help you on yo
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
 
 Our store is in the city of Porto, where we also do city bike tours. Although our base is in the North of Portugal, we operate all around the country.
-
-
