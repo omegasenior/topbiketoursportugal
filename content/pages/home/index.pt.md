@@ -5,7 +5,10 @@ lang: pt
 path: /pt
 title: Home
 toursection:
-  description: "# TOURS EM BICICLETA PORTUGAL \r\n\n# NORTE E SUL | BIKE TOURS PORTUGAL"
+  description: |-
+    ## TOURS EM BICICLETA PORTUGAL
+
+    ## NORTE E SUL | BIKE TOURS PORTUGAL
   descriptionafter: >-
     A experiência combinada de nossa equipa permite-nos combinar ciclismo com os
     componentes histórico e gastronómico. Conhecedores de excelentes serviços de
