@@ -5,7 +5,7 @@ title: Termos e condições
 meta:
   robots: NOINDEX
 ---
-**Termos e Condições:**
+# **Termos e Condições:**
 
 Fold n´Visit – Rent a bike, Unip, Lda referida aqui como ”Top Bike Tours Portugal".
 

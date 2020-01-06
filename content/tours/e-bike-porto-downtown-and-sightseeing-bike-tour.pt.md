@@ -19,10 +19,10 @@ tags:
   - electric bicycle
 meta:
   description: >-
-    Enjoy all around Porto city in a Electric bicycle. Join a group or make it
-    your private group. The city center, the river and sea, all 3 diferent views
-    of porto city
-  keywords: Electric bike tour Porto
+    Desfrute de toda a cidade do Porto em uma bicicleta elétrica. Participe de
+    um grupo ou torne-o seu grupo privado. O centro da cidade, o rio e o mar,
+    todas as 3 vistas diferentes da cidade do porto
+  keywords: tour em bicicleta electrica porto
   robots: INDEX
   title: Tour em bicicleta Eléctrica Porto
 itinerary:
@@ -133,7 +133,7 @@ feature:
   textcolor: white
   title: Day tours
 ---
-# E Bike tour Porto Downtown and Sightseeing bike tour
+# Electric Bike tour Porto Downtown e Sightseeing bike tour
 
 Beneficiando da localização da nossa loja, o passeio começa no alto da cidade, permitindo um passeio fácil de bicicleta pelo centro. Após conhecer o rio da cidade e com todas as devidas apresentações de lado, dê um passeio ao lado das suas águas e desfrute das maravilhosas paisagens que lhe dão forma. Terá tempo para conhecer toda a arquitectura da cidade e sentir em primeira mão como ela cresceu lentamente em direcção ao oceano.
 
