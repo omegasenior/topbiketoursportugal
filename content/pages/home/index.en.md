@@ -20,7 +20,7 @@ toursection:
     combine cycling with the historical component and gastronomy. Connoisseurs
     of excellent hotel services and catering, paths and landscapes that surprise
     and exceeded expectations.
-  heading: "# BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
+  heading: "## BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
 # Top Bike Tours Portugal is your best choice to discover Portugal on bicycle
 
