@@ -39,8 +39,8 @@ dates:
     type: Date
   - body: >-
       [The Silver Coast Route 1 -
-      Guided](https://topbiketoursportugal.com/porto-to-coimbra-biketour)
-      bike tour
+      Guided](https://topbiketoursportugal.com/porto-to-coimbra-biketour) bike
+      tour
     date: 2020-09-19T23:00:00.000Z
     type: Date
   - body: >-
@@ -49,10 +49,14 @@ dates:
     date: 2020-10-02T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Along the coast easy -
-      Guided](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
-      biket tour
+      [The Way of St. James - Along the coast easy - Guided bike
+      tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2020-10-10T23:00:00.000Z
+    type: Date
+  - body: >-
+      [The Way of St. James - Along the coast easy - Guided bike
+      tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
+    date: 2021-06-28T23:00:00.000Z
     type: Date
 ---
 # Calendar
