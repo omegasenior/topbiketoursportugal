@@ -19,39 +19,44 @@ feature:
   title: Calendário
 dates:
   - body: >-
-      [The Way of St. James - Along the coast easy -
-      Guided](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
-      bike tour
+      [Caminho de Santiago -  Porto a Santiago de Compostela pela Coast do
+      Atlantico - Guided bike
+      tour](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
     date: 2020-10-10T23:00:00.000Z
     type: Date
   - body: >-
-      [The Silver Coast Route 1 - Guided bike tour
-      Plus](https://topbiketoursportugal.com/porto-to-coimbra-biketour)
+      [Costa da Prata - Porto a Coimbra Guided Bike tour Plus](<Costa da Prata -
+      Porto a Coimbra Guided Bike tour>)
     date: 2020-10-02T23:00:00.000Z
     type: Date
   - body: >-
-      [The Silver Coast Route 1 -
-      Guided](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
-      bike tour
+      [Costa da Prata - Porto a Coimbra Guided Bike
+      tour](https://topbiketoursportugal.com/costa-da-prata-rota-1)
     date: 2020-09-19T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Along the coast easy -
-      G](https://topbiketoursportugal.com/santiago-compostela-pela-costa)uided
-      bike tour
+      [Caminho de Santiago -  Porto a Santiago de Compostela pela Coast do
+      Atlantico - Guided bike
+      tour](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
     date: 2020-09-05T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Along the coast easy -
-      G](https://topbiketoursportugal.com/santiago-compostela-pela-costa)uided
-      bike tour
+      [Caminho de Santiago -  Porto a Santiago de Compostela pela Coast do
+      Atlantico - Guided bike
+      tour](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
     date: 2020-06-06T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Along the coast easy -
-      G](https://topbiketoursportugal.com/santiago-compostela-pela-costa)uided
-      bike tour
+      [Caminho de Santiago -  Porto a Santiago de Compostela pela Coast do
+      Atlantico - Guided bike
+      tour](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
     date: 2020-05-09T23:00:00.000Z
+    type: Date
+  - body: >-
+      [Caminho de Santiago -  Porto a Santiago de Compostela pela Coast do
+      Atlantico - Guided bike
+      tour](https://topbiketoursportugal.com/santiago-compostela-pela-costa)
+    date: 2021-06-29T11:52:25.780Z
     type: Date
 ---
 # Calendário
