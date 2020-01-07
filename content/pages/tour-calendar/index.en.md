@@ -20,20 +20,20 @@ feature:
   title: Our tours calendar
 dates:
   - body: >-
-      [The Way of St. James - Porto to Santiago de Compostela along the coast
-      easy - Guided bike
+      [The Way of St. James - Porto to Santiago de Compostela along the 
+      Atlantic coast easy - Guided bike
       tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2020-05-09T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Porto to Santiago de Compostela along the coast
-      easy - Guided bike
+      [The Way of St. James - Porto to Santiago de Compostela along the 
+      Atlantic coast easy - Guided bike
       tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2020-06-06T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Porto to Santiago de Compostela along the coast
-      easy - Guided bike
+      [The Way of St. James - Porto to Santiago de Compostela along the 
+      Atlantic coast easy - Guided bike
       tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2020-09-05T23:00:00.000Z
     type: Date
@@ -48,15 +48,14 @@ dates:
     date: 2020-10-02T23:00:00.000Z
     type: Date
   - body: >-
-
-
-      [The Way of St. James - Porto to Santiago de Compostela along the coast
-      easy - Guided bike
+      [The Way of St. James - Porto to Santiago de Compostela along the 
+      Atlantic coast easy - Guided bike
       tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2020-10-10T23:00:00.000Z
     type: Date
   - body: >-
-      [The Way of St. James - Along the coast easy - Guided bike
+      [The Way of St. James - Porto to Santiago de Compostela along the 
+      Atlantic coast easy - Guided bike
       tour](https://topbiketoursportugal.com/porto-santiago-compostela-bike-tour)
     date: 2021-06-28T23:00:00.000Z
     type: Date
