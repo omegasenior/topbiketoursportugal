@@ -60,7 +60,7 @@ dates:
     date: 2021-06-28T23:00:00.000Z
     type: Date
   - body: >-
-      Full
+      **Full**
 
 
       [The Way of St. James - Porto to Santiago de Compostela along the 
