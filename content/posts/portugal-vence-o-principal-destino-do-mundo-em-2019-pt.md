@@ -16,6 +16,6 @@ languagePages: []
 ---
 # Portugal vence o principal prémio destino do mundo em 2019
 
-Parabéns a todas as organizações e empresas em Portugal que contribuíram para o prémio do melhor destino Principal do Mundo em 2019 {: rel = "nofollow"}. É a terceira vez consecutiva que Portugal ganha este prémio.
+Parabéns a todas as organizações e empresas em Portugal que contribuíram para o prémio do [melhor destino Principal do Mundo em 2019](https://www.worldtravelawards.com/award-worlds-leading-destination-2019)[ ](https://www.worldtravelawards.com/award-worlds-leading-destination-2019) É a terceira vez consecutiva que Portugal ganha este prémio.
 
 ![Prémio Melhor destino viagem 2019](/img/The-Way-of-St.-James-Bike-Tour-Fold-N-Visit-Cycling-Holidays-0071.jpg "Prémio Melhor destino viagem 2019")
