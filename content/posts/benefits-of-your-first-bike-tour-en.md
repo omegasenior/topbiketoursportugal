@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /blog/Benefits-of-your-first-bike-tour
-title: Benefits of your first bike tour!
+title: ' '
 language: en
 date: 2018-12-21T00:00:00.000Z
 featuredImage: /img/the-way-of-st.-james-bike-tour-fold-n-visit-cycling-holidays-4323.jpg
