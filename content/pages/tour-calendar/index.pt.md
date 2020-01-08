@@ -59,7 +59,7 @@ dates:
     date: 2021-06-29T11:52:25.780Z
     type: Date
   - body: >-
-      Completo
+      **Completo**
 
 
       [Caminho de Santiago -  Porto a Santiago de Compostela pela Costa do
