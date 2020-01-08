@@ -25,7 +25,7 @@ toursection:
 # Discover Portugal on bicycle with Top Bike Tours Portugal
 
 \
-Our mission is to provide you with relaxing and enjoyable **cycling holiday in Portugal**, complemented with historical points, tasty gastronomy and wonderful views.
+Our mission is to provide you with relaxing and enjoyable [**cycling holiday in Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal), complemented with historical points, tasty gastronomy and wonderful views.
 
 The cycling holidays we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
@@ -36,8 +36,6 @@ Cycling Holiday packages are offered both in self guided or guided bike tours, w
 Safety is our number one priority and we will always be nearby to help you on your next cycling holiday.
 
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
-
-
 
 ![Bike tours Portugal](/img/bike-tours-in-portugal.jpg "Bike tours Portugal")
 
