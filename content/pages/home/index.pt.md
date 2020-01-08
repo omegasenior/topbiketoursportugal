@@ -25,7 +25,7 @@ meta:
   robots: INDEX
   title: Tours em bicicleta Portugal | Top Bike Tours Portugal
 ---
-# Top Bike Tours Portugal é a melhor opção para descobrir Portugal em bicicleta
+# Descubra Portugal em bicicleta com Top Bike Tours Portugal
 
 Visite Portugal em bicicleta com a ajuda dos nossos guias.
 
@@ -38,5 +38,7 @@ Os nossos passeios de bicicleta são divididos entre guiados e auto-guiados, ond
 A sua segurança é a nossa principal prioridade, pelo que estaremos sempre por perto para o ajudar.
 
 Escolhemos os melhores restaurantes e hotéis para satisfazer as suas necessidades. Almoço e jantar, mesmo que não incluídos, serão organizados pelos guias para o grupo.
+
+![tours em bicicleta portugal](/img/bike-tours-in-portugal.jpg "tours em bicicleta portugal")
 
 A nossa loja encontra-se na cidade do Porto, onde também realizamos passeios pela cidade. Ainda que a nossa sede se encontre no Norte de Portugal, trabalhamos em todo o país.
