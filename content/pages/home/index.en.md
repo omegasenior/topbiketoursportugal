@@ -22,12 +22,12 @@ toursection:
     and exceeded expectations.
   heading: "## BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
-# Top Bike Tours Portugal is your best choice to discover Portugal on bicycle
+# Discover Portugal on bicycle with Top Bike Tours Portugal
 
 \
 Our mission is to provide you with relaxing and enjoyable **cycling holiday in Portugal**, complemented with historical points, tasty gastronomy and wonderful views.
 
-The cycling holidays we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are exceptionally used depending on the bike tour.
+The cycling holidays we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
@@ -36,5 +36,9 @@ Cycling Holiday packages are offered both in self guided or guided bike tours, w
 Safety is our number one priority and we will always be nearby to help you on your next cycling holiday.
 
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
+
+
+
+![Bike tours Portugal](/img/bike-tours-in-portugal.jpg "Bike tours Portugal")
 
 Our store is in the city of Porto, where we also do city bike tours. Although our base is in the North of Portugal, we operate all around the country.
