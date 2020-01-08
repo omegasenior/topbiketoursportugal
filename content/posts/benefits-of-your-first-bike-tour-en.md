@@ -14,7 +14,7 @@ meta:
   description: Benefits of your first bike tour
   keywords: Benefits of your first bike tour
   robots: INDEX
-  title: ''
+  title: Benefits of your first bike tour
 languagePages:
   - path: beneficios do seu primeiro passeio em bicicleta
     language: pt
