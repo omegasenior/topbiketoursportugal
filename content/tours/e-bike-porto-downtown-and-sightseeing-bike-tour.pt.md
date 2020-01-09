@@ -149,7 +149,7 @@ NOTA: O passeio pode ser compartilhado com clientes que não usem bicicleta elé
 
 **Detalhes do Passeio:**
 
-* Partida: 09h00 e 14h30
+* Partida: 10h00 e 14h30
 * Duração Estimada: 3h00
 * Todo o Ano
 * Ponto de Encontro: Rua Alferes Malheiro, 139 ( Top Bike tours portugal)
