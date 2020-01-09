@@ -142,7 +142,7 @@ Mergulhe connosco num clássico passeio pelos principais pontos de interesse e c
 \
 **Detalhes do Passeio:**
 
-* Partida: 09h00 e 14h30
+* Partida: 10h00 e 14h30
 * Duração Estimada: 3h00
 * Todo o Ano
 * Ponto de Encontro: Rua Alferes Malheiro, 139 ( Top Bike tours portugal)
@@ -154,7 +154,5 @@ Mergulhe connosco num clássico passeio pelos principais pontos de interesse e c
 **Observações:**
 
 Visita com guia nas seguintes línguas: Português, Inglês e Espanhol. O passeio inclui uma paragem breve de 15 minutos.
-
-
 
 Um seguro de responsabilidade civil e seguro de acidentes pessoais estão incluídos nos passeios.
