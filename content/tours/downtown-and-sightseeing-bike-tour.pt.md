@@ -166,7 +166,7 @@ No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o
 
 **Tour detail:**
 
-* Partida: 09h00 e 14h30
+* Partida: 10h00 e 14h30
 * Tempo Estimado: 3h00
 * Todo o Ano
 * Ponto de Encontro: Rua Alferes Malheiro, 139 ( Top Bike tours portugal)
