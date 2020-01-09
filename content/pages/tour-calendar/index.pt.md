@@ -25,8 +25,8 @@ dates:
     date: 2020-10-10T23:00:00.000Z
     type: Date
   - body: >-
-      [Costa da Prata - Porto a Coimbra Guided Bike tour Plus](<Costa da Prata -
-      Porto a Coimbra Guided Bike tour>)
+      [Costa da Prata - Porto a Coimbra Guided Bike tour
+      Plus](https://topbiketoursportugal.com/costa-da-prata-rota-1)
     date: 2020-10-02T23:00:00.000Z
     type: Date
   - body: >-
