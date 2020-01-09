@@ -150,7 +150,7 @@ NOTE: The tour can be shared with non e-bike clients.
 
 **Tour detail:**
 
-* Departures: 09h00 and 14h30
+* Departures: 10h00 and 14h30
 * estimated time: 3h00
 * All year
 * Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
