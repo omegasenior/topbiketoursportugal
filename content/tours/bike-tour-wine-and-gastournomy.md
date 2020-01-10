@@ -178,9 +178,7 @@ In the final stretch, keep in mind that we will ride on the biggest avenue in Op
 * Meeting point: Rua do Alferes Malheiro, 139 ( Top Bike tours portugal Store)
 * Minimum participants: 2
 
-
-
-* Includes:
+**Includes:**
 
 Proof of wine tasting;
 
