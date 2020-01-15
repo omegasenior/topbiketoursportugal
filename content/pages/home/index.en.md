@@ -21,9 +21,8 @@ toursection:
     and exceeded expectations.
 
 
-    ![cycling in portugal near the douro
-    river](/img/portugal-spain-bike-tour-1-scaled-600x430-1-.jpg "cycling in
-    portugal near the douro river")
+    ![cycling in portugal near the douro river](/img/bike-tours-in-portugal.jpg
+    "cycling in portugal near the douro river")
 
 
     ## Top Bike tours Portugal is prepared for all kind of cyclists
@@ -60,7 +59,5 @@ Cycling Holiday packages are offered both in self guided or guided bike tours, w
 Safety is our number one priority and we will always be nearby to help you on your next cycling holiday.
 
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
-
-![Bike tours Portugal](/img/bike-tours-in-portugal.jpg "Bike tours Portugal")
 
 Our store is in the city of Porto, where we also do city bike tours. Although our base is in the North of Portugal, we operate all around the country.
