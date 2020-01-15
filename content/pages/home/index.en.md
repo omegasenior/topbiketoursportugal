@@ -21,7 +21,6 @@ toursection:
     and exceeded expectations.
 
 
-
     ![cycling in portugal near the douro river](/img/portugal-bike-tour.jpg
     "cycling in portugal near the douro river")
 
@@ -29,20 +28,19 @@ toursection:
     ## Top Bike tours Portugal is prepared for all kind of cyclists
 
 
-
-
     Doesn´t matter if you are an inexperienced or experienced rider, if you
-    enjoy a touring bicycle, mountain bicycle, road bike or electric bike. The
-    importante is to enjoy with your friends or family the good sensations a
-    [**bike tour**](https://topbiketoursportugal.com/bike-tours-in-portugal/) as
-    to offer. Top [bike tours
-    Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal/) is just
-    here to ensure you have a relax and fantastic bicycle tour holiday. 
+    enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What
+    matters most is that you enjoy, with your friends or family, the good
+    sensations a [**bike tour**
+    ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top
+    [bike tours
+    Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal) is here
+    to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
 
     If your looking for a guided bike tour in Portugal check our
     [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal)
-    ****webpage to see all the departure.
+    webpage to see all the departure.
   heading: "## BICYCLE\_HOLIDAYS PORTUGAL\_\n\n## NORTH AND SOUTH\_|\_PORTUGAL BIKE TOURS"
 ---
 # Bike Tours Portugal
