@@ -4,9 +4,9 @@ path: /
 title: Home
 meta:
   description: >-
-    you lost in Portugal?Explore the best that Portugal as to offer in our
-    Portugal Bike tours! Check out our Porto city bicycle tours, as well as our
-    guided and self guided cycling holidays in Portugal.
+    Bike tours Portugal: Are you lost in Portugal?Explore the best that Portugal
+    as to offer in our Portugal Bike tours! Check out our Porto city bicycle
+    tours, as well as our guided and self guided cycling holidays in Portugal.
   keywords: >-
     portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
     porto,cycling portugal
