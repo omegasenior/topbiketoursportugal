@@ -14,30 +14,6 @@ toursection:
     permite-nos combinar ciclismo com os componentes histórico e gastronómico.
     Conhecedores de excelentes serviços de hotelaria e catering, assim como, de
     caminhos e paisagens que surpreendem e superam as expectativas.
-
-
-    ![tour em bicicleta junto ao rio douro em
-    Portugal](/img/bike-tours-in-portugal.jpg "tour em bicicleta junto ao rio
-    douro em Portugal")
-
-
-    ## A Top Bike Tours Portugal está preparada para todo o tipo de ciclistas
-
-
-    Não importa se você é um piloto inexperiente ou experiente, se gosta de uma
-    bicicleta de turismo, mountain bike, bicicleta de estrada ou bicicleta
-    eléctrica. O que mais importa é que você desfrute, com seus amigos ou
-    familiares, das boas sensações que um [**passeio de
-    bicicleta**](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal)
-    oferece. A Top [Bike tours
-    Portugal](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal)
-    está aqui para garantir que você tenha umas férias relaxantes e fantásticas.
-
-
-    Se você está procurando um passeio guiado de bicicleta em Portugal, consulte
-    nossa página de
-    [**calendário**](https://topbiketoursportugal.com/pt/calendario-tours)
-    \*\*\*\*para ver toda a partida.
   heading: '## Tours populares'
 meta:
   description: >-
@@ -66,3 +42,11 @@ A sua segurança é a nossa principal prioridade, pelo que estaremos sempre por 
 Escolhemos os melhores restaurantes e hotéis para satisfazer as suas necessidades. Almoço e jantar, mesmo que não incluídos, serão organizados pelos guias para o grupo.
 
 A nossa loja encontra-se na cidade do Porto, onde também realizamos passeios pela cidade. Ainda que a nossa sede se encontre no Norte de Portugal, trabalhamos em todo o país.
+
+![tours em bicicleta portugal](/img/bike-tours-in-portugal.jpg "tours em bicicleta portugal")
+
+## A Top Bike Tours Portugal está preparada para todo o tipo de ciclistas
+
+Não importa se você é um piloto inexperiente ou experiente, se gosta de uma bicicleta de turismo, mountain bike, bicicleta de estrada ou bicicleta eléctrica. O que mais importa é que você desfrute, com seus amigos ou familiares, das boas sensações que um [**passeio de bicicleta**](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) oferece. A Top [Bike tours Portugal](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) está aqui para garantir que você tenha umas férias relaxantes e fantásticas.
+
+Se você está procurando um passeio guiado de bicicleta em Portugal, consulte nossa página de [**calendário**](https://topbiketoursportugal.com/pt/calendario-tours) para ver toda a partida.
