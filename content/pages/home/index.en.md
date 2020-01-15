@@ -21,8 +21,9 @@ toursection:
     and exceeded expectations.
 
 
-    ![cycling in portugal near the douro river](/img/portugal-bike-tour-2-.jpg
-    "cycling in portugal near the douro river")
+    ![cycling in portugal near the douro
+    river](/img/portugal-spain-bike-tour-1-scaled-600x430-1-.jpg "cycling in
+    portugal near the douro river")
 
 
     ## Top Bike tours Portugal is prepared for all kind of cyclists
