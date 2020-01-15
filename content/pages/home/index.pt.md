@@ -17,8 +17,8 @@ toursection:
 
 
     ![tour em bicicleta junto ao rio douro em
-    Portugal](/img/portugal-spain-bike-tour-1-scaled-600x430-1-.jpg "tour em
-    bicicleta junto ao rio douro em Portugal")
+    Portugal](/img/bike-tours-in-portugal.jpg "tour em bicicleta junto ao rio
+    douro em Portugal")
 
 
     ## A Top Bike Tours Portugal está preparada para todo o tipo de ciclistas
@@ -64,7 +64,5 @@ Os nossos passeios de bicicleta são divididos entre guiados e auto-guiados, ond
 A sua segurança é a nossa principal prioridade, pelo que estaremos sempre por perto para o ajudar.
 
 Escolhemos os melhores restaurantes e hotéis para satisfazer as suas necessidades. Almoço e jantar, mesmo que não incluídos, serão organizados pelos guias para o grupo.
-
-![tours em bicicleta portugal](/img/bike-tours-in-portugal.jpg "tours em bicicleta portugal")
 
 A nossa loja encontra-se na cidade do Porto, onde também realizamos passeios pela cidade. Ainda que a nossa sede se encontre no Norte de Portugal, trabalhamos em todo o país.
