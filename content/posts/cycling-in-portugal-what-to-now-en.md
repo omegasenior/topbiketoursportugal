@@ -4,6 +4,7 @@ path: blog/cycling-portugal-bike-tours-portugal
 title: 'Cycling In Portugal: What to know!'
 language: en
 date: 2020-01-15T17:52:50.137Z
+featuredImage: /img/henrique-1-.jpg
 featuredImagePosition: center center
 meta:
   description: >
@@ -40,6 +41,6 @@ One of the biggest concerns for most bikers is traffic. We make sure that you ca
 
 By joining a bike tour, you can relax completely, by being confident that everything was arranged for you. All you need is the will to enjoy your ride and experience it the best you can.
 
-Credits: [**Henrique Vareta**](https://topbiketoursportugal.com/about-us-biking-travel)\*\*\*\*
+Credits: [**Henrique Vareta**](https://topbiketoursportugal.com/about-us-biking-travel)
 
 ![Henrique text about cycling in POrtugal](/img/henrique-1-.jpg "Henrique text about cycling in POrtugal")
