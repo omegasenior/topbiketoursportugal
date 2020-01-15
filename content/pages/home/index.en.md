@@ -29,11 +29,11 @@ toursection:
 \
 Our mission is to provide you with relaxing and enjoyable [**cycling holiday in Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal), complemented with historical points, tasty gastronomy and wonderful views.
 
-The [bike tours](https://topbiketoursportugal.com/bike-tours-in-portugal) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
+The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
-Cycling Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
+Cycling Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [**Portugal bike tour**](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
 
 Safety is our number one priority and we will always be nearby to help you on your next cycling holiday.
 
