@@ -17,8 +17,10 @@ toursection:
   heading: '## Tours populares'
 meta:
   description: >-
-    Cicloturismo em Portugal. De norte a sul do país conheça a nossa oferta de
-    passeios em autonomia ou guiados em bicicleta
+    Passeios de bicicleta em Portugal: Explore o melhor que Portugal tem a
+    oferecer nos nossos passeios de bicicleta ! Confira nossos passeios de
+    bicicleta pela cidade do Porto, bem como nossas férias de bicicleta guiadas
+    e auto-guiadas em Portugal.
   keywords: >-
     passeios em bicicleta portugal, viagnes em biciclea, passeios em bicicleta
     guiados, bike tours, cycling holidays
