@@ -17,8 +17,8 @@ toursection:
 
 
     ![tour em bicicleta junto ao rio douro em
-    Portugal](/img/portugal-bike-tour.jpg "tour em bicicleta junto ao rio douro
-    em Portugal")
+    Portugal](/img/portugal-spain-bike-tour-1-scaled-600x430-1-.jpg "tour em
+    bicicleta junto ao rio douro em Portugal")
 
 
     ## A Top Bike Tours Portugal está preparada para todo o tipo de ciclistas
@@ -37,7 +37,7 @@ toursection:
     Se você está procurando um passeio guiado de bicicleta em Portugal, consulte
     nossa página de
     [**calendário**](https://topbiketoursportugal.com/pt/calendario-tours)
-    ****para ver toda a partida.
+    \*\*\*\*para ver toda a partida.
   heading: '## Tours populares'
 meta:
   description: >-
