@@ -21,7 +21,7 @@ toursection:
     and exceeded expectations.
 
 
-    ![cycling in portugal near the douro river](/img/portugal-bike-tour.jpg
+    ![cycling in portugal near the douro river](/img/portugal-bike-tour-2-.jpg
     "cycling in portugal near the douro river")
 
 
