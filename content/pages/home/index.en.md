@@ -46,6 +46,6 @@ Our store is in the city of Porto, where we also do city bike tours. Although ou
 
 ## Top Bike Tours Portugal is prepared for all kind of cyclists
 
-Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a [**bike tour** ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top [**bike tours Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal) is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
+Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a bike tour as to offer. Top bike tours Portugal is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
 If your looking for a guided bike tour in Portugal check our [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) webpage to see all the departure.
