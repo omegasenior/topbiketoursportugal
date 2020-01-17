@@ -18,9 +18,9 @@ toursection:
 meta:
   description: >-
     Passeios de bicicleta em Portugal: Explore o melhor que Portugal tem a
-    oferecer numa visita em bicicleta ! Confira nossos passeios de bicicleta
-    pela cidade do Porto, bem como nossas férias de bicicleta guiadas e
-    auto-guiadas em Portugal.
+    oferecer numa visita em bicicleta! Confira nossos passeios de bicicleta pela
+    cidade do Porto, bem como nossas férias de bicicleta guiadas e auto-guiadas
+    em Portugal.
   keywords: >-
     passeios em bicicleta portugal, viagnes em biciclea, passeios em bicicleta
     guiados, bike tours, cycling holidays
