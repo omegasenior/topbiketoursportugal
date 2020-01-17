@@ -34,9 +34,9 @@ The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) we
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
-Cycling Holiday packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
+Bike tours packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
 
-Safety is our number one priority and we will always be nearby to help you on your next cycling holiday.
+Safety is our number one priority and we will always be nearby to help you on your next cycling tour.
 
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
 
@@ -46,6 +46,6 @@ Our store is in the city of Porto, where we also do city bike tours. Although ou
 
 ## Our team is prepared for all kind of cyclists
 
-Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a [bike tour ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top ****[bike tours Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal) is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
+Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a [bike tour ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top \*\*\*\*[bike tours Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal) is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
 If your looking for a guided bike tour in Portugal check our [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) webpage to see all the departure.
