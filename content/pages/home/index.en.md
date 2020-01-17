@@ -13,7 +13,7 @@ meta:
     portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
     porto,cycling portugal
   robots: INDEX
-  title: Bike tours Portugal | Cycling Holidays - Top Bike Tours Portugal
+  title: Top Bike Tours Portugal
 toursection:
   description: '## Popular bike tours in Portugal'
   descriptionafter: >-
@@ -28,7 +28,7 @@ toursection:
 ## Discover Portugal on bicycle with Top Portugal Bike tours
 
 \
-Our mission is to provide you with relaxing and enjoyable [cycling holiday in Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal), complemented with historical points, tasty gastronomy and wonderful views.
+Our mission is to provide you with relaxing and enjoyable [**cycling holiday in Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal), complemented with historical points, tasty gastronomy and wonderful views.
 
 The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
@@ -44,8 +44,8 @@ Our store is in the city of Porto, where we also do city bike tours. Although ou
 
 ![bike tours portugal](/img/bike-tours-in-portugal.jpg "bike tours portugal")
 
-## Our team is prepared for all kind of cyclists
+## Top Bike Tours Portugal is prepared for all kind of cyclists
 
-Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a [bike tour ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top [bike tours Portugal](https://topbiketoursportugal.com/bike-tours-in-portugal) is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
+Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a [**bike tour** ](https://topbiketoursportugal.com/bike-tours-in-portugal)as to offer. Top [**bike tours Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal) is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
 If your looking for a guided bike tour in Portugal check our [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) webpage to see all the departure.
