@@ -47,7 +47,7 @@ A nossa loja encontra-se na cidade do Porto, onde também realizamos passeios pe
 
 ![tours em bicicleta portugal](/img/bike-tours-in-portugal.jpg "tours em bicicleta portugal")
 
-## A Top Bike Tours Portugal está preparada para todo o tipo de ciclistas
+## A nossa equipa está preparada para todo o tipo de ciclistas
 
 Não importa se você é um piloto inexperiente ou experiente, se gosta de uma bicicleta de turismo, mountain bike, bicicleta de estrada ou bicicleta eléctrica. O que mais importa é que você desfrute, com seus amigos ou familiares, das boas sensações que um [**passeio de bicicleta**](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) oferece. A Top [Bike tours Portugal](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) está aqui para garantir que você tenha umas férias relaxantes e fantásticas.
 
