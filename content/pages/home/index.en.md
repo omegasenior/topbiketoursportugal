@@ -10,7 +10,7 @@ meta:
     tour routes are available to be done in a hybrid bicycle, mountain bicycle
     or road bike.
   keywords: >-
-    portugal bike tours,portugal cycling holidays,bike tours portugal,bike tours
+    portugal bike tours,cycling holidays portugal,bike tours portugal,bike tours
     porto,cycling portugal
   robots: INDEX
   title: Top Bike Tours Portugal
