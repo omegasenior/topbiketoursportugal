@@ -4,7 +4,7 @@ path: Save-on-Airport-Parking-in-the-UK
 title: Save on Airport Parking in the UK
 language: en
 date: 2019-12-31T14:06:01.510Z
-featuredImage: /img/tap-cs-toi-aerofnc-©ldsantos-1-1-.jpg
+featuredImage: /img/jet-cloud-landing-aircraft-46148-1-.jpg
 featuredImagePosition: center center
 meta:
   robots: INDEX
