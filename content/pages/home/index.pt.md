@@ -37,7 +37,7 @@ Os passeios de bicicleta que oferecemos têm como alvo ciclistas recreativos e, 
 
 Os nossos passeios de bicicleta são divididos entre guiados e auto-guiados, onde a assistência mecânica estará sempre garantida. Aproveite para descansar em hotéis de quatro estrelas, casas de campo ou quintas. Transportamos as suas malas por si de hotel em hotel, ou seja, leve consigo apenas aquilo que achar estritamente necessário. Carrinha de apoio é garantida principalmente em passeios guiados, onde encontrará água e pequenos lanches ao longo de cada dia.
 
-A sua segurança é a nossa principal prioridade, pelo que estaremos sempre por perto para o ajudar.
+A sua segurança é a nossa principal prioridade, pelo que estaremos sempre por perto para o ajudar. Suporte por telefone 24/7 disponível para qualquer eventualidade.
 
 Escolhemos os melhores restaurantes e hotéis para satisfazer as suas necessidades. Almoço e jantar, mesmo que não incluídos, serão organizados pelos guias para o grupo.
 
@@ -50,3 +50,7 @@ A nossa loja encontra-se na cidade do Porto, onde também realizamos passeios pe
 Não importa se você é um piloto inexperiente ou experiente, se gosta de uma bicicleta de turismo, mountain bike, bicicleta de estrada ou bicicleta eléctrica. O que mais importa é que você desfrute, com seus amigos ou familiares, das boas sensações que um [**passeio de bicicleta**](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) oferece. A Top [Bike tours Portugal](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal) está aqui para garantir que você tenha umas férias relaxantes e fantásticas.
 
 Se você está procurando um passeio guiado de bicicleta em Portugal, consulte nossa página de [**calendário**](https://topbiketoursportugal.com/pt/calendario-tours) para ver toda a partida.
+
+# É fácil reservar!
+
+Contacte-nos através do formulário de contacto ou envie um e-mail. Solicite informações sobre os pacotes de passeios de bicicleta disponíveis na nossa página de [**Férias em bicicleta**](https://topbiketoursportugal.com/passeios-de-bicicleta-portugal). Responderemos em menos de 24 horas e enviaremos uma proposta oficial com todos os detalhes. Após sua confirmação, as acomodações serão reservadas e um depósito será solicitado.
