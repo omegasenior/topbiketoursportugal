@@ -35,7 +35,7 @@ Road bikes are still available for those craving to step up to harder challenges
 
 Bike tours packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
 
-Safety is our number one priority and we will always be nearby to help you on your next cycling tour.
+Safety is our number one priority and we will always be nearby to help you on your next cycling tour. 24/7 phone support available for any eventuality.
 
 We choose the best restaurants and hotels for your needs. Lunch and dinner, even if not included in our guided packages, will still be organized for your group.
 
@@ -48,3 +48,7 @@ Our store is in the city of Porto, where we also do city bike tours. Although ou
 Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a bike tour as to offer. Our team is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
 If your looking for a guided bike tour in Portugal check our [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal) webpage to see all the departure.
+
+## It is easy to book with us!
+
+Contact us thru our contact form or just email us. Request information about the cycling tour packages available is our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
