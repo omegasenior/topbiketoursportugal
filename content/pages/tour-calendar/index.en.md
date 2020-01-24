@@ -1,6 +1,6 @@
 ---
 templateKey: tour-calendar
-path: /guided-bike-tours-calendar-portugal
+path: guided-bike-tours-calendar-portugal
 title: Tour Calendar
 meta:
   canonicalLink: ''
