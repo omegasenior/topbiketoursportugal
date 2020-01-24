@@ -1,10 +1,11 @@
 ---
 templateKey: ContactPage
-path: /contacts
+path: contacts
 title: Contact us
 meta:
   description: Contact us
   keywords: Contact us
+  robots: INDEX
   title: Contact us
 feature:
   align: center
