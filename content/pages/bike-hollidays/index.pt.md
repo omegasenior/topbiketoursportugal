@@ -1,6 +1,6 @@
 ---
 templateKey: bike-hollidays
-path: /passeios-de-bicicleta-portugal
+path: passeios-de-bicicleta-portugal
 language: pt
 lang: pt
 title: Ferias em bicicleta
