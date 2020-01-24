@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-path: /politica-de-privacidade
+path: politica-de-privacidade
 title: politica de privacidade
 meta:
   robots: NOINDEX
