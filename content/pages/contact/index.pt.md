@@ -1,11 +1,12 @@
 ---
 templateKey: ContactPage
 language: pt
-path: /pt/contactos
+path: pt/contactos
 title: Contactos
 meta:
   description: Contactos Top Bike tours Portugal
   keywords: Contactos Top Bike tours Portugal
+  robots: INDEX
   title: Contact Page
 feature:
   align: center
