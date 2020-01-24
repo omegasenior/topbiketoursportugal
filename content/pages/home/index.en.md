@@ -12,7 +12,7 @@ meta:
     portugal bike tours,cycling holidays portugal,bike tours portugal,bike tours
     porto,cycling portugal
   robots: INDEX
-  title: Portugal Bike Tours - Cycling Holidays
+  title: Portugal Bike Tours - Cycling Holidays Portugal
 toursection:
   description: '## Popular bike tours in Portugal'
   descriptionafter: >-
@@ -27,7 +27,7 @@ toursection:
 ## Discover Portugal on bicycle with Top Portugal Bike tours
 
 \
-Our mission is to provide you with relaxing and enjoyable [**cycling holiday in Portugal**](https://topbiketoursportugal.com/bike-tours-in-portugal), complemented with historical points, tasty gastronomy and wonderful views.
+Our mission is to provide you with relaxing and enjoyable cycling holiday in Portugal, complemented with historical points, tasty gastronomy and wonderful views.
 
 The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
