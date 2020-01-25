@@ -4,6 +4,8 @@ path: climate-and-geography-in-portugal-for-cycling
 title: Climate and Geography for cycling in Portugal
 language: en
 date: 2020-01-25T15:35:57.313Z
+featuredImage: /img/mapa-2.svg
+featuredImagePosition: center center
 meta:
   description: Climate and Geography for cycling in Portugal
   keywords: >-
@@ -14,7 +16,7 @@ meta:
   language: PT
 languagePages: []
 ---
-## Climate and Geography
+# Climate and Geography for cycling in Portugal
 
 “The sun is out 300 days per year with few raining days” and it is perfect for cycling. Portugal coastline as nearly 1800 km, including the Madeira and Azores islands. 
 
