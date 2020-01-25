@@ -4,7 +4,7 @@ path: climate-and-geography-in-portugal-for-cycling
 title: Climate and Geography for cycling in Portugal
 language: en
 date: 2020-01-25T15:35:57.313Z
-featuredImage: /img/average-temperature-portugal-porto.png
+featuredImage: /img/mapa_final_novologo_-04-100-pixeis.png
 featuredImagePosition: center center
 meta:
   description: Climate and Geography for cycling in Portugal
@@ -41,7 +41,7 @@ The important rivers in Portugal are **Mondego**, **Douro**, **Minho** and **Tej
 
 
 
-![Climate and Geography for cycling in Portugal](/img/mapa.svg "Climate and Geography for cycling in Portugal")
+![Climate and Geography for cycling in Portugal](/img/mapa_final_novologo_-04-100-pixeis.png "Climate and Geography for cycling in Portugal")
 
 The **North of Portugal** is mountainous and hilly and it is easy to find small farms and vineyards. North is cooler that the south and also have more rain. Although the mountain’s our bike tour in the North is almost flat due the fact that follows the banks Minho and Lima river. 
 
