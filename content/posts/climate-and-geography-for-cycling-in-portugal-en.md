@@ -13,7 +13,7 @@ meta:
     for cycling portugal
   robots: INDEX
   title: Climate and Geography for cycling in Portugal
-  language: PT
+  language: EN
 languagePages: []
 ---
 # Climate and Geography for cycling in Portugal
