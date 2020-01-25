@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-path: ''
+path: '/'
 title: Home
 meta:
   description: >-
