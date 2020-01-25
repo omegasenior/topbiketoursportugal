@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-path: '/'
+path: /
 title: Home
 meta:
   description: >-
@@ -40,9 +40,14 @@ toursection:
 
 
     The summers in the North are pleasant and hot without becoming sweltering
-    hot. The winter in Porto and inland are colder than the rest of Portugal,
-    but the climate is still mid if compare with the rest of Europe. It can snow
-    but is rare. It is easy to find snow in Serra da Estrela in the winter.
+    hot. The winter in **Porto** and inland are colder than the rest of
+    Portugal, but the climate is still mid if compare with the rest of Europe.
+    It can snow but is rare. It is easy to find snow in Serra da Estrela in the
+    winter.
+
+
+    ![climate in Porto for cycling](/img/average-temperature-portugal-porto.png
+    "weather in Porto for cycling")
 
 
     In Lisbon and **Central Portugal** temperatures can go to 30 degrees easily
@@ -50,9 +55,21 @@ toursection:
     coastal places.
 
 
+    ![climate in Lisbon for
+    cycling](/img/average-temperature-portugal-lisbon.png "weather in lisbon for
+    a bike tour")
+
+
     The summer in the southern Portugal and Algarve is very hot and dry, and it
     is very pleasant even in the winter times. Is probably the sunniest region
     in all Europe.
+
+
+    ![weather in Alentejo for a bike
+    tour](/img/average-temperature-portugal-vila-nova-de-milfontes.png "weather
+    in Alentejo for a bike tour")
+
+
 
     \
 
