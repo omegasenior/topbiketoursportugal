@@ -75,6 +75,7 @@ module.exports = {
     //     includeInDevelopment: false
     //   }
     // },
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
