@@ -37,8 +37,11 @@ The summer in the southern Portugal and Algarve is very hot and dry, and it is v
 ![weather in Alentejo for a bike tour](/img/average-temperature-portugal-vila-nova-de-milfontes.png "weather in Alentejo for a bike tour")
 
 \
-\
-The important rivers in Portugal are **Mondego**, **Douro**, **Minho** And **Tejo**. The Mondego begins in Serra da Estrela where is the highest mountain in Portugal. This river crosses Coimbra (the third big city in the country after Lisbon and Porto), and ends in the sea at Figueira da Foz. Douro and Minho both rise in Spain and flow into the Atlantic. Tejo also rise in Spain is the main river and meets the Atlantic in Lisbon.
+The important rivers in Portugal are **Mondego**, **Douro**, **Minho** and **Tejo**. The Mondego begins in Serra da Estrela where is the highest mountain in Portugal. This river crosses Coimbra (the third big city in the country after Lisbon and Porto), and ends in the sea at Figueira da Foz. Douro and Minho both rise in Spain and flow into the Atlantic. Tejo also rise in Spain is the main river and meets the Atlantic in Lisbon.
+
+
+
+![Climate and Geography for cycling in Portugal](/img/mapa.svg "Climate and Geography for cycling in Portugal")
 
 The **North of Portugal** is mountainous and hilly and it is easy to find small farms and vineyards. North is cooler that the south and also have more rain. Although the mountain’s our bike tour in the North is almost flat due the fact that follows the banks Minho and Lima river. 
 
@@ -49,5 +52,3 @@ More to the south is the **Algarve** region that is very popular because it is a
 The [Vicentine Coast and Algarve bike tour ](https://topbiketoursportugal.com/south-portugal-biketour)is a great journey for those who seek for beach and wild scenery.
 
 In Central and Northern Portugal, the coastline as also many white sandy beaches, and in the summertime, especially in August, are full of people.
-
-![Climate and Geography for cycling in Portugal](/img/mapa.svg "Climate and Geography for cycling in Portugal")
