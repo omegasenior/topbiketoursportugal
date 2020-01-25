@@ -4,7 +4,7 @@ path: climate-and-geography-in-portugal-for-cycling
 title: Climate and Geography for cycling in Portugal
 language: en
 date: 2020-01-25T15:35:57.313Z
-featuredImage: ''
+featuredImage: /img/average-temperature-portugal-porto.png
 featuredImagePosition: center center
 meta:
   description: Climate and Geography for cycling in Portugal
