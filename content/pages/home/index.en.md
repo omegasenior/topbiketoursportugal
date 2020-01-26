@@ -29,11 +29,11 @@ toursection:
 \
 Our mission is to provide you with relaxing and enjoyable cycling holiday in Portugal, complemented with historical points, tasty gastronomy and wonderful views.
 
-The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
+The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
-Bike tours packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
+Bike tours packages are offered both in self guided or guided bike tours, where mechanical assistance will always be guaranteed. Four star hotels, rural houses or farms will be booked for you.. You don't have to carry more than you need, since your luggage is transported, every day, from one hotel to the other, during the entirety of your [Portugal bike tour](https://topbiketoursportugal.com/bike-tours-in-portugal/). Van support is mostly offered in guided bike tours, where you can find water and snacks for the day.
 
 Safety is our number one priority and we will always be nearby to help you on your next cycling tour. 24/7 phone support available for any eventuality.
 
@@ -51,4 +51,4 @@ If your looking for a guided bike tour in Portugal check our [**Calendar**](http
 
 ## It is easy to book with us!
 
-Contact us thru our contact form or just email us. Request information about the cycling tour packages available is our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
+Contact us thru our contact form or just email us. Request information about the cycling tour packages available is our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
