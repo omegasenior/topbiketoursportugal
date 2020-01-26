@@ -13,10 +13,11 @@ tags:
   - bike holidays
   - cycling holidays
 meta:
-  description: Cyclinh holiday review Bob
-  keywords: Cyclinh holiday review Portugal
+  description: Cycling holiday review Bob
+  keywords: Cycling holiday review Bob
   robots: INDEX
   title: Cycling holiday review Bob
+  language: EN
 languagePages: []
 ---
 # Great Reviews about our bike tours in Portugal - Thanks Bob for it and the photo
