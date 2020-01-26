@@ -89,6 +89,7 @@ meta:
   keywords: >-
     ABOUT US RENT TOURS,hire a bycicle porto portugal, city tours porto
     portugal,Biking travel
+  robots: INDEX
   title: About us
 feature:
   align: center
@@ -102,9 +103,9 @@ feature:
 
 Founded in 2013, Top Bike tours Portugal is a company with experience in pedestrian and cycling tours in the city of Porto and long distance cycling routes to the north of the Iberian Peninsula and all around Portugal. Our activities are coordinated by tourism professionals, with a huge knowledge on heritage and sports.
 
-In the end of 2017 we have changed our previous name "Fold n' Visit" to "Top Biketours Portugal".
+In the end of 2017 we have changed our previous name "Fold n' Visit" to "Top Bike tours Portugal".
 
-Since 2013 we have a big offer of diferent city tours in Porto. Nowadays our core business is the creation of cycling holiday packages. The city tours' offer was reduced, as well as the bike renting business for longer distances. It is possible to follow our history in Tripadvisor reviews.
+Since 2013 we have a big offer of different city tours in Porto. Nowadays our core business is the creation of cycling holiday packages. The city tours' offer was reduced, as well as the bike renting business for longer distances. It is possible to follow our history in Tripadvisor reviews.
 
 ## 
 
@@ -118,7 +119,7 @@ We are here to ensure you have the best vacation possible!
 
 We know that everyone has their own individuality, with different needs, goals and expectations. Despite all of this, we believe that with our experience, we are able to achieve client satisfaction by meeting those needs, goals and expectations!
 
-https://www.youtube.com/watch?v=zO2uuYBtgt4&t=1s
+<https://www.youtube.com/watch?v=zO2uuYBtgt4&t=1s>
 
 ## How was Top Bike tours Portugal Born?
 
