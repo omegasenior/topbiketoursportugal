@@ -15,6 +15,7 @@ meta:
   keywords: Mark Mander and friends
   robots: INDEX
   title: Mark Mander and friends
+  language: PT
 languagePages:
   - path: /mark mander group/
     language: pt
