@@ -15,6 +15,7 @@ meta:
   keywords: Equipa JUMA em Portugal
   robots: INDEX
   title: Equipa JUMA em Portugal
+  language: PT
 languagePages:
   - path: /equipa-juma-outubro-2017/
     language: pt
