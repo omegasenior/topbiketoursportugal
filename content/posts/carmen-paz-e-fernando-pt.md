@@ -19,6 +19,7 @@ meta:
     2017.
   robots: INDEX
   title: Santiago pela costa em outubro de 2017
+  language: PT
 languagePages:
   - path: /Carmen Paz e Fernando bike photos on the Way to Santiago/
     language: pt
