@@ -15,6 +15,7 @@ meta:
   keywords: How Fold n Visit Born and History
   robots: INDEX
   title: How Fold n Visit Born and History
+  language: EN
 languagePages:
   - path: /historia da empresa/
     language: pt
