@@ -75,7 +75,7 @@ module.exports = {
     //     includeInDevelopment: false
     //   }
     // },
-    `gatsby-plugin-remove-trailing-slashes`,
+    // `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -326,10 +326,7 @@ module.exports = {
         serialize: ({ site, allSitePage }) =>
           allSitePage.edges.map(edge => {
             return {
-              url: (site.siteMetadata.siteUrl + edge.node.path).replace(
-                /\/?\/$/,
-                ""
-              ),
+              url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: `daily`,
               priority: 0.7
             };

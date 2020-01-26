@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/pedalar-em-portugal-o-que-saber
+path: /pt/blog/pedalar-em-portugal-o-que-saber/
 title: 'Pedalar em Portugal: O que saber!'
 language: pt
 date: 2020-01-15T18:06:37.897Z

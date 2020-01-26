@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /pt/blog/fotos-clientes-caminho-de-santiago
+path: /pt/blog/fotos-clientes-caminho-de-santiago/
 title: Santiago pela costa em outubro de 2017
 language: pt
 date: 2017-10-24T23:00:00.000Z
@@ -20,7 +20,7 @@ meta:
   robots: INDEX
   title: Santiago pela costa em outubro de 2017
 languagePages:
-  - path: Carmen Paz e Fernando bike photos on the Way to Santiago
+  - path: /Carmen Paz e Fernando bike photos on the Way to Santiago/
     language: pt
 ---
 ## Carmen e Fernando fizeram o caminho para Santiago pela costa em outubro de 2017.

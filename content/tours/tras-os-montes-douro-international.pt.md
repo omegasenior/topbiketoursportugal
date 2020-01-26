@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 79
-path: /cycling-tours-tras-os-montes
+path: /cycling-tours-tras-os-montes/
 productcode: DOURO 03
 featured: false
 language: pt

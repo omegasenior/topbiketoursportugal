@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 3
-path: /north-of-portugal-en
+path: /north-of-portugal-en/
 productcode: NORTH 01
 featured: true
 language: en

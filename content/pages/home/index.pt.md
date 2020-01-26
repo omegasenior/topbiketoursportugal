@@ -2,7 +2,7 @@
 templateKey: home-page
 language: pt
 lang: pt
-path: pt
+path: /pt/
 title: Home
 toursection:
   description: |-

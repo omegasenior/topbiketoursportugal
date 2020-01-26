@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/Porque-passeio-com-guia-em-bicicleta-portugal
+path: /pt/blog/Porque-passeio-com-guia-em-bicicleta-portugal/
 title: Porque deve escolher um passeio com guia
 language: pt
 date: 2019-11-06T16:34:47.565Z
@@ -17,7 +17,7 @@ meta:
   title: Porque deve escolher um passeio com guia?
   language: PT
 languagePages:
-  - path: porwue deve escolher um passeio em bicicleta com guia
+  - path: /porwue deve escolher um passeio em bicicleta com guia/
     language: pt
 ---
 # Porque deve escolher um passeio com guia?

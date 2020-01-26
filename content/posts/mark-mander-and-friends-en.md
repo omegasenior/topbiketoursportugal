@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/porto-to-santiago-de-compostela-mark-mander-group
+path: /blog/porto-to-santiago-de-compostela-mark-mander-group/
 title: Mark Mander and friends
 language: en
 date: 2018-06-05T23:00:00.000Z
@@ -18,7 +18,7 @@ meta:
   robots: INDEX
   title: Mark Mander and friends
 languagePages:
-  - path: mark mander group
+  - path: /mark mander group/
     language: pt
 ---
 # **Mark Mander and friends**

@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 4
-path: /costa-vicentina-bike-tour
+path: /costa-vicentina-bike-tour/
 productcode: VICENTINE 01
 featured: false
 language: pt

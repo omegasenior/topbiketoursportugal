@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 1
-path: /bike-tour-sightseeing-porto-pt
+path: /bike-tour-sightseeing-porto-pt/
 productcode: CT 01
 featured: false
 language: pt

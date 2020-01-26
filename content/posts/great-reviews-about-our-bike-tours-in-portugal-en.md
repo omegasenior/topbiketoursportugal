@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/Bob-review-the-way-of-st-james-starting-in-porto
+path: /blog/Bob-review-the-way-of-st-james-starting-in-porto/
 title: Great Reviews about our bike tours in Portugal
 language: en
 date: 2017-10-17T23:00:00.000Z

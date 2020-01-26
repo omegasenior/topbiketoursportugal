@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/portugal-ganha-premio-de-destino-2019
+path: /pt/blog/portugal-ganha-premio-de-destino-2019/
 title: Portugal vence o principal destino do mundo em 2019
 language: pt
 date: 2019-12-23T17:27:35.998Z

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/equipa-juma-fotos-e-blog-pessoal
+path: /pt/blog/equipa-juma-fotos-e-blog-pessoal/
 title: Equipa JUMA em Portugal
 language: pt
 date: 2017-10-18T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Equipa JUMA em Portugal
 languagePages:
-  - path: equipa-juma-outubro-2017
+  - path: /equipa-juma-outubro-2017/
     language: pt
 ---
 # Blog de Edson Mazieiro e Jussara (equipa JUMA)!

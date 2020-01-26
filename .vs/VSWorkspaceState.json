@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\src",
-    "\\static"
+    "\\content\\pages",
+    "\\content\\pages\\home"
   ],
-  "SelectedNode": "\\content\\tours",
+  "SelectedNode": "\\content\\pages\\home\\index.en.md",
   "PreviewInSolutionExplorer": false
 }

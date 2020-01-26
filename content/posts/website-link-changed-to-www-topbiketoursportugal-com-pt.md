@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/noticia-mudança-de-link-no-website
+path: /pt/blog/noticia-mudança-de-link-no-website/
 title: Alteração do link do website para topbiketoursportugal.com
 language: pt
 date: 2017-10-17T23:00:00.000Z

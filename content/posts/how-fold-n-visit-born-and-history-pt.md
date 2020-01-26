@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /single-post/2017/10/29/How-Fold-n-Visit-Born-and-History-pt
+path: /single-post/2017/10/29/How-Fold-n-Visit-Born-and-History-pt/
 title: Como Fold n visit Nsaceu e Historia
 language: pt
 date: 2017-10-28T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Como Fold n visit Nsaceu e Historia
 languagePages:
-  - path: 'historia da empresa '
+  - path: /'historia da empresa /
     language: pt
 ---
 # Como Fold n visit Nsaceu e Historia

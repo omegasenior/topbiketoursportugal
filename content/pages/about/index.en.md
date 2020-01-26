@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-path: /about-us-biking-travel
+path: /about-us-biking-travel/
 title: About us
 team:
   - bio: >-

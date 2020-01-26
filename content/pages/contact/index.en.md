@@ -1,6 +1,6 @@
 ---
 templateKey: ContactPage
-path: contacts
+path: /contacts/
 title: Contact us
 meta:
   description: Contact us

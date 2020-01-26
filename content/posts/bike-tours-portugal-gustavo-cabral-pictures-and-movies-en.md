@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/date/2017-12
+path: /blog/gustavo-e-Nicole-way-of-saint-james/
 title: Bike tours Portugal Gustavo Cabral pictures and movies
 language: en
 date: 2017-12-05T00:00:00.000Z
@@ -13,7 +13,7 @@ tags:
 meta:
   title: Bike tours Portugal Gustavo Cabral pictures and movies
 languagePages:
-  - path: Gustavo Cabral fotos e videos do caminho ate santiago
+  - path: /Gustavo Cabral fotos e videos do caminho ate santiago/
     language: pt
 ---
 # The Way of St. James Coast path from Porto (Caminho de Santiago)

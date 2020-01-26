@@ -2,7 +2,7 @@
 templateKey: blog-index
 language: en
 slug: blog
-path: blog
+path: /blog/
 title: Blog Page
 meta:
   canonicalLink: ''

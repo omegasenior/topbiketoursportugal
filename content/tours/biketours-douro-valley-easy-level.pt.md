@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 12
-path: /biketours-douro-valley-easy-level
+path: /biketours-douro-valley-easy-level/
 productcode: DOURO 01
 featured: false
 language: pt

@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 7
-path: /bike-tours-douro-valley
+path: /bike-tours-douro-valley/
 productcode: DOURO 02
 featured: false
 language: en

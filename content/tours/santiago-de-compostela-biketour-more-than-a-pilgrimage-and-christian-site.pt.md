@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 14
-path: /santiago-compostela
+path: /santiago-compostela/
 productcode: SANTIAGO 02
 featured: false
 language: pt

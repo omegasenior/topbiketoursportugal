@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 89
-path: /french-way-to-santiago-bike-tour
+path: /french-way-to-santiago-bike-tour/
 productcode: SANTIAGO 03
 featured: false
 language: en

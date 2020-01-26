@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/history-of-the-company
+path: /blog/history-of-the-company/
 title: How Fold n Visit Born and History
 language: en
 date: 2017-10-28T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: How Fold n Visit Born and History
 languagePages:
-  - path: 'historia da empresa '
+  - path: /historia da empresa/
     language: pt
 ---
 # How Fold n Visit Born and History

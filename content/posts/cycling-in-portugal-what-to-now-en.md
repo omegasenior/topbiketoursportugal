@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: blog/cycling-portugal-bike-tours-portugal
+path: /blog/cycling-portugal-bike-tours-portugal/
 title: 'Cycling In Portugal: What to know!'
 language: en
 date: 2020-01-15T17:52:50.137Z

@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /-campo-de-treino-douro-em-bicicleta
+path: /campo-de-treino-douro-em-bicicleta/
 productcode: DOURO 04
 featured: false
 language: pt

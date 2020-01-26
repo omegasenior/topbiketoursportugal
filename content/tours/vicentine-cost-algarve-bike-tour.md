@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 4
-path: /south-portugal-biketour
+path: /south-portugal-biketour/
 productcode: VICENTINE 01
 featured: false
 language: en

@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 3
-path: /pt-norte-de-portugal-bike-tour
+path: /pt-norte-de-portugal-bike-tour/
 productcode: NORTH 01
 featured: true
 language: pt

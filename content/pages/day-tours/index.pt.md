@@ -1,6 +1,6 @@
 ---
 templateKey: city-tours
-path: passeios-bicicleta-porto
+path: /passeios-bicicleta-porto/
 language: pt
 lang: pt
 title: tours diárias

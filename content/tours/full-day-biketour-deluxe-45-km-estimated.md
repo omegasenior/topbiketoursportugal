@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 8
-path: biketour-porto-deluxe
+path: /biketour-porto-deluxe/
 productcode: CT 04
 featured: false
 language: en

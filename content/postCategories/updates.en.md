@@ -2,7 +2,7 @@
 templateKey: "blog-index"
 title: Updates
 key: Updates
-path: /blog/updates
+path: /blog/updates/
 language: 'en'
 subtitle: ''
 featuredImage: '/img/Silver-coast-5.jpg'

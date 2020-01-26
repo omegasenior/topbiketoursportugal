@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: blog/guided-bicycle-tour
+path: /blog/guided-bicycle-tour/
 title: Why choose a guided bicycle tour?
 language: en
 date: 2019-11-06T16:34:47.565Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Why choose a guided bicycle tour?
 languagePages:
-  - path: porwue deve escolher um passeio em bicicleta com guia
+  - path: /porwue deve escolher um passeio em bicicleta com guia/
     language: pt
 ---
 # Why choose a guided bicycle tour?

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /pt/blog/passeio-em-bicicleta-com-guia-em-portugal
+path: /pt/blog/passeio-em-bicicleta-com-guia-em-portugal/
 title: Estilo dos nossos passeios em bicicleta
 language: pt
 date: 2018-06-18T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Style of our bike tours
 languagePages:
-  - path: estilo dos nossos passeios guiados
+  - path: /estilo dos nossos passeios guiado/
     language: pt
 ---
 # Estilo dos nossos passeios em bicicleta

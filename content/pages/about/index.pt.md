@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 language: pt
-path: pt/sobre-nos
+path: /pt/sobre-nos/
 title: Sobre nós
 team:
   - bio: >-

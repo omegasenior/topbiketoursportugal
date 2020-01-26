@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /walk-tour-porto-downtown
+path: /walk-tour-porto-downtown/
 productcode: CT 02
 featured: false
 language: en

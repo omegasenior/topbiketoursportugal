@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/date/2018-05
+path: /blog/customer-letter/
 title: ' Bike tours Portugal Friends Letters'
 language: en
 date: 2018-05-30T23:00:00.000Z
@@ -13,7 +13,7 @@ meta:
   keywords: letters from our customers
   title: letters from our customers
 languagePages:
-  - path: cartas de clientes para a nossa equipa
+  - path: /cartas de clientes para a nossa equipa/
     language: pt
 categories:
   - category: Updates

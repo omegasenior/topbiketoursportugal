@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-path: termos-e-condicoes
+path: /termos-e-condicoes/
 title: Termos e condições
 meta:
   robots: NOINDEX

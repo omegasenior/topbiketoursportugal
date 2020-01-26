@@ -1,7 +1,7 @@
 ---
 templateKey: tour-calendar
 language: pt
-path: /pt/calendario-tours
+path: /pt/calendario-tours/
 title: Calendário
 meta:
   canonicalLink: ''

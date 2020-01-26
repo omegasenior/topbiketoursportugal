@@ -1,5 +1,5 @@
 ---
-path: pt/blog/noticias
+path: /pt/blog/noticias/
 title: pt-News
 subtitle: ''
 feature:

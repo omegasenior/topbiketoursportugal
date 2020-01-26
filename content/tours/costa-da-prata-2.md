@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 5
-path: /from-coimbra-to-lisbon-bike-tour
+path: /from-coimbra-to-lisbon-bike-tour/
 productcode: SC 02
 featured: false
 language: en

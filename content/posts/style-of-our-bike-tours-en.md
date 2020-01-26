@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/style-of-top-bike-tours-in-portugal
+path: /blog/style-of-top-bike-tours-in-portugal/
 title: Style of our bike tours
 language: en
 date: 2018-06-18T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Style of our bike tours
 languagePages:
-  - path: estilo dos nossos passeios guiados
+  - path: /estilo dos nossos passeios guiado/
     language: pt
 ---
 # Style of our bike tours

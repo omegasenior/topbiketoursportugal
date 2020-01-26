@@ -1,6 +1,6 @@
 ---
 templateKey: city-tours
-path: bike-tours-porto-portugal
+path: /bike-tours-porto-portugal/
 language: en
 lang: en
 title: Day tours

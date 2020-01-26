@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 2
-path: /porto-to-coimbra-biketour
+path: /porto-to-coimbra-biketour/
 productcode: SC 01
 featured: true
 language: en

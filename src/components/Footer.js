@@ -102,8 +102,8 @@ export default class Footer extends React.Component {
         </Container>
         <div className="terms text-center">
           @ Top Bike tours portugal 2019 -{" "}
-          <Link to="/terms-and-conditions">Terms and conditions</Link> -{" "}
-          <Link to="/privacy-policy">Privacy policy</Link>
+          <Link to="/terms-and-conditions/">Terms and conditions</Link> -{" "}
+          <Link to="/privacy-policy/">Privacy policy</Link>
         </div>
       </FooterContainer>
     );

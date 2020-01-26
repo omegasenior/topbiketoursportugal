@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /douro-valley-cycling-camp-road-bike
+path: /douro-valley-cycling-camp-road-bike/
 productcode: DOURO 04
 featured: false
 language: en

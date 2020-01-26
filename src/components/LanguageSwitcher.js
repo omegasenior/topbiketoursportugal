@@ -15,7 +15,7 @@ const LanguageSwitcher = ({ language, languageAlternateLinks }) => (
       {/* <FlagIcon code={props.code} size={props.size} /> */}
       <span code="gb" className="flag-icon flag-icon-gb" />
     </Link>
-    <Link to="/pt" alt="Português">
+    <Link to="/pt/" alt="Português">
       {/* <FlagIcon code={props.code} size={props.size} /> */}
       <span code="pt" className="flag-icon flag-icon-pt" />
     </Link>

@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-path: >-
-  pt/blog/darren-alff-artigo-em-blogue-do-biketour-porto-a-santiago-de-compostela
+path: /pt/blog/darren-alff-artigo-em-blogue-do-biketour-porto-a-santiago-de-compostela/
 title: Artigo sobre passeio de bicicleta até Santiago de Compostela
 language: pt
 date: 2018-09-10T23:00:00.000Z
@@ -17,7 +16,7 @@ meta:
   robots: INDEX
   title: Artigo sobre passeio de bicicleta até Santiago de Compostela
 languagePages:
-  - path: artigo de bloguer no caminho de santiago em bicicleta
+  - path: /artigo de bloguer no caminho de santiago em bicicleta/
     language: pt
 ---
 # Artigo de Darren Alff sobre passeio de bicicleta até Santiago de Compostela

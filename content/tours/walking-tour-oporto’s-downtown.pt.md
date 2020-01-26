@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 99
-path: /walk-city-tour-oporto-downtown
+path: /walk-city-tour-oporto-downtown/
 productcode: CT 02
 featured: false
 language: pt

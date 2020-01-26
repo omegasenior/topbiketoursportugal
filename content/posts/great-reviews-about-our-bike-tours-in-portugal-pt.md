@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal-pt
+path: /single-post/2017/10/18/Great-Reviews-about-our-bike-tours-in-Portugal-pt/
 title: Review passeios em bicicleta
 language: pt
 date: 2017-10-17T23:00:00.000Z

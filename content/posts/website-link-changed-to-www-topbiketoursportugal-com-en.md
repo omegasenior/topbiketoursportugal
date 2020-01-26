@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog/update-website-new-link-top-bike-tours-in-portugal
+path: /blog/update-website-new-link-top-bike-tours-in-portugal/
 title: Website link changed to topbiketoursportugal.com
 language: en
 date: 2017-10-17T23:00:00.000Z

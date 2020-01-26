@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 2
-path: electric-bike-tour-porto-pt
+path: /electric-bike-tour-porto-pt/
 productcode: CT 05
 featured: false
 language: pt

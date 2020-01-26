@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: Save-on-Airport-Parking-in-the-UK
+path: /Save-on-Airport-Parking-in-the-UK/
 title: Save on Airport Parking in the UK
 language: en
 date: 2019-12-31T14:06:01.510Z

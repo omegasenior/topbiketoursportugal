@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /pt/blog/cartas-de-clientes-passeios-bicicleta
+path: /pt/blog/cartas-de-clientes-passeios-bicicleta/
 title: Uma carta de amigos
 language: pt
 date: 2018-05-30T23:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Uma carta de amigos
 languagePages:
-  - path: cartas de clientes para a nossa equipa
+  - path: /cartas de clientes para a nossa equipa/
     language: pt
 ---
 # Uma carta de amigos

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: pt/blog/beneficios-do-seu-primeiro-tour-em-bicicleta
+path: /pt/blog/beneficios-do-seu-primeiro-tour-em-bicicleta/
 title: Os benefícios do seu primeiro passeio de bicicleta!
 language: pt
 date: 2018-12-21T00:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Os benefícios do seu primeiro passeio de bicicleta!
 languagePages:
-  - path: beneficios do seu primeiro passeio em bicicleta
+  - path: /beneficios do seu primeiro passeio em bicicleta/
     language: pt
 ---
 # Os benefícios do seu primeiro passeio de bicicleta!

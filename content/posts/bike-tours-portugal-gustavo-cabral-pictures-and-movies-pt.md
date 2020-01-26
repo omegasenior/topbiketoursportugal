@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /pt/blog/date/caminho-de-santiago-pela-costa-fotos-gustavo-e-Nicole
+path: /pt/blog/date/caminho-de-santiago-pela-costa-fotos-gustavo-e-Nicole/
 title: Bike tours Portugal Gustavo Cabral fotografias e video
 language: pt
 date: 2017-12-05T00:00:00.000Z
@@ -16,7 +16,7 @@ meta:
   robots: INDEX
   title: Bike tours Portugal Gustavo Cabral fotografias e video
 languagePages:
-  - path: Gustavo Cabral fotos e videos do caminho ate santiago
+  - path: /Gustavo Cabral fotos e videos do caminho ate santiago/
     language: pt
 ---
 # Caminho de Santiago em Bicicleta pela costa a partir do Porto

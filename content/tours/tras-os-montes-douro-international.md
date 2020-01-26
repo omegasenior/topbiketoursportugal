@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 79
-path: /bike-tours-portugal-douro-wine
+path: /bike-tours-portugal-douro-wine/
 productcode: DOURO 03
 featured: false
 language: en

@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 2
-path: /costa-da-prata-rota-1
+path: /costa-da-prata-rota-1/
 productcode: SC 01
 featured: true
 language: pt

@@ -198,7 +198,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         langKey === languages.defaultLangKey ||
         node.frontmatter.language === languages.defaultLangKey
           ? node.frontmatter.path || slug
-          : `/${langKey}${slug}`
+          : `/${langKey}${slug}/`
     });
   }
 };
@@ -300,6 +300,8 @@ exports.createSchemaCustomization = ({ actions }) => {
 //   return path;
 // }
 
+
+
 // exports.createSchemaCustomization = ({ actions }) => {
 //   const { createTypes } = actions;
 //   const typeDefs = `
@@ -341,3 +343,16 @@ exports.createSchemaCustomization = ({ actions }) => {
 //     });
 //   });
 // }
+
+
+// exports.createPages = ({ actions: { createPage } }) => {
+//   createPage({
+//     path: '/hello',
+//     component: HelloWorldComponent,
+//   });
+
+//   createPage({
+//     path: '/hello-slash/',
+//     component: HelloWorldComponent,
+//   });
+// };

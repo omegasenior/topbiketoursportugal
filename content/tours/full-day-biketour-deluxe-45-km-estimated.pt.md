@@ -1,7 +1,7 @@
 ---
 templateKey: tour-gen
 order: 8
-path: /full-day-biketour-deluxe
+path: /full-day-biketour-deluxe/
 productcode: CT 04
 featured: false
 language: pt
