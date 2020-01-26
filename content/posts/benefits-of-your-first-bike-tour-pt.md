@@ -15,6 +15,7 @@ meta:
   keywords: Os benefícios do seu primeiro passeio de bicicleta
   robots: INDEX
   title: Os benefícios do seu primeiro passeio de bicicleta!
+  language: PT
 languagePages:
   - path: /beneficios do seu primeiro passeio em bicicleta/
     language: pt
