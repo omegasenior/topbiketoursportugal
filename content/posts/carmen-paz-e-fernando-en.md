@@ -19,6 +19,7 @@ meta:
   keywords: Carmen Paz e Fernando bike photos on the Way to Santiago
   robots: INDEX
   title: Carmen Paz e Fernando bike photos on the Way to Santiago
+  language: EN
 languagePages:
   - path: /Carmen Paz e Fernando bike photos on the Way to Santiago/
     language: pt
