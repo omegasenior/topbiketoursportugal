@@ -48,7 +48,7 @@ const SEO = ({ postData, postImage, isBlogPost }) => (
           <Helmet>
             {/* General tags */}
             <title>{title}</title>
-            <meta name="description" content={description} />
+            {description && <meta name="description" content={description} />}
             {/* <meta name="keywords" content={keywords} /> */}
             <meta name="image" content={image} />
 

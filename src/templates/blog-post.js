@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../layout/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { kebabCase } from "lodash";
+import Helmet from "react-helmet";
+import { graphql, Link } from "gatsby";
+import Layout from "../layout/Layout";
+import Content, { HTMLContent } from "../components/Content";
 // import SEO from '../components/SEO/SEO';
 
 export const BlogPostTemplate = ({
@@ -13,13 +13,13 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet,
+  helmet
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
-      {helmet || ''}
+      {helmet || ""}
 
       <div className="container content">
         <div className="columns">
@@ -45,54 +45,59 @@ export const BlogPostTemplate = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
-}
+  helmet: PropTypes.object
+};
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
   // const postImage = null;
   return (
     <Layout
-    
-    meta={post.frontmatter.meta || false}
-    title={post.frontmatter.title || false}
-    feature={post.frontmatter.feature}
-    language={post.frontmatter.language}
+      meta={post.frontmatter.meta || false}
+      title={post.frontmatter.title || false}
+      feature={post.frontmatter.feature}
+      language={post.frontmatter.language}
     >
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet
-            titleTemplate="%s | Blog"
-          >
+          <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
+            {post &&
+              post.frontmatter &&
+              post.frontmatter.description &&
+              post.frontmatter.description != null && (
+                <meta
+                  name="description"
+                  content={post.frontmatter.description}
+                />
+              )}
           </Helmet>
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
-  )
-}
+  );
+};
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
+    markdownRemark: PropTypes.object
+  })
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -110,4 +115,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
