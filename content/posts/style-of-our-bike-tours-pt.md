@@ -11,10 +11,10 @@ categories:
 tags:
   - Bike tours informations
 meta:
-  description: Style of our bike tours
-  keywords: Style of our bike tours
+  description: Estilo dos nossos passeios em bicicleta
+  keywords: Estilo dos nossos passeios em bicicleta
   robots: INDEX
-  title: Style of our bike tours
+  title: Estilo dos nossos passeios em bicicleta
   language: PT
 languagePages:
   - path: /estilo dos nossos passeios guiado/
