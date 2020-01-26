@@ -15,6 +15,7 @@ meta:
   keywords: Darren Alff article about our bike tour The Way of Saint James
   robots: INDEX
   title: Darren Alff article about our bike tour The Way of Saint James
+  language: EN
 languagePages:
   - path: /artigo de bloguer no caminho de santiago em bicicleta/
     language: pt
