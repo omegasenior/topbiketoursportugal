@@ -9,7 +9,7 @@ const TagsPage = ({
 }) => (
   <Layout>
     <section className="section">
-      <Helmet title={`Tags | ${title}`} />
+      <Helmet title={`Tags | ${title}`}  description="Tags to find the perfect bike tour" />
       <div className="container content">
         <div className="columns">
           <div

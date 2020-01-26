@@ -8,5 +8,7 @@ feature:
   subtitle: d
   textcolor: white
 featuredImage: /img/Silver-coast-5.jpg
+meta:
+  description: Siga as nossa últimas notícias
 ---
 

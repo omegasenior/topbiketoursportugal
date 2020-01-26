@@ -4,6 +4,7 @@ path: /terms-and-conditions/
 title: Terms and Conditions
 meta:
   robots: NOINDEX
+  description: Terms and Conditions
 ---
 # **Terms and Conditions:**
 

@@ -4,6 +4,8 @@ path: /privacy-policy/
 title: Privacy Policy
 meta:
   robots: NOINDEX
+  description: Privacy Policy
+
 ---
 # **Privacy Policy**
 

@@ -4,6 +4,7 @@ path: /politica-de-privacidade/
 title: politica de privacidade
 meta:
   robots: NOINDEX
+  description: politica de privacidade
 ---
 # **Política de Privacidade**
 

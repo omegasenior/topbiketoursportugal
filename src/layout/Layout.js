@@ -164,18 +164,18 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => (
           <Helmet titleTemplate={data.settingsYaml.titleformat}>
             <html lang={language || `en`} />
             <title>{title || defaultMetadata.title}</title>
-            <meta
-              name="description"
-              content={
-                (meta && meta.description) || defaultMetadata.description
-              }
-            />
+            {meta && meta.description && (
+              <meta
+                name="description"
+                content={
+                  (meta && meta.description)
+                }
+              />
+            )}
 
             <meta
               name="keywords"
-              content={
-                (meta && meta.keywords) || defaultMetadata.keywords
-              }
+              content={(meta && meta.keywords) || defaultMetadata.keywords}
             />
 
             <meta name="theme-color" content="#fff" />
