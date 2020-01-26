@@ -6,17 +6,19 @@ language: en
 date: 2018-05-30T23:00:00.000Z
 featuredImage: /img/letters-from-our-customers.png
 featuredImagePosition: center center
+categories:
+  - category: Updates
 tags:
   - customers stuff
 meta:
   description: letters from our customers
   keywords: letters from our customers
+  robots: INDEX
   title: letters from our customers
+  language: EN
 languagePages:
   - path: /cartas de clientes para a nossa equipa/
     language: pt
-categories:
-  - category: Updates
 ---
 # Friends Letters
 
