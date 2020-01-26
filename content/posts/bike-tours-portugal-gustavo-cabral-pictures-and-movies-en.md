@@ -11,10 +11,12 @@ categories:
 tags:
   - customers stuff
 meta:
+  description: Bike tours Portugal Gustavo Cabral pictures and movies
+  keywords: Bike tours Portugal Gustavo Cabral pictures and movies
+  robots: INDEX
   title: Bike tours Portugal Gustavo Cabral pictures and movies
-languagePages:
-  - path: /Gustavo Cabral fotos e videos do caminho ate santiago/
-    language: pt
+  language: EN
+languagePages: []
 ---
 # The Way of St. James Coast path from Porto (Caminho de Santiago)
 
