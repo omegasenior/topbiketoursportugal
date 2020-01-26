@@ -15,6 +15,7 @@ meta:
   keywords: ' passeios de bicicleta em Portugal '
   robots: INDEX
   title: Review passeios em bicicleta
+  language: PT
 languagePages: []
 ---
 # Ótima crítica sobre os nossos passeios de bicicleta em Portugal - Obrigado Bob por tudo e pela foto
