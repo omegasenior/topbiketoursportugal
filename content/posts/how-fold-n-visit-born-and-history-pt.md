@@ -15,6 +15,7 @@ meta:
   keywords: Como Fold n visit Nsaceu e Historia
   robots: INDEX
   title: Como Fold n visit Nsaceu e Historia
+  language: PT
 languagePages:
   - path: /'historia da empresa /
     language: pt
