@@ -15,6 +15,7 @@ meta:
   keywords: Uma carta de amigos
   robots: INDEX
   title: Uma carta de amigos
+  language: PT
 languagePages:
   - path: /cartas de clientes para a nossa equipa/
     language: pt
