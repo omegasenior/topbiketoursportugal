@@ -11,8 +11,8 @@ categories:
 tags:
   - Bike tours informations
 meta:
-  description: Why choose a guided bicycle tour?
-  keywords: guide bike tour
+  description: Porque deve escolher um passeio com guia
+  keywords: Porque deve escolher um passeio com guia
   robots: INDEX
   title: Porque deve escolher um passeio com guia?
   language: PT
