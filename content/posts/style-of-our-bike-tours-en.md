@@ -15,6 +15,7 @@ meta:
   keywords: Style of our bike tours
   robots: INDEX
   title: Style of our bike tours
+  language: EN
 languagePages:
   - path: /estilo dos nossos passeios guiado/
     language: pt
