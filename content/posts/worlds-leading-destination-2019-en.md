@@ -11,6 +11,7 @@ meta:
   keywords: 'World''s Leading Destination 2019, contibute of cycling tours in portugal'
   robots: INDEX
   title: World's Leading Destination 2019
+  language: EN
 languagePages: []
 ---
 # Portugal wins the **World's Leading Destination 2019**
