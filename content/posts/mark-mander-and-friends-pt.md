@@ -11,10 +11,10 @@ categories:
 tags:
   - customers stuff
 meta:
-  description: Mark Mander and friends
-  keywords: Mark Mander and friends
+  description: Mark Mander e amigos
+  keywords: Mark Mander e amigos
   robots: INDEX
-  title: Mark Mander and friends
+  title: Mark Mander e amigos
   language: PT
 languagePages:
   - path: /mark mander group/
