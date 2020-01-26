@@ -15,6 +15,7 @@ meta:
   keywords: customers in douro valley bike tour
   robots: INDEX
   title: Customers with blogs - Equipa JUMA
+  language: EN
 languagePages:
   - path: /equipa-juma-outubro-2017/
     language: pt
