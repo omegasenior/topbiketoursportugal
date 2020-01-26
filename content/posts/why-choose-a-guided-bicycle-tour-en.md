@@ -15,6 +15,7 @@ meta:
   keywords: Why choose a guided bicycle tour?
   robots: INDEX
   title: Why choose a guided bicycle tour?
+  language: EN
 languagePages:
   - path: /porwue deve escolher um passeio em bicicleta com guia/
     language: pt
