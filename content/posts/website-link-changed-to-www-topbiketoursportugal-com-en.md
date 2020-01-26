@@ -15,6 +15,7 @@ meta:
   keywords: ''
   robots: INDEX
   title: Fold n´Visit as changed the old website link and logo
+  language: EN
 languagePages: []
 ---
 # News
