@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
-import Content, {
+import {
   HTMLContent,
   HTMLMarkdownContent
 } from "../components/Content";

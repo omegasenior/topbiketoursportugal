@@ -1,5 +1,5 @@
 import React from "react";
-import { sortBy, orderBy, uniq, filter } from "lodash-es";
+import { orderBy, uniq, filter } from "lodash-es";
 import showdown from "showdown";
 import { HTMLContent } from "../Content";
 

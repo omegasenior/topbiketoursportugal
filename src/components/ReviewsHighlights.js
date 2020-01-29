@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import LinesEllipsis from "react-lines-ellipsis";
+// import LinesEllipsis from "react-lines-ellipsis";
 import ReadMore from "./ReadMore";
 import "./ReviewsHighlights.scss";
 
@@ -70,9 +70,6 @@ const reviews = [
 ];
 
 export default class ReviewsHighlights extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (

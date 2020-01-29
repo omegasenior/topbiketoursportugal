@@ -1,25 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
 import {
-  TourInformation,
   TourGallery,
-  // TourLocations,
   TourPlan,
-  TourReviews,
   TourPricing
 } from "../components/Tour/index";
-import Helmet from "react-helmet";
+// import Helmet from "react-helmet";
 // import BackgroundImage from "gatsby-background-image";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-import { Container } from "styled-container-component";
+// import { Container } from "styled-container-component";
 import { HTMLContent, HTMLMarkdownContent } from "../components/Content";
-import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
+// import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 // import scrollTo from "gatsby-plugin-smoothscroll";
 import { Waypoint } from "react-waypoint";
 import ScrollableAnchor, {
@@ -52,12 +49,12 @@ const StyledPaper = styled(Paper)`
     width: 100%;
   }
 `;
-const StyledContainer = styled(Container)`
-  display: block;
-  margin: 50px auto;
-  margin-top: 0;
-  padding: 15px;
-`;
+// const StyledContainer = styled(Container)`
+//   display: block;
+//   margin: 50px auto;
+//   margin-top: 0;
+//   padding: 15px;
+// `;
 
 // const StyledBackgroundImage = styled(BackgroundImage)`
 //   min-height: 300px;
@@ -111,11 +108,8 @@ function TourGen({ data }) {
     switch (language) {
       case "pt":
         return difficultyText.pt[difficulty];
-
-        break;
       default:
         return difficultyText.en[difficulty];
-        break;
     }
   }
 

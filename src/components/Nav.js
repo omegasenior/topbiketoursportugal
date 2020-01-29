@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Location } from "@reach/router";
 import { Link } from "gatsby";
 import { Menu, X } from "react-feather";
-import Logo from "./Logo";
+// import Logo from "./Logo";
 
 import "./Nav.scss";
 
@@ -28,7 +28,7 @@ export class Navigation extends Component {
 
   render() {
     const { active } = this.state,
-      { subNav, menu } = this.props,
+      // { subNav, menu } = this.props,
       NavLink = ({ to, className, children, ...props }) => (
         <Link
           to={to}

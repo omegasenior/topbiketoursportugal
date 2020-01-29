@@ -2,10 +2,10 @@ import React from "react";
 import { MapPin, Smartphone, Mail } from "react-feather";
 import { graphql } from "gatsby";
 
-import PageHeader from "../components/PageHeader";
+// import PageHeader from "../components/PageHeader";
 import { HTMLContent } from "../components/Content";
-import FormSimpleAjax from "../components/FormSimpleAjax";
-import Content from "../components/Content";
+// import FormSimpleAjax from "../components/FormSimpleAjax";
+// import Content from "../components/Content";
 import GoogleMap from "../components/GoogleMap";
 import Layout from "../layout/LayoutBootstrap";
 import "./ContactPage.scss";

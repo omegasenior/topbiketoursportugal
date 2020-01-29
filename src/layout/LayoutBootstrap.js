@@ -8,10 +8,10 @@ import Banners from "../components/Banners";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
 
-import { SEO, Heading } from "../components/SEO/SEO";
+// import { SEO, Heading } from "../components/SEO/SEO";
 
 import BackgroundImage from "gatsby-background-image";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { ChevronUp } from "styled-icons/feather/ChevronUp";

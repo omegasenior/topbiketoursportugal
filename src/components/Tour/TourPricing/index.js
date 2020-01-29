@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // import { TimeFive } from "styled-icons/boxicons-regular/TimeFive";
 import "./tourPricing.mod.scss";
 import uniq from "lodash-es/uniq";
-import filter from "lodash-es/filter";
+// import filter from "lodash-es/filter";
 import Package from "./Package.js";
 
 const TourPricing = ({ tour: { pricing } }) => {

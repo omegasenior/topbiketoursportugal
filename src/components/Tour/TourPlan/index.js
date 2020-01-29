@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 // import { compose, withProps } from "recompose";
@@ -9,7 +9,7 @@ import styled from "styled-components";
 //   // Marker,
 //   Polyline
 // } from "react-google-maps";
-import GoogleMap from "../../GoogleMap";
+// import GoogleMap from "../../GoogleMap";
 // import Map from "../../leaflet";
 // const { Map, TileLayer, Marker, Popup } = ReactLeaflet;
 

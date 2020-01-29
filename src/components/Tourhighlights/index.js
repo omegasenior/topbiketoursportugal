@@ -1,6 +1,5 @@
 import React from "react";
 import Img from "gatsby-image";
-import { Col, Row, Container } from "@bootstrap-styled/v4";
 import * as Style from "./Tourhighlights.styled";
 // import BackgroundImage from 'gatsby-background-image'
 import { StaticQuery, navigate, graphql, Link } from "gatsby";
@@ -70,7 +69,7 @@ const Tourhighlights = ({
                 data.tours.nodes &&
                 filter(
                   data.tours.nodes,
-                  t => t.frontmatter.language == language
+                  t => t.frontmatter.language === language
                 )
                   .slice(0, 3)
                   .map((tour, index) => (

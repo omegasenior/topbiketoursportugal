@@ -76,7 +76,7 @@ const HomePage = ({ data }) => {
   const { markdownRemark: post } = data;
   const language = post.frontmatter.language || `en`;
   return (
-    <Layout language={language}>
+    <Layout language={language} meta={post.frontmatter.meta || false}>
       <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -101,6 +101,10 @@ export const homePageQuery = graphql`
       frontmatter {
         title
         language
+        meta {
+          title
+          description
+        }
         toursection {
           description
           descriptionafter

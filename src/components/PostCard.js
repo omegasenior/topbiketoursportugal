@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Img from "gatsby-image/withIEPolyfill";
 //  import Image from "./Image";
 import "./PostCard.scss";
-import BackgroundImage from "gatsby-background-image";
+// import BackgroundImage from "gatsby-background-image";
 
 const PostCard = ({
   featuredImage,

@@ -1,18 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 // import PropTypes from "prop-types";
 import LanguageSwitcher from "./LanguageSwitcher";
-import _filter from "lodash/filter";
-import _first from "lodash/first";
+// import _filter from "lodash/filter";
+// import _first from "lodash/first";
 
-import { Link, StaticQuery, graphql } from "gatsby";
-import { Button } from "styled-button-component";
+import { StaticQuery, graphql } from "gatsby";
+// import { Button } from "styled-button-component";
 import styled from "styled-components";
 import { Facebook } from "styled-icons/boxicons-logos/Facebook";
 import { Twitter } from "styled-icons/boxicons-logos/Twitter";
 import { Youtube } from "styled-icons/boxicons-logos/Youtube";
 import { Instagram } from "styled-icons/boxicons-logos/Instagram";
 import { Tripadvisor } from "styled-icons/fa-brands/Tripadvisor";
-import { AlternateEmail } from "styled-icons/material/AlternateEmail";
+// import { AlternateEmail } from "styled-icons/material/AlternateEmail";
 import { PhoneAlt } from "styled-icons/fa-solid/PhoneAlt";
 import Nav from "./Nav";
 import "./Navbar.scss";

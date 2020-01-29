@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import { Timeline } from "../components/Timeline";
 import "./tour-calendar.scss";
-import { orderBy } from "lodash-es";
+// import { orderBy } from "lodash-es";
 export const TourCalendarTemplate = ({ title, description, ...other }) => {
   return (
     <>

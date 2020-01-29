@@ -7,12 +7,12 @@ import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
 import { sum } from "lodash-es";
 
-import Helmet from "react-helmet";
-import styled from "styled-components";
-import { Col, Row, Container } from "@bootstrap-styled/v4";
-import { Time } from "styled-icons/boxicons-regular/Time";
-import { Mountain } from "styled-icons/fa-solid/Mountain";
-import { Road } from "styled-icons/fa-solid/Road";
+// import Helmet from "react-helmet";
+// import styled from "styled-components";
+// import { Col, Row, Container } from "@bootstrap-styled/v4";
+// import { Time } from "styled-icons/boxicons-regular/Time";
+// import { Mountain } from "styled-icons/fa-solid/Mountain";
+// import { Road } from "styled-icons/fa-solid/Road";
 import { filter } from "lodash-es";
 import "./city-tours.scss";
 
@@ -33,6 +33,7 @@ export const TourTemplate = ({
   return (
     <div
       className="row tour"
+      role="navigation"
       onClick={event => {
         event.preventDefault();
         navigate(path);
@@ -95,7 +96,7 @@ export const CityToursPage = ({ data }) => {
   const language = page.frontmatter.language;
   const toursFiltered = filter(
     tours.nodes,
-    t => t.frontmatter.language == language
+    t => t.frontmatter.language === language
   );
   // console.log(JSON.stringify(toursFiltered));
   // console.log(JSON.stringify(data.page.frontmatter.meta));

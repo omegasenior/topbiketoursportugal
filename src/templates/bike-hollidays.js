@@ -5,22 +5,22 @@ import { graphql, Link } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLMarkdownContent, HTMLContent } from "../components/Content";
-import Helmet from "react-helmet";
+// import Helmet from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 import { Time } from "styled-icons/boxicons-regular/Time";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
-import { sum, min } from "lodash-es";
+import { sum } from "lodash-es";
 
 // import { display } from "@material-ui/system";
 // import { CenterFocusStrong } from "styled-icons/material";
 
-const SectionTitle = styled.h1`
-  text-align: center;
-  font-size: 3rem;
-  padding: 45px;
-`;
+// const SectionTitle = styled.h1`
+//   text-align: center;
+//   font-size: 3rem;
+//   padding: 45px;
+// `;
 
 const TourLink = styled(Link)`
   &:active {
@@ -97,34 +97,34 @@ const TourSpecificationContainer = styled.div`
   display: flex;
 `;
 
-const TourSpecificationFull = styled.div`
-  display: flex;
-  width: 100%;
-  flex: 0 0 100%;
-  margin-bottom: 15px;
+// const TourSpecificationFull = styled.div`
+//   display: flex;
+//   width: 100%;
+//   flex: 0 0 100%;
+//   margin-bottom: 15px;
 
-  span {
-    color: #898686;
-  }
-  svg {
-    color: #fa7500;
-    margin-right: 5px;
-  }
-`;
+//   span {
+//     color: #898686;
+//   }
+//   svg {
+//     color: #fa7500;
+//     margin-right: 5px;
+//   }
+// `;
 
-const TourSpecification = styled.div`
-  display: flex;
-  flex: 0 0 50%;
-  margin-bottom: 15px;
+// const TourSpecification = styled.div`
+//   display: flex;
+//   flex: 0 0 50%;
+//   margin-bottom: 15px;
 
-  span {
-    color: #898686;
-  }
-  svg {
-    color: #fa7500;
-    margin-right: 5px;
-  }
-`;
+//   span {
+//     color: #898686;
+//   }
+//   svg {
+//     color: #fa7500;
+//     margin-right: 5px;
+//   }
+// `;
 
 const TourSpecPrice = styled.div`
   display: flex;

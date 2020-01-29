@@ -1,12 +1,12 @@
 import React from "react";
 import Img from "gatsby-image";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext
-} from "pure-react-carousel";
+// import {
+//   CarouselProvider,
+//   Slider,
+//   Slide,
+//   ButtonBack,
+//   ButtonNext
+// } from "pure-react-carousel";
 
 import ReadMore from "../ReadMore";
 import "./team.scss";
@@ -49,12 +49,12 @@ export const TeamListComponent = ({ team }) => (
   </div>
 );
 
-function groupArr(data, n) {
-  var group = [];
-  for (var i = 0, j = 0; i < data.length; i++) {
-    if (i >= n && i % n === 0) j++;
-    group[j] = group[j] || [];
-    group[j].push(data[i]);
-  }
-  return group;
-}
+// function groupArr(data, n) {
+//   var group = [];
+//   for (var i = 0, j = 0; i < data.length; i++) {
+//     if (i >= n && i % n === 0) j++;
+//     group[j] = group[j] || [];
+//     group[j].push(data[i]);
+//   }
+//   return group;
+// }
