@@ -34,8 +34,6 @@ bikes:
     type: Mountain bike
   - image: /img/ktm-macina.jpg
     type: Electric bicycles
-  - image: /img/ktm-macina-272.jpg
-    type: Electric bicycles
 equipment:
   - description: >-
       **Kross TRANS 5.0**
