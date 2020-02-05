@@ -116,12 +116,21 @@ module.exports = {
     //   }
     // },
     {
-      resolve: `gatsby-plugin-tawk`,
+      resolve: `@mangoart/gatsby-plugin-purechat`,
       options: {
-        tawkId: "5862998cddb8373fd2b445cf"
-        // get this from the tawk script widget
-      }
+        // include the PureChat js snippet
+        enabled: true,
+        // your website id, extract from the snippet provided by purechat 
+        websiteId: `edb60542-b472-406a-8d78-e833449c21d8`, 
+      },
     },
+    // {
+    //   resolve: `gatsby-plugin-tawk`,
+    //   options: {
+    //     tawkId: "5862998cddb8373fd2b445cf"
+    //     // get this from the tawk script widget
+    //   }
+    // },
     `gatsby-plugin-smoothscroll`,
     {
       resolve: "gatsby-plugin-sass",

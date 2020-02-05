@@ -250,12 +250,12 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => (
           </header>
           <main>{children}</main>
           <Footer />
-          <Scroll>
+          {/* <Scroll>
             <ScrollUpButton aria-label="Scroll to top" role="navigation">
               <ChevronUp>Top</ChevronUp>
               <span>Top</span>
             </ScrollUpButton>
-          </Scroll>
+          </Scroll> */}
         </React.Fragment>
       );
     }}

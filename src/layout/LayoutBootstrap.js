@@ -210,6 +210,11 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                   async
                 ></script>
               )}
+              {/* <script
+                key="gatsby-plugin-tawk"
+                src="https://embed.tawk.to/5862998cddb8373fd2b445cf/default"
+                async
+              /> */}
             </Helmet>
             <Meta
               googleTrackingId={googleTrackingId}
@@ -276,12 +281,12 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
             </header>
             <main>{children}</main>
             <Footer />
-            <Scroll>
+            {/* <Scroll>
               <ScrollUpButton aria-label="Scroll to top" role="navigation">
                 <ChevronUp>Top</ChevronUp>
                 <span>Top</span>
               </ScrollUpButton>
-            </Scroll>
+            </Scroll> */}
           </React.Fragment>
         );
       }}
