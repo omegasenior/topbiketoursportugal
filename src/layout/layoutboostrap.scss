@@ -79,4 +79,12 @@ header {
     //   color: #fff;
     // }
   }
+
+  .fBanner {
+    display: flex;
+    flex-direction: column;
+    .fBannerTitle {
+      margin-top: 10px;
+    }
+  }
 }

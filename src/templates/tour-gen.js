@@ -196,12 +196,12 @@ function TourGen({ data }) {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <ScrollableAnchor id={"information"}>
               <HTMLContent className="container" content={tour.html} />
             </ScrollableAnchor>
           </div>
-          <div className="col-4 tour-booking-overlay">
+          <div className="col-12  col-md-4 tour-booking-overlay">
             <div className="tour-booking">
               <div className="tour-booking-header-price-wrap">
                 <div className="tour-booking-header-price-overlay"></div>
@@ -276,6 +276,22 @@ function TourGen({ data }) {
                     </div>
                     <div className="tour-booking-tail">
                       <input type="email" name="email-address" required />
+                    </div>
+                  </div>
+                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-phone-address tour-booking-type-phone">
+                    <div className="tour-booking-head">
+                      Phone<span className="tour-booking-req">*</span>
+                    </div>
+                    <div className="tour-booking-tail">
+                      <input type="phone" name="tel" required />
+                    </div>
+                  </div>
+                  <div className="tour-booking-enquiry-field tour-booking-enquiry-field-date-address tour-booking-type-date">
+                    <div className="tour-booking-head">
+                      Tour date<span className="tour-booking-req">*</span>
+                    </div>
+                    <div className="tour-booking-tail">
+                      <input type="date" name="phone" required />
                     </div>
                   </div>
                   {/* <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">

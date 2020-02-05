@@ -204,6 +204,12 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
               />
+              {feature && feature.bokunLink && (
+                <script
+                  src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=8e9ade62-3b4e-4ab4-9f37-983ece1e2e24"
+                  async
+                ></script>
+              )}
             </Helmet>
             <Meta
               googleTrackingId={googleTrackingId}
@@ -238,15 +244,31 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                       backgroundPosition: feature.imageAlign || "center center"
                     }}
                   >
-                    {feature.title && (
-                      <h2
-                        style={{
-                          color: feature.textcolor || "white"
-                        }}
-                      >
-                        {feature.title}
-                      </h2>
-                    )}
+                    <div className="fBanner">
+                      {feature.title && (
+                        <div className="fBannerTitle">
+                          <h2
+                            style={{
+                              color: feature.textcolor || "white"
+                            }}
+                          >
+                            {feature.title}
+                          </h2>
+                        </div>
+                      )}
+                      {feature && feature.bokunLink && (
+                        <div className="fBannerButton">
+                          <button
+                            className="bokunButton"
+                            disabled
+                            id="bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091"
+                            data-src={feature.bokunLink}
+                          >
+                            {feature.bokunLinkText}
+                          </button>
+                        </div>
+                      )}
+                    </div>
                   </BackgroundImage>
                 </div>
               )}

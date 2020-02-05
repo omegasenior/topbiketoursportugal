@@ -6,6 +6,8 @@ export const query = graphql`
         title
         textcolor
         align
+        bokunLink
+        bokunLinkText
         image {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {

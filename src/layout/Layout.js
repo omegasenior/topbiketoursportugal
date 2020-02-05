@@ -232,6 +232,17 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => (
                       {feature.title}
                     </h2>
                   )}
+
+                  {feature.bokunLink && (
+                    <button
+                      class="bokunButton"
+                      disabled
+                      id="bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091"
+                      data-src={feature.bokunLink}
+                    >
+                      {feature.bokunLinkText}
+                    </button>
+                  )}
                 </BackgroundImage>
               </div>
             )}

@@ -6,7 +6,7 @@ import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
 import { sum } from "lodash-es";
-
+import { Helmet } from "react-helmet";
 // import Helmet from "react-helmet";
 // import styled from "styled-components";
 // import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -44,11 +44,11 @@ export const TourTemplate = ({
       </div>
       <div className="col-12 col-sm-8 tourBody">
         <div className="row h-100">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <h2>{title}</h2>
             <HTMLContent content={excerpt} />
           </div>
-          <div className="col-4 priceContainer text-center">
+          <div className="col-12 col-md-4 priceContainer text-center">
             {price && (
               <>
                 <div>From</div>

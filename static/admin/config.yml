@@ -554,6 +554,20 @@ collections:
               required: false,
               default: "center center",
             }
+          - {
+              label: Bokun Link,
+              name: bokunLink,
+              widget: string,
+              required: false,
+              default: "",
+          }
+          - {
+            label: Bokun Link Text,
+            name: bokunLinkText,
+            widget: string,
+            required: false,
+            default: "Book now",
+          } 
 
   - name: pages
     label: Pages
