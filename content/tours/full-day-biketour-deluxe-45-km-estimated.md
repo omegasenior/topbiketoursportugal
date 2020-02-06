@@ -176,6 +176,10 @@ feature:
   subtitle: Bicycle day tours Portugal
   textcolor: white
   title: Day tours
+  bokunLink: https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270683?partialView=1
+  bokunLinkText: Book now
+  bokunId: bokun_2fb8f8d8_37da_4447_8ebc_2c2739ca721c
+  
 ---
 # Full Day Biketour: Porto to Póvoa de Varzim
 

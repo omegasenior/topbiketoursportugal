@@ -148,6 +148,9 @@ feature:
   subtitle: Bicycle day tours Portugal
   textcolor: white
   title: Day tours
+  bokunLink: https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270681?partialView=1
+  bokunLinkText: Book now
+  bokunId: bokun_7ac28f81_1cb7_434c_bfe2_97a6e68ce947
 ---
 # Downtown and Sightseeing bike tour
 

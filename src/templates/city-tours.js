@@ -6,7 +6,6 @@ import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
 import { sum } from "lodash-es";
-import { Helmet } from "react-helmet";
 // import Helmet from "react-helmet";
 // import styled from "styled-components";
 // import { Col, Row, Container } from "@bootstrap-styled/v4";
@@ -77,8 +76,8 @@ export const TourTemplate = ({
 export const ToursListTemplate = ({ tours }) => (
   <>
     {tours &&
-      tours.map((tour, index) => (
-        <TourTemplate key={`ct` + index} {...tour} {...tour.frontmatter} />
+      tours.map((tour, jindex) => (
+        <TourTemplate key={`ct` + jindex} {...tour} {...tour.frontmatter} />
       ))}
   </>
 );
@@ -86,7 +85,7 @@ export const ToursListTemplate = ({ tours }) => (
 export const CityToursTemplate = ({ tours, body, afterList }) => (
   <section className="tourList">
     <HTMLContent className="row" content={body} />
-    <ToursListTemplate tours={tours} />
+    <ToursListTemplate key="tlt" tours={tours} />
     {afterList && <HTMLContent content={afterList} />}
   </section>
 );

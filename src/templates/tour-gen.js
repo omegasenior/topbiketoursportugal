@@ -19,10 +19,10 @@ import { HTMLContent, HTMLMarkdownContent } from "../components/Content";
 // import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
 // import scrollTo from "gatsby-plugin-smoothscroll";
 import { Waypoint } from "react-waypoint";
-import ScrollableAnchor, {
-  goToAnchor,
-  configureAnchors
-} from "react-scrollable-anchor";
+// import ScrollableAnchor, {
+//   goToAnchor,
+//   configureAnchors
+// } from "react-scrollable-anchor";
 import { Clock } from "styled-icons/fa-solid/Clock";
 import { Mountain } from "styled-icons/fa-solid/Mountain";
 import { Road } from "styled-icons/fa-solid/Road";
@@ -36,7 +36,7 @@ import "./tour-gen.scss";
 
 // import Box from "@material-ui/core/Box";
 // import { UserCheck } from "styled-icons/icomoon";
-configureAnchors({ offset: -140, scrollDuration: 200 });
+// configureAnchors({ offset: -140, scrollDuration: 200 });
 
 const StyledPaper = styled(Paper)`
   border-radius: 0;
@@ -115,7 +115,7 @@ function TourGen({ data }) {
 
   function handleChange(_, newValue) {
     setValue(newValue);
-    goToAnchor(anchors[newValue]);
+    // goToAnchor(anchors[newValue]);
   }
 
   function _handleWaypointEnter(_, newValue) {
@@ -172,7 +172,7 @@ function TourGen({ data }) {
           </div>
         </div>
       )}
-      <Waypoint onEnter={_handleWaypointEnter} onLeave={_handleWaypointLeave} />
+      {/* <Waypoint onEnter={_handleWaypointEnter} onLeave={_handleWaypointLeave} /> */}
       <div className="container">
         <StyledPaper className={stickyNav ? "sticky" : ""}>
           <Tabs
@@ -197,9 +197,9 @@ function TourGen({ data }) {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-8">
-            <ScrollableAnchor id={"information"}>
+            {/* <ScrollableAnchor id={"information"}> */}
               <HTMLContent className="container" content={tour.html} />
-            </ScrollableAnchor>
+            {/* </ScrollableAnchor> */}
           </div>
           <div className="col-12  col-md-4 tour-booking-overlay">
             <div className="tour-booking">
@@ -316,8 +316,9 @@ function TourGen({ data }) {
                           name="package"
                           data-required=""
                           className="form-control"
+                          defaultValue=""
                         >
-                          <option value="" selected="">
+                          <option value="">
                             -
                           </option>
                           <option value="Guided">Guided</option>
@@ -349,8 +350,9 @@ function TourGen({ data }) {
                           name="person"
                           data-required=""
                           className="form-control"
+                          defaultValue=""
                         >
-                          <option value="" selected="">
+                          <option value="">
                             -
                           </option>
                           <option value="1">1</option>
@@ -410,18 +412,18 @@ function TourGen({ data }) {
               <iframe src={tour.mapUrl} width={"100%"} height={"480"}></iframe>
             )}
             {tour.itinerary && (
-              <ScrollableAnchor id={"tour-plan"}>
+              // <ScrollableAnchor id={"tour-plan"}>
                 <div className="container">
                   <TourPlan tour={tour} {...settings}></TourPlan>
                 </div>
-              </ScrollableAnchor>
+              // </ScrollableAnchor>
             )}
             {tour.pricing && (
-              <ScrollableAnchor id={"pricing"}>
+              // <ScrollableAnchor id={"pricing"}>
                 <div className="container">
                   <TourPricing tour={tour}></TourPricing>
                 </div>
-              </ScrollableAnchor>
+              // </ScrollableAnchor>
             )}
 
             {/* <TourReviews tour={tour}></TourReviews> */}
@@ -436,11 +438,11 @@ function TourGen({ data }) {
             )}
 
             {tour.gallery && (
-              <ScrollableAnchor id={"gallery"}>
+              // <ScrollableAnchor id={"gallery"}>
                 <div className="container">
                   <TourGallery tour={tour} />
                 </div>
-              </ScrollableAnchor>
+              // </ScrollableAnchor>
             )}
 
             {/* <ScrollableAnchor id={"the-fine-print"}>

@@ -117,8 +117,9 @@ export const ContactPageTemplate = ({
                     name="package"
                     data-required=""
                     className="form-control"
+                    defaultValue=""
                   >
-                    <option value="" selected="">
+                    <option value="">
                       -
                     </option>
                     <option value="Guided">Guided</option>
@@ -150,8 +151,9 @@ export const ContactPageTemplate = ({
                     name="person"
                     data-required=""
                     className="form-control"
+                    defaultValue=""
                   >
-                    <option value="" selected="">
+                    <option value="">
                       -
                     </option>
                     <option value="1">1</option>

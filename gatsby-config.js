@@ -120,12 +120,19 @@ module.exports = {
       options: {
         // include the PureChat js snippet
         enabled: true,
-        // your website id, extract from the snippet provided by purechat 
-        websiteId: `edb60542-b472-406a-8d78-e833449c21d8`, 
+        // your website id, extract from the snippet provided by purechat
+        websiteId: `edb60542-b472-406a-8d78-e833449c21d8`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-tawk`,
+    {
+      resolve: `gatsby-plugin-load-script`,
+      options: {
+        disable: false, 
+        src: `https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=78235668-9ba3-43e0-b6a9-4b5322217da3`,
+        onLoad: `() => console.log('deu')`
+      }
+    },
+    //   resolve: `gatsby-plugin-tawk`, {
     //   options: {
     //     tawkId: "5862998cddb8373fd2b445cf"
     //     // get this from the tawk script widget
@@ -345,8 +352,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '2701463496558439',
-      },
+        pixelId: "2701463496558439"
+      }
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-netlify" // make sure to keep it last in the array

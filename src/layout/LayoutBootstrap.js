@@ -204,17 +204,12 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
               />
-              {feature && feature.bokunLink && (
+              {/* {feature && feature.bokunLink && (
                 <script
-                  src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=8e9ade62-3b4e-4ab4-9f37-983ece1e2e24"
-                  async
+                  src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=78235668-9ba3-43e0-b6a9-4b5322217da3"
+                  
                 ></script>
-              )}
-              {/* <script
-                key="gatsby-plugin-tawk"
-                src="https://embed.tawk.to/5862998cddb8373fd2b445cf/default"
-                async
-              /> */}
+              )} */}
             </Helmet>
             <Meta
               googleTrackingId={googleTrackingId}
@@ -265,8 +260,8 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                         <div className="fBannerButton">
                           <button
                             className="bokunButton"
-                            disabled
-                            id="bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091"
+                            
+                            id={feature.bokunId}
                             data-src={feature.bokunLink}
                           >
                             {feature.bokunLinkText}

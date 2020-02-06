@@ -128,6 +128,9 @@ feature:
   subtitle: Bicycle day tours Portugal
   textcolor: white
   title: Day tours
+  bokunLink: https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270680?partialView=1
+  bokunLinkText: Book now
+  bokunId: bokun_10409f20_b14f_46e7_8efe_34f9cebdb73e
 ---
 # Walking tour - Oporto’s Downtown
 

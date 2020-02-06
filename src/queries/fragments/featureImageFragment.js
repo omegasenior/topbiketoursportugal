@@ -7,6 +7,7 @@ export const query = graphql`
         textcolor
         align
         bokunLink
+        bokunId
         bokunLinkText
         image {
           childImageSharp {

@@ -92,10 +92,10 @@ body {
   padding: 25px;
 }
 
-#bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091 {
+.bokunButton {
   display: inline-block;
   padding: 10px 20px;
-  background: #D8532A;
+  background: #d8532a;
   border-radius: 5px;
   box-shadow: none;
   font-weight: 600;
@@ -107,9 +107,9 @@ body {
   cursor: pointer;
   border: none;
 }
-#bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091:hover {
-  background: #D8532A;
+.bokunButton:hover {
+  background: #d8532a;
 }
-#bokun_237b8c5a_4b0e_4f52_b11c_7d1bcb220091:active {
-  background: #D8532A;
+.bokunButton:active {
+  background: #d8532a;
 }

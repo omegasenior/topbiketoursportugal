@@ -127,7 +127,6 @@ const NavbarComponent = class extends React.Component {
             </div>
             <Nav
               menu={this.props.menu}
-              ref={this.navBar}
               className={this.state.stickyNav ? "sticky" : ""}
             ></Nav>
           </div>
