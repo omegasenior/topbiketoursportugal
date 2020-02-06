@@ -149,6 +149,9 @@ pricing:
     price: 129
 feature:
   align: center
+  bokunLink: >-
+    https://widgets.bokun.io/online-sales/8e9ade62-3b4e-4ab4-9f37-983ece1e2e24/experience/270682?partialView=1
+  bokunLinkText: Book Now
   image: /img/44817961982_440e783762_o.jpg
   imageAlign: center center
   subtitle: Bicycle day tours Portugal
