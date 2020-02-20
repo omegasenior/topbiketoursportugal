@@ -125,18 +125,17 @@ pricing:
     highSeasonPriceSupplement: 100
     package: Private Price per person
     packageContents: []
-    price: 65
+    price: 71
 feature:
   align: center
-  bokunLink: https://widgets.bokun.io/online-sales/8e9ade62-3b4e-4ab4-9f37-983ece1e2e24/experience/270685?partialView=1
+  bokunLink: >-
+    https://widgets.bokun.io/online-sales/8e9ade62-3b4e-4ab4-9f37-983ece1e2e24/experience/270685?partialView=1
   bokunLinkText: Book now
-  bokunId: bokun_82d41c52_2996_415a_8541_e6c619200d2e
   image: /img/44817961982_440e783762_o.jpg
   imageAlign: center center
   subtitle: Bicycle day tours Portugal
   textcolor: white
   title: Day tours
-  
 ---
 # E Bike tour Porto Downtown and Sightseeing bike tour
 
