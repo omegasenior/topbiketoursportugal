@@ -34,6 +34,8 @@ bikes:
     type: Mountain bike
   - image: /img/ktm-macina.jpg
     type: Electric bicycles
+  - image: /img/cube-acid-500-trapeze-1-.jpg
+    type: Electric bicycles
 equipment:
   - description: >-
       **Kross TRANS 5.0**
@@ -62,13 +64,16 @@ equipment:
 
       * 18 gears with shimano group set
 
-
-
       **Specialized Women's Pitch Comp 27.5**
 
       * 27 gears with shimano group set
 
-      **KTM Macina electric bicycle**
+      **KTM Macina electric bicycle 500 wh**
+
+      * 9 gears with shimano group set
+      * Bosch electric motor
+
+      **Cube Acid 500 wh electric bicycle**
 
       * 9 gears with shimano group set
       * Bosch electric motor
