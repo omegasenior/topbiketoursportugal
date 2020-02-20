@@ -20,6 +20,8 @@ bikes:
     type: Mountain bike
   - image: /img/ktm-macina.jpg
     type: Electric bicycles
+  - image: /img/cube-acid-500-trapeze-1-.jpg
+    type: Electric bicycles
 equipment:
   - description: >-
 
@@ -44,8 +46,6 @@ equipment:
       * 22 gears with shimano 105 11-speed build kit
     type: Road bike
   - description: |-
-
-
       **Trek X-Caliber 7**
 
       * 18 gears with shimano group set
@@ -55,6 +55,11 @@ equipment:
       * 27 gears with shimano group set
 
       **KTM Macina electric bicycle**
+
+      * 9 gears with shimano group set
+      * Bosch electric motor
+
+      **Cube Acid 500 wh electric bicycle**
 
       * 9 gears with shimano group set
       * Bosch electric motor
