@@ -499,7 +499,7 @@ export const tourGenQuery = graphql`
           alt
           image {
             childImageSharp {
-              fluid(quality: 60, maxWidth: 1920) {
+              fluid(quality: 60, maxWidth: 1444) {
                 ...GatsbyImageSharpFluid
               }
             }

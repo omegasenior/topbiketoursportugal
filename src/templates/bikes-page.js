@@ -115,7 +115,7 @@ export const bikesPageQuery = graphql`
           type
           image {
             childImageSharp {
-              fluid(quality: 90, maxWidth: 700) {
+              fluid(quality: 85, maxWidth: 700) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }

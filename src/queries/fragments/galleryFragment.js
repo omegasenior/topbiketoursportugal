@@ -6,7 +6,7 @@ export const query = graphql`
         alt
         image {
           childImageSharp {
-            fluid(quality: 60, maxWidth: 1920) {
+            fluid(quality: 85, maxWidth: 760) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

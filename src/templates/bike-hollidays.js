@@ -306,7 +306,7 @@ export const pageQuery = graphql`
           language
           image {
             childImageSharp {
-              fluid(quality: 90, maxWidth: 1920) {
+              fluid(quality: 85, maxWidth: 1444) {
                 ...GatsbyImageSharpFluid_tracedSVG
               }
             }
