@@ -210,6 +210,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       frontmatter: Frontmatter!
     }
 
+    type Feature @infer {
+      title: String
+      textcolor: String
+      align: String
+      bokunLink: String
+      bokunId: String
+      bokunLinkText: String
+    }
+
     type Pricing @infer {
       discount: Float
       price: Float
@@ -241,6 +250,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       pricing: [Pricing]
       afterequipment: String
       mapUrl: String
+      feature: Feature
     }
     
   `;
@@ -300,8 +310,6 @@ exports.createSchemaCustomization = ({ actions }) => {
 //   return path;
 // }
 
-
-
 // exports.createSchemaCustomization = ({ actions }) => {
 //   const { createTypes } = actions;
 //   const typeDefs = `
@@ -343,7 +351,6 @@ exports.createSchemaCustomization = ({ actions }) => {
 //     });
 //   });
 // }
-
 
 // exports.createPages = ({ actions: { createPage } }) => {
 //   createPage({
