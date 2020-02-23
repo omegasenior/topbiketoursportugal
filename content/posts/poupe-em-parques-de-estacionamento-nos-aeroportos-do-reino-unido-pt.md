@@ -22,4 +22,4 @@ Para aqueles que viajam em bicicleta própria, um serviço de Meet and Greet é 
 
 Faça com que o começo da sua viagem em bicicleta em Portugal seja o mais simples e relaxada possível e reserve o seu estacionamento no aeroporto de modo a que consiga poupar no mesmo.
 
-![](/img/bigplane.png)
+![Poupe em parques de estacionamento nos Aeroportos do Reino Unido](/img/bigplane.png "Poupe em parques de estacionamento nos Aeroportos do Reino Unido")
