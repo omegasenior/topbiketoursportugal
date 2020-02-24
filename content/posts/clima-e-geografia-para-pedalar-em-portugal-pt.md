@@ -3,7 +3,7 @@ templateKey: blog-post
 path: pt/blog/Clima-e-Geografia-para-pedalar-em-Portugal
 title: Clima e Geografia para pedalar em Portugal
 language: pt
-date: 2020-02-26T18:03:05.525Z
+date: 2020-02-24T18:03:05.525Z
 featuredImage: /img/mapa_final_novologo_-04-100-pixeis.png
 featuredImagePosition: center center
 meta:
