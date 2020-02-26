@@ -82,7 +82,10 @@ feature:
 **Cycling holidays Equipment**
 
 * Helmet
-* Bike tool kit for quick repairs
+* Bike tool kit for quick repairs (pump. inner tubes)
+* Water bottle
+* Lights
+* Locks
 * GPS Garmin
 
 **Roadbook**
