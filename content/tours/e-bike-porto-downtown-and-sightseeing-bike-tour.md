@@ -125,11 +125,12 @@ pricing:
     highSeasonPriceSupplement: 100
     package: Private Price per person
     packageContents: []
-    price: 71
+    price: 65
 feature:
   align: center
-  bokunLink: https://widgets.bokun.io/online-sales/8e9ade62-3b4e-4ab4-9f37-983ece1e2e24/experience/270685?partialView=1
-  bokunId: bokun_5fc0fc51_720a_4248_8f6b_2604ec218ffe
+  bokunId: bokun_0e96d140_057a_4ba8_9041_cd6a6e28079c
+  bokunLink: >-
+    https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270685?partialView=1
   bokunLinkText: Book now
   image: /img/44817961982_440e783762_o.jpg
   imageAlign: center center

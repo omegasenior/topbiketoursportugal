@@ -51,4 +51,4 @@ If your looking for a guided bike tour in Portugal check our [**Calendar**](http
 
 ## It is easy to book with us!
 
-Contact us thru our contact form or just email us. Request information about the cycling tour packages available is our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
+Contact us thru our contact form or just email us. Request information about the cycling tour packages available isn our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
