@@ -115,23 +115,23 @@ module.exports = {
     //     }
     //   }
     // },
-    {
-      resolve: `@mangoart/gatsby-plugin-purechat`,
-      options: {
-        // include the PureChat js snippet
-        enabled: true,
-        // your website id, extract from the snippet provided by purechat
-        websiteId: `edb60542-b472-406a-8d78-e833449c21d8`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-load-script`,
-      options: {
-        disable: false, 
-        src: `https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=78235668-9ba3-43e0-b6a9-4b5322217da3`,
-        onLoad: `() => console.log('deu')`
-      }
-    },
+    // {
+    //   resolve: `@mangoart/gatsby-plugin-purechat`,
+    //   options: {
+    //     // include the PureChat js snippet
+    //     enabled: true,
+    //     // your website id, extract from the snippet provided by purechat
+    //     websiteId: `edb60542-b472-406a-8d78-e833449c21d8`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-load-script`,
+    //   options: {
+    //     disable: false, 
+    //     src: `https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=78235668-9ba3-43e0-b6a9-4b5322217da3`,
+    //     onLoad: `() => console.log('deu')`
+    //   }
+    // },
     //   resolve: `gatsby-plugin-tawk`, {
     //   options: {
     //     tawkId: "5862998cddb8373fd2b445cf"
