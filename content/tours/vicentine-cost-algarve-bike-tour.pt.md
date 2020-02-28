@@ -40,7 +40,7 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 400
+distance: 333
 distanceUnit: Km
 duration: 8
 durationUnit: Dias | 7 Noites
@@ -414,13 +414,13 @@ Dia 3 - Troia - Vila Nova de Santo André (66 Km)
 
 Dia 4 – Vila Nova de Santo André – Vila Nova de Mil Fontes (55 km)
 
-Dia 5 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
+Dia 5 – Vila Nova de Mil Fontes – Zambujeira do Mar (35 km)
 
 Dia 6 – Zambujeira do Mar – Aljezur (45 km)
 
 Dia 7 – Aljezur – Carrapateira (30 km)
 
-Dia 8 - Carrapateira – Sagres (54 km)
+Dia 8 - Carrapateira – Sagres (37 km)
 
 Dia 9 - Sagres – Lagos (45 km)
 
@@ -431,21 +431,20 @@ Dia 10 - Transfere
 \
 **Opção reduzida:**
 
-
-**KM:** 254 km , Elevation: 2528 metres ascent and 2538 meters descent
+**KM:** 227 km , Elevation: 2528 metres ascent and 2538 meters descent
 \
 \
 Dia 1 – Lisboa pick up
 
-Dia 2 – Sines - Vila Nova de Mil Fontes (40 km)
+Dia 2 – Sines - Vila Nova de Mil Fontes (35 km)
 
-Dia 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
+Dia 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (35 km)
 
 Dia 4 – Zambujeira do Mar – Aljezur (45 km)
 
 Dia 5 – Aljezur – Carrapateira (30 km)
 
-Dia 6 - Carrapateira – Sagres (54 km)
+Dia 6 - Carrapateira – Sagres (37 km)
 
 Dia 7 - Sagres – Lagos (45 km)
 
