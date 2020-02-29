@@ -40,7 +40,7 @@ const Tourhighlights = ({
             image {
               childImageSharp {
                 fluid(quality: 85, maxWidth: 1444) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
                 }
               }
             }
