@@ -40,7 +40,7 @@ groupSizeMax: 1
 groupSizeMin: -2
 minAge: 1
 skillLevel: 1
-distance: 400
+distance: 333
 distanceUnit: Km
 duration: 8
 durationUnit: Days | 7 Nights
@@ -412,19 +412,19 @@ Average temperatures in the Algarve, south of Portugal, are usually around 17ºC
 \
 Day 1 – Lisbon
 
-Day 2 -  Lisboa – Troia (65 km) * moderate dificulty
+Day 2 -  Lisboa – Troia (65 km) 
 
 Day 3 - Troia - Vila Nova de Santo André (66 Km)
 
 Day 4 – Vila Nova de Santo André – Vila Nova de Mil Fontes (55 km)
 
-Day 5 – VNMF – Zambujeira do Mar (40 km)
+Day 5 – VNMF – Zambujeira do Mar (35 km)
 
 Day 6 – Zambujeira do Mar – Aljezur (45 km)
 
 Day 7 – Aljezur – Carrapateira (30 km)
 
-Day 8 - Carrapateira – Sagres (54 km)
+Day 8 - Carrapateira – Sagres (37 km)
 
 Day 9 -  Sagres – Lagos (45 km)
 
@@ -435,21 +435,20 @@ Day 10 - Departure
 \
 **Reduced Option:**
 
-
-**KM:** 254 km, Elevation: 2528 meters ascent and 2538 meters descent
+**KM:** 227 km, Elevation: 2528 meters ascent and 2538 meters descent
 \
 \
 Day 1 – Lisbon Reception
 
-Day 2 – Sines - Vila Nova de Mil Fontes (40 km)
+Day 2 – Sines - Vila Nova de Mil Fontes (35 km)
 
-Day 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (40 km)
+Day 3 – Vila Nova de Mil Fontes – Zambujeira do Mar (35 km)
 
 Day 4 – Zambujeira do Mar – Aljezur (45 km)
 
 Day 5 – Aljezur – Carrapateira (30 km)
 
-Day 6 - Carrapateira – Sagres (54 km)
+Day 6 - Carrapateira – Sagres (37 km)
 
 Day 7 -  Sagres – Lagos (45 km)
 
