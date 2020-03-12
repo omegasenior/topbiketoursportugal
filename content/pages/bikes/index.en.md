@@ -39,6 +39,8 @@ bikes:
     type: Electric bicycles
   - image: /img/cube-acid-500-trapeze-1-.jpg
     type: Electric bicycles
+  - image: /img/331051e_light-3-.jpg
+    type: Electric bicycles
 equipment:
   - description: >-
       **Kross TRANS 5.0**
@@ -70,7 +72,8 @@ equipment:
       **Specialized Women's Pitch Comp 27.5**
 
       * 27 gears with shimano group set
-
+    type: Mountain Bike - MTB
+  - description: |-
       **KTM Macina electric bicycle 500 wh**
 
       * 9 gears with shimano group set
@@ -80,7 +83,12 @@ equipment:
 
       * 9 gears with shimano group set
       * Bosch electric motor
-    type: Mountain Bike - MTB
+
+      **Cube Touring 500 wh e-bike**
+
+      * 9 gears with shimano group set
+      * Bosch electric motor
+    type: Electric Bicycles
 meta:
   description: >-
     Select your bike tour from our cycling tour list. Decide where to go with us
