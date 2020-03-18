@@ -4,7 +4,7 @@ path: /
 title: Home
 meta:
   description: >-
-    Bike tours Portugal: Are you lost in Portugal?Check out our Porto city
+    Portugal Bike tours: Are you lost in Portugal?Check out our Porto city
     bicycle tours, as well as our guided and self guided cycling holidays in
     Portugal. Bike tour routes are available to be done in a hybrid bicycle,
     mountain bicycle or road bike.
