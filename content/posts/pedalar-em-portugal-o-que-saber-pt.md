@@ -16,6 +16,7 @@ meta:
   title: 'Pedalar em Portugal: O que saber!'
   language: PT
 languagePages: []
+showHome: true
 ---
 # Pedalar em Portugal
 

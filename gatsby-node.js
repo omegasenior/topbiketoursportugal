@@ -251,6 +251,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       afterequipment: String
       mapUrl: String
       feature: Feature
+      showHome: boolean
     }
     
   `;

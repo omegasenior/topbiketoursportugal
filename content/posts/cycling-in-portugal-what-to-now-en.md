@@ -18,6 +18,7 @@ meta:
   title: 'Cycling In Portugal: What to know!'
   language: EN
 languagePages: []
+showHome: true
 ---
 # Cycling in Portugal
 

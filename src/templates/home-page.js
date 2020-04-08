@@ -9,16 +9,19 @@ import ReviewsHighlights from "../components/ReviewsHighlights";
 // import Partners from "../components/Partners";
 import { ChevronCircleDown } from "styled-icons/fa-solid/ChevronCircleDown";
 import "./home-page.mod.scss";
-
+import PostSection from "../components/PostSection";
+import showdown from "showdown";
 export const HomePageTemplate = ({
   title,
   content,
   contentComponent,
   toursection,
-  language
+  blogsection,
+  language,
+  posts,
 }) => {
   // const PageContent = contentComponent || Content;
-
+  const converter = new showdown.Converter();
   return (
     <>
       <Scroll type="class" element="home" offset={-100}>
@@ -52,6 +55,26 @@ export const HomePageTemplate = ({
         {...toursection}
       />
 
+      {!!posts.length && (
+        <>
+          <HTMLContent
+            className="text-center"
+            content={converter.makeHtml(blogsection.heading)}
+          />
+          <section className="section">
+            <div className="container">
+              <PostSection
+                posts={posts.map((post) => ({
+                  ...post,
+                  ...post.frontmatter,
+                  ...post.fields,
+                }))}
+              />
+            </div>
+          </section>
+        </>
+      )}
+
       {/* <Scroll type="class" element="home" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>
         </Scroll> */}
@@ -69,11 +92,12 @@ HomePageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   toursection: PropTypes.any,
-  language: PropTypes.string
+  language: PropTypes.string,
 };
 
 const HomePage = ({ data }) => {
   const { markdownRemark: post } = data;
+  const posts = data.posts.nodes;
   const language = post.frontmatter.language || `en`;
   return (
     <Layout language={language} meta={post.frontmatter.meta || false}>
@@ -82,20 +106,22 @@ const HomePage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         toursection={post.frontmatter.toursection}
+        blogsection={post.frontmatter.blogsection}
         language={language}
+        posts={posts}
       />
     </Layout>
   );
 };
 
 HomePage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default HomePage;
 
 export const homePageQuery = graphql`
-  query HomePage($id: String!) {
+  query HomePage($id: String!, $language: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -109,6 +135,42 @@ export const homePageQuery = graphql`
           description
           descriptionafter
           heading
+        }
+        blogsection {
+          description
+          descriptionafter
+          heading
+        }
+      }
+    }
+    posts: allMarkdownRemark(
+      filter: {
+        fields: { contentType: { eq: "posts" } }
+        frontmatter: { language: { eq: $language }, showHome: { eq: true } }
+      }
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 3
+    ) {
+      nodes {
+        excerpt(pruneLength: 280)
+        fields {
+          slug
+          localizedPath
+        }
+        frontmatter {
+          title
+          path
+          date
+          categories {
+            category
+          }
+          featuredImage {
+            childImageSharp {
+              fluid(quality: 85, maxWidth: 1444) {
+                ...GatsbyImageSharpFluid_withWebp_noBase64
+              }
+            }
+          }
         }
       }
     }

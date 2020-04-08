@@ -20,6 +20,7 @@ meta:
 languagePages:
   - path: /artigo de bloguer no caminho de santiago em bicicleta/
     language: pt
+showHome: true
 ---
 # Artigo de Darren Alff sobre passeio de bicicleta até Santiago de Compostela
 

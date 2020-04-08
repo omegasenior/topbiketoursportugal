@@ -102,6 +102,10 @@ collections:
         name: path
         widget: string
         required: false
+      - label: Display Home Page
+        name: showHome
+        widget: boolean
+        default: false
       - label: Title
         name: title
         widget: string
@@ -630,6 +634,19 @@ collections:
                 }
           - label: TourSection
             name: toursection
+            widget: object
+            fields:
+              - label: Heading
+                name: heading
+                widget: markdown
+              - label: Description
+                name: description
+                widget: markdown
+              - label: DescriptionAfter
+                name: descriptionafter
+                widget: markdown
+          - label: BlogSection
+            name: blogsection
             widget: object
             fields:
               - label: Heading

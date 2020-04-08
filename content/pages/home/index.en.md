@@ -21,6 +21,14 @@ toursection:
     of excellent hotel services and catering, paths and landscapes that surprise
     and exceeded expectations.
   heading: "## PORTUGAL BIKE TOURS\n\n## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
+blogsection:
+  description: '## Popular bike tours in Portugal'
+  descriptionafter: >-
+    _**Bike tours Portugal**:_ The combined experience of our team allows us to
+    combine cycling with the historical component and gastronomy. Connoisseurs
+    of excellent hotel services and catering, paths and landscapes that surprise
+    and exceeded expectations.
+  heading: "## Latest blog posts"
 ---
 # Portugal Bike Tours
 

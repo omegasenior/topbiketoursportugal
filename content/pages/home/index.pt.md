@@ -26,6 +26,14 @@ meta:
     guiados, bike tours, cycling holidays
   robots: INDEX
   title: Bike Tours Portugal - Férias em bicicleta
+blogsection:
+  description: '## Popular bike tours in Portugal'
+  descriptionafter: >-
+    _**Bike tours Portugal**:_ The combined experience of our team allows us to
+    combine cycling with the historical component and gastronomy. Connoisseurs
+    of excellent hotel services and catering, paths and landscapes that surprise
+    and exceeded expectations.
+  heading: "## Últimos blog posts"
 ---
 # Descubra Portugal em bicicleta com Top Bike Tours Portugal
 

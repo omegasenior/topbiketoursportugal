@@ -19,6 +19,7 @@ meta:
 languagePages:
   - path: /artigo de bloguer no caminho de santiago em bicicleta/
     language: pt
+showHome: true
 ---
 # Darren Alff article about our bike tour The Way of Saint James
 

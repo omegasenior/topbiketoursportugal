@@ -19,6 +19,7 @@ meta:
 languagePages:
   - path: /beneficios do seu primeiro passeio em bicicleta/
     language: pt
+showHome: true
 ---
 # Os benefícios do seu primeiro passeio de bicicleta!
 
