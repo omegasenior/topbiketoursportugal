@@ -2595,11 +2595,39 @@ collections:
       - label: Date
         name: date
         widget: date
+      - {
+        label: ReviewSource,
+        name: reviewSource,
+        widget: string,
+        required: false
+      }
+      - {
+        label: Rating,
+        name: rating,
+        widget: number,
+        min: 0,
+        max: 5,
+        default: 0,
+        step: 0.5,
+        valueType: "foat",
+        required: false
+      }
+      - {
+        label: RatingCount,
+        name: ratingCount,
+        widget: number,
+        default: 0,
+        min: 0,
+        step: 1,
+        valueType: "int",
+        required: false
+      }
       - label: Author
         name: author
+
         widget: object
         fields:
-          - { label: Name, name: name, widget: string, default: "Emmet" }
+          - { label: Name, name: name, widget: string }
           - {
               label: Country,
               name: country,
@@ -2613,12 +2641,23 @@ collections:
               widget: image,
               default: "/img/emmet.jpg",
             }
-      - label: "Tour"
-        name: "tour"
-        widget: "relation"
-        collection: "tours"
-        displayFields: ["productcode", "title", "slug", "language"]
-        searchFields: ["title", "slug", "productcode"]
-        valueField: "id"
-        required: false
-        multiple: false
+          - {
+              label: ReviewerSource,
+              name: reviewerSource,
+              widget: string,
+              required: false
+            }
+         
+      - label: RelatedProducts
+        name: relatedProducts
+        widget: list
+        fields:
+        - label: "Tour"
+          name: "tour"
+          widget: "relation"
+          collection: "tours"
+          displayFields: ["productcode", "title", "slug", "language"]
+          searchFields: ["title", "slug", "productcode"]
+          valueField: "id"
+          required: false
+          multiple: false
