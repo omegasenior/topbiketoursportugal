@@ -2,4 +2,4 @@
   publish = "public"
   command = "npm run build"
 [build.environment]
-  NPM_VERSION = "12.16.1"
+  NPM_VERSION = "12.x"
