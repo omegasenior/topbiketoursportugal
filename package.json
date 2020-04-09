@@ -122,7 +122,7 @@
     "styled-button-component": "^4.0.0",
     "styled-components": "^5.1.0",
     "styled-container-component": "^4.0.0",
-    "styled-icons": "#9.4.0",
+    "styled-icons": "9.4.0",
     "styled-nav-component": "^4.0.0",
     "uuid": "^7.0.3",
     "uuid-validate": "0.0.3"
