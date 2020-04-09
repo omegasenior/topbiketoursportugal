@@ -264,11 +264,26 @@ module.exports = {
     //     }
     //   }
     // },
+    // {
+    //   resolve: "gatsby-plugin-netlify-cms",
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`
+    //   }
+    // },
     {
-      resolve: "gatsby-plugin-netlify-cms",
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        // manualInit: true,
+        // enableIdentityWidget: false,
+        // customizeWebpackConfig: (config, { plugins }) => {
+        //   config.plugins.push(
+        //     plugins.define({
+        //       __MANIFEST_PLUGIN_HAS_LOCALISATION__: JSON.stringify('false'),
+        //     }),
+        //   );
+        // },
+      },
     },
     `gatsby-transformer-json`,
     {
