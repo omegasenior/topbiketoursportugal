@@ -20,7 +20,7 @@ toursection:
     combine cycling with the historical component and gastronomy. Connoisseurs
     of excellent hotel services and catering, paths and landscapes that surprise
     and exceeded expectations.
-  heading: "## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
+  heading: "## BIKE TOURS PORTUGAL\n\n## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
 blogsection:
   description: '## Popular bike tours in Portugal'
   descriptionafter: >-
