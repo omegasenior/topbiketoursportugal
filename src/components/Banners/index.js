@@ -66,7 +66,7 @@ const Banners = ({ className }) => (
                   {item.description && <h2>{item.title}</h2>}
                   {item.description && <p>{item.description}</p>}
                   {item.goto && item.goto.link && (
-                    <button className="action" to={item.goto.link}>{item.goto.linktext}</button>
+                    <a className="action" href={item.goto.link}>{item.goto.linktext}</a>
                   )}
                 </div>
                 {/* </Content> */}
