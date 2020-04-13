@@ -9,7 +9,7 @@ meta:
     Portugal. Bike tour routes are available to be done in a hybrid bicycle,
     mountain bicycle or road bike.
   keywords: >-
-    portugal bike tours,cycling holidays portugal,bike tours portugal,bike tours
+    portugal bike tours,cycling holidays portugal,biketours portugal,bike tours
     porto,cycling portugal
   robots: INDEX
   title: Portugal Bike Tours - Cycling Holidays Portugal
@@ -20,7 +20,7 @@ toursection:
     combine cycling with the historical component and gastronomy. Connoisseurs
     of excellent hotel services and catering, paths and landscapes that surprise
     and exceeded expectations.
-  heading: "## PORTUGAL BIKE TOURS\n\n## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
+  heading: "## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
 blogsection:
   description: '## Popular bike tours in Portugal'
   descriptionafter: >-
@@ -28,7 +28,7 @@ blogsection:
     combine cycling with the historical component and gastronomy. Connoisseurs
     of excellent hotel services and catering, paths and landscapes that surprise
     and exceeded expectations.
-  heading: "## Latest blog posts"
+  heading: '## Latest blog posts'
 ---
 # Portugal Bike Tours
 
