@@ -9,7 +9,7 @@ class ReadMore extends Component {
 
     this.state = {
       expanded: false,
-      truncated: false
+      truncated: false,
     };
 
     this.handleTruncate = this.handleTruncate.bind(this);
@@ -19,7 +19,7 @@ class ReadMore extends Component {
   handleTruncate(truncated) {
     if (this.state.truncated !== truncated) {
       this.setState({
-        truncated
+        truncated,
       });
     }
   }
@@ -28,8 +28,9 @@ class ReadMore extends Component {
     event.preventDefault();
 
     this.setState({
-      expanded: !this.state.expanded
+      expanded: !this.state.expanded,
     });
+    return false;
   }
 
   render() {
@@ -44,9 +45,13 @@ class ReadMore extends Component {
           ellipsis={
             <span>
               ...
-              <a className="moreBtn" href="#" onClick={this.toggleLines}>
+              <button
+                className="moreBtn"
+                onClick={this.toggleLines}
+                onKeyDown={this.toggleLines}
+              >
                 {more}
-              </a>
+              </button>
             </span>
           }
           onTruncate={this.handleTruncate}
@@ -55,9 +60,14 @@ class ReadMore extends Component {
         </Truncate>
         {!truncated && expanded && (
           <span>
-            <a className="moreBtn" href="#" onClick={this.toggleLines}>
+            <button
+              type="button"
+              className="moreBtn"
+              onClick={this.toggleLines}
+              onKeyDown={this.toggleLines}
+            >
               {less}
-            </a>
+            </button>
           </span>
         )}
       </div>
@@ -68,14 +78,14 @@ class ReadMore extends Component {
 ReadMore.defaultProps = {
   lines: 3,
   more: "Read more",
-  less: "Show less"
+  less: "Show less",
 };
 
 ReadMore.propTypes = {
   children: PropTypes.node.isRequired,
   lines: PropTypes.number,
   less: PropTypes.string,
-  more: PropTypes.string
+  more: PropTypes.string,
 };
 
 export default ReadMore;

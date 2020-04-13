@@ -2,7 +2,7 @@ import React from "react";
 // import './Logo.css'
 // import languages from "../data/languages";
 import { Link } from "gatsby";
-import FlagIconFactory from "react-flag-icon-css";
+// import FlagIconFactory from "react-flag-icon-css";
 
 import "./LanguageSwitcher.scss"
 
@@ -22,6 +22,6 @@ const LanguageSwitcher = ({ language, languageAlternateLinks }) => (
   </>
 );
 
-const FlagIcon = FlagIconFactory(React, { useCssModules: false });
+// const FlagIcon = FlagIconFactory(React, { useCssModules: false });
 
 export default LanguageSwitcher;

@@ -30,7 +30,8 @@ const AnchorLink = ({
   }
 
   return (
-    <a href={href} className={`AnchorLink ${className}`} onClick={handleClick}>
+    <a href={href} className={`AnchorLink ${className}`} onClick={handleClick}
+    onKeyDown={this.handleClick}>
       {children}
     </a>
   )

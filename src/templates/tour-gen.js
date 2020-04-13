@@ -3,12 +3,8 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
-import {
-  TourGallery,
-  TourPlan,
-  TourPricing
-} from "../components/Tour/index";
-// import Helmet from "react-helmet";
+import { TourGallery, TourPlan, TourPricing } from "../components/Tour/index";
+// import { Helmet } from "react-helmet";
 // import BackgroundImage from "gatsby-background-image";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
@@ -16,26 +12,27 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 // import { Container } from "styled-container-component";
 import { HTMLContent, HTMLMarkdownContent } from "../components/Content";
-// import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
+// import { CheckCircle } from "@styled-icons/boxicons-regular/CheckCircle";
 // import scrollTo from "gatsby-plugin-smoothscroll";
-import { Waypoint } from "react-waypoint";
-// import ScrollableAnchor, {
-//   goToAnchor,
-//   configureAnchors
-// } from "react-scrollable-anchor";
-import { Clock } from "styled-icons/fa-solid/Clock";
-import { Mountain } from "styled-icons/fa-solid/Mountain";
-import { Road } from "styled-icons/fa-solid/Road";
-import { Tag } from "styled-icons/fa-solid/Tag";
+// import { Waypoint } from "react-waypoint";
+import ScrollableAnchor, {
+  goToAnchor,
+  configureAnchors,
+} from "react-scrollable-anchor";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Clock } from "@styled-icons/fa-solid/Clock";
+import { Mountain } from "@styled-icons/fa-solid/Mountain";
+import { Road } from "@styled-icons/fa-solid/Road";
+import { Tag } from "@styled-icons/fa-solid/Tag";
 
 import "./tour-gen.scss";
 
-// import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
+// import { CancelCircle } from "@styled-icons/icomoon/CancelCircle";
 
-// import { Youtube } from "styled-icons/boxicons-regular/CheckCircle";
+// import { Youtube } from "@styled-icons/boxicons-regular/CheckCircle";
 
 // import Box from "@material-ui/core/Box";
-// import { UserCheck } from "styled-icons/icomoon";
+// import { UserCheck } from "@styled-icons/icomoon";
 // configureAnchors({ offset: -140, scrollDuration: 200 });
 
 const StyledPaper = styled(Paper)`
@@ -80,13 +77,13 @@ function TabPanel({ children, value, index, ...other }) {
 TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired
+  value: PropTypes.any.isRequired,
 };
 
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`
+    "aria-controls": `simple-tabpanel-${index}`,
   };
 }
 
@@ -101,7 +98,7 @@ function TourGen({ data }) {
     "tour-plan",
     "gallery",
     /*"reviews",*/ "pricing",
-    "the-fine-print"
+    "the-fine-print",
   ];
 
   function getDifficultyText(language, difficulty) {
@@ -115,16 +112,16 @@ function TourGen({ data }) {
 
   function handleChange(_, newValue) {
     setValue(newValue);
-    // goToAnchor(anchors[newValue]);
+    goToAnchor(anchors[newValue]);
   }
 
-  function _handleWaypointEnter(_, newValue) {
-    setNavState(false);
-  }
+  // function _handleWaypointEnter(_, newValue) {
+  //   setNavState(false);
+  // }
 
-  function _handleWaypointLeave(_, newValue) {
-    setNavState(true);
-  }
+  // function _handleWaypointLeave(_, newValue) {
+  //   setNavState(true);
+  // }
 
   var difficultyText = {
     en: ["Easy", "Easy to moderate", "Moderate", "Moderate to hard", "Hard"],
@@ -133,10 +130,9 @@ function TourGen({ data }) {
       "Fácil a moderado",
       "Moderado",
       "Moderade a difícil",
-      "Difícil"
-    ]
+      "Difícil",
+    ],
   };
-  // const difficultyText = ["Fácil", "Fácil a moderado", "Moderado", "Moderade a dificil"];
 
   return (
     <Layout
@@ -183,6 +179,7 @@ function TourGen({ data }) {
             centered
           >
             <Tab label="Information" {...a11yProps(0)} />
+
             {tour.itinerary && <Tab label="Tour Plan" {...a11yProps(1)} />}
             {tour.gallery && <Tab label="Gallery" {...a11yProps(2)} />}
             {/* <Tab label="Reviews" {...a11yProps(3)} /> */}
@@ -197,11 +194,15 @@ function TourGen({ data }) {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-8">
-            {/* <ScrollableAnchor id={"information"}> */}
-              <HTMLContent className="container" content={tour.html} />
-            {/* </ScrollableAnchor> */}
+            <ScrollableAnchor id={"information"}>
+              <HTMLContent
+                id={a11yProps(0).id}
+                className="container"
+                content={tour.html}
+              />
+            </ScrollableAnchor>
           </div>
-          <div className="col-12  col-md-4 tour-booking-overlay">
+          <div className="col-12 col-md-4 tour-booking-overlay">
             <div className="tour-booking">
               <div className="tour-booking-header-price-wrap">
                 <div className="tour-booking-header-price-overlay"></div>
@@ -318,9 +319,7 @@ function TourGen({ data }) {
                           className="form-control"
                           defaultValue=""
                         >
-                          <option value="">
-                            -
-                          </option>
+                          <option value="">-</option>
                           <option value="Guided">Guided</option>
                           <option value="Unguided">Unguided</option>
                         </select>
@@ -352,9 +351,7 @@ function TourGen({ data }) {
                           className="form-control"
                           defaultValue=""
                         >
-                          <option value="">
-                            -
-                          </option>
+                          <option value="">-</option>
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -403,27 +400,28 @@ function TourGen({ data }) {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="row">
           <div className="col-12">
             {tour && tour.mapUrl && (
-              <iframe src={tour.mapUrl} width={"100%"} height={"480"}></iframe>
+              <iframe
+                title="tour"
+                src={tour.mapUrl}
+                width={"100%"}
+                height={"480"}
+              ></iframe>
             )}
             {tour.itinerary && (
-              // <ScrollableAnchor id={"tour-plan"}>
-                <div className="container">
+              <ScrollableAnchor id={"tour-plan"}>
+                <div id={a11yProps(1).id} className="container">
                   <TourPlan tour={tour} {...settings}></TourPlan>
                 </div>
-              // </ScrollableAnchor>
+              </ScrollableAnchor>
             )}
             {tour.pricing && (
-              // <ScrollableAnchor id={"pricing"}>
-                <div className="container">
+              <ScrollableAnchor id={"pricing"}>
+                <div id={a11yProps(4).id} className="container">
                   <TourPricing tour={tour}></TourPricing>
                 </div>
-              // </ScrollableAnchor>
+              </ScrollableAnchor>
             )}
 
             {/* <TourReviews tour={tour}></TourReviews> */}
@@ -438,11 +436,11 @@ function TourGen({ data }) {
             )}
 
             {tour.gallery && (
-              // <ScrollableAnchor id={"gallery"}>
-                <div className="container">
+              <ScrollableAnchor id={"gallery"}>
+                <div id={a11yProps(2).id} className="container">
                   <TourGallery tour={tour} />
                 </div>
-              // </ScrollableAnchor>
+              </ScrollableAnchor>
             )}
 
             {/* <ScrollableAnchor id={"the-fine-print"}>

@@ -84,6 +84,14 @@ const Tourhighlights = ({
                             tour.fields.slug
                         );
                       }}
+                      onKeyDown={event => {
+                        event.preventDefault();
+                        navigate(
+                          tour.frontmatter.path ||
+                            tour.fields.localizedPath ||
+                            tour.fields.slug
+                        );
+                      }}
                     >
                       <Style.Tour>
                         <Link

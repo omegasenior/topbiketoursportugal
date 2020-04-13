@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Time } from 'styled-icons/boxicons-regular/Time'
+import { Time } from '@styled-icons/boxicons-regular/Time'
 import { Col, Row, Container } from "@bootstrap-styled/v4";
 
 export const SameHeightColumn = styled(Col)`

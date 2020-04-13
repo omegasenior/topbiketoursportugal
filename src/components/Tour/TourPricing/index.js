@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Check } from "styled-icons/boxicons-regular/Check";
-// import { X } from "styled-icons/boxicons-regular/X";
-// import { CalendarCheck } from "styled-icons/boxicons-regular/CalendarCheck";
-// import { TimeFive } from "styled-icons/boxicons-regular/TimeFive";
+// import { Check } from "@styled-icons/boxicons-regular/Check";
+// import { X } from "@styled-icons/boxicons-regular/X";
+// import { CalendarCheck } from "@styled-icons/boxicons-regular/CalendarCheck";
+// import { TimeFive } from "@styled-icons/boxicons-regular/TimeFive";
 import "./tourPricing.mod.scss";
 import uniq from "lodash-es/uniq";
 // import filter from "lodash-es/filter";

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Location } from "@reach/router";
 import { Link } from "gatsby";
 import { Menu, X } from "react-feather";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
 
 // import Logo from "./Logo";
 
@@ -38,6 +38,7 @@ export class Navigation extends Component {
             to === this.state.currentPath ? "active" : ""
           } ${className}`}
           onClick={this.handleLinkClick}
+          onKeyDown={this.handleLinkClick}
           {...props}
         >
           {children}
@@ -47,7 +48,7 @@ export class Navigation extends Component {
     return (
       <nav className={`Nav ${active ? "Nav-active" : ""}`}>
         <div className="Nav--Container container-fluid">
-          <Link to="/" onClick={this.handleLinkClick} className="logo">
+          <Link to="/" onClick={this.handleLinkClick} onKeyDown={this.handleLinkClick} className="logo">
             <img
               className="white"
               src="/img/logo_white.png"
@@ -105,6 +106,7 @@ export class Navigation extends Component {
           <button
             className="btn Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}
+            onKeyDown={this.handleMenuToggle}
           >
             {active ? <X /> : <Menu />}
           </button>

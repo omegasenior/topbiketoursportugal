@@ -5,16 +5,16 @@ import { graphql, Link } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLMarkdownContent, HTMLContent } from "../components/Content";
-// import Helmet from "react-helmet";
+// import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import { Col, Row, Container } from "@bootstrap-styled/v4";
-import { Time } from "styled-icons/boxicons-regular/Time";
-import { Mountain } from "styled-icons/fa-solid/Mountain";
-import { Road } from "styled-icons/fa-solid/Road";
+import { Time } from "@styled-icons/boxicons-regular/Time";
+import { Mountain } from "@styled-icons/fa-solid/Mountain";
+import { Road } from "@styled-icons/fa-solid/Road";
 import { sum } from "lodash-es";
 
 // import { display } from "@material-ui/system";
-// import { CenterFocusStrong } from "styled-icons/material";
+// import { CenterFocusStrong } from "@styled-icons/material";
 
 // const SectionTitle = styled.h1`
 //   text-align: center;

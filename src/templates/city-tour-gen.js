@@ -13,7 +13,7 @@
 //   TourReviews,
 //   TourPricing
 // } from "../components/Tour/index";
-// import Helmet from "react-helmet";
+// import { Helmet } from "react-helmet";
 // // import BackgroundImage from "gatsby-background-image";
 // import Paper from "@material-ui/core/Paper";
 // import Tabs from "@material-ui/core/Tabs";
@@ -21,13 +21,13 @@
 // import Typography from "@material-ui/core/Typography";
 // import { Container } from "styled-container-component";
 
-// import { CheckCircle } from "styled-icons/boxicons-regular/CheckCircle";
-// // import { CancelCircle } from "styled-icons/icomoon/CancelCircle";
+// import { CheckCircle } from "@styled-icons/boxicons-regular/CheckCircle";
+// // import { CancelCircle } from "@styled-icons/icomoon/CancelCircle";
 
-// // import { Youtube } from "styled-icons/boxicons-regular/CheckCircle";
+// // import { Youtube } from "@styled-icons/boxicons-regular/CheckCircle";
 
 // // import Box from "@material-ui/core/Box";
-// // import { UserCheck } from "styled-icons/icomoon";
+// // import { UserCheck } from "@styled-icons/icomoon";
 
 // const StyledPaper = styled(Paper)`
 //   border-radius: 0;

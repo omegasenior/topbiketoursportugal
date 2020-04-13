@@ -7,7 +7,7 @@ import Scroll from "../components/Scroll";
 import Tourhighlights from "../components/Tourhighlights/index";
 import ReviewsHighlights from "../components/ReviewsHighlights";
 // import Partners from "../components/Partners";
-import { ChevronCircleDown } from "styled-icons/fa-solid/ChevronCircleDown";
+import { ChevronCircleDown } from "@styled-icons/fa-solid/ChevronCircleDown";
 import "./home-page.mod.scss";
 import PostSection from "../components/PostSection";
 import showdown from "showdown";

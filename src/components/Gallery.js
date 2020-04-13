@@ -70,6 +70,7 @@ export default class Gallery extends Component {
                   className="Gallery--Item"
                   key={_kebabCase(image.alt) + '-' + index}
                   onClick={() => this.isOpen(true, index)}
+                  onKeyDown={() => this.isOpen(true, index)}
                 >
                   <div>
                     <Image

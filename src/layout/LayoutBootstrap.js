@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import NavbarComponent from "../components/Navbar";
 import Banners from "../components/Banners";
@@ -12,49 +12,49 @@ import Meta from "../components/Meta";
 
 import BackgroundImage from "gatsby-background-image";
 // import Img from "gatsby-image";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
-import { ChevronUp } from "styled-icons/feather/ChevronUp";
-import Scroll from "../components/Scroll";
+// import { ChevronUp } from "@styled-icons/feather/ChevronUp";
+// import Scroll from "../components/Scroll";
 
 import "../sass/style.global.scss";
 import "./layoutboostrap.scss";
 
-const ScrollUpButton = styled.button`
-  opacity: 0.7;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 60px;
-  border: none;
-  background: #2e2f2e;
-  color: #fff;
-  padding: 7px;
-  border-radius: 4px;
-  padding-bottom: 9px;
-  &:hover {
-    opacity: 1;
-    cursor: pointer;
-    span {
-      // display:none;
-      opacity: 0;
-    }
-    svg {
-      transform: translateY(7px);
-    }
-  }
-  svg {
-    width: 30px;
-    margin-top: 0;
-    margin-bottom: -7px;
-    transition: all 200ms linear;
-  }
-  span {
-    font: 12px Lato, sans-serif;
-    opacity: 1;
-    transition: all 200ms linear;
-  }
-`;
+// const ScrollUpButton = styled.button`
+//   opacity: 0.7;
+//   position: fixed;
+//   bottom: 10px;
+//   right: 10px;
+//   width: 60px;
+//   border: none;
+//   background: #2e2f2e;
+//   color: #fff;
+//   padding: 7px;
+//   border-radius: 4px;
+//   padding-bottom: 9px;
+//   &:hover {
+//     opacity: 1;
+//     cursor: pointer;
+//     span {
+//       // display:none;
+//       opacity: 0;
+//     }
+//     svg {
+//       transform: translateY(7px);
+//     }
+//   }
+//   svg {
+//     width: 30px;
+//     margin-top: 0;
+//     margin-bottom: -7px;
+//     transition: all 200ms linear;
+//   }
+//   span {
+//     font: 12px Lato, sans-serif;
+//     opacity: 1;
+//     transition: all 200ms linear;
+//   }
+// `;
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -162,7 +162,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
           }
         }
       `}
-      render={data => {
+      render={(data) => {
         const { socialMediaCard, googleTrackingId } = data.settingsYaml || {};
         const menu = data.menu[language || "en"].links;
         const defaultMetadata = data.settingsYaml[language || "en"];
@@ -228,7 +228,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                 <div
                   className="feature"
                   style={{
-                    color: (feature.textcolor || "white") + `!important`
+                    color: (feature.textcolor || "white") + `!important`,
                   }}
                 >
                   {/* <Img
@@ -241,7 +241,9 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                     fluid={feature.image.childImageSharp.fluid}
                     backgroundColor={`#fff`}
                     style={{
-                      backgroundPosition: feature.imageAlign || "center center"
+                      backgroundPosition: feature.imageAlign || "center center",
+                      width:"100%",
+                      height:"100%"
                     }}
                   >
                     <div className="fBanner">
@@ -249,7 +251,7 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                         <div className="fBannerTitle">
                           <h2
                             style={{
-                              color: feature.textcolor || "white"
+                              color: feature.textcolor || "white",
                             }}
                           >
                             {feature.title}
@@ -260,7 +262,6 @@ const TemplateWrapper = ({ children, meta, title, language, feature }) => {
                         <div className="fBannerButton">
                           <button
                             className="bokunButton"
-                            
                             id={feature.bokunId}
                             data-src={feature.bokunLink}
                           >
@@ -295,9 +296,9 @@ TemplateWrapper.propsTypes = {
       description: PropTypes.string,
       display: PropTypes.string,
       enable: PropTypes.string,
-      link: PropTypes.string
+      link: PropTypes.string,
     })
-  )
+  ),
 };
 
 export default TemplateWrapper;

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from '@hot-loader/react-dom'
 import Image from './Image'
 
 import './BackgroundVideo.css'

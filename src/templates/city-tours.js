@@ -6,12 +6,12 @@ import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
 import { sum } from "lodash-es";
-// import Helmet from "react-helmet";
+// import { Helmet } from "react-helmet";
 // import styled from "styled-components";
 // import { Col, Row, Container } from "@bootstrap-styled/v4";
-// import { Time } from "styled-icons/boxicons-regular/Time";
-// import { Mountain } from "styled-icons/fa-solid/Mountain";
-// import { Road } from "styled-icons/fa-solid/Road";
+// import { Time } from "@styled-icons/boxicons-regular/Time";
+// import { Mountain } from "@styled-icons/fa-solid/Mountain";
+// import { Road } from "@styled-icons/fa-solid/Road";
 import { filter } from "lodash-es";
 import "./city-tours.scss";
 
@@ -34,6 +34,10 @@ export const TourTemplate = ({
       className="row tour"
       role="navigation"
       onClick={event => {
+        event.preventDefault();
+        navigate(path);
+      }}
+      onKeyDown={event => {
         event.preventDefault();
         navigate(path);
       }}

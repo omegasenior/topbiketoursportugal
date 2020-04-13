@@ -2595,6 +2595,9 @@ collections:
       - label: Date
         name: date
         widget: date
+      - label: ShowHOme
+        name: showHome
+        widget: boolean
       - {
         label: ReviewSource,
         name: reviewSource,
@@ -2608,18 +2611,7 @@ collections:
         min: 0,
         max: 5,
         default: 0,
-        step: 0.5,
-        valueType: "foat",
-        required: false
-      }
-      - {
-        label: RatingCount,
-        name: ratingCount,
-        widget: number,
-        default: 0,
-        min: 0,
-        step: 1,
-        valueType: "int",
+        valueType: int,
         required: false
       }
       - label: Author
@@ -2658,6 +2650,6 @@ collections:
           collection: "tours"
           displayFields: ["productcode", "title", "slug", "language"]
           searchFields: ["title", "slug", "productcode"]
-          valueField: "id"
+          valueField: "productcode"
           required: false
           multiple: false
