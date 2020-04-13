@@ -2584,14 +2584,17 @@ collections:
           label: Title,
           name: title,
           widget: markdown,
-          default: "Everything is awesome!",
+          required: false
         }
       - {
           label: Quote,
           name: quote,
           widget: markdown,
-          default: "Everything is awesome!",
+          required: false
         }
+      - label: Body
+        name: body
+        widget: markdown
       - label: Date
         name: date
         widget: date
@@ -2605,13 +2608,13 @@ collections:
         required: false
       }
       - {
-        label: Rating,
-        name: rating,
+        label: Score,
+        name: score,
         widget: number,
         min: 0,
         max: 5,
         default: 0,
-        valueType: int,
+        valueType: float,
         required: false
       }
       - label: Author

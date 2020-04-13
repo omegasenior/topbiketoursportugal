@@ -19,6 +19,7 @@ export const HomePageTemplate = ({
   blogsection,
   language,
   posts,
+  reviews,
 }) => {
   // const PageContent = contentComponent || Content;
   const converter = new showdown.Converter();
@@ -81,7 +82,16 @@ export const HomePageTemplate = ({
       {/* <Scroll type="class" element="comments" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>
         </Scroll> */}
-      <ReviewsHighlights className="reviewsHighlights" />
+      {!!reviews.length && (
+        <ReviewsHighlights
+          reviews={reviews.map((review) => ({
+            ...review,
+            ...review.frontmatter,
+            ...review.fields,
+          }))}
+          className="reviewsHighlights"
+        />
+      )}
       {/* <Partners className="partners" /> */}
     </>
   );
@@ -98,6 +108,7 @@ HomePageTemplate.propTypes = {
 const HomePage = ({ data }) => {
   const { markdownRemark: post } = data;
   const posts = data.posts.nodes;
+  const reviews = data.reviews.nodes;
   const language = post.frontmatter.language || `en`;
   return (
     <Layout language={language} meta={post.frontmatter.meta || false}>
@@ -109,6 +120,7 @@ const HomePage = ({ data }) => {
         blogsection={post.frontmatter.blogsection}
         language={language}
         posts={posts}
+        reviews={reviews}
       />
     </Layout>
   );
@@ -172,6 +184,44 @@ export const homePageQuery = graphql`
             }
           }
         }
+      }
+    }
+    reviews: allMarkdownRemark(
+      filter: {
+        fields: { contentType: { eq: "testimonials" } }
+        frontmatter: { language: { eq: $language }, showHome: { eq: true } }
+      }
+      limit: 2
+    ) {
+      nodes {
+        id
+        fields {
+          slug
+          contentType
+          langKey
+          localizedPath
+        }
+        fileAbsolutePath
+        frontmatter {
+          banner
+          score
+          author {
+            country
+            name
+            avatar {
+              childImageSharp {
+                fluid(quality: 85, maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                }
+              }
+            }
+          }
+          date(fromNow: true)
+          language
+          title
+          quote
+        }
+        html
       }
     }
   }

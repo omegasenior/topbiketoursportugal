@@ -5,7 +5,7 @@ import { StarHalf } from "@styled-icons/boxicons-solid/StarHalf";
 import { Star as StarEmpty } from "@styled-icons/boxicons-regular/Star";
 // import { pure } from "recompose";
 
-function Rating({ value, total, size = 24, style, direction }) {
+function Rating({ className, value, total = 5, size = 24, style, direction }) {
   const fullStars = [...Array(Math.floor(Math.abs(value))).keys()];
   // console.log(fullStars);
   const halfStars = Math.abs(value) === Math.round(value) ? 0 : 1;
@@ -16,7 +16,7 @@ function Rating({ value, total, size = 24, style, direction }) {
   // console.log(emptyStars);
 
   return (
-    <div style={style}>
+    <div style={style} className={className}>
       {fullStars.map((_, index) => (
         <Star key={`sf${index}`} size={size} />
       ))}
@@ -35,7 +35,7 @@ Rating.propTypes = {
   value: PropTypes.number,
   total: PropTypes.number,
   size: PropTypes.number,
-  direction: PropTypes.oneOf(["Vertical", "Horizontal"])
+  direction: PropTypes.oneOf(["Vertical", "Horizontal"]),
 };
 
 // Rating.defaultProps = {

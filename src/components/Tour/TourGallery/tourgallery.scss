@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 .imgwrapper {
   padding-bottom: 25px;
   .gatsby-image-wrapper {
@@ -5,3 +7,9 @@
     overflow: hidden;
   }
 }
+
+.ReactModal__Overlay {
+  z-index: 9999 !important;
+}
+
+/* purgecss end ignore */

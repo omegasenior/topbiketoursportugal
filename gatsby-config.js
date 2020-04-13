@@ -301,7 +301,7 @@ module.exports = {
       options: {
         develop: true,
         printRejected: true,
-        ignore: ["/banner.scss", "/banner.css","/tourPricing.mod.scss","/tourPricing.mod.css"],
+        ignore: ["react-image-lightbox/style.css","/banner.scss", "/banner.css","/tourPricing.mod.scss","/tourPricing.mod.css"],
       },
     },
     // {
