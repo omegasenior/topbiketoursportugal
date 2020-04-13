@@ -284,7 +284,7 @@ function TourGen({ data }) {
                       Phone<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
-                      <input type="phone" name="tel" required />
+                      <input type="phone" name="tel" />
                     </div>
                   </div>
                   <div className="tour-booking-enquiry-field tour-booking-enquiry-field-date-address tour-booking-type-date">
@@ -292,7 +292,7 @@ function TourGen({ data }) {
                       Tour date<span className="tour-booking-req">*</span>
                     </div>
                     <div className="tour-booking-tail">
-                      <input type="date" name="phone" required />
+                      <input type="date" name="tour-date" required />
                     </div>
                   </div>
                   {/* <div className="tour-booking-enquiry-field tour-booking-enquiry-field-full-name tour-booking-type-text">
