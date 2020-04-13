@@ -241,8 +241,10 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     border: none;
-    background: #ffd800;
+    color:#fff;
+    background: #cb532d;
     border-radius: 30px;
+    font-weight: 600;
     text-transform: uppercase;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -252,7 +254,7 @@
     cursor: cursor;
   }
   
-  .action:hover {
+  a.action:hover {
     color: #ffffff;
     background: #222222;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
@@ -331,7 +333,7 @@
   }
   
   .slider-content .inner {
-    padding: 0 70px;
+    padding: 0 50px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
@@ -352,7 +354,7 @@
   .slider-content .inner h2 {
     font-weight: 900;
     margin: 0 auto;
-    max-width: 840px;
+    // max-width: 840px;
     color: #ffffff;
     font-size: 64px;
     line-height: 1;
@@ -364,7 +366,7 @@
     font-size: 14px;
     line-height: 1.5;
     margin: 20px auto 30px;
-    max-width: 640px;
+    // max-width: 640px;
     text-shadow: rgb(34, 34, 34) 1px 2px 1px;
   }
   
