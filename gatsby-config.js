@@ -13,12 +13,12 @@ module.exports = {
       name: "Top Bike Tours Portugal",
       minibio: `
       Founded in 2013, Top Bike Tours Portugal formerly Fold n 'Visit is a very young company, with experience in pedestrian and cycling tours in Porto and long distance cycling routes to the north of the Iberian Peninsula. Our activities are coordinated by tourism professionals, with a huge knowledge of heritage and sports.
-      `
+      `,
     },
     organization: {
       name: "Top Bike Tours Portugal",
       url: "https://topbiketoursportugal.com",
-      logo: "https://topbiketoursportugal.com/android-chrome-512x512.png"
+      logo: "https://topbiketoursportugal.com/android-chrome-512x512.png",
     },
     social: {
       twitter: "https://twitter.com/FoldnVisit",
@@ -26,43 +26,43 @@ module.exports = {
       youtube: "https://www.youtube.com/channel/UCqryPkh_snkIAqvDXFvaK7A",
       facebook: "https://www.facebook.com/topbiketoursportugal/",
       instagram: "https://www.instagram.com/topbiketoursportugal/",
-      googleplus: "https://plus.google.com/u/0/112634467779546919402"
+      googleplus: "https://plus.google.com/u/0/112634467779546919402",
     },
     categories: [
       {
         slug: "acting-like-a-grown-up",
-        name: "Acting Like a Grown-Up"
+        name: "Acting Like a Grown-Up",
       },
       {
         slug: "finding-direction",
-        name: "Finding Direction"
+        name: "Finding Direction",
       },
       {
         slug: "happiness",
-        name: "Building Happiness"
+        name: "Building Happiness",
       },
       {
         slug: "motivation",
-        name: "Staying Motivated"
+        name: "Staying Motivated",
       },
       {
         slug: "remote-productivity",
-        name: "Remote Productivity"
+        name: "Remote Productivity",
       },
       {
         slug: "remote-work",
-        name: "Living & Working Remotely"
+        name: "Living & Working Remotely",
       },
       {
         slug: "storytelling",
-        name: "Storytelling"
+        name: "Storytelling",
       },
       {
         slug: "impact",
-        name: "Creating an Impact"
-      }
+        name: "Creating an Impact",
+      },
     ],
-    icon: ""
+    icon: "",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -85,9 +85,9 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true
+        respectDNT: true,
         // Avoids sending pageview hits from custom paths
-      }
+      },
     },
     // {
     //   resolve: "gatsby-plugin-i18n",
@@ -127,7 +127,7 @@ module.exports = {
     // {
     //   resolve: `gatsby-plugin-load-script`,
     //   options: {
-    //     disable: false, 
+    //     disable: false,
     //     src: `https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=78235668-9ba3-43e0-b6a9-4b5322217da3`,
     //     onLoad: `() => console.log('deu')`
     //   }
@@ -143,8 +143,8 @@ module.exports = {
       resolve: "gatsby-plugin-sass",
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads"
-      }
+        name: "uploads",
+      },
     },
     // {
     //   resolve: 'gatsby-plugin-react-leaflet',
@@ -157,23 +157,23 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads"
-      }
+        name: "uploads",
+      },
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Roboto", "Lato", "Montserrat"]
-        }
-      }
+          families: ["Roboto", "Lato", "Montserrat"],
+        },
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content`,
-        name: "pages"
-      }
+        name: "pages",
+      },
     },
     // {
     //   resolve: "gatsby-source-filesystem",
@@ -186,30 +186,30 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/settings`,
-        name: "settings"
-      }
+        name: "settings",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/posts`,
-        name: "posts"
-      }
+        name: "posts",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/img`,
-        name: "images"
-      }
+        name: "images",
+      },
     },
     {
       resolve: `gatsby-plugin-material-ui`,
       options: {
         stylesProvider: {
-          injectFirst: true
-        }
-      }
+          injectFirst: true,
+        },
+      },
     },
     `gatsby-plugin-styled-components`,
     "gatsby-plugin-sharp",
@@ -221,8 +221,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads"
-            }
+              name: "uploads",
+            },
           },
           {
             resolve: "gatsby-remark-images",
@@ -230,25 +230,25 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1444
-            }
+              maxWidth: 1444,
+            },
           },
           {
             resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: "static"
-            }
+              destinationDir: "static",
+            },
           },
           `gatsby-remark-embedder`,
           {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_self",
-              rel: "nofollow"
-            }
-          }
-        ]
-      }
+              rel: "nofollow",
+            },
+          },
+        ],
+      },
     },
     // {
     //   resolve: `gatsby-mdx`,
@@ -271,7 +271,7 @@ module.exports = {
     //   }
     // },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         // manualInit: true,
@@ -290,12 +290,20 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "data",
-        path: `./src/data/`
-      }
+        path: `./src/data/`,
+      },
     },
 
     // `gatsby-plugin-postcss`,
-    "gatsby-plugin-purgecss", // must be after other CSS plugins
+
+    {
+      resolve: `gatsby-plugin-purgecss`, // must be after other CSS plugins
+      options: {
+        develop: true,
+        printRejected: true,
+        ignore: ["/banner.scss", "/banner.css"],
+      },
+    },
     // {
     //   resolve: 'gatsby-plugin-sw',
     //   options: {
@@ -310,8 +318,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
-        display: `standalone`
-      }
+        display: `standalone`,
+      },
     },
     {
       resolve: "gatsby-plugin-nprogress",
@@ -319,8 +327,8 @@ module.exports = {
         // Setting a color is optional.
         color: "white",
         // Disable the loading spinner.
-        showSpinner: true
-      }
+        showSpinner: true,
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
@@ -336,7 +344,7 @@ module.exports = {
           "/404.html",
           "/404.pt*",
           "/tags/index.en",
-          "/tags/index.pt"
+          "/tags/index.pt",
         ],
         query: `
           {
@@ -355,14 +363,14 @@ module.exports = {
             }
         }`,
         serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
+          allSitePage.edges.map((edge) => {
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: `daily`,
-              priority: 0.7
+              priority: 0.7,
             };
-          })
-      }
+          }),
+      },
     },
     // {
     //   resolve: `gatsby-plugin-facebook-pixel`,
@@ -371,6 +379,6 @@ module.exports = {
     //   }
     // },
     "gatsby-plugin-offline",
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
-  ]
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
+  ],
 };

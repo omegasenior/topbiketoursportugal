@@ -1,9 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
 import Slider from "react-animated-slider";
-// import "react-animated-slider/build/horizontal.css";
 import "./banner.scss";
-import styled from "styled-components";
 
 const Banners = ({ className }) => (
   <StaticQuery
@@ -48,7 +46,12 @@ const Banners = ({ className }) => (
         return { ...b.frontmatter, ...b };
       });
       return (
-        <Slider className="slider-wrapper" duration={4000} autoplay={4000} infinite={true}>
+        <Slider
+          className={`slider-wrapper`}
+          duration={4000}
+          autoplay={4000}
+          infinite={true}
+        >
           {/* {banners.map(item => (
             <BannerSlide key={`b${item.id}`} banner={item} />
           ))} */}
@@ -56,17 +59,19 @@ const Banners = ({ className }) => (
             banners.map((item) => (
               <div
                 key={`banner` + item.id}
-                className="slider-content"
+                className={`slider-content`}
                 style={{
                   backgroundImage: `url('${item.image.childImageSharp.fluid.src}')`,
                 }}
               >
                 {/* <Content> */}
-                <div className="inner">
+                <div className={`inner`}>
                   {item.description && <h2>{item.title}</h2>}
                   {item.description && <p>{item.description}</p>}
                   {item.goto && item.goto.link && (
-                    <a className="action" href={item.goto.link}>{item.goto.linktext}</a>
+                    <Link className={`action`} to={item.goto.link}>
+                      {item.goto.linktext}
+                    </Link>
                   )}
                 </div>
                 {/* </Content> */}
