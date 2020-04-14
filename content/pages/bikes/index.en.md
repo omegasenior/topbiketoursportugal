@@ -3,23 +3,25 @@ templateKey: bikes-page
 language: en
 path: /rent-bike-porto-portugal/
 title: Bikes
-afterequipment: |-
+afterequipment: >-
   **Cycling holidays Equipment**
 
+
   * Helmet
+
   * Bike tool kit for quick repairs (pump. inner tubes)
+
   * Water bottle
+
   * Lights
+
   * Locks
+
   * GPS Garmin
 
-  **Roadbook**
 
-  * Maps
-  * Trails detailed information
-  * Tips
-  * Information about restaurants
-  * Other points of interest
+  **Roadbook (** Maps; Trails detailed information Tips; Information about
+  restaurants; Other points of interest)
 bikes:
   - image: /img/bike.png
     type: Hybrid bicycle
