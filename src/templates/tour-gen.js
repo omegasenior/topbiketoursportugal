@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
 import { TourGallery, TourPlan, TourPricing } from "../components/Tour/index";
-import Gallery from "../components/gallery";
 // import { Helmet } from "react-helmet";
 // import BackgroundImage from "gatsby-background-image";
 import Paper from "@material-ui/core/Paper";
