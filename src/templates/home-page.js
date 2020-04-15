@@ -55,7 +55,16 @@ export const HomePageTemplate = ({
         className="tourHighlights"
         {...toursection}
       />
-
+      {!!reviews.length && (
+        <ReviewsHighlights
+          reviews={reviews.map((review) => ({
+            ...review,
+            ...review.frontmatter,
+            ...review.fields,
+          }))}
+          className="reviewsHighlights"
+        />
+      )}
       {!!posts.length && (
         <>
           <HTMLContent
@@ -82,16 +91,7 @@ export const HomePageTemplate = ({
       {/* <Scroll type="class" element="comments" offset={-100}>
           <ChevronCircleDown>Click me</ChevronCircleDown>
         </Scroll> */}
-      {!!reviews.length && (
-        <ReviewsHighlights
-          reviews={reviews.map((review) => ({
-            ...review,
-            ...review.frontmatter,
-            ...review.fields,
-          }))}
-          className="reviewsHighlights"
-        />
-      )}
+
       {/* <Partners className="partners" /> */}
     </>
   );
