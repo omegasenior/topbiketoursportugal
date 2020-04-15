@@ -1,14 +1,16 @@
 ---
 language: en
-title: '> I had an issue one day ...  was fixed immediately and worked perfectly for the rest of the trip.'
+title: >-
+  > I had an issue one day ...  was fixed immediately and worked perfectly for
+  the rest of the trip.
 quote: Everything is awesome!
 date: 2019-09-23T22:48:38.752Z
+showHome: true
+score: 5
 author:
   avatar: /img/specialized-diverge-e5-2.jpg
   country: USA
   name: Emmet
-score: 3
-showHome: true
 relatedProducts:
   - tour: CT 03 BIKE TOUR -Food tour | Wine & Gastournomy
   - tour: DOURO 01
