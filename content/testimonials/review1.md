@@ -23,7 +23,7 @@ quote: >-
   be forgotten.
 date: 2019-09-23T22:48:38.752Z
 showHome: true
-rating: 4
+score: 4
 author:
   avatar: /img/specialized-diverge-e5-2.jpg
   country: New Zeland

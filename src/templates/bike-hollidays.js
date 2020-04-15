@@ -316,10 +316,6 @@ export const pageQuery = graphql`
           groupSizeMax
           groupSizeMin
           highlight
-          rating {
-            rating
-            ratingLink
-          }
           mapUrl
           itinerary {
             day

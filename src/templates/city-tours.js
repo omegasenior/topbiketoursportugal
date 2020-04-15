@@ -179,10 +179,6 @@ export const pageQuery = graphql`
           }
           lang
           langKey
-          rating {
-            rating
-            ratingLink
-          }
           slug
         }
         html

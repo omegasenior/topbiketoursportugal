@@ -41,7 +41,7 @@ duration: 7
 durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
-rating: []
+#rating: []
 mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1MkRMyJZHbX17eBzGJoJ736dJ0dNH8SL7'
 itinerary:
   - day: '1'

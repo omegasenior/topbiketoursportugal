@@ -296,14 +296,15 @@ module.exports = {
 
     // `gatsby-plugin-postcss`,
 
-    {
-      resolve: `gatsby-plugin-purgecss`, // must be after other CSS plugins
-      options: {
-        develop: true,
-        printRejected: true,
-        ignore: ["react-image-lightbox/style.css","/banner.scss", "/banner.css","/tourPricing.mod.scss","/tourPricing.mod.css"],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-purgecss`, // must be after other CSS plugins
+    //   options: {
+    //     develop: true,
+    //     printRejected: true,
+    //     ignore: ["react-image-lightbox/style.css","/banner.scss", "/banner.css","/tourPricing.mod.scss","/tourPricing.mod.css"],
+    //   },
+    // },
+    
     // {
     //   resolve: 'gatsby-plugin-sw',
     //   options: {

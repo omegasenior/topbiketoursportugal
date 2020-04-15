@@ -29,8 +29,7 @@ meta:
 groupSizeMax: 1
 groupSizeMin: 1
 minAge: 16
-rating:
-  - {}
+#rating: []
 itinerary:
   - day: '1'
     description: Meeting Point

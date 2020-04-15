@@ -40,7 +40,7 @@ duration: 0
 durationUnit: '-'
 difficulty: 0
 physicality: 0
-rating: []
+#rating: []
 itinerary: []
 gallery:
   - alt: group 1

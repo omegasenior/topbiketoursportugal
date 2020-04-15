@@ -25,7 +25,7 @@ meta:
   robots: INDEX
   title: 'BIKE TOURS,CITY TOURS PORTO PORTUGAL'
 difficulty: 0
-rating: []
+#rating: []
 itinerary:
   - day: '1'
     description: 'Meeting point for the begining of the Tour '

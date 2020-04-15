@@ -11,3 +11,12 @@
   @extend .container;
   margin-bottom: 35px;
 }
+
+.moreBtn {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -46,7 +46,7 @@ duration: 8
 durationUnit: Dias | 7 Noites
 difficulty: 2
 physicality: 1
-rating: []
+#rating: []
 mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1ieK3MkKNSZ5im7KllAgWngvQiiWZksCn'
 itinerary:
   - day: '1'
