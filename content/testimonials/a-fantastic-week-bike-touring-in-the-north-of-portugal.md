@@ -24,7 +24,7 @@ quote: >-
 
   May was a great month to be there...Spring flowers and fresh growth on deciduous trees, generally cool (rarely more than 20 degC), but not too cold. A fresh following breeze as we headed down the coast and not too busy.
 date: 2018-05-16T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r580755310-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
