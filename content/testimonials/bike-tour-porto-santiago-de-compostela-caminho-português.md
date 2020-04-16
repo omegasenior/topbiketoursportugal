@@ -16,7 +16,7 @@ quote: >-
 
   Ilana / Rio de Janeiro
 date: 2018-05-01T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r577454169-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
