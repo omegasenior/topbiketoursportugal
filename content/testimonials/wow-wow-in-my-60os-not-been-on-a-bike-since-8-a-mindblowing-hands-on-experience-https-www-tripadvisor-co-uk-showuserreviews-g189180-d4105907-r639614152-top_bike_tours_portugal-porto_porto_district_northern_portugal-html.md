@@ -1,7 +1,7 @@
 ---
 language: en
-title: Wow!!! Wow!!! In my 60o's not been on a bike since 8, A mindblowing hands
-  on experience
+title: "###### Wow!!! Wow!!! In my 60o's not been on a bike since 8, A
+  mindblowing hands on experience"
 quote: We did the 6 day Silver Coast Bike Tour, down the Portugal Coast from
   Porto to Coimbra. As I did not choose this trip myself, my expectations were
   40/100. Once I got home and took in the whole experience, my expectation
