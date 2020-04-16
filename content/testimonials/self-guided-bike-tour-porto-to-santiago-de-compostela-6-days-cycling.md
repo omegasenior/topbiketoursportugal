@@ -5,7 +5,7 @@ title: |-
 
   #### Self-Guided Bike Tour Porto to Santiago de Compostela - 6 days cycling
 date: 2015-06-26T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r283286719-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 4
 author:
