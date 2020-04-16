@@ -1,8 +1,6 @@
 ---
 language: en
-title: "###### [Wonderful bike tour of the Duoro
-  Valley!](https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r5254\
-  78147-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html)"
+title: "###### Wonderful bike tour of the Duoro Valley!"
 quote: My family recently did a 7 day bike tour through the Duoro Valley with
   Sergio (driving the van) and Henrique (our guide). We had the most fabulous
   week! The route chosen by Sergio was perfect and the scenery was different
