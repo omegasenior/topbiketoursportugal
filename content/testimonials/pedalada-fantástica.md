@@ -7,7 +7,7 @@ quote: Fizemos a peregrinação de Porto a Santiago de Compostela, de bicicleta
   malas de um hotel ao outro e o ponto mais importante, a qualidade dos hotéis,
   recomendo a que for fazer este passeio, usar os serviços.
 date: 2019-06-03T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r678846434-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
