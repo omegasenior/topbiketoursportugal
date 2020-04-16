@@ -12,7 +12,7 @@ quote: >-
 
   Grata!!!
 date: 2016-03-27T00:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r358936632-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
