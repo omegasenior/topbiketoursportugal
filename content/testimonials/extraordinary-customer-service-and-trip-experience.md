@@ -15,7 +15,7 @@ quote: "I had the pleasure of organizing 18 friends from Canada on this
   Sergio, Jose and Pedro. This is my 3rd cycling trip and by far it was the
   best. I would highly recommend this company, this trip and the Camino."
 date: 2018-05-19T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r581431187-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
