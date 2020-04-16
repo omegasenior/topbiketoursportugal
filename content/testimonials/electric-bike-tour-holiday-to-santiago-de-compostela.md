@@ -11,7 +11,7 @@ quote: >-
 
   Our arrival in the square was very electric with all the others who had completed there journey the atmosphere was alive with happy joyous people having completed their journey.
 date: 2019-10-31T00:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r585303227-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
