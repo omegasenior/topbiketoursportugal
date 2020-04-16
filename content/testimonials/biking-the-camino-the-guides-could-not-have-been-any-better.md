@@ -9,7 +9,7 @@ quote: Recently my wife and I traveled with 18 others from Canada to Porto . The
   done a number of biking trips in Europe and the guides and support team was by
   far the most helpful. I would recommend them to any one.
 date: 2018-06-01T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r584634671-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
