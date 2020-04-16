@@ -13,7 +13,7 @@ quote: We completed the Porto to Santiago ride via the coastal route which
   outside the front door of the hotel at the end of each day. Great and varied
   scenery and very enjoyable.
 date: 2017-09-09T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r522995137-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
