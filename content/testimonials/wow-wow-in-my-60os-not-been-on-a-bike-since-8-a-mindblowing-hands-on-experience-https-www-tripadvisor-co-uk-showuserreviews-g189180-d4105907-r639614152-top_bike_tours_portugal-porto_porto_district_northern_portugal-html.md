@@ -1,9 +1,7 @@
 ---
 language: en
-title: "###### [Wow!!! Wow!!! In my 60o's not been on a bike since 8, A
-  mindblowing hands on
-  experience](https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r6\
-  39614152-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html)"
+title: Wow!!! Wow!!! In my 60o's not been on a bike since 8, A mindblowing hands
+  on experience
 quote: We did the 6 day Silver Coast Bike Tour, down the Portugal Coast from
   Porto to Coimbra. As I did not choose this trip myself, my expectations were
   40/100. Once I got home and took in the whole experience, my expectation
