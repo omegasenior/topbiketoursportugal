@@ -27,7 +27,7 @@ quote: We are a senior couple from Canada, ages 71.5 (wife) and 77 that booked
   overwhelming for some people. Keeping the latter in mind, I highly recommend
   this self-guided adventure.
 date: 2016-09-10T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r417245044-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
