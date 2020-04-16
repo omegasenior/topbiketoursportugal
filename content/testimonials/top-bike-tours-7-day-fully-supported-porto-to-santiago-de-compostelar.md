@@ -16,7 +16,7 @@ quote: This is a top class Top Bike Tour. Well organized. Very efficient
   nothing short of fantastic in their care, organisation and local knowledge.
   Well done guys. We hope to see you again.
 date: 2019-09-22T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r712105826-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
