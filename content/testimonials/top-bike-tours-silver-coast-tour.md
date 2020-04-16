@@ -9,7 +9,7 @@ quote: I learned about the Silver Coast tour through Darren Alff, "The Bicycle
   don't see how they made all of this so affordable. I'm thinking of booking
   another tour with Top Bike Tours next year.
 date: 2019-10-01T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r714868994-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
