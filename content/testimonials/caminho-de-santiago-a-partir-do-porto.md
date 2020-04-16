@@ -19,7 +19,7 @@ quote: >-
 
   Não percam a oportunidade de conhecer o interior de Portugal e da Espanha!
 date: 2016-03-23T00:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r357878277-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
