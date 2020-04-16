@@ -11,7 +11,7 @@ quote: My wife and I have now experienced seven European bike tours in various
   fellow travellers, you too may also come away with one or more life long
   friends.
 date: 2017-10-12T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r532635022-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
