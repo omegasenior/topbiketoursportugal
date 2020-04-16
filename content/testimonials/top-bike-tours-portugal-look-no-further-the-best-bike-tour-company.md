@@ -10,7 +10,7 @@ quote: Top Bike Tours company of Porto Portugal was recommend to my wife and I
   you are looking for an economical guided European bicycle tour, look no
   further...
 date: 2019-09-19T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r713098138-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
