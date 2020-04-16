@@ -6,7 +6,7 @@ quote: We did a 5 days trip to Santiago de Compostela, the team provided us with
   the trip. The bikes and the service were really good, the team is super nice
   and helpful, I will definitively recommend it!
 date: 2015-07-10T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r287832635-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
