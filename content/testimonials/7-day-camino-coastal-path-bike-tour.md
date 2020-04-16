@@ -15,7 +15,7 @@ quote: >-
 
   With the spectacular coastal scenery, the top notch guides, and the camaraderie of the group, this was one of the best cycling tours I have ever experienced.
 date: 2018-06-03T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r585114190-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
