@@ -25,7 +25,7 @@ quote: >-
 
   Portugal is a beautiful country with amazing diverse scenery, cycling was a great way to see it. Happy to support and thoroughly recommend this great local business.
 date: 2015-10-10T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r317709064-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
