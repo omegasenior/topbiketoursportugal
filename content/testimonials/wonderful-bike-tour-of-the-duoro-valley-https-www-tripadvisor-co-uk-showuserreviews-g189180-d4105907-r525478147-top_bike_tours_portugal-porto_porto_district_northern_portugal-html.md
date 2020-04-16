@@ -16,7 +16,7 @@ quote: My family recently did a 7 day bike tour through the Duoro Valley with
   make our week the best it could be! We wouldn't have changed one thing! Thanks
   Sergio and Henrique!!
 date: 2017-09-17T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r525478147-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
