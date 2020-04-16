@@ -18,7 +18,7 @@ quote: >-
 
   All in all, this was a great trip thanks to the excellent work of Sergio, Pedro, Tiago, and Jose. They provided first rate customer service, but felt like friends!
 date: 2018-06-04T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r585303227-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
