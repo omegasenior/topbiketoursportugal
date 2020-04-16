@@ -20,7 +20,7 @@ quote: We have recently completed the Silver Coast bike tour. We chose to have E
   for us. I can highly recommend Fold n Visit and like that it is a small and
   personal company. Thank you Sergio and Tiago it was a great experience not to
   be forgotten.
-date: 2019-09-23T22:48:38.752Z
+date: 2018-09-09T23:00:00.000Z
 showHome: true
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r617840008-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
