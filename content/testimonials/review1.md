@@ -1,8 +1,7 @@
 ---
 language: en
-title: '> ...it was a great experience not to be forgotten.'
-quote: >-
-  We have recently completed the Silver Coast bike tour. We chose to have E
+title: "> ...it was a great experience not to be forgotten."
+quote: We have recently completed the Silver Coast bike tour. We chose to have E
   Bikes but I hardly used it as virtually flat the whole way. From the first
   decision to do the tour we were more than happy with the communication had
   with Sergio. On the first morning we met Sergio in the hotel and went through
@@ -23,14 +22,15 @@ quote: >-
   be forgotten.
 date: 2019-09-23T22:48:38.752Z
 showHome: true
+reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r617840008-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
   avatar: /img/specialized-diverge-e5-2.jpg
   country: New Zeland
   name: Peter Birks
 relatedProducts:
-  - tour: CT 03 BIKE TOUR -Food tour | Wine & Gastournomy
-  - tour: DOURO 01
+  - tour: SC 01
+  - tour: SC 01
 ---
 
 We have recently completed the Silver Coast bike tour. We chose to have E
