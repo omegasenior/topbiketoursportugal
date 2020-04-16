@@ -10,7 +10,7 @@ quote: My husband and I just completed the Silver Coast bike tour with Sergio
   and sites along the way. There was always time for a coffee break! I would
   highly recommend Top Bike Tours for your Portugal bike trip!
 date: 2019-09-24T23:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r712858728-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
