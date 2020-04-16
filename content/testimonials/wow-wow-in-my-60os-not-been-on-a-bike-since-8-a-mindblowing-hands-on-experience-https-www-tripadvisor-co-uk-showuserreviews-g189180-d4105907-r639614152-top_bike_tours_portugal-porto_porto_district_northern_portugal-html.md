@@ -14,7 +14,7 @@ quote: We did the 6 day Silver Coast Bike Tour, down the Portugal Coast from
   and the local things you saw on the way I can't begin to describe, the
   magnificent whole scenario.
 date: 2018-12-14T00:00:00.000Z
-showHome: true
+showHome: false
 reviewSource: https://www.tripadvisor.co.uk/ShowUserReviews-g189180-d4105907-r639614152-Top_Bike_tours_Portugal-Porto_Porto_District_Northern_Portugal.html
 score: 5
 author:
