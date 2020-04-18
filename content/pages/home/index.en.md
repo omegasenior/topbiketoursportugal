@@ -3,33 +3,34 @@ templateKey: home-page
 path: /
 title: Home
 meta:
-  description: >-
-    Portugal Bike tours: Are you lost in Portugal?Check out our Porto city
-    bicycle tours, as well as our guided and self guided cycling holidays in
-    Portugal. Bike tour routes are available to be done in a hybrid bicycle,
-    mountain bicycle or road bike.
-  keywords: >-
-    portugal bike tours,cycling holidays portugal,biketours portugal,bike tours
-    porto,cycling portugal
+  description: "Portugal Bike tours: Are you lost in Portugal?Check out our Porto
+    city bicycle tours, as well as our guided and self guided cycling holidays
+    in Portugal. Bike tour routes are available to be done in a hybrid bicycle,
+    mountain bicycle or road bike."
+  keywords: portugal bike tours,cycling holidays portugal,biketours portugal,bike
+    tours porto,cycling portugal
   robots: INDEX
   title: Portugal Bike Tours - Cycling Holidays Portugal
 toursection:
-  description: '## Popular bike tours in Portugal'
-  descriptionafter: >-
-    _**Bike tours Portugal**:_ The combined experience of our team allows us to
-    combine cycling with the historical component and gastronomy. Connoisseurs
-    of excellent hotel services and catering, paths and landscapes that surprise
-    and exceeded expectations.
-  heading: "## NORTH TO SOUTH\n\n## BICYCLE\_HOLIDAYS PORTUGAL"
+  description: "## Popular bike tours in Portugal"
+  descriptionafter: _**Bike tours Portugal**:_ The combined experience of our team
+    allows us to combine cycling with the historical component and gastronomy.
+    Connoisseurs of excellent hotel services and catering, paths and landscapes
+    that surprise and exceeded expectations.
+  heading: |-
+    ## NORTH TO SOUTH
+
+    ## BICYCLE HOLIDAYS PORTUGAL
 blogsection:
-  description: '## Popular bike tours in Portugal'
-  descriptionafter: >-
-    _**Bike tours Portugal**:_ The combined experience of our team allows us to
-    combine cycling with the historical component and gastronomy. Connoisseurs
-    of excellent hotel services and catering, paths and landscapes that surprise
-    and exceeded expectations.
-  heading: '## Latest blog posts'
+  description: "## Popular bike tours in Portugal"
+  descriptionafter: _**Bike tours Portugal**:_ The combined experience of our team
+    allows us to combine cycling with the historical component and gastronomy.
+    Connoisseurs of excellent hotel services and catering, paths and landscapes
+    that surprise and exceeded expectations.
+  heading: "## Latest blog posts"
 ---
+## Our contact form is now working: please contact us thru our email info@topbiketoursportugal.com.
+
 # Portugal Bike Tours
 
 ## Discover Portugal on bicycle with Top Bike tours Portugal
@@ -37,7 +38,7 @@ blogsection:
 \
 Our mission is to provide you with relaxing and enjoyable cycling holiday in Portugal, complemented with historical points, tasty gastronomy and wonderful views.
 
-The [**bike tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
+The **[bike tours](https://topbiketoursportugal.com/bike-tours-in-portugal/)** we offer are designed for recreational cyclists. For that purpose, we mostly use touring bicycles. Mountain bikes are used depending on the bike tour.
 
 Road bikes are still available for those craving to step up to harder challenges and adventure themselves in Douro Valley.
 
@@ -55,8 +56,8 @@ Our store is in the city of Porto, where we also do city bike tours. Although ou
 
 Doesn´t matter if you are an inexperienced or experienced rider, if you enjoy a touring bicycle, mountain bicycle, road bike or electric bike. What matters most is that you enjoy, with your friends or family, the good sensations a bike tour as to offer. Our team is here to ensure that you have a relaxed and fantastic bicycle tour holiday. 
 
-If your looking for a guided bike tour in Portugal check our [**Calendar**](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal/) webpage to see all the departure.
+If your looking for a guided bike tour in Portugal check our **[Calendar](https://topbiketoursportugal.com/guided-bike-tours-calendar-portugal/)** webpage to see all the departure.
 
 ## It is easy to book with us!
 
-Contact us thru our contact form or just email us. Request information about the cycling tour packages available isn our [**Bike Tours**](https://topbiketoursportugal.com/bike-tours-in-portugal/) webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
+Contact us thru our contact form or just email us. Request information about the cycling tour packages available isn our **[Bike Tours](https://topbiketoursportugal.com/bike-tours-in-portugal/)** webpage. We will reply in less than 24 hours and send an oficial proposal with all the details. After your confirmation, accommodations will be reserved and a deposit will be requested.
