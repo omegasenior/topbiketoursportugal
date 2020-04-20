@@ -240,8 +240,8 @@ function TourGen({ data }) {
               </div>
               <div className="tour-booking-form">
                 <form
-                  action="https://airform.io/info@topbiketoursportugal.com"
-                  method="post"
+                  action="https://formspree.io/xzbalqpw"
+                  method="POST"
                   className="tour-booking-enquiry-form tour-booking-form-field tour-booking-with-border"
                   id="tour-booking-enquiry-form"
                 >
@@ -390,7 +390,6 @@ function TourGen({ data }) {
                     .
                   </div>
                   <div className="tour-booking-enquiry-form-message"></div>
-                  <input type="hidden" name="tour-id" value="4646" />
                   <input
                     type="submit"
                     className="btn btn-primary tour-booking-button"

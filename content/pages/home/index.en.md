@@ -29,7 +29,6 @@ blogsection:
     that surprise and exceeded expectations.
   heading: "## Latest blog posts"
 ---
-## Our contact form is not working: please contact us thru our email info@topbiketoursportugal.com.
 
 # Portugal Bike Tours
 

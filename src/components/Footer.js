@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Col, Row, Container } from "@bootstrap-styled/v4";
-import img1 from "./../img/banners/1.jpg";
+import { Col } from "@bootstrap-styled/v4";
+import { Row } from "@bootstrap-styled/v4";
+import { Container } from "@bootstrap-styled/v4";
+// import img1 from "./../img/banners/1.jpg";
 import { Link } from "gatsby";
 import "./Footer.scss";
 
@@ -29,19 +31,19 @@ const FooterContentText = styled.p`
   margin: 0 0 10px;
 `;
 
-const FooterPostContainer = styled.div`
-  display: flex;
-`;
+// const FooterPostContainer = styled.div`
+//   display: flex;
+// `;
 
-const FooterPostImg = styled.img`
-  width: 40%;
-  align-self: baseline;
-`;
+// const FooterPostImg = styled.img`
+//   width: 40%;
+//   align-self: baseline;
+// `;
 
-const FooterPostSummary = styled.div`
-  outline: none !important;
-  margin-left: 10px;
-`;
+// const FooterPostSummary = styled.div`
+//   outline: none !important;
+//   margin-left: 10px;
+// `;
 
 export default class Footer extends React.Component {
   render() {
@@ -49,7 +51,7 @@ export default class Footer extends React.Component {
       <FooterContainer>
         <Container>
           <Row>
-            <Col xs="12" md="4">
+            <Col xs="12" md="8">
               <FooterContentContainer>
                 <FooterContentTitle>About Us</FooterContentTitle>
                 <FooterContentText>
@@ -60,21 +62,7 @@ export default class Footer extends React.Component {
                 </FooterContentText>
               </FooterContentContainer>
             </Col>
-            <Col xs="12" md="5">
-              <FooterContentContainer>
-                <FooterContentTitle>Latest Posts</FooterContentTitle>
-                <FooterPostContainer>
-                  <FooterPostImg src={img1} width={100} alt="Silver" />
-                  <FooterPostSummary>
-                    This cycling tour presents itself as na easy route to reach
-                    to Santiago de Compostela, the ultimate pilgrimage beacon in
-                    the Iberian Peninsula and one of the most important spots
-                    for religious tourism in Western Europe.
-                  </FooterPostSummary>
-                </FooterPostContainer>
-              </FooterContentContainer>
-            </Col>
-            <Col xs="12" md="3">
+            <Col xs="12" md="4">
               <FooterContentContainer>
                 <FooterContentTitle>Contact Info</FooterContentTitle>
                 <FooterContentText>

@@ -16,7 +16,7 @@ score: 5
 author:
   country: USA
   avatar: /img/emmet.jpg
-  name: " Mbcbwy"
+  name: "Mbcbwy"
 relatedProducts:
   - tour: SC 01
   - tour: SC 01

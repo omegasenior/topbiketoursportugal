@@ -219,6 +219,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       bokunLinkText: String
     }
 
+    type Author @infer {
+      country: String
+      name: String
+      reviewerSource: String
+      avatar: File
+    }
+
     type Pricing @infer {
       discount: Float
       price: Float
@@ -252,6 +259,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       mapUrl: String
       feature: Feature
       showHome: Boolean
+      author: Author
     }
     
   `;

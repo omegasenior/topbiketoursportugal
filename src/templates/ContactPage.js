@@ -21,7 +21,7 @@ export const ContactPageTemplate = ({
   location,
   phone,
   mobile,
-  googleApiKey
+  googleApiKey,
 }) => (
   <main className="Contact">
     {/* <PageHeader
@@ -46,7 +46,8 @@ export const ContactPageTemplate = ({
                 rel="noopener noreferrer"
               >
                 <MapPin /> {address.street}
-                {address.postalCode && `, ${address.postalCode}, ${address.city}, ${address.country}`}
+                {address.postalCode &&
+                  `, ${address.postalCode}, ${address.city}, ${address.country}`}
               </a>
             )}
             {phone && (
@@ -69,8 +70,8 @@ export const ContactPageTemplate = ({
 
         <div className="tour-booking-form">
           <form
-            action="https://airform.io/info@topbiketoursportugal.com"
-            method="post"
+            action="https://formspree.io/xlewykra"
+            method="POST"
             className="tour-booking-enquiry-form tour-booking-form-field tour-booking-with-border"
             id="tour-booking-enquiry-form"
           >
@@ -119,9 +120,7 @@ export const ContactPageTemplate = ({
                     className="form-control"
                     defaultValue=""
                   >
-                    <option value="">
-                      -
-                    </option>
+                    <option value="">-</option>
                     <option value="Guided">Guided</option>
                     <option value="Unguided">Unguided</option>
                   </select>
@@ -153,9 +152,7 @@ export const ContactPageTemplate = ({
                     className="form-control"
                     defaultValue=""
                   >
-                    <option value="">
-                      -
-                    </option>
+                    <option value="">-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -195,7 +192,6 @@ export const ContactPageTemplate = ({
               .
             </div>
             <div className="tour-booking-enquiry-form-message"></div>
-            <input type="hidden" name="tour-id" value="4646" />
             <input
               type="submit"
               className="btn btn-primary tour-booking-button"
@@ -207,11 +203,7 @@ export const ContactPageTemplate = ({
     </section>
 
     {location && (
-      <GoogleMap
-        center={location}
-        location={location}
-        mapkey={googleApiKey}
-      />
+      <GoogleMap center={location} location={location} mapkey={googleApiKey} />
     )}
   </main>
 );
