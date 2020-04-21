@@ -18,82 +18,75 @@ tags:
   - North
   - hiking
 meta:
-  description: >-
-    A cidade do Porto num contexto de cultura e património histórico, dispõe de
-    um leque de edificado, classificado pela UNESCO, para os olhos mais curiosos
-    que...
-  keywords: >-
-    Passeio pedestre pela baixa do Porto,passeios pedestres, passeios
+  description: A cidade do Porto num contexto de cultura e património histórico,
+    dispõe de um leque de edificado, classificado pela UNESCO, para os olhos
+    mais curiosos que...
+  keywords: Passeio pedestre pela baixa do Porto,passeios pedestres, passeios
     arquitectura Porto
   robots: INDEX
   title: PASSEIO PEDESTRE PELA BAIXA DO PORTO
 minAge: 16
 difficulty: 0
+mapUrl: https://www.google.com/maps/d/u/2/embed?mid=1qREi0fJNHqEnK6r6vinbvYCI49o
 itinerary:
-  - day: '1'
+  - day: "1"
     description: Ponto de Encontro para o início do passeio.
     location:
-      lat: '41.15229612'
-      lng: '-8.61093253'
+      lat: "41.15229612"
+      lng: "-8.61093253"
     title: Top Bike tours Portugal
-  - day: '2'
-    description: >-
-      Uma das avenidas mais emblemáticas do Porto, que alberga a câmara
+  - day: "2"
+    description: Uma das avenidas mais emblemáticas do Porto, que alberga a câmara
       municipal e os mais belos e variados edifícios.
     location:
-      lat: '41.14918105'
-      lng: '-8.61075461'
+      lat: "41.14918105"
+      lng: "-8.61075461"
     title: Avenida dos Aliados
-  - day: '3'
-    description: >-
-      Construídas junto uma da outra, jazem duas belas igrejas, tendo entre elas
-      a menor casa de toda a cidade.
+  - day: "3"
+    description: Construídas junto uma da outra, jazem duas belas igrejas, tendo
+      entre elas a menor casa de toda a cidade.
     location:
-      lat: '41.15043718'
-      lng: '-8.62380087'
+      lat: "41.15043718"
+      lng: "-8.62380087"
     title: Igreja do Carmo
-  - day: '4'
-    description: >-
-      A biblioteca mais conhecida da cidade, Lello & Irmão, foi inúmeras vezes
-      considerada uma das mais bonitas do mundo.
+  - day: "4"
+    description: A biblioteca mais conhecida da cidade, Lello & Irmão, foi inúmeras
+      vezes considerada uma das mais bonitas do mundo.
     location:
-      lat: '41.14689325'
-      lng: '-8.61478672'
+      lat: "41.14689325"
+      lng: "-8.61478672"
     title: Livraria Lello
-  - day: '5'
-    description: >-
-      Pairando acima de todos os edifícios em volta, é difícil esta monumental
-      torre passar despercebida, mesmo para os olhos mais destreinados.
+  - day: "5"
+    description: Pairando acima de todos os edifícios em volta, é difícil esta
+      monumental torre passar despercebida, mesmo para os olhos mais
+      destreinados.
     location:
-      lat: '41.14565045'
-      lng: '-8.61464435'
+      lat: "41.14565045"
+      lng: "-8.61464435"
     title: Torre dos Clerigos
-  - day: '6'
-    description: >-
-      A estação de São Bento é certamente uma das principais atracções da
+  - day: "6"
+    description: A estação de São Bento é certamente uma das principais atracções da
       cidade. Aqui poderá ver todo o conjunto de 20000 azulejos que a tornam
       visita obrigatória.
     location:
-      lat: '41.14537273'
-      lng: '-8.61013234'
+      lat: "41.14537273"
+      lng: "-8.61013234"
     title: Estação de São Bento
-  - day: '7'
-    description: >-
-      O Infante Dom Henrique é sem dúvida uma das principais figuras da história
-      portuguesa, devido ao seu relacionamento com o início dos descobrimentos
-      portugueses.
+  - day: "7"
+    description: O Infante Dom Henrique é sem dúvida uma das principais figuras da
+      história portuguesa, devido ao seu relacionamento com o início dos
+      descobrimentos portugueses.
     location:
-      lat: '41.14119467'
-      lng: '-8.6149013'
+      lat: "41.14119467"
+      lng: "-8.6149013"
     title: Jardim do Infante Dom Henrique
-  - day: '8'
-    description: >-
-      O cais da ribeira é certamente uma imagem de marca da cidade do Porto.
-      Colada ao rio, esta área foi por muitos séculos a principal área comercial
-      da cidade.
+  - day: "8"
+    description: O cais da ribeira é certamente uma imagem de marca da cidade do
+      Porto. Colada ao rio, esta área foi por muitos séculos a principal área
+      comercial da cidade.
     location:
-      lat: '41.14022957'
-      lng: '-8.61360312'
+      lat: "41.14022957"
+      lng: "-8.61360312"
     title: Cais da Ribeira
 gallery:
   - alt: city walk tour porto portugal
@@ -123,14 +116,14 @@ pricing:
     price: 50
 feature:
   align: center
-  image: /img/44817961982_440e783762_o.jpg
   imageAlign: center center
-  subtitle: Bicycle day tours Portugal
-  textcolor: white
-  title: Day tours
   bokunLink: https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270680?partialView=1
-  bokunLinkText: Book now
   bokunId: bokun_10409f20_b14f_46e7_8efe_34f9cebdb73e
+  textcolor: white
+  subtitle: Bicycle day tours Portugal
+  title: Day tours
+  image: /img/44817961982_440e783762_o.jpg
+  bokunLinkText: Book now
 ---
 # Walking tour - Oporto’s Downtown
 
@@ -139,7 +132,7 @@ A cidade do Porto dispõe de um vasto leque de património edificado classificad
 
 Mergulhe connosco num clássico passeio pelos principais pontos de interesse e contacte com as gentes que contribuíram para o bem-estar desta metrópole urbana.
 
-![](/img/oporto-walk-tour.png)
+![]()
 
 \
 \
