@@ -24,7 +24,7 @@ meta:
   keywords: tour em bicicleta electrica porto
   robots: INDEX
   title: Tour em bicicleta Eléctrica Porto
-mapUrl: https://drive.google.com/open?id=1px6K5F8BOih0B5tRKPQdRuea9hY&usp=sharing
+mapUrl: https://www.google.com/maps/d/u/2/edit?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
 itinerary:
   - day: "1"
     description: Ponto de encontro onde será iniciado o passeio.
