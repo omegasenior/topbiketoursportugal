@@ -27,7 +27,7 @@ meta:
 groupSizeMax: 1
 groupSizeMin: 1
 minAge: 16
-mapUrl: https://drive.google.com/open?id=1cUPtrsYip99MUc8TrT-zGT_TNHM&usp=sharing
+mapUrl: https://www.google.com/maps/d/u/2/edit?mid=1cUPtrsYip99MUc8TrT-zGT_TNHM&ll=41.157331438780105%2C-8.651119600000015&z=15
 itinerary:
   - day: "1"
     description: Meeting Point
