@@ -16,115 +16,106 @@ tags:
   - North
   - touring bicycle
 meta:
-  description: >-
-    This food tour includes a visit to wine caves and a meal in a typical
-    portuguese restaurant
-  keywords: 'BIKE TOUR WINE AND GASTOURNOMY PORTO PORTUGAL,food tour'
+  description: This food tour includes a visit to wine caves and a meal in a
+    typical portuguese restaurant
+  keywords: BIKE TOUR WINE AND GASTOURNOMY PORTO PORTUGAL,food tour
   robots: INDEX
   title: Bike tour Wine and Gastournomy | Food Tour
 groupSizeMax: 1
 groupSizeMin: 1
 minAge: 16
-#rating: []
+mapUrl: https://drive.google.com/open?id=1cUPtrsYip99MUc8TrT-zGT_TNHM&usp=sharing
 itinerary:
-  - day: '1'
+  - day: "1"
     description: Meeting Point
     location:
-      lat: '41.15227804'
-      lng: '-8.61086525'
+      lat: "41.15227804"
+      lng: "-8.61086525"
     title: Top Bike tours Portugal
-  - day: '2'
-    description: >-
-      Starting the tour we will be passing right in the heart of Porto in the
-      direction of the river Douro.
+  - day: "2"
+    description: Starting the tour we will be passing right in the heart of Porto in
+      the direction of the river Douro.
     location:
-      lat: '41.15002108'
-      lng: '-8.6107184'
-    title: 'Avenida dos Aliados,'
-  - day: '3'
-    description: >-
-      The train station of São Bento is certainly one of the main attractions of
-      the city. Here you will be able to see its tiles in all their glory, a
-      total of 20000 tiles.
+      lat: "41.15002108"
+      lng: "-8.6107184"
+    title: Avenida dos Aliados,
+  - day: "3"
+    description: The train station of São Bento is certainly one of the main
+      attractions of the city. Here you will be able to see its tiles in all
+      their glory, a total of 20000 tiles.
     location:
-      lat: '41.14563135'
-      lng: '-8.61000627'
+      lat: "41.14563135"
+      lng: "-8.61000627"
     title: Sao Bento Railway Station
-  - day: '4'
-    description: >-
-      Here the travelers will be able to see the "Palacio da Bolsa" and the Hard
-      Club. You will also know about one of the most important Portuguese
-      personalities related to the exploration of the oceans.
+  - day: "4"
+    description: Here the travelers will be able to see the "Palacio da Bolsa" and
+      the Hard Club. You will also know about one of the most important
+      Portuguese personalities related to the exploration of the oceans.
     location:
-      lat: '41.14133203'
-      lng: '-8.61477256'
+      lat: "41.14133203"
+      lng: "-8.61477256"
     title: Jardim do Infante Dom Henrique
-  - day: '5'
+  - day: "5"
     description: An impressive gothic church down by the river area.
     location:
-      lat: '41.14092299'
-      lng: '-8.61569121'
+      lat: "41.14092299"
+      lng: "-8.61569121"
     title: Igreja de Sao Francisco
-  - day: '6'
-    description: >-
-      Near the river on the city of Vila Nova de Gaia our customers will have a
-      chance to make a wine tour in the famous Wine Cellars of Porto wine and
-      also they will have a lunch, where they will tast the famous portuguese
-      gastronmy and ate the same time enjoying the view of Ribeira.
+  - day: "6"
+    description: Near the river on the city of Vila Nova de Gaia our customers will
+      have a chance to make a wine tour in the famous Wine Cellars of Porto wine
+      and also they will have a lunch, where they will tast the famous
+      portuguese gastronmy and ate the same time enjoying the view of Ribeira.
     location:
-      lat: '41.13748191'
-      lng: '-8.61388743'
+      lat: "41.13748191"
+      lng: "-8.61388743"
     title: Vila Nova de Gaia
-  - day: '7'
+  - day: "7"
     description: Enjoy the ocean view and the environment surrounding you
     location:
-      lat: '41.15588153'
-      lng: '-8.68375093'
-    title: 'Praia do Molhe,'
-  - day: '8'
-    description: >-
-      In a dominant position over the Atlantic Ocean and a short distance from
-      the mouth of the Douro River, it is also known as Castelo do Queijo
+      lat: "41.15588153"
+      lng: "-8.68375093"
+    title: Praia do Molhe,
+  - day: "8"
+    description: In a dominant position over the Atlantic Ocean and a short distance
+      from the mouth of the Douro River, it is also known as Castelo do Queijo
       because, according to tradition, it was built on a round granite rock and
       shaped like a cheese.
     location:
-      lat: '41.16895594'
-      lng: '-8.69019896'
+      lat: "41.16895594"
+      lng: "-8.69019896"
     title: Castle of the Cheese
-  - day: '9'
-    description: >-
-      Your lunch will be in the fish area in Matosinhos where we will present
-      you with diferent Grilled fish or other dishes depending your preferences.
+  - day: "9"
+    description: Your lunch will be in the fish area in Matosinhos where we will
+      present you with diferent Grilled fish or other dishes depending your
+      preferences.
     location:
-      lat: '41.22232475'
-      lng: '-8.67043236'
+      lat: "41.22232475"
+      lng: "-8.67043236"
     title: Matosinhos
-  - day: '10'
-    description: >-
-      The only city park with a direct connection to the beach. This is an
-      idyllic place, with two lakes, gooses and the migrating birds that visit
-      the area from time to time
+  - day: "10"
+    description: The only city park with a direct connection to the beach. This is
+      an idyllic place, with two lakes, gooses and the migrating birds that
+      visit the area from time to time
     location:
-      lat: '41.16672341'
-      lng: '-8.67992163'
+      lat: "41.16672341"
+      lng: "-8.67992163"
     title: Parque da Cidade do Porto
-  - day: '11'
-    description: >-
-      If you had no clue that Napoleon ordered the invasion of Portugal during
-      the Napoleonic wars, here is your chance.
+  - day: "11"
+    description: If you had no clue that Napoleon ordered the invasion of Portugal
+      during the Napoleonic wars, here is your chance.
     location:
-      lat: '41.15775681'
-      lng: '-8.628788'
+      lat: "41.15775681"
+      lng: "-8.628788"
     title: Jardim da Rotunda da Boavista
-  - day: '12'
-    description: >-
-      Considered the oldest church in the city, it is not entirely sure as to
-      when it was built. Historians suggest that it might have been build around
-      the 5th or 6th centuries. The one that you can see today tho, dates back
-      to the ending of the 11th century.
+  - day: "12"
+    description: Considered the oldest church in the city, it is not entirely sure
+      as to when it was built. Historians suggest that it might have been build
+      around the 5th or 6th centuries. The one that you can see today tho, dates
+      back to the ending of the 11th century.
     location:
-      lat: '41.15576946'
-      lng: '-8.6216569'
+      lat: "41.15576946"
+      lng: "-8.6216569"
     title: Igreja de Sao Martinho de Cedofeita
 gallery:
   - alt: wine caves
@@ -148,14 +139,14 @@ pricing:
     price: 129
 feature:
   align: center
-  image: /img/44817961982_440e783762_o.jpg
   imageAlign: center center
-  subtitle: Bicycle day tours Portugal
-  textcolor: white
-  title: Day tours
   bokunLink: https://widgets.bokun.io/online-sales/78235668-9ba3-43e0-b6a9-4b5322217da3/experience/270682?partialView=1
-  bokunLinkText: Book now
   bokunId: bokun_5fc0fc51_720a_4248_8f6b_2604ec218ffe
+  textcolor: white
+  subtitle: Bicycle day tours Portugal
+  title: Day tours
+  image: /img/44817961982_440e783762_o.jpg
+  bokunLinkText: Book now
 ---
 # BIKE TOUR -Food tour | Wine & Gastournomy
 
@@ -168,7 +159,7 @@ At the beginning of the bike ride we will leave the city center which is conditi
 
 In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
 
-![BIKE TOUR -Food tour map](/img/sightseeing-porto-bike-tour.png)
+![BIKE TOUR -Food tour map]()
 
 \
 \
