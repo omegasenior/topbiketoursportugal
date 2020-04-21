@@ -25,7 +25,7 @@ meta:
   keywords: city tours,ACTIVITIES IN PORTO, CITY TOURS PORTO
   robots: INDEX
   title: 1 Day Biketour in Porto city
-mapUrl: https://drive.google.com/open?id=1D3CjvZ4Tdut09u7F2KwCOAxBqNA&usp=sharing
+mapUrl: https://drive.google.com/open?id=1D3CjvZ4Tdut09u7F2KwCOAxBqNA
 itinerary:
   - day: "1"
     description: Meeting Point
