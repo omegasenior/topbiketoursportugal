@@ -27,7 +27,7 @@ meta:
     PORTO, ferias em bicicleta PORTO
   robots: INDEX
   title: Full Day Biketour Deluxe
-mapUrl: https://drive.google.com/open?id=1D3CjvZ4Tdut09u7F2KwCOAxBqNA&usp=sharing
+mapUrl: https://drive.google.com/open?id=1D3CjvZ4Tdut09u7F2KwCOAxBqNA
 itinerary:
   - day: "1"
     description: Ponto de Encontro para o início do passeio.
