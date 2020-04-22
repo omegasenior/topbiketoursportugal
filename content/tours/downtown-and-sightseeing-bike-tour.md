@@ -156,8 +156,6 @@ At the beginning of the bike ride we will leave the city center which is conditi
 
 In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
 
-![Porto city bike tour]( "Porto city bike tour")
-
 **Tour detail:**
 
 * Departures: 10h00 and 14h30
