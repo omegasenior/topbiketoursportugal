@@ -155,8 +155,6 @@ No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado 
 
 No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
 
-![Porto city bike tour]( "Porto city bike tour")
-
 **Tour detail:**
 
 * Partida: 10h00 e 14h30
