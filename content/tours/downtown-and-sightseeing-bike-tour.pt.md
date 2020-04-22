@@ -26,7 +26,7 @@ meta:
   robots: INDEX
   title: "SIGHTSEEING BIKE CITY TOUR NO PORTO "
 difficulty: 0
-mapUrl: https://www.google.com/maps/d/u/2/edit?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
+mapUrl: https://www.google.com/maps/d/u/2/embed?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
 itinerary:
   - day: "1"
     description: Ponto de encontro onde será iniciado o passeio.
