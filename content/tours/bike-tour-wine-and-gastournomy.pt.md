@@ -162,8 +162,6 @@ No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado 
 
 No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
 
-![BIKE TOUR -Food tour map]()
-
 \
 **Detalhes do tour:**
 
