@@ -24,7 +24,7 @@ meta:
   keywords: Electric bike tour Porto
   robots: INDEX
   title: Electric bike tour Porto
-mapUrl: https://www.google.com/maps/d/u/2/edit?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
+mapUrl: https://www.google.com/maps/d/u/2/embed?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
 itinerary:
   - day: "1"
     description: "Meeting point for the begining of the Tour "
@@ -141,8 +141,6 @@ At the beginning of the bike ride we will leave the city center which is conditi
 In the final stretch, keep in mind that we will ride on the biggest avenue in Oporto, where the traffic will be noticed more and also the climbs.
 
 NOTE: The tour can be shared with non e-bike clients.
-
-![e bike tour map porto]()
 
 **Tour detail:**
 
