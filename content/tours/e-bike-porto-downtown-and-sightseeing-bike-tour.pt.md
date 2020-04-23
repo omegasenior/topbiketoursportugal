@@ -24,7 +24,7 @@ meta:
   keywords: tour em bicicleta electrica porto
   robots: INDEX
   title: Tour em bicicleta Eléctrica Porto
-mapUrl: https://www.google.com/maps/d/u/2/edit?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
+mapUrl: https://www.google.com/maps/d/u/2/embed?mid=1px6K5F8BOih0B5tRKPQdRuea9hY
 itinerary:
   - day: "1"
     description: Ponto de encontro onde será iniciado o passeio.
@@ -139,8 +139,6 @@ No início do passeio de bicicleta, deixaremos o centro da cidade, condicionado 
 No trecho final, lembre-se de que percorreremos a maior avenida do Porto, onde o tráfego será mais notado e também as subidas.
 
 NOTA: O passeio pode ser compartilhado com clientes que não usem bicicleta eléctrica.
-
-![electric bike tour map]()
 
 **Detalhes do Passeio:**
 
