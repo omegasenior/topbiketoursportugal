@@ -27,7 +27,7 @@ meta:
     PORTO, ferias em bicicleta PORTO
   robots: INDEX
   title: Full Day Biketour Deluxe
-mapUrl: https://drive.google.com/open?id=1D3CjvZ4Tdut09u7F2KwCOAxBqNA
+mapUrl: https://www.google.com/maps/d/u/2/embed?mid=1D3CjvZ4Tdut09u7F2KwCOAxBqNA
 itinerary:
   - day: "1"
     description: Ponto de Encontro para o início do passeio.
@@ -179,8 +179,6 @@ feature:
 Pedalar até às praias do Norte de Portugal nunca foi tão agradável.
 
 Venha conhecer a inigualável costa do norte português, onde poderá encontrar várias cidades dedicadas à actividade piscatória, onde o bacalhau, as sardinhas, a dourada e o robalo imperam. A meio deste percurso de bicicleta, encontrará imóveis de interesse público considerados património histórico da cidade, tais como a alfândega do Porto, local de eventos e exibições, as piscinas de marés, da autoria de Álvaro Siza Vieira, muito frequentadas no Verão, uma réplica de uma nau dos Descobrimentos Portugueses, do século XVI, terminando na Póvoa de Varzim, com as suas famosas enseadas marítimas.
-
-![]()
 
 **Detalhes do Passeio:**
 
