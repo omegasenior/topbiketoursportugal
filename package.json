@@ -72,7 +72,7 @@
     "gatsby-transformer-sharp": "^2.4.6",
     "gatsby-transformer-yaml": "^2.3.3",
     "google-map-react": "^1.1.7",
-    "i18next": "^19.4.3",
+    "i18next": "^19.4.4",
     "i18next-browser-languagedetector": "^4.1.1",
     "i18next-xhr-backend": "^3.2.2",
     "isotope-layout": "^3.0.6",
