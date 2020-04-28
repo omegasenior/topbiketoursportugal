@@ -92,7 +92,7 @@
     "parcel-bundler": "^1.12.4",
     "postcss-at-rules-variables": "^0.1.10",
     "prop-types": "15.7.2",
-    "pure-react-carousel": "^1.27.0",
+    "pure-react-carousel": "^1.27.1",
     "react": "^16.13.1",
     "react-animated-slider": "^2.0.0",
     "react-color": "^2.18.0",
