@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "gatsby";
 // import FlagIconFactory from "react-flag-icon-css";
 
-import "./LanguageSwitcher.scss"
+import "./LanguageSwitcher.scss";
 
 const LanguageSwitcher = ({ language, languageAlternateLinks }) => (
   <>
