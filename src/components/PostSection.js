@@ -39,7 +39,7 @@ class PostSection extends React.Component {
         {!!visiblePosts.length && (
           <div className="row">
             {visiblePosts.map((post, index) => (
-              <div key={post.title + index} className="col-xs-12 col-sm-4">
+              <div key={post.title + index} className="col-12 col-sm-12 col-md-4">
                 <PostCard {...post} />
               </div>
             ))}

@@ -5,6 +5,7 @@ import { graphql, Link, navigate } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import Rating from "../components/Rating";
 import { HTMLContent } from "../components/Content";
+import Breadcrumb from "../components/Breadcrumb";
 import { sum } from "lodash-es";
 // import { Helmet } from "react-helmet";
 // import styled from "styled-components";
@@ -24,20 +25,20 @@ export const TourTemplate = ({
   rating,
   html,
   excerpt,
-  language
+  language,
 }) => {
   var tourRating = rating
-    ? Math.round(sum(rating.map(r => r.rating)) / rating.length)
+    ? Math.round(sum(rating.map((r) => r.rating)) / rating.length)
     : 0;
   return (
     <div
       className="row tour"
       role="navigation"
-      onClick={event => {
+      onClick={(event) => {
         event.preventDefault();
         navigate(path);
       }}
-      onKeyDown={event => {
+      onKeyDown={(event) => {
         event.preventDefault();
         navigate(path);
       }}
@@ -81,7 +82,7 @@ export const ToursListTemplate = ({ tours }) => (
   <>
     {tours &&
       tours.map((tour, jindex) => (
-        <TourTemplate key={`ct` + jindex} {...tour} {...tour.frontmatter} />
+        <TourTemplate key={`ct_${jindex}`} {...tour} {...tour.frontmatter} />
       ))}
   </>
 );
@@ -89,7 +90,7 @@ export const ToursListTemplate = ({ tours }) => (
 export const CityToursTemplate = ({ tours, body, afterList }) => (
   <section className="tourList">
     <HTMLContent className="row" content={body} />
-    <ToursListTemplate key="tlt" tours={tours} />
+    <ToursListTemplate tours={tours} />
     {afterList && <HTMLContent content={afterList} />}
   </section>
 );
@@ -99,7 +100,7 @@ export const CityToursPage = ({ data }) => {
   const language = page.frontmatter.language;
   const toursFiltered = filter(
     tours.nodes,
-    t => t.frontmatter.language === language
+    (t) => t.frontmatter.language === language
   );
   // console.log(JSON.stringify(toursFiltered));
   // console.log(JSON.stringify(data.page.frontmatter.meta));
@@ -110,17 +111,28 @@ export const CityToursPage = ({ data }) => {
       feature={page.frontmatter.feature}
       language={language}
     >
-      <CityToursTemplate
-        tours={toursFiltered}
-        body={page.html}
-        {...page.frontmatter}
-      />
+      <>
+        <Breadcrumb
+          routes={[
+            { displayName: "Home", url: "/" },
+            {
+              displayName: page.frontmatter.title,
+              url: page.frontmatter.path || page.frontmatter.slug,
+            },
+          ]}
+        />
+        <CityToursTemplate
+          tours={toursFiltered}
+          body={page.html}
+          {...page.frontmatter}
+        />
+      </>
     </Layout>
   );
 };
 
 CityToursPage.propTypes = {
-  data: PropTypes.any
+  data: PropTypes.any,
 };
 
 export default CityToursPage;
@@ -130,9 +142,11 @@ export const pageQuery = graphql`
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...FeatureImage
+
       html
       frontmatter {
         title
+        slug
         templateKey
         language
         subtitle
@@ -144,6 +158,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        path
       }
     }
     tours: allMarkdownRemark(
