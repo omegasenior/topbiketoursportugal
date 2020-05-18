@@ -13,6 +13,7 @@ meta:
   title: Clima e Geografia para pedalar em Portugal
   language: PT
 languagePages: []
+showHome: true
 ---
 # Clima e Geografia para pedalar em Portugal
 

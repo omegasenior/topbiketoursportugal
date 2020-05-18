@@ -17,7 +17,7 @@ meta:
   title: Benefits of your first bike tour
   language: EN
 languagePages: []
-showHome: true
+showHome: false
 ---
 # Benefits of your first bike tour!
 

@@ -15,6 +15,7 @@ meta:
   title: Climate and Geography for cycling in Portugal
   language: EN
 languagePages: []
+showHome: true
 ---
 # Climate and Geography for cycling in Portugal
 
