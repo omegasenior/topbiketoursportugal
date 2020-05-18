@@ -1,25 +1,21 @@
 import React from "react";
+import { orderBy, uniq, filter } from "lodash-es";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
-import { TourGallery, TourPlan, TourPricing } from "../components/Tour/index";
-// import { Helmet } from "react-helmet";
-// import BackgroundImage from "gatsby-background-image";
+import {
+  TourGallery,
+  TourPlan,
+  TourPricing,
+  TourReviews,
+} from "../components/Tour/index";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-// import { Container } from "styled-container-component";
 import { HTMLContent, HTMLMarkdownContent } from "../components/Content";
-// import { CheckCircle } from "@styled-icons/boxicons-regular/CheckCircle";
-// import scrollTo from "gatsby-plugin-smoothscroll";
-// import { Waypoint } from "react-waypoint";
-import ScrollableAnchor, {
-  goToAnchor,
-  configureAnchors,
-} from "react-scrollable-anchor";
-// import { AnchorLink } from "gatsby-plugin-anchor-links";
+import ScrollableAnchor, { goToAnchor } from "react-scrollable-anchor";
 import { Clock } from "@styled-icons/fa-solid/Clock";
 import { Mountain } from "@styled-icons/fa-solid/Mountain";
 import { Road } from "@styled-icons/fa-solid/Road";
@@ -46,16 +42,6 @@ const StyledPaper = styled(Paper)`
     width: 100%;
   }
 `;
-// const StyledContainer = styled(Container)`
-//   display: block;
-//   margin: 50px auto;
-//   margin-top: 0;
-//   padding: 15px;
-// `;
-
-// const StyledBackgroundImage = styled(BackgroundImage)`
-//   min-height: 300px;
-// `;
 
 function TabPanel({ children, value, index, ...other }) {
   // const  = props;
@@ -88,7 +74,24 @@ function a11yProps(index) {
 }
 
 function TourGen({ data }) {
-  const tour = { ...data.tour, ...data.tour.frontmatter };
+  // console.log(JSON.stringify(data.reviews.nodes));
+
+  var reviews = data?.reviews?.nodes.map((r) => {
+    return {
+      ...r.frontmatter,
+      html: r.html,
+      relatedProducts: r.relatedProducts,
+    };
+  });
+
+  const tour = {
+    ...data.tour,
+    ...data.tour.frontmatter,
+    reviews: reviews,
+  };
+
+  console.log(JSON.stringify(tour));
+
   const { settings } = data;
   const [value, setValue] = React.useState(0);
   const [stickyNav, setNavState] = React.useState(false);
@@ -99,6 +102,7 @@ function TourGen({ data }) {
     "gallery",
     /*"reviews",*/ "pricing",
     "the-fine-print",
+    "reviews",
   ];
 
   function getDifficultyText(language, difficulty) {
@@ -133,6 +137,8 @@ function TourGen({ data }) {
       "Difícil",
     ],
   };
+
+  console.log(JSON.stringify(tour));
 
   return (
     <Layout
@@ -182,10 +188,13 @@ function TourGen({ data }) {
 
             {tour.itinerary && <Tab label="Tour Plan" {...a11yProps(1)} />}
             {tour.gallery && <Tab label="Gallery" {...a11yProps(2)} />}
-            {/* <Tab label="Reviews" {...a11yProps(3)} /> */}
             {tour.pricing && tour.pricing.length > 0 && (
               <Tab label="Pricing" {...a11yProps(4)} />
             )}
+
+            {/* {tour.reviews && tour.reviews.length > 0 && ( }
+              <Tab label="Reviews" {...a11yProps(5)} />
+            )} */}
 
             {/* <Tab label="The fine print" {...a11yProps(5)} /> */}
           </Tabs>
@@ -423,7 +432,6 @@ function TourGen({ data }) {
               </ScrollableAnchor>
             )}
 
-            {/* <TourReviews tour={tour}></TourReviews> */}
             {tour.afterpricing && (
               <>
                 <br />
@@ -433,6 +441,13 @@ function TourGen({ data }) {
                 />
               </>
             )}
+            {/* {tour.reviews && tour.reviews.length > 0 && (
+              <ScrollableAnchor id={"pricing"}>
+                <div id={a11yProps(5).id} className="container">
+                  <TourReviews reviews={tour.reviews}></TourReviews>
+                </div>
+              </ScrollableAnchor>
+            )} */}
 
             {tour.gallery && (
               <ScrollableAnchor id={"gallery"}>
@@ -462,6 +477,29 @@ export const tourGenQuery = graphql`
       location {
         lat
         lng
+      }
+    }
+    reviews: allMarkdownRemark(
+      filter: {
+        fields: { contentType: { eq: "testimonials" } }
+        frontmatter: { language: { eq: "en" } }
+      }
+    ) {
+      nodes {
+        html
+        frontmatter {
+          author {
+            country
+            name
+          }
+          date(fromNow: true)
+          language
+          title
+          quote
+          relatedProducts {
+            tour
+          }
+        }
       }
     }
     tour: markdownRemark(id: { eq: $id }) {
