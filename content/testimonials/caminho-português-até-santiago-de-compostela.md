@@ -16,8 +16,6 @@ author:
   country: Brasil
   avatar: /img/emmet.jpg
   name: Saulo
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Não sou de fazer avaliações, mas esta fiz questão!!! Sobre o passeio, que só quem o fez sabe o que estou falando, é INDESCRITÍVEL!!!! Quanto aos serviços oferecidos pelo pessoal do Sérgio, digo, com absoluta certeza: foram muito além do esperado... Competentíssimo, sério, dicas sensacionais, bicicletas de excelente qualidade, enfim, perfeito. Nosso grupo é unânime em dizer que nossa viagem foi perfeita pela segurança e prestabilidade do pessoal da Fold N Visit-Rent a Bike!!! Parabéns!! Recomendo a todos.

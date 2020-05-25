@@ -11,8 +11,6 @@ author:
   country: Seatle, USA
   avatar: /img/emmet.jpg
   name: Mary Alice
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 Great experience for 70+ year old couple. Loved tips for restaurants, museums and birding spots. Great support. Mary from Seattle

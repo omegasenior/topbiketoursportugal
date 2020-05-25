@@ -19,9 +19,7 @@ author:
   country: Brasil
   avatar: /img/emmet.jpg
   name: Jucelaine
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Uma viagem incrível, com paisagens inesquecíveis. A rota no território português é pela Costa e ao chegar à Espanha a maior parte de trajeto é pela mata.\
 A escolha dos hotéis e restaurantes me surpreendeu positivamente (levando-se em conta que é uma viagem de aventura e não de luxo).\

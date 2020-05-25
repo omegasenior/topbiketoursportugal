@@ -16,8 +16,6 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Herb
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 I learned about the Silver Coast tour through Darren Alff, "The Bicycle Touring Pro" (see Youtube) last Fall (2018) and recently completed it. Sergio and Henrique had it all planned out and provided wonderful support throughout. I was truly impressed with all the arrangements involved, from the pickup at the airport, the hotel reservations, the lunch stops, the evening meals. I don't see how they made all of this so affordable. I'm thinking of booking another tour with Top Bike Tours next year.

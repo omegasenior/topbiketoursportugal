@@ -2645,17 +2645,16 @@ collections:
               widget: string,
               required: false
             }
-         
-      - label: RelatedProducts
-        name: relatedProducts
-        widget: list
-        fields:
-        - label: "Tour"
-          name: "tour"
-          widget: "relation"
-          collection: "tours"
-          displayFields: ["productcode", "title", "slug", "language"]
-          searchFields: ["title", "slug", "productcode"]
-          valueField: "productcode"
-          required: false
-          multiple: false
+      # - label: relatedProduct
+      #   name: relatedProduct
+      #   widget: list
+      #   fields:
+      - label: "relatedProduct"
+        name: "relatedProduct"
+        widget: "relation"
+        collection: "tours"
+        displayFields: ["productcode", "title", "slug", "language"]
+        searchFields: ["title", "slug", "productcode"]
+        valueField: "productcode"
+        required: false
+        multiple: false

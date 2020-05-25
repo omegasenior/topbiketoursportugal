@@ -20,8 +20,6 @@ author:
   country: Melbourne, Australia
   avatar: /img/emmet.jpg
   name: Mary
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 We completed the Porto to Santiago ride via the coastal route which included a very informative city tour of Porto on the first day which was a nice touch, The tour followed a large portion of the Camino way so was on tracks with other walkers. It did therefore require some good bike handling skills (our's improved along the way). The customer service from Sergio was first class. He responded to all our emails very quickly. We gave him some feedback on some of the trails that had deteriorated and he immediately investigated and altered the trails for subsequent tours. We did a self guided tour which relied on a GPS. The maps were VERY accurate finishing right outside the front door of the hotel at the end of each day. Great and varied scenery and very enjoyable.

@@ -19,8 +19,6 @@ author:
   country: New Zeland
   avatar: /img/emmet.jpg
   name: Gayle
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 We did the 6 day Silver Coast Bike Tour, down the Portugal Coast from Porto to Coimbra. As I did not choose this trip myself, my expectations were 40/100. Once I got home and took in the whole experience, my expectation exceeded by 100%. I have travelled and done a few things, but none that has given me such a hands on, incredible experience like this. Sergio couldn't do enough for us. We had an awesome trail on the GPS, gave us great bikes AND WE NEVER FELT UNSAFE. The areas we biked into you wouldn't come across by car, and the local things you saw on the way I can't begin to describe, the magnificent whole scenario.

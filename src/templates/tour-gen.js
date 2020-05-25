@@ -74,23 +74,26 @@ function a11yProps(index) {
 }
 
 function TourGen({ data }) {
-  // console.log(JSON.stringify(data.reviews.nodes));
+  console.log(data.tour.frontmatter.productcode);
 
-  var reviews = data?.reviews?.nodes.map((r) => {
-    return {
-      ...r.frontmatter,
-      html: r.html,
-      relatedProducts: r.relatedProducts,
-    };
+  var reviews = filter(
+    data.reviews.nodes,
+    (review) =>
+      review.frontmatter.relatedProduct === data.tour.frontmatter.productcode
+  ).map((r) => {
+    return { ...r, ...r.frontmatter };
   });
 
-  const tour = {
+  let tour = {
     ...data.tour,
     ...data.tour.frontmatter,
-    reviews: reviews,
+    ...reviews
   };
+  // console.log(JSON.stringify(reviews));
+  // console.log(JSON.stringify(data?.reviews?.nodes));
+  // console.log(JSON.stringify(tour));
 
-  console.log(JSON.stringify(tour));
+  tour.reviews = reviews;
 
   const { settings } = data;
   const [value, setValue] = React.useState(0);
@@ -138,7 +141,7 @@ function TourGen({ data }) {
     ],
   };
 
-  console.log(JSON.stringify(tour));
+  // console.log(JSON.stringify(tour));
 
   return (
     <Layout
@@ -192,11 +195,11 @@ function TourGen({ data }) {
               <Tab label="Pricing" {...a11yProps(4)} />
             )}
 
-            {/* {tour.reviews && tour.reviews.length > 0 && ( }
+            {reviews && reviews.length > 0 && (
               <Tab label="Reviews" {...a11yProps(5)} />
-            )} */}
+            )}
 
-            {/* <Tab label="The fine print" {...a11yProps(5)} /> */}
+            {/* <Tab label="The fine print" {...a11yProps(5)} />*/}
           </Tabs>
         </StyledPaper>
       </div>
@@ -441,13 +444,13 @@ function TourGen({ data }) {
                 />
               </>
             )}
-            {/* {tour.reviews && tour.reviews.length > 0 && (
+            {reviews && reviews.length > 0 && (
               <ScrollableAnchor id={"pricing"}>
                 <div id={a11yProps(5).id} className="container">
-                  <TourReviews reviews={tour.reviews}></TourReviews>
+                  <TourReviews reviews={reviews}></TourReviews>
                 </div>
               </ScrollableAnchor>
-            )} */}
+            )}
 
             {tour.gallery && (
               <ScrollableAnchor id={"gallery"}>
@@ -496,9 +499,7 @@ export const tourGenQuery = graphql`
           language
           title
           quote
-          relatedProducts {
-            tour
-          }
+          relatedProduct
         }
       }
     }

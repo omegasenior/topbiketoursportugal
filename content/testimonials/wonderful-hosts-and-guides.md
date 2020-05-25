@@ -14,8 +14,6 @@ author:
   avatar: /img/0-copy.jpg
   country: USA
   name: Kevin
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 We were treated to a great tour of Porto the day before our tour to Santiago Spain started. It was wonderful. The tour itself was nothing short of amazing. The hotels were top-notch and an experience in itself. The owner of Topbiketours made sure everything went seamlessly and made our journey memorable.

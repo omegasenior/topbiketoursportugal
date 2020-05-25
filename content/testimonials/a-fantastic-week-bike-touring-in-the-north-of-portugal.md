@@ -31,9 +31,7 @@ author:
   country: Fairlight, Australia
   avatar: /img/emmet.jpg
   name: Geoff Fogarty
-relatedProducts:
-  - tour: NORTH 01
-  - tour: NORTH 01
+relatedProduct: NORTH 01
 ---
 I organised a group of 6 late 50’s/ early 60 year olds who are all very occasional recreational riders to do this ride. Fold n Visit modified their North of Portugal self-guided itinerary for us by starting in Castro Laboreiro so that we could experiences the beautiful mountains in the north, but without the pain of big climbs.\
 Sergio provided an excellent service -\

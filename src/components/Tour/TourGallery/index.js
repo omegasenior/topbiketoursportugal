@@ -37,7 +37,7 @@ export class TourGallery extends React.Component {
 
     const images = gallery.map((item) => item.image.childImageSharp.high.src);
 
-    console.log(JSON.stringify(sliderImages));
+    // console.log(JSON.stringify(sliderImages));
 
     return (
       <div className="container">

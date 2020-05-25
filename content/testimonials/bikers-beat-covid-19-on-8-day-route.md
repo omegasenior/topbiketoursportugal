@@ -13,9 +13,7 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Sally
-relatedProducts:
-  - tour: VICENTINE 01
-  - tour: VICENTINE 01
+relatedProduct: VICENTINE 01
 ---
 Southern Atlantic coast and Algarve, Portugal\
 Four intrepid bikers completed the 8 day tour just ahead of covid-19 March 20, 2020. Lisbon and the coastal bike route were grand, as described. Maps could have been better quality. Two GPS supplied with route loaded, finding the correct route in towns and leaving villages was a challenge. Lodgings and restaurants very nice, some staying open when we were the only guests. Sergio, Enrique and Diego, and Tripsite were extremely helpful daily! Thanks. We are home now, finished with the virus quarantine, well and ready to create a photo log of the trip. Hope to return to see the northern coast soon.

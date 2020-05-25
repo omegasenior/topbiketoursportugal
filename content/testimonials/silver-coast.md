@@ -16,9 +16,7 @@ author:
   country: Clyde, New Zeland
   avatar: /img/emmet.jpg
   name: Gartex
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 Recently we completed the Silver Coast ride. We had E Bikes which were a bonus at the end of the day.\
 We met Sergio at our hotel for our bike briefing which went through our ride. Sergio was very thorough. We then had a bike fitting at his shop. Tiago took us on a walking tour of the city which was extremely informative showing us the sights of the city. Sergio escorted us to the river to get us safely on our way and we took it from there with the GPS.\

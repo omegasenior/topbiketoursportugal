@@ -26,9 +26,7 @@ author:
   country: Brasil
   avatar: /img/emmet.jpg
   name: Fernando Tassara
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Nossa família composta de 03 adultos começou nossa aventura no dia 16 de março.\
 Desde o início fomos atendidos com toda a atenção e carinho por parte dos componentes da empresa, sem exceção.\

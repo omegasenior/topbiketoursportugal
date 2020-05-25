@@ -23,9 +23,7 @@ author:
   avatar: /img/0-copy.jpg
   country: New Zeland
   name: Garry Gartex
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 This is our 2nd tour with Top Bike Tours of Portugal the 1st being the Silver Coast. Sergio put together a fantastic tour to Santiago de Compostela following one of the Camino Trails.\
 Porto is an amazing city to start the rides with plenty of things to do and see and if you have a like of seafood your in the right place.\

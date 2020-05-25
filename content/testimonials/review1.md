@@ -28,9 +28,7 @@ author:
   avatar: /img/specialized-diverge-e5-2.jpg
   country: New Zeland
   name: Peter Birks
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 
 We have recently completed the Silver Coast bike tour. We chose to have E

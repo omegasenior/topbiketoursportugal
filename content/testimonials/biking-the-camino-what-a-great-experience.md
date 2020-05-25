@@ -25,9 +25,7 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Jim Goia
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 I recently completed The Way of St. James bike tour, and it could not have been a better experience. We were a large group, over twenty, but Sergio, Jose, Tiago and Pedro all worked incredibly hard to not only keep us all safe and on course but to feel personally cared for in spite of such a large group. I was one of two vegetarians on the trip, and even though lunch and dinner were technically "on your own" our guides took great care to make sure we were well fed.\
 The route itself was beautiful and varied. The first few days were remarkable for their beautiful ocean views. Crossing into Spain, and moving inland we cycled down country roads through small town and villages, and through the woods on beautiful paths.\

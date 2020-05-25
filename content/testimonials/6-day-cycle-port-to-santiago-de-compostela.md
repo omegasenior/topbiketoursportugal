@@ -27,9 +27,7 @@ author:
   country: Nova Scotia
   avatar: /img/emmet.jpg
   name: Alex
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 18 of us went with Fold-N-Go and it was a great decision. Sergio and crew went well above and beyond in tour support. Coming straight from an Nova Scotia winter with little ability to precycle/train as well as some inexperienced riders the trip was a challenge but was well supported.This was our groups' 3rd European bike trip and by far the most rewarding.\
 \

@@ -340,5 +340,3 @@ Dia 5: Viana do Castelo – Ponte de Lima (26 Km)
 Dia 6: Ponte de Lima – Ponte da Barca ( 18 Km; etota extra até Arcos de Valdevez 28 km)
 
 Dia 7: Partida
-
-![]()

@@ -23,9 +23,7 @@ author:
   country: Rio de Janeiro, Brasil
   avatar: /img/emmet.jpg
   name: Ilana
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 O passeio foi do dia 25/04/18 a 01/05/18.\
 O grupo era de 18 canadenses e eu de brasileira.Foi tudo maravilhoso, desde os percursos até os hotéis, restaurantes, as bicicletas.\

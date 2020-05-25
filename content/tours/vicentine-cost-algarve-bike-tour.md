@@ -22,7 +22,6 @@ tags:
   - touring bicycle
   - e-bike
   - electric bicycle
-  - ""
   - vicentine Coast
   - southwest bike tour
 meta:
@@ -45,10 +44,12 @@ duration: 8
 durationUnit: Days | 7 Nights
 difficulty: 2
 physicality: 1
-mapUrl: https://www.google.com/maps/d/u/1/embed?mid=1ieK3MkKNSZ5im7KllAgWngvQiiWZksCn
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=1ieK3MkKNSZ5im7KllAgWngvQiiWZksCn'
+
 itinerary:
   - day: "1"
-    description: The journey starts in the city of Lisbon, Portugal's capital. This
+    description: >-	    
+      The journey starts in the city of Lisbon, Portugal's capital. This
       city has been influenced by many different cultures over the course of its
       history and it still maintains a village feeling in each historic
       neighborhood. The wide variety of landscapes and heritage is always close
@@ -440,5 +441,3 @@ Day 6 - Carrapateira – Sagres (37 km)
 Day 7 -  Sagres – Lagos (45 km)
 
 Day 8 - Departure
-
-![Vicentine Cost and Algarve Bike Tour reduced route]()

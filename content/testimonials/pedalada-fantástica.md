@@ -14,8 +14,6 @@ author:
   country: Brasil
   avatar: /img/emmet.jpg
   name: João
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Fizemos a peregrinação de Porto a Santiago de Compostela, de bicicleta utilizando o apoio da Top Bike, só temos elogios, tudo funcionou perfeitamente, desde a qualidade das bicicletas a logística do transportes das malas de um hotel ao outro e o ponto mais importante, a qualidade dos hotéis, recomendo a que for fazer este passeio, usar os serviços.

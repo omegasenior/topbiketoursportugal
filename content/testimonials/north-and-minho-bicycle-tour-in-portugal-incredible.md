@@ -25,9 +25,7 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Ashley
-relatedProducts:
-  - tour: NORTH 01
-  - tour: NORTH 01
+relatedProduct: NORTH 01
 ---
 For our honeymoon, my new husband and I did the 7 day Northern Portugal Bike Tour. It was absolutely incredible, probably one of the best/most memorable trips we've done in all our travels.\
 Sergio met with us the morning we arrived in Porto and shared with us an outline of our 7 days, with just the right amount of details. We knew the directions, distances, and topography for each day of our ride, plus a brief description of the route, and suggested places along the way to explore, have a bite to eat, and experience the treasures of Portugal. The terrain was flat and comfortable riding through such a variety of bike paths, trails, cobblestone paved neighborhoods, vineyards, corn field, and wooden boardwalks.\

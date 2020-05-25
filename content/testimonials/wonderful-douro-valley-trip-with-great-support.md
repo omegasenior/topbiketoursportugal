@@ -32,9 +32,7 @@ author:
   country: Melbourne, Australia
   avatar: /img/emmet.jpg
   name: Andy
-relatedProducts:
-  - tour: DOURO 01
-  - tour: DOURO 01
+relatedProduct: DOURO 01
 ---
 We did the Douro valley 6 day easy cycle trip with this lovely local company run by passionate cyclists in September. We were very unlucky to hit a patch of unseasonal rainy days but still enjoyed the sensational scenery. We elected to skip one day of riding which was just too wet and windy to be fun, and company were happy to transfer us, luggage and the bikes in a van. Luggage always arrived at next destination before we did, went very smoothly.\
 \

@@ -20,9 +20,7 @@ author:
   avatar: /img/0-copy.jpg
   country: USA
   name: Neil
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 I just got back from my bike tour of the Camino coastal path. I can't say enough nice things about Sergio and his team Enrique and Tiago . They really made everything happen right on this ebike tour that my friend Jeff and I took. Every detail was taken care of and the route was interesting and well supported. Even when I wasn't able to ride one day because of a health issue, Sergio made accommodation for me.\
 I had a great time and can't wait to go back again with my wife and daughter.\

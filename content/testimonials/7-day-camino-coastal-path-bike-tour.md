@@ -22,9 +22,7 @@ author:
   country: Campbell River, Canada
   avatar: /img/emmet.jpg
   name: Janice
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 I found this trip to be fabulous from start to finish. Sergio, Jose and Pedro went out of their way to be helpful, and to meet the different needs of everyone in the large group.The route had its challenges, with cobblestones, some steep dirt pathways and some city streets to maneuver, but Jose and Sergio worked very professionally to keep the group safe no matter what the terrain or riding conditions. Pedro would meet us with the support van at designated spots to top us up with water and snacks. The bikes were very well maintained, and got the once over by our guides after every day of riding to\
 make sure they were ready to go for the next morning. Our hotel accommodations were very well appointed, (with an extensive buffet breakfast always included), and every day we had a hearty lunch at a restaurant en route, as well as multi-course dinner at each of our destination cities along the way.\

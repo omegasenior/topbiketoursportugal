@@ -13,8 +13,6 @@ author:
   country: America
   avatar: /img/emmet.jpg
   name: Paola
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 We did a 5 days trip to Santiago de Compostela, the team provided us with the pilgrims' credentials, maps and all the additional info to help us plan the trip. The bikes and the service were really good, the team is super nice and helpful, I will definitively recommend it!

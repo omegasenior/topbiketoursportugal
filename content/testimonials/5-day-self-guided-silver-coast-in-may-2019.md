@@ -12,8 +12,6 @@ author:
   country: Canada
   avatar: /img/emmet.jpg
   name: Grant Hart
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 Great experience and adventure. Hotels accommodations were great. Sergio provided great support even though we were self-guided. The route had some rough roads that might be better for mountain bikes

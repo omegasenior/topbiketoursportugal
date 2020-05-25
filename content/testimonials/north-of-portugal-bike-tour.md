@@ -11,8 +11,6 @@ author:
   country: South Africa
   avatar: /img/emmet.jpg
   name: Karen
-relatedProducts:
-  - tour: NORTH 01
-  - tour: NORTH 01
+relatedProduct: NORTH 01
 ---
 We loved our tour of Northern Portugal. Great route, good bikes and excellent guides. Thanks to Sergio, Tiago and Pedro!

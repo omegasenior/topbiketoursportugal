@@ -14,8 +14,6 @@ author:
   country: Australia
   avatar: /img/emmet.jpg
   name: Andrew
-relatedProducts:
-  - tour: SC 02
-  - tour: SC 02
+relatedProduct: SC 02
 ---
 Our group of 4 just finished the Silver Route -2 trip, self-guided. It was amazing! Sérgio was terrific in all aspects. He helped us put together a program that had us cycling through the countryside, up and down mountains, and enjoying the coastline for 9 days. This is highly recommended, but make sure you have some fitness, as there are some good climbs!

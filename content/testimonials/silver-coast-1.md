@@ -15,8 +15,6 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Neil
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 If you’ve ever contemplated a bike tour this is the trip for you. Sergio and Henrique provided a fabulous experience. The pace each day was great, the accommodations were top notch and the food each evening made this the perfect active vacation. We saw beautiful scenery, quaint little villages, miles and miles of beaches. One high light was watching the sardine fishermen being in their catch one evening.

@@ -18,9 +18,7 @@ author:
   avatar: /img/0-copy.jpg
   country: New Zeland
   name: Peter Birks
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 This was an amazing ride. We had previously done the Silver Coast so this was the next step up for me. The electric bikes were great...I wouldn't have been able to do it without it. The scenery throughout was stunning ranging from coastal to mountains to farm fields and forests.\
 The accomodation was just "WOW" ranging from hotels to old forts and castles.\

@@ -17,8 +17,6 @@ author:
   country: USA
   avatar: /img/emmet.jpg
   name: Steve
-relatedProducts:
-  - tour: SC 01
-  - tour: SC 01
+relatedProduct: SC 01
 ---
 Top Bike Tours company of Porto Portugal was recommend to my wife and I by Darren Alff, "The Bicycle Touring Pro" (see Youtube). We were pleasently surprised to find the 5 day guided Silver Coast Tour exceeded our expectations. Our guides Sergio and Henrique took care of every detail witch included booking the trip, picking us up at the airport, providing 4-5 star hotels during the trip, excellent rental bicycles, meals and side tours. If you are looking for an economical guided European bicycle tour, look no further...

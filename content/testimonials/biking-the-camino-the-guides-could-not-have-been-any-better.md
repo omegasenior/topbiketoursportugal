@@ -16,8 +16,6 @@ author:
   country: Nova Scotia
   avatar: /img/emmet.jpg
   name: Earle
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Recently my wife and I traveled with 18 others from Canada to Porto . The bikes were top notch and new or almost new. The guides took very good care of us and we felt safe at all times. They went well beyond what they needed to when I needed medical help(nothing related to the biking) and made the experience as smooth as possible. The accommodations were first rate. I have done a number of biking trips in Europe and the guides and support team was by far the most helpful. I would recommend them to any one.

@@ -22,9 +22,7 @@ author:
   country: Australia
   avatar: /img/emmet.jpg
   name: Jan Brisbane
-relatedProducts:
-  - tour: SANTIAGO 01
-  - tour: SANTIAGO 01
+relatedProduct: SANTIAGO 01
 ---
 Sergio and his team did themselves proud - congratulations. This is a bike tour with a difference....from the excellent personal service, to the included walking tour of Porto, to the interesting and varied ride, to the high standard of the hotels especially the absolute gem Torre de Rio at the end of day 5.\
 The ride for the most part follows the Portuguese Caminho way, so is not always smooth and easy, but this is to be expected by its very nature, and adds to the challenge.\
