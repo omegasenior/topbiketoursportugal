@@ -19,11 +19,14 @@ tags:
   - e-bike
   - electric bicycle
 meta:
-  description: The oldest village, the river and the sea in one bike tour around
-    the North of Portugal. Explore the nature and cycling near the Lima and
-    Minho river. At the end of your cycling day tour taste de "vinho verde"
-    wine. electric bicycle available
-  keywords: North and Minho bike tour, cyling holiday north of portugal, minho bike tour,
+  description: >-
+    The oldest village, the river and the sea in one bike tour around the North
+    of Portugal. Explore the nature and cycling near the Lima and Minho river.
+    At the end of your cycling day tour taste de "vinho verde" wine. electric
+    bicycle available
+  keywords: >-
+    North and Minho bike tour, cyling holiday north of portugal, minho bike
+    tour,
   robots: INDEX
   title: North and Minho Bike tour
 groupSizeMax: 1
@@ -36,109 +39,114 @@ duration: 7
 durationUnit: Days | 6 Nights
 difficulty: 1
 physicality: 1
-mapUrl: https://www.google.com/maps/d/u/1/embed?mid=12Ae-R3xcgPrCt6Pqsd8cMXKf0nT0uHsx
+rating: []
+mapUrl: 'https://www.google.com/maps/d/u/1/embed?mid=12Ae-R3xcgPrCt6Pqsd8cMXKf0nT0uHsx'
 itinerary:
-  - day: "1"
-    description: The cycling trip starts in Melgaço, a city in the north of
-      Portugal, on the banks of the Minho River. It is a small, beautiful and
-      historical town, overseen by the tower of Homage, located high up in the
-      old medieval area. It overviews the beautiful Minho valley, filled with
-      vineyards that surround Melgaço and the nearby Peneda Geres park. Today
-      you will also be meeting our local partner, including a tour presentation
-      and explanation.
+  - day: '1'
+    description: >-
+      The cycling trip starts in Melgaço, a city in the north of Portugal, on
+      the banks of the Minho River. It is a small, beautiful and historical
+      town, overseen by the tower of Homage, located high up in the old medieval
+      area. It overviews the beautiful Minho valley, filled with vineyards that
+      surround Melgaço and the nearby Peneda Geres park. Today you will also be
+      meeting our local partner, including a tour presentation and explanation.
     location:
-      lat: "42.1130412"
-      lng: "-8.2593422"
-    title: "Day 1: Reception at Porto and transfer to Melgaço"
-  - day: "2"
-    description: Melgaço is alongside the Minho River. Famous for its beautiful
-      landscape, history, gastronomy and also for producing the well-known and
-      much appreciated green wine caste, “Alvarinho”.Every year this city
-      organizes the “Festa do Alvarinho e do Fumeiro”, a huge event which is
-      nationally and internationally known. This event showcases the local
-      gastronomy (like the Alvarinho green wine) and many other local handmade
-      crafts. Advancing to Monção, where the valleys are conducive to the
-      practice of agriculture and viticulture, it is possible to find several
-      archaeological finds that testify to a past filled with traces of the
-      passage of different communities through these lands. The city of Valença
-      is a historical town in the north of Portugal. It is located right on the
-      border with Spain, separated by the beautiful Minho River, and surrounded
-      by ramparts atop a hill, boasting a long defensive look.
+      lat: '42.1130412'
+      lng: '-8.2593422'
+    title: 'Day 1: Reception at Porto and transfer to Melgaço'
+  - day: '2'
+    description: >-
+      Melgaço is alongside the Minho River. Famous for its beautiful landscape,
+      history, gastronomy and also for producing the well-known and much
+      appreciated green wine caste, “Alvarinho”.Every year this city organizes
+      the “Festa do Alvarinho e do Fumeiro”, a huge event which is nationally
+      and internationally known. This event showcases the local gastronomy (like
+      the Alvarinho green wine) and many other local handmade crafts. Advancing
+      to Monção, where the valleys are conducive to the practice of agriculture
+      and viticulture, it is possible to find several archaeological finds that
+      testify to a past filled with traces of the passage of different
+      communities through these lands. The city of Valença is a historical town
+      in the north of Portugal. It is located right on the border with Spain,
+      separated by the beautiful Minho River, and surrounded by ramparts atop a
+      hill, boasting a long defensive look.
     location:
-      lat: "42.0270455"
-      lng: "-8.6428831"
-    title: "Day 2: Melgaço – Valença, (43 km) plus an extra track to Tui (6 km)"
-  - day: "3"
-    description: "Leaving Valença, continue along with the Minho river. One of
-      today's destination is Caminha, a fortified town where several battles
-      were fought between Portugal and Spain. Standing on a tiny island in the
-      middle of the estuary are the ruins of the fort of Ínsua, built as a
-      defensive measure concerning the entrance in the river during the XVth
-      century. Nowadays there is a daily ferry-boat linking the two banks of the
-      river between the countries. This city is also very well-known for its
-      natural and green heritage: the sightseeing areas, waterfalls, beaches,
-      camping parks and the “Modelo” beach (a favorite destination of famous
-      people in Portugal). The midday stop is Vila Nova de Cerveira, the
-      'Village of the Arts'. The city became, after 1978, the meeting point of
-      artists from all over the world. Cycle alongside the coast, overlooking
-      the Atlantic Ocean, and you’ll reach Viana do Castelo. The city is one of
-      the most beautiful seaside cities of the north of Portugal. Viana held a
-      huge importance to Portugal in the Age of the Portuguese Discoveries and
-      later on with the cod fish fishing. This city has a huge tradition and
-      connection with the sea, with the fisherman proudly showcasing it
-      nowadays, mainly during the great festivity of “Nossa Senhora da Agonia”.
-      It was also here that the ships were built and later deployed to Brazil,
-      India, Africa and other Portuguese colonies, during the XVth and XVIth
-      centuries."
+      lat: '42.0270455'
+      lng: '-8.6428831'
+    title: 'Day 2: Melgaço – Valença, (43 km) plus an extra track to Tui (6 km)'
+  - day: '3'
+    description: >-
+      Leaving Valença, continue along with the Minho river. One of today's
+      destination is Caminha, a fortified town where several battles were fought
+      between Portugal and Spain. Standing on a tiny island in the middle of the
+      estuary are the ruins of the fort of Ínsua, built as a defensive measure
+      concerning the entrance in the river during the XVth century. Nowadays
+      there is a daily ferry-boat linking the two banks of the river between the
+      countries. This city is also very well-known for its natural and green
+      heritage: the sightseeing areas, waterfalls, beaches, camping parks and
+      the “Modelo” beach (a favorite destination of famous people in Portugal).
+      The midday stop is Vila Nova de Cerveira, the 'Village of the Arts'. The
+      city became, after 1978, the meeting point of artists from all over the
+      world. Cycle alongside the coast, overlooking the Atlantic Ocean, and
+      you’ll reach Viana do Castelo. The city is one of the most beautiful
+      seaside cities of the north of Portugal. Viana held a huge importance to
+      Portugal in the Age of the Portuguese Discoveries and later on with the
+      cod fish fishing. This city has a huge tradition and connection with the
+      sea, with the fisherman proudly showcasing it nowadays, mainly during the
+      great festivity of “Nossa Senhora da Agonia”. It was also here that the
+      ships were built and later deployed to Brazil, India, Africa and other
+      Portuguese colonies, during the XVth and XVIth centuries.
     location:
-      lat: "41.694867"
-      lng: "-8.831088"
-    title: "Day 3: Valença – Viana do Castelo, 37 mi. (60 km)"
-  - day: "4"
-    description: Leaving Viana, the cycling will be back to the interior of
-      Portugal, with the beautiful Lima River alongside. The destination is now
-      Ponte de Lima, a city recognized as world heritage and stands as the
-      ultimate North of Portugal in all its rusticity and scenic beauty. This
-      land is full of history and is located in the former Braga-Tui military
-      road. It is the oldest Portuguese village, since 1125 when it was granted
-      charter. Its bridge, over the river Lima, built by the Romans in the 1st
-      century, has always been a place of passage for the pilgrims who were
-      going to Santiago. Ponte de Lima is the cradle of Housing Tourism, of the
+      lat: '41.694867'
+      lng: '-8.831088'
+    title: 'Day 3: Valença – Viana do Castelo, 37 mi. (60 km)'
+  - day: '4'
+    description: >-
+      Leaving Viana, the cycling will be back to the interior of Portugal, with
+      the beautiful Lima River alongside. The destination is now Ponte de Lima,
+      a city recognized as world heritage and stands as the ultimate North of
+      Portugal in all its rusticity and scenic beauty. This land is full of
+      history and is located in the former Braga-Tui military road. It is the
+      oldest Portuguese village, since 1125 when it was granted charter. Its
+      bridge, over the river Lima, built by the Romans in the 1st century, has
+      always been a place of passage for the pilgrims who were going to
+      Santiago. Ponte de Lima is the cradle of Housing Tourism, of the
       “Loureiro” variety that distinguishes the “Vinho Verde” and the Rice of
       “Sarrabulho” appreciated in the most faraway places in the world.
     location:
-      lat: "41.7675021"
-      lng: "-8.5830992"
-    title: "Day 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)"
-  - day: "5"
-    description: Today is a day to get to know the south bank of the river Lima for
-      about 25 km. Then we will begin our journey heading to Esposende, a
-      seaside city located in the North. During this day, you will be
-      overwhelmed with seaside landscapes and small “Portuguese rivieras” until
-      you reach Esposende, a city from the Middle Ages. Neiva river and its
-      clear waters, green pine forest of Ofir and the stunning views that offer
-      different viewpoints of Esposende, are just some of the interesting
-      features of the county in which the richness of the natural landscape and
-      heritage built by human hand, as is the case of windmills, fields in the
-      trough, the forts and mills, are combined in a unique harmony, forming
-      landscapes of high scenic and environmental value and confirms Esposende
-      as one of the most beautiful counties in the North region.
+      lat: '41.7675021'
+      lng: '-8.5830992'
+    title: 'Day 4: Viana do Castelo – Ponte de Lima, 16 mi. (25 km)'
+  - day: '5'
+    description: >-
+      Today is a day to get to know the south bank of the river Lima for about
+      25 km. Then we will begin our journey heading to Esposende, a seaside city
+      located in the North. During this day, you will be overwhelmed with
+      seaside landscapes and small “Portuguese rivieras” until you reach
+      Esposende, a city from the Middle Ages. Neiva river and its clear waters,
+      green pine forest of Ofir and the stunning views that offer different
+      viewpoints of Esposende, are just some of the interesting features of the
+      county in which the richness of the natural landscape and heritage built
+      by human hand, as is the case of windmills, fields in the trough, the
+      forts and mills, are combined in a unique harmony, forming landscapes of
+      high scenic and environmental value and confirms Esposende as one of the
+      most beautiful counties in the North region.
     location:
-      lat: "41.5455885"
-      lng: "-8.75827562"
-    title: "Day 5: Ponte de Lima - Esposende, 31 mi. (50 km)"
-  - day: "6"
-    description: During the last day, you will be overwhelmed with seaside
-      landscapes and small “Portuguese rivieras” until you reach Porto. You will
-      have a chance to meet a huge variety of fishing villages, like Póvoa de
-      Varzim, where you can experience ancient traditions linked to the fish
-      exploration as well as tasting this famous gastronomy. In Vila do Conde,
-      you’ll know why these Portuguese coastal cities were so important during
-      the “el dorado” of the Portuguese Discoveries.
+      lat: '41.5455885'
+      lng: '-8.75827562'
+    title: 'Day 5: Ponte de Lima - Esposende, 31 mi. (50 km)'
+  - day: '6'
+    description: >-
+      During the last day, you will be overwhelmed with seaside landscapes and
+      small “Portuguese rivieras” until you reach Porto. You will have a chance
+      to meet a huge variety of fishing villages, like Póvoa de Varzim, where
+      you can experience ancient traditions linked to the fish exploration as
+      well as tasting this famous gastronomy. In Vila do Conde, you’ll know why
+      these Portuguese coastal cities were so important during the “el dorado”
+      of the Portuguese Discoveries.
     location:
-      lat: "41.1494512"
-      lng: "-8.6107884"
-    title: "Day 6: Esponsende - Porto, 41 mi. (65 km)"
+      lat: '41.1494512'
+      lng: '-8.6107884'
+    title: 'Day 6: Esponsende - Porto, 41 mi. (65 km)'
 gallery:
   - alt: Our guide Tiago photo near Esposende
     image: /img/our-guide-tiago-photo-near-esposende.jpg
@@ -152,122 +160,122 @@ pricing:
   - bestValue: true
     discount: 0
     highSeasonPriceSupplement: 100
-    observations: "****"
+    observations: '****'
     package: Self Guided bikeTour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
-        value: Yes (4 stars, farms or rural houses)
+        value: 'Yes (4 stars, farms or rural houses)'
       - title: Luggage shuttling
-        value: Yes
+        value: 'Yes'
       - title: Porto Airport Transfers
-        value: Yes
+        value: 'Yes'
       - title: Trains or Bus Tickets to Porto
-        value: Yes
+        value: 'Yes'
       - title: Van Support
-        value: No
+        value: 'No'
       - title: GPS With route per booking
-        value: Yes
+        value: 'Yes'
       - title: Bike rent
-        value: yes
+        value: 'yes'
       - title: Guide
-        value: No
+        value: 'No'
       - title: Mechanical Assistance
-        value: No
+        value: 'No'
       - title: 5 lunches
-        value: No
+        value: 'No'
       - title: 5 Dinners
-        value: No
+        value: 'No'
       - title: Personal Accident Insurance
-        value: No
+        value: 'No'
       - title: Liability Insurance
-        value: No
+        value: 'No'
       - title: 6 Nights / 7 Days ( price per person)
         value: 1.360 €
-      - title: July, August and September Prices
+      - title: 'July, August and September Prices'
         value: + 100 €
       - title: Min. Participants
-        value: "2"
+        value: '2'
     price: 1360
-    type: "1"
+    type: '1'
   - discount: 0
     highSeasonPriceSupplement: 100
     package: Guided Biketour
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
-        value: Yes (4 stars, farms or rural houses)
+        value: 'Yes (4 stars, farms or rural houses)'
       - title: Luggage shuttling
-        value: yes
+        value: 'yes'
       - title: Porto Airport Transfers
-        value: yes
+        value: 'yes'
       - title: Trains or Bus Tickets to Porto
-        value: yes
+        value: 'yes'
       - title: Van Support
-        value: yes
+        value: 'yes'
       - title: GPS With route per booking
-        value: yes
+        value: 'yes'
       - title: Bike rent
-        value: yes
+        value: 'yes'
       - title: Guide
-        value: yes
+        value: 'yes'
       - title: Mechanical Assistance
-        value: yes
+        value: 'yes'
       - title: 5 lunches
-        value: No
+        value: 'No'
       - title: 5 Dinners
-        value: No
+        value: 'No'
       - title: Personal Accident Insurance
-        value: yes
+        value: 'yes'
       - title: Liability Insurance
-        value: yes
+        value: 'yes'
       - title: 6 Nights / 7 Days ( price per person)
-        value: "1.669"
-      - title: July, August and September Prices
+        value: '1.669'
+      - title: 'July, August and September Prices'
         value: + 100 €
       - title: Min. Participants
-        value: "2"
+        value: '2'
     price: 1669
-    type: "1"
+    type: '1'
   - discount: 0
     highSeasonPriceSupplement: 100
     package: Guided Biketour plus *
     packageContents:
       - icon: ✓
         title: Accommodations W/ Breakfast
-        value: Yes (4 stars, farms or rural houses)
+        value: 'Yes (4 stars, farms or rural houses)'
       - title: Luggage shuttling
-        value: yes
+        value: 'yes'
       - title: Porto Airport Transfers
-        value: yes
+        value: 'yes'
       - title: Trains or Bus Tickets to Porto
-        value: yes
+        value: 'yes'
       - title: Van Support
-        value: yes
+        value: 'yes'
       - title: GPS With route per booking
-        value: yes
+        value: 'yes'
       - title: Bike rent
-        value: yes
+        value: 'yes'
       - title: Guide
-        value: yes
+        value: 'yes'
       - title: Mechanical Assistance
-        value: yes
+        value: 'yes'
       - title: 5 lunches
-        value: yes
+        value: 'yes'
       - title: 5 Dinners
-        value: yes
+        value: 'yes'
       - title: Personal Accident Insurance
-        value: yes
+        value: 'yes'
       - title: Liability Insurance
-        value: yes
+        value: 'yes'
       - title: 6 Nights / 7 Days ( price per person)
-        value: "2.210"
-      - title: July, August and September Prices
+        value: '2.210'
+      - title: 'July, August and September Prices'
         value: + 100 €
       - title: Min. Participants
-        value: "2"
+        value: '2'
     price: 2210
-    type: "1"
+    type: '1'
 afterpricing: >-
   **Observations:**
 
@@ -278,7 +286,9 @@ afterpricing: >-
 
   * Beverages are not included at lunch and dinner when included in the package
 
-  * If in a triple room with parents Children up to 10 years old - 35% discount. Children from 11 to 14 years old - 20% discount. Children from 15 to 17 years old - 15% discount. 
+  * If in a triple room with parents Children up to 10 years old - 35% discount.
+  Children from 11 to 14 years old - 20% discount. Children from 15 to 17 years
+  old - 15% discount. 
 
 
   **Extras**
@@ -342,7 +352,8 @@ Day 7 - Departure
 \
 **Route classification:** Easy 
 
-**Estimated KM**: 152 km and 1894 m of cumulative gap climbs  \
+**Estimated KM**: 152 km and 1894 m of cumulative gap climbs 
+\
 \
 Day 1: Melgaço
 
@@ -358,4 +369,3 @@ Day 6: Ponte de Lima – Ponte da Barca ( 18 Km; estended track to Arcos de Vald
 
 Day 7: Departure
 
-![Map north and minho bike tour short route]()
