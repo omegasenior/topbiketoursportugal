@@ -1,15 +1,10 @@
 import React from "react";
-import { orderBy, uniq, filter } from "lodash-es";
+import { filter } from "lodash-es";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../layout/LayoutBootstrap";
 import styled from "styled-components";
-import {
-  TourGallery,
-  TourPlan,
-  TourPricing,
-  TourReviews,
-} from "../components/Tour/index";
+import { TourGallery, TourPlan, TourPricing } from "../components/Tour/index";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
@@ -20,6 +15,7 @@ import { Clock } from "@styled-icons/fa-solid/Clock";
 import { Mountain } from "@styled-icons/fa-solid/Mountain";
 import { Road } from "@styled-icons/fa-solid/Road";
 import { Tag } from "@styled-icons/fa-solid/Tag";
+import ReviewsHighlights from "../components/ReviewsHighlights";
 
 import "./tour-gen.scss";
 
@@ -81,13 +77,12 @@ function TourGen({ data }) {
     (review) =>
       review.frontmatter.relatedProduct === data.tour.frontmatter.productcode
   ).map((r) => {
-    return { ...r, ...r.frontmatter };
+    return { ...r, ...r.frontmatter, ...r.fields };
   });
 
   let tour = {
     ...data.tour,
     ...data.tour.frontmatter,
-    ...reviews
   };
   // console.log(JSON.stringify(reviews));
   // console.log(JSON.stringify(data?.reviews?.nodes));
@@ -99,14 +94,7 @@ function TourGen({ data }) {
   const [value, setValue] = React.useState(0);
   const [stickyNav, setNavState] = React.useState(false);
 
-  const anchors = [
-    "information",
-    "tour-plan",
-    "gallery",
-    /*"reviews",*/ "pricing",
-    "the-fine-print",
-    "reviews",
-  ];
+  const anchors = ["information", "tour-plan", "gallery", "pricing", "reviews"];
 
   function getDifficultyText(language, difficulty) {
     switch (language) {
@@ -195,9 +183,7 @@ function TourGen({ data }) {
               <Tab label="Pricing" {...a11yProps(4)} />
             )}
 
-            {reviews && reviews.length > 0 && (
-              <Tab label="Reviews" {...a11yProps(5)} />
-            )}
+            {!!reviews.length && <Tab label="Reviews" {...a11yProps(5)} />}
 
             {/* <Tab label="The fine print" {...a11yProps(5)} />*/}
           </Tabs>
@@ -427,27 +413,20 @@ function TourGen({ data }) {
                 </div>
               </ScrollableAnchor>
             )}
+
             {tour.pricing && (
               <ScrollableAnchor id={"pricing"}>
                 <div id={a11yProps(4).id} className="container">
                   <TourPricing tour={tour}></TourPricing>
-                </div>
-              </ScrollableAnchor>
-            )}
-
-            {tour.afterpricing && (
-              <>
-                <br />
-                <HTMLMarkdownContent
-                  className="container"
-                  content={tour.afterpricing}
-                />
-              </>
-            )}
-            {reviews && reviews.length > 0 && (
-              <ScrollableAnchor id={"pricing"}>
-                <div id={a11yProps(5).id} className="container">
-                  <TourReviews reviews={reviews}></TourReviews>
+                  {tour.afterpricing && (
+                    <>
+                      <br />
+                      <HTMLMarkdownContent
+                        className="container"
+                        content={tour.afterpricing}
+                      />
+                    </>
+                  )}
                 </div>
               </ScrollableAnchor>
             )}
@@ -456,6 +435,18 @@ function TourGen({ data }) {
               <ScrollableAnchor id={"gallery"}>
                 <div id={a11yProps(2).id} className="container">
                   <TourGallery tour={tour} />
+                </div>
+              </ScrollableAnchor>
+            )}
+
+            {!!reviews.length && (
+              <ScrollableAnchor id={"reviews"}>
+                <div id={a11yProps(5).id} className="container">
+                  {/* <TourReviews reviews={reviews}></TourReviews> */}
+                  <ReviewsHighlights
+                    reviews={reviews}
+                    className="reviewsHighlights"
+                  />
                 </div>
               </ScrollableAnchor>
             )}
@@ -489,11 +480,28 @@ export const tourGenQuery = graphql`
       }
     ) {
       nodes {
+        id
         html
+        fields {
+          slug
+          contentType
+          langKey
+          localizedPath
+        }
+        fileAbsolutePath
         frontmatter {
+          banner
+          score
           author {
             country
             name
+            avatar {
+              childImageSharp {
+                fluid(quality: 85, maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                }
+              }
+            }
           }
           date(fromNow: true)
           language
