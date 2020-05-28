@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 path: /climate-and-geography-in-portugal-for-cycling/
+showHome: false
 title: Climate and Geography for cycling in Portugal
 language: en
 date: 2020-01-25T15:35:57.313Z
@@ -8,14 +9,12 @@ featuredImage: /img/mapa_final_novologo_-04-100-pixeis.png
 featuredImagePosition: center center
 meta:
   description: Climate and Geography for cycling in Portugal
-  keywords: >-
-    Climate and Geography for cycling in Portugal, climate in portugal, weather
-    for cycling portugal
+  keywords: Climate and Geography for cycling in Portugal, climate in portugal,
+    weather for cycling portugal
   robots: INDEX
   title: Climate and Geography for cycling in Portugal
   language: EN
 languagePages: []
-showHome: true
 ---
 # Climate and Geography for cycling in Portugal
 
